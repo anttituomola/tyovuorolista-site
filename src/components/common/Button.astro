@@ -1,27 +1,27 @@
 ---
-
-const { text } = Astro.props
+const { text, backgroundColor } = Astro.props
 ---
 
 <div class="button">
     <span>{text || 'Paina tästä!'}</span>
 </div>
 
-<style>
+<style define:vars={{backgroundColor}}>
     .button {
         display: inline-block;
-        border: 1px solid #ccc;
+        border: 1px solid var(--ruskeaharmaa);
+        background-color: var(--backgroundColor);
         border-radius: 4px;
-        padding: 10px;
-        margin: 10px;
+        padding: 1rem;
+        margin: 1rem;
         transition: background-color 0.3s ease;
     }
     .button:hover {
-        border-color: #919191;
+        border-color: var(--harmaa);
         cursor: pointer;
     }
     .button:active {
-        background-color: #ccc;
+        transform: scale(0.98);
     }
     span {
         color: #333;
