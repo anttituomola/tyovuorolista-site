@@ -10,7 +10,7 @@ import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
         <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} />
     </div>
     <h3>Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!</h3>
-    <span>
+    <span class="buttons">
         <Button text="Rekisteröidy" backgroundColor="var(--hiekka)" /> 
         <span style="color: var(--harmaa);">TAI</span>
         <Button text="Ota yhteyttä" backgroundColor="var(--ruskeaharmaa)" href="./yhteystiedot" />
@@ -29,10 +29,23 @@ import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     h1 {
-        font-size: 80px;
+        font-size: 5rem;
     }
     h3 {
         font-size: 30px;
         max-width: 80%;
+    }
+    @media (max-width: 620px) {
+        h1 {
+            font-size: 3rem;
+        }
+        .heroImage img {
+            width: 80%;
+            height: auto;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+        }
     }
 </style>
