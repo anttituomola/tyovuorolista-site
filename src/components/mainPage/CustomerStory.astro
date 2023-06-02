@@ -1,0 +1,31 @@
+---
+import { Image } from 'astro:assets'
+import Antti_Tuomola from '../../assets/Antti_Tuomola.jpg'
+---
+
+<div class="wrapper">
+    <div class="customerStory">
+        <Image src={Antti_Tuomola} quality="max" width={400} height={300} alt="Placeholder image" />
+        <div>
+            <h2>"Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!</h2>
+            <p>Antti Tuomola, Ravintola Pannu</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    img {
+        object-fit: cover;
+    }
+    .customerStory {
+        margin-top: 6rem;
+        display: flex;
+        gap: 2rem;
+    }
+    h2 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-top: 0;
+    }
+</style>
