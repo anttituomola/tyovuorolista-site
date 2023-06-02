@@ -1,0 +1,82 @@
+---
+import { Icon } from 'astro-icon'
+import register from '../../assets/register.png'
+import { Image } from 'astro:assets'
+---
+
+<div class="wrapper">
+    <div class="textAndImage">
+        <div class="text">
+            <div class="title">
+                <span class="numberedBox">1</span>
+                <h2>Rekisteröidy</h2>
+            </div>
+            <p>
+                Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen,
+                emme muita tietoja.
+            </p>
+            <div class="step">
+                <Icon name="ic:baseline-check" class="icon" />
+                <p><strong>Nopea rekisteröityminen:</strong> voit rekisteröityä sähköpostilla tai Google-tilillä.</p>
+            </div>
+            <div class="step">
+                <Icon name="ic:baseline-check" class="icon" />
+                <p><strong>Ei luottokorttia:</strong> voit kokeilla ilmaiseksi kolmella työntekijällä.</p>
+            </div>
+            <div class="step">
+                <Icon name="ic:baseline-check" class="icon" />
+                <p><strong>Helpot alkuasetukset:</strong> lisää vaikka vain itsesi työntekijäksi ja aloita!</p>
+            </div>
+        </div>
+        <div class="image">
+            <Image src={register} alt="Rekisteröitymissivu" height={300}/>
+        </div>
+    </div>
+</div>
+
+<style>
+    .numberedBox {
+        border: 2px solid var(--ruskeaharmaa);
+        border-radius: 5px;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    .title {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+    }
+    .textAndImage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+        gap: 1rem;
+    }
+    .text {
+        flex-basis: 45%;
+    }
+    .image {
+        flex-basis: 45%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        object-fit: contain;
+    }
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .step {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    p {
+        margin: 0;
+    }
+</style>
