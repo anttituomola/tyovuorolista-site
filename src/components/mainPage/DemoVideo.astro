@@ -1,7 +1,6 @@
 ---
 import tyovuorolista_demo from '../../assets/tyovuorolista_demo.mp4'
 import Button from '../common/Button.astro'
-const videoSource = import.meta.env.NODE_ENV === 'production' ? import.meta.env.CDN_VIDEO_SOURCE : tyovuorolista_demo;
 ---
 
 <div class="wrapper" style="margin-top: 8rem;">
@@ -11,8 +10,7 @@ const videoSource = import.meta.env.NODE_ENV === 'production' ? import.meta.env.
         kaikille työntekijöille lähetetään lista sähköpostilla ravintolan omasta sähköpostiosoitteesta.
     </p>
     <video autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%">
-        {/* TODO: outsource to CDN */}
-        <source src={videoSource} type="video/mp4" />
+        <source src={tyovuorolista_demo} type="video/mp4" />
     </video>
     <div class="stepByStep">
         <div class="step">
