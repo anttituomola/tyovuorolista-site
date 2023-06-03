@@ -9,7 +9,7 @@ if (Astro.request.method === 'POST') {
             throw new Error('Please provide either email or phone number.')
         }
 
-        const response = await fetch('http://127.0.0.1:3000/api/handleForm', {
+        const response = await fetch('/api/handleForm', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
