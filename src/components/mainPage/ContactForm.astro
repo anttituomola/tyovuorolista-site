@@ -9,7 +9,7 @@ if (Astro.request.method === 'POST') {
             throw new Error('Please provide either email or phone number.')
         }
 
-        const response = await fetch('/api/handleForm', {
+        const response = await fetch('https://tyovuorolista-site.vercel.app/api/handleForm', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
