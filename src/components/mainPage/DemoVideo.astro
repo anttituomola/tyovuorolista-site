@@ -56,4 +56,13 @@ import Button from '../common/Button.astro'
         justify-content: center;
         gap: 2rem;
     }
+    @media (max-width: 640px) {
+        h2 {
+            font-size: 2rem;
+        }
+        .stepByStep {
+            flex-direction: column;
+            gap: 0;
+        }
+    }
 </style>

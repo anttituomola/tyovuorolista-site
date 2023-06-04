@@ -78,11 +78,12 @@ function ContactForm() {
         setIsSending(false);
     };
 
+
     return (
         <div style={wrapperStyle}>
             <div style={contactFormDivStyle}>
                 {isFormSubmitted ? <h2>Kiitos! Olen sinuun yhteydessä pikaisesti!</h2> :
-                    <>
+                    <div className='reactForm'>
                         <h2 style={h2Style}>Haluan kysyä lisää!</h2>
                         <p>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
                         <div style={formStyle}>
@@ -111,7 +112,7 @@ function ContactForm() {
                             </div>
                             <button onClick={handleSubmit} disabled={isSending} style={buttonStyle}>Lähetä</button>
                         </div>
-                    </>
+                    </div>
                 }
             </div>
         </div>

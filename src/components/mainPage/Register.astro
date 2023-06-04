@@ -1,172 +1,31 @@
 ---
-import { Icon } from 'astro-icon'
 import register from '../../assets/register.png'
 import suunnittele from '../../assets/suunnittele.png'
 import hyvaksyta from '../../assets/hyvaksyta.png'
 import julkaise from '../../assets/julkaise.png'
-import { Image } from 'astro:assets'
+import Step from './Step.astro'
 ---
 
-<!-- REKISTERÖIDY -->
-<div class="wrapper">
-    <div class="textAndImage">
-        <div class="text">
-            <div class="title">
-                <span class="numberedBox">1</span>
-                <h2>Rekisteröidy</h2>
-            </div>
-            <p>
-                Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen,
-                emme muita tietoja.
-            </p>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Nopea rekisteröityminen:</strong> voit rekisteröityä sähköpostilla tai Google-tilillä.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Ei luottokorttia:</strong> voit kokeilla ilmaiseksi kolmella työntekijällä.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Helpot alkuasetukset:</strong> lisää vaikka vain itsesi työntekijäksi ja aloita!</p>
-            </div>
-        </div>
-        <div class="image">
-            <Image src={register} alt="Rekisteröitymissivu" height={300} />
-        </div>
-    </div>
-</div>
+<Step src={register} step="1" title="Rekisteröidy" description="Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen, emme muita tietoja." steps={[
+    {title: 'Nopea rekisteröityminen', description: 'voit rekisteröityä sähköpostilla tai Google-tilillä.'},
+    {title: 'Ei luottokorttia', description: 'voit kokeilla ilmaiseksi kolmella työntekijällä.'},
+    {title: 'Helpot alkuasetukset', description: 'lisää vaikka vain itsesi työntekijäksi ja aloita!'}
+  ]} />
+  
+  <Step src={suunnittele} step="2" title="Suunnittele" description="Ravintolan ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi." steps={[
+    {title: 'Ei turhaa tietojen syöttöä', description: 'sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta.'},
+    {title: 'Ei turhaa näpyttelyä', description: 'työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla.'},
+    {title: 'Tarvittavat lisätiedot', description: 'työvuoroihin voi helposti lisätä kommentteja, esim. "anniskeluvastaava".'}
+  ]} />
+  
+  <Step src={hyvaksyta} step="3" title="Hyväksytä" description="Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua." steps={[
+    {title: 'Kopioi kuva työvuorolistasta', description: 'voit liittää sen helposti vaikka whatsapp-viestiin.'},
+    {title: 'Tallenna kuva työvuorolistasta', description: 'voit liittää sen helposti sähköpostin liitetiedostoksi.'}
+  ]} />
+  
+  <Step src={julkaise} step="4" title="Julkaise" description="Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla." steps={[
+    {title: 'Automatisoitu lähetys', description: 'kun julkaiset listan, se lähetetään automaattisesti ravintolasi sähköpostiosoitteesta kaikille työntekijöille, jotka ovat listalla.'},
+    {title: 'Henkilökohtainen lista', description: 'jokaiselle työntekijälle lähtee paitsi yleinen lista, myös personoitu lista heidän omista työvuoroistaan.'},
+    {title: 'Muillekin tiedoksi', description: 'voit halutessasi valita lähetyslistaan myös työntekijöitä, joilla ei ole listassa vuoroja.'}
+  ]} />
 
-<!-- SUUNNITTELE -->
-<div class="wrapper">
-    <div class="textAndImage">
-        <div class="image">
-            <Image src={suunnittele} alt="Rekisteröitymissivu" height={300} />
-        </div>
-        <div class="text">
-            <div class="title">
-                <span class="numberedBox">2</span>
-                <h2>Suunnittele</h2>
-            </div>
-            <p>
-                Ravintolan ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi.
-            </p>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Ei turhaa tietojen syöttöä:</strong> sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Ei turhaa näpyttelyä:</strong> työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Tarvittavat lisätiedot:</strong> työvuoroihin voi helposti lisätä kommentteja, esim. "anniskeluvastaava".</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- HYVÄKSYTÄ -->
-<div class="wrapper">
-    <div class="textAndImage">
-        <div class="text">
-            <div class="title">
-                <span class="numberedBox">3</span>
-                <h2>Hyväksytä</h2>
-            </div>
-            <p>
-                Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua.
-            </p>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Kopioi kuva työvuorolistasta:</strong> voit liittää sen helposti vaikka whatsapp-viestiin.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Tallenna kuva työvuorolistasta:</strong> voit liittää sen helposti sähköpostin liitetiedostoksi.</p>
-            </div>
-        </div>
-        <div class="image">
-            <Image src={hyvaksyta} alt="Rekisteröitymissivu" width={300} />
-        </div>
-    </div>
-</div>
-
-<!-- HYVÄKSYTÄ -->
-<div class="wrapper">
-    <div class="textAndImage">
-        <div class="image">
-            <Image src={julkaise} alt="Rekisteröitymissivu" height={300} />
-        </div>
-        <div class="text">
-            <div class="title">
-                <span class="numberedBox">4</span>
-                <h2>Julkaise</h2>
-            </div>
-            <p>
-                Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla.
-            </p>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Automatisoitu lähetys:</strong> kun julkaiset listan, se lähetetään automaattisesti ravintolasi sähköpostiosoitteesta kaikille työntekijöille, jotka ovat listalla.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Henkilökohtainen lista:</strong> jokaiselle työntekijälle lähtee paitsi yleinen lista, myös personoitu lista heidän omista työvuoroistaan.</p>
-            </div>
-            <div class="step">
-                <Icon name="ic:baseline-check" class="icon" />
-                <p><strong>Muillekin tiedoksi:</strong> voit halutessasi valita lähetyslistaan myös työntekijöitä, joilla ei ole listassa vuoroja.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<style>
-    .numberedBox {
-        border: 2px solid var(--ruskeaharmaa);
-        border-radius: 5px;
-        width: 2rem;
-        height: 2rem;
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-    }
-    .title {
-        display: flex;
-        align-items: baseline;
-        gap: 1rem;
-    }
-    .textAndImage {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 2rem 0;
-        gap: 1rem;
-    }
-    .text {
-        flex-basis: 45%;
-    }
-    .image {
-        flex-basis: 45%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        object-fit: contain;
-    }
-    .icon {
-        width: 3rem;
-        height: 3rem;
-    }
-    .step {
-        display: flex;
-        gap: 1rem;
-        margin-top: 1rem;
-        align-items: center;
-    }
-    p {
-        margin: 0;
-    }
-</style>

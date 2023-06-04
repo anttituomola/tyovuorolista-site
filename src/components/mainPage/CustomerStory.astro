@@ -5,7 +5,7 @@ import Antti_Tuomola from '../../assets/Antti_Tuomola.jpg'
 
 <div class="wrapper">
     <div class="customerStory">
-        <Image src={Antti_Tuomola} quality="max" width={400} height={300} alt="Placeholder image" />
+        <Image src={Antti_Tuomola} quality="max" height={300} alt="Placeholder image" />
         <div>
             <h2>"Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!</h2>
             <p>Antti Tuomola, Ravintola Pannu</p>
@@ -19,7 +19,6 @@ import Antti_Tuomola from '../../assets/Antti_Tuomola.jpg'
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .customerStory {
-        margin-top: 6rem;
         display: flex;
         gap: 2rem;
     }
@@ -28,5 +27,19 @@ import Antti_Tuomola from '../../assets/Antti_Tuomola.jpg'
         font-weight: 400;
         font-size: 2rem;
         margin-top: 0;
+    }
+    @media (max-width: 640px) {
+        .customerStory {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        h2,p {
+            text-align: center;
+        }
     }
 </style>
