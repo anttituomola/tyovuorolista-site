@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 function ContactForm() {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+    const [isSending, setIsSending] = useState(false);
 
     const wrapperStyle = {};
     const contactFormDivStyle = {
@@ -47,61 +49,69 @@ function ContactForm() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        
+        setIsSending(true);
+
         if (!email && !phone) {
             console.log(email, phone)
             console.error('Please provide either email or phone number.');
             return;
-          }
-      
-          const response = await fetch(`https://tyovuorolista-site.vercel.app/api/handleForm`, {
+        }
+
+        const response = await fetch(`https://tyovuorolista-site.vercel.app/api/handleForm`, {
             method: 'POST',
             headers: {
-              'Content-Type': 'application/json',
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify({ email, phone }),
-          });
-      
-          if (!response.ok) {
+        });
+
+        if (!response.ok) {
+            setIsSending(false);
             throw new Error(response.statusText);
-          }
-      
-          const jsonResponse = await response.json();
-      
-          console.log(jsonResponse);
+        }
+
+        const jsonResponse = await response.json();
+        if (jsonResponse.status === 'success') {
+            setIsFormSubmitted(true);
+        }
+        setIsSending(false);
     };
 
     return (
         <div style={wrapperStyle}>
             <div style={contactFormDivStyle}>
                 <h2 style={h2Style}>Haluan kysyä lisää!</h2>
-                <p>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
-                <div style={formStyle}>
-                    <div style={inputFieldStyle}>
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Sähköpostiosoitteesi"
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                            style={inputStyle}
-                        />
-                    </div>
-                    <span>tai</span>
-                    <div style={inputFieldStyle}>
-                        <input
-                            type="tel"
-                            name="phone"
-                            id="phone"
-                            placeholder="Puhelinnumerosi"
-                            value={phone}
-                            onChange={e => setPhone(e.target.value)}
-                            style={inputStyle}
-                        />
-                    </div>
-                    <button onClick={handleSubmit} style={buttonStyle}>Lähetä</button>
-                </div>
+                {isFormSubmitted ? <h3>Kiitos! Olen sinuun yhteydessä pikaisesti!</h3> :
+                    <>
+                        <p>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
+                        <div style={formStyle}>
+                            <div style={inputFieldStyle}>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Sähköpostiosoitteesi"
+                                    value={email}
+                                    onChange={e => setEmail(e.target.value)}
+                                    style={inputStyle}
+                                />
+                            </div>
+                            <span>tai</span>
+                            <div style={inputFieldStyle}>
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    id="phone"
+                                    placeholder="Puhelinnumerosi"
+                                    value={phone}
+                                    onChange={e => setPhone(e.target.value)}
+                                    style={inputStyle}
+                                />
+                            </div>
+                            <button onClick={handleSubmit} disabled={isSending} style={buttonStyle}>Lähetä</button>
+                        </div>
+                    </>
+                }
             </div>
         </div>
     );
