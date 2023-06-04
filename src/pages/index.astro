@@ -4,7 +4,7 @@ import Hero from '../components/mainPage/Hero.astro'
 import DemoVideo from '../components/mainPage/DemoVideo.astro'
 import CustomerStory from '../components/mainPage/CustomerStory.astro'
 import Register from '../components/mainPage/Register.astro'
-import ContactForm from '../components/mainPage/ContactForm.astro'
+import ContactForm from '../components/mainPage/ContactForm.jsx'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -13,7 +13,7 @@ import ContactForm from '../components/mainPage/ContactForm.astro'
         <DemoVideo />
         <CustomerStory />
         <Register />
-        <ContactForm />
+        <ContactForm client:load />
     </main>
 </Layout>
 
