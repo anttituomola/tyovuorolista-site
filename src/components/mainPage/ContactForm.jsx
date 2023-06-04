@@ -43,7 +43,7 @@ function ContactForm() {
         borderRadius: '2px',
         border: 'none',
         color: 'white',
-        backgroundColor: 'var(--tummanvihrea)',
+        backgroundColor: isSending ? 'var(--harmaa)' : 'var(--tummanvihrea)',
         cursor: 'pointer',
     };
 
@@ -81,9 +81,9 @@ function ContactForm() {
     return (
         <div style={wrapperStyle}>
             <div style={contactFormDivStyle}>
-                <h2 style={h2Style}>Haluan kysyä lisää!</h2>
-                {isFormSubmitted ? <h3>Kiitos! Olen sinuun yhteydessä pikaisesti!</h3> :
+                {isFormSubmitted ? <h2>Kiitos! Olen sinuun yhteydessä pikaisesti!</h2> :
                     <>
+                        <h2 style={h2Style}>Haluan kysyä lisää!</h2>
                         <p>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
                         <div style={formStyle}>
                             <div style={inputFieldStyle}>
