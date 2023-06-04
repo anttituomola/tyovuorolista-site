@@ -54,6 +54,7 @@ function ContactForm() {
         if (!email && !phone) {
             console.log(email, phone)
             console.error('Please provide either email or phone number.');
+            setIsSending(false);
             return;
         }
 
