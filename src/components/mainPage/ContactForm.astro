@@ -1,7 +1,4 @@
 ---
-const url = Astro.request.url;
-console.log(url);
-
 if (Astro.request.method === 'POST') {
     try {
         const data = await Astro.request.formData()

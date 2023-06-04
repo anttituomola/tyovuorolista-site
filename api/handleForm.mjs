@@ -1,20 +1,14 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { SESClient } from "@aws-sdk/client-ses"
 import { SendEmailCommand } from "@aws-sdk/client-ses"
 
 export default function handler(
-    request: VercelRequest,
-    response: VercelResponse,
+    request,
+    response,
 ) {
   const { email, phone } = request.body
   console.log("request", request.body)
-
-  interface Credentials {
-    accessKeyId: any
-    secretAccessKey: any
-    }
   
-  const credentials: Credentials = {
+  const credentials = {
     accessKeyId: process.env.AWS_SDK_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SDK_SECRET_ACCESS_KEY,
   }
