@@ -35,7 +35,7 @@ export default function handler(
                 Data: `Yhteydenottopyyntö ${email} ${phone}`,
             },
         },
-        ReplyToAddresses: [email],
+        ReplyToAddresses: [email ? email : 'noreply@notvalid.com'] ,
         Source: "anttituomola8@gmail.com",
     }
 
