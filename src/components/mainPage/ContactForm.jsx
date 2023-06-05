@@ -6,7 +6,12 @@ function ContactForm() {
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
     const [isSending, setIsSending] = useState(false);
 
-    const wrapperStyle = {};
+    const wrapperStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        marginTop: '6rem'
+    };
     const contactFormDivStyle = {
         width: '90%',
         backgroundColor: 'var(--hiekka)',

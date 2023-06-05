@@ -6,30 +6,60 @@ const { steps, step, src, title, description } = Astro.props
 
 <div class="wrapper">
     <div class="textAndImage">
-        <div class="image">
-            <Image src={src} alt={title} height={250} />
-        </div>
-        <div class="text">
-            <div class="title">
-                <span class="numberedBox">{step}</span>
-                <h2>{title}</h2>
-            </div>
-            <p>
-                {description}
-            </p>
-            {
-                steps.map((mapStep: any) => (
-                    <div class="step">
-                        <Icon name="ic:baseline-check" class="icon" />
-                        <p>
-                            <strong>{mapStep.title}:</strong> {mapStep.description}
-                        </p>
+        {
+            step % 2 === 0
+            ? <>
+                <div class="text">
+                    <div class="title">
+                        <span class="numberedBox">{step}</span>
+                        <h2>{title}</h2>
                     </div>
-                ))
-            }
-        </div>
+                    <p>
+                        {description}
+                    </p>
+                    {
+                        steps.map((mapStep: any) => (
+                            <div class="step">
+                                <Icon name="ic:baseline-check" class="icon" />
+                                <p>
+                                    <strong>{mapStep.title}:</strong> {mapStep.description}
+                                </p>
+                            </div>
+                        ))
+                    }
+                </div>
+                <div class="image">
+                    <Image src={src} alt={title} height={250} />
+                </div>
+            </>
+            : <>
+                <div class="image">
+                    <Image src={src} alt={title} height={250} />
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span class="numberedBox">{step}</span>
+                        <h2>{title}</h2>
+                    </div>
+                    <p>
+                        {description}
+                    </p>
+                    {
+                        steps.map((mapStep: any) => (
+                            <div class="step">
+                                <Icon name="ic:baseline-check" class="icon" />
+                                <p>
+                                    <strong>{mapStep.title}:</strong> {mapStep.description}
+                                </p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </>
+        }
     </div>
 </div>
+
 
 <style>
     .numberedBox {
