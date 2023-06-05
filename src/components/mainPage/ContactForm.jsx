@@ -8,7 +8,7 @@ function ContactForm() {
 
     const wrapperStyle = {};
     const contactFormDivStyle = {
-        width: '100%',
+        width: '90%',
         backgroundColor: 'var(--hiekka)',
         display: 'flex',
         flexDirection: 'column',
