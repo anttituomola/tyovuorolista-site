@@ -36,6 +36,7 @@ function ContactForm() {
     const h2Style = {
         fontSize: '3rem',
         marginBottom: '0.5rem',
+        textAlign: 'center',
     };
     const inputStyle = {
         padding: '1rem',

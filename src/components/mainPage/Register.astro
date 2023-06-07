@@ -3,6 +3,7 @@ import register from '../../assets/register.png'
 import suunnittele from '../../assets/suunnittele.png'
 import hyvaksyta from '../../assets/hyvaksyta.png'
 import julkaise from '../../assets/julkaise.png'
+import vaihda_keittioon from '../../assets/vaihda_keittioon.png'
 import Step from './Step.astro'
 ---
 
@@ -27,5 +28,11 @@ import Step from './Step.astro'
     {title: 'Automatisoitu lähetys', description: 'kun julkaiset listan, se lähetetään automaattisesti ravintolasi sähköpostiosoitteesta kaikille työntekijöille, jotka ovat listalla.'},
     {title: 'Henkilökohtainen lista', description: 'jokaiselle työntekijälle lähtee paitsi yleinen lista, myös personoitu lista heidän omista työvuoroistaan.'},
     {title: 'Muillekin tiedoksi', description: 'voit halutessasi valita lähetyslistaan myös työntekijöitä, joilla ei ole listassa vuoroja.'}
+  ]} />
+
+<Step src={vaihda_keittioon} step="5" title="Vaihda keittiön puolelle" description="Vaihda keittiön puolelle, jossa on omat listansa, työntekijänsä ja asetuksensa" steps={[
+    {title: 'Omat asetukset', description: 'keittiön listat voivat alkaa esimerkiksi aiemmin kuin salin, ja oletuskesto voi olla eri.'},
+    {title: 'Täysin erillinen puoli', description: 'keittiön listat voivat mennä eri tahdissa salin kanssa ja olla eri pituisia.'},
+    {title: 'Helppo näkyvyys', description: 'ravintolapäällikön on helppo tarkastaa, että keittiö on muistanut erikoispäivien työvuorotarpeeet.     '}
   ]} />
 

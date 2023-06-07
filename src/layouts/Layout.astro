@@ -1,54 +1,84 @@
 ---
-import Navigation from '../components/navigation/Navigation.astro';
-import Footer from '../components/navigation/Footer.astro';
-
-export interface Props {
-	title: string;
-}
-
-const { title } = Astro.props;
+import Navigation from '../components/navigation/Navigation.astro'
+import Footer from '../components/navigation/Footer.astro'
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- Primary Meta Tags -->
+        <title>Työvuorolista.fi: ravintolan työvuorolista nopeasti ja helposti</title>
+        <meta name="title" content="Työvuorolista.fi: ravintolan työvuorolista nopeasti ja helposti" />
+        <meta
+            name="description"
+            content="Ravintolan työvuorolistan suunnittelu ja julkaisu niin salin kuin keittiönkin puolelle helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tyovuorolista.fi/" />
+        <meta property="og:title" content="Työvuorolista.fi: ravintolan työvuorolista nopeasti ja helposti" />
+        <meta
+            property="og:description"
+            content="Ravintolan työvuorolistan suunnittelu ja julkaisu niin salin kuin keittiönkin puolelle helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
+        />
+        <meta
+            property="og:image"
+            content="https://tyovuorolista.fi/assets/metaImage.png"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://tyovuorolista.fi/" />
+        <meta property="twitter:title" content="Työvuorolista.fi: ravintolan työvuorolista nopeasti ja helposti" />
+        <meta
+            property="twitter:description"
+            content="Ravintolan työvuorolistan suunnittelu ja julkaisu niin salin kuin keittiönkin puolelle helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
+        />
+        <meta
+            property="twitter:image"
+            content="https://tyovuorolista.fi/assets/metaImage.png"
+        />
+    </head>
+    <body>
         <Navigation />
-		<slot />
+        <slot />
         <Footer />
-	</body>
+    </body>
 </html>
 <style is:global>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;800&display=swap');
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+    :root {
+        --accent: 124, 58, 237;
+        --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
         --tummanvihrea: #384d48ff;
         --harmaa: #6e7271ff;
         --hiekka: #acad94ff;
         --ruskeaharmaa: #d8d4d5ff;
         --vaaleanharmaa: #e2e2e2ff;
-	}
-	html {
-        font-family: 'Work Sans', sans-serif;		
-        background-color: #F6F6F6;
-	}
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-	}
+    }
+    html {
+        font-family: 'Work Sans', sans-serif;
+        background-color: #f6f6f6;
+    }
+    code {
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+            Courier New, monospace;
+    }
     body {
         margin: 0;
         padding: 0;
     }
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         text-wrap: balance;
     }
     .wrapper {
