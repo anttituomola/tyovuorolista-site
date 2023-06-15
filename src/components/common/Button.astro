@@ -1,5 +1,5 @@
 ---
-const { text, backgroundColor, href } = Astro.props
+const { text, backgroundColor, href, textColor } = Astro.props
 ---
 
 <a href={href}>
@@ -8,7 +8,7 @@ const { text, backgroundColor, href } = Astro.props
     </div>
 </a>
 
-<style define:vars={{ backgroundColor }}>
+<style define:vars={{ backgroundColor, textColor }}>
     .button {
         display: inline-block;
         border: 1px solid var(--ruskeaharmaa);
@@ -27,7 +27,7 @@ const { text, backgroundColor, href } = Astro.props
         transform: scale(0.98);
     }
     span {
-        color: #333;
+        color: var(--textColor, #333);
         font-size: 1.2em;
     }
 </style>

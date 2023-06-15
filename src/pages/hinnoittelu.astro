@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+
+---
+
+<Layout>
+    <div class="wrapper">
+        <h1>Läpinäkyvä ja reilu hinnoittelu</h1>
+        <div class="pricing">
+            <div class="pricingElement">
+                <h2>Maks. 3 työntekijää</h2>
+                <strong><p>0 € / kuukausi</p></strong>
+                <p>Ei sitoutumisaikoja</p>
+                <p>Kaikki ominaisuudet</p>
+                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+            </div>
+            <div class="pricingElement">
+                <h2>Maks. 20 työntekijää</h2>
+                <strong><p>12 € / kuukausi</p></strong>
+                <p>Ei sitoutumisaikoja</p>
+                <p>Kaikki ominaisuudet</p>
+                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+            </div>
+            <div class="pricingElement">
+                <h2>Maks. 50 työntekijää</h2>
+                <strong><p>42 € / kuukausi</p></strong>
+                <p>Ei sitoutumisaikoja</p>
+                <p>Kaikki ominaisuudet</p>
+                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+            </div>
+            <div class="pricingElement">
+                <h2>Yli 50 työntekijää</h2>
+                <strong><p>120 € / kuukausi</p></strong>
+                <p>Ei sitoutumisaikoja</p>
+                <p>Kaikki ominaisuudet</p>
+                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem;
+
+}
+    .pricingElement {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--harmaa);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+    p {
+        margin: 0.5rem;
+    }
+</style>
