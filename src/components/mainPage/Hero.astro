@@ -1,7 +1,8 @@
 ---
 import Button from '../common/Button.astro'
-import { Image } from 'astro:assets';
+import { Image } from 'astro:assets'
 import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
+import RegisterButton from '../common/RegisterButton.astro'
 ---
 
 <div class="hero">
@@ -11,10 +12,10 @@ import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
     </div>
     <h3>Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!</h3>
     <span class="buttons">
-        <Button text="Rekisteröidy" backgroundColor="var(--hiekka)" /> 
+        <RegisterButton />
         <span style="color: var(--harmaa);">TAI</span>
         <Button text="Ota yhteyttä" backgroundColor="var(--ruskeaharmaa)" href="./yhteystiedot" />
-    </span> 
+    </span>
 </div>
 
 <style>

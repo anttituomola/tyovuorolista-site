@@ -1,17 +1,19 @@
 ---
 import Button from '../common/Button.astro'
-import { Image } from 'astro:assets';
-import logo_tekstilla from '../../assets/logo_tekstilla.png';
+import RegisterButton from '../common/RegisterButton.astro'
 ---
 
 <nav class="nav">
     <div>
-        <a href="./" class="logo"><Image src={logo_tekstilla} alt="Logo"/></a>
+        <a href="./" class="logo">
+            <h1>Tyovuorolista.fi</h1>
+            <h4>Ravintolan työvuorolista nopeasti ja helposti</h4>
+        </a>
     </div>
     <div class="navRight">
         <div class="buttonContainer">
-            <Button href="" text="Rekisteröidy" backgroundColor="var(--hiekka)" />
-            <Button href="" text="Kirjaudu" />
+            <RegisterButton />
+            <Button href="https://app.tyovuorolista.fi/login" text="Kirjaudu" />
         </div>
         <a href="/hinnoittelu" class="navLink">Hinnoittelu</a>
     </div>
@@ -56,6 +58,19 @@ import logo_tekstilla from '../../assets/logo_tekstilla.png';
     img {
         width: 150px;
         height: 150px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-decoration: none;
+        color: var(--hiekka);
+        margin: 1rem;
+    }
+    .logo h1 {
+        font-size: 2rem;
+        margin: 0;
+        text-transform: uppercase;
     }
     @media (max-width: 640px) {
         .nav {
