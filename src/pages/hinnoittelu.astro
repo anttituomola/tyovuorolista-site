@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Button from '../components/common/Button.astro'
-
+import RegisterButton from '../components/common/RegisterButton.astro'
 ---
 
 <Layout>
@@ -13,28 +12,28 @@ import Button from '../components/common/Button.astro'
                 <strong><p>0 € / kuukausi</p></strong>
                 <p>Ei sitoutumisaikoja</p>
                 <p>Kaikki ominaisuudet</p>
-                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+                <RegisterButton />
             </div>
             <div class="pricingElement">
                 <h2>Maks. 20 työntekijää</h2>
                 <strong><p>12 € / kuukausi</p></strong>
                 <p>Ei sitoutumisaikoja</p>
                 <p>Kaikki ominaisuudet</p>
-                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+                <RegisterButton />
             </div>
             <div class="pricingElement">
                 <h2>Maks. 50 työntekijää</h2>
                 <strong><p>42 € / kuukausi</p></strong>
                 <p>Ei sitoutumisaikoja</p>
                 <p>Kaikki ominaisuudet</p>
-                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+                <RegisterButton />
             </div>
             <div class="pricingElement">
                 <h2>Yli 50 työntekijää</h2>
                 <strong><p>120 € / kuukausi</p></strong>
                 <p>Ei sitoutumisaikoja</p>
                 <p>Kaikki ominaisuudet</p>
-                <Button text="Rekisteröidy" backgroundColor="var(--tummanvihrea)" textColor="white" href="/register"></Button>
+                <RegisterButton />
             </div>
         </div>
     </div>
@@ -42,14 +41,13 @@ import Button from '../components/common/Button.astro'
 
 <style>
     .pricing {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    max-width: 900px;
-    width: 100%;
-    margin: 2rem;
-
-}
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        max-width: 900px;
+        width: 100%;
+        margin: 2rem;
+    }
     .pricingElement {
         display: flex;
         flex-direction: column;
@@ -62,5 +60,15 @@ import Button from '../components/common/Button.astro'
     }
     p {
         margin: 0.5rem;
+    }
+
+    @media (max-width: 640px) {
+        .pricing {
+            grid-template-columns: 1fr;
+            margin: 0.5rem;
+        }
+        .pricingElement {
+            padding: 0.3rem;
+        }
     }
 </style>
