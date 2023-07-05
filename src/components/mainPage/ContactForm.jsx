@@ -64,7 +64,7 @@ function ContactForm() {
             return;
         }
 
-        const response = await fetch(`https://tyovuorolista.fi/api/handleForm`, {
+        const response = await fetch(`https://www.tyovuorolista.fi/api/handleForm`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
