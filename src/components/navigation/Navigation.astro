@@ -16,6 +16,7 @@ import RegisterButton from '../common/RegisterButton.astro'
             <Button href="https://app.tyovuorolista.fi/login" text="Kirjaudu" />
         </div>
         <a href="/hinnoittelu" class="navLink">Hinnoittelu</a>
+        <a href="/yhteystiedot" class="navLink">Yhteystiedot</a>
     </div>
 </nav>
 
@@ -91,14 +92,16 @@ import RegisterButton from '../common/RegisterButton.astro'
         .navRight {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: flex-end;
             gap: 0.4rem;
             margin: 1rem;
+            width: 90%;
         }
         .buttonContainer {
             display: flex;
-            flex-direction: column;
-            gap: 0.8rem;
+            justify-content: flex-end;
+            gap: 0.5rem;
+            margin: 0 auto;
         }
         a {
             margin: 1rem;

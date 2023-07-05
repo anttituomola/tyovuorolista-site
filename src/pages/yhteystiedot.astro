@@ -1,10 +1,30 @@
 ---
 import Contact from '../components/mainPage/Contact.astro'
-import ContactForm from '../components/mainPage/ContactForm';
+import ContactForm from '../components/mainPage/ContactForm'
 import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout>
-    <Contact />
-    <ContactForm />
+    <div class="contacts">
+        <Contact />
+    </div>
+    <div class="contactForm">
+        <ContactForm />
+    </div>
 </Layout>
+
+<style>
+    .contacts {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 600px;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .contactForm {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 600px;
+        padding: 0 1rem;
+    }
+</style>

@@ -10,7 +10,8 @@ function ContactForm() {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        marginTop: '6rem'
+        marginTop: '6rem',
+        textAlign: 'center',
     };
     const contactFormDivStyle = {
         width: '90%',
