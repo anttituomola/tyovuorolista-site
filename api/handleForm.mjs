@@ -5,53 +5,56 @@ export default function handler(
     request,
     response,
 ) {
+    if (request.method === 'POST') {
+        response.setHeader('Access-Control-Allow-Origin', 'https://www.tyovuorolista.fi');
 
-    const { email, phone } = request.body
-    console.log("request", request.body)
+        const { email, phone } = request.body
+        console.log("request", request.body)
 
-    const credentials = {
-        accessKeyId: process.env.AWS_SDK_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SDK_SECRET_ACCESS_KEY,
-    }
+        const credentials = {
+            accessKeyId: process.env.AWS_SDK_ACCESS_KEY_ID,
+            secretAccessKey: process.env.AWS_SDK_SECRET_ACCESS_KEY,
+        }
 
-    const sesClient = new SESClient({
-        region: process.env.AWS_SDK_REGION,
-        credentials: credentials,
-    })
+        const sesClient = new SESClient({
+            region: process.env.AWS_SDK_REGION,
+            credentials: credentials,
+        })
 
-    var params = {
-        Destination: {
-            ToAddresses: ['anttituomola8@gmail.com'],
-        },
-        Message: {
-            Body: {
-                Text: {
-                    Data: `Yhteydenottopyyntö Tyovuorolista.fi:sta! 
+        var params = {
+            Destination: {
+                ToAddresses: ['anttituomola8@gmail.com'],
+            },
+            Message: {
+                Body: {
+                    Text: {
+                        Data: `Yhteydenottopyyntö Tyovuorolista.fi:sta! 
           
           Ota yhteyttä asiakkaaseen: ${email} tai ${phone}`,
+                    },
+                },
+                Subject: {
+                    Data: `Yhteydenottopyyntö ${email} ${phone}`,
                 },
             },
-            Subject: {
-                Data: `Yhteydenottopyyntö ${email} ${phone}`,
-            },
-        },
-        ReplyToAddresses: [email ? email : 'noreply@notvalid.com'] ,
-        Source: "anttituomola8@gmail.com",
-    }
+            ReplyToAddresses: [email ? email : 'noreply@notvalid.com'],
+            Source: "anttituomola8@gmail.com",
+        }
 
-    return sesClient
-        .send(new SendEmailCommand(params))
-        .then(() => {
-            response.status(200).json({
-                message: "Message sent.",
-                status: "success",
+        return sesClient
+            .send(new SendEmailCommand(params))
+            .then(() => {
+                response.status(200).json({
+                    message: "Message sent.",
+                    status: "success",
+                })
             })
-        })
-        .catch((error) => {
-            response.status(500).json({
-                message: `Error occured: ${error}`,
-                status: "error",
+            .catch((error) => {
+                response.status(500).json({
+                    message: `Error occured: ${error}`,
+                    status: "error",
+                })
+                console.log(error)
             })
-            console.log(error)
-        })
+    }
 }
