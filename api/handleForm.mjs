@@ -5,9 +5,17 @@ export default function handler(
     request,
     response,
 ) {
-    if (request.method === 'POST') {
-        response.setHeader('Access-Control-Allow-Origin', 'https://www.tyovuorolista.fi');
+    response.setHeader('Access-Control-Allow-Origin', 'https://www.tyovuorolista.fi');
+    response.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
+    if (request.method === 'OPTIONS') {
+        // Pre-flight request. Reply successfully:
+        response.status(200).end();
+        return;
+    }
+
+    if (request.method === 'POST') {
         const { email, phone } = request.body
         console.log("request", request.body)
 
@@ -30,7 +38,7 @@ export default function handler(
                     Text: {
                         Data: `Yhteydenottopyyntö Tyovuorolista.fi:sta! 
           
-          Ota yhteyttä asiakkaaseen: ${email} tai ${phone}`,
+          Ota yhteyttä asiakkaaseen: ${email} || ${phone}`,
                     },
                 },
                 Subject: {
