@@ -1,7 +1,10 @@
 ---
-const allPosts = await Astro.glob('../pages/posts/*.md');
-console.log("🚀 ~ file: blogitekstit.astro:3 ~ allPosts:", allPosts)
-import BlogPostCard from "../components/common/BlogPostCard.astro";
+const allPosts = await Astro.glob('../pages/posts/*.md')
+console.log('🚀 ~ file: blogitekstit.astro:3 ~ allPosts:', allPosts)
+import BlogPostCard from '../components/common/BlogPostCard.astro'
+import Layout from '../layouts/Layout.astro'
 ---
 
-{allPosts.map(post => <BlogPostCard post={post} />)}
+<Layout>
+    {allPosts.map((post) => <BlogPostCard post={post} />)}
+</Layout>
