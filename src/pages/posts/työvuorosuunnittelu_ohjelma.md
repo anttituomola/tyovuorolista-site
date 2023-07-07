@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorosuunnittelu ohjelma: työvuorojen suunnittelu ravintola-alalla'
-pubDate: 2022-07-01
+pubDate: 2022-07-07
 description: 'Mitä vaihtoehtoja on ravintolan työvuorojen suunnitteluun? Miten työvuorosuunnitteluohjelma voi auttaa?'
 author: 'Antti Tuomola'
 image:
