@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro'
+const { frontmatter } = Astro.props
+import Button from '../components/common/Button.astro'
+import dayjs from 'dayjs'
+---
+
+<Layout>
+    <div class="blogWrapper">
+        {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.title} />}
+        <h1>{frontmatter.title}</h1>
+        <p>Kirjoittanut {frontmatter.author}<br />
+        Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
+        <slot />
+        <div style="margin: 4rem auto 2rem auto">
+            <Button
+                text="Kokeile Työvuorolistaa ilmaiseksi"
+                backgroundColor="var(--tummanvihrea)"
+                ,
+                textColor="var(--vaaleanharmaa)"
+            />
+        </div>
+    </div>
+</Layout>
