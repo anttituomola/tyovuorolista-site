@@ -1,0 +1,10 @@
+---
+const allPosts = await Astro.glob('../../pages/posts/*.md')
+const threeMostRecentPosts = allPosts.slice(0, 3)
+import BlogPostCard from "../common/BlogPostCard.astro";
+---
+
+<div class="wrapper">
+    <h1 style="text-align: center;">Uusimmat teksit ravintolan työvuorosuunnittelusta</h1>
+    {threeMostRecentPosts.map((post) => <BlogPostCard post={post} />)}
+</div>

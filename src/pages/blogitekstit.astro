@@ -6,5 +6,8 @@ import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout>
-    {allPosts.map((post) => <BlogPostCard post={post} />)}
+    <div class="wrapper">
+        <h1>Tekstejä ravintolan työvuorosuunnittelusta</h1>
+        {allPosts.map((post) => <BlogPostCard post={post} />)}
+    </div>
 </Layout>
