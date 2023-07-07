@@ -33,14 +33,14 @@ Molemmat ovat aivan mahdollisia vaihtoehtoja, mutta kerrankin kannattaa valita k
 - kuinka pitkä tauko työvuorojen välissä tulee olla (11 h)
 
 #### Kotimaisia ohjelmistoja ovat mm:
-- [Työvuorolista.fi](https://tyovuorolista.fi){:target="_blank"}
-- [MaraPlan](https://maraplan.fi){:target="_blank"}
-- [HRSuunti](https://www.hrsuunti.fi/){:target="_blank"}
+- <a href='https://tyovuorolista.fi' target='_blank'>Työvuorolista.fi</a>
+- <a href='https://maraplan.fi' target='_blank'>MaraPlan</a>
+- <a href='https://www.hrsuunti.fi/' target='_blank'>HRSuunti</a>
 
 #### Ulkomaisia ohjelmistoja ovat mm:
-- [When I Work](https://wheniwork.com){:target="_blank"}
-- [Deputy](https://www.deputy.com){:target="_blank"}
-- [7shifts](https://www.7shifts.com){:target="_blank"}
+- <a href='https://wheniwork.com' target='_blank'>When I Work</a>
+- <a href='https://www.deputy.com' target='_blank'>Deputy</a>
+- <a href='https://www.7shifts.com' target='_blank'>7shifts</a>
 
 Ulkomaisissa ohjelmistoissa - jotka käytännössä aina ovat jenkkiläisiä - saattaa olla myös ärsyttäviä paikalliserikoisuuksia, kuten viikon alkaminen sunnuntaista, kellonaikojen ilmaiseminen AM/PM -jaolla, jne.
 
