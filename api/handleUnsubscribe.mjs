@@ -34,7 +34,7 @@ export default function handler(
             },
         },
         ReplyToAddresses: ['anttituomola8@gmail.com'] ,
-        Source: "anttituomola8@gmail.com",
+        Source: "info@tyovuorolista.fi",
     }
 
     return sesClient
