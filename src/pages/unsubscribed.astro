@@ -1,7 +1,32 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
 ---
+
+<script>
+    window.onload = function() {
+    // Get the email parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const email = urlParams.get('email');
+
+    // Send a request to the API
+    fetch(`/api/handleUnsubscribe?email=${email}`, {
+        method: 'POST',
+    })
+    .then((response) => {
+        if (response.ok) {
+            // The request was successful
+            console.log('Unsubscribe successful');
+        } else {
+            // There was an error with the request
+            console.log('Unsubscribe failed');
+        }
+    })
+    .catch((error) => {
+        // There was an error with the network or server
+        console.log('Error:', error);
+    });
+}
+</script>
 
 <Layout>
     <div class="wrapper">

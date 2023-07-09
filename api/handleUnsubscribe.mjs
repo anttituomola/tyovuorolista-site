@@ -6,7 +6,7 @@ export default function handler(
     response,
 ) {
 
-    const { email } = request.body
+    const { email } = request.query
     console.log("request", request.body)
 
     const credentials = {
