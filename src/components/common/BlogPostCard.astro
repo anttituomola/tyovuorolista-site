@@ -1,16 +1,20 @@
 ---
 const { title, pubDate, image, description, tags } = Astro.props.post.frontmatter
 const { url } = Astro.props.post
-import dayjs from "dayjs";
+const { url: imageUrl, alt } = image; 
+
+import dayjs from 'dayjs'
 ---
 
-<div class="blogPostCard">
+<div class="blogPostCard" >
     <a href={url}>
         <div>
+            <img src={imageUrl} alt={alt} />
             <h1>{title}</h1>
             <p>{description}</p>
             <p>Julkaistu <strong>{dayjs(pubDate).format('DD.MM.YYYY')}</strong></p>
-            <p>Avainsanat: 
+            <p>
+                Avainsanat:
                 {
                     tags.map((tag: string, index: number) => {
                         if (index === tags.length - 1) {
@@ -25,7 +29,13 @@ import dayjs from "dayjs";
     </a>
 </div>
 
-<style>
+<style define:vars={{ imageUrl}}>
+img {
+    width: 280px;
+    height: 100px;
+    padding: 0.5rem;
+    object-fit: cover;
+}
     .blogPostCard {
         display: flex;
         flex-direction: column;
@@ -34,14 +44,14 @@ import dayjs from "dayjs";
         padding: 25px;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 300px;
         overflow: auto;
         background-color: var(--tummanvihrea);
         color: var(--vaaleanharmaa);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .blogPostCard:hover {
-        filter: brightness(1.1)
+        filter: brightness(1.1);
     }
     .blogPostCard a {
         text-decoration: none;
@@ -50,5 +60,15 @@ import dayjs from "dayjs";
     h1 {
         font-size: 1.5rem;
         margin: 0;
+    }
+    @media (max-width: 640px) {
+
+        .blogPostCard {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 </style>
