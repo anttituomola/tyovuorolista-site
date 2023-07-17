@@ -7,6 +7,21 @@ import Layout from '../layouts/Layout.astro'
 <Layout>
     <div class="wrapper">
         <h1>Tekstejä ravintolan työvuorosuunnittelusta</h1>
-        {allPosts.map((post) => <BlogPostCard post={post} />)}
+        <div class="blogitekstit">
+            {allPosts.map((post) => <BlogPostCard post={post} />)}
+        </div>
     </div>
 </Layout>
+
+<style>
+    .blogitekstit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    @media (max-width: 1000px) {
+        .blogitekstit {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

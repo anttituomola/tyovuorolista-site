@@ -10,7 +10,9 @@ export default defineConfig({
     assets: true
   },
   output: "server",
-  adapter: vercel(),
+  adapter: vercel({
+    includeFiles: ["./sitemap-0.xml"]
+  }),
   site: 'https://www.tyovuorolista.fi/',
   integrations: [react(), sitemap()]
 });

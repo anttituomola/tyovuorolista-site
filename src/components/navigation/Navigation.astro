@@ -21,6 +21,17 @@ import RegisterButton from '../common/RegisterButton.astro'
 </nav>
 
 <style>
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+    }
     a {
         margin-left: 1rem;
     }
@@ -39,17 +50,6 @@ import RegisterButton from '../common/RegisterButton.astro'
     }
     .navLink:active {
         color: rgb(72, 71, 71);
-    }
-    .nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        background-color: white;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 100%;
     }
     .buttonContainer {
         display: flex;
@@ -73,7 +73,7 @@ import RegisterButton from '../common/RegisterButton.astro'
         margin: 0;
         text-transform: uppercase;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 1000px) {
         .nav {
             display: flex;
             flex-direction: column;
