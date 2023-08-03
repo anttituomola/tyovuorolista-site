@@ -1,6 +1,7 @@
 ---
 const allPosts = await Astro.glob('../../pages/posts/*.md')
-const fourMostRecentPosts = allPosts.slice(0, 4)
+const sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
+const fourMostRecentPosts = sortedPosts.slice(0, 4)
 import BlogPostCard from '../common/BlogPostCard.astro'
 ---
 
