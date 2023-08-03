@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mikä on lyhyin sallittu työvuoro ravintola-alalla?'
-pubDate: 2022-07-11
+pubDate: 2022-08-03
 description: 'Mikä on työvuoron minimipituus ravintola-alalla? Ja saako lyhyempiä työvuoroja teettää?'
 author: 'Antti Tuomola'
 image:
