@@ -1,8 +1,8 @@
 ---
-const { text, backgroundColor, href, textColor } = Astro.props
+const { text, backgroundColor, href, textColor, target } = Astro.props
 ---
 
-<a href={href}>
+<a href={href} target={target || '_self'}>
     <div class="button">
         <span>{text || 'Paina tästä!'}</span>
     </div>
@@ -30,6 +30,9 @@ const { text, backgroundColor, href, textColor } = Astro.props
     span {
         color: var(--textColor, #333);
         font-size: 1.2em;
+    }
+    a {
+        text-decoration: none;
     }
 </style>
 
