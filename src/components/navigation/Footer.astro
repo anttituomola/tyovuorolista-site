@@ -5,6 +5,11 @@ const currentYear = new Date().getFullYear();
 <div class="footer">
     <RegisterButton />
     <h3>Työvuorolista | tyovuorolista.fi | {currentYear}</h3>
+    <div class="footerLinks">
+        <p><a href="./yhteystiedot">Yhteystiedot</a></p>
+        <p><a href="./hinnoittelu">Hinnoittelut</a></p>
+        <p><a href="./kayttoohjeet">Käyttöohjeet</a></p>
+    </div>
 </div>
 
 <style>
@@ -20,6 +25,17 @@ const currentYear = new Date().getFullYear();
     }
     h3 {
         padding: 2rem;
+    }
+    .footerLinks {
+        display: flex;
+        gap: 1rem;
+        justify-content: center; 
+        margin-bottom: 2rem;
+    }
+    .footerLinks a {
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
     @media (max-width: 640px) {
         h3 {
