@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuosiloman merkkaaminen työvuorolistaan'
-pubDate: 2024-11-29
+pubDate: 2023-11-29
 description: 'Miten vuosilomat ja palkattomat vapaat merkataan Työvuorolista-sovellukseen?'
 author: 'Antti Tuomola'
 image:

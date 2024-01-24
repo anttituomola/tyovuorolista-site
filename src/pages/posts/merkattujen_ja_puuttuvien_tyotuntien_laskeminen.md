@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Merkattujen ja puuttuvien työtuntien laskenta'
-pubDate: 2024-11-30
+pubDate: 2023-11-30
 description: 'tyovuorolista.fi-sovellus laskee jokaisen työntekijän merkatut ja puuttuvat tunnit automaattisesti.'
 author: 'Antti Tuomola'
 image:
