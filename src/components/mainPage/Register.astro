@@ -13,10 +13,10 @@ import Step from './Step.astro'
     {title: 'Helpot alkuasetukset', description: 'lisää vaikka vain itsesi työntekijäksi ja aloita!'}
   ]} />
   
-  <Step src={suunnittele} step="2" title="Suunnittele" description="Ravintolan ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi." steps={[
+  <Step src={suunnittele} step="2" title="Suunnittele" description="Tiimien ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi." steps={[
     {title: 'Ei turhaa tietojen syöttöä', description: 'sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta.'},
     {title: 'Ei turhaa näpyttelyä', description: 'työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla.'},
-    {title: 'Tarvittavat lisätiedot', description: 'työvuoroihin voi helposti lisätä kommentteja, esim. "anniskeluvastaava".'}
+    {title: 'Tarvittavat lisätiedot', description: 'työvuoroihin voi helposti lisätä kommentteja, esim. "myymälävastaava".'}
   ]} />
   
   <Step src={hyvaksyta} step="3" title="Hyväksytä" description="Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua." steps={[
@@ -25,14 +25,13 @@ import Step from './Step.astro'
   ]} />
   
   <Step src={julkaise} step="4" title="Julkaise" description="Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla." steps={[
-    {title: 'Automatisoitu lähetys', description: 'kun julkaiset listan, se lähetetään automaattisesti ravintolasi sähköpostiosoitteesta kaikille työntekijöille, jotka ovat listalla.'},
-    {title: 'Henkilökohtainen lista', description: 'jokaiselle työntekijälle lähtee paitsi yleinen lista, myös personoitu lista heidän omista työvuoroistaan.'},
-    {title: 'Muillekin tiedoksi', description: 'voit halutessasi valita lähetyslistaan myös työntekijöitä, joilla ei ole listassa vuoroja.'}
+    {title: 'Automatisoitu lähetys', description: 'kun julkaiset listan, se lähetetään automaattisesti kaikille työntekijöille, jotka ovat listalla.'},
+    {title: 'Henkilökohtainen lista', description: 'jokaiselle työntekijälle lähtee personoitu lista heidän omista työvuoroistaan.'},
   ]} />
 
-<Step src={vaihda_keittioon} step="5" title="Vaihda keittiön puolelle" description="Vaihda keittiön puolelle, jossa on omat listansa, työntekijänsä ja asetuksensa" steps={[
-    {title: 'Omat asetukset', description: 'keittiön listat voivat alkaa esimerkiksi aiemmin kuin salin, ja oletuskesto voi olla eri.'},
-    {title: 'Täysin erillinen puoli', description: 'keittiön listat voivat mennä eri tahdissa salin kanssa ja olla eri pituisia.'},
-    {title: 'Helppo näkyvyys', description: 'ravintolapäällikön on helppo tarkastaa, että keittiö on muistanut erikoispäivien työvuorotarpeeet.     '}
+<Step src={vaihda_keittioon} step="5" title="Rajaton määrä tiimejä" description="Jokaisella tiimillä on omat listansa ja asetuksensa, mutta voit jakaa työntekijöitä tiimien kesken." steps={[
+    {title: 'Omat asetukset', description: 'joka tiimissä voi olla omat oletusajat ja vuoron pituudet.'},
+    {title: 'Työntekijöiden jako', description: 'työntekijät voivat olla useammassa tiimissä, mikä helpottaa monipaikkaisen yrityksen työvuorosuunnittelua.'},
+    {title: 'Listojen julkaisu', description: 'voit julkaista listoja tiimeittäin tai kaikki kerralla.'}
   ]} />
 
