@@ -18,7 +18,7 @@ Voit lähettää työvuorolistan valitsemillesi työntekijöille sähköpostilla
 
 Sähköpostin lähetys avautuu uuteen modaaliin, jossa voit valita, keille kaikille työvuorolista lähetetään. Oletusarvoisesti valittuna on työntekijät, joilla on vuoroja listassa, mutta voit valita lähetykseen mukaan myös muita sovellukseen listattuja työntekijöitä.
 
-Sähköposti sisältää työntekijän henkilökohtaisen työvuorolistan sekä koko ravintolan yhteisen listan.
+Sähköposti sisältää työntekijän henkilökohtaisen työvuorolistan.
 
 Sähköposti lähetetään omasta sähköpostiosoitteestasi, mikäli olet mahdollistanut sen käytön (kysyttävää tästä? Soita Antille: +358 45 679 8818). Mikäli et, lähetämme sähköpostin osoitteesta info@tyovuorolista.fi
 
