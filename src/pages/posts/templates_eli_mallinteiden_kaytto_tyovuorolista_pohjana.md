@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Templates, eli mallinteiden käyttö työvuorolistan pohjana'
-pubDate: 2024-2-22
+pubDate: 2024-02-22
 description: 'Mikäli työvuorolistasi toistuu usein jossain määrin samanlaisena, kannattaa uusi työvuorolista aloittaa käyttämällä mallinnetta.'
 author: 'Antti Tuomola'
 image:
