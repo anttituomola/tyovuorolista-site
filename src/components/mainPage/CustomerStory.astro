@@ -4,13 +4,22 @@ import laura_dahlman from '../../assets/laura_dahlman.jpg'
 ---
 
 <div class="wrapper">
-    <div class="customerStory">
-        <Image src={laura_dahlman} quality="max" alt="Placeholder image" />
-        <div>
-            <h2>"Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!</h2>
-            <p>Laura Dahlman, Ravintola Apaja, Tampere</p>
-        </div>
-    </div>
+	<div class="recommendations">
+		<div class="customerStory">
+			<Image src={laura_dahlman} quality="max" alt="Image of Laura Dahlman" />
+			<div>
+				<h2>"Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!""</h2>
+				<p>Laura Dahlman, Ravintola Apaja, Tampere</p>
+			</div>
+		</div>
+		<div class="customerStory">
+			<div>
+				<h2>"Todella selkeä ja helppokäyttöinen paketti ravintolan työvuorojen suunnitteluun ja jakeluun.""</h2>
+					<i>"Jos vielä räpläät työvuoroja Excelillä tai ruutupaperilla, etkä halua maksaa kassikaupalla raskaista taloushallinnan ohjelmistopaketeista, niin nyt viimeistään kannattaa kokeilla Työvuorolistaa. Lämmin suositus."</i>
+				<p><strong>Rami Käkönen, Ravintola Askaisten Holvi, Askainen</strong></p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
@@ -23,7 +32,14 @@ import laura_dahlman from '../../assets/laura_dahlman.jpg'
     .customerStory {
         display: flex;
         gap: 2rem;
+		height: 350px;
+		width: 500;
     }
+	.recommendations {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
     h2 {
         font-style: italic;
         font-weight: 400;
@@ -35,6 +51,7 @@ import laura_dahlman from '../../assets/laura_dahlman.jpg'
             flex-direction: column;
             align-items: center;
             justify-content: center;
+			height: auto;
         }
         img {
             width: 100%;
