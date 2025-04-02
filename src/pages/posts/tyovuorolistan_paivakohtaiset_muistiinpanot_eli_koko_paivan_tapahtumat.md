@@ -43,3 +43,7 @@ On hyvä huomata, että **mikäli poistat muistiinpanon, se poistuu kaikilta tii
 ### Muistiinpanon muokkaus
 
 Voit muokata muistiinpanoa klikkaamalla sitä kalenterinäkymässä. Modaali avautuu, josta voit muokata tai poistaa muistiinpanon.
+
+### EDIT 02/04/2024: lisätty monipäiväinen muistiinpano
+
+Voit nyt tehdä muistiinpanoja, jotka kattavat useamman päivän. Modaalissa on oma valintansa monipäiväiselle muistiinpanolle, ja voit lisäksi raahata muistiinpanot reunoista aloitus- ja lopetuspäiviä suuntaan tai toiseen.
