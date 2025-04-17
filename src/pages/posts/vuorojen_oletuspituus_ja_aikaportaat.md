@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuorojen oletuspituus ja aikaportaat'
-pubDate: 2024-05-15
+pubDate: 2024-04-17
 description: 'Räätälöi vuorojen oletuspituus ja aikaportaat vastaamaan yrityksesi tarpeita'
 author: 'Antti Tuomola'
 image:
