@@ -1,21 +1,23 @@
 ---
-import RegisterButton from '../common/RegisterButton.astro';
-const currentYear = new Date().getFullYear();
+import RegisterButton from '../common/RegisterButton.astro'
+const currentYear = new Date().getFullYear()
 ---
-<div class="footer">
+
+<div class='footer'>
     <RegisterButton />
     <h3>Työvuorolista | tyovuorolista.fi | {currentYear}</h3>
-    <div class="footerLinks">
-        <p><a href="./yhteystiedot">Yhteystiedot</a></p>
-        <p><a href="./hinnoittelu">Hinnoittelut</a></p>
-        <p><a href="./kayttoohjeet">Käyttöohjeet</a></p>
-		<p><a href="./kayttoehdot">Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</a></p>
+    <div class='footerLinks'>
+        <p><a href='/yhteystiedot'>Yhteystiedot</a></p>
+        <p><a href='/hinnoittelu'>Hinnoittelut</a></p>
+        <p><a href='/kayttoohjeet'>Käyttöohjeet</a></p>
+        <p><a href='/kayttoehdot'>Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</a></p>
     </div>
 </div>
 
 <style>
     .footer {
         width: 100%;
+        box-sizing: border-box;
         position: relative;
         bottom: 0;
         left: 0;
@@ -30,7 +32,7 @@ const currentYear = new Date().getFullYear();
     .footerLinks {
         display: flex;
         gap: 1rem;
-        justify-content: center; 
+        justify-content: center;
         margin-bottom: 2rem;
     }
     .footerLinks a {
@@ -38,10 +40,18 @@ const currentYear = new Date().getFullYear();
         text-decoration: none;
         color: black;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
         h3 {
             font-size: 1rem;
             padding: 1rem;
+        }
+        .footerLinks {
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0 1rem;
+        }
+        .footerLinks p {
+            margin: 0.5rem 0;
         }
     }
 </style>

@@ -3,22 +3,43 @@ import Button from '../common/Button.astro'
 import RegisterButton from '../common/RegisterButton.astro'
 ---
 
-<nav class="nav">
-    <div>
-        <a href="/" class="logo">
+<nav class='nav'>
+    <div class='nav-container'>
+        <a href='/' class='logo'>
             <h1>Tyovuorolista.fi</h1>
             <h4>PK-yrityksen työvuorolista nopeasti ja helposti</h4>
         </a>
-    </div>
-    <div class="navRight">
-        <div class="buttonContainer">
-            <RegisterButton />
-            <Button href="https://app.tyovuorolista.fi/login" text="Kirjaudu" />
+
+        <div class='mobile-menu-btn'>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <a href="/hinnoittelu" class="navLink">Hinnoittelu</a>
-        <a href="/yhteystiedot" class="navLink">Yhteystiedot</a>
+
+        <div class='navRight'>
+            <div class='buttonContainer'>
+                <RegisterButton />
+                <Button href='https://app.tyovuorolista.fi/login' text='Kirjaudu' />
+            </div>
+            <a href='/hinnoittelu' class='navLink'>Hinnoittelu</a>
+            <a href='/yhteystiedot' class='navLink'>Yhteystiedot</a>
+        </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuBtn = document.querySelector('.mobile-menu-btn') as HTMLElement
+        const navRight = document.querySelector('.navRight') as HTMLElement
+
+        if (menuBtn && navRight) {
+            menuBtn.addEventListener('click', () => {
+                menuBtn.classList.toggle('open')
+                navRight.classList.toggle('open')
+            })
+        }
+    })
+</script>
 
 <style>
     .nav {
@@ -30,36 +51,53 @@ import RegisterButton from '../common/RegisterButton.astro'
         margin: 0;
         background-color: white;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 100vw;
+        width: 100%;
+        box-sizing: border-box;
     }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
     a {
         margin-left: 1rem;
     }
+
     .navRight {
         display: flex;
         align-items: center;
         gap: 1rem;
-        margin-right: 2rem;
     }
+
     .navLink {
         color: black;
         text-decoration: none;
+        padding: 0.5rem;
+        transition:
+            color 0.2s,
+            border-bottom 0.2s;
     }
+
     .navLink:hover {
         border-bottom: 1px solid var(--harmaa);
     }
+
     .navLink:active {
         color: rgb(72, 71, 71);
     }
+
     .buttonContainer {
         display: flex;
         gap: 1rem;
         margin: 1rem;
     }
-    img {
-        width: 150px;
-        height: 150px;
-    }
+
     .logo {
         display: flex;
         flex-direction: column;
@@ -68,47 +106,88 @@ import RegisterButton from '../common/RegisterButton.astro'
         color: var(--hiekka);
         margin: 1rem;
     }
+
     .logo h1 {
         font-size: 2rem;
         margin: 0;
         text-transform: uppercase;
     }
-    @media (max-width: 1000px) {
-        .nav {
+
+    .mobile-menu-btn {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .mobile-menu-btn span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: var(--tummanvihrea);
+        border-radius: 3px;
+        transition: all 0.3s ease;
+    }
+
+    .mobile-menu-btn.open span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .mobile-menu-btn.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-btn.open span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    @media (max-width: 768px) {
+        .mobile-menu-btn {
             display: flex;
-            flex-direction: column;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            align-items: flex-start;
         }
-        .logo h1 {
-            font-size: 1rem;
-            margin: 0;
-        }
-        .logo h4 {
-            display: none;
-        }
+
         .navRight {
-            display: flex;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            height: 100vh;
+            width: 70%;
+            max-width: 300px;
+            background-color: white;
             flex-direction: column;
-            align-items: flex-end;
-            gap: 0.4rem;
-            margin: 1rem;
-            width: 90%;
+            padding: 80px 20px 20px;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+            z-index: 5;
         }
+
+        .navRight.open {
+            right: 0;
+        }
+
+        .navLink {
+            width: 100%;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--vaaleanharmaa);
+            margin: 0;
+        }
+
         .buttonContainer {
-            display: flex;
-            justify-content: flex-end;
+            flex-direction: column;
+            width: 100%;
+            margin: 1rem 0;
             gap: 0.5rem;
-            margin: 0 auto;
         }
-        a {
-            margin: 1rem;
+
+        .logo h1 {
+            font-size: 1.5rem;
         }
-        img {
-            width: 100px;
-            height: 100px;
+
+        .logo h4 {
+            font-size: 0.8rem;
         }
     }
 </style>

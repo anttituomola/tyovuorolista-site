@@ -1,44 +1,173 @@
 ---
 import Layout from '../layouts/Layout.astro'
-
 ---
 
 <Layout>
-	<div class="wrapper" style="width: 600px; margin: 0 auto">
-	<h2>Käyttöehdot</h2>
-	<p>1. Palvelun kuvaus</p>
-	<p>Tyovuorolista.fi on True Solutions Oy:n (Y-tunnus: 3431534-2) tuottama verkkosovellus, joka mahdollistaa työvuorolistojen suunnittelun ja julkaisun. Sovellus on suunnattu pienille ja keskisuurille yrityksille.</p>
-	
-	<p>2. Rekisteröityminen</p>
-	<p>Käyttäjän tulee rekisteröityä palveluun antamalla yrityksen nimi, sähköpostiosoite ja tarvittaessa puhelinnumero. Palvelun käyttö edellyttää myös työntekijöiden nimien ja sähköpostiosoitteiden lisäämistä.</p>
-	
-	<p>3. Käyttäjän vastuut</p>
-	<p>Käyttäjä vastaa antamiensa sähköpostiosoitteiden oikeellisuudesta sekä tietojen oikeellisuuden varmistamisesta työvuorolistoissa. Käyttäjä sitoutuu olemaan lähettämättä sähköposteja tarpeettomasti.</p>
-	
-	<p>4. Vastuun rajoitus</p>
-	<p>Emme ole vastuussa mistään vahingoista, jotka aiheutuvat virheellisistä tiedoista työvuorolistoissa.</p>
-	
-	<p>5. Sovellettava laki ja riitojen ratkaisu</p>
-	<p>Mahdolliset riidat ratkaistaan Tampereen käräjäoikeudessa.</p>
-	
-	<h2>Tietosuojaseloste</h2>
-	<p>1. Henkilötiedot</p>
-	<p>Keräämme yrityksen nimen, käyttäjän sähköpostiosoitteen ja puhelinnumeron sekä työntekijöiden nimet ja sähköpostiosoitteet. Keräämme myös työvuorojen tiedot, kuten päivämäärät, ajat ja työntekijöiden nimet.</p>
-	
-	<p>2. Tietojen säilytys ja jakaminen</p>
-	<p>Tietoja säilytetään Supabasen tietokannassa, joka on suojattu rivitason turvatoimilla. Maksutiedot käsittelee maksupalveluntarjoaja Stripe.</p>
-	
-	<p>3. Tietosuojaoikeudet</p>
-	<p>Käyttäjällä on oikeus tarkastaa, muuttaa ja poistaa omia tietojaan palvelusta.</p>
-	
-	<h2>Hyvityskäytäntö</h2>
-	<p>1. Tilauksen peruutus</p>
-	<p>Tilauksen voi peruuttaa tai muuttaa milloin tahansa, ja muutos tulee voimaan nykyisen laskutuskauden lopussa.</p>
-	
-	<p>2. Rahat takaisin -takuu</p>
-	<p>Tarjoamme 30 päivän täyden rahat takaisin -takuun ilman kysymyksiä.</p>
-	
-	<p>3. Muutokset käytäntöihin</p>
-	<p>Ilmoitamme käytäntöjen muutoksista sähköpostitse.</p>
-</div>
+    <div class='terms-container'>
+        <h1>Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</h1>
+
+        <section class='terms-section'>
+            <h2>Käyttöehdot</h2>
+            <div class='terms-item'>
+                <h3>1. Palvelun kuvaus</h3>
+                <p>
+                    Tyovuorolista.fi on True Solutions Oy:n (Y-tunnus: 3431534-2) tuottama verkkosovellus, joka
+                    mahdollistaa työvuorolistojen suunnittelun ja julkaisun. Sovellus on suunnattu pienille ja
+                    keskisuurille yrityksille.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Rekisteröityminen</h3>
+                <p>
+                    Käyttäjän tulee rekisteröityä palveluun antamalla yrityksen nimi, sähköpostiosoite ja tarvittaessa
+                    puhelinnumero. Palvelun käyttö edellyttää myös työntekijöiden nimien ja sähköpostiosoitteiden
+                    lisäämistä.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Käyttäjän vastuut</h3>
+                <p>
+                    Käyttäjä vastaa antamiensa sähköpostiosoitteiden oikeellisuudesta sekä tietojen oikeellisuuden
+                    varmistamisesta työvuorolistoissa. Käyttäjä sitoutuu olemaan lähettämättä sähköposteja
+                    tarpeettomasti.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>4. Vastuun rajoitus</h3>
+                <p>
+                    Emme ole vastuussa mistään vahingoista, jotka aiheutuvat virheellisistä tiedoista työvuorolistoissa.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>5. Sovellettava laki ja riitojen ratkaisu</h3>
+                <p>Mahdolliset riidat ratkaistaan Tampereen käräjäoikeudessa.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Tietosuojaseloste</h2>
+            <div class='terms-item'>
+                <h3>1. Henkilötiedot</h3>
+                <p>
+                    Keräämme yrityksen nimen, käyttäjän sähköpostiosoitteen ja puhelinnumeron sekä työntekijöiden nimet
+                    ja sähköpostiosoitteet. Keräämme myös työvuorojen tiedot, kuten päivämäärät, ajat ja työntekijöiden
+                    nimet.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Tietojen säilytys ja jakaminen</h3>
+                <p>
+                    Tietoja säilytetään Supabasen tietokannassa, joka on suojattu rivitason turvatoimilla. Maksutiedot
+                    käsittelee maksupalveluntarjoaja Stripe.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Tietosuojaoikeudet</h3>
+                <p>Käyttäjällä on oikeus tarkastaa, muuttaa ja poistaa omia tietojaan palvelusta.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Hyvityskäytäntö</h2>
+            <div class='terms-item'>
+                <h3>1. Tilauksen peruutus</h3>
+                <p>
+                    Tilauksen voi peruuttaa tai muuttaa milloin tahansa, ja muutos tulee voimaan nykyisen laskutuskauden
+                    lopussa.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Rahat takaisin -takuu</h3>
+                <p>Tarjoamme 30 päivän täyden rahat takaisin -takuun ilman kysymyksiä.</p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Muutokset käytäntöihin</h3>
+                <p>Ilmoitamme käytäntöjen muutoksista sähköpostitse.</p>
+            </div>
+        </section>
+    </div>
 </Layout>
+
+<style>
+    .terms-container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--tummanvihrea);
+        font-size: 2rem;
+    }
+
+    .terms-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .terms-section h2 {
+        color: var(--tummanvihrea);
+        border-bottom: 2px solid var(--hiekka);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item h3 {
+        margin-bottom: 0.5rem;
+        color: var(--harmaa);
+        font-size: 1.1rem;
+    }
+
+    .terms-item p {
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .terms-container {
+            padding: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .terms-section h2 {
+            font-size: 1.4rem;
+        }
+
+        .terms-item h3 {
+            font-size: 1rem;
+        }
+
+        .terms-item p {
+            font-size: 0.95rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .terms-container {
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+</style>
