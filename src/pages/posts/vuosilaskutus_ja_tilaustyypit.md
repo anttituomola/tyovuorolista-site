@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuosilaskutus ja tilaustyypit: kuukausittainen ja vuosittainen laskutus'
-pubDate: 2024-12-19
+pubDate: 2025-07-29
 description: 'Työvuorolista-sovelluksessa voit nyt valita kuukausittaisen tai vuosittaisen laskutuksen. Molemmat aktivoituvat välittömästi ja soveltuvat erilaisiin tarpeisiin.'
 author: 'Antti Tuomola'
 image:
