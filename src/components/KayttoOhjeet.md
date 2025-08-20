@@ -18,7 +18,21 @@ Voit lähettää työvuorolistan valitsemillesi työntekijöille sähköpostilla
 
 Sähköpostin lähetys avautuu uuteen modaaliin, jossa voit valita, keille kaikille työvuorolista lähetetään. Oletusarvoisesti valittuna on työntekijät, joilla on vuoroja listassa, mutta voit valita lähetykseen mukaan myös muita sovellukseen listattuja työntekijöitä.
 
-Sähköposti sisältää työntekijän henkilökohtaisen työvuorolistan.
+### Sähköpostin esikatselutoiminto
+**Suosittelemme käyttämään esikatselutoimintoa** ennen sähköpostien lähettämistä. Paina <strong>Esikatsele sähköpostit</strong> -painiketta työntekijöiden valinnan jälkeen.
+
+Esikatselumodaalissa voit:
+- **Tarkistaa jokaisen työntekijän sähköpostin sisällön** ennen lähettämistä
+- **Navigoida työntekijöiden välillä** klikkaamalla heidän nimiään
+- **Säätää lähetysasetuksia**:
+  - Liitä PDF-versio tiimin listasta
+  - Merkitse lista julkaistuksi lähetyksen yhteydessä
+  - Lähetä kopiot itsellesi sähköpostiin
+
+Esikatselussa näet tarkalleen sen sisällön, jonka työntekijä saa sähköpostissaan - mukaan lukien kaikki hänen vuoronsa kaikista tiimeistä ja päivämerkinnät.
+
+### Sähköpostin sisältö ja lähetys
+Sähköposti sisältää työntekijän henkilökohtaisen työvuorolistan, joka kokoaa kaikki hänen vuoronsa lähetettävän listan ajalta - myös muiden tiimien listoilta.
 
 Sähköposti lähetetään omasta sähköpostiosoitteestasi, mikäli olet mahdollistanut sen käytön (kysyttävää tästä? Soita Antille: +358 45 679 8818). Mikäli et, lähetämme sähköpostin osoitteesta info@tyovuorolista.fi
 
