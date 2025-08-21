@@ -125,28 +125,6 @@ Esikatselutoiminto on käytössä myös **"Julkaise kaikki listat ajalle X-Y"** 
 - Päivämerkinnät ovat oikein kaikissa listoissa
 - Aikataulut täsmäävät odotusten kanssa
 
-## Mitä hyötyä esikatselutoiminnosta on?
-
-### ✅ Varmuus ennen lähettämistä
-- Näet tarkalleen mitä työntekijä saa
-- Voit havaita mahdolliset virheet ajoissa
-- Ei ikäviä yllätyksiä lähetyksen jälkeen
-
-### ✅ Parempi laadunhallinta
-- Erityisen tärkeää, kun listoissa on monimutkaisia vuoroja
-- Varmistat että vuorot eri tiimeistä yhdistyvät oikein
-- Päivämerkinnät näkyvät asianmukaisesti
-
-### ✅ Ammatillinen vaikutelma
-- Työntekijät saavat aina laadukkaita, oikein muotoiltuja listoja
-- Vähemmän korjausviestejä ja kysymyksiä
-- Luottamus työvuorosuunnitteluun kasvaa
-
-### ✅ Säästöä ajassa pitkällä aikavälillä
-- Vähemmän virheitä = vähemmän korjaamistyötä
-- Ei tarvetta lähettää uusia versioita
-- Työntekijät ymmärtävät listansa paremmin
-
 ## Vinkkejä esikatselutoiminnon käyttöön
 
 ### 1. Tarkista muiden tiimien vuorot
@@ -165,7 +143,7 @@ Varmista, että:
 Laita **"Lähetä kopiot viesteistä sähköpostiini"** päälle ensimmäisillä kerroilla. Näin voit:
 - Varmistaa, että sähköpostit lähtevät oikein
 - Tutustua lopulliseen muotoiluun
-- Arkistoida lähetetyt listat
+- Saat kopiot omaan arkistoosi lähetetyistä listoista
 
 ### 4. Testaa eri tilanteissa
 Kokeile esikatselutoimintoa:
@@ -174,15 +152,4 @@ Kokeile esikatselutoimintoa:
 - Kun työntekijöillä on vuoroja useammassa tiimissä
 - Kun listassa on paljon päivämerkintöjä
 
-<img src="/blogPostImages/sahkopostin_esikatselutoiminto_vinkit.png" alt="Vinkkejä esikatselutoiminnon käyttöön" width="60%" style="max-width: 500px; display: block; margin: 20px auto;" />
-
-## Yhteenveto
-
-Uusi sähköpostin esikatselutoiminto tuo **merkittävän parannuksen työvuorolistojen lähettämiseen**. Se antaa sinulle:
-
-- **hallinnan** lähetettävien sähköpostien sisällöstä
-- **Varmuuden** siitä, että työntekijät saavat oikeat tiedot
-- **Mahdollisuuden hienosäätää** lähetysasetuksia ennen lähettämistä
-
-Toiminto on käytössä sekä yksittäisten listojen että "Julkaise kaikki listat" -toiminnon yhteydessä.
 
