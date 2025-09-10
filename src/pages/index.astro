@@ -23,10 +23,17 @@ import NewestBlogPosts from '../components/mainPage/NewestBlogPosts.astro'
 
 <style>
     main {
-        margin: auto;
-        padding: 1.5rem;
-        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 var(--space-base);
+        max-width: 1200px;
         display: flex;
         flex-direction: column;
+        gap: var(--space-4xl);
+    }
+    @media (max-width: 768px) {
+        main {
+            gap: var(--space-2xl);
+            padding: 0 var(--space-sm);
+        }
     }
 </style>

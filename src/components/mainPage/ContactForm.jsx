@@ -38,6 +38,8 @@ function ContactForm() {
         fontSize: '3rem',
         marginBottom: '0.5rem',
         textAlign: 'center',
+        color: 'var(--tummanvihrea)',
+        fontWeight: '600',
     };
     const inputStyle = {
         padding: '1rem',
@@ -59,30 +61,70 @@ function ContactForm() {
         setIsSending(true);
 
         if (!email && !phone) {
-            console.log(email, phone)
+            console.log('Form validation failed:', email, phone);
             console.error('Please provide either email or phone number.');
             setIsSending(false);
             return;
         }
 
-        const response = await fetch(`https://www.tyovuorolista.fi/api/handleForm`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email, phone }),
-        });
+        try {
+            console.log('Submitting form with data:', { email, phone });
+            
+            // Detect if we're in development or production
+            const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            const apiUrl = isDev 
+                ? '/api/handleForm'  // Use relative URL for localhost
+                : 'https://www.tyovuorolista.fi/api/handleForm';  // Use absolute URL for production
+            
+            console.log('Using API URL:', apiUrl);
+            console.log('Current hostname:', window.location.hostname);
+            console.log('Current port:', window.location.port);
+            console.log('Full URL being called:', window.location.origin + apiUrl);
+            
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, phone }),
+            });
 
-        if (!response.ok) {
+            console.log('Response status:', response.status);
+            console.log('Response ok:', response.ok);
+            console.log('Response headers:', [...response.headers.entries()]);
+            
+            // Try to get response text for debugging
+            const responseClone = response.clone();
+            try {
+                const responseText = await responseClone.text();
+                console.log('Response body (text):', responseText);
+            } catch (e) {
+                console.log('Could not read response as text:', e);
+            }
+
+            if (!response.ok) {
+                console.error('Response not ok:', response.status, response.statusText);
+                setIsSending(false);
+                alert('Lomakkeen lähetys epäonnistui. Yritä uudelleen.');
+                return;
+            }
+
+            const jsonResponse = await response.json();
+            console.log('Response data:', jsonResponse);
+            
+            if (jsonResponse.status === 'success') {
+                console.log('Form submitted successfully');
+                setIsFormSubmitted(true);
+            } else {
+                console.error('API returned error status:', jsonResponse);
+                alert('Lomakkeen lähetys epäonnistui. Yritä uudelleen.');
+            }
+        } catch (error) {
+            console.error('Form submission error:', error);
+            alert('Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.');
+        } finally {
             setIsSending(false);
-            throw new Error(response.statusText);
         }
-
-        const jsonResponse = await response.json();
-        if (jsonResponse.status === 'success') {
-            setIsFormSubmitted(true);
-        }
-        setIsSending(false);
     };
 
 
@@ -92,7 +134,7 @@ function ContactForm() {
                 {isFormSubmitted ? <h2>Kiitos! Olen sinuun yhteydessä pikaisesti!</h2> :
                     <div className='reactForm'>
                         <h2 style={h2Style}>Haluan kysyä lisää!</h2>
-                        <p>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
+                        <p style={{color: 'var(--tummanvihrea)', fontSize: '1.1rem', fontWeight: '500', maxWidth: '400px', lineHeight: '1.5', marginBottom: '2rem'}}>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
                         <div style={formStyle}>
                             <div style={inputFieldStyle}>
                                 <input
@@ -105,7 +147,7 @@ function ContactForm() {
                                     style={inputStyle}
                                 />
                             </div>
-                            <span>tai</span>
+                            <span style={{color: 'var(--tummanvihrea)', fontWeight: '500'}}>tai</span>
                             <div style={inputFieldStyle}>
                                 <input
                                     type="tel"

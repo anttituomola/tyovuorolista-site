@@ -74,19 +74,42 @@ import Footer from '../components/navigation/Footer.astro'
     </body>
 </html>
 <style is:global>
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
     :root {
         --accent: 124, 58, 237;
         --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-        --tummanvihrea: #384d48ff;
-        --harmaa: #6e7271ff;
+        --tummanvihrea: #2d3a35;        /* Darker for better contrast */
+        --harmaa: #4a5d58;              /* Darker gray for better readability */
         --hiekka: #acad94ff;
         --ruskeaharmaa: #d8d4d5ff;
         --vaaleanharmaa: #e2e2e2ff;
+        
+        /* Typography scale - more professional and calm */
+        --text-xs: 0.75rem;     /* 12px */
+        --text-sm: 0.875rem;    /* 14px */
+        --text-base: 1rem;      /* 16px */
+        --text-lg: 1.125rem;    /* 18px */
+        --text-xl: 1.25rem;     /* 20px */
+        --text-2xl: 1.5rem;     /* 24px */
+        --text-3xl: 1.875rem;   /* 30px */
+        --text-4xl: 2.25rem;    /* 36px */
+        --text-5xl: 3rem;       /* 48px */
+        
+        /* Spacing scale - more consistent and airy */
+        --space-xs: 0.5rem;     /* 8px */
+        --space-sm: 0.75rem;    /* 12px */
+        --space-base: 1rem;     /* 16px */
+        --space-lg: 1.5rem;     /* 24px */
+        --space-xl: 2rem;       /* 32px */
+        --space-2xl: 3rem;      /* 48px */
+        --space-3xl: 4rem;      /* 64px */
+        --space-4xl: 6rem;      /* 96px */
     }
     html {
         font-family: 'Work Sans', sans-serif;
         background-color: #f6f6f6;
+        font-size: 16px;
+        line-height: 1.6;
     }
     code {
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
@@ -95,38 +118,75 @@ import Footer from '../components/navigation/Footer.astro'
     body {
         margin: 0;
         padding: 0;
+        color: var(--harmaa);
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    h1, h2, h3, h4, h5, h6 {
         text-wrap: balance;
+        font-weight: 500;
+        color: var(--tummanvihrea);
+        margin: 0;
+        line-height: 1.2;
+    }
+    h1 {
+        font-size: var(--text-4xl);
+        font-weight: 600;
+    }
+    h2 {
+        font-size: var(--text-3xl);
+        font-weight: 500;
+    }
+    h3 {
+        font-size: var(--text-2xl);
+        font-weight: 500;
+    }
+    h4 {
+        font-size: var(--text-xl);
+        font-weight: 500;
+    }
+    p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin: 0;
+        color: var(--harmaa);
     }
     .wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 6rem;
+        margin-top: var(--space-3xl);
     }
     .blogWrapper {
         display: flex;
         flex-direction: column;
         max-width: 800px;
         margin: 0 auto;
-        margin-top: 2rem;
-        padding: 2rem;
-		
+        margin-top: var(--space-xl);
+        padding: var(--space-xl);
     }
-
-	.blogWrapper img {
-    	margin-top: 3rem;
-	}
-
-    @media (max-width: 767px) {
-                p {
-                    font-size: 20px !important;
-                }
-            }
+    .blogWrapper img {
+        margin-top: var(--space-2xl);
+    }
+    
+    /* Mobile typography - more refined and calm */
+    @media (max-width: 768px) {
+        html {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: var(--text-3xl);
+        }
+        h2 {
+            font-size: var(--text-2xl);
+        }
+        h3 {
+            font-size: var(--text-xl);
+        }
+        p {
+            font-size: var(--text-base);
+            line-height: 1.7;
+        }
+        .wrapper {
+            margin-top: var(--space-2xl);
+        }
+    }
 </style>

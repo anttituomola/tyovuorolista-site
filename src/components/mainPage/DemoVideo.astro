@@ -3,66 +3,101 @@ import tyovuorolista_demo from '../../assets/tyovuorolista_demo.mp4'
 import Button from '../common/Button.astro'
 ---
 
-<div class="wrapper" style="margin-top: 8rem;">
+<div class="wrapper">
     <h2>Työvuorolistan teko voi olla myös helppoa</h2>
-    <p>
+    <p class="description">
         Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin
         kaikille työntekijöille lähetetään lista sähköpostilla.
     </p>
-    <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
-        <source src={tyovuorolista_demo} type="video/mp4" />
-    </video>
+    <div class="videoContainer">
+        <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+            <source src={tyovuorolista_demo} type="video/mp4" />
+        </video>
+    </div>
     <div class="stepByStep">
         <div class="step">
             <span class="numberedBox">1</span><Button text="Rekisteröidy" backgroundColor="var(--hiekka)" href="" />
         </div>
         <div class="step">
-            <span class="numberedBox">2</span>Tee työvuorolista
+            <span class="numberedBox">2</span><span class="stepText">Tee työvuorolista</span>
         </div>
         <div class="step">
-            <span class="numberedBox">3</span>Julkaise
+            <span class="numberedBox">3</span><span class="stepText">Julkaise</span>
         </div>
     </div>
 </div>
 
 <style>
     h2 {
-        font-size: 4rem;
+        font-size: var(--text-3xl);
         text-align: center;
-        margin-bottom: 0.5rem;
+        margin-bottom: var(--space-base);
+        font-weight: 500;
     }
-    p {
-        font-size: 0.9rem;
+    .description {
+        font-size: var(--text-lg);
         text-align: center;
+        max-width: 600px;
+        margin: 0 auto var(--space-2xl) auto;
+        line-height: 1.6;
+    }
+    .videoContainer {
+        margin: var(--space-2xl) 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 800px;
     }
     .step {
         display: flex;
-        align-items: baseline;
-        gap: 1rem;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-base);
+    }
+    .stepText {
+        font-size: var(--text-base);
+        font-weight: 500;
+        color: var(--tummanvihrea);
     }
     .numberedBox {
-        border: 2px solid var(--ruskeaharmaa);
-        border-radius: 5px;
-        width: 2rem;
-        height: 2rem;
-        margin-top: 2rem;
+        border: 1px solid var(--ruskeaharmaa);
+        border-radius: 50%;
+        width: 1.75rem;
+        height: 1.75rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-weight: bold;
+        font-weight: 600;
+        font-size: var(--text-sm);
+        background: white;
+        color: var(--tummanvihrea);
+        flex-shrink: 0;
     }
     .stepByStep {
         display: flex;
         justify-content: center;
-        gap: 2rem;
+        gap: var(--space-xl);
+        margin-top: var(--space-2xl);
+        flex-wrap: wrap;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
         h2 {
-            font-size: 2rem;
+            font-size: var(--text-2xl);
+        }
+        .description {
+            font-size: var(--text-base);
+            max-width: 90%;
         }
         .stepByStep {
             flex-direction: column;
-            gap: 0;
+            gap: var(--space-base);
+            align-items: center;
+        }
+        .step {
+            justify-content: flex-start;
+            width: 100%;
+            max-width: 300px;
         }
     }
 </style>

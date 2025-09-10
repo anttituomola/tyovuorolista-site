@@ -7,13 +7,14 @@
     <div class="faq">
         <div class="subFaq">
             <h3>Kuinka paljon tämä maksaa?</h3>
-            <p>Hinnoittelu menee työntekijöiden määrän mukaan:<br>
-            <li>maks. 3 työntekijää: 0 € / kk</li>
-            <li>maks. 20 työntekijää: 12 € / kk</li>
-            <li>maks. 50 työntekijää: 42 € / kk</li>
-            <li>yli 50 työntekijää: 120 € / kk</li><br>
-            Kaikkiin hintoihin lisätään alv 24%.
-            </p>
+            <p>Hinnoittelu menee työntekijöiden määrän mukaan:</p>
+            <ul>
+                <li>maks. 3 työntekijää: 0 € / kk</li>
+                <li>maks. 20 työntekijää: 12 € / kk</li>
+                <li>maks. 50 työntekijää: 42 € / kk</li>
+                <li>yli 50 työntekijää: 120 € / kk</li>
+            </ul>
+            <p>Kaikkiin hintoihin lisätään alv 24%.</p>
 
             <h3>Voinko kokeilla maksamatta?</h3>
             <p>Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!</p>
@@ -36,35 +37,80 @@
             <p>Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulosaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla.</p>
             
             <h3>Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?</h3>
-            <p>Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:
+            <p>Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:</p>
+            <ul>
                 <li><strong>Hinnat ovat julkisesti näkyvillä:</strong> me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.</li>
                 <li><strong>Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa.</strong> Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.</li>
                 <li><strong>Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta</strong>. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.</li>
                 <li>Vähemmän ominaisuuksia: me keskitymme vain työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen. <strong>Emme tarjoa työntekijöillesi kännykkäsovelluksia, joita he eivät halua</strong>. Voit hanskata työvuorojen raportoinnin parhaaksi katsomallasi tavalla.</li>
-
-            </p>
+            </ul>
         </div>
     </div>
 </div>
     
 <style>
+    h2 {
+        font-size: var(--text-3xl);
+        text-align: center;
+        margin-bottom: var(--space-2xl);
+        font-weight: 500;
+    }
     .faq {
         display: flex;
-        gap: 3rem;
+        gap: var(--space-2xl);
+        max-width: 1000px;
+        margin: 0 auto;
     }
     .subFaq {
-        width: 50%;
-        flex-grow: 1;
+        flex: 1;
     }
-    h2 {
-        font-size: 3rem;
+    .subFaq h3 {
+        font-size: var(--text-lg);
+        margin-bottom: var(--space-base);
+        margin-top: var(--space-xl);
+        font-weight: 600;
+        color: var(--tummanvihrea);
     }
-    @media (max-width: 640px) {
+    .subFaq h3:first-child {
+        margin-top: 0;
+    }
+    .subFaq p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin-bottom: var(--space-lg);
+    }
+    .subFaq ul {
+        margin: var(--space-base) 0;
+        padding-left: var(--space-xl);
+    }
+    .subFaq li {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin: var(--space-xs) 0;
+        color: var(--harmaa);
+        list-style-type: disc;
+    }
+    .subFaq strong {
+        font-weight: 600;
+        color: var(--tummanvihrea);
+    }
+    @media (max-width: 768px) {
+        h2 {
+            font-size: var(--text-2xl);
+        }
         .faq {
             flex-direction: column;
+            gap: var(--space-xl);
         }
-        .subFaq {
-            width: 100%;
+        .subFaq h3 {
+            font-size: var(--text-base);
+            font-weight: 600;
+        }
+        .subFaq ul {
+            padding-left: var(--space-lg);
+        }
+        .subFaq p, .subFaq li {
+            font-size: var(--text-sm);
         }
     }
 </style>
