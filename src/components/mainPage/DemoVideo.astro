@@ -1,5 +1,4 @@
 ---
-import tyovuorolista_demo from '../../assets/tyovuorolista_demo.mp4'
 import Button from '../common/Button.astro'
 ---
 
@@ -11,7 +10,8 @@ import Button from '../common/Button.astro'
     </p>
     <div class="videoContainer">
         <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
-            <source src={tyovuorolista_demo} type="video/mp4" />
+            <source src="/blogPostImages/tyovuorolista-demo.webm" type="video/webm" />
+            Your browser doesn't support video.
         </video>
     </div>
     <div class="stepByStep">
