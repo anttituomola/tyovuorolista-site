@@ -1,50 +1,44 @@
 ---
 import Navigation from '../components/navigation/Navigation.astro'
 import Footer from '../components/navigation/Footer.astro'
+
+const { 
+  title = "Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti",
+  description = "PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!",
+  ogTitle = "Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti",
+  ogDescription = "PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!",
+  ogUrl = "https://tyovuorolista.fi/",
+  ogImage = "https://tyovuorolista.fi/assets/metaImage.png"
+} = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Tyovuorolista.fi: PK-yrityksen työvuorolistat nopeasti ja helposti" />
+        <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link rel="sitemap" href="/sitemap-index.xml">
         <link rel="sitemap" href="/sitemap-0.xml">
         <!-- Primary Meta Tags -->
-        <title>Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti</title>
-        <meta name="title" content="Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti" />
-        <meta
-            name="description"
-            content="PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
-        />
+        <title>{title}</title>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tyovuorolista.fi/" />
-        <meta property="og:title" content="Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti" />
-        <meta
-            property="og:description"
-            content="PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
-        />
-        <meta
-            property="og:image"
-            content="https://tyovuorolista.fi/assets/metaImage.png"
-        />
+        <meta property="og:url" content={ogUrl} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:image" content={ogImage} />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://tyovuorolista.fi/" />
-        <meta property="twitter:title" content="Työvuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti" />
-        <meta
-            property="twitter:description"
-            content="PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
-        />
-        <meta
-            property="twitter:image"
-            content="https://tyovuorolista.fi/assets/metaImage.png"
-        />
+        <meta property="twitter:url" content={ogUrl} />
+        <meta property="twitter:title" content={ogTitle} />
+        <meta property="twitter:description" content={ogDescription} />
+        <meta property="twitter:image" content={ogImage} />
 
         <script defer data-domain="tyovuorolista.fi" src="https://analytics.tyovuorolista.fi/js/script.js"></script>
 
