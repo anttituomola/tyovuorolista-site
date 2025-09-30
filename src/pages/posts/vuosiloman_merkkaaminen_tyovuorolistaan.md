@@ -23,6 +23,8 @@ Kaikki vapaat merkataan Työvuorolista-sovelluksessa samalla tapaa: raahaamalla 
 
 Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikkaamalla lomaa ja muuttamalla päivämääriä modaalissa.
 
+Voit myös käyttää sovelluksen [lomasuunnittelu-ominaisuutta](/posts/lomasuunnittelu) helpottamaan lomien hallintaa ja suunnittelua.
+
 ## Entä palkattomat vapaat, jotka eivät ole vuosilomaa?
 Osa-aikaisella työntekijällähän päivä voidaan vain jättää tyhjäksi. Tämä on myös hyvää riskien hallintaa: mikäli työntekijä kuitenkin päätyy hommiin päivänä, joka on suunniteltu hänelle palkattomana vapaana, on merkkaamaton päivä yritykselle normihintainen. Merkatulta vapaalta töihin kutsuminen on kalliimpaa.
 

@@ -42,4 +42,4 @@ Klikkaa <strong>oikasta yläkulmasta tiimin nimeä</strong> ja valitse avautuvas
 ## Voinko poistaa tiimin?
 Tiimin voi poistaa tiimin asetukset sivulta - pääset sinne joko tiimivalitsinvalikosta, tai navigaatiosta Hallinta -> Tiimin asetukset. Sivun alalaidassa on Poista tiimi -painike. 
 
-Huomaa, että tiimin poistaminen poistaa kaikki tiimin työvuorolistat ja työvuorot. Työntekijät eivät häviä, vaan ne ovat yhä valittavissa muihin tiimeihin.
+Huomaa, että tiimin poistaminen poistaa kaikki tiimin työvuorolistat ja työvuorot. Työntekijät eivät häviä, vaan ne ovat yhä valittavissa muihin tiimeihin. Lue lisää [työntekijöiden käytöstä eri tiimeissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa).

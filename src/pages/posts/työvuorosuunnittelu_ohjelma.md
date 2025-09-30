@@ -18,6 +18,8 @@ Ravintolan tai kahvilan työvuorosuunnitteluun löytyy rajallinen määrä erila
 ### Excel / Google Sheets
 Työvuorolistaa voi lähteä tekemään taulukko-ohjelmistolla, esim. Excel tai Google Sheets. Hyviä puoli on se, että ainakin Sheets on ilmainen käyttää. Huono puoli on se, että suurin osa ajastasi menee itse listan tekoon, ei työvuorojen suunnitteluun. Lisää aikaa kuluu työvuorojen julkaisemiseen, toteutuneiden tuntien kirjaamiseen, tuntien laskentaan ja muuhun. Tämä kaikki on pois siitä ajasta ja aivotyöstä, jonka voisit käyttää itse työvuorosuunnitteluun.
 
+Jos kuitenkin haluat käyttää ilmaista pohjaa, lue [paras ilmainen pohja ravintolan työvuorolistalle](/posts/tyovuorolista_pohja) -teksti.
+
 Miksi aikaa kannattaa käyttää työvuorosuunnitteluun? Jos saat nipistettyä yhdenkin tunnin pois kuukauden työvuorolistasta (se on melko helppoa, pienenkin ravintolan tuntilista on satoja tunteja per lista), olet säästänyt enemmän rahaa kuin esimerkiksi Tyovuorolista.fi -palvelun kuukausimaksu (12 €). Ja säästät aikaa, jota voit käyttää johonkin muuhun. Vaikka asiakaspalveluun. Tai kaljan juomiseen.
 
 ### Työvuorosuunnitteluohjelma
@@ -47,7 +49,7 @@ Ulkomaisissa ohjelmistoissa - jotka käytännössä aina ovat jenkkiläisiä - s
 ## Miksi valita Tyovuorolista.fi?
 Työvuorolistan etuja kilpailijoihin nähden ovat:
 - Me emme koeta kynyttää sinulta jokaista irtoavaa euroa: hintamme ovat julkisesti nähtävillä, toisin kuin muilla kotimaisilla toimijoilla.
-- Voit aloittaa käytön heti: meillä sovellus ostetaan kotisivuilta, ja sen käytön voi aloittaa heti. Ei demopuheluita, tarjouspyyntöjä ja muut ajanhukkaa.
+- Voit [aloittaa käytön heti](/posts/uuden_tilin_luominen): meillä sovellus ostetaan kotisivuilta, ja sen käytön voi aloittaa heti. Ei demopuheluita, tarjouspyyntöjä ja muut ajanhukkaa.
 - Käytön helppous: työvuorot laitetaan kalenteriin vetämällä työntekijä halutulle kohdalle. Työvuorot julkaistaan nappia painamalla.
 - Joustavuus: me ymmärrämme, että ravintolat ovat hektisiä ympäristöjä. Välillä sääntöjen tulee joustaa. Meillä voit tehdä työvuorolistan myös viikoksi, tai aloittaa sen torstaista, tai tehdä kahden tunnin työvuoron. Me näytämme muistutuksen, mutta emme estä sinua. Sovellus on tehty mahdollistamaan ravintolasi toiminta, ei valvomaan työaikalainsäädäntöä.
 - Ilmainen aloittaa, edullinen käyttää: voit aloittaa käytön heti ilmaiseksi. Vasta kun lisäät neljännen työntekijän, maksat yhden lounaan hintaisen kuukausimaksun. Tällä hinnalla voit tehdä listoja 20:lle työntekijälle!

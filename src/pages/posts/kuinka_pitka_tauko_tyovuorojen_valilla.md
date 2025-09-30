@@ -13,7 +13,7 @@ tags: ["työvuoro", "työaikalainsäädäntö", "tauko", "tauot"]
 Lähtökohtaisesti kahden työvuoron välisen tauon <strong>tulisi olla 11 tuntia</strong>, mutta tästä voidaan joustaa sopimalla asiasta työntekijän kanssa. Tauon <strong>on kuitenkin oltava vähintään 8 tuntia</strong>.
 
 ## Onko työpäivien pituudella merkitystä niiden välisiin taukoihin?
-On: pitkien työpäivien välinen minimitauko on vähintään 11 tuntia. Pitkä työpäivä on 10 tuntia tai pidempi. Toisin sanoen: jos teet tänään ja huomenna vähintään 10-tuntisen työpäivän, niiden välissä pitää olla vähintään 11 tunnin tauko.
+On: pitkien työpäivien välinen minimitauko on vähintään 11 tuntia. Pitkä työpäivä on 10 tuntia tai pidempi. Toisin sanoen: jos teet tänään ja huomenna vähintään 10-tuntisen työpäivän, niiden välissä pitää olla vähintään 11 tunnin tauko. Lue lisää [työvuoron maksimipituudesta](/posts/tyovuoron_maksimipituus_ravintola-alalla).
 
 - Esimerkki: olet töissä tänään klo 15-02, eli 11 tuntia. Huomenna työpäiväsi on 10-tuntinen, joten se voi alkaa aikaisintaan klo. 13, jotta 11 tunnin lepoaika toteutuu.
 

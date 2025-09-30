@@ -41,7 +41,7 @@ Vuosittainen tilaus vaatii **laskutustiedot**. Voit valita kahdesta laskutuskana
 ## Ei irtisanomisaikaa
 
 Molemmissa tilaustyypeissä **ei ole irtisanomisaikaa**:
-- Jos peruutat tilauksen, maksut lakkaavat välittömästi
+- Jos [peruutat tilauksen](/posts/tilauksen_peruuttaminen), maksut lakkaavat välittömästi
 - Palvelu pysyy käytössä kulloinkin voimassa olevan tilausjakson loppuun asti
 - Et maksa ylimääräisiä kertoja peruutuksen jälkeen
 
@@ -67,7 +67,7 @@ Molemmissa tilaustyypeissä **ei ole irtisanomisaikaa**:
 Voit hallita tilauksiasi ja vaihtaa paketteja osoitteessa:
 [https://app.tyovuorolista.fi/admin/profile](https://app.tyovuorolista.fi/admin/profile)
 
-Profiilisivulta löydät kaikki tilaustiedot ja voit tehdä tarvittavat muutokset helposti. Muutokset astuvat voimaan automaattisesti sääntöjen mukaisesti ilman erillistä vahvistusta.
+Profiilisivulta löydät kaikki tilaustiedot ja voit tehdä tarvittavat muutokset helposti. Lue lisää [tilauksen ostamisesta](/posts/tilauksen_ostaminen) tai [tilauksen peruuttamisesta](/posts/tilauksen_peruuttaminen). Muutokset astuvat voimaan automaattisesti sääntöjen mukaisesti ilman erillistä vahvistusta.
 
 ## Kumpi sopii sinulle?
 

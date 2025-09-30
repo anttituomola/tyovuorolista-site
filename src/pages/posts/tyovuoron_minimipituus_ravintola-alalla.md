@@ -31,4 +31,4 @@ Melkein aina. "Perusteltu syy" on sen verran löyhä käsite, etten ehkä lähti
 Kuitenkin esimerkiksi sellainen, jossa tunteja jaetaan monelle työntekijälle vaikkapa kolmen tunnin jaksoissa, jotta kaikille saadaan päivään tunteja, ei ole perusteltu syy.
 
 ## Tarviiko minun muistaa kaikki tämä ulkoa?
-Ei tarvitse. Käytä tyovuorolista.fi:tä, niin se huomauttaa aina, kun olet tekemässä alle neljän tunnin työvuoroa. Sovellus on joustava ja sallii tämän, mutta muistaa muistuttaa siitä.
+Ei tarvitse. Käytä tyovuorolista.fi:tä, niin se huomauttaa aina, kun olet tekemässä alle neljän tunnin työvuoroa. Sovellus on joustava ja sallii tämän, mutta muistaa muistuttaa siitä. Voit myös asettaa [työvuorojen oletuspituuden](/posts/vuorojen_oletuspituus_ja_aikaportaat) vastaamaan yrityksesi tarpeita.

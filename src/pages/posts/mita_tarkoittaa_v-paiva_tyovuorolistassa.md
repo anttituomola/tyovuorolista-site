@@ -18,9 +18,11 @@ Jokaisen työssäoloviikon tulee sisältää V-päivä, eli käytännössä näi
 V-päivä voi olla mikä tahansa viikon päivä, joskaan vapaapäivien välissä ei voi olla yli seitsemää työpäivää (vapaapäivän voi toki muodostaa myös X, TS, tai mikä tahansa muu ei-työpäivä).
 
 ## Muita viikkolepopäivän eli V-päivän määräyksiä
-V-päivä kestää 30 tuntia, eli sitä edeltävän työvuoron lopun ja sitä seuraavan työvuoron alun väliin tulee jäädä vähintään 30 tuntia.
+V-päivä kestää 30 tuntia, eli sitä edeltävän työvuoron lopun ja sitä seuraavan työvuoron alun väliin tulee jäädä vähintään 30 tuntia. Lue lisää [työvuorojen välisistä tauoista](/posts/kuinka_pitka_tauko_tyovuorojen_valilla).
 
 Koska V-päiviä ei voi siirtää muille viikoille, voi kullakin viikolla olla enintään ja vähintään 1 V-päivä.
+
+Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä.
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
   <source src="/blogPostImages/v-vuoro-eli-viikkovapaapaiva-tyovuorolistassa.webm" type="video/webm">

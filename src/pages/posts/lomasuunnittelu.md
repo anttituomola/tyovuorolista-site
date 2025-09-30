@@ -85,6 +85,8 @@ Järjestelmä toimii seuraavalla tavalla vuorojen ja lomien päällekkäisyyksie
 - **Vahvistetun loman** päälle ei voi laittaa työvuoroa tai muuta vapaapäivää
 - **Lomatoiveen** päälle voi laittaa työvuoron tai muun vapaapäivän, mutta järjestelmä näyttää tällöin varoituksen
 
+Lue myös [vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan) -teksti, jossa kerrotaan tarkemmin lomien merkkaamisesta kalenterinäkymässä.
+
 ## Lomapäiväyhteenveto
 
 Lomasuunnittelukalenterin alla on Lomapäiväyhteenveto-ominaisuus, joka laskee valitulle ajanjaksolle merkatut lomat ja lomatoiveet. Yhteenveto jakautuu kahteen osaan:

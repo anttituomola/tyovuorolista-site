@@ -17,7 +17,7 @@ Ravintola-alalla pisin sallittu työvuoro on <strong>10 tuntia</strong>. Työnte
 Kai siinä on ajateltu työntekijän ja työnantajan yhteistä etua: väsynyt työntekijä ei ole hyväksi kenellekään. Käytännössä, ja etenkin sesonkipaikoissa, painetaan kyllä järjestään pidempääkin päivää. Alan suhteellisen matala palkkaus myös kannustaa tekemään sen 300 tuntia kuukaudessa.
 
 ## Saako pidempiä työvuoroja teettää?
-Kyllä, mutta ainoastaan työntekijän suostumuksella. Edes kymmentuntisia työpäiviä ei saa teettää "kohtuuttomasti", mitä se sitten kenellekin tarkoittaa. Edes työntekijän suostumuksella vuorokauden työtunnit eivät saa ylittää 16 tuntia, ja työvuorojen väliin on jäätävä lainmukainen tauko.
+Kyllä, mutta ainoastaan työntekijän suostumuksella. Edes kymmentuntisia työpäiviä ei saa teettää "kohtuuttomasti", mitä se sitten kenellekin tarkoittaa. Edes työntekijän suostumuksella vuorokauden työtunnit eivät saa ylittää 16 tuntia, ja työvuorojen väliin on jäätävä [lainmukainen tauko](/posts/kuinka_pitka_tauko_tyovuorojen_valilla).
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
   <source src="/blogPostImages/tyovuoron_maksimipituus_ravintola-alalla.mp4" type="video/mp4">

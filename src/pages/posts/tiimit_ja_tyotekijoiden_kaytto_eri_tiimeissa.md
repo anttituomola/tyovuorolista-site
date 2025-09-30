@@ -11,6 +11,8 @@ tags: ["tiimit", "osastot", "työvuorosuunnittelu"]
 ---
 Tiimit ovat erityisen hyödyllisiä yrityksille, joilla on osittain samat työntekijät useassa eri tiimissä tai lokaatiossa. Jos vaikka kokki meneekin paikkaamaan salin vajausta, tai jos varastonhoitaja tekeekin aika ajoin vuoroja myymälän puolella, ei samaa työntekijää tarvitse "luoda" joka tiimiin erikseen. Voit valita tiimin jäsenet jokaiselle tiimille erikseen kaikkien työntekijöittesi joukosta.
 
+Lue myös [tiimit-ominaisuus: monen eri tiimin työvuorosuunnittelu](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) saadaksesi lisätietoja tiimien luomisesta ja hallinnasta.
+
 ## Miten valitsen työntekijät tiimeihin?
 Työntekijät voi valita tiimeihin kahdella tapaa; joko tiimi kerrallaan, tai kaikki työntekijät ja tiimit yhdestä näkymästä.
 ### Tiimin asetukset sivulta
