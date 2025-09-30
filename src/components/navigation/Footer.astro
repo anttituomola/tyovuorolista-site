@@ -12,6 +12,16 @@ const currentYear = new Date().getFullYear()
         <p><a href='/kayttoohjeet'>Käyttöohjeet</a></p>
         <p><a href='/kayttoehdot'>Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</a></p>
     </div>
+    <div class='industryLinks'>
+        <h4>Toimialakohtaiset ratkaisut</h4>
+        <div class='industryLinksGrid'>
+            <p><a href='/ravintolat-ja-kahvilat'>Ravintolat ja kahvilat</a></p>
+            <p><a href='/taksiyritykset-ja-kuljetus'>Taksiyritykset ja kuljetus</a></p>
+            <p><a href='/siivous-ja-kiinteistopalvelut'>Siivous- ja kiinteistöpalvelut</a></p>
+            <p><a href='/hotellit-ja-majatalot'>Hotellit ja majatalot</a></p>
+            <p><a href='/tapahtumat-ja-sesonkityo'>Tapahtumat ja sesonkityö</a></p>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -40,6 +50,32 @@ const currentYear = new Date().getFullYear()
         text-decoration: none;
         color: black;
     }
+    .industryLinks {
+        margin-bottom: 2rem;
+    }
+    .industryLinks h4 {
+        margin: 1rem 0;
+        color: var(--tummanvihrea);
+        font-size: 1.1rem;
+    }
+    .industryLinksGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0.5rem;
+        justify-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+    }
+    .industryLinksGrid a {
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-size: 0.9rem;
+    }
+    .industryLinksGrid a:hover {
+        color: var(--tummanvihrea);
+    }
     @media (max-width: 768px) {
         h3 {
             font-size: 1rem;
@@ -52,6 +88,13 @@ const currentYear = new Date().getFullYear()
         }
         .footerLinks p {
             margin: 0.5rem 0;
+        }
+        .industryLinksGrid {
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
+        .industryLinks h4 {
+            font-size: 1rem;
         }
     }
 </style>

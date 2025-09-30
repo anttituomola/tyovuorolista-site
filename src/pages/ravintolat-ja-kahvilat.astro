@@ -1,0 +1,264 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+---
+
+<Layout
+    title="Ravintolan työvuorolistat helposti ja nopeasti | Työvuorolista.fi"
+    description="Unohda Excel ja paperiset listat. Työvuorolista tekee ravintolan ja kahvilan työvuorosuunnittelusta nopeaa ja virheetöntä. Kokeile ilmaiseksi!"
+    ogTitle="Ravintolan työvuorolistat helposti ja nopeasti"
+    ogDescription="Hallitse kiireiset lounas- ja iltavuorot drag-and-drop-kalenterissa. Tiimien hallinta keittiölle, salille ja baaripuolelle. Ilmainen ≤3 työntekijää."
+    ogUrl="https://tyovuorolista.fi/ravintolat-ja-kahvilat"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <div class="landing-wrapper">
+        <div class="hero-section">
+            <h1>Ravintolan työvuorolistat helposti ja nopeasti</h1>
+            <p class="hero-subtitle">Unohda Excel ja paperiset listat. Työvuorolista on kotimainen ratkaisu, joka tekee ravintolan ja kahvilan työvuorosuunnittelusta nopeaa ja virheetöntä.</p>
+            <p class="hero-cta"><em>Kokeile ja julkaise ensimmäinen lista viidessä minuutissa!</em></p>
+            
+            <div class="video-container">
+                <video controls preload="metadata" poster="/tyovuorolista_hero.png">
+                    <source src="/blogPostImages/tyovuorolista-demo.webm" type="video/webm" />
+                    Your browser doesn't support video.
+                </video>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="problem-solution">
+                <h2>Ongelma ja ratkaisu</h2>
+                <ul>
+                    <li>Hallitse kiireiset lounas- ja iltavuorot drag-and-drop-kalenterissa.</li>
+                    <li>Tiimien hallinta: jaa keittiö, sali ja baaripuoli omiin tiimeihin.</li>
+                    <li>Personoidut sähköpostilistat kokoavat vuorot kaikista tiimeistä.</li>
+                </ul>
+            </div>
+
+            <div class="key-features">
+                <h2>Avainominaisuudet</h2>
+                <ul>
+                    <li>Ilmainen ≤3 työntekijää.</li>
+                    <li>Toteutuneiden tuntien automaattinen laskenta.</li>
+                    <li>Lomasuunnittelu suoraan kalenterissa.</li>
+                    <li>Mallipohjat toistuville listoille.</li>
+                    <li>Sähköpostin esikatselu ennen lähetystä.</li>
+                </ul>
+            </div>
+
+            <div class="testimonial">
+                <h2>Asiakkaiden kokemuksia</h2>
+                <blockquote>
+                    "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!"
+                    <cite>– <strong>Laura Dahlman, Ravintola Apaja</strong></cite>
+                </blockquote>
+            </div>
+
+            <div class="pricing">
+                <h2>Hinnoittelu</h2>
+                <div class="pricing-tiers">
+                    <div class="tier">
+                        <h3>0 €</h3>
+                        <p>3 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>12 €</h3>
+                        <p>20 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>42 €</h3>
+                        <p>50 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>120 €</h3>
+                        <p>yli 50 työntekijää (ALV 24 %)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <Button
+                    text="Kokeile Työvuorolistaa ilmaiseksi"
+                    backgroundColor="var(--tummanvihrea)"
+                    textColor="var(--vaaleanharmaa)"
+                    href="https://app.tyovuorolista.fi/CreateNewAccount"
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .landing-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-base);
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-bottom: 1px solid var(--vaaleanharmaa);
+        margin-bottom: var(--space-4xl);
+    }
+
+    h1 {
+        font-size: var(--text-4xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-xl);
+        font-weight: 600;
+    }
+
+    .hero-subtitle {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin-bottom: var(--space-lg);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-cta {
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-4xl);
+    }
+
+    .video-container {
+        margin: 0 auto;
+        max-width: 800px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4xl);
+    }
+
+    h2 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-lg);
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: var(--space-sm) 0;
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        position: relative;
+        padding-left: var(--space-lg);
+    }
+
+    li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--tummanvihrea);
+        font-weight: bold;
+    }
+
+    .testimonial {
+        background-color: var(--vaaleanharmaa);
+        padding: var(--space-4xl);
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    blockquote {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+        font-style: italic;
+    }
+
+    cite {
+        display: block;
+        margin-top: var(--space-lg);
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        font-style: normal;
+    }
+
+    .pricing-tiers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-lg);
+    }
+
+    .tier {
+        background-color: white;
+        border: 1px solid var(--vaaleanharmaa);
+        border-radius: 8px;
+        padding: var(--space-xl);
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .tier:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .tier h3 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-sm) 0;
+        font-weight: 600;
+    }
+
+    .tier p {
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: var(--text-3xl);
+        }
+
+        .hero-subtitle {
+            font-size: var(--text-base);
+        }
+
+        .video-container {
+            max-width: 100%;
+        }
+
+        .content-section {
+            gap: var(--space-2xl);
+        }
+
+        .testimonial {
+            padding: var(--space-2xl);
+        }
+
+        .pricing-tiers {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

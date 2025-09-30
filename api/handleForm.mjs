@@ -5,6 +5,16 @@ export default function handler(
     request,
     response,
 ) {
+    // Add CORS headers
+    response.setHeader('Access-Control-Allow-Origin', '*');
+    response.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    // Handle preflight requests
+    if (request.method === 'OPTIONS') {
+        response.status(200).end();
+        return;
+    }
 
     const { email, phone } = request.body
     console.log("request", request.body)

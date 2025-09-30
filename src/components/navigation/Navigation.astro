@@ -1,13 +1,18 @@
 ---
 import Button from '../common/Button.astro'
 import RegisterButton from '../common/RegisterButton.astro'
+import { Image } from 'astro:assets'
+import logo from '../../assets/logo.png'
 ---
 
 <nav class='nav'>
     <div class='nav-container'>
         <a href='/' class='logo'>
-            <h1>Tyovuorolista.fi</h1>
-            <h4>PK-yrityksen työvuorolista nopeasti ja helposti</h4>
+            <Image src={logo} alt="Työvuorolista.fi logo" class="logo-symbol" quality="max" />
+            <div class="logo-text">
+                <h1>Tyovuorolista.fi</h1>
+                <h4>PK-yrityksen työvuorolista nopeasti ja helposti</h4>
+            </div>
         </a>
 
         <div class='mobile-menu-btn'>
@@ -100,17 +105,42 @@ import RegisterButton from '../common/RegisterButton.astro'
 
     .logo {
         display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin: var(--space-base);
+        gap: var(--space-sm);
+        transition: transform 0.2s ease;
+    }
+    
+    .logo:hover {
+        transform: scale(1.02);
+    }
+    
+    .logo-symbol {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+    }
+    
+    .logo-text {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        text-decoration: none;
-        color: var(--hiekka);
-        margin: 1rem;
     }
-
-    .logo h1 {
+    
+    .logo-text h1 {
         font-size: 2rem;
         margin: 0;
         text-transform: uppercase;
+        color: var(--tummanvihrea);
+        font-weight: 600;
+    }
+    
+    .logo-text h4 {
+        font-size: 0.8rem;
+        margin: 0;
+        color: var(--harmaa);
+        font-weight: 400;
     }
 
     .mobile-menu-btn {
@@ -182,12 +212,16 @@ import RegisterButton from '../common/RegisterButton.astro'
             gap: 0.5rem;
         }
 
-        .logo h1 {
+        .logo-symbol {
+            height: 32px;
+        }
+        
+        .logo-text h1 {
             font-size: 1.5rem;
         }
 
-        .logo h4 {
-            font-size: 0.8rem;
+        .logo-text h4 {
+            font-size: 0.7rem;
         }
     }
 </style>

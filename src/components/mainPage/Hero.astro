@@ -25,33 +25,59 @@ import RegisterButton from '../common/RegisterButton.astro'
         align-items: center;
         text-align: center;
         text-wrap: balance;
+        padding: var(--space-xl) var(--space-base);
+        gap: var(--space-xl);
     }
     .heroImage {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        overflow: hidden;
+        margin: var(--space-lg) 0;
     }
     h1 {
-        font-size: 5rem;
+        font-size: var(--text-5xl);
+        font-weight: 600;
+        margin-bottom: var(--space-base);
+        max-width: 90%;
     }
     h3 {
-        font-size: 30px;
-        max-width: 80%;
+        font-size: var(--text-xl);
+        font-weight: 400;
+        max-width: 85%;
+        margin-bottom: var(--space-lg);
+        color: var(--harmaa);
     }
-    @media (max-width: 640px) {
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: var(--space-base);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons span {
+        font-size: var(--text-sm);
+        font-weight: 500;
+    }
+    @media (max-width: 768px) {
+        .hero {
+            gap: var(--space-lg);
+            padding: var(--space-lg) var(--space-base);
+        }
         h1 {
-            font-size: 3rem;
+            font-size: var(--text-4xl);
+            max-width: 95%;
+        }
+        h3 {
+            font-size: var(--text-lg);
+            max-width: 90%;
         }
         .heroImage img {
-            width: 80%;
+            width: 90%;
             height: auto;
         }
         .buttons {
-            display: flex;
             flex-direction: column;
-        }
-        @media (max-width: 640px) {
-            .buttons {
-                gap: 0.6rem;
-            }
+            gap: var(--space-sm);
         }
     }
 </style>

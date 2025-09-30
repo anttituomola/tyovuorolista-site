@@ -1,36 +1,76 @@
 ---
 const allPosts = await Astro.glob('../../pages/posts/*.md')
 const sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
-const fourMostRecentPosts = sortedPosts.slice(0, 4)
+const sixMostRecentPosts = sortedPosts.slice(0, 6)
 import BlogPostCard from '../common/BlogPostCard.astro'
 ---
 
 <div class="wrapper">
     <h1 style="text-align: center;">Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta</h1>
     <div class="blogPosts">
-        {fourMostRecentPosts.map((post) => <BlogPostCard post={post} />)}
+        {sixMostRecentPosts.map((post) => <BlogPostCard post={post} />)}
     </div>
     <a href="/blogitekstit"><h3>Katso kaikki tekstit</h3></a>
 </div>
 
 <style>
-    .blogPosts {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
+    h1 {
+        font-size: var(--text-3xl);
+        margin-bottom: var(--space-2xl);
+        font-weight: 500;
+        color: var(--tummanvihrea);
     }
+    
+    .blogPosts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-xl);
+        margin-bottom: var(--space-2xl);
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 0;
+    }
+    
     h3 a {
-        color: var(--color-primary);
+        color: var(--tummanvihrea);
+        text-decoration: none;
+        font-size: var(--text-xl);
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+    
+    h3 a:hover {
+        color: var(--hiekka);
     }
     
     a:visited {
-        color: var(--color-primary);
+        color: var(--tummanvihrea);
     }
-    @media (max-width: 640px) {
-            h1 {
-                font-size: 1.5rem;
-            }
+    
+    @media (max-width: 900px) {
+        .blogPosts {
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-lg);
         }
+    }
+    
+    @media (max-width: 640px) {
+        h1 {
+            font-size: var(--text-2xl);
+        }
+        
+        .blogPosts {
+            grid-template-columns: 1fr;
+            gap: var(--space-base);
+        }
+        
+        h3 a {
+            font-size: var(--text-lg);
+        }
+    }
 </style>

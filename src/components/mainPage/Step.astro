@@ -62,63 +62,112 @@ const { steps, step, src, title, description } = Astro.props
 
 
 <style>
+    .wrapper {
+        margin: var(--space-3xl) 0;
+    }
     .numberedBox {
-        border: 2px solid var(--ruskeaharmaa);
-        border-radius: 5px;
-        width: 2rem;
-        height: 2rem;
-        margin-top: 2rem;
+        border: 1px solid var(--hiekka);
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-weight: bold;
+        font-weight: 600;
+        font-size: var(--text-xs);
+        background: var(--hiekka);
+        color: white;
+        flex-shrink: 0;
     }
     .title {
         display: flex;
-        align-items: baseline;
-        gap: 1rem;
+        align-items: center;
+        gap: var(--space-base);
+        margin-bottom: var(--space-lg);
+    }
+    .title h2 {
+        font-size: var(--text-2xl);
+        font-weight: 500;
+        margin: 0;
     }
     .textAndImage {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin: 2rem 0;
-        gap: 1rem;
+        align-items: flex-start;
+        gap: var(--space-2xl);
+        max-width: 1000px;
+        margin: 0 auto;
     }
     .text {
-        flex-basis: 45%;
+        flex: 1;
+        max-width: 500px;
+    }
+    .text > p {
+        font-size: var(--text-lg);
+        margin-bottom: var(--space-xl);
+        line-height: 1.6;
+    }
+    .image {
+        flex: 1;
+        max-width: 400px;
     }
     .image img {
-        flex-basis: 45%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
         object-fit: contain;
         width: 100%;
     }
     .icon {
-        width: 3rem;
-        height: 3rem;
+        width: 1.25rem;
+        height: 1.25rem;
+        color: var(--hiekka);
+        flex-shrink: 0;
     }
     .step {
         display: flex;
-        gap: 1rem;
-        margin-top: 1rem;
-        align-items: center;
+        gap: var(--space-base);
+        margin-bottom: var(--space-lg);
+        align-items: flex-start;
     }
-    p {
+    .step:last-child {
+        margin-bottom: 0;
+    }
+    .step p {
         margin: 0;
+        font-size: var(--text-base);
+        line-height: 1.5;
     }
-    @media (max-width: 640px) {
+    .step strong {
+        font-weight: 600;
+        color: var(--tummanvihrea);
+    }
+    @media (max-width: 768px) {
+        .wrapper {
+            margin: var(--space-2xl) 0;
+            padding: 0 var(--space-base);
+        }
         .textAndImage {
             flex-direction: column;
-            justify-content: center;
+            gap: var(--space-xl);
             align-items: center;
+        }
+        .text {
+            max-width: 100%;
+            order: 2;
         }
         .image {
             max-width: 100%;
-            height: auto;
+            order: 1;
         }
-        .text {
-            width: 80%;
+        .title h2 {
+            font-size: var(--text-xl);
+        }
+        .text > p {
+            font-size: var(--text-base);
+        }
+        .step {
+            gap: var(--space-sm);
+            margin-bottom: var(--space-base);
         }
     }
 </style>
