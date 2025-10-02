@@ -25,7 +25,7 @@ Lomasuunnittelu on jätetty toistaiseksi tietokoneelle, sillä kuukausinäkymä 
 
 <img src="/blogPostImages/mobile-usage/05-mobile-navigation-menu.png" alt="Navigointivalikko mobiilissa" width="100%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
-Navigointi toimii hamburgervalikon kautta:
+Navigointi toimii "hampurilaisvalikon" kautta:
 - Kaikki sivut yhdessä paikassa
 - Aktiivisen sivun korostus
 - "Vain tietokone" -merkintä toiminnoissa, jotka vaativat isomman näytön
