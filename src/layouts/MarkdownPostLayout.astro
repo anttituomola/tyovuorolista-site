@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
     <div class="blogWrapper">
         {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} />}
         <h1>{frontmatter.title}</h1>
-        <p>Kirjoittanut {frontmatter.author}<br />
+        <p class="metadata">Kirjoittanut {frontmatter.author}<br />
         Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
         <slot />
         <div style="margin: 4rem auto 2rem auto">
@@ -22,3 +22,24 @@ import dayjs from 'dayjs'
         </div>
     </div>
 </Layout>
+
+<style>
+    .blogWrapper :global(h2) {
+        margin-top: 4rem;
+    }
+    
+    .blogWrapper :global(h2:first-of-type) {
+        margin-top: 2rem;
+    }
+    
+    .blogWrapper :global(h3) {
+        margin-top: 2.5rem;
+    }
+    
+    .metadata {
+        font-size: 0.9rem;
+        color: #666;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+</style>
