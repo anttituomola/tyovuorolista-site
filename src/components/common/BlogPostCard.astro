@@ -1,7 +1,7 @@
 ---
 const { title, pubDate, image, description, tags } = Astro.props.post.frontmatter
 const { url } = Astro.props.post
-const { url: imageUrl, alt } = image; 
+const { url: imageUrl, alt } = image || { url: '', alt: '' }; 
 
 import dayjs from 'dayjs'
 ---
@@ -9,21 +9,20 @@ import dayjs from 'dayjs'
 <div class="blogPostCard" >
     <a href={url}>
         <div>
-            <img src={imageUrl} alt={alt} />
+            {imageUrl && <img src={imageUrl} alt={alt} />}
             <h1>{title}</h1>
             <p>{description}</p>
-            <p>Julkaistu <strong>{dayjs(pubDate).format('DD.MM.YYYY')}</strong></p>
-            <p>
-                Avainsanat:
-                {
-                    tags.map((tag: string, index: number) => {
-                        if (index === tags.length - 1) {
-                            return tag
-                        } else {
-                            return tag + ', '
-                        }
-                    })
-                }
+            <p class="metadata">
+                Julkaistu {dayjs(pubDate).format('DD.MM.YYYY')}
+            </p>
+            <p class="tags">
+                Avainsanat: {tags.map((tag: string, index: number) => {
+                    if (index === tags.length - 1) {
+                        return tag
+                    } else {
+                        return tag + ', '
+                    }
+                })}
             </p>
         </div>
     </a>
@@ -40,7 +39,6 @@ img {
     .blogPostCard {
         display: flex;
         flex-direction: column;
-        align-items: center;
         border: 1px solid var(--vaaleanharmaa);
         padding: var(--space-xl);
         border-radius: 12px;
@@ -51,6 +49,17 @@ img {
         height: 100%;
         width: 100%;
         box-sizing: border-box;
+    }
+    .blogPostCard > a {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .blogPostCard > a > div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
     .blogPostCard:hover {
         transform: translateY(-2px);
@@ -79,6 +88,21 @@ img {
         color: var(--tummanvihrea);
         font-weight: 600;
     }
+    .metadata {
+        font-size: 0.8rem;
+        color: #999;
+        margin-top: 0.5rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .tags {
+        font-size: 0.8rem;
+        color: #999;
+        margin-top: auto;
+        padding-top: var(--space-base);
+        text-align: center;
+        line-height: 1.4;
+    }
     @media (max-width: 640px) {
         .blogPostCard {
             width: 100%;
@@ -92,6 +116,9 @@ img {
         }
         p {
             font-size: var(--text-xs);
+        }
+        .metadata {
+            font-size: 0.8rem;
         }
     }
 </style>

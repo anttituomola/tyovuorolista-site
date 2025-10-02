@@ -6,7 +6,7 @@ description: 'Uusi esikatselutoiminto antaa sinulle mahdollisuuden tarkistaa ty�
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sahkopostin_esikatselutoiminto_hero.png'
-    alt: 'Sähköpostin esikatselutoiminto työvuorolista.fi:ssä'
+    alt: 'Sähköpostin esikatselutoiminto tyovuorolista.fi:ssä'
 tags: ["sähköposti", "esikatselutoiminto", "työvuorolistat", "julkaisu"]
 ---
 

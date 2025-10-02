@@ -35,7 +35,7 @@ Molemmat ovat aivan mahdollisia vaihtoehtoja, mutta kerrankin kannattaa valita k
 - kuinka pitkä tauko työvuorojen välissä tulee olla (11 h)
 
 #### Kotimaisia ohjelmistoja ovat mm:
-- <a href='https://tyovuorolista.fi' target='_blank'>Työvuorolista.fi</a>
+- <a href='https://tyovuorolista.fi' target='_blank'>tyovuorolista.fi</a>
 - <a href='https://maraplan.fi' target='_blank'>MaraPlan</a>
 - <a href='https://www.hrsuunti.fi/' target='_blank'>HRSuunti</a>
 
