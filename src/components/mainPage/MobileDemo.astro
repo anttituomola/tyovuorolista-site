@@ -1,0 +1,155 @@
+---
+import Button from '../common/Button.astro'
+---
+
+<div class="wrapper">
+    <div class="content">
+        <div class="textSection">
+            <h2>Käytä sovellusta myös mobiilissa</h2>
+            <p class="description">
+                Työvuorolista-sovellus toimii täysimittaisena myös älypuhelimissa ja tableteissa. 
+                Voit suunnitella työvuoroja, hallita työntekijöitä ja kirjata toteutuneita tunteja 
+                suoraan mobiililaitteellasi.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <span class="checkmark">✓</span>
+                    <span>Työvuorojen suunnittelu ja muokkaus</span>
+                </div>
+                <div class="feature">
+                    <span class="checkmark">✓</span>
+                    <span>Työntekijöiden hallinta</span>
+                </div>
+                <div class="feature">
+                    <span class="checkmark">✓</span>
+                    <span>Toteutuneiden tuntien kirjaus</span>
+                </div>
+                <div class="feature">
+                    <span class="checkmark">✓</span>
+                    <span>Listojen julkaisu ja sähköpostitus</span>
+                </div>
+            </div>
+            <p class="moreInfo">
+                Käyttöliittymä mukautuu automaattisesti kosketusnäytöille, ja navigointi toimii 
+                kätevästi hampurilaisvalikon kautta.
+            </p>
+            <Button 
+                text="Lue lisää mobiilista" 
+                backgroundColor="var(--hiekka)" 
+                href="/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla" 
+            />
+        </div>
+        <div class="videoSection">
+            <div class="videoContainer">
+                <video 
+                    controls 
+                    preload="none" 
+                    poster="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png"
+                    width="100%"
+                >
+                    <source src="/blogPostImages/mobile-demo.webm" type="video/webm" />
+                    Selaimesi ei tue videota.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .wrapper {
+        width: 100%;
+    }
+    h2 {
+        font-size: var(--text-3xl);
+        margin-bottom: var(--space-base);
+        font-weight: 500;
+        color: var(--tummanvihrea);
+    }
+    .content {
+        display: flex;
+        gap: var(--space-4xl);
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .textSection {
+        flex: 1;
+        min-width: 0;
+    }
+    .description {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        margin-bottom: var(--space-xl);
+        color: var(--harmaa);
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-base);
+        margin-bottom: var(--space-xl);
+    }
+    .feature {
+        display: flex;
+        align-items: center;
+        gap: var(--space-sm);
+        font-size: var(--text-base);
+    }
+    .checkmark {
+        color: var(--tummanvihrea);
+        font-size: var(--text-xl);
+        font-weight: 600;
+        flex-shrink: 0;
+    }
+    .moreInfo {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin-bottom: var(--space-xl);
+        color: var(--harmaa);
+    }
+    .videoSection {
+        flex: 0 0 auto;
+        width: 280px;
+    }
+    .videoContainer {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #000;
+    }
+    .videoContainer video {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    @media (max-width: 968px) {
+        .content {
+            flex-direction: column-reverse;
+            gap: var(--space-2xl);
+        }
+        .videoSection {
+            width: 100%;
+            max-width: 320px;
+        }
+        h2 {
+            font-size: var(--text-2xl);
+            text-align: center;
+        }
+        .description, .moreInfo {
+            font-size: var(--text-base);
+        }
+        .feature {
+            font-size: var(--text-sm);
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .features {
+            gap: var(--space-sm);
+        }
+        .checkmark {
+            font-size: var(--text-lg);
+        }
+    }
+</style>
+
