@@ -12,6 +12,11 @@ tags: ["resurssit", "autot", "työkalut", "aikataulutus", "työvuorojen hallinta
 
 Työvuorolista tukee nyt resurssien aikataulutusta, jolloin voit liittää autot, pakettiautot, työkalut ja muut laitteet työvuoroihin. Järjestelmä auttaa välttämään konflikteja ja varoittaa, jos resurssi on jo käytössä tai poissa käytöstä huollon vuoksi.
 
+<video controls width="100%">
+    <source src="/blogPostImages/resources/tyovuorolistan_resurssit.mp4" type="video/mp4">
+    Selaimesi ei tue videotägiä.
+</video>
+
 <div style="border: 2px solid #e2e2e2; border-radius: 4px; padding: 1rem; margin: 1.5rem 0; background-color: #f9f9f9;">
 <strong>💡 Pikakäyttöönotto:</strong> Nopein tapa aloittaa resurssien käyttö on siirtyä <a href="https://app.tyovuorolista.fi/admin/resources" target="_blank">resurssisivulle</a>, kytkeä resurssien aikataulutus päälle ja lisätä ensimmäinen resurssisi.
 </div>
