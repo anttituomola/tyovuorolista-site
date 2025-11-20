@@ -43,6 +43,18 @@ import Button from '../components/common/Button.astro'
                 </ul>
             </div>
 
+            <div class="resource-scheduling">
+                <h2>Autojen ja ajoneuvojen aikataulutus</h2>
+                <p>Uusi resurssien aikataulutus -ominaisuus helpottaa autojen ja pakettiautojen hallintaa merkittävästi. Liitä autot suoraan työvuoroihin ja järjestelmä auttaa välttämään konflikteja:</p>
+                <ul>
+                    <li><strong>Automaattiset varoitukset:</strong> Järjestelmä varoittaa, jos auto on jo käytössä samaan aikaan tai poissa käytöstä huollon vuoksi.</li>
+                    <li><strong>Oletusautot:</strong> Aseta työntekijöille oletusautot, jotka valitaan automaattisesti uusiin työvuoroihin.</li>
+                    <li><strong>Huollon hallinta:</strong> Merkitse autot poissa käytöstä huollon ajaksi, ja järjestelmä varoittaa, jos yrität käyttää niitä.</li>
+                    <li><strong>Selkeys:</strong> Autot näkyvät automaattisesti työvuorolistoissa ja sähköposteissa, jolloin kuljettajat tietävät heti, mitä autoa he käyttävät.</li>
+                </ul>
+                <p style="margin-top: var(--space-lg);"><a href="/posts/resurssien-aikataulutus-ominaisuus" style="color: var(--tummanvihrea); text-decoration: underline; font-weight: 500;">Lue lisää resurssien aikataulutus -ominaisuudesta →</a></p>
+            </div>
+
             <div class="testimonial">
                 <h2>Asiakkaiden kokemuksia</h2>
                 <blockquote>
@@ -221,6 +233,29 @@ import Button from '../components/common/Button.astro'
         margin: 0;
     }
 
+    .resource-scheduling {
+        background-color: var(--vaaleanharmaa);
+        padding: var(--space-4xl);
+        border-radius: 12px;
+        border: 2px solid var(--tummanvihrea);
+    }
+
+    .resource-scheduling p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin-bottom: var(--space-lg);
+    }
+
+    .resource-scheduling ul {
+        margin-top: var(--space-lg);
+    }
+
+    .resource-scheduling li strong {
+        color: var(--tummanvihrea);
+        font-weight: 600;
+    }
+
     .cta-section {
         text-align: center;
         padding: var(--space-4xl) 0;
@@ -245,6 +280,10 @@ import Button from '../components/common/Button.astro'
         }
 
         .testimonial {
+            padding: var(--space-2xl);
+        }
+
+        .resource-scheduling {
             padding: var(--space-2xl);
         }
 
