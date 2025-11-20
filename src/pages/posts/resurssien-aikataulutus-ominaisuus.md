@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Resurssien aikataulutus -ominaisuus helpottaa autojen ja työkalujen hallintaa'
-pubDate: 2025-11-03
+pubDate: 2025-11-20
 description: 'Uusi resurssien aikataulutus -ominaisuus mahdollistaa autojen, pakettiautojen ja työkalujen liittämisen työvuoroihin. Järjestelmä varoittaa, jos resurssi on jo käytössä tai poissa käytöstä.'
 author: 'Antti Tuomola'
 image:
