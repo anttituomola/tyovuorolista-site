@@ -60,14 +60,7 @@ const {
     src="https://www.facebook.com/tr?id=1668525553845300&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    </head>
-    <body>
-        <Navigation />
-        <slot />
-        <Footer />
-    </body>
-</html>
-<style is:global>
+    <style is:global>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
     :root {
         --accent: 124, 58, 237;
@@ -183,4 +176,11 @@ const {
             margin-top: var(--space-2xl);
         }
     }
-</style>
+    </style>
+    </head>
+    <body>
+        <Navigation />
+        <slot />
+        <Footer />
+    </body>
+</html>
