@@ -272,6 +272,12 @@
   },
   "common": {
     "tryFree": "Kokeile Työvuorolistaa ilmaiseksi"
+  },
+  "notAvailable": {
+    "title": "Sisältö ei saatavilla",
+    "heading": "Tätä sisältöä ei ole vielä käännetty",
+    "description": "Valitettavasti tämä sivu ei ole vielä saatavilla suomeksi. Voit palata etusivulle tai vaihtaa kieltä.",
+    "backToHome": "Palaa etusivulle"
   }
 }
 

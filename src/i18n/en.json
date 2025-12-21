@@ -272,6 +272,12 @@
   },
   "common": {
     "tryFree": "Try Työvuorolista for free"
+  },
+  "notAvailable": {
+    "title": "Content not available",
+    "heading": "This content is not yet translated",
+    "description": "Unfortunately this page is not yet available in English. You can return to the home page or switch language.",
+    "backToHome": "Back to home page"
   }
 }
 

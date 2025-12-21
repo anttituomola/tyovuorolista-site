@@ -272,6 +272,12 @@
   },
   "common": {
     "tryFree": "Prova Työvuorolista gratis"
+  },
+  "notAvailable": {
+    "title": "Innehåll inte tillgängligt",
+    "heading": "Detta innehåll är ännu inte översatt",
+    "description": "Tyvärr är denna sida ännu inte tillgänglig på svenska. Du kan gå tillbaka till startsidan eller byta språk.",
+    "backToHome": "Tillbaka till startsidan"
   }
 }
 

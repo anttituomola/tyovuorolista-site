@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Button from '../../components/common/Button.astro'
+import { t } from '../../utils/translations'
+
+const locale = 'sv'
+---
+
+<Layout 
+    title={t('notAvailable.title', locale)}
+    description={t('notAvailable.description', locale)}
+>
+    <div class="not-available-wrapper">
+        <div class="content">
+            <div class="icon">🌐</div>
+            <h1>{t('notAvailable.heading', locale)}</h1>
+            <p>{t('notAvailable.description', locale)}</p>
+            <div class="actions">
+                <Button 
+                    href="/sv/"
+                    text={t('notAvailable.backToHome', locale)}
+                    backgroundColor="var(--tummanvihrea)"
+                    textColor="var(--vaaleanharmaa)"
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .not-available-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+        padding: var(--space-xl);
+    }
+
+    .content {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .icon {
+        font-size: 4rem;
+        margin-bottom: var(--space-lg);
+    }
+
+    h1 {
+        margin-bottom: var(--space-base);
+        color: var(--tummanvihrea);
+    }
+
+    p {
+        margin-bottom: var(--space-xl);
+        color: var(--harmaa);
+        line-height: 1.6;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        gap: var(--space-base);
+    }
+</style>
+

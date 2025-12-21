@@ -10,12 +10,24 @@ const languages = [
   { code: 'sv', name: 'Svenska', flag: '🇸🇪' }
 ]
 
+// Paths that are only available in Finnish
+const finnishOnlyPaths = ['/posts/', '/blogitekstit']
+
+const isFinnishOnlyContent = (path: string) => {
+  return finnishOnlyPaths.some(p => path.startsWith(p) || path === p)
+}
+
 const getLocalizedUrl = (langCode: string) => {
   // Convert current path to Finnish base path first
   const finnishPath = convertToFinnishPath(currentPath)
   
   if (langCode === 'fi') {
     return finnishPath === '/' ? '/' : finnishPath
+  }
+  
+  // Check if current content is Finnish-only
+  if (isFinnishOnlyContent(finnishPath)) {
+    return `/${langCode}/not-available`
   }
   
   // Use getLocalizedPath to convert Finnish path to target locale
