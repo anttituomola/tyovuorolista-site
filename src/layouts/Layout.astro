@@ -1,19 +1,44 @@
 ---
 import Navigation from '../components/navigation/Navigation.astro'
 import Footer from '../components/navigation/Footer.astro'
+import { getLocaleFromAstro, t } from '../utils/translations'
+
+const locale = getLocaleFromAstro(Astro)
+const langMap: Record<string, string> = {
+  fi: 'fi',
+  en: 'en',
+  sv: 'sv'
+}
 
 const { 
-  title = "tyovuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti",
-  description = "PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!",
-  ogTitle = "tyovuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti",
-  ogDescription = "PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!",
-  ogUrl = "https://tyovuorolista.fi/",
+  title,
+  description,
+  ogTitle,
+  ogDescription,
+  ogUrl = Astro.url.href,
   ogImage = "https://tyovuorolista.fi/assets/metaImage.png"
 } = Astro.props
+
+const defaultTitle = locale === 'fi' 
+  ? "tyovuorolista.fi: PK-yrityksen työvuorolista nopeasti ja helposti"
+  : locale === 'en'
+  ? "tyovuorolista.fi: Shift schedule for small businesses quickly and easily"
+  : "tyovuorolista.fi: Arbetsscheman för småföretag snabbt och enkelt"
+
+const defaultDescription = locale === 'fi'
+  ? "PK-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ota heti käyttöön viidessä minuutissa!"
+  : locale === 'en'
+  ? "Planning and publishing shift schedules for small businesses for different teams easily and quickly. Get started in five minutes!"
+  : "Planering och publicering av arbetsscheman för småföretag för olika team enkelt och snabbt. Kom igång på fem minuter!"
+
+const finalTitle = title || defaultTitle
+const finalDescription = description || defaultDescription
+const finalOgTitle = ogTitle || finalTitle
+const finalOgDescription = ogDescription || finalDescription
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={langMap[locale] || 'fi'}>
     <head>
         <meta charset="UTF-8" />
         <meta name="description" content={description} />
@@ -179,8 +204,8 @@ const {
     </style>
     </head>
     <body>
-        <Navigation />
+        <Navigation locale={locale} />
         <slot />
-        <Footer />
+        <Footer locale={locale} />
     </body>
 </html>

@@ -1,0 +1,99 @@
+---
+import { getLocaleFromAstro, getPathWithoutLocale, getLocalizedPath, convertToFinnishPath } from '../../utils/translations'
+
+const locale = getLocaleFromAstro(Astro)
+const currentPath = getPathWithoutLocale(Astro.url.pathname)
+
+const languages = [
+  { code: 'fi', name: 'Suomi', flag: '🇫🇮' },
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'sv', name: 'Svenska', flag: '🇸🇪' }
+]
+
+const getLocalizedUrl = (langCode: string) => {
+  // Convert current path to Finnish base path first
+  const finnishPath = convertToFinnishPath(currentPath)
+  
+  if (langCode === 'fi') {
+    return finnishPath === '/' ? '/' : finnishPath
+  }
+  
+  // Use getLocalizedPath to convert Finnish path to target locale
+  const localizedPath = getLocalizedPath(finnishPath, langCode as 'en' | 'sv')
+  return localizedPath === '/' ? `/${langCode}/` : localizedPath
+}
+---
+
+<div class="language-switcher">
+    {languages.map((lang) => {
+        const isActive = locale === lang.code
+        const url = getLocalizedUrl(lang.code)
+        return (
+            <a 
+                href={url} 
+                class={`lang-link ${isActive ? 'active' : ''}`}
+                aria-label={`Switch to ${lang.name}`}
+            >
+                <span class="flag">{lang.flag}</span>
+                <span class="lang-name">{lang.code.toUpperCase()}</span>
+            </a>
+        )
+    })}
+</div>
+
+<style>
+    .language-switcher {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .lang-link {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
+        text-decoration: none;
+        color: var(--harmaa);
+        font-size: 0.875rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        border: 1px solid transparent;
+    }
+
+    .lang-link:hover {
+        background-color: var(--vaaleanharmaa);
+        color: var(--tummanvihrea);
+    }
+
+    .lang-link.active {
+        background-color: var(--hiekka);
+        color: var(--tummanvihrea);
+        border-color: var(--harmaa);
+    }
+
+    .flag {
+        font-size: 1rem;
+    }
+
+    .lang-name {
+        font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+        .lang-link {
+            padding: 0.4rem 0.6rem;
+            font-size: 0.8rem;
+        }
+
+        .flag {
+            font-size: 0.9rem;
+        }
+
+        .lang-name {
+            display: none;
+        }
+    }
+</style>
+

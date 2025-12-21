@@ -2,10 +2,15 @@
 import { Image } from 'astro:assets'
 import laura_dahlman from '../../assets/laura_dahlman.jpg'
 import anita_lindov_kitola_oy from '../../assets/anita_lindov_kitola_oy.jpg'
+import { t, getTranslationObject } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const customerStory = getTranslationObject('customerStory', locale as 'fi' | 'en' | 'sv')
+const testimonials = customerStory?.testimonials || []
 ---
 
 <div class="wrapper">
-    <h2>Mitä asiakkaat sanovat</h2>
+    <h2>{t('customerStory.title', locale as 'fi' | 'en' | 'sv')}</h2>
     <div class="testimonials-container">
         <button class="scroll-button scroll-left" aria-label="Scroll left">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,55 +30,39 @@ import anita_lindov_kitola_oy from '../../assets/anita_lindov_kitola_oy.jpg'
             </div>
         </div>
         <div class="testimonials-scroll" id="testimonials-scroll">
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <Image src={laura_dahlman} quality="max" alt="Laura Dahlman" />
-                </div>
-                <div class="testimonial-content">
-                    <blockquote>
-                        "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!"
-                    </blockquote>
-                    <cite>
-                        <strong>Laura Dahlman</strong><br>
-                        Ravintola Apaja, Tampere
-                    </cite>
-                </div>
-            </div>
-            
-            <div class="testimonial-card">
-                <div class="testimonial-image placeholder">
-                    <div class="placeholder-avatar">
-                        <span>RK</span>
+            {testimonials.map((testimonial: any, index: number) => {
+                const images = [laura_dahlman, null, anita_lindov_kitola_oy]
+                const image = images[index]
+                const isSecondTestimonial = index === 1
+                
+                return (
+                    <div class="testimonial-card">
+                        <div class={`testimonial-image ${!image ? 'placeholder' : ''}`}>
+                            {image ? (
+                                <Image src={image} quality="max" alt={testimonial.author} />
+                            ) : (
+                                <div class="placeholder-avatar">
+                                    <span>RK</span>
+                                </div>
+                            )}
+                        </div>
+                        <div class="testimonial-content">
+                            <blockquote>
+                                "{testimonial.quote}"
+                            </blockquote>
+                            {testimonial.quote2 && (
+                                <blockquote class="secondary-quote">
+                                    "{testimonial.quote2}"
+                                </blockquote>
+                            )}
+                            <cite>
+                                <strong>{testimonial.author}</strong><br>
+                                {testimonial.company}
+                            </cite>
+                        </div>
                     </div>
-                </div>
-                <div class="testimonial-content">
-                    <blockquote>
-                        "Todella selkeä ja helppokäyttöinen paketti ravintolan työvuorojen suunnitteluun ja jakeluun."
-                    </blockquote>
-                    <blockquote class="secondary-quote">
-                        "Jos vielä räpläät työvuoroja Excelillä tai ruutupaperilla, etkä halua maksaa kassikaupalla raskaista taloushallinnan ohjelmistopaketeista, niin nyt viimeistään kannattaa kokeilla Työvuorolistaa. Lämmin suositus."
-                    </blockquote>
-                    <cite>
-                        <strong>Rami Käkönen</strong><br>
-                        Ravintola Askaisten Holvi, Askainen
-                    </cite>
-                </div>
-            </div>
-            
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <Image src={anita_lindov_kitola_oy} quality="max" alt="Anita Lindov" />
-                </div>
-                <div class="testimonial-content">
-                    <blockquote>
-                        "Työvuorolistojen tekemisestä on tullut todella helppo, tosiaan - ei mitään turhaa näpyttelyä! Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin. Jos apua on tarvittu, niin tuki ja neuvo on aina ollut nopeasti saatavilla!"
-                    </blockquote>
-                    <cite>
-                        <strong>Anita Lindov</strong><br>
-                        Velj. Kitola Oy, Nousiainen
-                    </cite>
-                </div>
-            </div>
+                )
+            })}
         </div>
     </div>
 </div>

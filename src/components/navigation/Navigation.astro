@@ -1,17 +1,25 @@
 ---
 import Button from '../common/Button.astro'
 import RegisterButton from '../common/RegisterButton.astro'
+import LanguageSwitcher from '../common/LanguageSwitcher.astro'
 import { Image } from 'astro:assets'
 import logo from '../../assets/logo.png'
+import { t, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+
+const homePath = locale === 'fi' ? '/' : `/${locale}/`
+const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
+const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 ---
 
 <nav class='nav'>
     <div class='nav-container'>
-        <a href='/' class='logo'>
+        <a href={homePath} class='logo'>
             <Image src={logo} alt="tyovuorolista.fi logo" class="logo-symbol" quality="max" />
             <div class="logo-text">
                 <h1>Tyovuorolista.fi</h1>
-                <h4>PK-yrityksen työvuorolista nopeasti ja helposti</h4>
+                <h4>{t('nav.logoSubtitle', locale as 'fi' | 'en' | 'sv')}</h4>
             </div>
         </a>
 
@@ -22,12 +30,13 @@ import logo from '../../assets/logo.png'
         </div>
 
         <div class='navRight'>
+            <LanguageSwitcher />
             <div class='buttonContainer'>
-                <RegisterButton />
-                <Button href='https://app.tyovuorolista.fi/login' text='Kirjaudu' />
+                <RegisterButton locale={locale} />
+                <Button href='https://app.tyovuorolista.fi/login' text={t('nav.login', locale as 'fi' | 'en' | 'sv')} />
             </div>
-            <a href='/hinnoittelu' class='navLink'>Hinnoittelu</a>
-            <a href='/yhteystiedot' class='navLink'>Yhteystiedot</a>
+            <a href={pricingPath} class='navLink'>{t('nav.pricing', locale as 'fi' | 'en' | 'sv')}</a>
+            <a href={contactPath} class='navLink'>{t('nav.contact', locale as 'fi' | 'en' | 'sv')}</a>
         </div>
     </div>
 </nav>

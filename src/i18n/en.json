@@ -1,0 +1,277 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Log in",
+    "register": "Sign up",
+    "logoSubtitle": "Shift schedule for small businesses quickly and easily"
+  },
+  "footer": {
+    "copyright": "Työvuorolista | tyovuorolista.fi",
+    "links": {
+      "contact": "Contact",
+      "pricing": "Pricing",
+      "terms": "Terms of use, privacy policy and refund policy"
+    },
+    "industrySolutions": "Industry-specific solutions",
+    "industries": {
+      "restaurants": "Restaurants and cafés",
+      "taxi": "Taxi companies and transport",
+      "cleaning": "Cleaning and property services",
+      "hotels": "Hotels and inns",
+      "events": "Events and seasonal work"
+    }
+  },
+  "hero": {
+    "title": "Shift schedule for small businesses quickly and easily",
+    "subtitle": "Sign up, create a shift schedule and publish it in under five minutes!",
+    "tryDemo": "Try demo",
+    "or": "OR"
+  },
+  "demoVideo": {
+    "title": "Creating shift schedules can be easy too",
+    "description": "Shifts are added to the schedule by dragging employees to the right place. Publishing happens with a button press, sending the schedule to all employees by email.",
+    "step1": "Sign up",
+    "step2": "Create shift schedule",
+    "step3": "Publish"
+  },
+  "customerStory": {
+    "title": "What customers say",
+    "testimonials": [
+      {
+        "quote": "Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!",
+        "author": "Laura Dahlman",
+        "company": "Ravintola Apaja, Tampere"
+      },
+      {
+        "quote": "Really clear and user-friendly package for planning and distributing restaurant shifts.",
+        "quote2": "If you're still fiddling with shifts in Excel or on paper, and don't want to pay a fortune for heavy financial management software packages, now is definitely the time to try Työvuorolista. Warm recommendation.",
+        "author": "Rami Käkönen",
+        "company": "Ravintola Askaisten Holvi, Askainen"
+      },
+      {
+        "quote": "Making shift schedules has become really easy, really - no unnecessary clicking! The schedules are ready quickly and they're sent to each employee's email. If help has been needed, support and advice have always been quickly available!",
+        "author": "Anita Lindov",
+        "company": "Velj. Kitola Oy, Nousiainen"
+      }
+    ]
+  },
+  "register": {
+    "step1": {
+      "title": "Sign up",
+      "description": "You can sign up with either email or your Google account. Initially we only need an email address, no other information.",
+      "steps": [
+        {
+          "title": "Quick sign-up",
+          "description": "you can sign up with email or Google account."
+        },
+        {
+          "title": "No credit card",
+          "description": "you can try for free with up to three employees."
+        },
+        {
+          "title": "Easy initial setup",
+          "description": "just add yourself as an employee and get started!"
+        }
+      ]
+    },
+    "step2": {
+      "title": "Plan",
+      "description": "Adding teams and employees takes a few minutes. You can start creating your first shift schedule right away.",
+      "steps": [
+        {
+          "title": "No unnecessary data entry",
+          "description": "the app only asks for necessary information, essentially name and email. Nothing else."
+        },
+        {
+          "title": "No unnecessary clicking",
+          "description": "shifts are added to the calendar by dragging employees to the right place. Shift length and location can also be adjusted by dragging."
+        },
+        {
+          "title": "Necessary additional information",
+          "description": "you can easily add comments to shifts, e.g. \"store manager\"."
+        }
+      ]
+    },
+    "step3": {
+      "title": "Approve",
+      "description": "Share the shift plan effortlessly and quickly with employees in your preferred channel and request feedback before publishing.",
+      "steps": [
+        {
+          "title": "Copy image of shift schedule",
+          "description": "you can easily paste it into a WhatsApp message."
+        },
+        {
+          "title": "Save image of shift schedule",
+          "description": "you can easily attach it as an email attachment."
+        }
+      ]
+    },
+    "step4": {
+      "title": "Publish",
+      "description": "Publish the shift schedule with one click and send it automatically to employees by email.",
+      "steps": [
+        {
+          "title": "Automated sending",
+          "description": "when you publish the schedule, it is automatically sent to all employees on the schedule."
+        },
+        {
+          "title": "Personal schedule",
+          "description": "each employee receives a personalized schedule of their own shifts."
+        }
+      ]
+    },
+    "step5": {
+      "title": "Unlimited number of teams",
+      "description": "Each team has its own schedules and settings, but you can share employees between teams.",
+      "steps": [
+        {
+          "title": "Own settings",
+          "description": "each team can have its own default times and shift lengths."
+        },
+        {
+          "title": "Sharing employees",
+          "description": "employees can be in multiple teams, which facilitates shift planning for multi-location businesses."
+        },
+        {
+          "title": "Publishing schedules",
+          "description": "you can publish schedules by team or all at once."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "questions": {
+      "cost": {
+        "question": "How much does this cost?",
+        "answer": "Pricing is based on the number of employees:",
+        "tiers": [
+          "max. 3 employees: €0 / month",
+          "max. 20 employees: €12 / month",
+          "max. 50 employees: €42 / month",
+          "over 50 employees: €120 / month"
+        ],
+        "vat": "24% VAT is added to all prices."
+      },
+      "trial": {
+        "question": "Can I try without paying?",
+        "answer": "Of course! Running with less than four employees is always free!"
+      },
+      "commitment": {
+        "question": "How long do I need to commit?",
+        "answer": "Payment is handled month by month, and you can cancel your subscription at any time. No commitment periods. For example, a summer restaurant can pay for use during the summer and cancel the subscription for winter."
+      },
+      "start": {
+        "question": "When can I start?",
+        "answer": "Registration and initial setup takes about 3 minutes. You can publish your first shift schedule in about 15 minutes."
+      },
+      "creator": {
+        "question": "Who made this?",
+        "answer": "I'm Antti Tuomola. I have over 15 years of experience in the restaurant industry as an employee, manager and entrepreneur. I've worked in neighborhood bars and Michelin restaurants, run manor restaurants and food trucks. Whatever I've done, I've always made shift schedules. Sometimes with Excel, sometimes with purpose-built software. I've never been completely satisfied with them. Hence this."
+      },
+      "difficulty": {
+        "question": "Is this difficult to use?",
+        "answer": "The entire app is built with the idea that creating shift schedules should be as easy as possible. The interface is graphical, and shifts are added by dragging employee names to the right place."
+      },
+      "publish": {
+        "question": "How does publishing schedules work?",
+        "answer": "When the schedule is ready to publish, you just press the Publish button, which sends an email to all employees on the schedule (and others if needed) with the employee's personal shift schedule. You can also copy an image or PDF and publish it however you want."
+      },
+      "difference": {
+        "question": "How does this differ from MaraPlan / Planier / HR plans / etc.?",
+        "answer": "Työvuorolista differs from other industry players in these ways:",
+        "points": [
+          "Prices are publicly visible: we don't try to squeeze the maximum price from your company, but publish all prices openly.",
+          "You can start using Työvuorolista now, in five minutes. Publish a schedule in 15 minutes. No contact requests, quotes, demos, counter-quotes and other time-wasting.",
+          "Työvuorolista is so simple that you don't need training to use it. If you want, we can go through its use together, but I also trust that you can use this without hand-holding.",
+          "Fewer features: we focus only on creating shift schedules, publishing and recording hours. We don't offer mobile apps for your employees that they don't want. You can handle shift reporting however you see fit."
+        ]
+      }
+    }
+  },
+  "contactForm": {
+    "title": "I want to ask more!",
+    "description": "Leave your email or phone number, and I'll contact you shortly!",
+    "emailPlaceholder": "Your email address",
+    "phonePlaceholder": "Your phone number",
+    "or": "or",
+    "submit": "Send",
+    "success": "Thank you! I'll contact you shortly!",
+    "error": "Form submission failed. Please try again.",
+    "errorNetwork": "Form submission failed. Check your internet connection and try again."
+  },
+  "mobileDemo": {
+    "title": "Use the app on mobile too",
+    "description": "The Työvuorolista app works fully on smartphones and tablets. You can plan shifts, manage employees and record hours worked directly on your mobile device.",
+    "features": [
+      "Planning and editing shifts",
+      "Managing employees",
+      "Recording hours worked",
+      "Publishing schedules and emailing"
+    ],
+    "moreInfo": "The interface automatically adapts to touch screens, and navigation works conveniently through a hamburger menu.",
+    "readMore": "Read more about mobile"
+  },
+  "blogPosts": {
+    "title": "Latest articles on easier shift planning",
+    "viewAll": "View all articles",
+    "published": "Published",
+    "tags": "Keywords:",
+    "blogPageTitle": "Articles on restaurant shift planning"
+  },
+  "pages": {
+    "pricing": {
+      "title": "Transparent and fair pricing",
+      "tiers": {
+        "tier1": {
+          "title": "Max. 3 employees",
+          "price": "€0 / month",
+          "features": [
+            "No commitment periods",
+            "All features"
+          ]
+        },
+        "tier2": {
+          "title": "Max. 20 employees",
+          "price": "€12 / month",
+          "features": [
+            "No commitment periods",
+            "All features"
+          ]
+        },
+        "tier3": {
+          "title": "Max. 50 employees",
+          "price": "€42 / month",
+          "features": [
+            "No commitment periods",
+            "All features"
+          ]
+        },
+        "tier4": {
+          "title": "Over 50 employees",
+          "price": "€120 / month",
+          "features": [
+            "No commitment periods",
+            "All features"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Tyovuorolista.fi contact information",
+      "company": "True Solutions / tyovuorolista.fi",
+      "businessId": "Business ID: 3431534-2",
+      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+      "sales": "Sales:",
+      "info": "info@tyovuorolista.fi"
+    },
+    "terms": {
+      "title": "Terms of use, privacy policy and refund policy"
+    }
+  },
+  "common": {
+    "tryFree": "Try Työvuorolista for free"
+  }
+}
+

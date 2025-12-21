@@ -1,0 +1,46 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Hero from '../../components/mainPage/Hero.astro'
+import DemoVideo from '../../components/mainPage/DemoVideo.astro'
+import CustomerStory from '../../components/mainPage/CustomerStory.astro'
+import Register from '../../components/mainPage/Register.astro'
+import ContactForm from '../../components/mainPage/ContactForm.jsx'
+import Faq from '../../components/mainPage/Faq.astro'
+import MobileDemo from '../../components/mainPage/MobileDemo.astro'
+import NewestBlogPosts from '../../components/mainPage/NewestBlogPosts.astro'
+import { getTranslationObject } from '../../utils/translations'
+
+const locale = 'sv'
+const contactFormTranslations = getTranslationObject('contactForm', locale)
+---
+
+<Layout>
+    <main>
+        <Hero locale={locale} />
+        <DemoVideo locale={locale} />
+        <CustomerStory locale={locale} />
+        <Register locale={locale} />
+        <ContactForm client:load locale={locale} translations={contactFormTranslations} />
+        <Faq locale={locale} />
+        <MobileDemo locale={locale} />
+        <NewestBlogPosts />
+    </main>
+</Layout>
+
+<style>
+    main {
+        margin: 0 auto;
+        padding: 0 var(--space-base);
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4xl);
+    }
+    @media (max-width: 768px) {
+        main {
+            gap: var(--space-2xl);
+            padding: 0 var(--space-sm);
+        }
+    }
+</style>
+

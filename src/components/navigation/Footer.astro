@@ -1,25 +1,36 @@
 ---
 import RegisterButton from '../common/RegisterButton.astro'
+import { t, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
 const currentYear = new Date().getFullYear()
+
+const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
+const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
+const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
+const restaurantsPath = getLocalizedPath('/ravintolat-ja-kahvilat', locale as 'fi' | 'en' | 'sv')
+const taxiPath = getLocalizedPath('/taksiyritykset-ja-kuljetus', locale as 'fi' | 'en' | 'sv')
+const cleaningPath = getLocalizedPath('/siivous-ja-kiinteistopalvelut', locale as 'fi' | 'en' | 'sv')
+const hotelsPath = getLocalizedPath('/hotellit-ja-majatalot', locale as 'fi' | 'en' | 'sv')
+const eventsPath = getLocalizedPath('/tapahtumat-ja-sesonkityo', locale as 'fi' | 'en' | 'sv')
 ---
 
 <div class='footer'>
-    <RegisterButton />
-    <h3>Työvuorolista | tyovuorolista.fi | {currentYear}</h3>
+    <RegisterButton locale={locale} />
+    <h3>{t('footer.copyright', locale as 'fi' | 'en' | 'sv')} | {currentYear}</h3>
     <div class='footerLinks'>
-        <p><a href='/yhteystiedot'>Yhteystiedot</a></p>
-        <p><a href='/hinnoittelu'>Hinnoittelut</a></p>
-        <p><a href='/kayttoohjeet'>Käyttöohjeet</a></p>
-        <p><a href='/kayttoehdot'>Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</a></p>
+        <p><a href={contactPath}>{t('footer.links.contact', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={pricingPath}>{t('footer.links.pricing', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={termsPath}>{t('footer.links.terms', locale as 'fi' | 'en' | 'sv')}</a></p>
     </div>
     <div class='industryLinks'>
-        <h4>Toimialakohtaiset ratkaisut</h4>
+        <h4>{t('footer.industrySolutions', locale as 'fi' | 'en' | 'sv')}</h4>
         <div class='industryLinksGrid'>
-            <p><a href='/ravintolat-ja-kahvilat'>Ravintolat ja kahvilat</a></p>
-            <p><a href='/taksiyritykset-ja-kuljetus'>Taksiyritykset ja kuljetus</a></p>
-            <p><a href='/siivous-ja-kiinteistopalvelut'>Siivous- ja kiinteistöpalvelut</a></p>
-            <p><a href='/hotellit-ja-majatalot'>Hotellit ja majatalot</a></p>
-            <p><a href='/tapahtumat-ja-sesonkityo'>Tapahtumat ja sesonkityö</a></p>
+            <p><a href={restaurantsPath}>{t('footer.industries.restaurants', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={taxiPath}>{t('footer.industries.taxi', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={cleaningPath}>{t('footer.industries.cleaning', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={hotelsPath}>{t('footer.industries.hotels', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={eventsPath}>{t('footer.industries.events', locale as 'fi' | 'en' | 'sv')}</a></p>
         </div>
     </div>
 </div>

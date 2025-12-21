@@ -1,0 +1,175 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import { t } from '../../utils/translations'
+
+const locale = 'en'
+---
+
+<Layout>
+    <div class='terms-container'>
+        <h1>{t('pages.terms.title', locale)}</h1>
+
+        <section class='terms-section'>
+            <h2>Terms of Use</h2>
+            <div class='terms-item'>
+                <h3>1. Service Description</h3>
+                <p>
+                    Tyovuorolista.fi is a web application produced by True Solutions Oy (Business ID: 3431534-2) that
+                    enables the planning and publishing of shift schedules. The application is designed for small and
+                    medium-sized businesses.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Registration</h3>
+                <p>
+                    Users must register for the service by providing the company name, email address and, if necessary,
+                    phone number. Using the service also requires adding employee names and email addresses.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. User Responsibilities</h3>
+                <p>
+                    The user is responsible for the accuracy of the email addresses provided and for ensuring the accuracy
+                    of information in shift schedules. The user commits to not sending emails unnecessarily.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>4. Limitation of Liability</h3>
+                <p>
+                    We are not responsible for any damages resulting from incorrect information in shift schedules.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>5. Applicable Law and Dispute Resolution</h3>
+                <p>Any disputes will be resolved in the Tampere District Court.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Privacy Policy</h2>
+            <div class='terms-item'>
+                <h3>1. Personal Data</h3>
+                <p>
+                    We collect the company name, user's email address and phone number, as well as employee names
+                    and email addresses. We also collect shift schedule information, such as dates, times and employee
+                    names.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Data Storage and Sharing</h3>
+                <p>
+                    Data is stored in Supabase database, which is protected with row-level security measures. Payment
+                    information is processed by the payment service provider Stripe.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Privacy Rights</h3>
+                <p>Users have the right to inspect, modify and delete their own data from the service.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Refund Policy</h2>
+            <div class='terms-item'>
+                <h3>1. Subscription Cancellation</h3>
+                <p>
+                    The subscription can be cancelled or changed at any time, and the change will take effect at the end
+                    of the current billing period.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Money-Back Guarantee</h3>
+                <p>We offer a 30-day full money-back guarantee without questions.</p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Changes to Policies</h3>
+                <p>We will notify of policy changes by email.</p>
+            </div>
+        </section>
+    </div>
+</Layout>
+
+<style>
+    .terms-container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--tummanvihrea);
+        font-size: 2rem;
+    }
+
+    .terms-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .terms-section h2 {
+        color: var(--tummanvihrea);
+        border-bottom: 2px solid var(--hiekka);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item h3 {
+        margin-bottom: 0.5rem;
+        color: var(--harmaa);
+        font-size: 1.1rem;
+    }
+
+    .terms-item p {
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .terms-container {
+            padding: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .terms-section h2 {
+            font-size: 1.4rem;
+        }
+
+        .terms-item h3 {
+            font-size: 1rem;
+        }
+
+        .terms-item p {
+            font-size: 0.95rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .terms-container {
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+</style>
+

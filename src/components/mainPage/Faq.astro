@@ -1,48 +1,55 @@
 ---
+import { t, getTranslationObject } from '../../utils/translations'
 
+const { locale = 'fi' } = Astro.props
+const faq = getTranslationObject('faq', locale as 'fi' | 'en' | 'sv')
+const questions = faq?.questions || {}
 ---
 
 <div class="wrapper">
-    <h2>Usein kysytyt kysymykset</h2>
+    <h2>{t('faq.title', locale as 'fi' | 'en' | 'sv')}</h2>
     <div class="faq">
         <div class="subFaq">
-            <h3>Kuinka paljon tämä maksaa?</h3>
-            <p>Hinnoittelu menee työntekijöiden määrän mukaan:</p>
+            <h3>{t('faq.questions.cost.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.cost.answer', locale as 'fi' | 'en' | 'sv')}</p>
             <ul>
-                <li>maks. 3 työntekijää: 0 € / kk</li>
-                <li>maks. 20 työntekijää: 12 € / kk</li>
-                <li>maks. 50 työntekijää: 42 € / kk</li>
-                <li>yli 50 työntekijää: 120 € / kk</li>
+                {questions.cost?.tiers?.map((tier: string) => (
+                    <li>{tier}</li>
+                ))}
             </ul>
-            <p>Kaikkiin hintoihin lisätään alv 24%.</p>
+            <p>{t('faq.questions.cost.vat', locale as 'fi' | 'en' | 'sv')}</p>
 
-            <h3>Voinko kokeilla maksamatta?</h3>
-            <p>Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!</p>
+            <h3>{t('faq.questions.trial.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.trial.answer', locale as 'fi' | 'en' | 'sv')}</p>
             
-            <h3>Kuinka pitkäksi aikaa pitää sitoutua?</h3>
-            <p>Maksu hoidetaan kuukausi kerrallaan, ja voit koska tahansa lopettaa tilauksen. Ei mitään sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi.</p>
+            <h3>{t('faq.questions.commitment.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.commitment.answer', locale as 'fi' | 'en' | 'sv')}</p>
             
-            <h3>Koska voin aloittaa?</h3>
-            <p>Rekisteröintiin ja alkuasetuksiin menee noin 3 minuuttia. Voit julkaista ensimmäisen työvuorolistasi vaikkapa vartin kuluttua.</p>
+            <h3>{t('faq.questions.start.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.start.answer', locale as 'fi' | 'en' | 'sv')}</p>
             
-            <h3>Kuka tämä on tehnyt?</h3>
-            <p>Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä.</p>
+            <h3>{t('faq.questions.creator.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.creator.answer', locale as 'fi' | 'en' | 'sv')}</p>
 
         </div>
         <div class="subFaq">
-            <h3>Onko tätä vaikea käyttää?</h3>
-            <p>Koko sovellus on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorojen lisääminen tehdään raahaamalla työntekijän nimi oikeaan kohtaan.</p>
+            <h3>{t('faq.questions.difficulty.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.difficulty.answer', locale as 'fi' | 'en' | 'sv')}</p>
             
-            <h3>Miten listojen julkaisu tapahtuu?</h3>
-            <p>Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulosaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla.</p>
+            <h3>{t('faq.questions.publish.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.publish.answer', locale as 'fi' | 'en' | 'sv')}</p>
             
-            <h3>Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?</h3>
-            <p>Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:</p>
+            <h3>{t('faq.questions.difference.question', locale as 'fi' | 'en' | 'sv')}</h3>
+            <p>{t('faq.questions.difference.answer', locale as 'fi' | 'en' | 'sv')}</p>
             <ul>
-                <li><strong>Hinnat ovat julkisesti näkyvillä:</strong> me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.</li>
-                <li><strong>Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa.</strong> Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.</li>
-                <li><strong>Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta</strong>. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.</li>
-                <li>Vähemmän ominaisuuksia: me keskitymme vain työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen. <strong>Emme tarjoa työntekijöillesi kännykkäsovelluksia, joita he eivät halua</strong>. Voit hanskata työvuorojen raportoinnin parhaaksi katsomallasi tavalla.</li>
+                {questions.difference?.points?.map((point: string) => {
+                    // Check if point contains bold markers (format: "Bold text: regular text")
+                    const parts = point.split(':')
+                    if (parts.length > 1) {
+                        return <li><strong>{parts[0]}:</strong> {parts.slice(1).join(':')}</li>
+                    }
+                    return <li>{point}</li>
+                })}
             </ul>
         </div>
     </div>

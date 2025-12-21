@@ -8,17 +8,21 @@ import ContactForm from '../components/mainPage/ContactForm.jsx'
 import Faq from '../components/mainPage/Faq.astro'
 import MobileDemo from '../components/mainPage/MobileDemo.astro'
 import NewestBlogPosts from '../components/mainPage/NewestBlogPosts.astro'
+import { getLocaleFromAstro, getTranslationObject } from '../utils/translations'
+
+const locale = getLocaleFromAstro(Astro)
+const contactFormTranslations = getTranslationObject('contactForm', locale)
 ---
 
 <Layout>
     <main>
-        <Hero />
-        <DemoVideo />
-        <CustomerStory />
-        <Register />
-        <ContactForm client:load />
-        <Faq />
-        <MobileDemo />
+        <Hero locale={locale} />
+        <DemoVideo locale={locale} />
+        <CustomerStory locale={locale} />
+        <Register locale={locale} />
+        <ContactForm client:load locale={locale} translations={contactFormTranslations} />
+        <Faq locale={locale} />
+        <MobileDemo locale={locale} />
         <NewestBlogPosts />
     </main>
 </Layout>

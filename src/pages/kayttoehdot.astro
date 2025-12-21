@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import { getLocaleFromAstro, t } from '../utils/translations'
+
+const locale = getLocaleFromAstro(Astro)
 ---
 
 <Layout>
     <div class='terms-container'>
-        <h1>Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt</h1>
+        <h1>{t('pages.terms.title', locale)}</h1>
 
         <section class='terms-section'>
             <h2>Käyttöehdot</h2>

@@ -1,0 +1,175 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import { t } from '../../utils/translations'
+
+const locale = 'sv'
+---
+
+<Layout>
+    <div class='terms-container'>
+        <h1>{t('pages.terms.title', locale)}</h1>
+
+        <section class='terms-section'>
+            <h2>Användarvillkor</h2>
+            <div class='terms-item'>
+                <h3>1. Tjänstebeskrivning</h3>
+                <p>
+                    Tyovuorolista.fi är en webbapplikation producerad av True Solutions Oy (Organisationsnummer: 3431534-2) som
+                    möjliggör planering och publicering av arbetsscheman. Applikationen är designad för små och
+                    medelstora företag.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Registrering</h3>
+                <p>
+                    Användare måste registrera sig för tjänsten genom att ange företagsnamn, e-postadress och vid behov
+                    telefonnummer. Användning av tjänsten kräver också att lägga till anställdas namn och e-postadresser.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Användarens ansvar</h3>
+                <p>
+                    Användaren ansvarar för riktigheten i de angivna e-postadresserna och för att säkerställa riktigheten
+                    av information i arbetsscheman. Användaren åtar sig att inte skicka e-post i onödan.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>4. Ansvarsbegränsning</h3>
+                <p>
+                    Vi är inte ansvariga för några skador som uppstår på grund av felaktig information i arbetsscheman.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>5. Tillämplig lag och tvistlösning</h3>
+                <p>Eventuella tvister kommer att lösas i Tammerfors tingsrätt.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Integritetspolicy</h2>
+            <div class='terms-item'>
+                <h3>1. Personuppgifter</h3>
+                <p>
+                    Vi samlar in företagsnamn, användarens e-postadress och telefonnummer samt anställdas namn
+                    och e-postadresser. Vi samlar också in information om arbetsscheman, såsom datum, tider och anställdas
+                    namn.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Datalagring och delning</h3>
+                <p>
+                    Data lagras i Supabase-databasen, som skyddas med säkerhetsåtgärder på radnivå. Betalningsinformation
+                    hanteras av betalningstjänstleverantören Stripe.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Integritetsrättigheter</h3>
+                <p>Användare har rätt att granska, ändra och radera sina egna data från tjänsten.</p>
+            </div>
+        </section>
+
+        <section class='terms-section'>
+            <h2>Återbetalningspolicy</h2>
+            <div class='terms-item'>
+                <h3>1. Prenumerationsavbokning</h3>
+                <p>
+                    Prenumerationen kan avbokas eller ändras när som helst, och ändringen träder i kraft i slutet
+                    av den nuvarande faktureringsperioden.
+                </p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>2. Pengarna tillbaka-garanti</h3>
+                <p>Vi erbjuder en 30 dagars full pengarna tillbaka-garanti utan frågor.</p>
+            </div>
+
+            <div class='terms-item'>
+                <h3>3. Ändringar i policyer</h3>
+                <p>Vi meddelar om policyändringar via e-post.</p>
+            </div>
+        </section>
+    </div>
+</Layout>
+
+<style>
+    .terms-container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--tummanvihrea);
+        font-size: 2rem;
+    }
+
+    .terms-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .terms-section h2 {
+        color: var(--tummanvihrea);
+        border-bottom: 2px solid var(--hiekka);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .terms-item h3 {
+        margin-bottom: 0.5rem;
+        color: var(--harmaa);
+        font-size: 1.1rem;
+    }
+
+    .terms-item p {
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        .terms-container {
+            padding: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .terms-section h2 {
+            font-size: 1.4rem;
+        }
+
+        .terms-item h3 {
+            font-size: 1rem;
+        }
+
+        .terms-item p {
+            font-size: 0.95rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .terms-container {
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+        }
+    }
+</style>
+

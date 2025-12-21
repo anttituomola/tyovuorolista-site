@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import RegisterButton from '../../components/common/RegisterButton.astro'
+import { getTranslationObject } from '../../utils/translations'
+
+const locale = 'en'
+const pricing = getTranslationObject('pages.pricing', locale)
+---
+
+<Layout>
+    <div class="wrapper">
+        <h1 style="text-align: center;">{pricing?.title}</h1>
+        <div class="pricing">
+            <div class="pricingElement">
+                <h2>{pricing?.tiers?.tier1?.title}</h2>
+                <strong><p>{pricing?.tiers?.tier1?.price}</p></strong>
+                {pricing?.tiers?.tier1?.features?.map((feature: string) => (
+                    <p>{feature}</p>
+                ))}
+                <RegisterButton locale={locale} />
+            </div>
+            <div class="pricingElement">
+                <h2>{pricing?.tiers?.tier2?.title}</h2>
+                <strong><p>{pricing?.tiers?.tier2?.price}</p></strong>
+                {pricing?.tiers?.tier2?.features?.map((feature: string) => (
+                    <p>{feature}</p>
+                ))}
+                <RegisterButton locale={locale} />
+            </div>
+            <div class="pricingElement">
+                <h2>{pricing?.tiers?.tier3?.title}</h2>
+                <strong><p>{pricing?.tiers?.tier3?.price}</p></strong>
+                {pricing?.tiers?.tier3?.features?.map((feature: string) => (
+                    <p>{feature}</p>
+                ))}
+                <RegisterButton locale={locale} />
+            </div>
+            <div class="pricingElement">
+                <h2>{pricing?.tiers?.tier4?.title}</h2>
+                <strong><p>{pricing?.tiers?.tier4?.price}</p></strong>
+                {pricing?.tiers?.tier4?.features?.map((feature: string) => (
+                    <p>{feature}</p>
+                ))}
+                <RegisterButton locale={locale} />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .pricing {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        max-width: 900px;
+        width: 100%;
+        margin: 2rem;
+    }
+    .pricingElement {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--harmaa);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+    p {
+        margin: 0.5rem;
+    }
+
+    @media (max-width: 640px) {
+        .pricing {
+            grid-template-columns: 1fr;
+            margin: 0.5rem;
+        }
+        .pricingElement {
+            padding: 0.3rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+</style>
+

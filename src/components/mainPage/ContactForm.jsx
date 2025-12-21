@@ -1,6 +1,18 @@
 import React, { useState } from 'react';
 
-function ContactForm() {
+function ContactForm({ locale = 'fi', translations = {} }) {
+    const t = (key) => {
+        const keys = key.split('.');
+        let value = translations;
+        for (const k of keys) {
+            if (value && typeof value === 'object' && k in value) {
+                value = value[k];
+            } else {
+                return key;
+            }
+        }
+        return typeof value === 'string' ? value : key;
+    };
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -44,7 +56,12 @@ function ContactForm() {
     const inputStyle = {
         padding: '1rem',
         borderRadius: '2px',
-        border: 'none',
+        border: '1px solid #ddd',
+        backgroundColor: '#f5f5f5',
+        color: '#333',
+        fontSize: '1rem',
+        width: '100%',
+        maxWidth: '400px',
     };
     const buttonStyle = {
         padding: '1.5rem',
@@ -105,7 +122,7 @@ function ContactForm() {
             if (!response.ok) {
                 console.error('Response not ok:', response.status, response.statusText);
                 setIsSending(false);
-                alert('Lomakkeen lähetys epäonnistui. Yritä uudelleen.');
+                alert(t('error'));
                 return;
             }
 
@@ -117,11 +134,11 @@ function ContactForm() {
                 setIsFormSubmitted(true);
             } else {
                 console.error('API returned error status:', jsonResponse);
-                alert('Lomakkeen lähetys epäonnistui. Yritä uudelleen.');
+                alert(t('error'));
             }
         } catch (error) {
             console.error('Form submission error:', error);
-            alert('Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.');
+            alert(t('errorNetwork'));
         } finally {
             setIsSending(false);
         }
@@ -131,35 +148,51 @@ function ContactForm() {
     return (
         <div style={wrapperStyle}>
             <div style={contactFormDivStyle}>
-                {isFormSubmitted ? <h2>Kiitos! Olen sinuun yhteydessä pikaisesti!</h2> :
+                {isFormSubmitted ? <h2>{t('success')}</h2> :
                     <div className='reactForm'>
-                        <h2 style={h2Style}>Haluan kysyä lisää!</h2>
-                        <p style={{color: 'var(--tummanvihrea)', fontSize: '1.1rem', fontWeight: '500', maxWidth: '400px', lineHeight: '1.5', marginBottom: '2rem'}}>Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!</p>
+                        <h2 style={h2Style}>{t('title')}</h2>
+                        <p style={{color: 'var(--tummanvihrea)', fontSize: '1.1rem', fontWeight: '500', maxWidth: '400px', lineHeight: '1.5', marginBottom: '2rem'}}>{t('description')}</p>
                         <div style={formStyle}>
                             <div style={inputFieldStyle}>
                                 <input
                                     type="email"
                                     name="email"
                                     id="email"
-                                    placeholder="Sähköpostiosoitteesi"
+                                    placeholder={t('emailPlaceholder')}
                                     value={email}
                                     onChange={e => setEmail(e.target.value)}
                                     style={inputStyle}
+                                    onFocus={(e) => {
+                                        e.target.style.backgroundColor = '#fff';
+                                        e.target.style.borderColor = 'var(--tummanvihrea)';
+                                    }}
+                                    onBlur={(e) => {
+                                        e.target.style.backgroundColor = '#f5f5f5';
+                                        e.target.style.borderColor = '#ddd';
+                                    }}
                                 />
                             </div>
-                            <span style={{color: 'var(--tummanvihrea)', fontWeight: '500'}}>tai</span>
+                            <span style={{color: 'var(--tummanvihrea)', fontWeight: '500'}}>{t('or')}</span>
                             <div style={inputFieldStyle}>
                                 <input
                                     type="tel"
                                     name="phone"
                                     id="phone"
-                                    placeholder="Puhelinnumerosi"
+                                    placeholder={t('phonePlaceholder')}
                                     value={phone}
                                     onChange={e => setPhone(e.target.value)}
                                     style={inputStyle}
+                                    onFocus={(e) => {
+                                        e.target.style.backgroundColor = '#fff';
+                                        e.target.style.borderColor = 'var(--tummanvihrea)';
+                                    }}
+                                    onBlur={(e) => {
+                                        e.target.style.backgroundColor = '#f5f5f5';
+                                        e.target.style.borderColor = '#ddd';
+                                    }}
                                 />
                             </div>
-                            <button onClick={handleSubmit} disabled={isSending} style={buttonStyle}>Lähetä</button>
+                            <button onClick={handleSubmit} disabled={isSending} style={buttonStyle}>{t('submit')}</button>
                         </div>
                     </div>
                 }

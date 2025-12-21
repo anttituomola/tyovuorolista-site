@@ -1,0 +1,277 @@
+{
+  "nav": {
+    "pricing": "Hinnoittelu",
+    "contact": "Yhteystiedot",
+    "login": "Kirjaudu",
+    "register": "Rekisteröidy",
+    "logoSubtitle": "PK-yrityksen työvuorolista nopeasti ja helposti"
+  },
+  "footer": {
+    "copyright": "Työvuorolista | tyovuorolista.fi",
+    "links": {
+      "contact": "Yhteystiedot",
+      "pricing": "Hinnoittelut",
+      "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
+    },
+    "industrySolutions": "Toimialakohtaiset ratkaisut",
+    "industries": {
+      "restaurants": "Ravintolat ja kahvilat",
+      "taxi": "Taksiyritykset ja kuljetus",
+      "cleaning": "Siivous- ja kiinteistöpalvelut",
+      "hotels": "Hotellit ja majatalot",
+      "events": "Tapahtumat ja sesonkityö"
+    }
+  },
+  "hero": {
+    "title": "PK-yrityksen työvuorolista nopeasti ja helposti",
+    "subtitle": "Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!",
+    "tryDemo": "Kokeile demoa",
+    "or": "TAI"
+  },
+  "demoVideo": {
+    "title": "Työvuorolistan teko voi olla myös helppoa",
+    "description": "Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin kaikille työntekijöille lähetetään lista sähköpostilla.",
+    "step1": "Rekisteröidy",
+    "step2": "Tee työvuorolista",
+    "step3": "Julkaise"
+  },
+  "customerStory": {
+    "title": "Mitä asiakkaat sanovat",
+    "testimonials": [
+      {
+        "quote": "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!",
+        "author": "Laura Dahlman",
+        "company": "Ravintola Apaja, Tampere"
+      },
+      {
+        "quote": "Todella selkeä ja helppokäyttöinen paketti ravintolan työvuorojen suunnitteluun ja jakeluun.",
+        "quote2": "Jos vielä räpläät työvuoroja Excelillä tai ruutupaperilla, etkä halua maksaa kassikaupalla raskaista taloushallinnan ohjelmistopaketeista, niin nyt viimeistään kannattaa kokeilla Työvuorolistaa. Lämmin suositus.",
+        "author": "Rami Käkönen",
+        "company": "Ravintola Askaisten Holvi, Askainen"
+      },
+      {
+        "quote": "Työvuorolistojen tekemisestä on tullut todella helppo, tosiaan - ei mitään turhaa näpyttelyä! Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin. Jos apua on tarvittu, niin tuki ja neuvo on aina ollut nopeasti saatavilla!",
+        "author": "Anita Lindov",
+        "company": "Velj. Kitola Oy, Nousiainen"
+      }
+    ]
+  },
+  "register": {
+    "step1": {
+      "title": "Rekisteröidy",
+      "description": "Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen, emme muita tietoja.",
+      "steps": [
+        {
+          "title": "Nopea rekisteröityminen",
+          "description": "voit rekisteröityä sähköpostilla tai Google-tilillä."
+        },
+        {
+          "title": "Ei luottokorttia",
+          "description": "voit kokeilla ilmaiseksi kolmella työntekijällä."
+        },
+        {
+          "title": "Helpot alkuasetukset",
+          "description": "lisää vaikka vain itsesi työntekijäksi ja aloita!"
+        }
+      ]
+    },
+    "step2": {
+      "title": "Suunnittele",
+      "description": "Tiimien ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi.",
+      "steps": [
+        {
+          "title": "Ei turhaa tietojen syöttöä",
+          "description": "sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta."
+        },
+        {
+          "title": "Ei turhaa näpyttelyä",
+          "description": "työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla."
+        },
+        {
+          "title": "Tarvittavat lisätiedot",
+          "description": "työvuoroihin voi helposti lisätä kommentteja, esim. \"myymälävastaava\"."
+        }
+      ]
+    },
+    "step3": {
+      "title": "Hyväksytä",
+      "description": "Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua.",
+      "steps": [
+        {
+          "title": "Kopioi kuva työvuorolistasta",
+          "description": "voit liittää sen helposti vaikka whatsapp-viestiin."
+        },
+        {
+          "title": "Tallenna kuva työvuorolistasta",
+          "description": "voit liittää sen helposti sähköpostin liitetiedostoksi."
+        }
+      ]
+    },
+    "step4": {
+      "title": "Julkaise",
+      "description": "Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla.",
+      "steps": [
+        {
+          "title": "Automatisoitu lähetys",
+          "description": "kun julkaiset listan, se lähetetään automaattisesti kaikille työntekijöille, jotka ovat listalla."
+        },
+        {
+          "title": "Henkilökohtainen lista",
+          "description": "jokaiselle työntekijälle lähtee personoitu lista heidän omista työvuoroistaan."
+        }
+      ]
+    },
+    "step5": {
+      "title": "Rajaton määrä tiimejä",
+      "description": "Jokaisella tiimillä on omat listansa ja asetuksensa, mutta voit jakaa työntekijöitä tiimien kesken.",
+      "steps": [
+        {
+          "title": "Omat asetukset",
+          "description": "joka tiimissä voi olla omat oletusajat ja vuoron pituudet."
+        },
+        {
+          "title": "Työntekijöiden jako",
+          "description": "työntekijät voivat olla useammassa tiimissä, mikä helpottaa monipaikkaisen yrityksen työvuorosuunnittelua."
+        },
+        {
+          "title": "Listojen julkaisu",
+          "description": "voit julkaista listoja tiimeittäin tai kaikki kerralla."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Usein kysytyt kysymykset",
+    "questions": {
+      "cost": {
+        "question": "Kuinka paljon tämä maksaa?",
+        "answer": "Hinnoittelu menee työntekijöiden määrän mukaan:",
+        "tiers": [
+          "maks. 3 työntekijää: 0 € / kk",
+          "maks. 20 työntekijää: 12 € / kk",
+          "maks. 50 työntekijää: 42 € / kk",
+          "yli 50 työntekijää: 120 € / kk"
+        ],
+        "vat": "Kaikkiin hintoihin lisätään alv 24%."
+      },
+      "trial": {
+        "question": "Voinko kokeilla maksamatta?",
+        "answer": "Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!"
+      },
+      "commitment": {
+        "question": "Kuinka pitkäksi aikaa pitää sitoutua?",
+        "answer": "Maksu hoidetaan kuukausi kerrallaan, ja voit koska tahansa lopettaa tilauksen. Ei mitään sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
+      },
+      "start": {
+        "question": "Koska voin aloittaa?",
+        "answer": "Rekisteröintiin ja alkuasetuksiin menee noin 3 minuuttia. Voit julkaista ensimmäisen työvuorolistasi vaikkapa vartin kuluttua."
+      },
+      "creator": {
+        "question": "Kuka tämä on tehnyt?",
+        "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
+      },
+      "difficulty": {
+        "question": "Onko tätä vaikea käyttää?",
+        "answer": "Koko sovellus on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorojen lisääminen tehdään raahaamalla työntekijän nimi oikeaan kohtaan."
+      },
+      "publish": {
+        "question": "Miten listojen julkaisu tapahtuu?",
+        "answer": "Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulostaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla."
+      },
+      "difference": {
+        "question": "Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?",
+        "answer": "Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:",
+        "points": [
+          "Hinnat ovat julkisesti näkyvillä: me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.",
+          "Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa. Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.",
+          "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
+          "Vähemmän ominaisuuksia: me keskitymme vain työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen. Emme tarjoa työntekijöillesi kännykkäsovelluksia, joita he eivät halua. Voit hanskata työvuorojen raportoinnin parhaaksi katsomallasi tavalla."
+        ]
+      }
+    }
+  },
+  "contactForm": {
+    "title": "Haluan kysyä lisää!",
+    "description": "Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!",
+    "emailPlaceholder": "Sähköpostiosoitteesi",
+    "phonePlaceholder": "Puhelinnumerosi",
+    "or": "tai",
+    "submit": "Lähetä",
+    "success": "Kiitos! Olen sinuun yhteydessä pikaisesti!",
+    "error": "Lomakkeen lähetys epäonnistui. Yritä uudelleen.",
+    "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen."
+  },
+  "mobileDemo": {
+    "title": "Käytä sovellusta myös mobiilissa",
+    "description": "Työvuorolista-sovellus toimii täysimittaisena myös älypuhelimissa ja tableteissa. Voit suunnitella työvuoroja, hallita työntekijöitä ja kirjata toteutuneita tunteja suoraan mobiililaitteellasi.",
+    "features": [
+      "Työvuorojen suunnittelu ja muokkaus",
+      "Työntekijöiden hallinta",
+      "Toteutuneiden tuntien kirjaus",
+      "Listojen julkaisu ja sähköpostitus"
+    ],
+    "moreInfo": "Käyttöliittymä mukautuu automaattisesti kosketusnäytöille, ja navigointi toimii kätevästi hampurilaisvalikon kautta.",
+    "readMore": "Lue lisää mobiilista"
+  },
+  "blogPosts": {
+    "title": "Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta",
+    "viewAll": "Katso kaikki tekstit",
+    "published": "Julkaistu",
+    "tags": "Avainsanat:",
+    "blogPageTitle": "Tekstejä ravintolan työvuorosuunnittelusta"
+  },
+  "pages": {
+    "pricing": {
+      "title": "Läpinäkyvä ja reilu hinnoittelu",
+      "tiers": {
+        "tier1": {
+          "title": "Maks. 3 työntekijää",
+          "price": "0 € / kuukausi",
+          "features": [
+            "Ei sitoutumisaikoja",
+            "Kaikki ominaisuudet"
+          ]
+        },
+        "tier2": {
+          "title": "Maks. 20 työntekijää",
+          "price": "12 € / kuukausi",
+          "features": [
+            "Ei sitoutumisaikoja",
+            "Kaikki ominaisuudet"
+          ]
+        },
+        "tier3": {
+          "title": "Maks. 50 työntekijää",
+          "price": "42 € / kuukausi",
+          "features": [
+            "Ei sitoutumisaikoja",
+            "Kaikki ominaisuudet"
+          ]
+        },
+        "tier4": {
+          "title": "Yli 50 työntekijää",
+          "price": "120 € / kuukausi",
+          "features": [
+            "Ei sitoutumisaikoja",
+            "Kaikki ominaisuudet"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Tyovuorolista.fi yhteystiedot",
+      "company": "True Solutions / tyovuorolista.fi",
+      "businessId": "Y-tunnus: 3431534-2",
+      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+      "sales": "Myynti:",
+      "info": "info@tyovuorolista.fi"
+    },
+    "terms": {
+      "title": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
+    }
+  },
+  "common": {
+    "tryFree": "Kokeile Työvuorolistaa ilmaiseksi"
+  }
+}
+

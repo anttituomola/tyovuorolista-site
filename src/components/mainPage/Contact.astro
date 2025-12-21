@@ -1,13 +1,13 @@
 ---
-
+const { locale = 'fi', contactPage } = Astro.props
 ---
 
 <div class="wrapper">
-    <h1>Tyovuorolista.fi yhteystiedot</h1>
-    <p>True Solutions / tyovuorolista.fi</p>
-    <p>Y-tunnus: 3431534-2</p>
-    <p>Juhannuskylänkatu 1 B 6, 33100 Tampere</p>
-	<p>Myynti: <a href='mailto:eemeli@tyovuorolista.fi'>eemeli@tyovuorolista.fi</a></p>
-    <p><a href='mailto:info@tyovuorolista.fi'>info@tyovuorolista.fi</a></p>
+    <h1>{contactPage?.title || 'Tyovuorolista.fi yhteystiedot'}</h1>
+    <p>{contactPage?.company || 'True Solutions / tyovuorolista.fi'}</p>
+    <p>{contactPage?.businessId || 'Y-tunnus: 3431534-2'}</p>
+    <p>{contactPage?.address || 'Juhannuskylänkatu 1 B 6, 33100 Tampere'}</p>
+	<p>{contactPage?.sales || 'Myynti:'} <a href='mailto:eemeli@tyovuorolista.fi'>eemeli@tyovuorolista.fi</a></p>
+    <p><a href='mailto:info@tyovuorolista.fi'>{contactPage?.info || 'info@tyovuorolista.fi'}</a></p>
     <p><a href='tel:+358456798818'>+358 45 679 8818</a></p>
 </div>

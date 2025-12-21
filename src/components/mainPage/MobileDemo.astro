@@ -1,40 +1,31 @@
 ---
 import Button from '../common/Button.astro'
+import { t, getTranslationObject } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 'sv')
 ---
 
 <div class="wrapper">
     <div class="content">
         <div class="textSection">
-            <h2>Käytä sovellusta myös mobiilissa</h2>
+            <h2>{t('mobileDemo.title', locale as 'fi' | 'en' | 'sv')}</h2>
             <p class="description">
-                Työvuorolista-sovellus toimii täysimittaisena myös älypuhelimissa ja tableteissa. 
-                Voit suunnitella työvuoroja, hallita työntekijöitä ja kirjata toteutuneita tunteja 
-                suoraan mobiililaitteellasi.
+                {t('mobileDemo.description', locale as 'fi' | 'en' | 'sv')}
             </p>
             <div class="features">
-                <div class="feature">
-                    <span class="checkmark">✓</span>
-                    <span>Työvuorojen suunnittelu ja muokkaus</span>
-                </div>
-                <div class="feature">
-                    <span class="checkmark">✓</span>
-                    <span>Työntekijöiden hallinta</span>
-                </div>
-                <div class="feature">
-                    <span class="checkmark">✓</span>
-                    <span>Toteutuneiden tuntien kirjaus</span>
-                </div>
-                <div class="feature">
-                    <span class="checkmark">✓</span>
-                    <span>Listojen julkaisu ja sähköpostitus</span>
-                </div>
+                {mobileDemo?.features?.map((feature: string) => (
+                    <div class="feature">
+                        <span class="checkmark">✓</span>
+                        <span>{feature}</span>
+                    </div>
+                ))}
             </div>
             <p class="moreInfo">
-                Käyttöliittymä mukautuu automaattisesti kosketusnäytöille, ja navigointi toimii 
-                kätevästi hampurilaisvalikon kautta.
+                {t('mobileDemo.moreInfo', locale as 'fi' | 'en' | 'sv')}
             </p>
             <Button 
-                text="Lue lisää mobiilista" 
+                text={t('mobileDemo.readMore', locale as 'fi' | 'en' | 'sv')} 
                 backgroundColor="var(--hiekka)" 
                 href="/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla" 
             />

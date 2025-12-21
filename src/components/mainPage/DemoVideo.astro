@@ -1,12 +1,14 @@
 ---
 import Button from '../common/Button.astro'
+import { t } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
 ---
 
 <div class="wrapper">
-    <h2>Työvuorolistan teko voi olla myös helppoa</h2>
+    <h2>{t('demoVideo.title', locale as 'fi' | 'en' | 'sv')}</h2>
     <p class="description">
-        Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin
-        kaikille työntekijöille lähetetään lista sähköpostilla.
+        {t('demoVideo.description', locale as 'fi' | 'en' | 'sv')}
     </p>
     <div class="videoContainer">
         <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
@@ -16,13 +18,13 @@ import Button from '../common/Button.astro'
     </div>
     <div class="stepByStep">
         <div class="step">
-            <span class="numberedBox">1</span><Button text="Rekisteröidy" backgroundColor="var(--hiekka)" href="" />
+            <span class="numberedBox">1</span><Button text={t('demoVideo.step1', locale as 'fi' | 'en' | 'sv')} backgroundColor="var(--hiekka)" href="" />
         </div>
         <div class="step">
-            <span class="numberedBox">2</span><span class="stepText">Tee työvuorolista</span>
+            <span class="numberedBox">2</span><span class="stepText">{t('demoVideo.step2', locale as 'fi' | 'en' | 'sv')}</span>
         </div>
         <div class="step">
-            <span class="numberedBox">3</span><span class="stepText">Julkaise</span>
+            <span class="numberedBox">3</span><span class="stepText">{t('demoVideo.step3', locale as 'fi' | 'en' | 'sv')}</span>
         </div>
     </div>
 </div>

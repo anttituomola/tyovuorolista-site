@@ -1,9 +1,21 @@
 ---
-const allPosts = await Astro.glob('../pages/posts/*.md')
-console.log(allPosts)
-const sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
+import { getLocaleFromAstro } from '../utils/translations'
 import BlogPostCard from '../components/common/BlogPostCard.astro'
 import Layout from '../layouts/Layout.astro'
+
+const locale = getLocaleFromAstro(Astro)
+
+// Redirect non-Finnish users or show empty state
+let allPosts = []
+let sortedPosts = []
+
+if (locale === 'fi') {
+    allPosts = await Astro.glob('../pages/posts/*.md')
+    sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
+} else {
+    // Redirect to home page for non-Finnish locales
+    return Astro.redirect(locale === 'en' ? '/en/' : '/sv/')
+}
 ---
 
 <Layout>

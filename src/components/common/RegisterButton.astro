@@ -1,10 +1,11 @@
 ---
+import { t } from '../../utils/translations'
 
+const { locale = 'fi' } = Astro.props
 ---
-
 <a href='https://app.tyovuorolista.fi/CreateNewAccount' target="_blank">
     <div class="button">
-        <span>Rekisteröidy</span>
+        <span>{t('nav.register', locale as 'fi' | 'en' | 'sv')}</span>
     </div>
 </a>
 
@@ -34,4 +35,3 @@
         text-decoration: none;
     }
 </style>
-

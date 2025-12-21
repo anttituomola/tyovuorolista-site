@@ -3,18 +3,21 @@ import Button from '../common/Button.astro'
 import { Image } from 'astro:assets'
 import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
 import RegisterButton from '../common/RegisterButton.astro'
+import { t } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
 ---
 
 <div class="hero">
-    <h1>PK-yrityksen työvuorolista nopeasti ja helposti</h1>
+    <h1>{t('hero.title', locale as 'fi' | 'en' | 'sv')}</h1>
     <div class="heroImage">
         <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} loading='eager'/>
     </div>
-    <h3>Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!</h3>
+    <h3>{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h3>
     <span class="buttons">
-        <RegisterButton />
-        <span style="color: var(--harmaa);">TAI</span>
-        <Button text="Kokeile demoa" backgroundColor="var(--ruskeaharmaa)" href="https://app.tyovuorolista.fi/demo" target="_blank" />
+        <RegisterButton locale={locale} />
+        <span style="color: var(--harmaa);">{t('hero.or', locale as 'fi' | 'en' | 'sv')}</span>
+        <Button text={t('hero.tryDemo', locale as 'fi' | 'en' | 'sv')} backgroundColor="var(--ruskeaharmaa)" href="https://app.tyovuorolista.fi/demo" target="_blank" />
     </span>
 </div>
 

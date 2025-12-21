@@ -1,0 +1,277 @@
+{
+  "nav": {
+    "pricing": "Prissättning",
+    "contact": "Kontakt",
+    "login": "Logga in",
+    "register": "Registrera dig",
+    "logoSubtitle": "Arbetsscheman för småföretag snabbt och enkelt"
+  },
+  "footer": {
+    "copyright": "Työvuorolista | tyovuorolista.fi",
+    "links": {
+      "contact": "Kontakt",
+      "pricing": "Prissättning",
+      "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy"
+    },
+    "industrySolutions": "Branschspecifika lösningar",
+    "industries": {
+      "restaurants": "Restauranger och kaféer",
+      "taxi": "Taxibolag och transport",
+      "cleaning": "Städning och fastighetstjänster",
+      "hotels": "Hotell och värdshus",
+      "events": "Evenemang och säsongsarbete"
+    }
+  },
+  "hero": {
+    "title": "Arbetsscheman för småföretag snabbt och enkelt",
+    "subtitle": "Registrera dig, skapa ett arbetsschema och publicera det på mindre än fem minuter!",
+    "tryDemo": "Prova demo",
+    "or": "ELLER"
+  },
+  "demoVideo": {
+    "title": "Att skapa arbetsscheman kan också vara enkelt",
+    "description": "Skift läggs till i schemat genom att dra anställda till rätt plats. Publicering sker med ett knapptryck, som skickar schemat till alla anställda via e-post.",
+    "step1": "Registrera dig",
+    "step2": "Skapa arbetsschema",
+    "step3": "Publicera"
+  },
+  "customerStory": {
+    "title": "Vad kunderna säger",
+    "testimonials": [
+      {
+        "quote": "Att skapa arbetsscheman har varit riktigt enkelt. Anställda berömmer också schemanas utseende!",
+        "author": "Laura Dahlman",
+        "company": "Ravintola Apaja, Tampere"
+      },
+      {
+        "quote": "Riktigt tydligt och användarvänligt paket för planering och distribution av restaurangskift.",
+        "quote2": "Om du fortfarande pysslar med skift i Excel eller på papper, och inte vill betala en förmögenhet för tunga ekonomistyrsprogrampaket, är det nu definitivt dags att prova Työvuorolista. Varm rekommendation.",
+        "author": "Rami Käkönen",
+        "company": "Ravintola Askaisten Holvi, Askainen"
+      },
+      {
+        "quote": "Att göra arbetsscheman har blivit riktigt enkelt, verkligen - ingen onödig klickning! Schemana blir klara snabbt och de skickas till varje anställds e-post. Om hjälp har behövts har stöd och råd alltid varit snabbt tillgängliga!",
+        "author": "Anita Lindov",
+        "company": "Velj. Kitola Oy, Nousiainen"
+      }
+    ]
+  },
+  "register": {
+    "step1": {
+      "title": "Registrera dig",
+      "description": "Du kan registrera dig med antingen e-post eller ditt Google-konto. Inledningsvis behöver vi bara en e-postadress, ingen annan information.",
+      "steps": [
+        {
+          "title": "Snabb registrering",
+          "description": "du kan registrera dig med e-post eller Google-konto."
+        },
+        {
+          "title": "Inget kreditkort",
+          "description": "du kan prova gratis med upp till tre anställda."
+        },
+        {
+          "title": "Enkel första konfiguration",
+          "description": "lägg bara till dig själv som anställd och kom igång!"
+        }
+      ]
+    },
+    "step2": {
+      "title": "Planera",
+      "description": "Att lägga till team och anställda tar några minuter. Du kan börja skapa ditt första arbetsschema direkt.",
+      "steps": [
+        {
+          "title": "Ingen onödig datainmatning",
+          "description": "appen frågar bara efter nödvändig information, i praktiken namn och e-post. Inget annat."
+        },
+        {
+          "title": "Ingen onödig klickning",
+          "description": "skift läggs till i kalendern genom att dra anställda till rätt plats. Skiftets längd och plats kan också justeras genom att dra."
+        },
+        {
+          "title": "Nödvändig ytterligare information",
+          "description": "du kan enkelt lägga till kommentarer till skift, t.ex. \"butikschef\"."
+        }
+      ]
+    },
+    "step3": {
+      "title": "Godkänn",
+      "description": "Dela skiftplanen enkelt och snabbt med anställda i din föredragna kanal och be om feedback innan publicering.",
+      "steps": [
+        {
+          "title": "Kopiera bild av arbetsschema",
+          "description": "du kan enkelt klistra in den i ett WhatsApp-meddelande."
+        },
+        {
+          "title": "Spara bild av arbetsschema",
+          "description": "du kan enkelt bifoga den som e-postbilaga."
+        }
+      ]
+    },
+    "step4": {
+      "title": "Publicera",
+      "description": "Publicera arbetsschemat med ett klick och skicka det automatiskt till anställda via e-post.",
+      "steps": [
+        {
+          "title": "Automatiserad sändning",
+          "description": "när du publicerar schemat skickas det automatiskt till alla anställda i schemat."
+        },
+        {
+          "title": "Personligt schema",
+          "description": "varje anställd får ett personligt schema över sina egna skift."
+        }
+      ]
+    },
+    "step5": {
+      "title": "Obegränsat antal team",
+      "description": "Varje team har sina egna scheman och inställningar, men du kan dela anställda mellan team.",
+      "steps": [
+        {
+          "title": "Egna inställningar",
+          "description": "varje team kan ha sina egna standardtider och skiftlängder."
+        },
+        {
+          "title": "Dela anställda",
+          "description": "anställda kan vara i flera team, vilket underlättar skiftplanering för företag med flera platser."
+        },
+        {
+          "title": "Publicera scheman",
+          "description": "du kan publicera scheman per team eller alla på en gång."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "questions": {
+      "cost": {
+        "question": "Hur mycket kostar detta?",
+        "answer": "Prissättningen baseras på antalet anställda:",
+        "tiers": [
+          "max. 3 anställda: 0 € / månad",
+          "max. 20 anställda: 12 € / månad",
+          "max. 50 anställda: 42 € / månad",
+          "över 50 anställda: 120 € / månad"
+        ],
+        "vat": "24% moms läggs till alla priser."
+      },
+      "trial": {
+        "question": "Kan jag prova utan att betala?",
+        "answer": "Självklart! Att köra med mindre än fyra anställda är alltid gratis!"
+      },
+      "commitment": {
+        "question": "Hur länge måste jag binda mig?",
+        "answer": "Betalning hanteras månadsvis, och du kan när som helst avbryta din prenumeration. Inga bindningstider. Till exempel kan en sommarrestaurang betala för användning under sommaren och avbryta prenumerationen för vintern."
+      },
+      "start": {
+        "question": "När kan jag börja?",
+        "answer": "Registrering och första konfiguration tar cirka 3 minuter. Du kan publicera ditt första arbetsschema om cirka 15 minuter."
+      },
+      "creator": {
+        "question": "Vem har gjort detta?",
+        "answer": "Jag är Antti Tuomola. Jag har över 15 års erfarenhet inom restaurangbranschen som anställd, chef och entreprenör. Jag har arbetat i stadsdelsbarer och Michelin-restauranger, drivit herrgårdsrestauranger och matvagnar. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland med Excel, ibland med programsvara byggd för ändamålet. Jag har aldrig varit helt nöjd med dem. Därför detta."
+      },
+      "difficulty": {
+        "question": "Är detta svårt att använda?",
+        "answer": "Hela appen är byggd med tanken att skapa arbetsscheman ska vara så enkelt som möjligt. Gränssnittet är grafiskt, och skift läggs till genom att dra anställdas namn till rätt plats."
+      },
+      "publish": {
+        "question": "Hur fungerar publicering av scheman?",
+        "answer": "När schemat är redo att publiceras trycker du bara på knappen Publicera, som skickar ett e-postmeddelande till alla anställda i schemat (och andra vid behov) med den anställdes personliga arbetsschema. Du kan också kopiera en bild eller PDF och publicera den hur du vill."
+      },
+      "difference": {
+        "question": "Hur skiljer sig detta från MaraPlan / Planier / HR-planer / etc.?",
+        "answer": "Työvuorolista skiljer sig från andra branschaktörer på dessa sätt:",
+        "points": [
+          "Priserna är offentligt synliga: vi försöker inte pressa ut maximalt pris från ditt företag, utan publicerar alla priser öppet.",
+          "Du kan börja använda Työvuorolista nu, på fem minuter. Publicera ett schema på 15 minuter. Inga kontaktförfrågningar, offerter, demoer, motofferter och annat tidsfördriv.",
+          "Työvuorolista är så enkelt att du inte behöver utbildning för att använda det. Om du vill kan vi gå igenom dess användning tillsammans, men jag litar också på att du kan använda detta utan handhållning.",
+          "Färre funktioner: vi fokuserar bara på att skapa arbetsscheman, publicera och registrera timmar. Vi erbjuder inte mobilappar för dina anställda som de inte vill ha. Du kan hantera skiftrapportering på det sätt du anser bäst."
+        ]
+      }
+    }
+  },
+  "contactForm": {
+    "title": "Jag vill fråga mer!",
+    "description": "Lämna din e-post eller telefonnummer, så kontaktar jag dig snart!",
+    "emailPlaceholder": "Din e-postadress",
+    "phonePlaceholder": "Ditt telefonnummer",
+    "or": "eller",
+    "submit": "Skicka",
+    "success": "Tack! Jag kontaktar dig snart!",
+    "error": "Formulärinlämning misslyckades. Försök igen.",
+    "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen."
+  },
+  "mobileDemo": {
+    "title": "Använd appen på mobilen också",
+    "description": "Työvuorolista-appen fungerar fullt ut på smartphones och surfplattor. Du kan planera skift, hantera anställda och registrera arbetade timmar direkt på din mobila enhet.",
+    "features": [
+      "Planera och redigera skift",
+      "Hantera anställda",
+      "Registrera arbetade timmar",
+      "Publicera scheman och skicka e-post"
+    ],
+    "moreInfo": "Gränssnittet anpassar sig automatiskt till pekskärmar, och navigering fungerar bekvämt genom en hamburgermeny.",
+    "readMore": "Läs mer om mobil"
+  },
+  "blogPosts": {
+    "title": "Senaste artiklar om enklare skiftplanering",
+    "viewAll": "Visa alla artiklar",
+    "published": "Publicerad",
+    "tags": "Nyckelord:",
+    "blogPageTitle": "Artiklar om restaurangskiftplanering"
+  },
+  "pages": {
+    "pricing": {
+      "title": "Transparent och rättvis prissättning",
+      "tiers": {
+        "tier1": {
+          "title": "Max. 3 anställda",
+          "price": "0 € / månad",
+          "features": [
+            "Inga bindningstider",
+            "Alla funktioner"
+          ]
+        },
+        "tier2": {
+          "title": "Max. 20 anställda",
+          "price": "12 € / månad",
+          "features": [
+            "Inga bindningstider",
+            "Alla funktioner"
+          ]
+        },
+        "tier3": {
+          "title": "Max. 50 anställda",
+          "price": "42 € / månad",
+          "features": [
+            "Inga bindningstider",
+            "Alla funktioner"
+          ]
+        },
+        "tier4": {
+          "title": "Över 50 anställda",
+          "price": "120 € / månad",
+          "features": [
+            "Inga bindningstider",
+            "Alla funktioner"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Tyovuorolista.fi kontaktinformation",
+      "company": "True Solutions / tyovuorolista.fi",
+      "businessId": "Organisationsnummer: 3431534-2",
+      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+      "sales": "Försäljning:",
+      "info": "info@tyovuorolista.fi"
+    },
+    "terms": {
+      "title": "Användarvillkor, integritetspolicy och återbetalningspolicy"
+    }
+  },
+  "common": {
+    "tryFree": "Prova Työvuorolista gratis"
+  }
+}
+
