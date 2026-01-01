@@ -1,6 +1,7 @@
 ---
 import Navigation from '../components/navigation/Navigation.astro'
 import Footer from '../components/navigation/Footer.astro'
+import Analytics from '../components/common/Analytics.astro'
 import { getLocaleFromAstro, t } from '../utils/translations'
 
 const locale = getLocaleFromAstro(Astro)
@@ -64,8 +65,6 @@ const finalOgDescription = ogDescription || finalDescription
         <meta property="twitter:title" content={ogTitle} />
         <meta property="twitter:description" content={ogDescription} />
         <meta property="twitter:image" content={ogImage} />
-
-        <script defer data-domain="tyovuorolista.fi" src="https://analytics.tyovuorolista.fi/js/script.js"></script>
 
         <!-- Meta Pixel Code -->
 <script>
@@ -207,5 +206,6 @@ const finalOgDescription = ogDescription || finalDescription
         <Navigation locale={locale} />
         <slot />
         <Footer locale={locale} />
+        <Analytics />
     </body>
 </html>
