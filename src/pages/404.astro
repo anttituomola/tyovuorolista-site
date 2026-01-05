@@ -1,27 +1,29 @@
 ---
-import Layout from '../../layouts/Layout.astro'
-import Button from '../../components/common/Button.astro'
-import { t } from '../../utils/translations'
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+import { t, getLocaleFromAstro } from '../utils/translations'
 
-const locale = 'en'
+const locale = getLocaleFromAstro(Astro)
 
-// Set HTTP 404 status code since this content is not available
+// Set HTTP 404 status code
 Astro.response.status = 404
+
+const homePath = locale === 'fi' ? '/' : `/${locale}/`
 ---
 
 <Layout 
-    title={t('notAvailable.title', locale)}
-    description={t('notAvailable.description', locale)}
+    title={t('notFound.title', locale)}
+    description={t('notFound.description', locale)}
 >
-    <div class="not-available-wrapper">
+    <div class="not-found-wrapper">
         <div class="content">
-            <div class="icon">🌐</div>
-            <h1>{t('notAvailable.heading', locale)}</h1>
-            <p>{t('notAvailable.description', locale)}</p>
+            <div class="icon">🔍</div>
+            <h1>{t('notFound.heading', locale)}</h1>
+            <p>{t('notFound.description', locale)}</p>
             <div class="actions">
                 <Button 
-                    href="/en/"
-                    text={t('notAvailable.backToHome', locale)}
+                    href={homePath}
+                    text={t('notFound.backToHome', locale)}
                     backgroundColor="var(--tummanvihrea)"
                     textColor="var(--vaaleanharmaa)"
                 />
@@ -31,7 +33,7 @@ Astro.response.status = 404
 </Layout>
 
 <style>
-    .not-available-wrapper {
+    .not-found-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -66,5 +68,4 @@ Astro.response.status = 404
         gap: var(--space-base);
     }
 </style>
-
 

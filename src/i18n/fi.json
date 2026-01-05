@@ -278,6 +278,12 @@
     "heading": "Tätä sisältöä ei ole vielä käännetty",
     "description": "Valitettavasti tämä sivu ei ole vielä saatavilla suomeksi. Voit palata etusivulle tai vaihtaa kieltä.",
     "backToHome": "Palaa etusivulle"
+  },
+  "notFound": {
+    "title": "Sivua ei löydy - 404",
+    "heading": "Sivua ei löydy",
+    "description": "Valitettavasti etsimääsi sivua ei löytynyt. Sivu on saattanut siirtyä tai poistua.",
+    "backToHome": "Palaa etusivulle"
   }
 }
 

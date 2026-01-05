@@ -278,6 +278,12 @@
     "heading": "This content is not yet translated",
     "description": "Unfortunately this page is not yet available in English. You can return to the home page or switch language.",
     "backToHome": "Back to home page"
+  },
+  "notFound": {
+    "title": "Page not found - 404",
+    "heading": "Page not found",
+    "description": "Sorry, the page you're looking for could not be found. It may have been moved or deleted.",
+    "backToHome": "Back to home page"
   }
 }
 

@@ -17,7 +17,8 @@ const {
   ogTitle,
   ogDescription,
   ogUrl = Astro.url.href,
-  ogImage = "https://tyovuorolista.fi/assets/metaImage.png"
+  ogImage = "https://tyovuorolista.fi/assets/metaImage.png",
+  canonicalUrl: customCanonicalUrl
 } = Astro.props
 
 const defaultTitle = locale === 'fi' 
@@ -36,6 +37,37 @@ const finalTitle = title || defaultTitle
 const finalDescription = description || defaultDescription
 const finalOgTitle = ogTitle || finalTitle
 const finalOgDescription = ogDescription || finalDescription
+
+// Generate canonical URL - normalize to use www and remove trailing slashes (except root)
+// Allow pages to override with customCanonicalUrl prop
+const canonicalUrl = customCanonicalUrl || (() => {
+  const currentUrl = new URL(Astro.url.href)
+  const siteUrl = Astro.site || 'https://www.tyovuorolista.fi'
+
+  // Use production site URL for canonical if available, otherwise use current URL
+  let canonicalHostname = currentUrl.hostname
+  if (siteUrl) {
+    try {
+      const siteUrlObj = new URL(siteUrl)
+      // Only use www if we're on the production domain (not localhost)
+      if (currentUrl.hostname.includes('tyovuorolista.fi')) {
+        canonicalHostname = siteUrlObj.hostname
+      }
+    } catch (e) {
+      // If site URL parsing fails, use current hostname
+    }
+  }
+
+  // Remove trailing slash except for root path
+  let canonicalPath = currentUrl.pathname
+  if (canonicalPath !== '/' && canonicalPath.endsWith('/')) {
+    canonicalPath = canonicalPath.slice(0, -1)
+  }
+
+  // Build canonical URL - use https for production, current protocol for dev
+  const canonicalProtocol = canonicalHostname.includes('tyovuorolista.fi') ? 'https:' : currentUrl.protocol
+  return `${canonicalProtocol}//${canonicalHostname}${canonicalPath}${currentUrl.search}`
+})()
 ---
 
 <!DOCTYPE html>
@@ -47,6 +79,8 @@ const finalOgDescription = ogDescription || finalDescription
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link rel="sitemap" href="/sitemap-index.xml">
         <link rel="sitemap" href="/sitemap-0.xml">
+        <!-- Canonical URL -->
+        <link rel="canonical" href={canonicalUrl} />
         <!-- Primary Meta Tags -->
         <title>{title}</title>
         <meta name="title" content={title} />
@@ -55,15 +89,15 @@ const finalOgDescription = ogDescription || finalDescription
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content={ogUrl} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
+        <meta property="og:title" content={finalOgTitle} />
+        <meta property="og:description" content={finalOgDescription} />
         <meta property="og:image" content={ogImage} />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={ogUrl} />
-        <meta property="twitter:title" content={ogTitle} />
-        <meta property="twitter:description" content={ogDescription} />
+        <meta property="twitter:title" content={finalOgTitle} />
+        <meta property="twitter:description" content={finalOgDescription} />
         <meta property="twitter:image" content={ogImage} />
 
         <!-- Meta Pixel Code -->

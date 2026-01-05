@@ -278,6 +278,12 @@
     "heading": "Detta innehåll är ännu inte översatt",
     "description": "Tyvärr är denna sida ännu inte tillgänglig på svenska. Du kan gå tillbaka till startsidan eller byta språk.",
     "backToHome": "Tillbaka till startsidan"
+  },
+  "notFound": {
+    "title": "Sidan hittades inte - 404",
+    "heading": "Sidan hittades inte",
+    "description": "Tyvärr kunde sidan du letar efter inte hittas. Den kan ha flyttats eller tagits bort.",
+    "backToHome": "Tillbaka till startsidan"
   }
 }
 

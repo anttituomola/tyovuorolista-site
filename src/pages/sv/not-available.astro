@@ -4,6 +4,9 @@ import Button from '../../components/common/Button.astro'
 import { t } from '../../utils/translations'
 
 const locale = 'sv'
+
+// Set HTTP 404 status code since this content is not available
+Astro.response.status = 404
 ---
 
 <Layout 
