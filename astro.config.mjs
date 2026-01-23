@@ -12,6 +12,7 @@ export default defineConfig({
   output: "server",
   adapter: vercel(),
   site: 'https://www.tyovuorolista.fi/',
+  trailingSlash: 'never',
   i18n: {
     defaultLocale: "fi",
     locales: ["fi", "en", "sv"],
