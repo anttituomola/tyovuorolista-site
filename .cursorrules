@@ -1,0 +1,43 @@
+# Työvuorolista Marketing Website
+
+## Project Overview
+This is the marketing website for Työvuorolista, a shift scheduling application for Finnish businesses. The site is built with Astro and deployed on Vercel.
+
+## Tech Stack
+- **Framework**: Astro 2.5.7
+- **UI Library**: React 18.2.0 (via @astrojs/react)
+- **Language**: TypeScript
+- **Deployment**: Vercel (serverless)
+- **Email Service**: AWS SES
+- **Internationalization**: Built-in Astro i18n (Finnish, English, Swedish)
+
+## Project Structure
+- `src/pages/` - Astro pages and routes
+- `src/components/` - React and Astro components
+- `src/i18n/` - Translation files (fi.json, en.json, sv.json)
+- `src/layouts/` - Page layouts
+- `api/` - API endpoints (handleForm.mjs, handleUnsubscribe.mjs)
+- `public/` - Static assets (images, videos)
+
+## Key Features
+- Multi-language support (Finnish default, English, Swedish)
+- Blog posts (markdown files in src/pages/posts/)
+- Contact form integration
+- Email subscription/unsubscription
+- Industry-specific landing pages
+- Responsive design
+
+## API Endpoints
+- `/api/handleForm` - Contact form submission (AWS SES)
+- `/api/handleUnsubscribe` - Email unsubscription
+
+## Development
+- Run: `npm run dev`
+- Build: `npm run build`
+- Preview: `npm run preview`
+
+## Important Notes
+- Default locale is Finnish (no prefix)
+- English and Swedish use `/en/` and `/sv/` prefixes
+- Site URL: https://www.tyovuorolista.fi/
+- Trailing slashes are disabled
