@@ -46,6 +46,11 @@ import dayjs from 'dayjs'
         margin-top: 0.5rem;
         margin-bottom: 2rem;
     }
+
+    /* Layout.astro sets global p { margin: 0 } — restore readable paragraph rhythm in posts */
+    .blogWrapper :global(p:not(.metadata)) {
+        margin-bottom: 1.15rem;
+    }
     
     .blogWrapper :global(img) {
         border: 2px solid var(--vaaleanharmaa);
@@ -72,5 +77,29 @@ import dayjs from 'dayjs'
         display: block;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         background-color: #000;
+    }
+
+    .blogWrapper :global(table) {
+        width: 100%;
+        max-width: 42rem;
+        margin: 1.25rem 0 1.5rem;
+        border-collapse: collapse;
+        border: 1px solid rgba(52, 52, 52, 0.12);
+        border-radius: 6px;
+        overflow: hidden;
+        font-size: 0.95rem;
+        line-height: 1.45;
+    }
+
+    .blogWrapper :global(thead th) {
+        background: rgba(52, 52, 52, 0.045);
+        font-weight: 600;
+    }
+
+    .blogWrapper :global(th),
+    .blogWrapper :global(td) {
+        border: 1px solid rgba(52, 52, 52, 0.1);
+        padding: 0.65rem 0.85rem;
+        vertical-align: middle;
     }
 </style>
