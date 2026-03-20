@@ -5,9 +5,9 @@ const locale = getLocaleFromAstro(Astro)
 const currentPath = getPathWithoutLocale(Astro.url.pathname)
 
 const languages = [
-  { code: 'fi', name: 'Suomi', flag: '🇫🇮' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'sv', name: 'Svenska', flag: '🇸🇪' }
+  { code: 'fi', name: 'Suomi' },
+  { code: 'en', name: 'English' },
+  { code: 'sv', name: 'Svenska' }
 ]
 
 // Paths that are only available in Finnish
@@ -32,7 +32,7 @@ const getLocalizedUrl = (langCode: string) => {
   
   // Use getLocalizedPath to convert Finnish path to target locale
   const localizedPath = getLocalizedPath(finnishPath, langCode as 'en' | 'sv')
-  return localizedPath === '/' ? `/${langCode}/` : localizedPath
+  return localizedPath === '/' ? `/${langCode}` : localizedPath
 }
 ---
 
@@ -45,9 +45,9 @@ const getLocalizedUrl = (langCode: string) => {
                 href={url} 
                 class={`lang-link ${isActive ? 'active' : ''}`}
                 aria-label={`Switch to ${lang.name}`}
+                lang={lang.code}
             >
-                <span class="flag">{lang.flag}</span>
-                <span class="lang-name">{lang.code.toUpperCase()}</span>
+                <span class="lang-code">{lang.code.toUpperCase()}</span>
             </a>
         )
     })}
@@ -85,26 +85,15 @@ const getLocalizedUrl = (langCode: string) => {
         border-color: var(--harmaa);
     }
 
-    .flag {
-        font-size: 1rem;
-    }
-
-    .lang-name {
+    .lang-code {
         font-weight: 600;
+        letter-spacing: 0.02em;
     }
 
     @media (max-width: 768px) {
         .lang-link {
             padding: 0.4rem 0.6rem;
             font-size: 0.8rem;
-        }
-
-        .flag {
-            font-size: 0.9rem;
-        }
-
-        .lang-name {
-            display: none;
         }
     }
 </style>

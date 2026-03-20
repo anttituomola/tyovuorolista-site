@@ -8,7 +8,7 @@ import { t, getLocalizedPath } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
 
-const homePath = locale === 'fi' ? '/' : `/${locale}/`
+const homePath = locale === 'fi' ? '/' : `/${locale}`
 const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
 const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 ---

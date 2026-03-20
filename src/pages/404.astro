@@ -8,7 +8,7 @@ const locale = getLocaleFromAstro(Astro)
 // Set HTTP 404 status code
 Astro.response.status = 404
 
-const homePath = locale === 'fi' ? '/' : `/${locale}/`
+const homePath = locale === 'fi' ? '/' : `/${locale}`
 ---
 
 <Layout 

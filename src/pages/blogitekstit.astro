@@ -14,7 +14,7 @@ if (locale === 'fi') {
     sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
 } else {
     // Redirect to home page for non-Finnish locales
-    return Astro.redirect(locale === 'en' ? '/en/' : '/sv/')
+    return Astro.redirect(locale === 'en' ? '/en' : '/sv')
 }
 ---
 
