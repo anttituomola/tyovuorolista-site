@@ -12,7 +12,8 @@ export default defineConfig({
   output: "server",
   adapter: vercel(),
   site: 'https://www.tyovuorolista.fi/',
-  trailingSlash: 'ignore',
+  // Aligns with Layout.astro canonical URLs (no trailing slash); avoids duplicate /path vs /path/.
+  trailingSlash: 'never',
   i18n: {
     defaultLocale: "fi",
     locales: ["fi", "en", "sv"],
