@@ -222,38 +222,80 @@
   },
   "pages": {
     "pricing": {
-      "title": "Läpinäkyvä ja reilu hinnoittelu",
+      "eyebrow": "Hinnoittelu",
+      "title": "Hinnoittelu per tili",
+      "subtitle": "Valitse tilillesi sopiva paketti. Hinta koskee koko tiliä, ei yksittäisiä työntekijöitä, ja samalla tilillä voit hallita useita toimipisteitä.",
+      "priceNote": "Hinta on per tili, ei per työntekijä.",
+      "taxNote": "Laskuun lisätään alv.",
+      "toggleLabel": "Valitse laskutustapa",
+      "monthlyLabel": "Kuukausimaksu",
+      "yearlyLabel": "Vuosilaskutus",
+      "monthlyPeriod": "/ kk",
+      "yearlyPeriod": "/ vuosi",
+      "monthlyMessage": "Vaihda vuosilaskutukseen ja säästä jopa 4 kuukautta verrattuna kuukausihintaan.",
+      "yearlyMessage": "Vuosilaskutus on oletus, koska maksat vain 8 kuukaudesta ja saat 4 kuukautta kaupan päälle.",
+      "yearlyBadge": "4 kk ilmaiseksi",
+      "billingHint": "Vuosilaskutus on selvästi kuukausiveloitusta edullisempi. Esimerkiksi Normi maksaa 18 € / kk tai 144 € / vuosi.",
       "tiers": {
         "tier1": {
-          "title": "Maks. 3 työntekijää",
-          "price": "0 € / kuukausi",
+          "title": "Mini",
+          "limit": "Enintään 3 työntekijää",
+          "monthlyPrice": "0 €",
+          "yearlyPrice": "0 €",
+          "pricingUnit": "Per tili",
           "features": [
-            "Ei sitoutumisaikoja",
-            "Kaikki ominaisuudet"
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
+            "Mobiiliystävällinen käyttöliittymä",
+            "Asiakastuki"
           ]
         },
         "tier2": {
-          "title": "Maks. 20 työntekijää",
-          "price": "12 € / kuukausi",
+          "title": "Normi",
+          "limit": "Enintään 20 työntekijää",
+          "monthlyPrice": "18 €",
+          "yearlyPrice": "144 €",
+          "pricingUnit": "Per tili",
+          "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
           "features": [
-            "Ei sitoutumisaikoja",
-            "Kaikki ominaisuudet"
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
+            "Raportit palkanlaskentaan",
+            "Sähköposti-ilmoitukset työntekijöille",
+            "Mobiiliystävällinen käyttöliittymä",
+            "Asiakastuki"
           ]
         },
         "tier3": {
-          "title": "Maks. 50 työntekijää",
-          "price": "42 € / kuukausi",
+          "title": "Iso",
+          "limit": "Enintään 50 työntekijää",
+          "monthlyPrice": "60 €",
+          "yearlyPrice": "504 €",
+          "pricingUnit": "Per tili",
+          "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
           "features": [
-            "Ei sitoutumisaikoja",
-            "Kaikki ominaisuudet"
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
+            "Raportit palkanlaskentaan",
+            "Sähköposti-ilmoitukset työntekijöille",
+            "Mobiiliystävällinen käyttöliittymä",
+            "Asiakastuki"
           ]
         },
         "tier4": {
-          "title": "Yli 50 työntekijää",
-          "price": "120 € / kuukausi",
+          "title": "Jätti",
+          "limit": "Enintään 100 työntekijää",
+          "monthlyPrice": "180 €",
+          "yearlyPrice": "1440 €",
+          "pricingUnit": "Per tili",
+          "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
           "features": [
-            "Ei sitoutumisaikoja",
-            "Kaikki ominaisuudet"
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
+            "Raportit palkanlaskentaan",
+            "Sähköposti-ilmoitukset työntekijöille",
+            "Mobiiliystävällinen käyttöliittymä",
+            "Asiakastuki"
           ]
         }
       }

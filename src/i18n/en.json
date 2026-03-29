@@ -222,38 +222,80 @@
   },
   "pages": {
     "pricing": {
-      "title": "Transparent and fair pricing",
+      "eyebrow": "Pricing",
+      "title": "Pricing per account",
+      "subtitle": "Choose the plan that fits your account. Pricing applies to the whole account, not to individual workers, and a single account can manage multiple venues.",
+      "priceNote": "Pricing is per account, not per worker.",
+      "taxNote": "VAT is added to invoices.",
+      "toggleLabel": "Choose billing mode",
+      "monthlyLabel": "Monthly",
+      "yearlyLabel": "Yearly",
+      "monthlyPeriod": "/ month",
+      "yearlyPeriod": "/ year",
+      "monthlyMessage": "Switch to yearly billing and save up to 4 months compared with monthly pricing.",
+      "yearlyMessage": "Yearly billing is the default because you only pay for 8 months and get 4 months included.",
+      "yearlyBadge": "4 months free",
+      "billingHint": "Yearly billing is clearly cheaper than monthly pricing. For example, Normi costs €18 / month or €144 / year.",
       "tiers": {
         "tier1": {
-          "title": "Max. 3 employees",
-          "price": "€0 / month",
+          "title": "Mini",
+          "limit": "Up to 3 employees",
+          "monthlyPrice": "€0",
+          "yearlyPrice": "€0",
+          "pricingUnit": "Per account",
           "features": [
-            "No commitment periods",
-            "All features"
+            "Unlimited shift schedules",
+            "Unlimited teams",
+            "Mobile-friendly interface",
+            "Customer support"
           ]
         },
         "tier2": {
-          "title": "Max. 20 employees",
-          "price": "€12 / month",
+          "title": "Normi",
+          "limit": "Up to 20 employees",
+          "monthlyPrice": "€18",
+          "yearlyPrice": "€144",
+          "pricingUnit": "Per account",
+          "yearlySavings": "Save €72 per year with yearly billing.",
           "features": [
-            "No commitment periods",
-            "All features"
+            "Unlimited shift schedules",
+            "Unlimited teams",
+            "Payroll reports",
+            "Email notifications for workers",
+            "Mobile-friendly interface",
+            "Customer support"
           ]
         },
         "tier3": {
-          "title": "Max. 50 employees",
-          "price": "€42 / month",
+          "title": "Iso",
+          "limit": "Up to 50 employees",
+          "monthlyPrice": "€60",
+          "yearlyPrice": "€504",
+          "pricingUnit": "Per account",
+          "yearlySavings": "Save €216 per year with yearly billing.",
           "features": [
-            "No commitment periods",
-            "All features"
+            "Unlimited shift schedules",
+            "Unlimited teams",
+            "Payroll reports",
+            "Email notifications for workers",
+            "Mobile-friendly interface",
+            "Customer support"
           ]
         },
         "tier4": {
-          "title": "Over 50 employees",
-          "price": "€120 / month",
+          "title": "Jätti",
+          "limit": "Up to 100 employees",
+          "monthlyPrice": "€180",
+          "yearlyPrice": "€1440",
+          "pricingUnit": "Per account",
+          "yearlySavings": "Save €720 per year with yearly billing.",
           "features": [
-            "No commitment periods",
-            "All features"
+            "Unlimited shift schedules",
+            "Unlimited teams",
+            "Payroll reports",
+            "Email notifications for workers",
+            "Mobile-friendly interface",
+            "Customer support"
           ]
         }
       }

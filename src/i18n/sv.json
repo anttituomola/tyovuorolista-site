@@ -222,38 +222,80 @@
   },
   "pages": {
     "pricing": {
-      "title": "Transparent och rättvis prissättning",
+      "eyebrow": "Prissättning",
+      "title": "Prissättning per konto",
+      "subtitle": "Välj paketet som passar ditt konto. Priset gäller hela kontot, inte enskilda anställda, och med ett konto kan du hantera flera verksamhetsställen.",
+      "priceNote": "Priset är per konto, inte per anställd.",
+      "taxNote": "Moms läggs till på fakturan.",
+      "toggleLabel": "Välj debiteringssätt",
+      "monthlyLabel": "Månadsbetalning",
+      "yearlyLabel": "Årsdebitering",
+      "monthlyPeriod": "/ månad",
+      "yearlyPeriod": "/ år",
+      "monthlyMessage": "Byt till årsdebitering och spara upp till 4 månader jämfört med månadspriset.",
+      "yearlyMessage": "Årsdebitering är standard eftersom du bara betalar för 8 månader och får 4 månader på köpet.",
+      "yearlyBadge": "4 månader gratis",
+      "billingHint": "Årsdebitering är tydligt billigare än månadsbetalning. Till exempel kostar Normi 18 € / månad eller 144 € / år.",
       "tiers": {
         "tier1": {
-          "title": "Max. 3 anställda",
-          "price": "0 € / månad",
+          "title": "Mini",
+          "limit": "Upp till 3 anställda",
+          "monthlyPrice": "0 €",
+          "yearlyPrice": "0 €",
+          "pricingUnit": "Per konto",
           "features": [
-            "Inga bindningstider",
-            "Alla funktioner"
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
+            "Mobilvänligt gränssnitt",
+            "Kundsupport"
           ]
         },
         "tier2": {
-          "title": "Max. 20 anställda",
-          "price": "12 € / månad",
+          "title": "Normi",
+          "limit": "Upp till 20 anställda",
+          "monthlyPrice": "18 €",
+          "yearlyPrice": "144 €",
+          "pricingUnit": "Per konto",
+          "yearlySavings": "Spara 72 € per år med årsdebitering.",
           "features": [
-            "Inga bindningstider",
-            "Alla funktioner"
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
+            "Lönerapporter",
+            "E-postnotiser till anställda",
+            "Mobilvänligt gränssnitt",
+            "Kundsupport"
           ]
         },
         "tier3": {
-          "title": "Max. 50 anställda",
-          "price": "42 € / månad",
+          "title": "Iso",
+          "limit": "Upp till 50 anställda",
+          "monthlyPrice": "60 €",
+          "yearlyPrice": "504 €",
+          "pricingUnit": "Per konto",
+          "yearlySavings": "Spara 216 € per år med årsdebitering.",
           "features": [
-            "Inga bindningstider",
-            "Alla funktioner"
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
+            "Lönerapporter",
+            "E-postnotiser till anställda",
+            "Mobilvänligt gränssnitt",
+            "Kundsupport"
           ]
         },
         "tier4": {
-          "title": "Över 50 anställda",
-          "price": "120 € / månad",
+          "title": "Jätti",
+          "limit": "Upp till 100 anställda",
+          "monthlyPrice": "180 €",
+          "yearlyPrice": "1440 €",
+          "pricingUnit": "Per konto",
+          "yearlySavings": "Spara 720 € per år med årsdebitering.",
           "features": [
-            "Inga bindningstider",
-            "Alla funktioner"
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
+            "Lönerapporter",
+            "E-postnotiser till anställda",
+            "Mobilvänligt gränssnitt",
+            "Kundsupport"
           ]
         }
       }
