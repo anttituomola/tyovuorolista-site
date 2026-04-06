@@ -1,8 +1,6 @@
 ---
-// Root-level /not-available redirects to home page
-// Since Finnish is the default locale, all content should be available there
+// kayttoohjeet page was removed - redirect to home page
 // Add noindex header to prevent this redirect page from being indexed
 Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow');
 return Astro.redirect('/', 301);
 ---
-

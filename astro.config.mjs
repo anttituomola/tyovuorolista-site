@@ -21,5 +21,18 @@ export default defineConfig({
       prefixDefaultLocale: false
     }
   },
-  integrations: [react(), sitemap()]
+  integrations: [react(), sitemap({
+    // Exclude pages that shouldn't be indexed
+    filter: (page) => {
+      const excludePatterns = [
+        '/not-available',
+        '/en/not-available',
+        '/sv/not-available',
+        '/kayttoohjeet',
+        '/api/',
+        '/_image'
+      ];
+      return !excludePatterns.some(pattern => page.includes(pattern));
+    }
+  })]
 });

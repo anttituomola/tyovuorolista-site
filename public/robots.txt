@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /not-available
+Disallow: /en/not-available
+Disallow: /sv/not-available
+Disallow: /kayttoohjeet
+Disallow: /kayttoohjeet/
+Disallow: /api/
+Disallow: /_image/
+
+Sitemap: https://www.tyovuorolista.fi/sitemap-index.xml

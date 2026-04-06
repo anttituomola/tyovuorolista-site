@@ -18,7 +18,8 @@ const {
   ogDescription,
   ogUrl = Astro.url.href,
   ogImage = "https://tyovuorolista.fi/assets/metaImage.png",
-  canonicalUrl: customCanonicalUrl
+  canonicalUrl: customCanonicalUrl,
+  noindex = false
 } = Astro.props
 
 const defaultTitle = locale === 'fi' 
@@ -81,6 +82,7 @@ const canonicalUrl = customCanonicalUrl || (() => {
         <link rel="sitemap" href="/sitemap-0.xml">
         <!-- Canonical URL -->
         <link rel="canonical" href={canonicalUrl} />
+        {noindex && <meta name="robots" content="noindex, nofollow" />}
         <!-- Primary Meta Tags -->
         <title>{title}</title>
         <meta name="title" content={title} />
