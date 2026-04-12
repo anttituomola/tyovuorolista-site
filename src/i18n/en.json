@@ -148,11 +148,11 @@
         "answer": "Pricing is based on the number of employees:",
         "tiers": [
           "max. 3 employees: €0 / month",
-          "max. 20 employees: €12 / month",
-          "max. 50 employees: €42 / month",
-          "over 50 employees: €120 / month"
+          "max. 20 employees: €18 / month",
+          "max. 50 employees: €60 / month",
+          "max. 100 employees: €180 / month"
         ],
-        "vat": "24% VAT is added to all prices."
+        "vat": "VAT is added to all prices."
       },
       "trial": {
         "question": "Can I try without paying?",

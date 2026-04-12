@@ -148,11 +148,11 @@
         "answer": "Prissättningen baseras på antalet anställda:",
         "tiers": [
           "max. 3 anställda: 0 € / månad",
-          "max. 20 anställda: 12 € / månad",
-          "max. 50 anställda: 42 € / månad",
-          "över 50 anställda: 120 € / månad"
+          "max. 20 anställda: 18 € / månad",
+          "max. 50 anställda: 60 € / månad",
+          "max. 100 anställda: 180 € / månad"
         ],
-        "vat": "24% moms läggs till alla priser."
+        "vat": "Moms läggs till alla priser."
       },
       "trial": {
         "question": "Kan jag prova utan att betala?",

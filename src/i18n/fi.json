@@ -148,11 +148,11 @@
         "answer": "Hinnoittelu menee työntekijöiden määrän mukaan:",
         "tiers": [
           "maks. 3 työntekijää: 0 € / kk",
-          "maks. 20 työntekijää: 12 € / kk",
-          "maks. 50 työntekijää: 42 € / kk",
-          "yli 50 työntekijää: 120 € / kk"
+          "maks. 20 työntekijää: 18 € / kk",
+          "maks. 50 työntekijää: 60 € / kk",
+          "maks. 100 työntekijää: 180 € / kk"
         ],
-        "vat": "Kaikkiin hintoihin lisätään alv 24%."
+        "vat": "Kaikkiin hintoihin lisätään alv."
       },
       "trial": {
         "question": "Voinko kokeilla maksamatta?",
