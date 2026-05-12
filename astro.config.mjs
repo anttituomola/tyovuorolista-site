@@ -1,14 +1,12 @@
 import { defineConfig } from 'astro/config';
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel";
 import react from "@astrojs/react";
 
 import sitemap from "@astrojs/sitemap";
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    assets: true
-  },
   output: "server",
   adapter: vercel(),
   site: 'https://www.tyovuorolista.fi/',
@@ -21,7 +19,7 @@ export default defineConfig({
       prefixDefaultLocale: false
     }
   },
-  integrations: [react(), sitemap({
+  integrations: [react(), icon(), sitemap({
     // Exclude pages that shouldn't be indexed
     filter: (page) => {
       const excludePatterns = [

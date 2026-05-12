@@ -4,8 +4,8 @@
 This is the marketing website for Työvuorolista, a shift scheduling application for Finnish businesses. The site is built with Astro and deployed on Vercel.
 
 ## Tech Stack
-- **Framework**: Astro 2.5.7
-- **UI Library**: React 18.2.0 (via @astrojs/react)
+- **Framework**: Astro 6.3.1
+- **UI Library**: React 19.2.6 (via @astrojs/react)
 - **Language**: TypeScript
 - **Deployment**: Vercel (serverless)
 - **Email Service**: AWS SES
