@@ -10,7 +10,7 @@ image:
 tags: ["tulostus", "julkaisu", "työvuorolistat", "henkilökohtaiset listat", "päivitykset"]
 ---
 
-Työvuorolistojen tulostamiseen on lisätty uusi valintaikkuna. Kun painat julkaisunäkymässä **Tulosta...**, voit nyt valita, tulostetaanko koko tiimin lista, työntekijäkohtaiset henkilökohtaiset listat vai molemmat samalla kertaa.
+Työvuorolistojen tulostamiseen on lisätty uusi valintaikkuna. Kun painat [julkaisunäkymässä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) **Tulosta...**, voit nyt valita, tulostetaanko koko tiimin lista, työntekijäkohtaiset henkilökohtaiset listat vai molemmat samalla kertaa.
 
 Tämä auttaa erityisesti silloin, kun haluat jakaa listat paperilla esimerkiksi työpaikan seinälle, työntekijöille mukaan otettavaksi tai tilanteissa, joissa sähköpostia ei haluta käyttää.
 
@@ -50,7 +50,7 @@ Uusi tulostustapa sopii esimerkiksi silloin, kun:
 - haluat tarkistaa henkilökohtaiset listat ilman sähköpostin lähettämistä
 - työpaikalla käytetään tulosteita sähköpostin rinnalla
 
-Jos käytät resurssien aikataulutusta ja resurssit on valittu näkyviin julkaistuille listoille, resurssit näkyvät myös henkilökohtaisissa tulosteissa.
+Jos käytät [resurssien aikataulutusta](/posts/resurssien-aikataulutus-ominaisuus) ja resurssit on valittu näkyviin [julkaistuille listoille](/posts/resurssit-julkaistuissa-tyovuorolistoissa), resurssit näkyvät myös henkilökohtaisissa tulosteissa.
 
 ## Miten toimintoa käytetään?
 

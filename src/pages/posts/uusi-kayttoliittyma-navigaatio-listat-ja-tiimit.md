@@ -48,4 +48,4 @@ Lisäksi työntekijöiden hallintaan tehtiin käyttöliittymäparannuksia, kuten
 
 Tämä päivitys on ennen kaikkea käytettävyyspäivitys. Työvuorolistassa samat tärkeät toiminnot ovat edelleen mukana, mutta niiden käyttö on nyt suoraviivaisempaa ja näkymät kertovat enemmän yhdellä silmäyksellä.
 
-Jos käytät sovellusta päivittäin, muutos näkyy todennäköisesti juuri siinä, että oikeat asiat löytyvät nopeammin ja hallintasivuilla on helpompi pysyä kartalla kokonaisuudesta. Palaute uudesta käyttöliittymästä on erittäin tervetullutta.
+Jos käytät sovellusta päivittäin, muutos näkyy todennäköisesti juuri siinä, että oikeat asiat löytyvät nopeammin ja hallintasivuilla on helpompi pysyä kartalla kokonaisuudesta. Lue lisää [tiimien luomisesta ja hallinnasta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu), [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) ja [vuoden 2025 päivityksistä](/posts/vuoden_2025_paivitykset_ja_parannukset). Palaute uudesta käyttöliittymästä on erittäin tervetullutta.

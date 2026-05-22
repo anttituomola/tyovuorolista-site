@@ -11,7 +11,7 @@ tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
 Mikäli työvuorolistasi toistuu usein edes jossain määrin samalaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista - julkaistu tai julkaisematon - voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan mallineena.
 
-Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana.
+Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana. Lue lisää [tiimien luomisesta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu).
 
 ## Näin tallennat uuden mallineen
 <img src="/blogPostImages/mallineen_kaytto.png" style="width: 100%;" />
@@ -24,7 +24,7 @@ Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolista
 <img src="/blogPostImages/mallineen_kaytto_2.png" style="width: 100%;" />
 
 1. Valitse päävalikosta **Uusi lista**
-2. Valitse haluamasi malline **pudotusvalikosta**
+2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan-pituuden-valinta))
 
 ### Ohjevideo
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>

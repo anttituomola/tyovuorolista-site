@@ -68,5 +68,5 @@ Resurssien näyttäminen julkaistuissa listoissa on hyödyllistä esimerkiksi si
 - työvuorolista tulostetaan työpaikan seinälle ja resurssitiedon pitää olla kaikkien nähtävillä
 - haluat jakaa tiimin listan kuvana tai PDF:nä ilman, että resurssitieto katoaa matkalla
 
-Päivitys tekee resurssien käytöstä yhtenäisempää: sama tieto, jonka lisäät suunnittelukalenterissa työvuorolle, voidaan nyt näyttää myös julkaistussa listassa ja PDF:ssä.
+Päivitys tekee resurssien käytöstä yhtenäisempää: sama tieto, jonka lisäät suunnittelukalenterissa työvuorolle, voidaan nyt näyttää myös [julkaistussa listassa ja PDF:ssä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) sekä [henkilökohtaisissa tulosteissa](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
 

@@ -20,7 +20,7 @@ Tiimin asetuksissa voit määritellä kaikille tiimin työvuoroille oletuspituud
 
 <img src="/blogPostImages/tiimin_tyovuoron_oletuspituus.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Tiimin oletustyövuoropituuden asetus tiimin asetuksissa" />
 
-Löydät tämän asetuksen tiimin asetuksista kohdasta "Hallinta" -> "Tiimin asetukset" -> "Työvuoron oletuspituus".
+Löydät tämän asetuksen tiimin asetuksista kohdasta "Hallinta" -> "Tiimin asetukset" -> "Työvuoron oletuspituus". Lue lisää [tiimien hallinnasta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) ja [4 tunnin minimipituudesta](/posts/tyovuoron_minimipituus_ravintola-alalla).
 
 #### Työntekijäkohtainen oletuspituus
 

@@ -10,7 +10,7 @@ image:
 tags: ["työvuorosuunnittelu", "ohjelma", "työvuorosuunnitteluohjelmistot"]
 ---
 
-Työvuorolistan suunnittelu ravintolassa on pakollista puuhaa: laki määrittää, että työvuorolista on oltava tehtynä aina tulevalle kolmelle viikolle, ja julkaistuna viimeistään viikkoa ennen sen alkamista. Tämä pätee sekä saliin että keittiöön.
+Työvuorolistan suunnittelu ravintolassa on pakollista puuhaa: laki määrittää, että työvuorolista on oltava tehtynä aina tulevalle kolmelle viikolle (Työvuorolistassa voit valita [listan pituuden 1–4 viikkoa](/posts/listan-pituuden-valinta)), ja julkaistuna viimeistään viikkoa ennen sen alkamista. Tämä pätee sekä saliin että keittiöön.
 
 ## Mitä vaihtoehtoja työvuorosuunnitteluun löytyy?
 Ravintolan tai kahvilan työvuorosuunnitteluun löytyy rajallinen määrä erilaisia ohjelmia. Yleisimpiä vaihtoehtoja ovat Excel, Google Sheets, tai jokin työvuorosuunnitteluohjelma. Jokaisella näistä on omat hyvät ja huonot puolensa. Jotkut tekevät listat myös käsin, mutta siinä tulee tehtyä tupladuunia: joudut kuitenkin syöttämään tiedot johonkin digitaaliseen systeemiin, jotta saat palkat laskettua tai tiedot palkanlaskijalle. Samoin tein kannattaa suunnitella listat digitaalisesti, jotta ne on helppo jakaa työntekijöille ja palkanlaskentaan.
@@ -28,11 +28,11 @@ Vaihtoehdot voidaan jakaa ensin kahteen osaan:
 2. Ulkomaiset ohjelmistot
 
 Molemmat ovat aivan mahdollisia vaihtoehtoja, mutta kerrankin kannattaa valita kotimainen softa: työvuorosuunnittelussa on tärkeää, että ohjelmisto ymmärtää suomalaista työaikalainsäädäntöä. Sen pitäisi osata kertoa sinulle esimerkiksi: 
-- kuinka pitkä listan tulee olla (3 viikkoa)
+- kuinka pitkä listan tulee olla (3 viikkoa, tai [1–4 viikkoa Työvuorolistassa](/posts/listan-pituuden-valinta))
 - koska listan tulisi alkaa (maanantaista)
-- kuinka pitkä työvuoro saa olla (10 h, tai erikseen sovittaessa pidempi)
-- kuinka lyhyt työvuoro saa olla (4 h, perustellusta syystä lyhyempi)
-- kuinka pitkä tauko työvuorojen välissä tulee olla (11 h)
+- kuinka pitkä työvuoro saa olla ([10 h](/posts/tyovuoron_maksimipituus_ravintola-alalla), tai erikseen sovittaessa pidempi)
+- kuinka lyhyt työvuoro saa olla ([4 h](/posts/tyovuoron_minimipituus_ravintola-alalla), perustellusta syystä lyhyempi)
+- kuinka pitkä tauko työvuorojen välissä tulee olla ([11 h](/posts/kuinka_pitka_tauko_tyovuorojen_valilla))
 
 #### Kotimaisia ohjelmistoja ovat mm:
 - <a href='https://tyovuorolista.fi' target='_blank'>tyovuorolista.fi</a>
@@ -52,4 +52,4 @@ Työvuorolistan etuja kilpailijoihin nähden ovat:
 - Voit [aloittaa käytön heti](/posts/uuden_tilin_luominen): meillä sovellus ostetaan kotisivuilta, ja sen käytön voi aloittaa heti. Ei demopuheluita, tarjouspyyntöjä ja muut ajanhukkaa.
 - Käytön helppous: työvuorot laitetaan kalenteriin vetämällä työntekijä halutulle kohdalle. Työvuorot julkaistaan nappia painamalla.
 - Joustavuus: me ymmärrämme, että ravintolat ovat hektisiä ympäristöjä. Välillä sääntöjen tulee joustaa. Meillä voit tehdä työvuorolistan myös viikoksi, tai aloittaa sen torstaista, tai tehdä kahden tunnin työvuoron. Me näytämme muistutuksen, mutta emme estä sinua. Sovellus on tehty mahdollistamaan ravintolasi toiminta, ei valvomaan työaikalainsäädäntöä.
-- Ilmainen aloittaa, edullinen käyttää: voit aloittaa käytön heti ilmaiseksi. Vasta kun lisäät neljännen työntekijän, maksat yhden lounaan hintaisen kuukausimaksun. Tällä hinnalla voit tehdä listoja 20:lle työntekijälle!
+- Ilmainen aloittaa, edullinen käyttää: voit aloittaa käytön heti ilmaiseksi. Vasta kun lisäät neljännen työntekijän, maksat yhden lounaan hintaisen kuukausimaksun. Tällä hinnalla voit tehdä listoja 20:lle työntekijälle! Katso [ajankohtaiset hinnat](/posts/hinnoittelun-uudistus-maaliskuu-2026) ja [työvuorolista PDF:nä](/posts/tyovuorolista_pohja_pdf).

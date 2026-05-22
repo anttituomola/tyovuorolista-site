@@ -38,6 +38,6 @@ Asetukset-välilehden vasemmassa ylälaidassa on "Aloitus pvm" kohta. Laita siih
 Tämän jälkeen voit alkaa läimimään työvuoroja paikoilleen. Taulukko laskee automaattisesti työntekijöiden työtunnit, vapaat, ja sen sellaiset.
 
 # Haluatko helpomman tavan?
-Tyovuorolista.fi palvelu tarjoaa selaimessa toimivan työvuorolistan teon, jossa työntekijöitä raahataan kalenteriin halutulle kohdalle. Työvuoron pituuksia voi säädellä yhtä lailla raahaamalla, työvuoroon voi liittää kommentteja, ja työntekijöiden työvuorot voi jakaa heille sähköpostitse tai vaikkapa WhatsAppilla.
+Tyovuorolista.fi palvelu tarjoaa selaimessa toimivan työvuorolistan teon, jossa työntekijöitä raahataan kalenteriin halutulle kohdalle. Työvuoron pituuksia voi säädellä yhtä lailla raahaamalla, työvuoroon voi liittää kommentteja, ja työntekijöiden työvuorot voi jakaa heille [sähköpostitse tai PDF:nä](/posts/tyovuorolista_pohja_pdf) tai vaikkapa WhatsAppilla.
 
-Tyovuorolista.fi:n käyttö on ilmaista alle 4 työntekijän listoille. Voit aloittaa käytön heti, ja julkaista ensimmäisen työvuorolistasi noin viidessä minuutissa. Palvelussa voit myös kirjata toteutuneet tunnit!
+Tyovuorolista.fi:n käyttö on ilmaista alle 4 työntekijän listoille. Voit [aloittaa käytön heti](/posts/uuden_tilin_luominen), ja julkaista ensimmäisen työvuorolistasi noin viidessä minuutissa. Palvelussa voit myös kirjata toteutuneet tunnit! Lue myös [työvuorosuunnitteluohjelma ravintola-alalle](/posts/työvuorosuunnittelu_ohjelma) -vertailu.

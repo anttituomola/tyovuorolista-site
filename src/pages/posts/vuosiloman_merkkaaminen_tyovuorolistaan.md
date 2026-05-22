@@ -9,7 +9,7 @@ image:
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorosuunnittelu", "lomat", "vapaat"]
 ---
-Kaikki vapaat merkataan Työvuorolista-sovelluksessa samalla tapaa: raahaamalla työntekijä vapaapäivä-riville, joka löytyy kalenterin ylälaidasta. Sovellus merkitsee luodun vapaapäivän automaattisesti joko V- tai X-päiväksi (voit lukea niistä ja tästä logiikasta lisää [V- ja X-päivien merkkaus työvuorolistaan -tekstistä](https://www.tyovuorolista.fi/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan)). Klikkaa luotua vapaapäivää ja vaihda vuoron tyyppi vuosilomaksi. Nyt voit määrittää myös sen alku- ja loppupäivän.
+Kaikki vapaat merkataan Työvuorolista-sovelluksessa samalla tapaa: raahaamalla työntekijä vapaapäivä-riville, joka löytyy kalenterin ylälaidasta. Sovellus merkitsee luodun vapaapäivän automaattisesti joko V- tai X-päiväksi (voit lukea niistä ja tästä logiikasta lisää [V- ja X-päivien merkkaus työvuorolistaan -tekstistä](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet)). Klikkaa luotua vapaapäivää ja vaihda vuoron tyyppi vuosilomaksi. Nyt voit määrittää myös sen alku- ja loppupäivän.
 
 1. vedä työntekijä vapaapäivälle
 2. klikkaa syntynyttä vapaapäivää
@@ -28,4 +28,4 @@ Voit myös käyttää sovelluksen [lomasuunnittelu-ominaisuutta](/posts/lomasuun
 ## Entä palkattomat vapaat, jotka eivät ole vuosilomaa?
 Osa-aikaisella työntekijällähän päivä voidaan vain jättää tyhjäksi. Tämä on myös hyvää riskien hallintaa: mikäli työntekijä kuitenkin päätyy hommiin päivänä, joka on suunniteltu hänelle palkattomana vapaana, on merkkaamaton päivä yritykselle normihintainen. Merkatulta vapaalta töihin kutsuminen on kalliimpaa.
 
-Täysaikaiselle työntekijälle voi yksinkertaisesti raahata X-päiviä vapaapäiväriville.
+Täysaikaiselle työntekijälle voi yksinkertaisesti raahata [X-päiviä](/posts/tyovuorolista_lyhenteet) vapaapäiväriville.

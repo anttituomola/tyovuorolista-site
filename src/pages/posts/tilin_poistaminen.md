@@ -37,6 +37,7 @@ Harkitse tilin poistamista, jos:
 
 **Vaihtoehtoja tilin poistamiselle:**
 - Jos haluat vain lopettaa maksut, voit [peruuttaa tilauksen](/posts/tilauksen_peruuttaminen) ja jatkaa Mini-paketilla
+- Jos haluat aloittaa alusta, voit [luoda uuden tilin](/posts/uuden_tilin_luominen)
 - Jos haluat pitää tauon, voit peruuttaa tilauksen ja aktivoida sen uudelleen myöhemmin
 
 ## Tilin poistaminen - vaihe vaiheelta

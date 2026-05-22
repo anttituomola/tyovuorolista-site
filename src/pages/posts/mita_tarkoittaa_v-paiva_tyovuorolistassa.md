@@ -22,7 +22,7 @@ V-päivä kestää 30 tuntia, eli sitä edeltävän työvuoron lopun ja sitä se
 
 Koska V-päiviä ei voi siirtää muille viikoille, voi kullakin viikolla olla enintään ja vähintään 1 V-päivä.
 
-Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä.
+Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä, ja [miten X- ja V-päivät merkitään kalenterissa](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan).
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
   <source src="/blogPostImages/v-vuoro-eli-viikkovapaapaiva-tyovuorolistassa.webm" type="video/webm">

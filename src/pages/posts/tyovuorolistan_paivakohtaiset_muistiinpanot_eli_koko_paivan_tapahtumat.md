@@ -31,7 +31,7 @@ Tallenna, ja näet muistiinpanosi samoin tein kalenterissa ja tulostettavassa li
 Voit tehdä työvuorolistaan päiväkohtaisia muistiinpanoja, jotka näkyvät kolmessa paikassa:
 - **suunnittelunäkymä eli kalenteri**: muistiinpano näkyy päivän yläosassa, samassa paikassa kuin pyhäpäivät ja vapaapäivät.
 - **printattava työvuorolista**: muistiinpano näkyy kunkin päivämäärän alapuolella.
-- **työntekijöiden sähköpostilla toimitettavat työvuorolistat**: muistiinpano näkyy päivän "muistiinpanot" kohdassa, samassa paikassa kuin työvuorokohtaiset muistiinpanotkin.
+- **työntekijöiden sähköpostilla toimitettavat työvuorolistat**: muistiinpano näkyy päivän "muistiinpanot" kohdassa, samassa paikassa kuin työvuorokohtaiset muistiinpanotkin (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille)).
 
 <img src="/blogPostImages/muistiinpanot_sahkoposti.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />
 

@@ -71,6 +71,7 @@ Palatessasi asetuksiin näet aktiivisen tilauksesi "Nykyinen" -merkinnällä. Vo
 **Laskutustapa:**
 - Kuukausittainen tai vuosittainen veloitus kortilta
 - Vuosilaskutus myös laskulla (lue lisää [vuosilaskutuksesta ja tilaustyypeistä](/posts/vuosilaskutus_ja_tilaustyypit))
+- Katso [ajankohtaiset hinnat maaliskuusta 2026](/posts/hinnoittelun-uudistus-maaliskuu-2026)
 
 **Irtisanominen:**
 - Ei irtisanomisaikaa - [voit peruuttaa milloin vain](/posts/tilauksen_peruuttaminen)
@@ -96,4 +97,4 @@ Tilauksen ostaminen on helppoa:
 3. Maksa Stripessä
 4. Aloita käyttö välittömästi
 
-Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi)
+Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi). Maksullisissa paketeissa saat myös [palkkaraportit](/posts/palkkaraportti-ominaisuus) – katso [ajankohtaiset hinnat](/posts/hinnoittelun-uudistus-maaliskuu-2026).

@@ -28,7 +28,7 @@ Työntekijät-listauksessa näet selkeästi, keiltä sähköpostiosoite puuttuu.
 
 ## Työvuorolistojen julkaisu ja lähettäminen
 
-Mitä tapahtuu, kun julkaiset työvuorolistan ja lähetät sen työntekijöille? Järjestelmä on suunniteltu käsittelemään sähköpostittomat työntekijät fiksusti:
+Mitä tapahtuu, kun julkaiset työvuorolistan ja lähetät sen työntekijöille? Lue tarkemmin [työvuorolistojen julkaisemisesta ja lähettämisestä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille). Järjestelmä on suunniteltu käsittelemään sähköpostittomat työntekijät fiksusti:
 
 1. **Automaattinen ohitus:** Työntekijät, joilla ei ole sähköpostiosoitetta, ohitetaan automaattisesti sähköpostien lähetysvaiheessa. Muut työntekijät saavat listansa normaalisti.
 2. **Selkeä varoitus:** Kun olet lähettämässä listaa, näet selkeän ilmoituksen työntekijöistä, joilta puuttuu sähköpostiosoite.
@@ -40,4 +40,4 @@ Mitä tapahtuu, kun julkaiset työvuorolistan ja lähetät sen työntekijöille?
 
 Tämä päivitys tekee Työvuorolistan käytöstä entistä joustavampaa. Voit nyt suunnitella kaikkien työntekijöiden vuorot samaan paikkaan riippumatta siitä, tarvitsevatko he tunnuksia järjestelmään tai sähköposti-ilmoituksia vuoroistaan.
 
-Kuten aina, otamme mielellämme vastaan palautetta ja kehitysehdotuksia. Voit lähettää niitä suoraan sovelluksen "Ilmoita ongelmasta" -painikkeen kautta!
+Kuten aina, otamme mielellämme vastaan palautetta ja kehitysehdotuksia. Voit lähettää niitä suoraan sovelluksen [Ilmoita ongelmasta](/posts/ilmoita-ongelmasta-ominaisuus) -painikkeen kautta!

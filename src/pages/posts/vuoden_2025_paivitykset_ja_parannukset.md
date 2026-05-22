@@ -88,6 +88,17 @@ Työvuorolista-sovellukseen lisättiin mahdollisuus valita kuukausittaisen ja vu
 
 **Lue lisää:** [Vuosilaskutus ja tilaustyypit](/posts/vuosilaskutus_ja_tilaustyypit)
 
+## Uudemmat päivitykset (2026)
+
+Vuoden 2025 jälkeen on julkaistu muun muassa:
+
+- **[Uusi käyttöliittymä](/posts/uusi-kayttoliittyma-navigaatio-listat-ja-tiimit)** – selkeämpi navigaatio, listat ja tiimit
+- **[Hinnoittelun uudistus maaliskuu 2026](/posts/hinnoittelun-uudistus-maaliskuu-2026)** – uudet kuukausihinnat
+- **[Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit-julkaistuissa-tyovuorolistoissa)** – resurssit PDF:ssä ja tulosteissa
+- **[Henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten-tyovuorolistojen-tulostus)** – tulosta tiimin ja henkilökohtaiset listat
+- **[Listan pituuden valinta](/posts/listan-pituuden-valinta)** – 1–4 viikon listat
+- **[Vapaa viesti sähköpostiin](/posts/vapaa-viesti-tyovuorolista-sahkopostiin)** – oman viestin lisäys lähetykseen
+
 ## Yhteenveto
 
 Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta tai päivitystä**, jotka tekevät Työvuorolistan käytöstä entistä helpompaa ja joustavampaa. Merkittävimmät uudistukset olivat:

@@ -98,7 +98,7 @@ Esikatselutoiminto näyttää sinulle **täydellisen sähköpostisisällön** se
 
 ### Päivämerkinnät
 - Kaikki julkiset päivämerkinnät listalla
-- Näkyvät samassa muodossa kuin työntekijälle
+- Näkyvät samassa muodossa kuin työntekijälle (lue lisää [päiväkohtaisista muistiinpanoista](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat))
 
 <img src="/blogPostImages/sahkopostin_esikatselutoiminto_sisalto.png" alt="Sähköpostin sisällön esikatselu" width="70%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -152,4 +152,4 @@ Kokeile esikatselutoimintoa:
 - Kun työntekijöillä on vuoroja useammassa tiimissä
 - Kun listassa on paljon päivämerkintöjä
 
-
+Lue myös [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa-viesti-tyovuorolista-sahkopostiin), [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit-julkaistuissa-tyovuorolistoissa) ja [työntekijöistä useassa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa). Katso myös [työvuorolistojen julkaisu ja lähettäminen](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) -yleisopas.

@@ -60,3 +60,10 @@ Vuosivapaa on siis yksi vapaa päivä, joita kertyy tehdyistä työtunneista. Ni
 Vuosivapaa voidaan antaa heti kun se on ansaittu. Viimeistään vuosivapaat tulee antaa seuraavan kalenterivuoden loppuun mennessä.
 
 Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus on 7.5 työtuntia.
+
+## Lisätietoa lyhenteistä ja merkkaamisesta
+
+- [Miten X- ja V-päivät merkitään Työvuorolistaan?](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan)
+- [Mitä tarkoittaa V-päivä työvuorolistassa?](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa)
+- [Vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan)
+- [Kuinka pitkä tauko työvuorojen välillä pitäisi olla?](/posts/kuinka_pitka_tauko_tyovuorojen_valilla)

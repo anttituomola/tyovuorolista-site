@@ -11,7 +11,7 @@ tags: ["työvuoro", "työaikalainsäädäntö", "minimipituus"]
 ---
 
 # Mikä on työvuoron lyhyin sallittu pituus?
-Ravintola-alalla lyhyin sallittu työvuoro on <strong>4 tuntia</strong>.
+Ravintola-alalla lyhyin sallittu työvuoro on <strong>4 tuntia</strong>. Pisin sallittu yksittäinen työvuoro on [10 tuntia](/posts/tyovuoron_maksimipituus_ravintola-alalla), ja vuorokaudessa enintään [16 työtuntia](/posts/pisin_sallittu_tyopaiva_ravintola-alalla).
 
 ## Miksi työvuoron minimipituus on 4 tuntia?
 Ravintola-ala on siitä vittumainen bisnes, että siinä pitää vaivautua paikan päälle, eikä etätyö ole mahdollista. Alle neljäksi tunniksi raahautuminen on melko tyhjänpäiväistä puuhaa, ja työnantajaltakin vähän kettuilua.

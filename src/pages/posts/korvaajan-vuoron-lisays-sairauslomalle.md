@@ -70,7 +70,7 @@ Korvaajan vuoro ilmestyy heti samaan kalenterinäkymään kuin alkuperäinen vuo
 
 ## Mobiilissa
 
-Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairauslomaksi.
+Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairauslomaksi. Lue lisää [mobiilituesta](/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla).
 
 ## Käytännön hyödyt
 
@@ -86,5 +86,5 @@ Uusi korvaajan vuoro -toiminto tekee sairauslomien hallinnan helpommaksi:
 - Klikkaa painiketta → ikkuna avautuu esitäytetyillä tiedoilla
 - Valitse korvaaja → vuoro luodaan automaattisesti
 
-Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, mikä helpottaa palkanlaskentaa ja korvaajien löytämistä.
+Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, mikä helpottaa palkanlaskentaa ja korvaajien löytämistä. Korvaajan vuoro näkyy myös [palkkaraportissa](/posts/palkkaraportti-ominaisuus).
 

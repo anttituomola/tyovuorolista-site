@@ -240,6 +240,6 @@ Uusi palkkaraportti-ominaisuus tekee palkkatietojen vientiä helpommaksi:
 - Valitse haluamasi sarakkeet
 - Generoi ja lataa raportti muutamassa sekunnissa
 
-Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta!
+Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairauslomalle](/posts/korvaajan-vuoron-lisays-sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
 
 

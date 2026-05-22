@@ -107,7 +107,7 @@ Ennen lähetystä voit:
 - lisätä PDF-liitteen mukaan
 - merkitä listan julkaistuksi lähetyksen jälkeen
 
-Jos haluat lukea tästä työnkulusta tarkemmin, katso myös artikkelit <a href="/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille">työvuorolistojen julkaisu ja lähettäminen</a> ja <a href="/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa">sähköpostin esikatselutoiminto työvuorolistojen lähettämisessä</a>.
+Jos haluat lukea tästä työnkulusta tarkemmin, katso myös artikkelit [työvuorolistojen julkaisu ja lähettäminen](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille), [sähköpostin esikatselutoiminto työvuorolistojen lähettämisessä](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
 
 ## Milloin PDF-pohja on hyvä, ja milloin sovellus on parempi?
 
@@ -121,6 +121,8 @@ Työvuorolista sopii paremmin, kun haluat:
 - kirjata toteutuneet tunnit myöhemmin
 - tehdä raportteja ilman erillistä käsityötä
 - lähettää työntekijöille henkilökohtaiset listat sähköpostilla
+- [tulostaa henkilökohtaiset listat](/posts/henkilokohtaisten-tyovuorolistojen-tulostus) paperilla
+- valita [listan pituuden 1–4 viikkoa](/posts/listan-pituuden-valinta)
 - pitää saman listan helposti muokattavana viime hetken muutoksia varten
 
 Jos haluat kokeilla käytännössä, voit tehdä ensimmäisen listasi sovelluksessa ja katsoa heti, miltä valmis **työvuorolista PDF** näyttää tulostettuna ja sähköpostissa.

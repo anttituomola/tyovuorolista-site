@@ -21,6 +21,8 @@ Voit peruuttaa tilauksen esimerkiksi silloin, kun:
 - Haluat siirtyä takaisin Mini-pakettiin (3 työntekijää)
 - Haluat vaihtaa toiseen palveluun
 
+Lue myös [tilauksen ostamisesta](/posts/tilauksen_ostaminen), [vuosilaskutuksesta](/posts/vuosilaskutus_ja_tilaustyypit) ja [ajankohtaisista hinnoista](/posts/hinnoittelun-uudistus-maaliskuu-2026).
+
 ## Mitä tapahtuu peruutuksen jälkeen?
 
 Kun peruutat tilauksen:

@@ -255,7 +255,7 @@ Uusi resurssien aikataulutus -ominaisuus tekee autojen, työkalujen ja muiden re
 - Merkitse poissaolojaksot huollon ja korjausten suunnittelua varten
 - Saat automaattiset varoitukset konflikteista
 
-Järjestelmä auttaa välttämään päällekkäisiä varauksia ja varoittaa, jos resurssi on poissa käytöstä. Resurssit näkyvät myös automaattisesti sähköposteissa, jolloin työntekijät tietävät heti, mitä resursseja he tarvitsevat.
+Järjestelmä auttaa välttämään päällekkäisiä varauksia ja varoittaa, jos resurssi on poissa käytöstä. Resurssit näkyvät myös automaattisesti sähköposteissa, jolloin työntekijät tietävät heti, mitä resursseja he tarvitsevat. Voit myös [näyttää resurssit julkaistuissa listoissa ja PDF:ssä](/posts/resurssit-julkaistuissa-tyovuorolistoissa). [Vuoron kopiointi ALT-näppäimellä](/posts/tyovuoron_kopiointi_alt_raahaus) kopioi resurssin mukana.
 
 Aloita käyttö ottamalla ominaisuus käyttöön profiilissa ja luomalla ensimmäiset resurssisi!
 

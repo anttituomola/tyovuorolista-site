@@ -11,7 +11,7 @@ tags: ["työvuoro", "työaikalainsäädäntö", "maksimipituus"]
 ---
 
 # Mikä on työvuoron pisin sallittu pituus?
-Ravintola-alalla pisin sallittu työvuoro on <strong>10 tuntia</strong>. Työntekijän suostumuksella vuorokaudessa työtunteja voi olla <strong>jopa 16</strong>.
+Ravintola-alalla pisin sallittu työvuoro on <strong>10 tuntia</strong>. Työntekijän suostumuksella vuorokaudessa työtunteja voi olla <strong>jopa 16</strong> (lue lisää [pisin sallittu työpäivä vuorokaudessa](/posts/pisin_sallittu_tyopaiva_ravintola-alalla) ja [lyhyin sallittu työvuoro](/posts/tyovuoron_minimipituus_ravintola-alalla)).
 
 ## Miksi työvuoron maksimipituus on 10 tuntia?
 Kai siinä on ajateltu työntekijän ja työnantajan yhteistä etua: väsynyt työntekijä ei ole hyväksi kenellekään. Käytännössä, ja etenkin sesonkipaikoissa, painetaan kyllä järjestään pidempääkin päivää. Alan suhteellisen matala palkkaus myös kannustaa tekemään sen 300 tuntia kuukaudessa.
@@ -24,7 +24,7 @@ Kyllä, mutta ainoastaan työntekijän suostumuksella. Edes kymmentuntisia työp
 </video>
 
 ## Ovatko yli kymmenen tunnin työvuorot aina laillisia?
-Ainoastaan, jos työntekijä on niihin suostunut. Tämä täytyy aina varmistaa työvuorolistaa tehtäessä. tyovuorolista.fi:ssa on näppärä ominaisuus, jossa voi napata työvuorolistan luonnoksesta kuvan ja lähettää sen työntekijälle vaikkapa WhatsAppilla hyväksyntää varten.
+Ainoastaan, jos työntekijä on niihin suostunut. Tämä täytyy aina varmistaa työvuorolistaa tehtäessä. tyovuorolista.fi:ssa on näppärä ominaisuus, jossa voi napata työvuorolistan luonnoksesta kuvan ja lähettää sen työntekijälle vaikkapa WhatsAppilla hyväksyntää varten (lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille)).
 
 ## Tarviiko minun muistaa kaikki tämä ulkoa?
 Ei tarvitse. Käytä tyovuorolista.fi:tä, niin se huomauttaa aina, kun olet tekemässä yli kymmenen tunnin työvuoroa. Sovellus on joustava ja sallii tämän, mutta muistaa muistuttaa siitä.

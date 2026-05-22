@@ -30,7 +30,7 @@ Navigaatiossa, näytön oikeassa yläkulmassa, on pieni pallura, jonka sisällä
 
 <img src="/blogPostImages/tyovuorolista_tiimit1.png" alt="tyovuorolista.fi:n navigaatio" width="100%">
 
-Anna uudelle tiimillesi nimi, ja muuta tarvittaessa oletusasetuksia. Tallenna.
+Anna uudelle tiimillesi nimi, ja muuta tarvittaessa oletusasetuksia (lue lisää [vuorojen oletuspituudesta ja aikaportaista](/posts/vuorojen_oletuspituus_ja_aikaportaat)). Tallenna.
 
 <img src="/blogPostImages/tyovuorolista_tiimit2.png" alt="tyovuorolista.fi:n modaali" width="100%">
 

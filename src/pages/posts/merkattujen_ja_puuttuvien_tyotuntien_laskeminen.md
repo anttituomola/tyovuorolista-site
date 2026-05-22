@@ -24,4 +24,4 @@ Kaikille työntekijöille kannattaa merkata tavoitetuntimäärä, eli työsopimu
 2. klikkaa Muokkaa työntekijän tietoja -painiketta
 3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään
 
-<strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista.
+<strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti-ominaisuus) valitulta ajanjaksolta.

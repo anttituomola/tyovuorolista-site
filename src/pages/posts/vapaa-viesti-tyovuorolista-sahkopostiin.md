@@ -10,7 +10,7 @@ image:
 tags: ["sähköposti", "julkaisu", "työvuorolistat", "päivitykset"]
 ---
 
-Työvuorolistan lähetykseen on lisätty pieni mutta käytännöllinen parannus. Kun lähetät työvuorolistan työntekijöille sähköpostilla, voit nyt kirjoittaa mukaan oman lyhyen viestin.
+Työvuorolistan lähetykseen on lisätty pieni mutta käytännöllinen parannus. Kun lähetät työvuorolistan työntekijöille [sähköpostilla](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille), voit nyt kirjoittaa mukaan oman lyhyen viestin. Viestin näet etukäteen [sähköpostin esikatselutoiminnossa](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa).
 
 Viesti näkyy sähköpostin alussa ennen varsinaista työvuorolistan otsikkoa. Kenttä on vapaaehtoinen, eli jos et tarvitse erillistä saatetta, voit lähettää listan kuten ennenkin.
 

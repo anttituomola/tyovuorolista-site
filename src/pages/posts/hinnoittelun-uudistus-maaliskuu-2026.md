@@ -43,7 +43,7 @@ Mini sopii kevyeseen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kai
 - mobiiliystävällinen käyttöliittymä  
 - asiakastuki  
 
-Mini-paketissa eivät ole käytössä esimerkiksi **palkkaraportit** eikä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
+Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti-ominaisuus)** eikä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
 
 ## Jos harkitset kuukausitilausta
 
@@ -53,7 +53,7 @@ Kuukausihinnat nousevat 29.3.2026 alkaen. Jos harkitset **kuukausilaskutusta**, 
 
 Tilauksen voit tehdä sovelluksessa <a href="https://app.tyovuorolista.fi/admin/subscription" target="_blank" rel="noopener noreferrer">tilaus-sivulla</a>.
 
-Lisätietoa maksamisesta ja laskutustavoista löytyy artikkeleista <a href="https://www.tyovuorolista.fi/posts/tilauksen_ostaminen" target="_blank" rel="noopener noreferrer">tilauksen ostaminen</a> ja <a href="https://www.tyovuorolista.fi/posts/vuosilaskutus_ja_tilaustyypit" target="_blank" rel="noopener noreferrer">vuosilaskutus ja tilaustyypit</a>.
+Lisätietoa maksamisesta ja laskutustavoista löytyy artikkeleista [tilauksen ostaminen](/posts/tilauksen_ostaminen), [vuosilaskutus ja tilaustyypit](/posts/vuosilaskutus_ja_tilaustyypit) ja [tilauksen peruuttaminen](/posts/tilauksen_peruuttaminen).
 
 Jos sinulla on kysyttävää hinnoittelusta, **autamme mielellämme**.
 

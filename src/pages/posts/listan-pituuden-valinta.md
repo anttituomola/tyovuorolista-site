@@ -34,7 +34,7 @@ Voit valita minkä tahansa maanantain, kunhan se ei ole jo olemassa olevan lista
 
 ## Julkaisu ja tulosteet noudattavat listan oikeaa pituutta
 
-Julkaisunäkymä, tulosteet ja listan esikatselut näyttävät nyt vain ne viikot, jotka kuuluvat valittuun listaan. Jos lista on kahden viikon mittainen, julkaistava lista näyttää kaksi viikkoa. Jos lista on neljän viikon mittainen, se näyttää neljä viikkoa.
+Julkaisunäkymä, tulosteet ja listan esikatselut näyttävät nyt vain ne viikot, jotka kuuluvat valittuun listaan. Lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) ja [henkilökohtaisten listojen tulostuksesta](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
 
 Tämä koskee myös tulostettavia ja PDF-muotoisia listoja, jotta työntekijöille jaettavat listat vastaavat samaa aikaväliä kuin sovelluksessa.
 
@@ -52,4 +52,4 @@ Uusi pituusvalinta sopii esimerkiksi näihin tilanteisiin:
 
 Vanhoihin listoihin ei tarvitse tehdä mitään. Ne toimivat kuten ennenkin. Jos kolmen viikon listat sopivat omaan käyttöön, voit jatkaa niiden tekemistä normaalisti valitsemalla pituudeksi kolme viikkoa.
 
-Pieni muutos listan luonnissa, mutta käytännössä tämä antaa enemmän vapautta sovittaa työvuorosuunnittelu työpaikan omaan rytmiin.
+Pieni muutos listan luonnissa, mutta käytännössä tämä antaa enemmän vapautta sovittaa työvuorosuunnittelu työpaikan omaan rytmiin. Voit myös käyttää [mallinetta](/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana) uuden listan pohjana.
