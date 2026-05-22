@@ -204,8 +204,8 @@ Mobiiliversio tarjoaa:
 - Työntekijöiden ja tiimien hallinnan
 - Toteutuneiden työtuntien kirjauksen
 - [Listojen julkaisun ja lähettämisen](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille)
-- [Resurssien aikataulutuksen](/posts/resurssien-aikataulutus-ominaisuus)
-- [Korvaajan vuoron lisäyksen](/posts/korvaajan-vuoron-lisays-sairauslomalle) sairauslomalle
+- [Resurssien aikataulutuksen](/posts/resurssien_aikataulutus_ominaisuus)
+- [Korvaajan vuoron lisäyksen](/posts/korvaajan_vuoron_lisays_sairauslomalle) sairauslomalle
 
 Lomasuunnittelu on toistaiseksi varattu tietokoneelle kuukausinäkymän vaatiman tilan vuoksi. Lue myös [vuorojen oletuspituudesta](/posts/vuorojen_oletuspituus_ja_aikaportaat) tiimin asetuksissa.
 

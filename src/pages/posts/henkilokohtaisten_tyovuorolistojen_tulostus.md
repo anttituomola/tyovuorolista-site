@@ -50,7 +50,7 @@ Uusi tulostustapa sopii esimerkiksi silloin, kun:
 - haluat tarkistaa henkilökohtaiset listat ilman sähköpostin lähettämistä
 - työpaikalla käytetään tulosteita sähköpostin rinnalla
 
-Jos käytät [resurssien aikataulutusta](/posts/resurssien-aikataulutus-ominaisuus) ja resurssit on valittu näkyviin [julkaistuille listoille](/posts/resurssit-julkaistuissa-tyovuorolistoissa), resurssit näkyvät myös henkilökohtaisissa tulosteissa.
+Jos käytät [resurssien aikataulutusta](/posts/resurssien_aikataulutus_ominaisuus) ja resurssit on valittu näkyviin [julkaistuille listoille](/posts/resurssit_julkaistuissa_tyovuorolistoissa), resurssit näkyvät myös henkilökohtaisissa tulosteissa.
 
 ## Miten toimintoa käytetään?
 

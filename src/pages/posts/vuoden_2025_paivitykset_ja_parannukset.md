@@ -18,7 +18,7 @@ Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta ja parannusta**, jotka
 
 Sovellus optimoitiin täysin mobiililaitteille! Voit nyt hallita työvuoroja, työntekijöitä ja kirjata tunteja suoraan älypuhelimestasi tai tabletistasi. Mobiiliversio tarjoaa kaikki sovelluksen ominaisuudet: työvuorojen suunnittelu ja muokkaus, työntekijöiden hallinta, työvuorolistojen luominen ja julkaisu, toteutuneiden työtuntien kirjaus, resurssien hallinta ja paljon muuta. Käyttöliittymä on mukautettu kosketusnäytöille ja navigointi toimii "hampurilaisvalikon" kautta.
 
-**Lue lisää:** [Työvuorolista-sovellus nyt käytettävissä mobiililaitteilla](/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla)
+**Lue lisää:** [Työvuorolista-sovellus nyt käytettävissä mobiililaitteilla](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla)
 
 ## Palkkaraportit
 
@@ -26,7 +26,7 @@ Sovellus optimoitiin täysin mobiililaitteille! Voit nyt hallita työvuoroja, ty
 
 Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen vientiä CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet (työntekijän nimi, sähköposti, ID, tyyppi, määrä) ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella. Raportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat ja tukee useimpia suomalaisia työtuntikategorioita ja -lisiä. CSV-muoto on Excel-yhteensopiva ja PDF-muoto sopii suoraan tulostamiseen.
 
-**Lue lisää:** [Palkkaraportti-ominaisuus](/posts/palkkaraportti-ominaisuus)
+**Lue lisää:** [Palkkaraportti-ominaisuus](/posts/palkkaraportti_ominaisuus)
 
 ## Resurssien aikataulutus
 
@@ -34,7 +34,7 @@ Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen vientiä CSV- tai PDF
 
 Uusi resurssien aikataulutus -ominaisuus mahdollistaa autojen, pakettiautojen, työkalujen ja muiden laitteiden liittämisen työvuoroihin. Voit luoda resursseja eri tyypeillä (Auto, Pakettiauto, Työkalu, Muu) ja asettaa oletusresursseja työntekijöille. Järjestelmä varoittaa automaattisesti, jos resurssi on jo käytössä tai poissa käytöstä huollon vuoksi. Resurssit näkyvät myös automaattisesti sähköposteissa työntekijöille.
 
-**Lue lisää:** [Resurssien aikataulutus -ominaisuus](/posts/resurssien-aikataulutus-ominaisuus)
+**Lue lisää:** [Resurssien aikataulutus -ominaisuus](/posts/resurssien_aikataulutus_ominaisuus)
 
 ## Sähköpostin esikatselu
 
@@ -50,7 +50,7 @@ Uusi esikatselutoiminto antaa mahdollisuuden tarkistaa työntekijöille lähetet
 
 Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) ovat esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
 
-**Lue lisää:** [Korvaajan vuoron lisäys sairauslomalle](/posts/korvaajan-vuoron-lisays-sairauslomalle)
+**Lue lisää:** [Korvaajan vuoron lisäys sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle)
 
 ## Ilmoita ongelmasta -ominaisuus
 
@@ -58,7 +58,7 @@ Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "L
 
 Uusi "Ilmoita ongelmasta" -painike näkyy jokaisen sivun oikeassa alakulmassa. Kun klikkaat painiketta, järjestelmä ottaa automaattisesti kuvakaappauksen koko näkymästä ja avaa ikkunan, jossa voit kuvata ongelman. Ilmoitus menee suoraan tukitiimille kaikilla tarvittavilla tiedoilla (kuvakaappaus, sivun osoite, selaimen tiedot). Tämä tekee vikailmoitusten tekemisen paljon helpommaksi ja nopeammaksi.
 
-**Lue lisää:** [Ilmoita ongelmasta -ominaisuus](/posts/ilmoita-ongelmasta-ominaisuus)
+**Lue lisää:** [Ilmoita ongelmasta -ominaisuus](/posts/ilmoita_ongelmasta_ominaisuus)
 
 ## Parannettu tilin hallinta
 
@@ -92,12 +92,12 @@ Työvuorolista-sovellukseen lisättiin mahdollisuus valita kuukausittaisen ja vu
 
 Vuoden 2025 jälkeen on julkaistu muun muassa:
 
-- **[Uusi käyttöliittymä](/posts/uusi-kayttoliittyma-navigaatio-listat-ja-tiimit)** – selkeämpi navigaatio, listat ja tiimit
-- **[Hinnoittelun uudistus maaliskuu 2026](/posts/hinnoittelun-uudistus-maaliskuu-2026)** – uudet kuukausihinnat
-- **[Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit-julkaistuissa-tyovuorolistoissa)** – resurssit PDF:ssä ja tulosteissa
-- **[Henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten-tyovuorolistojen-tulostus)** – tulosta tiimin ja henkilökohtaiset listat
-- **[Listan pituuden valinta](/posts/listan-pituuden-valinta)** – 1–4 viikon listat
-- **[Vapaa viesti sähköpostiin](/posts/vapaa-viesti-tyovuorolista-sahkopostiin)** – oman viestin lisäys lähetykseen
+- **[Uusi käyttöliittymä](/posts/uusi_kayttoliittyma_navigaatio_listat_ja_tiimit)** – selkeämpi navigaatio, listat ja tiimit
+- **[Hinnoittelun uudistus maaliskuu 2026](/posts/hinnoittelun_uudistus_maaliskuu_2026)** – uudet kuukausihinnat
+- **[Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa)** – resurssit PDF:ssä ja tulosteissa
+- **[Henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten_tyovuorolistojen_tulostus)** – tulosta tiimin ja henkilökohtaiset listat
+- **[Listan pituuden valinta](/posts/listan_pituuden_valinta)** – 1–4 viikon listat
+- **[Vapaa viesti sähköpostiin](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)** – oman viestin lisäys lähetykseen
 
 ## Yhteenveto
 
@@ -110,5 +110,5 @@ Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta tai päivitystä**, jo
 - **Parannettu tilin hallinta** - helpompi tilin luominen, tilauksen ostaminen ja peruuttaminen, sekä palautteen lähetys
 - **Vuosilaskutus** - mahdollisuus maksaa laskulla vuodeksi kerrallaan
 
-Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ilmoita meille](/posts/ilmoita-ongelmasta-ominaisuus) - kuuntelemme mielellämme!
+Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ilmoita meille](/posts/ilmoita_ongelmasta_ominaisuus) - kuuntelemme mielellämme!
 

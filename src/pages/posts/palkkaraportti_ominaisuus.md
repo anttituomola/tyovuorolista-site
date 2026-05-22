@@ -28,7 +28,7 @@ Palkkaraportin luominen on yksinkertaista:
 
 **1. Valitse työntekijät ja päivämääräväli**
 
-Siirry [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) (**Hallinta → Tuntikirjaus**) ja valitse työntekijät sekä päivämääräväli, jolta tiedot kerätään.
+Siirry [Tuntien kirjaus -sivulle](https://app.tyovuorolista.fi/admin/LogHours) (**Hallinta → Tuntien kirjaus**) ja valitse työntekijät sekä päivämääräväli, jolta tiedot kerätään. Katso [Tuntien kirjaus -opas](/posts/tuntien_kirjaus_opas) kokonaisvaltaiseen käyttöohjeeseen.
 
 <img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_kirjaus_nakyma.png" alt="Tuntikirjaus-sivu työntekijöiden ja päivämäärävälin valinnalla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 
@@ -240,6 +240,6 @@ Uusi palkkaraportti-ominaisuus tekee palkkatietojen vientiä helpommaksi:
 - Valitse haluamasi sarakkeet
 - Generoi ja lataa raportti muutamassa sekunnissa
 
-Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairauslomalle](/posts/korvaajan-vuoron-lisays-sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
+Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
 
 

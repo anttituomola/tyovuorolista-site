@@ -43,7 +43,7 @@ Mini sopii kevyeseen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kai
 - mobiiliystävällinen käyttöliittymä  
 - asiakastuki  
 
-Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti-ominaisuus)** eikä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
+Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti_ominaisuus)** eikä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
 
 ## Jos harkitset kuukausitilausta
 

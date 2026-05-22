@@ -152,4 +152,4 @@ Kokeile esikatselutoimintoa:
 - Kun työntekijöillä on vuoroja useammassa tiimissä
 - Kun listassa on paljon päivämerkintöjä
 
-Lue myös [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa-viesti-tyovuorolista-sahkopostiin), [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit-julkaistuissa-tyovuorolistoissa) ja [työntekijöistä useassa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa). Katso myös [työvuorolistojen julkaisu ja lähettäminen](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) -yleisopas.
+Lue myös [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa_viesti_tyovuorolista_sahkopostiin), [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa) ja [työntekijöistä useassa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa). Katso myös [työvuorolistojen julkaisu ja lähettäminen](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) -yleisopas.

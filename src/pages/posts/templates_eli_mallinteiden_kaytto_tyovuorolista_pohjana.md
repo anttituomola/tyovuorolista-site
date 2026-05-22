@@ -24,7 +24,7 @@ Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolista
 <img src="/blogPostImages/mallineen_kaytto_2.png" style="width: 100%;" />
 
 1. Valitse päävalikosta **Uusi lista**
-2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan-pituuden-valinta))
+2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta))
 
 ### Ohjevideo
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>

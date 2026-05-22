@@ -60,7 +60,7 @@ Kun tili on luotu, sovellus:
 
 Saat automaattisesti **Mini-paketin** (ilmainen), joka rajoittuu 3 työntekijään. Tämä sopii erinomaisesti tutustumiseen ja pienille yrityksille.
 
-Jos tarvitset enemmän työntekijöitä, voit helposti päivittää suurempaan pakettiin. Katso [ajankohtaiset hinnat](/posts/hinnoittelun-uudistus-maaliskuu-2026) ja lue lisää [tilauksen ostamisesta ja päivittämisestä](/posts/tilauksen_ostaminen). Kun olet aloittanut, voit luoda [tiimit](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) ja käyttää [mallinetta](/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana) ensimmäisen listan pohjana.
+Jos tarvitset enemmän työntekijöitä, voit helposti päivittää suurempaan pakettiin. Katso [ajankohtaiset hinnat](/posts/hinnoittelun_uudistus_maaliskuu_2026) ja lue lisää [tilauksen ostamisesta ja päivittämisestä](/posts/tilauksen_ostaminen). Kun olet aloittanut, voit luoda [tiimit](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) ja käyttää [mallinetta](/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana) ensimmäisen listan pohjana.
 
 ## Yhteenveto
 

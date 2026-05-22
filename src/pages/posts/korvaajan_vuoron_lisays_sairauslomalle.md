@@ -10,7 +10,7 @@ image:
 tags: ["sairausloma", "korvaaja", "tuntien kirjaus", "työvuorojen hallinta"]
 ---
 
-Kun työntekijä jää sairauslomalle, korvaajan vuoro on nyt helppo lisätä suoraan Tuntien kirjaus -näkymästä. Merkitse vain vuoro sairauslomaksi, ja painike ilmestyy heti - kaikki tiedot esitäytetään automaattisesti!
+Kun työntekijä jää sairauslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairauslomaksi, ja painike ilmestyy heti - kaikki tiedot esitäytetään automaattisesti!
 
 ## Uudet toiminnot Tuntien kirjaus -näkymässä
 
@@ -70,7 +70,7 @@ Korvaajan vuoro ilmestyy heti samaan kalenterinäkymään kuin alkuperäinen vuo
 
 ## Mobiilissa
 
-Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairauslomaksi. Lue lisää [mobiilituesta](/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla).
+Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairauslomaksi. Lue lisää [mobiilituesta](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
 
 ## Käytännön hyödyt
 
@@ -86,5 +86,5 @@ Uusi korvaajan vuoro -toiminto tekee sairauslomien hallinnan helpommaksi:
 - Klikkaa painiketta → ikkuna avautuu esitäytetyillä tiedoilla
 - Valitse korvaaja → vuoro luodaan automaattisesti
 
-Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, mikä helpottaa palkanlaskentaa ja korvaajien löytämistä. Korvaajan vuoro näkyy myös [palkkaraportissa](/posts/palkkaraportti-ominaisuus).
+Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, mikä helpottaa palkanlaskentaa ja korvaajien löytämistä. Korvaajan vuoro näkyy myös [palkkaraportissa](/posts/palkkaraportti_ominaisuus).
 

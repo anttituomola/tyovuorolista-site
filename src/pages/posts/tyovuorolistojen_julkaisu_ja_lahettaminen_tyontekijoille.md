@@ -15,7 +15,7 @@ Työvuorolistassa on kahta eri työvuorolistatyyppiä:
 1. **Tiimikohtainen työvuorolista**: tällä listalla näkyy **kaikki tiimin työntekijät**, joilla on vuoroja listalla, sekä heidän työvuoronsa. Tämä lista on saatavilla kuvana ja PDF:nä.
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_kuva_tai_pdf.png" alt="Kuva työvuorolistasta png- tai pdf-formaatissa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
-2. **Henkilökohtainen työvuorolista**: tällä listalla näkyy **yksittäisen työntekijän vuorot** julkaistavan listan ajalta. Tämä lista sisältää kaikki vuorot tältä ajalta, myös muiden tiimien listoilta. Näin työntekijä saa aina täydellisen työvuorolistan listan pituudelta (1–4 viikkoa, [lue lisää listan pituuden valinnasta](/posts/listan-pituuden-valinta)), eikä hänen tarvitse koota aikatauluaan useasta eri listasta. Tämä lista luodaan, kun listat lähetetään työntekijöille sähköpostitse tai [tulostetaan henkilökohtaisina listoina](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
+2. **Henkilökohtainen työvuorolista**: tällä listalla näkyy **yksittäisen työntekijän vuorot** julkaistavan listan ajalta. Tämä lista sisältää kaikki vuorot tältä ajalta, myös muiden tiimien listoilta. Näin työntekijä saa aina täydellisen työvuorolistan listan pituudelta (1–4 viikkoa, [lue lisää listan pituuden valinnasta](/posts/listan_pituuden_valinta)), eikä hänen tarvitse koota aikatauluaan useasta eri listasta. Tämä lista luodaan, kun listat lähetetään työntekijöille sähköpostitse tai [tulostetaan henkilökohtaisina listoina](/posts/henkilokohtaisten_tyovuorolistojen_tulostus).
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_henkilokohtainen_tyovuorolista.png" alt="Kuva henkilökohtaisesta työvuorolistasta sähköpostissa" width="40%" height="auto" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 ### Kolme eri julkaisuformaattia
@@ -24,8 +24,8 @@ Työvuorolistassa on kahta eri työvuorolistatyyppiä:
 Työvuorolista-sovelluksessa on monta tapaa julkaista työvuorolista työntekijöille:
 
 1. **Kuva**: voit tallentaa kuvan tiimin työvuorolistasta koneellesi tai kopioida sen leikepöydällesi. Nämä toiminnot ovat näppäriä, kun haluat lähettää vaikkapa ehdotuksen työvuoroista työntekijöiden Whatsapp-ryhmään tai muualle.
-2. **PDF**: voit tallentaa tai tulostaa PDF-version tiimin työvuorolistasta. Sen resoluutio mahdollistaa zoomaamisen lähelle laadun kärsimättä, ja PDF:stä saat teräviä tulosteita työpaikan seinälle. Lue lisää [työvuorolista PDF:nä](/posts/tyovuorolista_pohja_pdf) ja [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit-julkaistuissa-tyovuorolistoissa).
-3. **Sähköposti**: voit lähettää työntekijöille heidän henkilökohtaisen työvuorolistansa. Tämä lista sisältää aina työntekijän kaikki vuorot lähetettävän listan ajalta - myös ne, jotka ovat mahdollisesti toisten tiimien listoilla saman aikaikkunan sisällä. Voit myös [lisätä oman viestin sähköpostin alkuun](/posts/vapaa-viesti-tyovuorolista-sahkopostiin).
+2. **PDF**: voit tallentaa tai tulostaa PDF-version tiimin työvuorolistasta. Sen resoluutio mahdollistaa zoomaamisen lähelle laadun kärsimättä, ja PDF:stä saat teräviä tulosteita työpaikan seinälle. Lue lisää [työvuorolista PDF:nä](/posts/tyovuorolista_pohja_pdf) ja [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa).
+3. **Sähköposti**: voit lähettää työntekijöille heidän henkilökohtaisen työvuorolistansa. Tämä lista sisältää aina työntekijän kaikki vuorot lähetettävän listan ajalta - myös ne, jotka ovat mahdollisesti toisten tiimien listoilla saman aikaikkunan sisällä. Voit myös [lisätä oman viestin sähköpostin alkuun](/posts/vapaa_viesti_tyovuorolista_sahkopostiin).
 
 ### Tiivis ja väljä asettelu
 
@@ -47,7 +47,8 @@ Voit lähettää henkilökohtaiset työvuorolistat työntekijöille sähköposti
 - **Julkaise** -> **Lähetä sähköpostilla...**
 - Avautuu modaali, jossa on listattu kaikki tiimin työntekijät, ja valittu ne, joilla on vuoroja listalla.
 - Voit valita myös työntekijöitä, joilla ei ole vuoroja listalla. Voit myös poistaa valinnan työntekijöiltä, joille et halua listaa lähettää.
-- Paina **Lähetä sähköpostit** tai **Esikatsele sähköpostit** (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa-viesti-tyovuorolista-sahkopostiin)), jolloin valituille työntekijöille lähetetään sähköpostilla heidän henkilökohtaiset työvuorolistansa. [Työntekijät ilman sähköpostiosoitetta](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta) ohitetaan automaattisesti. Saat erillisen notifikaation jokaisesta lähetyksestä.
+- Paina **Lähetä sähköpostit** tai **Esikatsele sähköpostit** (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)), jolloin valituille työntekijöille lähetetään sähköpostilla heidän henkilökohtaiset työvuorolistansa. [Työntekijät ilman sähköpostiosoitetta](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta) ohitetaan automaattisesti. Saat erillisen notifikaation jokaisesta lähetyksestä.
+- Jos aiemmissa lähetyksissä on ollut ongelmia, modaali näyttää [punaisen varoituksen toimitusongelmista](/posts/sahkopostin_toimitusongelmat_varoitus) – tarkista osoitteet ennen uutta lähetystä.
 
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_notifikaatiot.png" alt="Työvuorolistan lähetysnotifikaatiot" width="50%" style="max-width: 600px; display: block; margin: 20px auto;" />
 

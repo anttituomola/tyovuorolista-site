@@ -23,7 +23,7 @@ Resurssien näkyvyydelle on lisätty yrityskohtainen oletusasetus resurssien hal
 
 Kun asetus on päällä, Työvuorolista lisää työvuoroihin liitetyt resurssit mukaan julkaistaviin listoihin. Asetus on yrityskohtainen, joten sitä ei tarvitse valita uudelleen jokaisella lähetyskerralla.
 
-Jos et ole vielä käyttänyt resurssien aikataulutusta, voit lukea tarkemmat käyttöönotto-ohjeet aiemmasta tekstistä: [Resurssien aikataulutus -ominaisuus](/posts/resurssien-aikataulutus-ominaisuus).
+Jos et ole vielä käyttänyt resurssien aikataulutusta, voit lukea tarkemmat käyttöönotto-ohjeet aiemmasta tekstistä: [Resurssien aikataulutus -ominaisuus](/posts/resurssien_aikataulutus_ominaisuus).
 
 ## Listakohtainen valinta julkaisunäkymässä
 
@@ -68,5 +68,5 @@ Resurssien näyttäminen julkaistuissa listoissa on hyödyllistä esimerkiksi si
 - työvuorolista tulostetaan työpaikan seinälle ja resurssitiedon pitää olla kaikkien nähtävillä
 - haluat jakaa tiimin listan kuvana tai PDF:nä ilman, että resurssitieto katoaa matkalla
 
-Päivitys tekee resurssien käytöstä yhtenäisempää: sama tieto, jonka lisäät suunnittelukalenterissa työvuorolle, voidaan nyt näyttää myös [julkaistussa listassa ja PDF:ssä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) sekä [henkilökohtaisissa tulosteissa](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
+Päivitys tekee resurssien käytöstä yhtenäisempää: sama tieto, jonka lisäät suunnittelukalenterissa työvuorolle, voidaan nyt näyttää myös [julkaistussa listassa ja PDF:ssä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) sekä [henkilökohtaisissa tulosteissa](/posts/henkilokohtaisten_tyovuorolistojen_tulostus).
 

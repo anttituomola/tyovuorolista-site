@@ -28,4 +28,4 @@ Työntekijät voi valita tiimeihin kahdella tapaa; joko tiimi kerrallaan, tai ka
 ## Mitä tapahtuu, jos sama työntekijä on usealla listalla samaan aikaan?
 Jos työntekijäsi on johonkin aikaan töissä toisen tiimin työvuorolistalla ja koetat laittaa hänelle työvuoroa toisen tiimin listalle samaan aikaan, et onnistu: sovellus antaa varoituksen ja kertoo, missä tiimissä työntekijä on jo töissä.
 
-Vaikka tiimit ja työvuorolistat ovat täysin erillisiä, sovellus kuitenkin seuraa työntekijät työvuoroja, eikä anna sinun tehdä tuplabuukkausta! Henkilökohtainen lista [kokoaa vuorot kaikista tiimeistä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille), kun lähetät listan sähköpostilla tai [tulostat henkilökohtaiset listat](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
+Vaikka tiimit ja työvuorolistat ovat täysin erillisiä, sovellus kuitenkin seuraa työntekijät työvuoroja, eikä anna sinun tehdä tuplabuukkausta! Henkilökohtainen lista [kokoaa vuorot kaikista tiimeistä](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille), kun lähetät listan sähköpostilla tai [tulostat henkilökohtaiset listat](/posts/henkilokohtaisten_tyovuorolistojen_tulostus).

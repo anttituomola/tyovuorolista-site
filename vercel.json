@@ -1,0 +1,74 @@
+{
+  "redirects": [
+    {
+      "source": "/posts/tuntien-kirjaus-opas",
+      "destination": "/posts/tuntien_kirjaus_opas",
+      "permanent": true
+    },
+    {
+      "source": "/posts/tyontekijoiden-hallinta",
+      "destination": "/posts/tyontekijoiden_hallinta",
+      "permanent": true
+    },
+    {
+      "source": "/posts/sahkopostin-toimitusongelmat-varoitus",
+      "destination": "/posts/sahkopostin_toimitusongelmat_varoitus",
+      "permanent": true
+    },
+    {
+      "source": "/posts/korvaajan-vuoron-lisays-sairauslomalle",
+      "destination": "/posts/korvaajan_vuoron_lisays_sairauslomalle",
+      "permanent": true
+    },
+    {
+      "source": "/posts/palkkaraportti-ominaisuus",
+      "destination": "/posts/palkkaraportti_ominaisuus",
+      "permanent": true
+    },
+    {
+      "source": "/posts/hinnoittelun-uudistus-maaliskuu-2026",
+      "destination": "/posts/hinnoittelun_uudistus_maaliskuu_2026",
+      "permanent": true
+    },
+    {
+      "source": "/posts/henkilokohtaisten-tyovuorolistojen-tulostus",
+      "destination": "/posts/henkilokohtaisten_tyovuorolistojen_tulostus",
+      "permanent": true
+    },
+    {
+      "source": "/posts/resurssit-julkaistuissa-tyovuorolistoissa",
+      "destination": "/posts/resurssit_julkaistuissa_tyovuorolistoissa",
+      "permanent": true
+    },
+    {
+      "source": "/posts/resurssien-aikataulutus-ominaisuus",
+      "destination": "/posts/resurssien_aikataulutus_ominaisuus",
+      "permanent": true
+    },
+    {
+      "source": "/posts/ilmoita-ongelmasta-ominaisuus",
+      "destination": "/posts/ilmoita_ongelmasta_ominaisuus",
+      "permanent": true
+    },
+    {
+      "source": "/posts/listan-pituuden-valinta",
+      "destination": "/posts/listan_pituuden_valinta",
+      "permanent": true
+    },
+    {
+      "source": "/posts/uusi-kayttoliittyma-navigaatio-listat-ja-tiimit",
+      "destination": "/posts/uusi_kayttoliittyma_navigaatio_listat_ja_tiimit",
+      "permanent": true
+    },
+    {
+      "source": "/posts/vapaa-viesti-tyovuorolista-sahkopostiin",
+      "destination": "/posts/vapaa_viesti_tyovuorolista_sahkopostiin",
+      "permanent": true
+    },
+    {
+      "source": "/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla",
+      "destination": "/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla",
+      "permanent": true
+    }
+  ]
+}

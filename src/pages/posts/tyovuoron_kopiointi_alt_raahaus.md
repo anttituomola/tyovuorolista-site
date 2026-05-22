@@ -43,7 +43,7 @@ Kun kopioit työvuoron, uusi vuoro sisältää samat tiedot kuin alkuperäinen:
 - **Aikataulu** – sama kesto, mutta uusi alkamisaika/päivämäärä
 - **Vuoron tyyppi** – työvuoro, loma, lomatoive, vapaapäivä, X-päivä
 - **Muistiinpanot** – kaikki vuoron muistiinpanot
-- **Resurssi** – auto, työkalu tai muu resurssi (lue lisää [resurssien aikataulutuksesta](/posts/resurssien-aikataulutus-ominaisuus))
+- **Resurssi** – auto, työkalu tai muu resurssi (lue lisää [resurssien aikataulutuksesta](/posts/resurssien_aikataulutus_ominaisuus))
 - **Väri** – työntekijän väri säilyy samana
 
 ## Käytännön esimerkkejä

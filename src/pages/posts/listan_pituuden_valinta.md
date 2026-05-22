@@ -34,7 +34,7 @@ Voit valita minkä tahansa maanantain, kunhan se ei ole jo olemassa olevan lista
 
 ## Julkaisu ja tulosteet noudattavat listan oikeaa pituutta
 
-Julkaisunäkymä, tulosteet ja listan esikatselut näyttävät nyt vain ne viikot, jotka kuuluvat valittuun listaan. Lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) ja [henkilökohtaisten listojen tulostuksesta](/posts/henkilokohtaisten-tyovuorolistojen-tulostus).
+Julkaisunäkymä, tulosteet ja listan esikatselut näyttävät nyt vain ne viikot, jotka kuuluvat valittuun listaan. Lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille) ja [henkilökohtaisten listojen tulostuksesta](/posts/henkilokohtaisten_tyovuorolistojen_tulostus).
 
 Tämä koskee myös tulostettavia ja PDF-muotoisia listoja, jotta työntekijöille jaettavat listat vastaavat samaa aikaväliä kuin sovelluksessa.
 

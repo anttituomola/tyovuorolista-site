@@ -20,8 +20,8 @@ Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikk
 ## Miten merkkaan työntekijän tavoitetuntimäärän?
 Kaikille työntekijöille kannattaa merkata tavoitetuntimäärä, eli työsopimuksessa kirjattu työtuntimäärä per kuukausi. Täysaikaisilla tuntimäärä on 150 / kk, jos ei muuta sovittu.
 
-1. klikkaa työntekijän nimeä kalenterin vasemmalla puolella
+1. klikkaa työntekijän nimeä kalenterin vasemmalla puolella (tai avaa työntekijä **Hallinta → Työntekijät** -sivulta – katso [työntekijöiden hallinta](/posts/tyontekijoiden_hallinta))
 2. klikkaa Muokkaa työntekijän tietoja -painiketta
 3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään
 
-<strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti-ominaisuus) valitulta ajanjaksolta.
+<strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) valitulta ajanjaksolta.

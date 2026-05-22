@@ -52,7 +52,7 @@ Syyskuussa julkaistiin kolme uutta ominaisuutta tilin hallintaan:
 
 Sovellus optimoitiin mobiililaitteille! Voit nyt hallita työvuoroja, työntekijöitä ja kirjata tunteja suoraan älypuhelimestasi tai tabletistasi. Mobiiliversio tarjoaa pääosan sovelluksen toiminnallisuuksista: työvuorojen suunnittelu ja muokkaus, työntekijöiden hallinta, työvuorolistojen luominen ja julkaisu, sekä toteutuneiden työtuntien kirjaus. Käyttöliittymä on mukautettu kosketusnäytöille ja navigointi toimii "hampurilaisvalikon" kautta.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/tyovuorolista-sovellus-nyt-kaytettavissa-mobiililaitteilla
+**Lue lisää:** https://tyovuorolista.fi/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla
 
 ---
 
@@ -63,28 +63,28 @@ Sovellus optimoitiin mobiililaitteille! Voit nyt hallita työvuoroja, työntekij
 
 Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) ovat esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/korvaajan-vuoron-lisays-sairauslomalle
+**Lue lisää:** https://tyovuorolista.fi/posts/korvaajan_vuoron_lisays_sairauslomalle
 
 ### Ilmoita ongelmasta -ominaisuus
 **Julkaistu:** 1.11.2025
 
 Uusi "Ilmoita ongelmasta" -painike näkyy jokaisen sivun oikeassa alakulmassa. Kun klikkaat painiketta, järjestelmä ottaa automaattisesti kuvakaappauksen koko näkymästä ja avaa ikkunan, jossa voit kuvata ongelman. Ilmoitus menee suoraan tukitiimille kaikilla tarvittavilla tiedoilla (kuvakaappaus, sivun osoite, selaimen tiedot). Tämä tekee vikailmoitusten tekemisen paljon helpommaksi ja nopeammaksi.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/ilmoita-ongelmasta-ominaisuus
+**Lue lisää:** https://tyovuorolista.fi/posts/ilmoita_ongelmasta_ominaisuus
 
 ### Resurssien aikataulutus -ominaisuus
 **Julkaistu:** 20.11.2025
 
 Uusi resurssien aikataulutus -ominaisuus mahdollistaa autojen, pakettiautojen, työkalujen ja muiden laitteiden liittämisen työvuoroihin. Voit luoda resursseja eri tyypeillä (Auto, Pakettiauto, Työkalu, Muu) ja asettaa oletusresursseja työntekijöille. Järjestelmä varoittaa automaattisesti, jos resurssi on jo käytössä tai poissa käytöstä huollon vuoksi. Resurssit näkyvät myös automaattisesti sähköposteissa työntekijöille.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/resurssien-aikataulutus-ominaisuus
+**Lue lisää:** https://tyovuorolista.fi/posts/resurssien_aikataulutus_ominaisuus
 
 ### Palkkaraportti-ominaisuus
 **Julkaistu:** 24.11.2025
 
 Uusi joustava palkkaraportti-ominaisuus mahdollistaa palkkatietojen vientiä CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet (työntekijän nimi, sähköposti, ID, tyyppi, määrä) ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella. Raportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat ja tukee useimpia suomalaisia työtuntikategorioita ja -lisiä. CSV-muoto on Excel-yhteensopiva ja PDF-muoto sopii suoraan tulostamiseen.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/palkkaraportti-ominaisuus
+**Lue lisää:** https://tyovuorolista.fi/posts/palkkaraportti_ominaisuus
 
 ---
 
