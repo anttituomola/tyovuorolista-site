@@ -58,7 +58,7 @@ Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "L
 
 Uusi "Ilmoita ongelmasta" -painike näkyy jokaisen sivun oikeassa alakulmassa. Kun klikkaat painiketta, järjestelmä ottaa automaattisesti kuvakaappauksen koko näkymästä ja avaa ikkunan, jossa voit kuvata ongelman. Ilmoitus menee suoraan tukitiimille kaikilla tarvittavilla tiedoilla (kuvakaappaus, sivun osoite, selaimen tiedot). Tämä tekee vikailmoitusten tekemisen paljon helpommaksi ja nopeammaksi.
 
-**Lue lisää:** [Ilmoita ongelmasta -ominaisuus](/posts/ilmoita_ongelmasta_ominaisuus)
+**Lue lisää:** [Ohje ja tuki -chat](/posts/ohje_ja_tuki_chat)
 
 ## Parannettu tilin hallinta
 
@@ -110,5 +110,5 @@ Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta tai päivitystä**, jo
 - **Parannettu tilin hallinta** - helpompi tilin luominen, tilauksen ostaminen ja peruuttaminen, sekä palautteen lähetys
 - **Vuosilaskutus** - mahdollisuus maksaa laskulla vuodeksi kerrallaan
 
-Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ilmoita meille](/posts/ilmoita_ongelmasta_ominaisuus) - kuuntelemme mielellämme!
+Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ota yhteys tukeen](/posts/ohje_ja_tuki_chat) sovelluksen chatista — kuuntelemme mielellämme!
 

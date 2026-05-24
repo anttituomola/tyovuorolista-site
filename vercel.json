@@ -47,7 +47,12 @@
     },
     {
       "source": "/posts/ilmoita-ongelmasta-ominaisuus",
-      "destination": "/posts/ilmoita_ongelmasta_ominaisuus",
+      "destination": "/posts/ohje_ja_tuki_chat",
+      "permanent": true
+    },
+    {
+      "source": "/posts/ilmoita_ongelmasta_ominaisuus",
+      "destination": "/posts/ohje_ja_tuki_chat",
       "permanent": true
     },
     {

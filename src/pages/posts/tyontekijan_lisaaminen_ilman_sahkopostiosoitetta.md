@@ -40,4 +40,4 @@ Mitä tapahtuu, kun julkaiset työvuorolistan ja lähetät sen työntekijöille?
 
 Tämä päivitys tekee Työvuorolistan käytöstä entistä joustavampaa. Voit nyt suunnitella kaikkien työntekijöiden vuorot samaan paikkaan riippumatta siitä, tarvitsevatko he tunnuksia järjestelmään tai sähköposti-ilmoituksia vuoroistaan.
 
-Kuten aina, otamme mielellämme vastaan palautetta ja kehitysehdotuksia. Voit lähettää niitä suoraan sovelluksen [Ilmoita ongelmasta](/posts/ilmoita_ongelmasta_ominaisuus) -painikkeen kautta!
+Kuten aina, otamme mielellämme vastaan palautetta ja kehitysehdotuksia. Voit lähettää ne suoraan sovelluksen [Ohje ja tuki -chatista](/posts/ohje_ja_tuki_chat) — paina **Ota yhteys tukeen**.

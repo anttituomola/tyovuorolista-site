@@ -70,7 +70,7 @@ Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "L
 
 Uusi "Ilmoita ongelmasta" -painike näkyy jokaisen sivun oikeassa alakulmassa. Kun klikkaat painiketta, järjestelmä ottaa automaattisesti kuvakaappauksen koko näkymästä ja avaa ikkunan, jossa voit kuvata ongelman. Ilmoitus menee suoraan tukitiimille kaikilla tarvittavilla tiedoilla (kuvakaappaus, sivun osoite, selaimen tiedot). Tämä tekee vikailmoitusten tekemisen paljon helpommaksi ja nopeammaksi.
 
-**Lue lisää:** https://tyovuorolista.fi/posts/ilmoita_ongelmasta_ominaisuus
+**Lue lisää:** [Ohje ja tuki -chat](/posts/ohje_ja_tuki_chat)
 
 ### Resurssien aikataulutus -ominaisuus
 **Julkaistu:** 20.11.2025
