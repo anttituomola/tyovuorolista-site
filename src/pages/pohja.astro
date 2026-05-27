@@ -1,0 +1,410 @@
+---
+import Layout from '../layouts/Layout.astro'
+import ShiftRosterTemplate from '../components/tools/ShiftRosterTemplate.jsx'
+import Button from '../components/common/Button.astro'
+---
+
+<Layout
+    title="Työvuorolista pohja – tulosta ilmainen 3 viikon lista | tyovuorolista.fi"
+    description="Täytä ilmainen työvuorolista pohja selaimessa: valitse aloituspäivä, lisää työntekijät ja vuorot, tulosta tai tallenna PDF. Ei rekisteröitymistä."
+    ogTitle="Työvuorolista pohja – tulosta ilmainen 3 viikon lista"
+    ogDescription="Täytä työvuorolista heti selaimessa ja tulosta tai tallenna PDF. Ilmainen 3 viikon pohja pienelle tiimille."
+    ogUrl="https://tyovuorolista.fi/pohja"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <div class="pohja-page">
+        <div class="pohja-intro no-print">
+            <h1>Työvuorolista pohja – 3 viikkoa</h1>
+            <p>
+                Täytä työvuorolista suoraan selaimessa. Valitse aloituspäivä, lisää työntekijöiden nimet
+                ja kirjoita vuorot soluihin. Tulosta lista paperille tai tallenna PDF-tiedostoksi.
+            </p>
+        </div>
+
+        <ShiftRosterTemplate client:load />
+
+        <section class="pohja-upsell no-print">
+            <h2>Tarvitsetko enemmän?</h2>
+            <p>
+                Kun tiimi kasvaa tai vuorot muuttuvat usein, paperilista ja Excel alkavat hidastaa.
+                Työvuorolista.fi:ssä rakennat listan kalenterissa, lasket tunnit automaattisesti
+                ja voit lähettää henkilökohtaiset listat työntekijöille sähköpostilla.
+            </p>
+            <Button
+                text="Kokeile Työvuorolistaa ilmaiseksi"
+                backgroundColor="var(--tummanvihrea)"
+                textColor="var(--vaaleanharmaa)"
+                href="https://app.tyovuorolista.fi/CreateNewAccount"
+            />
+        </section>
+    </div>
+</Layout>
+
+<style is:global>
+    @media print {
+        body.pohja-printing nav,
+        body.pohja-printing .nav,
+        body.pohja-printing .footer,
+        body.pohja-printing .no-print {
+            display: none !important;
+        }
+
+        body.pohja-printing .pohja-page {
+            margin: 0;
+            padding: 0;
+            max-width: none;
+        }
+
+        body.pohja-printing .shift-roster {
+            border: none;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        body.pohja-printing .print-only {
+            display: block !important;
+        }
+
+        body.pohja-printing .screen-only {
+            display: none !important;
+        }
+
+        body.pohja-printing .shift-roster-controls,
+        body.pohja-printing .remove-row-btn,
+        body.pohja-printing .add-worker-row,
+        body.pohja-printing .print-actions {
+            display: none !important;
+        }
+
+        body.pohja-printing .week-table {
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        body.pohja-printing .roster-table--print {
+            font-size: 0.75rem;
+        }
+
+        body.pohja-printing .shift-cell--compact {
+            text-align: center;
+            min-width: 4.75rem;
+            white-space: nowrap;
+            padding: 0.3rem 0.2rem;
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4 portrait;
+        }
+    }
+</style>
+
+<style>
+    .pohja-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-lg) var(--space-4xl);
+    }
+
+    .pohja-intro {
+        margin-bottom: var(--space-xl);
+        max-width: 720px;
+    }
+
+    .pohja-intro h1 {
+        margin-bottom: var(--space-base);
+    }
+
+    .pohja-intro p {
+        line-height: 1.6;
+    }
+
+    .pohja-upsell {
+        margin-top: var(--space-3xl);
+        max-width: 640px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pohja-upsell h2 {
+        margin-bottom: var(--space-base);
+    }
+
+    .pohja-upsell p {
+        margin-bottom: var(--space-xl);
+        line-height: 1.6;
+    }
+
+    :global(.shift-roster) {
+        background: #fff;
+        border: 1px solid rgba(52, 52, 52, 0.12);
+        border-radius: 8px;
+        padding: var(--space-lg);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    :global(.shift-roster-controls) {
+        margin-bottom: var(--space-xl);
+        padding-bottom: var(--space-lg);
+        border-bottom: 1px solid rgba(52, 52, 52, 0.1);
+    }
+
+    :global(.controls-row) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-lg);
+        margin-bottom: var(--space-base);
+    }
+
+    :global(.control-field) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+    }
+
+    :global(.control-field input) {
+        padding: 0.5rem 0.65rem;
+        border: 1px solid rgba(52, 52, 52, 0.2);
+        border-radius: 4px;
+        font-family: inherit;
+        font-size: var(--text-base);
+        min-width: 200px;
+    }
+
+    :global(.snap-hint) {
+        font-size: var(--text-sm);
+        margin-bottom: 0;
+    }
+
+    :global(.print-actions) {
+        margin-top: var(--space-xl);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-sm);
+    }
+
+    :global(.btn-primary) {
+        font-family: inherit;
+        font-size: var(--text-base);
+        padding: 0.65rem 1.25rem;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid rgba(52, 52, 52, 0.2);
+        background: var(--tummanvihrea);
+        color: var(--vaaleanharmaa);
+        border-color: var(--tummanvihrea);
+    }
+
+    :global(.btn-primary:hover) {
+        filter: brightness(1.08);
+    }
+
+    :global(.print-hint) {
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+        opacity: 0.85;
+    }
+
+    :global(.print-header) {
+        margin-bottom: var(--space-lg);
+    }
+
+    :global(.print-title) {
+        font-size: var(--text-2xl);
+        margin-bottom: 0.25rem;
+    }
+
+    :global(.print-date-range) {
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+    }
+
+    :global(.table-scroll) {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    :global(.roster-table) {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: var(--text-sm);
+    }
+
+    :global(.roster-table--screen) {
+        min-width: calc(7.5rem + 21 * 6.75rem);
+    }
+
+    :global(.roster-table th),
+    :global(.roster-table td) {
+        border: 1px solid rgba(52, 52, 52, 0.15);
+        padding: 0.35rem;
+        vertical-align: middle;
+    }
+
+    :global(.roster-table thead th) {
+        background: rgba(45, 58, 53, 0.06);
+        font-weight: 600;
+        color: var(--tummanvihrea);
+        white-space: nowrap;
+    }
+
+    :global(.name-header) {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        background: rgba(45, 58, 53, 0.08);
+        min-width: 120px;
+    }
+
+    :global(.name-cell) {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        background: #fff;
+        min-width: 120px;
+    }
+
+    :global(.name-cell-inner) {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    :global(.name-cell input) {
+        width: 100%;
+        border: none;
+        background: transparent;
+        font-family: inherit;
+        font-size: var(--text-sm);
+        padding: 0.25rem;
+    }
+
+    :global(.name-cell input:focus) {
+        outline: 1px solid var(--tummanvihrea);
+        border-radius: 2px;
+    }
+
+    :global(.day-header) {
+        min-width: 6.75rem;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    :global(.shift-cell) {
+        min-width: 6.75rem;
+    }
+
+    :global(.shift-cell input) {
+        width: 100%;
+        min-width: 6.25rem;
+        border: none;
+        background: transparent;
+        font-family: inherit;
+        font-size: var(--text-sm);
+        text-align: center;
+        padding: 0.35rem 0.25rem;
+        box-sizing: border-box;
+    }
+
+    :global(.shift-cell input:focus) {
+        outline: 1px solid var(--tummanvihrea);
+        border-radius: 2px;
+        background: rgba(45, 58, 53, 0.03);
+    }
+
+    :global(.remove-row-btn) {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0;
+        border: none;
+        background: transparent;
+        color: var(--harmaa);
+        font-size: 1.25rem;
+        line-height: 1;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    :global(.remove-row-btn:hover) {
+        background: rgba(52, 52, 52, 0.08);
+        color: var(--tummanvihrea);
+    }
+
+    :global(.add-worker-row .name-cell) {
+        text-align: center;
+    }
+
+    :global(.add-worker-btn) {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+        border: 1px dashed rgba(52, 52, 52, 0.25);
+        border-radius: 4px;
+        background: transparent;
+        color: var(--harmaa);
+        cursor: pointer;
+    }
+
+    :global(.add-worker-btn:hover) {
+        background: rgba(45, 58, 53, 0.06);
+        border-color: var(--tummanvihrea);
+        color: var(--tummanvihrea);
+    }
+
+    :global(.shift-cell--empty) {
+        background: rgba(52, 52, 52, 0.02);
+    }
+
+    :global(.print-only) {
+        display: none;
+    }
+
+    :global(.week-block) {
+        margin-bottom: var(--space-lg);
+    }
+
+    :global(.week-label) {
+        font-size: var(--text-base);
+        margin-bottom: var(--space-sm);
+        color: var(--tummanvihrea);
+    }
+
+    :global(.roster-print-footer) {
+        margin-top: var(--space-xl);
+        padding-top: var(--space-base);
+        border-top: 1px solid rgba(52, 52, 52, 0.12);
+        text-align: center;
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+    }
+
+    :global(.roster-print-footer p) {
+        margin: 0.15rem 0;
+    }
+
+    @media (max-width: 768px) {
+        .pohja-page {
+            padding: var(--space-lg) var(--space-base) var(--space-3xl);
+        }
+
+        :global(.controls-row) {
+            flex-direction: column;
+        }
+
+        :global(.control-field input) {
+            min-width: 100%;
+        }
+    }
+</style>
+
+<script is:inline>
+    document.body.classList.add('pohja-printing');
+</script>
