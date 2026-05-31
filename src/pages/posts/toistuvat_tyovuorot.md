@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Toistuvat työvuorot – luo sama vuoro kerralla usealle päivälle'
-pubDate: 2026-05-29
+pubDate: 2026-05-31
 description: 'Voit nyt toistaa työvuoron listan loppuun asti valitulla kaavalla: arkipäivät, viikoittain, joka toinen viikko tai mukautettu väli. Esikatselu näyttää kaikki luotavat vuorot ennen tallennusta.'
 author: 'Antti Tuomola'
 image:
@@ -69,7 +69,7 @@ Jokainen vuoro luodaan **erillisenä rivinä** tietokantaan – sama logiikka ku
 - päällekkäisyydet saman työntekijän muiden vuorojen kanssa
 - resurssikonfliktit (jos käytössä [resurssien aikataulutus](/posts/resurssien_aikataulutus_ominaisuus))
 
-Jos jokin päivä ei mene läpi (esim. päällekkäisyys), **muut vuorot luodaan silti**. Saat yhteenvedon esimerkiksi muodossa *"10/12 vuoroa luotu (2 ohitettiin)"*.
+Jos jokin päivä ei mene läpi (esim. päällekkäisyys toisen vuoron kanssa), **muut vuorot luodaan silti**. Päällekkäiset päivät ohitetaan automaattisesti – sama tarkistus kuin yksittäisessä vuoron luonnissa. Saat yhteenvedon esimerkiksi muodossa *"10/12 vuoroa luotu (2 ohitettiin)"*.
 
 ## Rajoitukset
 
