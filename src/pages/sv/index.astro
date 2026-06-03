@@ -1,4 +1,5 @@
 ---
+import '../../styles/index-page.css'
 import Layout from '../../layouts/Layout.astro'
 import Hero from '../../components/mainPage/Hero.astro'
 import FeatureHighlights from '../../components/mainPage/FeatureHighlights.astro'
@@ -15,7 +16,7 @@ const contactFormTranslations = getTranslationObject('contactForm', locale)
 ---
 
 <Layout>
-    <main>
+    <main class="index-page">
         <Hero locale={locale} />
         <FeatureHighlights locale={locale} />
         <DemoVideo locale={locale} />
@@ -26,20 +27,3 @@ const contactFormTranslations = getTranslationObject('contactForm', locale)
         <ContactForm locale={locale} translations={contactFormTranslations} />
     </main>
 </Layout>
-
-<style>
-    main {
-        margin: 0 auto;
-        padding: 0 var(--space-base);
-        max-width: 1200px;
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-4xl);
-    }
-    @media (max-width: 768px) {
-        main {
-            gap: var(--space-2xl);
-            padding: 0 var(--space-sm);
-        }
-    }
-</style>

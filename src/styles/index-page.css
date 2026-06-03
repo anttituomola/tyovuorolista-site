@@ -1,0 +1,87 @@
+/* Alternating section bands on homepage (fi / en / sv index) */
+
+.index-page {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.index-page > * {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--space-4xl) var(--space-base);
+  box-sizing: border-box;
+}
+
+.index-page > *:nth-child(even)::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  background: var(--section-alt-bg);
+  z-index: -1;
+}
+
+/* Hero: a bit less top padding, extra air above the next band */
+.index-page > .hero {
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-4xl);
+}
+
+/* Feature block: band from index stripe; keep same vertical rhythm as other sections */
+.index-page > .tyov-features {
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-page > .tyov-features .tyov-features__header {
+  margin-top: 0;
+  padding-top: var(--space-sm);
+}
+
+.index-page > .tyov-features .tyov-features__header + .tyov-features__grid {
+  margin-top: 0;
+}
+
+/* Section titles sit below the band edge with clear spacing */
+.index-page > :is(.wrapper, section) > :is(h1, h2):first-child,
+.index-page > .howItWorks > h2:first-child {
+  margin-top: 0;
+  padding-top: var(--space-sm);
+}
+
+/* Extra breathing room around the hiekka panel; sit flush above footer */
+.index-page > .contact-form {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: var(--space-3xl) var(--space-2xl) var(--space-2xl);
+}
+
+main.index-page + .footer {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .index-page > * {
+    padding: var(--space-3xl) var(--space-sm);
+  }
+
+  .index-page > .hero {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-3xl);
+  }
+}
