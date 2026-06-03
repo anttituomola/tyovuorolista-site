@@ -3,7 +3,7 @@ import type { APIContext } from 'astro'
 import { SESClient } from "@aws-sdk/client-ses";
 import { SendEmailCommand } from "@aws-sdk/client-ses";
 
-export async function post({ request }: APIContext) {
+export async function POST({ request }: APIContext) {
     try {
         const { email, phone } = await request.json();
         console.log("🚀 API request body", { email, phone });
@@ -111,7 +111,7 @@ export async function post({ request }: APIContext) {
     }
 }
 
-export async function options() {
+export async function OPTIONS() {
     console.log("🔧 OPTIONS request received");
     return new Response(null, {
         status: 200,
