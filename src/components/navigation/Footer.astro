@@ -5,6 +5,9 @@ import { t, getLocalizedPath } from '../../utils/translations'
 const { locale = 'fi' } = Astro.props
 const currentYear = new Date().getFullYear()
 
+const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | 'sv')
+const resourcesPath = getLocalizedPath('/resurssit', locale as 'fi' | 'en' | 'sv')
+const blogPath = '/blogitekstit'
 const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
 const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
@@ -19,6 +22,9 @@ const eventsPath = getLocalizedPath('/tapahtumat-ja-sesonkityo', locale as 'fi' 
     <RegisterButton locale={locale} />
     <h3>{t('footer.copyright', locale as 'fi' | 'en' | 'sv')} | {currentYear}</h3>
     <div class='footerLinks'>
+        <p><a href={featuresPath}>{t('footer.links.features', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={resourcesPath}>{t('footer.links.resources', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={blogPath}>{t('footer.links.blog', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={contactPath}>{t('footer.links.contact', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={pricingPath}>{t('footer.links.pricing', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={termsPath}>{t('footer.links.terms', locale as 'fi' | 'en' | 'sv')}</a></p>

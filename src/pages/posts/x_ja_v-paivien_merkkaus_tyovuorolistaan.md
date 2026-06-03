@@ -15,7 +15,7 @@ Sivuilta löytyy myös oma tekstinsä, joka vastaa pidemmin kysymykseen, [mitä 
 
 Lyhyesti: <strong>V on viikkolepopäivä</strong>, joka on käytännössä pakollinen joka viikolle, <strong>X on lisävapaapäivä</strong>, joka niin ikään saadaan viiden työpäivän tuloksena, mutta jonka sijoittelu työvuorolistaan on vapaampaa.
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/X_ja_V_paivien_merkinta_tyovuorolistaan.mp4" type="video/mp4">
 </video>
 

@@ -3,6 +3,8 @@ import Navigation from '../components/navigation/Navigation.astro'
 import Footer from '../components/navigation/Footer.astro'
 import GoogleAnalytics from '../components/common/GoogleAnalytics.astro'
 import { getLocaleFromAstro, t } from '../utils/translations'
+import '../styles/tyov-features.css'
+import '../styles/lang-switcher.css'
 
 const locale = getLocaleFromAstro(Astro)
 const langMap: Record<string, string> = {

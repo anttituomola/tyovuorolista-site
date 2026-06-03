@@ -11,7 +11,7 @@ tags: ["työvuorolista", "ominaisuus", "ohjeet", "muistiinpanot"]
 ---
 Päiväkohtainen muistiinpano on **kätevä tapa ilmaista erilaisia päiväkohtaisia erikoisuuksia, kuten "Virkistyspäivä"**, "Yksityistilaisuus" tai vaikkapa "Virtasen häät".
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/muistiinpano.mp4" type="video/mp4">
 </video>
 

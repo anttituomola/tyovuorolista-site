@@ -1,4 +1,5 @@
 ---
+import LangFlagIcon from './LangFlagIcon.astro'
 import { getLocaleFromAstro, getPathWithoutLocale, getLocalizedPath, convertToFinnishPath } from '../../utils/translations'
 
 const locale = getLocaleFromAstro(Astro)
@@ -7,94 +8,130 @@ const currentPath = getPathWithoutLocale(Astro.url.pathname)
 const languages = [
   { code: 'fi', name: 'Suomi' },
   { code: 'en', name: 'English' },
-  { code: 'sv', name: 'Svenska' }
-]
+  { code: 'sv', name: 'Svenska' },
+] as const
 
-// Paths that are only available in Finnish
+const current = languages.find((lang) => lang.code === locale) ?? languages[0]
+
 const finnishOnlyPaths = ['/posts/', '/blogitekstit']
 
 const isFinnishOnlyContent = (path: string) => {
-  return finnishOnlyPaths.some(p => path.startsWith(p) || path === p)
+  return finnishOnlyPaths.some((p) => path.startsWith(p) || path === p)
 }
 
 const getLocalizedUrl = (langCode: string) => {
-  // Convert current path to Finnish base path first
   const finnishPath = convertToFinnishPath(currentPath)
-  
+
   if (langCode === 'fi') {
     return finnishPath === '/' ? '/' : finnishPath
   }
-  
-  // Check if current content is Finnish-only
+
   if (isFinnishOnlyContent(finnishPath)) {
     return `/${langCode}/not-available`
   }
-  
-  // Use getLocalizedPath to convert Finnish path to target locale
+
   const localizedPath = getLocalizedPath(finnishPath, langCode as 'en' | 'sv')
   return localizedPath === '/' ? `/${langCode}` : localizedPath
 }
 ---
 
-<div class="language-switcher">
-    {languages.map((lang) => {
+<div class="lang-switcher" data-lang-switcher>
+  <button
+    type="button"
+    class="lang-switcher__trigger"
+    aria-expanded="false"
+    aria-haspopup="menu"
+    aria-controls="lang-switcher-menu"
+    id="lang-switcher-trigger"
+    aria-label={`${current.name} (${current.code.toUpperCase()})`}
+  >
+    <LangFlagIcon code={current.code} />
+    <span class="lang-switcher__code">{current.code.toUpperCase()}</span>
+    <span class="lang-switcher__chevron" aria-hidden="true"></span>
+  </button>
+  <ul
+    class="lang-switcher__menu"
+    id="lang-switcher-menu"
+    role="menu"
+    aria-labelledby="lang-switcher-trigger"
+    hidden
+  >
+    {
+      languages.map((lang) => {
         const isActive = locale === lang.code
         const url = getLocalizedUrl(lang.code)
         return (
-            <a 
-                href={url} 
-                class={`lang-link ${isActive ? 'active' : ''}`}
-                aria-label={`Switch to ${lang.name}`}
-                lang={lang.code}
+          <li role="none">
+            <a
+              href={url}
+              role="menuitem"
+              class:list={['lang-switcher__option', { 'is-active': isActive }]}
+              lang={lang.code}
+              hreflang={lang.code}
+              aria-label={lang.name}
+              aria-current={isActive ? 'page' : undefined}
             >
-                <span class="lang-code">{lang.code.toUpperCase()}</span>
+              <LangFlagIcon code={lang.code} />
+              <span class="lang-switcher__optionCode">{lang.code.toUpperCase()}</span>
             </a>
+          </li>
         )
-    })}
+      })
+    }
+  </ul>
 </div>
 
-<style>
-    .language-switcher {
-        display: flex;
-        gap: 0.5rem;
-        align-items: center;
-    }
+<script>
+  const initLangSwitchers = () => {
+    document.querySelectorAll('[data-lang-switcher]').forEach((root) => {
+      const trigger = root.querySelector('.lang-switcher__trigger') as HTMLButtonElement | null
+      const menu = root.querySelector('.lang-switcher__menu') as HTMLUListElement | null
 
-    .lang-link {
-        display: flex;
-        align-items: center;
-        gap: 0.25rem;
-        padding: 0.5rem 0.75rem;
-        border-radius: 4px;
-        text-decoration: none;
-        color: var(--harmaa);
-        font-size: 0.875rem;
-        font-weight: 500;
-        transition: all 0.2s ease;
-        border: 1px solid transparent;
-    }
+      if (!trigger || !menu || root.getAttribute('data-lang-initialized') === 'true') {
+        return
+      }
 
-    .lang-link:hover {
-        background-color: var(--vaaleanharmaa);
-        color: var(--tummanvihrea);
-    }
+      root.setAttribute('data-lang-initialized', 'true')
 
-    .lang-link.active {
-        background-color: var(--hiekka);
-        color: var(--tummanvihrea);
-        border-color: var(--harmaa);
-    }
+      const close = () => {
+        menu.hidden = true
+        trigger.setAttribute('aria-expanded', 'false')
+        root.classList.remove('is-open')
+      }
 
-    .lang-code {
-        font-weight: 600;
-        letter-spacing: 0.02em;
-    }
+      const open = () => {
+        menu.hidden = false
+        trigger.setAttribute('aria-expanded', 'true')
+        root.classList.add('is-open')
+      }
 
-    @media (max-width: 768px) {
-        .lang-link {
-            padding: 0.4rem 0.6rem;
-            font-size: 0.8rem;
+      const toggle = () => {
+        if (menu.hidden) {
+          open()
+        } else {
+          close()
         }
-    }
-</style>
+      }
 
+      trigger.addEventListener('click', (event) => {
+        event.stopPropagation()
+        toggle()
+      })
+
+      document.addEventListener('click', (event) => {
+        if (!root.contains(event.target as Node)) {
+          close()
+        }
+      })
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          close()
+        }
+      })
+    })
+  }
+
+  initLangSwitchers()
+  document.addEventListener('astro:page-load', initLangSwitchers)
+</script>

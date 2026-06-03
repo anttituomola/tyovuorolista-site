@@ -1,5 +1,8 @@
 {
   "nav": {
+    "features": "Features",
+    "resources": "Resources",
+    "blog": "Blog (FI)",
     "pricing": "Pricing",
     "contact": "Contact",
     "login": "Log in",
@@ -9,6 +12,9 @@
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {
+      "features": "Features",
+      "resources": "Resources",
+      "blog": "Blog (FI)",
       "contact": "Contact",
       "pricing": "Pricing",
       "terms": "Terms of use, privacy policy and refund policy"
@@ -24,6 +30,7 @@
   },
   "hero": {
     "title": "Shift schedule for small businesses quickly and easily",
+    "tagline": "Templates, recurring shifts and email publishing — without a bloated enterprise app.",
     "subtitle": "Sign up, create a shift schedule and publish it in under five minutes!",
     "tryDemo": "Try demo",
     "or": "OR"
@@ -145,13 +152,14 @@
     "questions": {
       "cost": {
         "question": "How much does this cost?",
-        "answer": "Pricing is based on the number of employees:",
+        "answer": "Pricing is based on the number of employees. You can choose monthly or yearly billing:",
         "tiers": [
-          "max. 3 employees: €0 / month",
-          "max. 20 employees: €18 / month",
-          "max. 50 employees: €60 / month",
-          "max. 100 employees: €180 / month"
+          "max. 3 employees: €0 / month or €0 / year",
+          "max. 20 employees: €18 / month or €144 / year",
+          "max. 50 employees: €60 / month or €504 / year",
+          "max. 100 employees: €180 / month or €1440 / year"
         ],
+        "yearlyNote": "Yearly billing is cheaper: you pay for 8 months and get 4 months included (e.g. Normi €18 / month or €144 / year).",
         "vat": "VAT is added to all prices."
       },
       "trial": {
@@ -160,7 +168,7 @@
       },
       "commitment": {
         "question": "How long do I need to commit?",
-        "answer": "Payment is handled month by month, and you can cancel your subscription at any time. No commitment periods. For example, a summer restaurant can pay for use during the summer and cancel the subscription for winter."
+        "answer": "You can choose monthly or yearly billing and cancel your subscription at any time. No long commitment periods. For example, a summer restaurant can pay for use during the summer and cancel the subscription for winter."
       },
       "start": {
         "question": "When can I start?",
@@ -185,7 +193,7 @@
           "Prices are publicly visible: we don't try to squeeze the maximum price from your company, but publish all prices openly.",
           "You can start using Työvuorolista now, in five minutes. Publish a schedule in 15 minutes. No contact requests, quotes, demos, counter-quotes and other time-wasting.",
           "Työvuorolista is so simple that you don't need training to use it. If you want, we can go through its use together, but I also trust that you can use this without hand-holding.",
-          "Fewer features: we focus only on creating shift schedules, publishing and recording hours. We don't offer mobile apps for your employees that they don't want. You can handle shift reporting however you see fit."
+          "Lightweight employee experience: employees receive their personal schedule by email or print. No mandatory enterprise app for employees — we focus on creating schedules, publishing and recording hours."
         ]
       }
     }
@@ -202,15 +210,16 @@
     "errorNetwork": "Form submission failed. Check your internet connection and try again."
   },
   "mobileDemo": {
-    "title": "Use the app on mobile too",
-    "description": "The Työvuorolista app works fully on smartphones and tablets. You can plan shifts, manage employees and record hours worked directly on your mobile device.",
+    "title": "Manage shifts on mobile too",
+    "description": "As a planner, you can use Työvuorolista fully on your phone or tablet: shift planning, employee management, hour logging and publishing schedules.",
     "features": [
       "Planning and editing shifts",
       "Managing employees",
       "Recording hours worked",
       "Publishing schedules and emailing"
     ],
-    "moreInfo": "The interface automatically adapts to touch screens, and navigation works conveniently through a hamburger menu.",
+    "employeeNote": "Employees don't need a separate app — they receive their schedule by email.",
+    "moreInfo": "The interface adapts to touch screens, and navigation works through a hamburger menu.",
     "readMore": "Read more about mobile"
   },
   "blogPosts": {
@@ -220,7 +229,182 @@
     "tags": "Keywords:",
     "blogPageTitle": "Articles on shift planning"
   },
+  "featureHighlights": {
+    "title": "All key features in one place",
+    "subtitle": "Shift planning, publishing and reporting without unnecessary complexity.",
+    "viewAll": "View all features"
+  },
+  "howItWorks": {
+    "title": "How to get started",
+    "step1": {
+      "title": "Sign up",
+      "description": "Start free with up to three employees. Registration takes a minute."
+    },
+    "step2": {
+      "title": "Plan",
+      "description": "Drag employees into the calendar. Use templates and recurring shifts to save time."
+    },
+    "step3": {
+      "title": "Publish",
+      "description": "Send personal schedules by email with one click."
+    },
+    "featuresLink": "Explore all features"
+  },
+  "contactCta": {
+    "title": "Want to know more?",
+    "description": "We'll get back to you quickly — leave a message on the contact page.",
+    "button": "Go to contact"
+  },
+  "features": {
+    "readMore": "Read more",
+    "blogLanguageNote": "Article in Finnish",
+    "categories": {
+      "planning": "Planning",
+      "publishing": "Publishing",
+      "reporting": "Reporting",
+      "teams": "Teams"
+    },
+    "items": {
+      "recurring-shifts": {
+        "title": "Recurring shifts",
+        "shortDescription": "Create recurring shifts once and copy them across weeks."
+      },
+      "templates": {
+        "title": "Templates",
+        "shortDescription": "Save ready-made weeks as templates and reuse them."
+      },
+      "multi-select": {
+        "title": "Multi-select",
+        "shortDescription": "Select and edit multiple shifts at once."
+      },
+      "resource-scheduling": {
+        "title": "Resource scheduling",
+        "shortDescription": "Schedule resources such as vehicles or rooms alongside shifts."
+      },
+      "day-notes": {
+        "title": "Day notes",
+        "shortDescription": "Mark whole-day events and notes on the calendar."
+      },
+      "email-publish": {
+        "title": "Email publishing",
+        "shortDescription": "Send personal shift lists to employees automatically."
+      },
+      "email-preview": {
+        "title": "Email preview",
+        "shortDescription": "Review the message before sending."
+      },
+      "personal-print": {
+        "title": "Personal printouts",
+        "shortDescription": "Print or share individual employee schedules."
+      },
+      "vacation-planning": {
+        "title": "Vacation planning",
+        "shortDescription": "Manage vacations and vacation requests in the schedule."
+      },
+      "hours-recording": {
+        "title": "Hours recording",
+        "shortDescription": "Log actual hours and compare to the plan."
+      },
+      "payroll-report": {
+        "title": "Payroll report",
+        "shortDescription": "Export hours to payroll from a ready-made report."
+      },
+      "teams": {
+        "title": "Teams and shared workers",
+        "shortDescription": "Manage multiple teams and share employees between them."
+      },
+      "mobile-manager": {
+        "title": "Mobile for planners",
+        "shortDescription": "Plan and publish shifts directly from your phone."
+      }
+    }
+  },
+  "resources": {
+    "readMore": "Open",
+    "blogLanguageNote": "Article in Finnish",
+    "sections": {
+      "templates": "Templates and printable schedules",
+      "guides": "Guides",
+      "reference": "Legislation and practices"
+    },
+    "items": {
+      "pohja-tool": {
+        "title": "Shift roster template in browser",
+        "shortDescription": "Fill in a three-week schedule in the browser and print."
+      },
+      "pohja-printable": {
+        "title": "Printable template",
+        "shortDescription": "Pre-formatted template for printing a schedule."
+      },
+      "pohja-oo": {
+        "title": "OpenOffice template",
+        "shortDescription": "Download a free spreadsheet template for OpenOffice."
+      },
+      "pohja-pdf": {
+        "title": "PDF template from the app",
+        "shortDescription": "Create and share a PDF shift schedule from the service."
+      },
+      "getting-started": {
+        "title": "Getting started",
+        "shortDescription": "Step-by-step guide to creating your first schedule."
+      },
+      "hours-guide": {
+        "title": "Hours recording guide",
+        "shortDescription": "How to record actual hours worked."
+      },
+      "scheduling-software": {
+        "title": "Shift planning software",
+        "shortDescription": "General guide to shift planning and choosing software."
+      },
+      "min-shift-length": {
+        "title": "Minimum shift length in restaurants",
+        "shortDescription": "Reminder about shifts under four hours."
+      },
+      "break-between-shifts": {
+        "title": "Break between shifts",
+        "shortDescription": "Guide to required breaks between shifts."
+      },
+      "max-shift-length": {
+        "title": "Maximum shift length in restaurants",
+        "shortDescription": "Longest allowed shift and when longer shifts are permitted."
+      },
+      "longest-workday": {
+        "title": "Longest allowed workday in restaurants",
+        "shortDescription": "How many hours per day can be worked under working time rules."
+      },
+      "shift-abbreviations": {
+        "title": "Shift schedule abbreviations",
+        "shortDescription": "What X, V, TS and VV mean on the roster."
+      },
+      "v-day-meaning": {
+        "title": "What does V-day mean?",
+        "shortDescription": "Meaning and use of V-days on shift schedules."
+      },
+      "x-v-marking": {
+        "title": "Marking X and V days",
+        "shortDescription": "How to mark days off in the calendar."
+      },
+      "annual-leave-marking": {
+        "title": "Marking annual leave",
+        "shortDescription": "Annual leave and unpaid days off on the schedule."
+      },
+      "tracked-missing-hours": {
+        "title": "Tracked and missing hours",
+        "shortDescription": "How the app counts logged and missing hours."
+      }
+    }
+  },
   "pages": {
+    "features": {
+      "title": "Features",
+      "subtitle": "Tools for shift planning, publishing and reporting for small businesses. Read more in our articles.",
+      "cta": "Try for free"
+    },
+    "resources": {
+      "title": "Resources",
+      "subtitle": "Templates, guides and useful articles for shift planning.",
+      "cta": "Try for free"
+    },
     "pricing": {
       "eyebrow": "Pricing",
       "title": "Pricing per account",

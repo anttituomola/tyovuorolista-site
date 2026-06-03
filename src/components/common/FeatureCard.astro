@@ -1,0 +1,33 @@
+---
+import { Icon } from 'astro-icon/components'
+import { featureIcons } from '../../data/siteContent'
+import { t } from '../../utils/translations'
+
+const {
+  featureId,
+  href,
+  locale = 'fi',
+  showBlogNote = false,
+} = Astro.props
+
+const title = t(`features.items.${featureId}.title`, locale)
+const description = t(`features.items.${featureId}.shortDescription`, locale)
+const readMore = t('features.readMore', locale)
+const blogNote = t('features.blogLanguageNote', locale)
+const iconName = featureIcons[featureId] ?? 'ic:baseline-star'
+---
+
+<a href={href} class="tyov-features__card">
+    <div class="tyov-features__iconBox" aria-hidden="true">
+        <Icon name={iconName} />
+    </div>
+    <h3 class="tyov-features__cardTitle">{title}</h3>
+    <p class="tyov-features__cardDesc">{description}</p>
+    {showBlogNote && locale !== 'fi' && (
+        <p class="tyov-features__cardNote">{blogNote}</p>
+    )}
+    <span class="tyov-features__readMore">
+        {readMore}
+        <span class="tyov-features__arrow" aria-hidden="true">→</span>
+    </span>
+</a>

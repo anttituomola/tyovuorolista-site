@@ -1,18 +1,18 @@
 ---
+import type { BlogPostModule } from '../../utils/blogPosts'
+import { sortBlogPostsByDate } from '../../utils/blogPosts'
 import { getLocaleFromAstro } from '../../utils/translations'
 import BlogPostCard from '../common/BlogPostCard.astro'
 
 const locale = getLocaleFromAstro(Astro)
 
-// Hide blog posts on non-Finnish locales
-let allPosts = []
-let sortedPosts = []
-let sixMostRecentPosts = []
+let sixMostRecentPosts: BlogPostModule[] = []
 
 if (locale === 'fi') {
-    allPosts = Object.values(import.meta.glob('../../pages/posts/*.md', { eager: true }))
-    sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
-    sixMostRecentPosts = sortedPosts.slice(0, 6)
+    const allPosts = Object.values(
+        import.meta.glob('../../pages/posts/*.md', { eager: true })
+    ) as BlogPostModule[]
+    sixMostRecentPosts = sortBlogPostsByDate(allPosts).slice(0, 6)
 }
 ---
 

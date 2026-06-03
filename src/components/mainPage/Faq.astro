@@ -17,6 +17,7 @@ const questions = faq?.questions || {}
                     <li>{tier}</li>
                 ))}
             </ul>
+            <p>{t('faq.questions.cost.yearlyNote', locale as 'fi' | 'en' | 'sv')}</p>
             <p>{t('faq.questions.cost.vat', locale as 'fi' | 'en' | 'sv')}</p>
 
             <h3>{t('faq.questions.trial.question', locale as 'fi' | 'en' | 'sv')}</h3>

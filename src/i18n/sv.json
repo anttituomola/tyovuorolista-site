@@ -1,5 +1,8 @@
 {
   "nav": {
+    "features": "Funktioner",
+    "resources": "Resurser",
+    "blog": "Blogg (FI)",
     "pricing": "Prissättning",
     "contact": "Kontakt",
     "login": "Logga in",
@@ -9,6 +12,9 @@
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {
+      "features": "Funktioner",
+      "resources": "Resurser",
+      "blog": "Blogg (FI)",
       "contact": "Kontakt",
       "pricing": "Prissättning",
       "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy"
@@ -24,6 +30,7 @@
   },
   "hero": {
     "title": "Arbetsscheman för småföretag snabbt och enkelt",
+    "tagline": "Mallar, återkommande skift och e-postpublicering — utan en tung enterprise-app.",
     "subtitle": "Registrera dig, skapa ett arbetsschema och publicera det på mindre än fem minuter!",
     "tryDemo": "Prova demo",
     "or": "ELLER"
@@ -145,13 +152,14 @@
     "questions": {
       "cost": {
         "question": "Hur mycket kostar detta?",
-        "answer": "Prissättningen baseras på antalet anställda:",
+        "answer": "Prissättningen baseras på antalet anställda. Du kan välja månads- eller årsdebitering:",
         "tiers": [
-          "max. 3 anställda: 0 € / månad",
-          "max. 20 anställda: 18 € / månad",
-          "max. 50 anställda: 60 € / månad",
-          "max. 100 anställda: 180 € / månad"
+          "max. 3 anställda: 0 € / månad eller 0 € / år",
+          "max. 20 anställda: 18 € / månad eller 144 € / år",
+          "max. 50 anställda: 60 € / månad eller 504 € / år",
+          "max. 100 anställda: 180 € / månad eller 1440 € / år"
         ],
+        "yearlyNote": "Årsdebitering är billigare: du betalar för 8 månader och får 4 månader inkluderade (t.ex. Normi 18 € / månad eller 144 € / år).",
         "vat": "Moms läggs till alla priser."
       },
       "trial": {
@@ -160,7 +168,7 @@
       },
       "commitment": {
         "question": "Hur länge måste jag binda mig?",
-        "answer": "Betalning hanteras månadsvis, och du kan när som helst avbryta din prenumeration. Inga bindningstider. Till exempel kan en sommarrestaurang betala för användning under sommaren och avbryta prenumerationen för vintern."
+        "answer": "Du kan välja månads- eller årsdebitering och när som helst avbryta din prenumeration. Inga långa bindningstider. Till exempel kan en sommarrestaurang betala för användning under sommaren och avbryta prenumerationen för vintern."
       },
       "start": {
         "question": "När kan jag börja?",
@@ -185,7 +193,7 @@
           "Priserna är offentligt synliga: vi försöker inte pressa ut maximalt pris från ditt företag, utan publicerar alla priser öppet.",
           "Du kan börja använda Työvuorolista nu, på fem minuter. Publicera ett schema på 15 minuter. Inga kontaktförfrågningar, offerter, demoer, motofferter och annat tidsfördriv.",
           "Työvuorolista är så enkelt att du inte behöver utbildning för att använda det. Om du vill kan vi gå igenom dess användning tillsammans, men jag litar också på att du kan använda detta utan handhållning.",
-          "Färre funktioner: vi fokuserar bara på att skapa arbetsscheman, publicera och registrera timmar. Vi erbjuder inte mobilappar för dina anställda som de inte vill ha. Du kan hantera skiftrapportering på det sätt du anser bäst."
+          "Lätt anställdupplevelse: anställda får sitt personliga schema via e-post eller utskrift. Ingen obligatorisk enterprise-app för anställda — vi fokuserar på att skapa scheman, publicera och registrera timmar."
         ]
       }
     }
@@ -202,15 +210,16 @@
     "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen."
   },
   "mobileDemo": {
-    "title": "Använd appen på mobilen också",
-    "description": "Työvuorolista-appen fungerar fullt ut på smartphones och surfplattor. Du kan planera skift, hantera anställda och registrera arbetade timmar direkt på din mobila enhet.",
+    "title": "Hantera skift även på mobilen",
+    "description": "Som planerare kan du använda Työvuorolista fullt ut i telefon eller surfplatta: skiftplanering, personalhantering, timregistrering och publicering.",
     "features": [
       "Planera och redigera skift",
       "Hantera anställda",
       "Registrera arbetade timmar",
       "Publicera scheman och skicka e-post"
     ],
-    "moreInfo": "Gränssnittet anpassar sig automatiskt till pekskärmar, och navigering fungerar bekvämt genom en hamburgermeny.",
+    "employeeNote": "Anställda behöver ingen separat app — de får sitt schema via e-post.",
+    "moreInfo": "Gränssnittet anpassar sig till pekskärmar, och navigering fungerar via en hamburgermeny.",
     "readMore": "Läs mer om mobil"
   },
   "blogPosts": {
@@ -220,7 +229,182 @@
     "tags": "Nyckelord:",
     "blogPageTitle": "Artiklar om skiftplanering"
   },
+  "featureHighlights": {
+    "title": "Alla viktiga funktioner på ett ställe",
+    "subtitle": "Skiftplanering, publicering och rapportering utan onödig komplexitet.",
+    "viewAll": "Se alla funktioner"
+  },
+  "howItWorks": {
+    "title": "Så kommer du igång",
+    "step1": {
+      "title": "Registrera dig",
+      "description": "Börja gratis med upp till tre anställda. Registreringen tar en minut."
+    },
+    "step2": {
+      "title": "Planera",
+      "description": "Dra anställda till kalendern. Använd mallar och återkommande skift för att spara tid."
+    },
+    "step3": {
+      "title": "Publicera",
+      "description": "Skicka personliga scheman via e-post med ett klick."
+    },
+    "featuresLink": "Utforska alla funktioner"
+  },
+  "contactCta": {
+    "title": "Vill du veta mer?",
+    "description": "Vi hör av oss snabbt — lämna ett meddelande på kontaktsidan.",
+    "button": "Gå till kontakt"
+  },
+  "features": {
+    "readMore": "Läs mer",
+    "blogLanguageNote": "Artikel på finska",
+    "categories": {
+      "planning": "Planering",
+      "publishing": "Publicering",
+      "reporting": "Rapportering",
+      "teams": "Team"
+    },
+    "items": {
+      "recurring-shifts": {
+        "title": "Återkommande skift",
+        "shortDescription": "Skapa återkommande skift en gång och kopiera dem över veckor."
+      },
+      "templates": {
+        "title": "Mallar",
+        "shortDescription": "Spara färdiga veckor som mallar och återanvänd dem."
+      },
+      "multi-select": {
+        "title": "Flerval",
+        "shortDescription": "Välj och redigera flera skift samtidigt."
+      },
+      "resource-scheduling": {
+        "title": "Resursplanering",
+        "shortDescription": "Planera resurser som fordon eller lokaler vid sidan av skift."
+      },
+      "day-notes": {
+        "title": "Dagsanteckningar",
+        "shortDescription": "Markera hela dagens händelser och anteckningar i kalendern."
+      },
+      "email-publish": {
+        "title": "Publicering via e-post",
+        "shortDescription": "Skicka personliga skiftlistor till anställda automatiskt."
+      },
+      "email-preview": {
+        "title": "Förhandsgranskning av e-post",
+        "shortDescription": "Granska meddelandet innan du skickar."
+      },
+      "personal-print": {
+        "title": "Personliga utskrifter",
+        "shortDescription": "Skriv ut eller dela enskilda anställdas scheman."
+      },
+      "vacation-planning": {
+        "title": "Semesterplanering",
+        "shortDescription": "Hantera semester och semesteransökningar i schemat."
+      },
+      "hours-recording": {
+        "title": "Timregistrering",
+        "shortDescription": "Registrera faktiska timmar och jämför med planen."
+      },
+      "payroll-report": {
+        "title": "Lönerapport",
+        "shortDescription": "Exportera timmar till löneräkning från en färdig rapport."
+      },
+      "teams": {
+        "title": "Team och delade anställda",
+        "shortDescription": "Hantera flera team och dela anställda mellan dem."
+      },
+      "mobile-manager": {
+        "title": "Mobil för planerare",
+        "shortDescription": "Planera och publicera skift direkt från telefonen."
+      }
+    }
+  },
+  "resources": {
+    "readMore": "Öppna",
+    "blogLanguageNote": "Artikel på finska",
+    "sections": {
+      "templates": "Mallar och utskrivbara scheman",
+      "guides": "Guider",
+      "reference": "Lagstiftning och praxis"
+    },
+    "items": {
+      "pohja-tool": {
+        "title": "Arbetsschema-mall i webbläsaren",
+        "shortDescription": "Fyll i ett treveckors schema i webbläsaren och skriv ut."
+      },
+      "pohja-printable": {
+        "title": "Utskrivbar mall",
+        "shortDescription": "Förformaterad mall för utskrift av schema."
+      },
+      "pohja-oo": {
+        "title": "OpenOffice-mall",
+        "shortDescription": "Ladda ner en gratis kalkylbladsmall för OpenOffice."
+      },
+      "pohja-pdf": {
+        "title": "PDF-mall från appen",
+        "shortDescription": "Skapa och dela ett PDF-arbetsschema direkt från tjänsten."
+      },
+      "getting-started": {
+        "title": "Kom igång",
+        "shortDescription": "Steg-för-steg-guide till ditt första schema."
+      },
+      "hours-guide": {
+        "title": "Guide för timregistrering",
+        "shortDescription": "Så registrerar du faktiska arbetade timmar."
+      },
+      "scheduling-software": {
+        "title": "Program för skiftplanering",
+        "shortDescription": "Allmän guide till skiftplanering och val av program."
+      },
+      "min-shift-length": {
+        "title": "Minsta skiftlängd inom restaurang",
+        "shortDescription": "Påminnelse om skift under fyra timmar."
+      },
+      "break-between-shifts": {
+        "title": "Paus mellan skift",
+        "shortDescription": "Guide till pauser mellan skift."
+      },
+      "max-shift-length": {
+        "title": "Skiftets maximala längd inom restaurang",
+        "shortDescription": "Längsta tillåtna skift och när längre skift får användas."
+      },
+      "longest-workday": {
+        "title": "Längsta tillåtna arbetsdag inom restaurang",
+        "shortDescription": "Hur många timmar per dygn får arbetas enligt arbetstidsregler."
+      },
+      "shift-abbreviations": {
+        "title": "Förkortningar i arbetsschemat",
+        "shortDescription": "Vad X, V, TS och VV betyder i schemat."
+      },
+      "v-day-meaning": {
+        "title": "Vad betyder V-dag?",
+        "shortDescription": "Betydelse och användning av V-dagar i schemat."
+      },
+      "x-v-marking": {
+        "title": "Markering av X- och V-dagar",
+        "shortDescription": "Så markerar du lediga dagar i kalendern."
+      },
+      "annual-leave-marking": {
+        "title": "Markering av årlig semester",
+        "shortDescription": "Årlig semester och obetalda lediga dagar i schemat."
+      },
+      "tracked-missing-hours": {
+        "title": "Registrerade och saknade timmar",
+        "shortDescription": "Hur appen räknar utförda och saknade timmar."
+      }
+    }
+  },
   "pages": {
+    "features": {
+      "title": "Funktioner",
+      "subtitle": "Verktyg för skiftplanering, publicering och rapportering för småföretag. Läs mer i våra artiklar.",
+      "cta": "Prova gratis"
+    },
+    "resources": {
+      "title": "Resurser",
+      "subtitle": "Mallar, guider och användbara artiklar för skiftplanering.",
+      "cta": "Prova gratis"
+    },
     "pricing": {
       "eyebrow": "Prissättning",
       "title": "Prissättning per konto",

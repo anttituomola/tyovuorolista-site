@@ -1,8 +1,9 @@
 // API route for handling contact form submissions
+import type { APIContext } from 'astro'
 import { SESClient } from "@aws-sdk/client-ses";
 import { SendEmailCommand } from "@aws-sdk/client-ses";
 
-export async function post({ request }) {
+export async function post({ request }: APIContext) {
     try {
         const { email, phone } = await request.json();
         console.log("🚀 API request body", { email, phone });
@@ -91,9 +92,12 @@ export async function post({ request }) {
 
     } catch (error) {
         console.error("❌ API Error:", error);
-        
+
+        const errorMessage =
+            error instanceof Error ? error.message : 'Unknown error'
+
         return new Response(JSON.stringify({
-            message: `Error occurred: ${error.message}`,
+            message: `Error occurred: ${errorMessage}`,
             status: "error",
         }), {
             status: 500,

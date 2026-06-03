@@ -21,7 +21,7 @@ Noh, kyllä. Alle neljän tunnin työvuoroja voi teettää työntekijän pyynnö
 
 Oli syy mikä hyvänsä, se tulee kertoa työntekijälle ennen työvuorolistan laatimista.
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/työvuoron_minimipituus_ravintola-alalla_video.mp4" type="video/mp4">
 </video>
 

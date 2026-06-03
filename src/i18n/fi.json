@@ -1,5 +1,8 @@
 {
   "nav": {
+    "features": "Ominaisuudet",
+    "resources": "Resurssit",
+    "blog": "Blogi",
     "pricing": "Hinnoittelu",
     "contact": "Yhteystiedot",
     "login": "Kirjaudu",
@@ -9,6 +12,9 @@
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {
+      "features": "Ominaisuudet",
+      "resources": "Resurssit",
+      "blog": "Blogi",
       "contact": "Yhteystiedot",
       "pricing": "Hinnoittelut",
       "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
@@ -24,6 +30,7 @@
   },
   "hero": {
     "title": "PK-yrityksen työvuorolista nopeasti ja helposti",
+    "tagline": "Mallipohjat, toistuvat vuorot ja sähköpostijulkaisu — ilman raskasta enterprise-sovellusta.",
     "subtitle": "Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!",
     "tryDemo": "Kokeile demoa",
     "or": "TAI"
@@ -145,13 +152,14 @@
     "questions": {
       "cost": {
         "question": "Kuinka paljon tämä maksaa?",
-        "answer": "Hinnoittelu menee työntekijöiden määrän mukaan:",
+        "answer": "Hinnoittelu menee työntekijöiden määrän mukaan. Voit valita kuukausi- tai vuosilaskutuksen:",
         "tiers": [
-          "maks. 3 työntekijää: 0 € / kk",
-          "maks. 20 työntekijää: 18 € / kk",
-          "maks. 50 työntekijää: 60 € / kk",
-          "maks. 100 työntekijää: 180 € / kk"
+          "maks. 3 työntekijää: 0 € / kk tai 0 € / vuosi",
+          "maks. 20 työntekijää: 18 € / kk tai 144 € / vuosi",
+          "maks. 50 työntekijää: 60 € / kk tai 504 € / vuosi",
+          "maks. 100 työntekijää: 180 € / kk tai 1440 € / vuosi"
         ],
+        "yearlyNote": "Vuosilaskutus on edullisempi: maksat käytännössä 8 kuukauden hinnan ja saat 4 kuukautta mukaan (esim. Normi 18 € / kk tai 144 € / vuosi).",
         "vat": "Kaikkiin hintoihin lisätään alv."
       },
       "trial": {
@@ -160,7 +168,7 @@
       },
       "commitment": {
         "question": "Kuinka pitkäksi aikaa pitää sitoutua?",
-        "answer": "Maksu hoidetaan kuukausi kerrallaan, ja voit koska tahansa lopettaa tilauksen. Ei mitään sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
+        "answer": "Voit valita kuukausi- tai vuosilaskutuksen, ja voit koska tahansa lopettaa tilauksen. Ei pitkiä sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
       },
       "start": {
         "question": "Koska voin aloittaa?",
@@ -185,7 +193,7 @@
           "Hinnat ovat julkisesti näkyvillä: me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.",
           "Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa. Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.",
           "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
-          "Vähemmän ominaisuuksia: me keskitymme vain työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen. Emme tarjoa työntekijöillesi kännykkäsovelluksia, joita he eivät halua. Voit hanskata työvuorojen raportoinnin parhaaksi katsomallasi tavalla."
+          "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille — keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
         ]
       }
     }
@@ -202,15 +210,16 @@
     "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen."
   },
   "mobileDemo": {
-    "title": "Käytä sovellusta myös mobiilissa",
-    "description": "Työvuorolista-sovellus toimii täysimittaisena myös älypuhelimissa ja tableteissa. Voit suunnitella työvuoroja, hallita työntekijöitä ja kirjata toteutuneita tunteja suoraan mobiililaitteellasi.",
+    "title": "Hallitse vuoroja myös mobiilissa",
+    "description": "Suunnittelijana voit käyttää Työvuorolistaa täysimittaisesti älypuhelimessa ja tabletilla: vuorojen suunnittelu, työntekijöiden hallinta, tuntien kirjaus ja listojen julkaisu.",
     "features": [
       "Työvuorojen suunnittelu ja muokkaus",
       "Työntekijöiden hallinta",
       "Toteutuneiden tuntien kirjaus",
       "Listojen julkaisu ja sähköpostitus"
     ],
-    "moreInfo": "Käyttöliittymä mukautuu automaattisesti kosketusnäytöille, ja navigointi toimii kätevästi hampurilaisvalikon kautta.",
+    "employeeNote": "Työntekijät eivät tarvitse erillistä sovellusta — he saavat oman listansa sähköpostilla.",
+    "moreInfo": "Käyttöliittymä mukautuu kosketusnäytöille, ja navigointi toimii hampurilaisvalikon kautta.",
     "readMore": "Lue lisää mobiilista"
   },
   "blogPosts": {
@@ -218,9 +227,189 @@
     "viewAll": "Katso kaikki tekstit",
     "published": "Julkaistu",
     "tags": "Avainsanat:",
-    "blogPageTitle": "Tekstejä työvuorosuunnittelusta"
+    "blogPageTitle": "Tekstejä työvuorosuunnittelusta",
+    "hubIntro": "Etsitkö tiettyä ominaisuutta tai mallipohjaa? Aloita ",
+    "hubFeaturesLink": "ominaisuudet-sivulta",
+    "hubIntroMiddle": " tai ",
+    "hubResourcesLink": "resurssit-sivulta",
+    "hubIntroEnd": "."
+  },
+  "featureHighlights": {
+    "title": "Kaikki tärkeimmät ominaisuudet yhdessä paikassa",
+    "subtitle": "Työvuorosuunnittelu, julkaisu ja raportointi ilman turhaa monimutkaisuutta.",
+    "viewAll": "Katso kaikki ominaisuudet"
+  },
+  "howItWorks": {
+    "title": "Näin pääset alkuun",
+    "step1": {
+      "title": "Rekisteröidy",
+      "description": "Aloita ilmaiseksi kolmella työntekijällä. Rekisteröityminen vie minuutin."
+    },
+    "step2": {
+      "title": "Suunnittele",
+      "description": "Raahaa työntekijät kalenteriin. Käytä mallipohjia ja toistuvia vuoroja säästääksesi aikaa."
+    },
+    "step3": {
+      "title": "Julkaise",
+      "description": "Lähetä henkilökohtaiset listat sähköpostilla yhdellä napilla."
+    },
+    "featuresLink": "Tutustu kaikkiin ominaisuuksiin"
+  },
+  "contactCta": {
+    "title": "Haluatko kysyä lisää?",
+    "description": "Olemme sinuun yhteydessä nopeasti — jätä viesti yhteystiedot-sivulla.",
+    "button": "Siirry yhteystietoihin"
+  },
+  "features": {
+    "readMore": "Lue lisää",
+    "blogLanguageNote": "Artikkeli suomeksi",
+    "categories": {
+      "planning": "Suunnittelu",
+      "publishing": "Julkaisu",
+      "reporting": "Raportointi",
+      "teams": "Tiimit"
+    },
+    "items": {
+      "recurring-shifts": {
+        "title": "Toistuvat työvuorot",
+        "shortDescription": "Luo toistuvia vuoroja kerran ja kopioi ne usealle viikolle."
+      },
+      "templates": {
+        "title": "Mallipohjat",
+        "shortDescription": "Tallenna valmiit viikot pohjaksi ja käytä niitä uudelleen."
+      },
+      "multi-select": {
+        "title": "Monivalinta",
+        "shortDescription": "Valitse ja muokkaa useita vuoroja kerralla."
+      },
+      "resource-scheduling": {
+        "title": "Resurssien aikataulutus",
+        "shortDescription": "Aikatauluta resursseja, kuten ajoneuvoja tai tiloja, vuorojen rinnalle."
+      },
+      "day-notes": {
+        "title": "Päiväkohtaiset muistiinpanot",
+        "shortDescription": "Merkitse koko päivän tapahtumat ja huomiot kalenteriin."
+      },
+      "email-publish": {
+        "title": "Julkaisu sähköpostilla",
+        "shortDescription": "Lähetä henkilökohtaiset vuorolistat työntekijöille automaattisesti."
+      },
+      "email-preview": {
+        "title": "Sähköpostin esikatselu",
+        "shortDescription": "Tarkista viesti ennen lähetystä."
+      },
+      "personal-print": {
+        "title": "Henkilökohtaiset tulosteet",
+        "shortDescription": "Tulosta tai jaa yksittäisten työntekijöiden listoja."
+      },
+      "vacation-planning": {
+        "title": "Lomasuunnittelu",
+        "shortDescription": "Hallitse lomia ja lomapyyntöjä vuorolistassa."
+      },
+      "hours-recording": {
+        "title": "Tuntien kirjaus",
+        "shortDescription": "Kirjaa toteutuneet tunnit ja vertaa suunnitelmaan."
+      },
+      "payroll-report": {
+        "title": "Palkkaraportti",
+        "shortDescription": "Vie tunnit palkanlaskentaan valmiista raportista."
+      },
+      "teams": {
+        "title": "Tiimit ja jaetut työntekijät",
+        "shortDescription": "Hallitse useita tiimejä ja jaa työntekijöitä niiden välillä."
+      },
+      "mobile-manager": {
+        "title": "Mobiili suunnittelijalle",
+        "shortDescription": "Suunnittele ja julkaise vuoroja suoraan puhelimesta."
+      }
+    }
+  },
+  "resources": {
+    "readMore": "Avaa",
+    "blogLanguageNote": "Artikkeli suomeksi",
+    "sections": {
+      "templates": "Mallipohjat ja tulostettavat listat",
+      "guides": "Oppaat",
+      "reference": "Lainsäädäntö ja käytännöt"
+    },
+    "items": {
+      "pohja-tool": {
+        "title": "Työvuorolista-pohja selaimessa",
+        "shortDescription": "Täytä kolmen viikon työvuorolista suoraan selaimessa ja tulosta."
+      },
+      "pohja-printable": {
+        "title": "Tulostettava pohja",
+        "shortDescription": "Valmiiksi muotoiltu pohja tulostettavaksi listaksi."
+      },
+      "pohja-oo": {
+        "title": "OpenOffice-pohja",
+        "shortDescription": "Lataa ilmainen taulukkopohja OpenOfficelle."
+      },
+      "pohja-pdf": {
+        "title": "PDF-pohja sovelluksesta",
+        "shortDescription": "Luo ja jaa PDF-työvuorolista suoraan palvelusta."
+      },
+      "getting-started": {
+        "title": "Näin pääset alkuun",
+        "shortDescription": "Vaiheittainen opas ensimmäisen listan tekoon."
+      },
+      "hours-guide": {
+        "title": "Tuntien kirjaus -opas",
+        "shortDescription": "Ohje toteutuneiden tuntien kirjaamiseen."
+      },
+      "scheduling-software": {
+        "title": "Työvuorosuunnitteluohjelma",
+        "shortDescription": "Yleisopas työvuorosuunnitteluun ja ohjelmavalintaan."
+      },
+      "min-shift-length": {
+        "title": "Vuoron minimipituus ravintola-alalla",
+        "shortDescription": "Muistutus alle neljän tunnin vuoroista."
+      },
+      "break-between-shifts": {
+        "title": "Tauko työvuorojen välillä",
+        "shortDescription": "Ohje taukojen pituudesta vuorojen välillä."
+      },
+      "max-shift-length": {
+        "title": "Työvuoron maksimipituus ravintola-alalla",
+        "shortDescription": "Pisin sallittu työvuoro ja milloin pidempiä saa teettää."
+      },
+      "longest-workday": {
+        "title": "Pisin sallittu työpäivä ravintola-alalla",
+        "shortDescription": "Kuinka monta tuntia vuorokaudessa saa tehdä töitä?"
+      },
+      "shift-abbreviations": {
+        "title": "Työvuorolistan lyhenteet",
+        "shortDescription": "Mitä X, V, TS ja VV tarkoittavat listassa?"
+      },
+      "v-day-meaning": {
+        "title": "Mitä tarkoittaa V-päivä?",
+        "shortDescription": "V-päivän merkitys ja käyttö työvuorolistassa."
+      },
+      "x-v-marking": {
+        "title": "X- ja V-päivien merkintä",
+        "shortDescription": "Miten vapaapäivät merkitään kalenterissa."
+      },
+      "annual-leave-marking": {
+        "title": "Vuosiloman merkintä",
+        "shortDescription": "Vuosilomat ja palkattomat vapaat listaan."
+      },
+      "tracked-missing-hours": {
+        "title": "Merkatut ja puuttuvat tunnit",
+        "shortDescription": "Miten sovellus laskee toteutuneet ja puuttuvat tunnit."
+      }
+    }
   },
   "pages": {
+    "features": {
+      "title": "Ominaisuudet",
+      "subtitle": "Työvuorosuunnittelun, julkaisun ja raportoinnin työkalut PK-yritykselle. Lue lisää artikkeleista.",
+      "cta": "Kokeile ilmaiseksi"
+    },
+    "resources": {
+      "title": "Resurssit",
+      "subtitle": "Mallipohjat, oppaat ja hyödylliset artikkelit työvuorosuunnitteluun.",
+      "cta": "Kokeile ilmaiseksi"
+    },
     "pricing": {
       "eyebrow": "Hinnoittelu",
       "title": "Hinnoittelu per tili",

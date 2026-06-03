@@ -21,7 +21,7 @@ Vuorokaudessa ei saa olla enempää kuin <strong>16 työtuntia</strong>. Tämä 
 Voit lukea tarkemmin [ravintola-alan työaikalainsäädännöstä vuorojen välisten taukojen osalta](/posts/kuinka_pitka_tauko_tyovuorojen_valilla) ja [lyhyimmästä sallitusta työvuorosta (4 h)](/posts/tyovuoron_minimipituus_ravintola-alalla).
 
 ## Pitääkö minun muistaa kaikki tämä työvuorolistaa tehdessä?
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/tyovuorolista_notifikaatiot.mp4" type="video/mp4">
 </video>
 Ei! Käytä tyovuorolista.fi-sovellusta, se muistaa tämän kaiken puolestasi. Sovellus on joustava ja ymmärtää, että välillä täytyy tehdä luoviakin ratkaisuja työvuorosuunnittelussa - se ei pakota sinua tekemään vuoroja tietyllä muotilla. Sen sijaan sovellus huomauttaa aina, kun olet tekemässä epäsuositeltua tai peräti laitonta vuorokirjausta. Sovellus on tehty helpottamaan työvuorosuunnittelua, ei vaikeuttamaan sitä.

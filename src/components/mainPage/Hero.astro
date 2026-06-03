@@ -10,6 +10,7 @@ const { locale = 'fi' } = Astro.props
 
 <div class="hero">
     <h1>{t('hero.title', locale as 'fi' | 'en' | 'sv')}</h1>
+    <p class="tagline">{t('hero.tagline', locale as 'fi' | 'en' | 'sv')}</p>
     <div class="heroImage">
         <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} loading='eager'/>
     </div>
@@ -40,8 +41,17 @@ const { locale = 'fi' } = Astro.props
     h1 {
         font-size: var(--text-5xl);
         font-weight: 600;
-        margin-bottom: var(--space-base);
+        margin-bottom: var(--space-sm);
         max-width: 90%;
+    }
+
+    .tagline {
+        font-size: var(--text-lg);
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        max-width: 90%;
+        margin: 0 0 var(--space-base);
+        line-height: 1.5;
     }
     h3 {
         font-size: var(--text-xl);

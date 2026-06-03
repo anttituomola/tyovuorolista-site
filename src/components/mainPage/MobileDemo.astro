@@ -21,6 +21,9 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
                     </div>
                 ))}
             </div>
+            <p class="employeeNote">
+                {t('mobileDemo.employeeNote', locale as 'fi' | 'en' | 'sv')}
+            </p>
             <p class="moreInfo">
                 {t('mobileDemo.moreInfo', locale as 'fi' | 'en' | 'sv')}
             </p>
@@ -91,6 +94,14 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
         font-weight: 600;
         flex-shrink: 0;
     }
+    .employeeNote {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        margin-bottom: var(--space-base);
+        color: var(--tummanvihrea);
+        font-weight: 500;
+    }
+
     .moreInfo {
         font-size: var(--text-base);
         line-height: 1.6;

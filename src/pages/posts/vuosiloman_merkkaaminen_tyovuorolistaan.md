@@ -17,7 +17,7 @@ Kaikki vapaat merkataan Työvuorolista-sovelluksessa samalla tapaa: raahaamalla 
 4. muokkaa tarvittaessa alku- ja loppupäiviä
 5. tallenna
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/app.tyovuorolista.fi_lomat.webm" type="video/webm">
 </video>
 

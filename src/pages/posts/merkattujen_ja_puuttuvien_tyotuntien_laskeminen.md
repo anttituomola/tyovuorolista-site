@@ -11,7 +11,7 @@ tags: ["työvuorosuunnittelu", "työtunnit", "tuntien laskenta"]
 ---
 Kalenterinäkymässä kaikkien työntekijöiden nimen alla ilmestyy listalle merkattujen tuntien kokonaismäärä heti, kun merkkaat työntekijälle ensimmäisen vuoron listalle. Mikäli olet ilmoittanut työntekijän työsopimuksessa merkatun tuntimäärän sovellukselle, laskee se reaaliajassa, kuinka monta tuntia työntekijältä vielä puuttuu - tai kuinka paljon niitä on mahdollisesti liikaa.  
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/app.tyovuorolista_tuntilaskuri.mp4" type="video/mp4">
 </video>
 

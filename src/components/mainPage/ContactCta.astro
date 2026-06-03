@@ -1,0 +1,44 @@
+---
+import Button from '../common/Button.astro'
+import { getTranslationObject, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const copy = getTranslationObject('contactCta', locale as 'fi' | 'en' | 'sv')
+const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
+---
+
+<section class="contactCta">
+    <h2>{copy?.title}</h2>
+    <p>{copy?.description}</p>
+    <Button
+        text={copy?.button}
+        backgroundColor="var(--tummanvihrea)"
+        textColor="white"
+        href={contactPath}
+    />
+</section>
+
+<style>
+    .contactCta {
+        text-align: center;
+        padding: var(--space-2xl);
+        border-radius: 1rem;
+        background: rgba(172, 173, 148, 0.15);
+        border: 1px solid rgba(172, 173, 148, 0.35);
+    }
+
+    .contactCta h2 {
+        font-size: var(--text-2xl);
+        font-weight: 500;
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-base);
+    }
+
+    .contactCta p {
+        font-size: var(--text-lg);
+        color: var(--harmaa);
+        margin: 0 auto var(--space-xl);
+        max-width: 520px;
+        line-height: 1.6;
+    }
+</style>

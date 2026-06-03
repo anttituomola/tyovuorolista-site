@@ -24,7 +24,7 @@ Koska V-päiviä ei voi siirtää muille viikoille, voi kullakin viikolla olla e
 
 Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä, ja [miten X- ja V-päivät merkitään kalenterissa](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan).
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/v-vuoro-eli-viikkovapaapaiva-tyovuorolistassa.webm" type="video/webm">
 </video>
 

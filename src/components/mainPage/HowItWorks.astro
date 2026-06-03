@@ -1,0 +1,132 @@
+---
+import { Icon } from 'astro-icon/components'
+import Button from '../common/Button.astro'
+import { getTranslationObject, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const copy = getTranslationObject('howItWorks', locale as 'fi' | 'en' | 'sv')
+const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | 'sv')
+
+const steps = [
+  { key: 'step1', number: '1' },
+  { key: 'step2', number: '2' },
+  { key: 'step3', number: '3' },
+] as const
+---
+
+<section class="howItWorks">
+    <h2>{copy?.title}</h2>
+    <div class="steps">
+        {steps.map(({ key, number }) => (
+            <div class="step">
+                <span class="stepNumber">{number}</span>
+                <div class="stepContent">
+                    <h3>{copy?.[key]?.title}</h3>
+                    <p>{copy?.[key]?.description}</p>
+                </div>
+                <Icon name="ic:baseline-check" class="stepIcon" />
+            </div>
+        ))}
+    </div>
+    <div class="featuresLink">
+        <Button
+            text={copy?.featuresLink}
+            backgroundColor="var(--hiekka)"
+            href={featuresPath}
+        />
+    </div>
+</section>
+
+<style>
+    .howItWorks {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .howItWorks > h2 {
+        font-size: var(--text-3xl);
+        font-weight: 500;
+        color: var(--tummanvihrea);
+        text-align: center;
+        margin: 0 0 var(--space-2xl);
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-xl);
+        margin-bottom: var(--space-2xl);
+    }
+
+    .step {
+        display: flex;
+        align-items: flex-start;
+        gap: var(--space-lg);
+        padding: 1.25rem;
+        border: 1px solid rgba(74, 93, 88, 0.12);
+        border-radius: 1rem;
+        background: white;
+        box-shadow: 0 6px 20px rgba(45, 58, 53, 0.04);
+    }
+
+    .stepNumber {
+        flex-shrink: 0;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: var(--hiekka);
+        color: white;
+        font-weight: 600;
+        font-size: var(--text-sm);
+    }
+
+    .stepContent {
+        flex: 1;
+    }
+
+    .stepContent h3 {
+        margin: 0 0 var(--space-sm);
+        font-size: var(--text-xl);
+        font-weight: 600;
+        color: var(--tummanvihrea);
+    }
+
+    .stepContent p {
+        margin: 0;
+        font-size: var(--text-base);
+        color: var(--harmaa);
+        line-height: 1.6;
+    }
+
+    .stepIcon {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        color: var(--hiekka);
+        margin-top: 0.25rem;
+    }
+
+    .featuresLink {
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        .howItWorks > h2 {
+            font-size: var(--text-2xl);
+        }
+
+        .step {
+            flex-wrap: wrap;
+            gap: var(--space-base);
+        }
+
+        .stepIcon {
+            display: none;
+        }
+    }
+</style>

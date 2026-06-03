@@ -1,0 +1,36 @@
+---
+import { resourceImages } from '../../data/siteContent'
+import { t } from '../../utils/translations'
+
+const {
+  resourceId,
+  href,
+  locale = 'fi',
+  showBlogNote = false,
+} = Astro.props
+
+const title = t(`resources.items.${resourceId}.title`, locale)
+const description = t(`resources.items.${resourceId}.shortDescription`, locale)
+const readMore = t('resources.readMore', locale)
+const blogNote = t('resources.blogLanguageNote', locale)
+const imageUrl = resourceImages[resourceId]
+---
+
+<a href={href} class="tyov-features__card">
+  {
+    imageUrl && (
+      <div class="tyov-features__imageBox">
+        <img src={imageUrl} alt={title} loading="lazy" decoding="async" />
+      </div>
+    )
+  }
+  <h3 class="tyov-features__cardTitle">{title}</h3>
+  <p class="tyov-features__cardDesc">{description}</p>
+  {showBlogNote && locale !== 'fi' && (
+    <p class="tyov-features__cardNote">{blogNote}</p>
+  )}
+  <span class="tyov-features__readMore">
+    {readMore}
+    <span class="tyov-features__arrow" aria-hidden="true">→</span>
+  </span>
+</a>

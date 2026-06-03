@@ -1,6 +1,6 @@
 ---
 import Contact from '../components/mainPage/Contact.astro'
-import ContactForm from '../components/mainPage/ContactForm'
+import ContactForm from '../components/mainPage/ContactForm.astro'
 import Layout from '../layouts/Layout.astro'
 import { getLocaleFromAstro, getTranslationObject } from '../utils/translations'
 
@@ -10,26 +10,14 @@ const contactPage = getTranslationObject('pages.contact', locale)
 ---
 
 <Layout>
-    <div class="contacts">
+    <main class="contact-page">
         <Contact locale={locale} contactPage={contactPage} />
-    </div>
-    <div class="contactForm">
-        <ContactForm client:load locale={locale} translations={contactFormTranslations} />
-    </div>
+        <ContactForm locale={locale} translations={contactFormTranslations} />
+    </main>
 </Layout>
 
 <style>
-    .contacts {
-        margin: 0 auto;
-        width: 90%;
-        max-width: 600px;
-        padding: 0 1rem;
-        text-align: center;
-    }
-    .contactForm {
-        margin: 0 auto;
-        width: 90%;
-        max-width: 600px;
-        padding: 0 1rem;
+    .contact-page {
+        padding-bottom: var(--space-xl);
     }
 </style>

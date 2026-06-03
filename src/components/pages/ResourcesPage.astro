@@ -1,0 +1,97 @@
+---
+import PageHero from '../common/PageHero.astro'
+import ResourceCard from '../common/ResourceCard.astro'
+import {
+  resources,
+  resourceSections,
+  type ResourceSection,
+} from '../../data/siteContent'
+import { getTranslationObject } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const page = getTranslationObject('pages.resources', locale as 'fi' | 'en' | 'sv')
+const sections = getTranslationObject('resources.sections', locale as 'fi' | 'en' | 'sv')
+
+const resourcesBySection = resourceSections.reduce(
+  (acc, section) => {
+    acc[section] = resources.filter((r) => r.section === section)
+    return acc
+  },
+  {} as Record<ResourceSection, typeof resources>
+)
+
+function getResourceHref(item: (typeof resources)[number]) {
+  return item.href ?? item.blogSlug ?? '#'
+}
+---
+
+<div class="resourcesCatalog hubPage">
+    <PageHero title={page?.title} subtitle={page?.subtitle} />
+
+    {
+        resourceSections.map((section) => {
+            const sectionResources = resourcesBySection[section]
+            if (!sectionResources?.length) return null
+
+            return (
+                <section class="categorySection">
+                    <h2>{sections?.[section]}</h2>
+                    <div class="tyov-features__grid resourcesGrid">
+                        {sectionResources.map((resource) => (
+                            <ResourceCard
+                                resourceId={resource.id}
+                                href={getResourceHref(resource)}
+                                locale={locale}
+                                showBlogNote={!!resource.blogSlug}
+                            />
+                        ))}
+                    </div>
+                </section>
+            )
+        })
+    }
+
+</div>
+
+<style>
+    .hubPage {
+        padding: var(--space-2xl) var(--space-lg) var(--space-4xl);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .categorySection {
+        margin-bottom: var(--space-3xl);
+    }
+
+    .categorySection h2 {
+        font-size: var(--text-xl);
+        font-weight: 600;
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-lg);
+        padding-bottom: var(--space-sm);
+        border-bottom: 2px solid rgba(172, 173, 148, 0.4);
+    }
+
+    .resourcesGrid {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 1024px) {
+        .resourcesGrid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .resourcesGrid {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 640px) {
+        .hubPage {
+            padding: var(--space-xl) var(--space-base) var(--space-3xl);
+        }
+    }
+</style>

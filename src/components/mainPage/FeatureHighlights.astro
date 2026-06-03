@@ -1,0 +1,34 @@
+---
+import FeatureCard from '../common/FeatureCard.astro'
+import { getHighlightedFeatures } from '../../data/siteContent'
+import { getTranslationObject, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const copy = getTranslationObject('featureHighlights', locale as 'fi' | 'en' | 'sv')
+const highlighted = getHighlightedFeatures()
+const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | 'sv')
+---
+
+<section class="tyov-features">
+    <div class="tyov-features__inner">
+        <header class="tyov-features__header">
+            <div class="tyov-features__title">{copy?.title}</div>
+            <p class="tyov-features__subtitle">{copy?.subtitle}</p>
+        </header>
+        <div class="tyov-features__grid">
+            {highlighted.map((feature) => (
+                <FeatureCard
+                    featureId={feature.id}
+                    href={feature.blogSlug}
+                    locale={locale}
+                    showBlogNote={true}
+                />
+            ))}
+        </div>
+        <div class="tyov-features__ctaWrap">
+            <a href={featuresPath} class="tyov-features__cta">
+                {copy?.viewAll}
+            </a>
+        </div>
+    </div>
+</section>

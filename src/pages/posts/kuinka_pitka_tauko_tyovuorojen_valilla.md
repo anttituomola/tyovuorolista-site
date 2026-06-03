@@ -19,7 +19,7 @@ On: pitkien työpäivien välinen minimitauko on vähintään 11 tuntia. Pitkä 
 
 - Esimerkki 2: olet töissä tänään klo 15-02, eli 11 tuntia. Huomenna työpäiväsi on 7-tuntinen, joten se voi alkaa aikaisintaan klo 10, jotta 8 tunnin lepoaika toteutuu.
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/minimitauko_tyovuorojen_valissa.mp4" type="video/mp4">
 </video>
 

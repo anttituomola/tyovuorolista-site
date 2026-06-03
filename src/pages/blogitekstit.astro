@@ -1,26 +1,34 @@
 ---
-import { getLocaleFromAstro } from '../utils/translations'
+import type { BlogPostModule } from '../utils/blogPosts'
+import { sortBlogPostsByDate } from '../utils/blogPosts'
+import { getLocaleFromAstro, t } from '../utils/translations'
 import BlogPostCard from '../components/common/BlogPostCard.astro'
 import Layout from '../layouts/Layout.astro'
 
 const locale = getLocaleFromAstro(Astro)
 
-// Redirect non-Finnish users or show empty state
-let allPosts = []
-let sortedPosts = []
+let sortedPosts: BlogPostModule[] = []
 
 if (locale === 'fi') {
-    allPosts = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }))
-    sortedPosts = allPosts.sort((a, b) => a.frontmatter.pubDate < b.frontmatter.pubDate ? 1 : -1)
+    const allPosts = Object.values(
+        import.meta.glob('../pages/posts/*.md', { eager: true })
+    ) as BlogPostModule[]
+    sortedPosts = sortBlogPostsByDate(allPosts)
 } else {
-    // Redirect to home page for non-Finnish locales
     return Astro.redirect(locale === 'en' ? '/en' : '/sv')
 }
 ---
 
 <Layout>
     <div class="wrapper">
-        <h1>Tekstejä työvuorosuunnittelusta</h1>
+        <h1>{t('blogPosts.blogPageTitle', locale)}</h1>
+        <p class="hubIntro">
+            {t('blogPosts.hubIntro', locale)}
+            <a href="/ominaisuudet">{t('blogPosts.hubFeaturesLink', locale)}</a>
+            {t('blogPosts.hubIntroMiddle', locale)}
+            <a href="/resurssit">{t('blogPosts.hubResourcesLink', locale)}</a>
+            {t('blogPosts.hubIntroEnd', locale)}
+        </p>
         <div class="blogitekstit">
             {sortedPosts.map((post) => <BlogPostCard post={post} />)}
         </div>
@@ -28,6 +36,31 @@ if (locale === 'fi') {
 </Layout>
 
 <style>
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-2xl) var(--space-lg);
+    }
+
+    h1 {
+        font-size: var(--text-3xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-base);
+    }
+
+    .hubIntro {
+        font-size: var(--text-lg);
+        color: var(--harmaa);
+        line-height: 1.6;
+        margin-bottom: var(--space-2xl);
+        max-width: 720px;
+    }
+
+    .hubIntro a {
+        color: var(--tummanvihrea);
+        font-weight: 600;
+    }
+
     .blogitekstit {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -136,6 +136,21 @@ const pathMappings: Record<string, Record<Locale, string>> = {
     fi: '/tapahtumat-ja-sesonkityo',
     en: '/en/events-and-seasonal-work',
     sv: '/sv/evenemang-och-sasongsarbete'
+  },
+  '/ominaisuudet': {
+    fi: '/ominaisuudet',
+    en: '/en/features',
+    sv: '/sv/funktioner'
+  },
+  '/resurssit': {
+    fi: '/resurssit',
+    en: '/en/resources',
+    sv: '/sv/resurser'
+  },
+  '/blogitekstit': {
+    fi: '/blogitekstit',
+    en: '/blogitekstit',
+    sv: '/blogitekstit'
   }
 };
 
@@ -154,6 +169,11 @@ export function getLocalizedPath(path: string, locale: Locale): string {
   
   // Remove leading slash if present
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+
+  // Homepage: locale root without trailing slash (trailingSlash: 'never')
+  if (!cleanPath) {
+    return `/${locale}`;
+  }
   
   // Don't add locale prefix if path already has one
   if (cleanPath.startsWith('en/') || cleanPath.startsWith('sv/')) {
@@ -196,6 +216,10 @@ const reversePathMappings: Record<string, string> = {
   '/stadning-och-fastighetstjanster': '/siivous-ja-kiinteistopalvelut',
   '/hotell-och-vardshus': '/hotellit-ja-majatalot',
   '/evenemang-och-sasongsarbete': '/tapahtumat-ja-sesonkityo',
+  '/features': '/ominaisuudet',
+  '/resources': '/resurssit',
+  '/funktioner': '/ominaisuudet',
+  '/resurser': '/resurssit',
 };
 
 /**
@@ -227,5 +251,35 @@ export function convertToFinnishPath(path: string): string {
   }
   
   return cleanPath;
+}
+
+export type NavItemId = 'home' | 'features' | 'resources' | 'blog' | 'pricing' | 'contact'
+
+/**
+ * Which main nav item matches the current page (Finnish path keys).
+ */
+export function getActiveNavItem(pathname: string): NavItemId | null {
+  const finnishPath = convertToFinnishPath(pathname.split('?')[0].split('#')[0])
+
+  if (finnishPath === '/' || finnishPath === '') {
+    return 'home'
+  }
+  if (finnishPath === '/ominaisuudet') {
+    return 'features'
+  }
+  if (finnishPath === '/resurssit') {
+    return 'resources'
+  }
+  if (finnishPath === '/blogitekstit' || finnishPath.startsWith('/posts/') || finnishPath === '/posts') {
+    return 'blog'
+  }
+  if (finnishPath === '/hinnoittelu') {
+    return 'pricing'
+  }
+  if (finnishPath === '/yhteystiedot') {
+    return 'contact'
+  }
+
+  return null
 }
 

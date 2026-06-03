@@ -1,0 +1,55 @@
+---
+import FeatureCard from '../common/FeatureCard.astro'
+import {
+  features,
+  featureCategories,
+  type FeatureCategory,
+} from '../../data/siteContent'
+import { getTranslationObject } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const page = getTranslationObject('pages.features', locale as 'fi' | 'en' | 'sv')
+const categories = getTranslationObject('features.categories', locale as 'fi' | 'en' | 'sv')
+
+const featuresByCategory = featureCategories.reduce(
+  (acc, category) => {
+    acc[category] = features.filter((f) => f.category === category)
+    return acc
+  },
+  {} as Record<FeatureCategory, typeof features>
+)
+---
+
+<div class="featuresCatalog">
+    <section class="tyov-features tyov-features--catalog">
+        <div class="tyov-features__inner">
+            <header class="tyov-features__header">
+                <div class="tyov-features__title">{page?.title}</div>
+                <p class="tyov-features__subtitle">{page?.subtitle}</p>
+            </header>
+
+            {
+                featureCategories.map((category) => {
+                    const categoryFeatures = featuresByCategory[category]
+                    if (!categoryFeatures?.length) return null
+
+                    return (
+                        <div class="tyov-features__block">
+                            <div class="tyov-features__category">{categories?.[category]}</div>
+                            <div class="tyov-features__grid">
+                                {categoryFeatures.map((feature) => (
+                                    <FeatureCard
+                                        featureId={feature.id}
+                                        href={feature.blogSlug}
+                                        locale={locale}
+                                        showBlogNote={locale !== 'fi'}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    )
+                })
+            }
+        </div>
+    </section>
+</div>

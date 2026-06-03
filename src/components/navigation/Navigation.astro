@@ -4,18 +4,27 @@ import RegisterButton from '../common/RegisterButton.astro'
 import LanguageSwitcher from '../common/LanguageSwitcher.astro'
 import { Image } from 'astro:assets'
 import logo from '../../assets/logo.png'
-import { t, getLocalizedPath } from '../../utils/translations'
+import { t, getLocalizedPath, getActiveNavItem } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
 
+const activeNav = getActiveNavItem(Astro.url.pathname)
+
 const homePath = locale === 'fi' ? '/' : `/${locale}`
+const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | 'sv')
+const resourcesPath = getLocalizedPath('/resurssit', locale as 'fi' | 'en' | 'sv')
+const blogPath = '/blogitekstit'
 const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
 const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 ---
 
 <nav class='nav'>
     <div class='nav-container'>
-        <a href={homePath} class='logo'>
+        <a
+            href={homePath}
+            class:list={['logo', { 'logo--active': activeNav === 'home' }]}
+            aria-current={activeNav === 'home' ? 'page' : undefined}
+        >
             <Image src={logo} alt="tyovuorolista.fi logo" class="logo-symbol" quality="max" />
             <div class="logo-text">
                 <h1>Tyovuorolista.fi</h1>
@@ -30,13 +39,36 @@ const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 's
         </div>
 
         <div class='navRight'>
-            <LanguageSwitcher />
             <div class='buttonContainer'>
                 <RegisterButton locale={locale} />
                 <Button href='https://app.tyovuorolista.fi/login' text={t('nav.login', locale as 'fi' | 'en' | 'sv')} />
             </div>
-            <a href={pricingPath} class='navLink'>{t('nav.pricing', locale as 'fi' | 'en' | 'sv')}</a>
-            <a href={contactPath} class='navLink'>{t('nav.contact', locale as 'fi' | 'en' | 'sv')}</a>
+            <a
+                href={featuresPath}
+                class:list={['navLink', { 'navLink--active': activeNav === 'features' }]}
+                aria-current={activeNav === 'features' ? 'page' : undefined}
+            >{t('nav.features', locale as 'fi' | 'en' | 'sv')}</a>
+            <a
+                href={resourcesPath}
+                class:list={['navLink', { 'navLink--active': activeNav === 'resources' }]}
+                aria-current={activeNav === 'resources' ? 'page' : undefined}
+            >{t('nav.resources', locale as 'fi' | 'en' | 'sv')}</a>
+            <a
+                href={blogPath}
+                class:list={['navLink', { 'navLink--active': activeNav === 'blog' }]}
+                aria-current={activeNav === 'blog' ? 'page' : undefined}
+            >{t('nav.blog', locale as 'fi' | 'en' | 'sv')}</a>
+            <a
+                href={pricingPath}
+                class:list={['navLink', { 'navLink--active': activeNav === 'pricing' }]}
+                aria-current={activeNav === 'pricing' ? 'page' : undefined}
+            >{t('nav.pricing', locale as 'fi' | 'en' | 'sv')}</a>
+            <a
+                href={contactPath}
+                class:list={['navLink', { 'navLink--active': activeNav === 'contact' }]}
+                aria-current={activeNav === 'contact' ? 'page' : undefined}
+            >{t('nav.contact', locale as 'fi' | 'en' | 'sv')}</a>
+            <LanguageSwitcher />
         </div>
     </div>
 </nav>
@@ -73,52 +105,72 @@ const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 's
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 1rem;
     }
 
-    a {
-        margin-left: 1rem;
+    .navRight > :not(:first-child) {
+        margin-left: 0;
     }
 
     .navRight {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 0.75rem;
+        flex-shrink: 0;
+    }
+
+    .navRight .navLink {
+        margin-left: 0;
     }
 
     .navLink {
         color: black;
         text-decoration: none;
-        padding: 0.5rem;
+        padding: 0.5rem 0.35rem;
+        border-bottom: 2px solid transparent;
         transition:
             color 0.2s,
-            border-bottom 0.2s;
+            border-color 0.2s;
     }
 
     .navLink:hover {
-        border-bottom: 1px solid var(--harmaa);
+        border-bottom-color: var(--harmaa);
     }
 
-    .navLink:active {
-        color: rgb(72, 71, 71);
+    .navLink--active {
+        color: var(--tummanvihrea);
+        font-weight: 600;
+        border-bottom-color: var(--hiekka);
+    }
+
+    .navLink--active:hover {
+        border-bottom-color: var(--tummanvihrea);
+    }
+
+    .logo--active .logo-text h1 {
+        color: var(--harmaa);
     }
 
     .buttonContainer {
         display: flex;
-        gap: 1rem;
-        margin: 1rem;
+        gap: 0.5rem;
+        margin: 0;
+        flex-shrink: 0;
     }
 
     .logo {
         display: flex;
         align-items: center;
         text-decoration: none;
-        margin: var(--space-base);
+        margin: var(--space-base) var(--space-base) var(--space-base) 0;
         gap: var(--space-sm);
         transition: transform 0.2s ease;
+        flex-shrink: 0;
+        min-width: 0;
     }
     
     .logo:hover {
@@ -209,16 +261,27 @@ const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 's
 
         .navLink {
             width: 100%;
-            padding: 1rem 0;
+            padding: 1rem 0.75rem;
             border-bottom: 1px solid var(--vaaleanharmaa);
+            border-left: 3px solid transparent;
             margin: 0;
+        }
+
+        .navLink--active {
+            border-bottom-color: var(--vaaleanharmaa);
+            border-left-color: var(--hiekka);
+            background: rgba(172, 173, 148, 0.12);
         }
 
         .buttonContainer {
             flex-direction: column;
             width: 100%;
-            margin: 1rem 0;
+            margin: 0;
             gap: 0.5rem;
+        }
+
+        .navRight {
+            gap: 0.75rem;
         }
 
         .logo-symbol {

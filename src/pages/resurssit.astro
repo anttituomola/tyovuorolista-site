@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro'
+import ResourcesPage from '../components/pages/ResourcesPage.astro'
+import { getLocaleFromAstro, getTranslationObject } from '../utils/translations'
+
+const locale = getLocaleFromAstro(Astro)
+const page = getTranslationObject('pages.resources', locale)
+---
+
+<Layout title={page?.title} description={page?.subtitle}>
+    <ResourcesPage locale={locale} />
+</Layout>

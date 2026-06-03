@@ -16,7 +16,7 @@ Mennessäsi tyovuorolista.fi-sovelluksessa kalenterinäkymään, näet vasemmall
 ## Työntekijän piilotus
 Listallasi voi olla työntekijöitä, joita et juuri nyt tarvitse listaa suunnitellessasi, mutta en myöskään halua poistaa heitä kokonaan. Kun klikkaat "Muokkaa listaa" -painiketta, voit sen jälkeen klikata <strong>kunkin työntekijän kohdalla pientä X-kuvaketta, jolloin työntekijä piilotetaan näkymästä</strong>. Voit koska tahansa palauttaa työntekijän takaisin valitsemalla hänet "Näytä piilotettu työntekijä" -painikkeen takaa.
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/tyovuorolista_hero.png'>
+<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/reorder_and_hide_workers.mp4" type="video/mp4">
 </video>
 

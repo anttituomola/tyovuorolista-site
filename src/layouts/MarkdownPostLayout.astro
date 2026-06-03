@@ -12,6 +12,11 @@ import dayjs from 'dayjs'
         <p class="metadata">Kirjoittanut {frontmatter.author}<br />
         Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
         <slot />
+        <nav class="postHubLinks" aria-label="Aiheeseen liittyvät sivut">
+            <a href="/ominaisuudet">Kaikki ominaisuudet</a>
+            <span aria-hidden="true">·</span>
+            <a href="/resurssit">Resurssit ja mallipohjat</a>
+        </nav>
         <div style="margin: 4rem auto 2rem auto">
             <Button
                 text="Kokeile Työvuorolistaa ilmaiseksi"
@@ -101,5 +106,29 @@ import dayjs from 'dayjs'
         border: 1px solid rgba(52, 52, 52, 0.1);
         padding: 0.65rem 0.85rem;
         vertical-align: middle;
+    }
+
+    .postHubLinks {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem 0.75rem;
+        margin: 3rem 0 0;
+        font-size: var(--text-sm);
+    }
+
+    .postHubLinks a {
+        color: var(--tummanvihrea);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .postHubLinks a:hover {
+        text-decoration: underline;
+    }
+
+    .postHubLinks span {
+        color: var(--harmaa);
     }
 </style>
