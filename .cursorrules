@@ -16,20 +16,18 @@ This is the marketing website for Työvuorolista, a shift scheduling application
 - `src/components/` - React and Astro components
 - `src/i18n/` - Translation files (fi.json, en.json, sv.json)
 - `src/layouts/` - Page layouts
-- `api/` - API endpoints (handleForm.mjs, handleUnsubscribe.mjs)
+- `api/` - API endpoints (handleForm.mjs)
 - `public/` - Static assets (images, videos)
 
 ## Key Features
 - Multi-language support (Finnish default, English, Swedish)
 - Blog posts (markdown files in src/pages/posts/)
 - Contact form integration
-- Email subscription/unsubscription
 - Industry-specific landing pages
 - Responsive design
 
 ## API Endpoints
 - `/api/handleForm` - Contact form submission (AWS SES)
-- `/api/handleUnsubscribe` - Email unsubscription
 
 ## Development
 - Run: `npm run dev`
