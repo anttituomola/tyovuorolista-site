@@ -2,11 +2,36 @@
 import { Image } from 'astro:assets'
 import laura_dahlman from '../../assets/laura_dahlman.jpg'
 import anita_lindov_kitola_oy from '../../assets/anita_lindov_kitola_oy.jpg'
+import {
+	formatStatWithPlus,
+	getPlatformStats
+} from '../../utils/getPlatformStats'
 import { t, getTranslationObject } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
 const customerStory = getTranslationObject('customerStory', locale as 'fi' | 'en' | 'sv')
 const testimonials = customerStory?.testimonials || []
+const stats = await getPlatformStats()
+const localeCode = locale === 'fi' ? 'fi-FI' : locale === 'sv' ? 'sv-SE' : 'en-US'
+
+const statItems = [
+	{
+		value: formatStatWithPlus(stats.activeCompanies, localeCode),
+		label: t('platformStats.activeCompanies', locale as 'fi' | 'en' | 'sv')
+	},
+	{
+		value: formatStatWithPlus(stats.shiftsPerWeek, localeCode),
+		label: t('platformStats.shiftsPerWeek', locale as 'fi' | 'en' | 'sv')
+	},
+	{
+		value: formatStatWithPlus(stats.workersManaged, localeCode),
+		label: t('platformStats.workersManaged', locale as 'fi' | 'en' | 'sv')
+	},
+	{
+		value: formatStatWithPlus(stats.totalShifts, localeCode),
+		label: t('platformStats.totalShifts', locale as 'fi' | 'en' | 'sv')
+	}
+]
 ---
 
 <div class="wrapper">
@@ -64,6 +89,15 @@ const testimonials = customerStory?.testimonials || []
                 )
             })}
         </div>
+    </div>
+
+    <div class="platform-stats-bar" aria-label={t('platformStats.title', locale as 'fi' | 'en' | 'sv')}>
+        {statItems.map(item => (
+            <div class="platform-stats-bar__item">
+                <strong class="platform-stats-bar__value">{item.value}</strong>
+                <span class="platform-stats-bar__label">{item.label}</span>
+            </div>
+        ))}
     </div>
 </div>
 
@@ -389,6 +423,88 @@ document.addEventListener('DOMContentLoaded', () => {
         
         .scroll-indicator {
             display: flex;
+        }
+    }
+
+    .platform-stats-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 100%;
+        max-width: 1200px;
+        margin: var(--space-2xl) auto 0;
+        padding-top: var(--space-2xl);
+        border-top: 1px solid var(--vaaleanharmaa);
+        box-sizing: border-box;
+    }
+
+    .platform-stats-bar__item {
+        flex: 1 1 0;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: var(--space-xs);
+        padding: 0 var(--space-base);
+    }
+
+    .platform-stats-bar__item + .platform-stats-bar__item {
+        border-left: 1px solid var(--vaaleanharmaa);
+    }
+
+    .platform-stats-bar__value {
+        font-size: var(--text-2xl);
+        font-weight: 600;
+        line-height: 1.1;
+        color: var(--tummanvihrea);
+    }
+
+    .platform-stats-bar__label {
+        font-size: var(--text-sm);
+        line-height: 1.35;
+        color: var(--harmaa);
+    }
+
+    @media (max-width: 768px) {
+        .platform-stats-bar {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: var(--space-lg) var(--space-base);
+        }
+
+        .platform-stats-bar__item + .platform-stats-bar__item {
+            border-left: none;
+        }
+
+        .platform-stats-bar__item:nth-child(odd) {
+            border-right: 1px solid var(--vaaleanharmaa);
+        }
+
+        .platform-stats-bar__item:nth-child(-n + 2) {
+            padding-bottom: var(--space-lg);
+            border-bottom: 1px solid var(--vaaleanharmaa);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .platform-stats-bar {
+            grid-template-columns: 1fr;
+            gap: var(--space-base);
+        }
+
+        .platform-stats-bar__item:nth-child(odd) {
+            border-right: none;
+        }
+
+        .platform-stats-bar__item:not(:last-child) {
+            padding-bottom: var(--space-base);
+            border-bottom: 1px solid var(--vaaleanharmaa);
+        }
+
+        .platform-stats-bar__item:nth-child(-n + 2) {
+            padding-bottom: var(--space-base);
         }
     }
 </style>

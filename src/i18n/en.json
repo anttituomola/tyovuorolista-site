@@ -42,6 +42,14 @@
     "step2": "Create shift schedule",
     "step3": "Publish"
   },
+  "platformStats": {
+    "eyebrow": "In use today",
+    "title": "Työvuorolista in numbers",
+    "activeCompanies": "businesses plan shifts every month",
+    "shiftsPerWeek": "work shifts planned every week",
+    "workersManaged": "workers managed on the platform",
+    "totalShifts": "shifts planned in total"
+  },
   "customerStory": {
     "title": "What customers say",
     "testimonials": [

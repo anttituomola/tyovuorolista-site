@@ -42,6 +42,14 @@
     "step2": "Tee työvuorolista",
     "step3": "Julkaise"
   },
+  "platformStats": {
+    "eyebrow": "Käytössä nyt",
+    "title": "Työvuorolista numeroina",
+    "activeCompanies": "yritystä suunnittelee vuoroja kuukausittain",
+    "shiftsPerWeek": "työvuoroa suunnitellaan viikottain",
+    "workersManaged": "työntekijän listat",
+    "totalShifts": "suunniteltua vuoroa"
+  },
   "customerStory": {
     "title": "Mitä asiakkaat sanovat",
     "testimonials": [

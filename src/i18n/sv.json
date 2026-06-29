@@ -42,6 +42,14 @@
     "step2": "Skapa arbetsschema",
     "step3": "Publicera"
   },
+  "platformStats": {
+    "eyebrow": "Används nu",
+    "title": "Työvuorolista i siffror",
+    "activeCompanies": "företag planerar skift varje månad",
+    "shiftsPerWeek": "arbetspass planeras varje vecka",
+    "workersManaged": "anställda hanteras i plattformen",
+    "totalShifts": "planerade skift totalt"
+  },
   "customerStory": {
     "title": "Vad kunderna säger",
     "testimonials": [
