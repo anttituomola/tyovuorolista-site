@@ -46,13 +46,14 @@ Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaess
 
 ### Ensimmäinen kirjautuminen
 
-1. Avaa sähköpostiisi tullut kutsu. Viestin otsikko on **Kirjaudu Oma-portaaliin** ja lähettäjänä näkyy tyovuorolista.fi.
-2. Klikkaa viestissä olevaa linkkiä **Kirjaudu Oma-portaaliin**.
-3. Sinut ohjataan Oma-portaaliin osoitteeseen [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma).
+1. Avaa sähköpostiisi tullut kutsu. Viestin otsikko on muotoa **Kutsu Oma-portaaliin – [työnantajan nimi]** ja lähettäjänä näkyy tyovuorolista.fi.
+2. Viestissä kerrotaan, kuka on kutsunut sinut Oma-portaaliin ja mitä portaalissa voi tehdä.
+3. Klikkaa viestissä olevaa linkkiä **Kirjaudu Oma-portaaliin**.
+4. Sinut ohjataan Oma-portaaliin osoitteeseen [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma).
 
-<img src="/blogPostImages/oma-portaali/kutsu-sahkoposti.png" alt="Oma-portaalikutsu sähköpostissa: otsikko Kirjaudu Oma-portaaliin ja linkki kirjautumiseen" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/oma-portaali/kutsu-sahkoposti.png" alt="Oma-portaalikutsu sähköpostissa: otsikko Kutsu Oma-portaaliin, työnantajan nimi viestissä ja linkki kirjautumiseen" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Jos et pyytänyt linkkiä, voit jättää viestin huomiotta.
+Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenpäin.
 
 ### Omat vuorot
 
