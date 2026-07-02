@@ -1,5 +1,5 @@
 ---
-import RegisterButton from '../common/RegisterButton.astro'
+import Button from '../common/Button.astro'
 import { t, getLocalizedPath } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
@@ -19,7 +19,7 @@ const eventsPath = getLocalizedPath('/tapahtumat-ja-sesonkityo', locale as 'fi' 
 ---
 
 <div class='footer'>
-    <RegisterButton locale={locale} />
+    <Button variant="primary" locale={locale} />
     <h3>{t('footer.copyright', locale as 'fi' | 'en' | 'sv')} | {currentYear}</h3>
     <div class='footerLinks'>
         <p><a href={featuresPath}>{t('footer.links.features', locale as 'fi' | 'en' | 'sv')}</a></p>

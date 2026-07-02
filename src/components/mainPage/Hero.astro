@@ -2,7 +2,6 @@
 import Button from '../common/Button.astro'
 import { Image } from 'astro:assets'
 import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
-import RegisterButton from '../common/RegisterButton.astro'
 import { t } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
@@ -16,9 +15,9 @@ const { locale = 'fi' } = Astro.props
     </div>
     <h3>{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h3>
     <span class="buttons">
-        <RegisterButton locale={locale} />
+        <Button variant="primary" locale={locale} />
         <span style="color: var(--harmaa);">{t('hero.or', locale as 'fi' | 'en' | 'sv')}</span>
-        <Button text={t('hero.tryDemo', locale as 'fi' | 'en' | 'sv')} backgroundColor="var(--ruskeaharmaa)" href="https://app.tyovuorolista.fi/demo" target="_blank" />
+        <Button variant="secondary" text={t('hero.tryDemo', locale as 'fi' | 'en' | 'sv')} href="https://app.tyovuorolista.fi/demo" target="_blank" />
     </span>
 </div>
 

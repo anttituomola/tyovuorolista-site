@@ -1,5 +1,6 @@
 ---
 import FeatureCard from '../common/FeatureCard.astro'
+import Button from '../common/Button.astro'
 import { getHighlightedFeatures } from '../../data/siteContent'
 import { getTranslationObject, getLocalizedPath } from '../../utils/translations'
 
@@ -26,9 +27,7 @@ const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | '
             ))}
         </div>
         <div class="tyov-features__ctaWrap">
-            <a href={featuresPath} class="tyov-features__cta">
-                {copy?.viewAll}
-            </a>
+            <Button variant="primary" text={copy?.viewAll} href={featuresPath} />
         </div>
     </div>
 </section>

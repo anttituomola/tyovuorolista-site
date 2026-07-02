@@ -27,7 +27,7 @@ Yksinkertainen työvuorolista pohja on hyvä valinta, kun:
 - et halua asentaa Exceliä, OpenOfficea tai muuta ohjelmaa
 - riittää, että kirjoitat vuorot käsin tai koneella soluihin (esim. `9-17`, `15-23`, `V`)
 
-Jos tarvitset automaattista tuntien laskentaa, useita tiimejä, lomasuunnittelua tai sähköpostilistoja työntekijöille, paperipohja loppuu nopeasti kesken. Silloin kannattaa katsoa [Työvuorolista.fi-palvelua](https://app.tyovuorolista.fi/CreateNewAccount) – mutta aloita rauhassa pohjalla, jos se riittää nyt.
+Jos tarvitset automaattista tuntien laskentaa, useita tiimejä, lomasuunnittelua tai sähköpostilistoja työntekijöille, paperipohja loppuu nopeasti kesken. Silloin kannattaa katsoa [Työvuorolista.fi-palvelua](https://app.tyovuorolista.fi/register) – mutta aloita rauhassa pohjalla, jos se riittää nyt.
 
 ## Näin käytät pohjaa
 
@@ -79,7 +79,7 @@ Tulostus jakaa listan kolmeen viikkoon, jotta se mahtuu luettavasti A4-paperille
 - tarvitset useita tiimejä (keittiö, sali, baari)
 - haluat kirjata toteutuneet tunnit jälkikäteen
 
-Näissä tapauksissa [Työvuorolista.fi](https://app.tyovuorolista.fi/CreateNewAccount) on käytännöllisempi ratkaisu. Palvelu on ilmainen alle neljän työntekijän listoille, ja ensimmäisen listan voi julkaista noin viidessä minuutissa.
+Näissä tapauksissa [Työvuorolista.fi](https://app.tyovuorolista.fi/register) on käytännöllisempi ratkaisu. Palvelu on ilmainen alle neljän työntekijän listoille, ja ensimmäisen listan voi julkaista noin viidessä minuutissa.
 
 ## Muita pohjavaihtoehtoja
 

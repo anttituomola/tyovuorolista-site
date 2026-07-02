@@ -4,6 +4,7 @@ import Footer from '../components/navigation/Footer.astro'
 import GoogleAnalytics from '../components/common/GoogleAnalytics.astro'
 import { getLocaleFromAstro, t } from '../utils/translations'
 import '../styles/tyov-features.css'
+import '../styles/tyov-button.css'
 import '../styles/lang-switcher.css'
 
 const locale = getLocaleFromAstro(Astro)
@@ -125,8 +126,9 @@ const canonicalUrl = customCanonicalUrl || (() => {
     <style is:global>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
     :root {
-        --accent: 124, 58, 237;
-        --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+        --brand-primary: #3267b0;
+        --brand-secondary: #33bde9;
+        --brand-primary-hover: #285a9a;
         --tummanvihrea: #2d3a35;        /* Darker for better contrast */
         --harmaa: #4a5d58;              /* Darker gray for better readability */
         --hiekka: #acad94ff;
@@ -160,6 +162,7 @@ const canonicalUrl = customCanonicalUrl || (() => {
         background-color: #f6f6f6;
         font-size: 16px;
         line-height: 1.6;
+        overflow-x: hidden;
     }
     code {
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
@@ -169,6 +172,8 @@ const canonicalUrl = customCanonicalUrl || (() => {
         margin: 0;
         padding: 0;
         color: var(--harmaa);
+        overflow-x: hidden;
+        max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
         text-wrap: balance;

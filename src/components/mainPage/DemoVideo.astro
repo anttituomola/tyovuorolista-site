@@ -18,7 +18,7 @@ const { locale = 'fi' } = Astro.props
     </div>
     <div class="stepByStep">
         <div class="step">
-            <span class="numberedBox">1</span><Button text={t('demoVideo.step1', locale as 'fi' | 'en' | 'sv')} backgroundColor="var(--hiekka)" href="" />
+            <span class="numberedBox">1</span><Button variant="primary" text={t('demoVideo.step1', locale as 'fi' | 'en' | 'sv')} href="https://app.tyovuorolista.fi/register" />
         </div>
         <div class="step">
             <span class="numberedBox">2</span><span class="stepText">{t('demoVideo.step2', locale as 'fi' | 'en' | 'sv')}</span>
@@ -44,7 +44,7 @@ const { locale = 'fi' } = Astro.props
         line-height: 1.6;
     }
     .videoContainer {
-        margin: var(--space-2xl) 0;
+        margin: var(--space-2xl) auto;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         border-radius: 8px;
         overflow: hidden;

@@ -103,12 +103,19 @@ const questions = faq?.questions || {}
         color: var(--tummanvihrea);
     }
     @media (max-width: 768px) {
+        .wrapper {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
         h2 {
             font-size: var(--text-2xl);
         }
         .faq {
             flex-direction: column;
             gap: var(--space-xl);
+            width: 100%;
+            box-sizing: border-box;
         }
         .subFaq h3 {
             font-size: var(--text-base);

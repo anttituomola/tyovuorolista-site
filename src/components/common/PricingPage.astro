@@ -1,5 +1,5 @@
 ---
-import RegisterButton from './RegisterButton.astro'
+import Button from './Button.astro'
 import { getTranslationObject } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
@@ -73,7 +73,7 @@ const tiers = [
                 </ul>
 
                 <div class="cardAction">
-                    <RegisterButton locale={locale} />
+                    <Button variant="primary" locale={locale} />
                 </div>
             </section>
         ))}

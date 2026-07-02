@@ -10,12 +10,7 @@ const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 's
 <section class="contactCta">
     <h2>{copy?.title}</h2>
     <p>{copy?.description}</p>
-    <Button
-        text={copy?.button}
-        backgroundColor="var(--tummanvihrea)"
-        textColor="white"
-        href={contactPath}
-    />
+    <Button variant="secondary" text={copy?.button} href={contactPath} />
 </section>
 
 <style>

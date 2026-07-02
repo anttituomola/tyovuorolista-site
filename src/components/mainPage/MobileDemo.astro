@@ -27,10 +27,10 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
             <p class="moreInfo">
                 {t('mobileDemo.moreInfo', locale as 'fi' | 'en' | 'sv')}
             </p>
-            <Button 
-                text={t('mobileDemo.readMore', locale as 'fi' | 'en' | 'sv')} 
-                backgroundColor="var(--hiekka)" 
-                href="/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla" 
+            <Button
+                variant="secondary"
+                text={t('mobileDemo.readMore', locale as 'fi' | 'en' | 'sv')}
+                href="/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla"
             />
         </div>
         <div class="videoSection">
@@ -132,6 +132,7 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
         .videoSection {
             width: 100%;
             max-width: 320px;
+            margin-inline: auto;
         }
         h2 {
             font-size: var(--text-2xl);
@@ -146,6 +147,15 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
     }
     
     @media (max-width: 768px) {
+        .content {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .textSection {
+            width: 100%;
+        }
+
         .features {
             gap: var(--space-sm);
         }

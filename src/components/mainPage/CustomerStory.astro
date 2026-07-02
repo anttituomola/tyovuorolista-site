@@ -177,6 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         width: 100%;
         margin: 0 auto;
         max-width: 1200px;
+        overflow-x: clip;
     }
     
     .scroll-button {
@@ -214,22 +215,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     .scroll-left {
-        left: -60px;
+        left: 0.5rem;
     }
     
     .scroll-right {
-        right: -60px;
+        right: 0.5rem;
     }
     
     .testimonials-scroll {
         display: flex;
         gap: var(--space-xl);
         overflow-x: auto;
+        overscroll-behavior-x: contain;
         scroll-snap-type: x mandatory;
         padding: var(--space-base) 0 var(--space-2xl) 0;
         scrollbar-width: thin;
         scrollbar-color: var(--hiekka) transparent;
         margin: 0 var(--space-base);
+        max-width: 100%;
     }
     
     .testimonials-scroll::-webkit-scrollbar {
@@ -372,14 +375,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .scroll-button {
             width: 40px;
             height: 40px;
-        }
-        
-        .scroll-left {
-            left: -50px;
-        }
-        
-        .scroll-right {
-            right: -50px;
         }
         
         .testimonials-scroll {

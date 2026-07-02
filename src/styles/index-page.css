@@ -9,6 +9,8 @@
   margin: 0;
   padding: 0;
   background: transparent;
+  overflow-x: clip;
+  min-width: 0;
 }
 
 .index-page > * {
@@ -24,13 +26,19 @@
 .index-page > *:nth-child(even)::before {
   content: '';
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   background: var(--section-alt-bg);
   z-index: -1;
+}
+
+@media (min-width: 1201px) {
+  .index-page > *:nth-child(even)::before {
+    left: calc(50% - 50vw);
+    right: calc(50% - 50vw);
+  }
 }
 
 /* Hero: a bit less top padding, extra air above the next band */
@@ -43,9 +51,9 @@
 .index-page > .tyov-features {
   width: 100%;
   max-width: 100%;
+  margin-inline: auto;
+  padding-inline: 0;
   background: transparent;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .index-page > .tyov-features .tyov-features__header {
@@ -75,13 +83,26 @@ main.index-page + .footer {
   margin-top: 0;
 }
 
+.index-page > .wrapper {
+  align-items: stretch;
+  margin-top: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .index-page > * {
-    padding: var(--space-3xl) var(--space-sm);
+    padding: var(--space-3xl) var(--space-lg);
   }
 
   .index-page > .hero {
     padding-top: var(--space-2xl);
     padding-bottom: var(--space-3xl);
+  }
+
+  .index-page > .contact-form {
+    padding: var(--space-3xl) var(--space-lg) var(--space-2xl);
   }
 }

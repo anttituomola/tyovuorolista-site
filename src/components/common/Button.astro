@@ -1,38 +1,50 @@
 ---
-const { text, backgroundColor, href, textColor, target } = Astro.props
+import { t } from '../../utils/translations'
+
+const REGISTER_URL = 'https://app.tyovuorolista.fi/register'
+
+const {
+	text,
+	backgroundColor,
+	href,
+	textColor,
+	target,
+	variant = 'custom',
+	locale
+} = Astro.props
+
+const isPrimary = variant === 'primary'
+const isSecondary = variant === 'secondary'
+
+const linkHref =
+	href ?? (isPrimary ? REGISTER_URL : undefined)
+
+const displayText =
+	text ??
+	(isPrimary && locale
+		? t('nav.register', locale as 'fi' | 'en' | 'sv')
+		: 'Paina tästä!')
+
+const opensAppRegister =
+	typeof linkHref === 'string' && linkHref.includes('/register')
+
+const linkTarget = target ?? (opensAppRegister ? '_blank' : '_self')
 ---
 
-<a href={href} target={target || '_self'}>
-    <div class="button">
-        <span>{text || 'Paina tästä!'}</span>
-    </div>
+<a
+	href={linkHref}
+	target={linkTarget}
+	class:list={[
+		'tyov-btn',
+		isPrimary && 'tyov-btn--primary',
+		isSecondary && 'tyov-btn--secondary',
+		!isPrimary && !isSecondary && 'tyov-btn--custom'
+	]}
+	style={
+		!isPrimary && !isSecondary
+			? `--btn-bg: ${backgroundColor || 'transparent'}; --btn-text: ${textColor || '#2d3a35'};`
+			: undefined
+	}
+>
+	{displayText}
 </a>
-
-<style define:vars={{ backgroundColor, textColor }}>
-    .button {
-        display: inline-block;
-        border: 1px solid var(--ruskeaharmaa);
-        background-color: var(--backgroundColor);
-        border-radius: 4px;
-        padding: 1rem;
-        transition: var(--hiekka) 0.3s ease;
-        min-width: 100px;
-        text-align: center;
-    }
-    .button:hover {
-        border-color: var(--harmaa);
-        filter: brightness(1.1);
-        cursor: pointer;
-    }
-    .button:active {
-        transform: scale(0.98);
-    }
-    span {
-        color: var(--textColor, #333);
-        font-size: 1.2em;
-    }
-    a {
-        text-decoration: none;
-    }
-</style>
-

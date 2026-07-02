@@ -1,0 +1,65 @@
+/* Shared marketing site buttons — used by Button.astro */
+
+.tyov-btn {
+	display: inline-block;
+	border-radius: 4px;
+	padding: 1rem 1.25rem;
+	min-width: 100px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 1.2;
+	box-sizing: border-box;
+	transition:
+		filter 0.2s ease,
+		transform 0.15s ease,
+		border-color 0.2s ease;
+}
+
+.tyov-btn--primary,
+.tyov-btn--primary:link,
+.tyov-btn--primary:visited {
+	border: 1px solid var(--brand-primary);
+	background-color: var(--brand-primary);
+	color: #ffffff;
+}
+
+.tyov-btn--primary:hover {
+	filter: brightness(1.08);
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.tyov-btn--secondary,
+.tyov-btn--secondary:link,
+.tyov-btn--secondary:visited {
+	border: 1px solid var(--ruskeaharmaa);
+	background-color: var(--hiekka);
+	color: var(--tummanvihrea);
+}
+
+.tyov-btn--secondary:hover {
+	border-color: var(--harmaa);
+	cursor: pointer;
+	color: var(--tummanvihrea);
+}
+
+.tyov-btn--custom,
+.tyov-btn--custom:link,
+.tyov-btn--custom:visited {
+	border: 1px solid var(--ruskeaharmaa);
+	background-color: var(--btn-bg, transparent);
+	color: var(--btn-text, #2d3a35);
+}
+
+.tyov-btn--custom:hover {
+	border-color: var(--harmaa);
+	filter: brightness(1.05);
+	cursor: pointer;
+}
+
+.tyov-btn:active {
+	transform: scale(0.98);
+}
