@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Oma-portaali: työntekijän oma näkymä vuoroihin (beta)'
 pubDate: 2026-07-01
-description: 'Lyhyt ohje Oma-portaalin käyttöönottoon: miten esimies kutsuu työntekijän ja miten työntekijä näkee omat julkaistut vuoronsa.'
+description: 'Lyhyt ohje Oma-portaalin käyttöönottoon: miten esimies kutsuu työntekijän, miten työntekijä näkee omat julkaistut vuoronsa ja ilmoittaa vapaatoiveen.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
@@ -14,7 +14,12 @@ tags: ["päivitykset", "beta", "työntekijät", "julkaisu"]
 
 > **Beta-vaihe:** Oma-portaali on vielä kokeilussa. Se pitää **aktivoida erikseen** – ota yhteyttä minuun (Antti, info@tyovuorolista.fi), niin laitan sen päälle työpaikallesi. Ilman aktivointia kutsu- ja kirjautumistoiminnot eivät ole käytössä.
 
-Tässä vaiheessa portaali on tarkoituksella hyvin yksinkertainen: **ainoa ominaisuus on omien vuorojen katselu**. Haluan ensin varmistaa, että data kulkee oikein – eli jokainen näkee juuri omat vuoronsa, eikä mitään vähempää tai enempää. Lisää toimintoja tulee seuraavaan versioon.
+Beta-vaiheessa portaali tarjoaa kaksi toimintoa:
+
+- **Omien vuorojen katselu** julkaistuilta listoilta
+- **Vapaatoiveen ilmoittaminen** – toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
+
+Haluan ensin varmistaa, että perusdata kulkee oikein – eli jokainen näkee juuri omat vuoronsa, eikä mitään vähempää tai enempää. Lisää toimintoja tulee seuraavaan versioon.
 
 ## Esimiehelle: näin otat Oma-portaalin käyttöön
 
@@ -42,6 +47,12 @@ Työntekijä saa sähköpostiin henkilökohtaisen linkin, jolla hän kirjautuu e
 
 Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaessa lähettää linkin uudelleen (**Lähetä linkki uudelleen**).
 
+### 4. Vapaatoiveet kalenterissa
+
+Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin – se on vain suunnitteluvihje.
+
+Voit silti merkitä työntekijälle vuoron vapaatoivepäivälle; järjestelmä varoittaa päällekkäisyydestä, mutta tallennus on mahdollinen.
+
 ## Työntekijälle: näin käytät Oma-portaalia
 
 ### Ensimmäinen kirjautuminen
@@ -65,23 +76,35 @@ Näkyvissä ovat kaikki vuorot **julkaistuilta** listoilta – myös menneet. Jo
 
 Portaali on suunniteltu erityisesti mobiilikäyttöön, joten se toimii hyvin puhelimella.
 
+### Ilmoita vapaatoive
+
+Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) voit ilmoittaa **vapaatoiveen** – toiveen vapaasta ajasta **ilman palkkaa**.
+
+- Voit valita yhden päivän tai päivävälin (alku- ja loppupäivä).
+- Voit lisätä valinnaisen lyhyen muistiinpanon (esim. *"Häät viikonloppuna"*).
+- Vapaatoive **ei korvaa** lomaa eikä lomatoivetta, eikä se poista julkaistuja vuoroja.
+- Vapaatoive **ei näy** omien vuorojen aikajanalla – se on erillisellä sivulla.
+- Et voi ilmoittaa vapaatoivetta päivälle, jolla sinulla on jo **julkaistu työvuoro**.
+
+Esimies näkee vapaatoiveesi kalenterissa suunnittelua varten. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin.
+
 ### Myöhemmät kirjautumiset
 
-Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu) – syötä sama sähköpostiosoite, joka on tallennettu työntekijätietoihisi.
+Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu) – syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi.
 
 <img src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
 ## Mitä portaali ei vielä tee
 
-Beta-vaiheessa Oma-portaali **ei korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa muita toimintoja:
+Beta-vaiheessa Oma-portaali **ei korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
 
-- et voi pyytää lomaa tai ilmoittaa sairaudesta portaalista
+- et voi ilmoittaa **lomatoivetta** tai sairauspoissaoloa portaalista (vapaatoive on eri asia)
 - et voi hyväksyä tai hylätä vuoromuutoksia
 - et näe muiden työntekijöiden vuoroja
 - et näe luonnoslistojen vuoroja
 
-Näitä ja muita työntekijän toimintoja suunnitellaan seuraavaan versioon. Nyt tavoitteena on varmistaa, että perusdata – omat vuorot julkaistuilta listoilta – toimii luotettavasti.
+Näitä ja muita työntekijän toimintoja suunnitellaan seuraavaan versioon.
 
 ## Palautetta beta-testauksesta?
 
-Jos testaat Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, puuttuvatko vuoroja tai näkyykö jotain ylimääräistä? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
+Jos testaat Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, toimiiko vapaatoiveen ilmoittaminen, näkyykö se esimiehen kalenterissa? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
