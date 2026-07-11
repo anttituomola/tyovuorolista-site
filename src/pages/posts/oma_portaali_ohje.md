@@ -7,7 +7,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
     alt: 'Oma-portaalin näkymä, jossa työntekijä näkee omat vuoronsa kalenterissa.'
-tags: ["päivitykset", "beta", "työntekijät", "julkaisu"]
+tags: ["päivitykset", "beta", "työntekijät", "julkaisu", "tuntien kirjaus"]
 ---
 
 *Päivitetty 11.7.2026: lisätty tuntien ilmoittaminen (tunti-ilmoitus) ja avoimet vuorot.*
