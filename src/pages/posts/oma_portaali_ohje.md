@@ -69,7 +69,9 @@ Tunti-ilmoitus on oletuksena päällä, kun Oma-portaali on aktivoitu. Jos et ha
 
 ### 6. Avoimet vuorot: suunnittele vuoro ilman tekijää *(uusin)*
 
-**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Suunnittelet sen kalenteriin kuten minkä tahansa vuoron – valitse vain työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
+**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Tällä hetkellä avoimen vuoron voi luoda vain **klikkaamalla kalenterin aikaa** – avautuvassa vuoromodaalissa valitse työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
+
+> Tavalliset vuorot luodaan usein raahaamalla työntekijän nimi kalenteriin. Avoimelle vuorolle ei ole vielä vastaavaa raahattavaa elementtiä, joten käytä kalenterin klikkausta.
 
 <img src="/blogPostImages/oma-portaali/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa, työntekijävalikosta valittu Avoin vuoro" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
