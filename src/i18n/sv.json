@@ -10,6 +10,12 @@
     "openMenu": "Öppna menyn",
     "logoSubtitle": "Arbetsscheman för småföretag snabbt och enkelt"
   },
+  "cookieConsent": {
+    "message": "Vi använder cookies för besöksstatistik och marknadsföring.",
+    "learnMore": "Läs mer",
+    "accept": "Acceptera",
+    "decline": "Endast nödvändiga"
+  },
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {

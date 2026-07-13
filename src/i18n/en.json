@@ -10,6 +10,12 @@
     "openMenu": "Open menu",
     "logoSubtitle": "Shift schedule for small businesses quickly and easily"
   },
+  "cookieConsent": {
+    "message": "We use cookies to measure traffic and for marketing.",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Essential only"
+  },
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {

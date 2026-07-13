@@ -10,6 +10,12 @@
     "openMenu": "Avaa valikko",
     "logoSubtitle": "PK-yrityksen työvuorolista nopeasti ja helposti"
   },
+  "cookieConsent": {
+    "message": "Käytämme evästeitä kävijämäärien mittaamiseen ja markkinointiin.",
+    "learnMore": "Lisätietoja",
+    "accept": "Hyväksy",
+    "decline": "Vain välttämättömät"
+  },
   "footer": {
     "copyright": "Työvuorolista | tyovuorolista.fi",
     "links": {

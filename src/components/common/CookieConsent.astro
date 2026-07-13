@@ -1,0 +1,153 @@
+---
+// CookieConsent.astro - minimal cookie consent banner (Consent Mode v2)
+// Binary choice, no category modal. Choice persists in localStorage.
+// On accept: grants Google consent signals and loads the Meta Pixel.
+// On decline: nothing loads beyond GA's cookieless pings; banner never returns.
+import { t, getLocalizedPath } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
+---
+
+<div class="cookie-consent" id="cookie-consent" hidden>
+  <p class="cookie-consent__text">
+    {t('cookieConsent.message', locale as 'fi' | 'en' | 'sv')}
+    <a href={termsPath}>{t('cookieConsent.learnMore', locale as 'fi' | 'en' | 'sv')}</a>
+  </p>
+  <div class="cookie-consent__actions">
+    <button class="cookie-consent__accept" id="cookie-consent-accept" type="button">
+      {t('cookieConsent.accept', locale as 'fi' | 'en' | 'sv')}
+    </button>
+    <button class="cookie-consent__decline" id="cookie-consent-decline" type="button">
+      {t('cookieConsent.decline', locale as 'fi' | 'en' | 'sv')}
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var STORAGE_KEY = 'tyov-consent';
+    var banner = document.getElementById('cookie-consent');
+
+    function grantGoogleConsent() {
+      if (typeof window.gtag === 'function') {
+        window.gtag('consent', 'update', {
+          analytics_storage: 'granted',
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted'
+        });
+      }
+    }
+
+    function loadMetaPixel() {
+      if (window.fbq) return;
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      window.fbq('init', '1668525553845300');
+      window.fbq('track', 'PageView');
+    }
+
+    function applyGranted() {
+      grantGoogleConsent();
+      loadMetaPixel();
+    }
+
+    var stored = null;
+    try { stored = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+
+    if (stored === 'granted') {
+      applyGranted();
+      return;
+    }
+    if (stored === 'denied') {
+      return;
+    }
+
+    if (!banner) return;
+    banner.hidden = false;
+
+    function choose(value) {
+      try { localStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+      banner.hidden = true;
+      if (value === 'granted') applyGranted();
+    }
+
+    document.getElementById('cookie-consent-accept')
+      .addEventListener('click', function () { choose('granted'); });
+    document.getElementById('cookie-consent-decline')
+      .addEventListener('click', function () { choose('denied'); });
+  })();
+</script>
+
+<style>
+  .cookie-consent {
+    position: fixed;
+    bottom: var(--space-base);
+    left: var(--space-base);
+    z-index: 1000;
+    max-width: 22rem;
+    background: #ffffff;
+    border: 1px solid var(--vaaleanharmaa);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(45, 58, 53, 0.15);
+    padding: var(--space-base);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .cookie-consent[hidden] {
+    display: none;
+  }
+  .cookie-consent__text {
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    margin: 0;
+  }
+  .cookie-consent__text a {
+    color: var(--brand-primary);
+  }
+  .cookie-consent__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+  .cookie-consent__accept {
+    font-family: inherit;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: #ffffff;
+    background: var(--brand-primary);
+    border: none;
+    border-radius: 6px;
+    padding: var(--space-xs) var(--space-base);
+    cursor: pointer;
+  }
+  .cookie-consent__accept:hover {
+    background: var(--brand-primary-hover);
+  }
+  .cookie-consent__decline {
+    font-family: inherit;
+    font-size: var(--text-sm);
+    color: var(--harmaa);
+    background: none;
+    border: none;
+    padding: var(--space-xs);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    .cookie-consent {
+      left: var(--space-xs);
+      right: var(--space-xs);
+      bottom: var(--space-xs);
+      max-width: none;
+    }
+  }
+</style>
