@@ -1,6 +1,7 @@
 ---
 // CookieConsent.astro - minimal cookie consent banner (Consent Mode v2)
-// Binary choice, no category modal. Choice persists in localStorage.
+// Binary choice, no category modal. Choice persists in a cookie on
+// .tyovuorolista.fi so app.tyovuorolista.fi inherits it without its own banner.
 // On accept: grants Google consent signals and loads the Meta Pixel.
 // On decline: nothing loads beyond GA's cookieless pings; banner never returns.
 import { t, getLocalizedPath } from '../../utils/translations'
@@ -28,6 +29,20 @@ const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
   (function () {
     var STORAGE_KEY = 'tyov-consent';
     var banner = document.getElementById('cookie-consent');
+
+    function readConsentCookie() {
+      var match = document.cookie.match(/(?:^|; )tyov-consent=(granted|denied)/);
+      return match ? match[1] : null;
+    }
+
+    function writeConsentCookie(value) {
+      var domain = location.hostname.indexOf('tyovuorolista.fi') !== -1
+        ? '; domain=.tyovuorolista.fi'
+        : '';
+      var secure = location.protocol === 'https:' ? '; Secure' : '';
+      document.cookie = STORAGE_KEY + '=' + value +
+        '; max-age=31536000; path=/' + domain + '; SameSite=Lax' + secure;
+    }
 
     function grantGoogleConsent() {
       if (typeof window.gtag === 'function') {
@@ -59,8 +74,17 @@ const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
       loadMetaPixel();
     }
 
-    var stored = null;
-    try { stored = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    var stored = readConsentCookie();
+    if (!stored) {
+      // migrate a choice made when this banner stored consent in localStorage
+      try {
+        var legacy = localStorage.getItem(STORAGE_KEY);
+        if (legacy === 'granted' || legacy === 'denied') {
+          writeConsentCookie(legacy);
+          stored = legacy;
+        }
+      } catch (e) {}
+    }
 
     if (stored === 'granted') {
       applyGranted();
@@ -74,7 +98,7 @@ const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
     banner.hidden = false;
 
     function choose(value) {
-      try { localStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+      writeConsentCookie(value);
       banner.hidden = true;
       if (value === 'granted') applyGranted();
     }

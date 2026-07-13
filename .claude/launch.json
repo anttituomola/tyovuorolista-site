@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "C:\\Users\\AnttiTuomola\\Desktop\\dev\\tyovuorolista-site",
+      "port": 4321
+    }
+  ]
+}
