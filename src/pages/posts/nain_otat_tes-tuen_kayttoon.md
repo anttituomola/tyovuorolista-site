@@ -28,7 +28,9 @@ aktivointi on riskitön.
 
 ## Vaihe 2: Valitse TES ja jaksorytmi
 
-Kun ominaisuus on päällä, avaa **Hallinta → Työehtosopimus**. Valitse
+Kun ominaisuus on päällä, avaa **Hallinta →**
+<a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>.
+Valitse
 sopimuksesi (MaRa on pilotissa pisimmällä) ja aseta
 [kolmiviikkoisjakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
 alkumaanantai:
