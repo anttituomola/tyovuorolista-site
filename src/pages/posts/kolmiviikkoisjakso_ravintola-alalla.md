@@ -37,7 +37,8 @@ täyttyvät.
 - Jaksossa saa olla **enintään 15 työpäivää**
 - Jokaista viittä työpäivää kohti ansaitaan kaksi vapaapäivää:
   [V-päivä](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa) (vähintään
-  30 h) ja X-päivä (vähintään 24 h)
+  30 h) ja [X-päivä](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)
+  (vähintään 24 h)
 - Työvuorolista julkaistaan
   [viimeistään viikkoa ennen jakson alkua](/posts/koska_tyovuorolista_pitaa_julkaista)
 - Jos jakson tunnit ylittyvät, kyse on

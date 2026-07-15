@@ -48,7 +48,8 @@ Tyovuorolista.fi seuraa jokaisen työntekijän saldoa automaattisesti:
 
 Saldo näkyy työnantajalle Tuntien kirjaus -sivulla ja työntekijälle
 itselleen [Oma-portaalissa](/posts/oma_portaali_ohje). Jos vapaita on
-kertynyt jo ennen sovelluksen käyttöönottoa, alkusaldon voi syöttää
+kertynyt jo ennen sovelluksen käyttöönottoa,
+[alkusaldon voi syöttää](/posts/vuosivapaan_alkusaldon_laskeminen)
 työntekijän tietoihin — kertymä jatkuu siitä mihin se jäi.
 
 ## TES-apuri pitää saldon ajan tasalla

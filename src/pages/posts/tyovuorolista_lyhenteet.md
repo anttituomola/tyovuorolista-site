@@ -27,6 +27,9 @@ ja sunnuntai on merkitty V-päiväksi, ei maanantain työvuoro saa alkaa ennen a
 Jokaisella täydellä työviikolla on oltava V-päivä, eikä niitä voi esimerkiksi siirtää seuraavalle viikolle.
 
 ## X eli lisävapaapäivä
+
+Lue tarkemmin: [mitä X-päivä tarkoittaa työvuorolistassa?](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)
+
 Lisävapaapäivä eli X-päivä on vähintään 24 tunnin mittainen tauko työstä. Toisin kuin V-päiviä, X-päiviä voidaan myös siirtää saman kolmiviikkoisjakson aikana muille viikoille: jos työntekijä tekee kolme täyttä työviikkoa, voidaan niistä tienatut 3 X-päivää sijoittaa kukin omalle viikolleen, tai vaikkapa yhdelle viikolle tarjoamaan työntekijälle pidempi vapaa.
 
 Mikäli käytössä on tasoittusmisjärjestelmä (katso TS eli tasoitusvapaa), voidaan X-päiviä siirtää maksimissaan kaksi per kolmiviikkoinen jakso tasoittumisjakson sisällä.
@@ -34,6 +37,9 @@ Mikäli käytössä on tasoittusmisjärjestelmä (katso TS eli tasoitusvapaa), v
 Jos X-päivä annetaan samalla viikolla kun se "tienataan", kannattaa  se tietysti laittaa peräjälkeen V-päivän kanssa - kaikki muu olisi keskisormen näyttämistä työntekijälle. Jos X-pävä siirretään jollekin toiselle viikolle, se on pakko sijoittaa peräjälkeen jonkin muun vapaan kanssa.
 
 ## TS eli tasoitusvapaa
+
+Lue tarkemmin: [mitä TS-päivä tarkoittaa työvuorolistassa?](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa) ja [syväluotaava opas tasoittumisjärjestelmästä](/posts/tasoittumisjarjestelma_ravintola-alalla)
+
 Nämä koskevat vain kokoaikaisia työntekijöitä. Kuukausipalkkaisen, kokoaikaisen työntekijän tuntimääriä per työvuorolista (3 viikkoa) voidaan tasata siten, että yhden työvuorolistan keskimääräinen työaika on 112,5 tuntia (eli 5 päivää viikossa, 7.5 tuntia päivässä). Tasoitusjakso voi olla pisimillään 6 työvuorolistan, eli 18 viikon mittainen.
 
 Yksi työvuorolista voi olla pisimillään 130 tuntia.
@@ -41,6 +47,9 @@ Yksi työvuorolista voi olla pisimillään 130 tuntia.
 Tasoitusvapaatarve syntyy siis siitä, että työvuorolista sisältää enemmän kuin 112,5 tuntia. Tasoitusvapaata voidaan antaa joko lyhentämällä työvuoroja toisessa listassa tai antamalla tasoitusvapaapäiviä.
 
 ## VV eli vuosivapaapäivä
+
+Lue tarkemmin: [vuosivapaa ravintola-alalla](/posts/vuosivapaa_ravintola-alalla) ja [vuosivapaan alkusaldon laskeminen käyttöönotossa](/posts/vuosivapaan_alkusaldon_laskeminen)
+
 Vuosivapaita kertyy sekä täysaikaisille että osa-aikaisille työntekijöille. Ne alkavat kertyä kaksi kuukautta työsuhteen alun jälkeen.
 
 Vuosivapaa on siis yksi vapaa päivä, joita kertyy tehdyistä työtunneista. Niitä voi ansaita kalenterivuodessa enintään yhdeksän päivää seuraavan taulukon mukaisesti:
@@ -65,5 +74,8 @@ Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus 
 
 - [Miten X- ja V-päivät merkitään Työvuorolistaan?](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan)
 - [Mitä tarkoittaa V-päivä työvuorolistassa?](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa)
+- [Mitä tarkoittaa X-päivä työvuorolistassa?](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)
+- [Mitä tarkoittaa TS-päivä (tasoitusvapaa) työvuorolistassa?](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa)
+- [Tasoittumisjärjestelmä ravintola-alalla: syväluotaava opas](/posts/tasoittumisjarjestelma_ravintola-alalla)
 - [Vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan)
 - [Kuinka pitkä tauko työvuorojen välillä pitäisi olla?](/posts/kuinka_pitka_tauko_tyovuorojen_valilla)

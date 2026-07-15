@@ -61,7 +61,9 @@ Kaksi asiaa kannattaa täydentää samalla:
   [vuosivapaita](/posts/vuosivapaa_ravintola-alalla) jo ennen tätä,
   syötä kertyneet, vielä antamatta olevat päivät työntekijän
   Työsuhde-osioon (Vuosivapaan alkusaldo + saldon päivämäärä) —
-  kertymä jatkuu siitä mihin se jäi
+  kertymä jatkuu siitä mihin se jäi. [Näin lasket alkusaldon
+  oikein](/posts/vuosivapaan_alkusaldon_laskeminen), jos työntekijöillä on
+  jo pitkä työhistoria takana
 - **Palkkalajikoodit**: jos viet raportit palkanlaskentaan, lisää
   uusille riveille palkkalajikoodit samalta sivulta. Ilman koodia rivi
   jätetään Procountor-viennistä pois, joten puuttuvat koodit näkyvät

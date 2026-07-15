@@ -15,14 +15,14 @@ V-päivä on viikkolepopäivä eli vapaapäivä. Yksi V-päivä tienataan aina v
 ## Koska V-päivä tulee olla?
 Jokaisen työssäoloviikon tulee sisältää V-päivä, eli käytännössä näitä ei voi siirrellä: V-päivä annetaan sille viikolle jolla se on tienattu. Työvuorolistan teko kannattaakin aloittaa siten, että läimii ensin paikoilleen kaikkien työntekijöiden pakolliset vapaat, eli V-päivät ja mahdolliset lomat, ja lähtee rakentamaan tetristä siitä. Näistä ei voi kuitenkaan joustaa.
 
-V-päivä voi olla mikä tahansa viikon päivä, joskaan vapaapäivien välissä ei voi olla yli seitsemää työpäivää (vapaapäivän voi toki muodostaa myös X, TS, tai mikä tahansa muu ei-työpäivä).
+V-päivä voi olla mikä tahansa viikon päivä, joskaan vapaapäivien välissä ei voi olla yli seitsemää työpäivää (vapaapäivän voi toki muodostaa myös [X](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa), [TS](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa), tai mikä tahansa muu ei-työpäivä).
 
 ## Muita viikkolepopäivän eli V-päivän määräyksiä
 V-päivä kestää 30 tuntia, eli sitä edeltävän työvuoron lopun ja sitä seuraavan työvuoron alun väliin tulee jäädä vähintään 30 tuntia. Lue lisää [työvuorojen välisistä tauoista](/posts/kuinka_pitka_tauko_tyovuorojen_valilla).
 
 Koska V-päiviä ei voi siirtää muille viikoille, voi kullakin viikolla olla enintään ja vähintään 1 V-päivä.
 
-Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä, ja [miten X- ja V-päivät merkitään kalenterissa](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan).
+Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet) -teksti, jossa kerrotaan tarkemmin kaikista vapaapäivätyypeistä, [mitä X-päivä tarkoittaa](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa), ja [miten X- ja V-päivät merkitään kalenterissa](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan).
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/v-vuoro-eli-viikkovapaapaiva-tyovuorolistassa.webm" type="video/webm">
