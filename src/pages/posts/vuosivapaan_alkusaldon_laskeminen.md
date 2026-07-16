@@ -1,133 +1,156 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Vuosivapaan alkusaldo: näin lasket sen oikein käyttöönotossa'
+title: 'Vuosivapaan alkusaldo: näin asetat sen käyttöönotossa'
 pubDate: 2026-07-23
-description: 'Kun otat TES-tuen käyttöön toimipaikassa, jossa työntekijöillä on jo työhistoriaa, vuosivapaan alkusaldo pitää laskea käsin kertaalleen. Vaihe vaiheelta -laskuesimerkki ja asiat, jotka kannattaa muistaa seuraavana vuonna.'
+description: 'Kun otat TES-tuen käyttöön toimipaikassa, jossa työntekijöillä on jo työhistoriaa, vuosivapaa-saldot asetetaan ohjatulla syötöllä: aloita nollasta, anna arvio päivissä tai syötä tarkat tunnit. Näin teet sen oikein.'
 author: 'Antti Tuomola'
 image:
-    url: '/blogPostImages/tyotunnit-tyosopimuksessa/tyosuhde-tyotunnit.png'
-    alt: 'Työntekijämodaalin Työsuhde-osio, jossa työtunnit työsopimuksessa ja TES-kentät.'
+    url: '/blogPostImages/tes-tuki/vuosivapaa-ohjattu-syotto.png'
+    alt: 'Ohjattu vuosivapaan alkusaldon syöttö: arvio päivissä kuluvalle vuodelle.'
 tags: ['TES', 'vuosivapaa', 'käyttöönotto', 'opas', 'ravintola-ala']
 ---
 
 **Lyhyesti:** [Vuosivapaa](/posts/vuosivapaa_ravintola-alalla) kertyy
 kalenterivuosittain toteutuneista työtunneista. Kun otat TES-tuen käyttöön
 toimipaikassa, jossa työntekijät ovat tehneet töitä jo pitkään, sovellus ei
-tiedä tätä vuotta edeltäviä eikä alkuvuoden tunteja — ne pitää tuoda mukaan
-kertaalleen **Vuosivapaan alkusaldo (pv)** -kenttään, jotta kertymä jatkuu
-oikeasta kohdasta sen sijaan, että se alkaisi virheellisesti nollasta.
+tiedä aiempia tunteja. Ne tuodaan mukaan kertaalleen, jotta kertymä jatkuu
+oikeasta kohdasta eikä ala virheellisesti nollasta. Homma hoituu **ohjatulla
+syötöllä**, jossa voit joko aloittaa nollasta, antaa karkean arvion päivissä
+tai — jos data löytyy — syöttää tarkat tunnit.
 
-## Mistä kentät löytyvät
+## Mistä saldot asetetaan
 
-Alkusaldo syötetään työntekijäkohtaisesti: **Hallinta → Työntekijät →
-valitse työntekijä → Muokkaa → Työsuhde**-osio. Kun toimipaikan TES käyttää
-vuosivapaajärjestelmää (MaRa, Kaupan ala), osiosta löytyy
-työtuntikentän alta kaksi lisäkenttää:
+Saldot löytyvät kahdesta paikasta, ja molemmat avaavat saman ohjatun näkymän:
 
-- **Vuosivapaan alkusaldo (pv)** — kertynyt, vielä antamatta oleva
-  vuosivapaapäivien määrä
-- **Saldo laskettu** — päivämäärä, jolle alkusaldo pätee
+- **Hallinta →**
+  <a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>
+  **→ Vuosivapaasaldot.** Tämä on suositeltu paikka käyttöönotossa: näet
+  koko henkilöstön listana ja jokaisen työntekijän tilan yhdellä silmäyksellä
+  (*Tarkistamatta* tai *OK*).
+- **Hallinta → Työntekijät → valitse työntekijä → Muokkaa → Työsuhde →
+  Muokkaa vuosivapaasaldoa.** Kätevä, kun korjaat yhtä työntekijää.
 
-<img src="/blogPostImages/tyotunnit-tyosopimuksessa/tyosuhde-tyotunnit.png" alt="Työsuhde-osio työntekijämodaalissa: työtunnit työsopimuksessa -kenttä, jonka alle vuosivapaan alkusaldo ja saldon päivämäärä sijoittuvat" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+Kun avaat Vuosivapaasaldot ensimmäistä kertaa, sovellus kysyy vain yhden
+kysymyksen: **onko työntekijöillä kertyneitä vuosivapaita jo ennestään?**
+Jos ei ole (tai et ole varma), yksi klikkaus — *Ei, aloita kaikki
+nollasta* — ja käyttöönotto on valmis: kertymä lähtee käyntiin tästä
+päivästä eteenpäin. Saldoja voi aina täydentää myöhemmin työntekijän
+tiedoista.
 
-Kentät ovat henkilökohtaisia — jokaiselle työntekijälle lasketaan oma
-alkusaldonsa erikseen, koska työhistoria ja jo annetut vapaat vaihtelevat
-työntekijästä toiseen.
+<img src="/blogPostImages/tes-tuki/vuosivapaasaldot-roster.png" alt="Vuosivapaasaldot-lista Työehtosopimus-sivulla: jokaisella työntekijällä tila ja saldo, ylhäällä Aloita loput nollasta -painike" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-## Vaihe vaiheelta: näin lasket alkusaldon
+Jos osalla työntekijöistä on kertymää ja osalla ei, syötä saldot niille
+joilla on, ja paina lopuksi **Aloita loput nollasta** — se vahvistaa
+nollasaldon kerralla kaikille vielä tarkistamattomille.
 
-1. **Valitse saldopäivä.** Käytännöllisin valinta on päivä, jolta
-   viimeisin oma tuntitietosi on luotettava — usein tämä on "tänään", eli
-   päivä jolloin otat TES-tuen käyttöön, tai viimeisimmän päättyneen
-   palkkajakson loppupäivä.
-2. **Hae toteutuneet työtunnit tältä kalenterivuodelta saldopäivään asti.**
-   Vuosivapaa kertyy **toteutuneista**, ei suunnitelluista tunneista, ja
-   aina 1.1. alkaen — hae luku omasta palkanlaskennastasi tai muusta
-   seurannastasi.
-3. **Muunna tunnit ansaituiksi päiviksi kertymäportaikolla.** Käytä sitä
-   porrasta, joka on juuri **saavutettu** — älä pyöristä ylöspäin
-   seuraavaan:
+## Ohjattu syöttö: kolme tapaa
 
-   | Toteutuneet työtunnit | Vuosivapaiden lukumäärä |
-   | --- | --- |
-   | 200 | 1 |
-   | 400 | 2 |
-   | 600 | 3 |
-   | 800 | 4 |
-   | 1000 | 5 |
-   | 1200 | 6 |
-   | 1400 | 7 |
-   | 1540 | 8 |
-   | 1640 | 9 |
+Kun avaat työntekijän saldon, valitset kuluvalle vuodelle yhden kolmesta
+tavasta. Oletuksena näytetään vain **kuluva vuosi** — aiemmat vuodet saat
+esiin *Lisää aiempi vuosi* -painikkeella, jos siirtymää on.
 
-   (MaRa-TES:n portaikko — muilla vuosivapaajärjestelmää käyttävillä
-   TES:eillä kannattaa tarkistaa oma porrastus.)
-4. **Vähennä tänä vuonna jo annetut vuosivapaat.** Katso vanhoista
-   työvuorolistoistasi tai palkanlaskennastasi, montako vuosivapaapäivää
-   työntekijä on **saanut pidettäväkseen** tämän kalenterivuoden aikana
-   ennen saldopäivää, ja vähennä se edellisen kohdan tuloksesta.
-5. **Syötä tulos alkusaldoksi.** Vaiheen 3 tulos miinus vaiheen 4 tulos on
-   se, mitä kirjaat kenttään **Vuosivapaan alkusaldo (pv)** — ja vaiheen 1
-   päivämäärä kenttään **Saldo laskettu**.
+<img src="/blogPostImages/tes-tuki/vuosivapaa-ohjattu-syotto.png" alt="Ohjattu vuosivapaan syöttö: valittuna Arvio päivissä, kentät Kertynyt vuosivapaa ja Vielä antamatta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-## Laskuesimerkki
+### 1. Ei tietoa / aloitetaan nollasta
+
+Valitse tämä, jos aiempaa kertymää ei tarvitse huomioida tai sitä ei ole
+saatavilla. Saldo lähtee nollasta, ja sovellus laskee uudet vuosivapaat
+toteutuneista tunneista tästä eteenpäin.
+
+### 2. Arvio päivissä (suositeltu)
+
+Tämä riittää useimmiten. Syötät kaksi lukua päivinä:
+
+- **Kertynyt vuosivapaa (pv)** — suunnilleen montako vuosivapaapäivää on
+  kertynyt tänä vuonna tähän mennessä
+- **Vielä antamatta (pv)** — montako niistä on vielä pitämättä
+
+Esimerkiksi "tälle on kertynyt tänä vuonna noin 6 päivää, joista 2 on vielä
+antamatta". Sovellus muuntaa arviot tunneiksi puolestasi. Et voi vahingossa
+antaa enempää kuin on kertynyt — jos vielä antamatta -luku on suurempi kuin
+kertynyt, ohjelma huomauttaa eikä anna tallentaa.
+
+### 3. Tarkat tunnit tiedossa
+
+Käytä tätä vain, jos sinulla on tarkat kertymätunnit palkkaohjelmasta tai
+aiemmasta järjestelmästä. Syötät:
+
+- **Kertymätunnit saldopäivänä** — toteutuneet työtunnit, joihin
+  kertymäportaikko perustuu
+- **Käyttämättömät oikeustunnit (h)** — vielä antamatta oleva vuosivapaa
+  tunteina
+
+Tarkat tunnit pitävät kertymäportaikon oikeassa kohdassa: 1050 h ≠ 1200 h,
+vaikka molemmat näyttäisivät "5 päivää ansaittuna", koska kuudes päivä täyttyy
+vasta 1200 tunnissa.
+
+## Laskuesimerkki (tarkat tunnit)
 
 Kokoaikainen työntekijä, ei karenssia. Otat TES-tuen käyttöön 15.7.2026.
 
 - Toteutuneet työtunnit 1.1.–15.7.2026: **1050 h**
-- Kertymäportaikolla saavutettu porras: **1000 h → 5 päivää** (1200 h eli
-  6. päivä ei ole vielä täynnä)
+- Kertymäportaikolla: **1000 h → 5 päivää** (1200 h / 6. päivä ei vielä täynnä)
 - Tänä vuonna jo annettu: **2 vuosivapaapäivää**
-- Alkusaldo: 5 − 2 = **3 päivää**
+- Vielä antamatta: 5 − 2 = 3 päivää → **22,5 h** (3 × 7,5 h)
 
-Kenttiin syötetään: Vuosivapaan alkusaldo = **3**, Saldo laskettu =
-**15.7.2026**. Tästä eteenpäin sovellus laskee uudet ansaitut päivät
-16.7.2026 alkaen toteutuneista, listalle merkityistä tunneista — sinun ei
-tarvitse enää päivittää lukua käsin.
+Saldo laskettu **15.7.2026**, Kertymätunnit **1050**, Käyttämättömät
+oikeustunnit **22,5**. Tästä eteenpäin sovellus laskee uudet ansaitut oikeudet
+16.7.2026 alkaen toteutuneista tunneista.
+
+MaRa-TES:n kertymäportaikko:
+
+| Toteutuneet työtunnit | Vuosivapaiden lukumäärä |
+| --- | --- |
+| 200 | 1 |
+| 400 | 2 |
+| 600 | 3 |
+| 800 | 4 |
+| 1000 | 5 |
+| 1200 | 6 |
+| 1400 | 7 |
+| 1540 | 8 |
+| 1640 | 9 |
+
+(Muilla vuosivapaajärjestelmää käyttävillä TES:eillä kannattaa tarkistaa oma
+porrastus.)
 
 ## Erikoistapauksia
 
 - **Uusi työntekijä, karenssi kesken.** Vuosivapaata alkaa kertyä vasta
-  kahden kuukauden työsuhteen jälkeen. Jos työsuhde on alkanut alle kaksi
-  kuukautta ennen saldopäivää, alkusaldo on **0** — sovellus laskee
-  karenssin itse jatkossa työsuhteen alkupäivän perusteella.
-- **Vuodenvaihteen yli menevä käyttöönotto.** Kertymäportaikko ja
-  9 päivän kalenterivuosikatto koskevat vain **kuluvaa** vuotta. Jos
-  työntekijällä on **edellisenä vuonna** ansaittuja, vielä antamatta olevia
-  vapaita — joiden antamiselle on aikaa seuraavan kalenterivuoden loppuun —
-  pidä niistä kirjaa erikseen omassa seurannassasi. Alkusaldo-kenttä
-  kuvaa kuluvan vuoden kertymää; se ei erottele, mihin vuoteen mikä
-  antamatta oleva päivä liittyy, joten kahden eri vuoden saldoja ei
-  kannata laskea suoraan yhteen samaan kenttään.
-- **Etkä tiedä tarkkoja tunteja.** Jos tarkkaa tuntimäärää ei ole
-  helposti saatavilla, käytä parasta arviotasi ja pyöristä mieluummin
-  alaspäin — liian pieni alkusaldo korjaantuu itse muutaman viikon
-  kuluessa uusista tunneista, liian suuri saldo taas voi näyttää
-  virheellisesti liian suurta jäljellä olevaa vapaamäärää.
+  kahden kuukauden (MaRa) tai kuuden kuukauden (Kaupan/Kipa) työsuhteen
+  jälkeen. Jos karenssi ei ole vielä täyttynyt, valitse *aloitetaan nollasta*.
+- **Edelliseltä vuodelta siirtynyt vuosivapaa.** Avaa ohjattu syöttö, paina
+  *Lisää aiempi vuosi* ja anna edellisen vuoden vielä antamatta olevat päivät.
+  Sovellus näyttää siirtymän erikseen omalla määräpäivällään (MaRa: seuraavan
+  vuoden loppuun; Kaupan/Kipa: pääsääntöisesti seuraavan huhtikuun loppuun).
+- **Etkä tiedä tarkkoja lukuja.** Käytä *arvio päivissä* -tapaa ja pyöristä
+  mieluummin alaspäin — liian pieni saldo korjaantuu uusista tunneista, liian
+  suuri voi näyttää virheellisesti suuren jäljellä olevan määrän.
 
-## Muista tämä seuraavana vuonna
+## Vuodenvaihteen jälkeen
 
-Alkusaldo ja saldopäivä jäävät työntekijän tietoihin, kunnes ne
-muutetaan. Kun käyttöönottovuosi on takana ja kalenterivuosi vaihtuu,
-**tyhjennä alkusaldo-kenttä** (jätä se tyhjäksi) — muuten se lasketaan
-mukaan yhä uudelleen myös tulevina vuosina, mikä vääristää kertymää
-vuodesta toiseen. Tämä on helppo unohtaa, koska kenttä ei tyhjene
-automaattisesti: se on hyvä lisätä oman vuodenvaihteen
-muistilistalle, [TES-käyttöönoton](/posts/nain_otat_tes-tuen_kayttoon)
-muiden vuosittaisten tarkistusten (esim. jaksorytmin ja palkkalajikoodien
-tarkistus) yhteyteen.
+Sinun **ei tarvitse tyhjentää** saldoa käsin uuden vuoden alussa. Jokainen
+kertymävuosi vaikuttaa vain oman vuotensa kertymään, ja edellisen vuoden
+antamatta jäänyt oikeus säilyy erillisenä siirtymänä, kunnes se on annettu tai
+määräaika umpeutuu. Tarkista vuodenvaihteessa silti, että siirtymäsaldot ja
+määräajat näyttävät oikeilta.
 
-## Näin sovellus käyttää alkusaldoa
+## Näin sovellus näyttää saldon
 
-Kun alkusaldo ja saldopäivä on syötetty, tyovuorolista.fi laskee
-työntekijän jäljellä olevan vuosivapaasaldon jatkossa automaattisesti:
-saldopäivän jälkeiset toteutuneet tunnit lisäävät uusia ansaittuja
-päiviä, ja listalle merkityt vuosivapaapäivät vähentävät saldoa. Saldo
-näkyy sekä Tuntien kirjaus -sivulla työnantajalle että
-[Oma-portaalissa](/posts/oma_portaali_ohje) työntekijälle itselleen —
-kertymä on siis kaikilla sama luku heti käyttöönotosta lähtien, eikä
-kenenkään tarvitse laskea sitä uudelleen käsin.
+Tyovuorolista.fi erottaa toisistaan:
+
+- **Kuluvan vuoden kertymä** (ansaitut päivät ja tunnit),
+- **Käytettävissä oleva oikeus** (kaikki kertymävuodet yhteensä),
+- **Käytetty** (jo pidetyt) ja **suunniteltu** (listalle merkityt tulevat)
+  vuosivapaat erikseen.
+
+Saldo näkyy Tuntien kirjaus -sivulla työnantajalle ja
+[Oma-portaalissa](/posts/oma_portaali_ohje) työntekijälle. Näytetty
+"kertynyt" tarkoittaa kuluvaa vuotta — se **ei** ole koko käytettävissä oleva
+saldo, jos edelliseltä vuodelta on siirtymää.
 
 ---
 
 *Lähteet: [MaRa-TES, vuosivapaajärjestelmä, 11 § (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html), [PAM: Työajan lyhennykset](https://www.pam.fi/tyoelamaopas/tyoelamassa/tyoelamatietoa/tyoaika/tyoajan-lyhennykset/)*
+
+*Huom: Tämä artikkeli kuvaa Työvuorolistan toimintaa eikä ole oikeudellista neuvontaa.*

@@ -57,11 +57,12 @@ puuttuu — riviä klikkaamalla pääset täydentämään:
 
 Kaksi asiaa kannattaa täydentää samalla:
 
-- **Vuosivapaan alkusaldo**: jos työntekijöille on kertynyt
-  [vuosivapaita](/posts/vuosivapaa_ravintola-alalla) jo ennen tätä,
-  syötä kertyneet, vielä antamatta olevat päivät työntekijän
-  Työsuhde-osioon (Vuosivapaan alkusaldo + saldon päivämäärä) —
-  kertymä jatkuu siitä mihin se jäi. [Näin lasket alkusaldon
+- **Vuosivapaasaldot**: jos työntekijöille on kertynyt
+  [vuosivapaita](/posts/vuosivapaa_ravintola-alalla) jo ennen tätä, aseta
+  alkutilanne Työehtosopimus-sivun **Vuosivapaasaldot**-listalta. Ohjattu
+  syöttö antaa kolme vaihtoehtoa: aloita nollasta, anna karkea arvio päivissä
+  tai syötä tarkat tunnit. Jos aiempaa dataa ei ole, **Aloita kaikki nollasta**
+  hoitaa koko henkilöstön kerralla. [Näin asetat alkusaldon
   oikein](/posts/vuosivapaan_alkusaldon_laskeminen), jos työntekijöillä on
   jo pitkä työhistoria takana
 - **Palkkalajikoodit**: jos viet raportit palkanlaskentaan, lisää

@@ -42,15 +42,17 @@ työaikaa 7,5 tunnilla** — eli jos jaksossa on yksi VV-päivä,
 [lisätyöraja](/posts/lisatyo_ja_ylityo_ravintola-alalla) on 112,5 tunnin
 sijaan 105 tuntia. Tämäkin unohtuu käsin laskiessa helposti.
 
-Tyovuorolista.fi seuraa jokaisen työntekijän saldoa automaattisesti:
+Tyovuorolista.fi seuraa jokaisen työntekijän saldoa automaattisesti ja
+erottaa toisistaan kuluvan vuoden kertymän, käytettävissä olevan oikeuden
+sekä jo pidetyt ja vasta suunnitellut vapaat:
 
-<img src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: vuosivapaasaldo 2026 — kertynyt 4 pv, käytetty 1 pv, jäljellä 3 pv" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: vuosivapaa 2026 — kertynyt, käytetty, suunniteltu ja käytettävissä" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
 Saldo näkyy työnantajalle Tuntien kirjaus -sivulla ja työntekijälle
 itselleen [Oma-portaalissa](/posts/oma_portaali_ohje). Jos vapaita on
 kertynyt jo ennen sovelluksen käyttöönottoa,
-[alkusaldon voi syöttää](/posts/vuosivapaan_alkusaldon_laskeminen)
-työntekijän tietoihin — kertymä jatkuu siitä mihin se jäi.
+[alkusaldon voi asettaa ohjatulla syötöllä](/posts/vuosivapaan_alkusaldon_laskeminen)
+— kertymä jatkuu siitä mihin se jäi.
 
 ## TES-apuri pitää saldon ajan tasalla
 
