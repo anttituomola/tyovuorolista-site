@@ -1,10 +1,20 @@
-export type FeatureCategory = 'planning' | 'publishing' | 'reporting' | 'teams'
+export type FeatureCategory =
+  | 'planning'
+  | 'publishing'
+  | 'workers'
+  | 'reporting'
+  | 'teams'
 
 export type FeatureItem = {
   id: string
   category: FeatureCategory
-  blogSlug: string
+  /** Marketing page under /ominaisuudet/{pageSlug} (Finnish) */
+  pageSlug: string
+  /** Finnish how-to guide in the blog, linked from the feature page */
+  blogSlug?: string
   highlight?: boolean
+  /** Recently released feature — shows the "Uusi" badge on cards */
+  isNew?: boolean
 }
 
 export type ResourceType = 'tool' | 'template' | 'guide' | 'reference'
@@ -21,81 +31,140 @@ export type ResourceItem = {
 
 export const features: FeatureItem[] = [
   {
+    id: 'tes-apuri',
+    category: 'planning',
+    pageSlug: 'tes-apuri',
+    blogSlug: '/posts/tes_tuki_tyovuorosuunnittelussa',
+    highlight: true,
+    isNew: true,
+  },
+  {
     id: 'recurring-shifts',
     category: 'planning',
+    pageSlug: 'toistuvat-tyovuorot',
     blogSlug: '/posts/toistuvat_tyovuorot',
     highlight: true,
   },
   {
     id: 'templates',
     category: 'planning',
+    pageSlug: 'mallipohjat',
     blogSlug: '/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana',
     highlight: true,
   },
   {
     id: 'multi-select',
     category: 'planning',
+    pageSlug: 'monivalinta',
     blogSlug: '/posts/monivalinta_vuorot',
-    highlight: true,
   },
   {
     id: 'resource-scheduling',
     category: 'planning',
+    pageSlug: 'resurssien-aikataulutus',
     blogSlug: '/posts/resurssien_aikataulutus_ominaisuus',
-    highlight: true,
   },
   {
     id: 'day-notes',
     category: 'planning',
+    pageSlug: 'paivakohtaiset-muistiinpanot',
     blogSlug: '/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat',
+  },
+  {
+    id: 'vacation-planning',
+    category: 'planning',
+    pageSlug: 'lomasuunnittelu',
+    blogSlug: '/posts/lomasuunnittelu',
+    highlight: true,
+  },
+  {
+    id: 'mobile-manager',
+    category: 'planning',
+    pageSlug: 'mobiilikaytto',
+    blogSlug: '/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla',
   },
   {
     id: 'email-publish',
     category: 'publishing',
+    pageSlug: 'julkaisu-sahkopostilla',
     blogSlug: '/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille',
     highlight: true,
   },
   {
     id: 'email-preview',
     category: 'publishing',
+    pageSlug: 'sahkopostin-esikatselu',
     blogSlug: '/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa',
   },
   {
     id: 'personal-print',
     category: 'publishing',
+    pageSlug: 'henkilokohtaiset-tulosteet',
     blogSlug: '/posts/henkilokohtaisten_tyovuorolistojen_tulostus',
   },
   {
-    id: 'vacation-planning',
-    category: 'planning',
-    blogSlug: '/posts/lomasuunnittelu',
+    id: 'oma-portaali',
+    category: 'workers',
+    pageSlug: 'oma-portaali',
+    blogSlug: '/posts/oma_portaali_ohje',
     highlight: true,
+    isNew: true,
+  },
+  {
+    id: 'avoimet-vuorot',
+    category: 'workers',
+    pageSlug: 'avoimet-vuorot',
+    blogSlug: '/posts/oma_portaali_ohje',
+    highlight: true,
+    isNew: true,
   },
   {
     id: 'hours-recording',
     category: 'reporting',
+    pageSlug: 'tuntien-kirjaus',
     blogSlug: '/posts/tuntien_kirjaus_opas',
     highlight: true,
   },
   {
     id: 'payroll-report',
     category: 'reporting',
+    pageSlug: 'palkkaraportti',
     blogSlug: '/posts/palkkaraportti_ominaisuus',
     highlight: true,
   },
   {
     id: 'teams',
     category: 'teams',
+    pageSlug: 'tiimit',
     blogSlug: '/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu',
     highlight: true,
   },
-  {
-    id: 'mobile-manager',
-    category: 'planning',
-    blogSlug: '/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla',
-    highlight: true,
-  },
 ]
+
+/** Path of a feature's marketing page (Finnish pages, shared by locales) */
+export function featurePagePath(feature: FeatureItem) {
+  return `/ominaisuudet/${feature.pageSlug}`
+}
+
+/** Hero screenshots for feature cards + pages (public paths) */
+export const featureImages: Record<string, string> = {
+  'tes-apuri': '/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png',
+  'recurring-shifts': '/featureImages/toistuvat-vuorot.png',
+  templates: '/featureImages/mallineet.png',
+  'multi-select': '/featureImages/monivalinta.png',
+  'resource-scheduling': '/featureImages/resurssit.png',
+  'day-notes': '/featureImages/kalenteri-hero.png',
+  'vacation-planning': '/featureImages/lomasuunnittelu.png',
+  'mobile-manager': '/featureImages/mobiili-kalenteri.png',
+  'email-publish': '/featureImages/julkaisu.png',
+  'email-preview': '/featureImages/sahkopostin-esikatselu.png',
+  'personal-print': '/featureImages/tulosteet.png',
+  'oma-portaali': '/blogPostImages/oma-portaali/tyontekija-vuorot.png',
+  'avoimet-vuorot': '/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png',
+  'hours-recording': '/featureImages/tuntien-kirjaus.png',
+  'payroll-report': '/featureImages/palkkaraportti.png',
+  teams: '/featureImages/tiimit.png',
+}
 
 export const resources: ResourceItem[] = [
   {
@@ -199,6 +268,7 @@ export const resources: ResourceItem[] = [
 export const featureCategories: FeatureCategory[] = [
   'planning',
   'publishing',
+  'workers',
   'reporting',
   'teams',
 ]
@@ -235,6 +305,7 @@ export const resourceImages: Record<string, string> = {
 
 /** Iconify names (@iconify-json/ic) — used on feature cards */
 export const featureIcons: Record<string, string> = {
+  'tes-apuri': 'ic:baseline-verified-user',
   'recurring-shifts': 'ic:baseline-autorenew',
   templates: 'ic:baseline-layers',
   'multi-select': 'ic:baseline-check-box',
@@ -248,4 +319,6 @@ export const featureIcons: Record<string, string> = {
   'payroll-report': 'ic:baseline-bar-chart',
   teams: 'ic:baseline-groups',
   'mobile-manager': 'ic:baseline-smartphone',
+  'oma-portaali': 'ic:baseline-person',
+  'avoimet-vuorot': 'ic:baseline-campaign',
 }

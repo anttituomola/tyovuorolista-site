@@ -1,0 +1,40 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="day-notes"
+    metaTitle="Päiväkohtaiset muistiinpanot työvuorolistaan | Työvuorolista"
+    metaDescription="Merkitse koko päivää koskevat tapahtumat suoraan työvuorolistaan: yksityistilaisuudet, inventaariot, aukiolopoikkeukset."
+    title="Päiväkohtaiset muistiinpanot: koko päivän asiat näkyviin kalenteriin"
+    lead="Yksityistilaisuus lauantaina, inventaario sunnuntaina, aatonaattona lyhyempi aukiolo. Päiväkohtainen muistiinpano näkyy kalenterin yläreunassa koko päivän kohdalla — eikä huku yksittäisen vuoron kommenttiin."
+    heroImage="/featureImages/kalenteri-hero.png"
+    heroImageAlt="Kalenterinäkymä, jossa päivän kohdalla muistiinpano Yksityistilaisuus 50 hlö"
+    benefits={[
+        {
+            icon: 'ic:baseline-event-note',
+            title: 'Näkyy heti oikean päivän kohdalla',
+            text: 'Muistiinpano kiinnittyy päivään, ei vuoroon. Kaikki listaa katsovat näkevät sen samalla silmäyksellä.',
+        },
+        {
+            icon: 'ic:baseline-date-range',
+            title: 'Myös usealle päivälle',
+            text: 'Remontti tai teemaviikko? Sama merkintä voi kattaa päivävälin alusta loppuun.',
+        },
+        {
+            icon: 'ic:baseline-visibility',
+            title: 'Sinä päätät näkyvyyden',
+            text: 'Julkinen merkintä kulkee mukana julkaistussa listassa ja sähköpostissa. Yksityinen jää vain suunnittelunäkymääsi.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Tieto sinne missä lista luetaan',
+            paragraphs: [
+                'Kun poikkeuspäivät kirjataan listaan itseensä, ne eivät jää WhatsApp-ryhmän varaan. Työntekijä näkee jo omasta vuorolistastaan, että lauantaina on 50 hengen tilaisuus — ja osaa varautua.',
+                'Suunnittelijalle merkinnät toimivat muistina: kun teet listaa kolmen viikon päähän, kalenteri kertoo mitä silloin tapahtuu.',
+            ],
+        },
+    ]}
+    related={['email-publish', 'recurring-shifts', 'vacation-planning']}
+/>

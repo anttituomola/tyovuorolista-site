@@ -272,14 +272,35 @@
   },
   "features": {
     "readMore": "Läs mer",
-    "blogLanguageNote": "Artikel på finska",
+    "blogLanguageNote": "Sidan på finska",
+    "betaBadge": "Ny",
     "categories": {
       "planning": "Planering",
       "publishing": "Publicering",
-      "reporting": "Rapportering",
+      "workers": "För anställda",
+      "reporting": "Timmar och rapportering",
       "teams": "Team"
     },
+    "categoryDescriptions": {
+      "planning": "Bygg schemat genom att dra — återkommande skift, mallar och flerval sköter rutinarbetet.",
+      "publishing": "När schemat är klart får varje anställd sitt personliga schema per e-post med ett klick.",
+      "workers": "Anställda ser sina skift, rapporterar sina timmar och tar lediga skift i sin egen portal.",
+      "reporting": "Faktiska timmar loggas i appen och exporteras till lönehanteringen som en färdig rapport.",
+      "teams": "Matsal, kök, två verksamhetsställen? Varje team har sina egna scheman, och anställda kan delas mellan team."
+    },
     "items": {
+      "tes-apuri": {
+        "title": "Kollektivavtalsassistent",
+        "shortDescription": "Appen kontrollerar dina skift mot kollektivavtalet och arbetstidslagen medan du planerar."
+      },
+      "oma-portaali": {
+        "title": "Personalportal",
+        "shortDescription": "Anställda ser sina skift, önskar ledigt och rapporterar timmar på telefonen."
+      },
+      "avoimet-vuorot": {
+        "title": "Lediga skift",
+        "shortDescription": "Publicera ett skift utan person — anställda anmäler sig och du väljer."
+      },
       "recurring-shifts": {
         "title": "Återkommande skift",
         "shortDescription": "Skapa återkommande skift en gång och kopiera dem över veckor."
@@ -412,8 +433,18 @@
   "pages": {
     "features": {
       "title": "Funktioner",
-      "subtitle": "Verktyg för skiftplanering, publicering och rapportering för småföretag. Läs mer i våra artiklar.",
-      "cta": "Prova gratis"
+      "eyebrow": "Funktioner",
+      "heroTitle": "Allt du faktiskt behöver för att göra ett arbetsschema",
+      "subtitle": "Planera skift genom att dra, publicera per e-post och exportera timmar till lönehanteringen. Inget tungt enterprise-system — bara verktygen ett småföretag använder varje vecka.",
+      "heroImageAlt": "Arbetsschemats kalendervy med en veckas färgkodade skift per anställd",
+      "cta": "Prova gratis",
+      "ctaSecondary": "Se priser",
+      "ctaNote": "Gratis med upp till tre anställda. Inget kreditkort.",
+      "detailCtaTitle": "Prova själv — schemat klart på en kvart",
+      "detailCtaText": "Registreringen tar en minut, och användning med upp till tre anställda är gratis.",
+      "readGuide": "Läs guiden på bloggen",
+      "relatedTitle": "Se även dessa funktioner",
+      "backToFeatures": "Alla funktioner"
     },
     "resources": {
       "title": "Resurser",

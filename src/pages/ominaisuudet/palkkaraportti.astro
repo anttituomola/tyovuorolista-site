@@ -1,0 +1,40 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="payroll-report"
+    metaTitle="Palkkaraportti palkanlaskentaan | Työvuorolista"
+    metaDescription="Vie toteutuneet tunnit palkanlaskentaan valmiina raporttina: CSV, PDF tai Procountor-muoto. Tunnit suoraan työvuorolistasta."
+    title="Palkkaraportti: tunnit palkanlaskentaan ilman käsityötä"
+    lead="Palkanlaskennan pahin vaihe on tuntien kokoaminen. Työvuorolistassa raportti syntyy kirjatuista tunneista yhdellä napilla — valmiissa muodossa tilitoimistolle tai palkkaohjelmaan."
+    heroImage="/featureImages/palkkaraportti.png"
+    heroImageAlt="Palkkaraportin luonti-ikkuna, jossa raportin muoto ja aikaväli valitaan"
+    benefits={[
+        {
+            icon: 'ic:baseline-bar-chart',
+            title: 'Työntekijäkohtaiset summat',
+            text: 'Raportti erittelee tunnit työntekijöittäin valitulta jaksolta — suoraan kirjatuista toteumista.',
+        },
+        {
+            icon: 'ic:baseline-file-download',
+            title: 'CSV, PDF tai Procountor',
+            text: 'Lataa raportti muodossa, jota tilitoimistosi tai palkkaohjelmasi ymmärtää. Palkkalajikoodit voi mapata omiin tarpeisiin.',
+        },
+        {
+            icon: 'ic:baseline-verified-user',
+            title: 'TES-kategoriat valmiina',
+            text: 'TES-apurin kanssa lisätyöt, ylityöt ja lisät luokitellaan automaattisesti oikeisiin kategorioihin.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Sama data suunnittelusta palkanmaksuun',
+            paragraphs: [
+                'Koska vuorot, toteumat ja raportti elävät samassa järjestelmässä, lukuja ei siirrellä käsin mihinkään väliin. Se mitä listalle kirjattiin, päätyy raporttiin — virheiden määrä putoaa oleellisesti.',
+                'Kuukausi, jakso tai oma aikaväli: valitset raportin rajat itse, ja sovellus poimii tunnit valitulta ajalta.',
+            ],
+        },
+    ]}
+    related={['hours-recording', 'tes-apuri', 'vacation-planning']}
+/>

@@ -1,0 +1,46 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="teams"
+    metaTitle="Tiimit ja jaetut työntekijät | Työvuorolista"
+    metaDescription="Suunnittele työvuorot tiimeittäin: salille, keittiölle ja jokaiselle toimipisteelle omat listat. Työntekijöitä voi jakaa tiimien kesken."
+    title="Tiimit: omat listat salille, keittiölle ja jokaiselle toimipisteelle"
+    lead="Yksi jättilista koko talolle on sekava kaikille. Työvuorolistassa jokaisella tiimillä on omat listansa ja asetuksensa — ja silti sama työntekijä voi tehdä vuoroja useassa tiimissä."
+    heroImage="/featureImages/tiimit.png"
+    heroImageAlt="Tiimivalitsin, josta vaihdetaan Salin ja Keittiön välillä"
+    benefits={[
+        {
+            icon: 'ic:baseline-groups',
+            title: 'Rajaton määrä tiimejä',
+            text: 'Sali, keittiö, aamusiivous, toinen toimipiste — tiimejä voi olla niin monta kuin toimintasi vaatii, joka paketissa.',
+        },
+        {
+            icon: 'ic:baseline-settings',
+            title: 'Omat asetukset joka tiimille',
+            text: 'Tiimikohtaiset oletusajat ja vuoron pituudet: keittiön aamu alkaa yhdeksältä, salin kahdeksalta.',
+        },
+        {
+            icon: 'ic:baseline-swap-horiz',
+            title: 'Jaetut työntekijät',
+            text: 'Sama työntekijä voi kuulua useaan tiimiin. Sovellus näkee vuorot yli tiimirajojen — tuplavuoro jää kiinni.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Monipaikkaisen yrityksen arki',
+            paragraphs: [
+                'Kun kahvilalla on kaksi toimipistettä ja osa tekijöistä kiertää molemmissa, tiimit pitävät rakenteen selkeänä: jokainen piste suunnittelee omansa, mutta työntekijän kokonaistunnit ja päällekkäisyydet näkyvät silti oikein.',
+                'Listat julkaistaan tiimeittäin tai kaikki kerralla — työntekijä saa sähköpostiinsa aina omat vuoronsa riippumatta siitä, monessako tiimissä hän on.',
+            ],
+        },
+        {
+            title: 'Vaihto tiimistä toiseen yhdellä klikkauksella',
+            paragraphs: [
+                'Tiimivalitsin kulkee mukana koko sovelluksessa. Suunnittelet salin listan, vaihdat keittiöön ja jatkat siitä mihin jäit — sama kalenteri, eri tiimi.',
+            ],
+        },
+    ]}
+    related={['resource-scheduling', 'email-publish', 'vacation-planning']}
+/>

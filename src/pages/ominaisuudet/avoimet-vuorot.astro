@@ -1,0 +1,49 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="avoimet-vuorot"
+    metaTitle="Avoimet vuorot | Työvuorolista"
+    metaDescription="Julkaise työvuoro ilman tekijää ja anna työntekijöiden ilmoittautua siihen. Sinä valitset tekijän — sovellus hoitaa loput."
+    title="Avoimet vuorot: tarjoa vuoro koko tiimille, älä soittele yksitellen"
+    lead="Kun tekijä puuttuu, perinteinen ratkaisu on soittokierros. Avoimella vuorolla käännät asetelman: julkaiset vuoron tarjolle, halukkaat ilmoittautuvat ja sinä valitset sopivimman."
+    heroImage="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png"
+    heroImageAlt="Avoimet vuorot työntekijän puhelimessa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike"
+    heroLayout="phone"
+    benefits={[
+        {
+            icon: 'ic:baseline-campaign',
+            title: 'Yksi julkaisu, koko tiimi tavoitettu',
+            text: 'Avoin vuoro näkyy tiimin työntekijöille Oma-portaalissa heti, kun julkaiset sen. Ei soittolistaa, ei ryhmäviestin odottelua.',
+        },
+        {
+            icon: 'ic:baseline-how-to-reg',
+            title: 'Sinä valitset tekijän',
+            text: 'Useampi voi ilmoittautua samaan vuoroon. Näet ilmoittautuneet kalenterissa ja hyväksyt sopivimman — muut saavat tiedon automaattisesti.',
+        },
+        {
+            icon: 'ic:baseline-verified',
+            title: 'Päällekkäisyydet estetty',
+            text: 'Sovellus estää ilmoittautumisen vuoroon, joka menisi työntekijän oman vuoron päälle — ja tarkistaa tilanteen vielä hyväksyessäsi.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Suunnittele vuoro, vaikka tekijä puuttuu',
+            paragraphs: [
+                'Avoin vuoro luodaan kalenterissa kuten mikä tahansa vuoro — valitset tekijäksi vain "Avoin vuoro". Se näkyy listallasi harmaana, kunnes tekijä löytyy.',
+                'Julkaisu on erillinen päätös: voit tarjota avoimia vuoroja työntekijöille jo ennen kuin koko lista on julkaistu.',
+            ],
+            image: '/blogPostImages/oma-portaali/avoin-vuoro-ilmoittautumiset.png',
+            imageAlt: 'Avoimen vuoron tiedot kalenterissa: ilmoittautuneet työntekijät ja Hyväksy-painike',
+        },
+        {
+            title: 'Reilu tapa jakaa lisätunnit',
+            paragraphs: [
+                'Kun vuorot ovat avoimesti tarjolla, lisätunnit jakautuvat halukkuuden mukaan — eivät sen mukaan, kenet sattui tavoittamaan ensin. Työntekijä näkee hyväksytyt ja hylätyt ilmoittautumisensa portaalista.',
+            ],
+        },
+    ]}
+    related={['oma-portaali', 'email-publish', 'multi-select']}
+/>

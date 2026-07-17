@@ -1,0 +1,40 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="multi-select"
+    metaTitle="Usean vuoron valinta ja muokkaus | Työvuorolista"
+    metaDescription="Valitse useita työvuoroja kerralla ja siirrä tai poista ne yhdellä toiminnolla. Päällekkäisyydet tarkistetaan automaattisesti."
+    title="Monivalinta: siirrä tai poista kymmenen vuoroa yhtä nopeasti kuin yksi"
+    lead="Avaus siirtyy tunnilla, tapahtuma vaihtaa päivää, viikko menee uusiksi. Monivalinnalla poimit vuorot kalenterista ja käsittelet ne kerralla — et yksi kerrallaan."
+    heroImage="/featureImages/monivalinta.png"
+    heroImageAlt="Kalenteri, jossa kolme työvuoroa valittuna ja valintapalkki näyttää valittujen määrän"
+    benefits={[
+        {
+            icon: 'ic:baseline-check-box',
+            title: 'Poimi vuorot Ctrl-klikkauksella',
+            text: 'Valitse haluamasi vuorot kalenterista Ctrl- tai Cmd-klikkauksella. Valintapalkki näyttää koko ajan, montako on kyydissä.',
+        },
+        {
+            icon: 'ic:baseline-open-with',
+            title: 'Siirrä tunteina tai päivinä',
+            text: 'Siirrä valitut vuorot eteen- tai taaksepäin — vaikka kaksi tuntia myöhemmäksi tai koko setti seuraavalle päivälle.',
+        },
+        {
+            icon: 'ic:baseline-delete-sweep',
+            title: 'Poista kerralla, vahvistuksen kanssa',
+            text: 'Koko valinta poistuu yhdellä toiminnolla. Erillinen vahvistus varmistaa, ettei mitään lähde vahingossa.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Muutokset ovat arkea — niiden ei tarvitse olla työläitä',
+            paragraphs: [
+                'Työvuorolistat eivät mene koskaan kerralla oikein: toimitus myöhästyy, keikka siirtyy, joku vaihtaa vapaapäivää. Ilman monivalintaa jokainen muutos tarkoittaa vuorojen raahailua yksitellen.',
+                'Monivalinnassa jokainen siirto tarkistetaan vuorokohtaisesti: jos siirto aiheuttaisi päällekkäisyyden työntekijän toisen vuoron kanssa, sovellus kertoo sen — eikä riko listaa hiljaa.',
+            ],
+        },
+    ]}
+    related={['recurring-shifts', 'templates', 'day-notes']}
+/>

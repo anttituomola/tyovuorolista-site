@@ -1,15 +1,26 @@
 ---
 import FeatureCard from '../common/FeatureCard.astro'
+import Button from '../common/Button.astro'
 import {
   features,
   featureCategories,
   type FeatureCategory,
 } from '../../data/siteContent'
-import { getTranslationObject } from '../../utils/translations'
+import {
+  getTranslationObject,
+  getLocalizedPath,
+  t,
+} from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
 const page = getTranslationObject('pages.features', locale as 'fi' | 'en' | 'sv')
 const categories = getTranslationObject('features.categories', locale as 'fi' | 'en' | 'sv')
+const categoryDescriptions = getTranslationObject(
+  'features.categoryDescriptions',
+  locale as 'fi' | 'en' | 'sv'
+)
+
+const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
 
 const featuresByCategory = featureCategories.reduce(
   (acc, category) => {
@@ -21,13 +32,32 @@ const featuresByCategory = featureCategories.reduce(
 ---
 
 <div class="featuresCatalog">
-    <section class="tyov-features tyov-features--catalog">
-        <div class="tyov-features__inner">
-            <header class="tyov-features__header">
-                <div class="tyov-features__title">{page?.title}</div>
-                <p class="tyov-features__subtitle">{page?.subtitle}</p>
-            </header>
+    <section class="tyov-featuresHero">
+        <div class="tyov-featuresHero__inner">
+            <span class="tyov-featuresHero__eyebrow">{page?.eyebrow ?? page?.title}</span>
+            <h1 class="tyov-featuresHero__title">{page?.heroTitle ?? page?.title}</h1>
+            <p class="tyov-featuresHero__subtitle">{page?.subtitle}</p>
+            <div class="tyov-featuresHero__ctaRow">
+                <Button variant="primary" text={page?.cta} locale={locale} />
+                <a href={pricingPath} class="tyov-featureDetail__secondaryLink">
+                    {page?.ctaSecondary}
+                </a>
+            </div>
+            <p class="tyov-featuresHero__ctaNote">{page?.ctaNote}</p>
+            <div class="tyov-featuresHero__media">
+                <div class="tyov-screenshotFrame">
+                    <img
+                        src="/featureImages/kalenteri-hero.png"
+                        alt={page?.heroImageAlt}
+                        loading="eager"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="tyov-features tyov-features--catalog tyov-features--underHero">
+        <div class="tyov-features__inner">
             {
                 featureCategories.map((category) => {
                     const categoryFeatures = featuresByCategory[category]
@@ -35,12 +65,14 @@ const featuresByCategory = featureCategories.reduce(
 
                     return (
                         <div class="tyov-features__block">
-                            <div class="tyov-features__category">{categories?.[category]}</div>
-                            <div class="tyov-features__grid">
+                            <h2 class="tyov-features__category">{categories?.[category]}</h2>
+                            <p class="tyov-features__categoryDesc">
+                                {categoryDescriptions?.[category]}
+                            </p>
+                            <div class="tyov-features__grid tyov-features__grid--three">
                                 {categoryFeatures.map((feature) => (
                                     <FeatureCard
                                         featureId={feature.id}
-                                        href={feature.blogSlug}
                                         locale={locale}
                                         showBlogNote={locale !== 'fi'}
                                     />
@@ -50,6 +82,20 @@ const featuresByCategory = featureCategories.reduce(
                     )
                 })
             }
+        </div>
+    </section>
+
+    <section class="tyov-featureDetail__ctaBand">
+        <div class="tyov-featureDetail__inner tyov-featureDetail__ctaBandInner">
+            <h2 class="tyov-featureDetail__ctaTitle">
+                {t('pages.features.detailCtaTitle', locale as 'fi' | 'en' | 'sv')}
+            </h2>
+            <p class="tyov-featureDetail__ctaText">
+                {t('pages.features.detailCtaText', locale as 'fi' | 'en' | 'sv')}
+            </p>
+            <div class="tyov-featureDetail__ctaRow tyov-featureDetail__ctaRow--center">
+                <Button variant="primary" text={page?.cta} locale={locale} />
+            </div>
         </div>
     </section>
 </div>

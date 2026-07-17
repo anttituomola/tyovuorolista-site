@@ -1,0 +1,217 @@
+---
+import { Icon } from 'astro-icon/components'
+import Layout from '../../layouts/Layout.astro'
+import Button from '../common/Button.astro'
+import FeatureCard from '../common/FeatureCard.astro'
+import { features } from '../../data/siteContent'
+import { t } from '../../utils/translations'
+
+export type FeatureBenefit = {
+  icon: string
+  title: string
+  text: string
+}
+
+export type FeatureSection = {
+  title: string
+  paragraphs: string[]
+  image?: string
+  imageAlt?: string
+  /** 'phone' renders a narrow portrait screenshot */
+  layout?: 'wide' | 'phone'
+  bullets?: string[]
+}
+
+const {
+  featureId,
+  metaTitle,
+  metaDescription,
+  title,
+  lead,
+  heroImage,
+  heroImageAlt,
+  heroLayout = 'wide',
+  betaNote,
+  benefits = [],
+  sections = [],
+  related,
+} = Astro.props as {
+  featureId: string
+  metaTitle: string
+  metaDescription: string
+  title: string
+  lead: string
+  heroImage: string
+  heroImageAlt: string
+  heroLayout?: 'wide' | 'phone'
+  betaNote?: string
+  benefits?: FeatureBenefit[]
+  sections?: FeatureSection[]
+  related?: string[]
+}
+
+const locale = 'fi'
+const feature = features.find((f) => f.id === featureId)
+const categoryLabel = feature
+  ? t(`features.categories.${feature.category}`, locale)
+  : ''
+const blogSlug = feature?.blogSlug
+
+const relatedIds =
+  related ??
+  features
+    .filter((f) => f.id !== featureId && f.category === feature?.category)
+    .slice(0, 3)
+    .map((f) => f.id)
+---
+
+<Layout title={metaTitle} description={metaDescription}>
+    <article class="tyov-featureDetail">
+        <section class="tyov-featureDetail__hero">
+            <div class="tyov-featureDetail__heroInner">
+                <div class="tyov-featureDetail__heroCopy">
+                    <nav class="tyov-featureDetail__breadcrumb" aria-label="Murupolku">
+                        <a href="/ominaisuudet">{t('pages.features.backToFeatures', locale)}</a>
+                        <span aria-hidden="true">/</span>
+                        <span>{categoryLabel}</span>
+                    </nav>
+                    <h1 class="tyov-featureDetail__title">{title}</h1>
+                    <p class="tyov-featureDetail__lead">{lead}</p>
+                    {betaNote && (
+                        <p class="tyov-featureDetail__betaNote">
+                            <Icon name="ic:baseline-info" aria-hidden="true" />
+                            <span>{betaNote}</span>
+                        </p>
+                    )}
+                    <div class="tyov-featureDetail__ctaRow">
+                        <Button
+                            variant="primary"
+                            text={t('pages.features.cta', locale)}
+                            locale={locale}
+                        />
+                        <a href="/hinnoittelu" class="tyov-featureDetail__secondaryLink">
+                            {t('pages.features.ctaSecondary', locale)}
+                        </a>
+                    </div>
+                    <p class="tyov-featureDetail__ctaNote">
+                        {t('pages.features.ctaNote', locale)}
+                    </p>
+                </div>
+                <div
+                    class:list={[
+                        'tyov-featureDetail__heroMedia',
+                        heroLayout === 'phone' && 'tyov-featureDetail__heroMedia--phone',
+                    ]}
+                >
+                    <div class="tyov-screenshotFrame">
+                        <img src={heroImage} alt={heroImageAlt} loading="eager" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {benefits.length > 0 && (
+            <section class="tyov-featureDetail__benefits">
+                <div class="tyov-featureDetail__inner">
+                    <div class="tyov-featureDetail__benefitGrid">
+                        {benefits.map((benefit) => (
+                            <div class="tyov-featureDetail__benefit">
+                                <div class="tyov-features__iconBox" aria-hidden="true">
+                                    <Icon name={benefit.icon} />
+                                </div>
+                                <h2 class="tyov-featureDetail__benefitTitle">{benefit.title}</h2>
+                                <p class="tyov-featureDetail__benefitText">{benefit.text}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+        )}
+
+        {sections.map((section, index) => (
+            <section
+                class:list={[
+                    'tyov-featureDetail__section',
+                    index % 2 === 1 && 'tyov-featureDetail__section--alt',
+                ]}
+            >
+                <div
+                    class:list={[
+                        'tyov-featureDetail__sectionInner',
+                        !section.image && 'tyov-featureDetail__sectionInner--noImage',
+                        index % 2 === 1 && 'tyov-featureDetail__sectionInner--flip',
+                    ]}
+                >
+                    <div class="tyov-featureDetail__sectionCopy">
+                        <h2 class="tyov-featureDetail__sectionTitle">{section.title}</h2>
+                        {section.paragraphs.map((paragraph) => (
+                            <p class="tyov-featureDetail__sectionText">{paragraph}</p>
+                        ))}
+                        {section.bullets && (
+                            <ul class="tyov-featureDetail__bullets">
+                                {section.bullets.map((bullet) => (
+                                    <li>{bullet}</li>
+                                ))}
+                            </ul>
+                        )}
+                    </div>
+                    {section.image && (
+                        <div
+                            class:list={[
+                                'tyov-featureDetail__sectionMedia',
+                                section.layout === 'phone' &&
+                                    'tyov-featureDetail__sectionMedia--phone',
+                            ]}
+                        >
+                            <div class="tyov-screenshotFrame">
+                                <img
+                                    src={section.image}
+                                    alt={section.imageAlt ?? ''}
+                                    loading="lazy"
+                                />
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </section>
+        ))}
+
+        <section class="tyov-featureDetail__ctaBand">
+            <div class="tyov-featureDetail__inner tyov-featureDetail__ctaBandInner">
+                <h2 class="tyov-featureDetail__ctaTitle">
+                    {t('pages.features.detailCtaTitle', locale)}
+                </h2>
+                <p class="tyov-featureDetail__ctaText">
+                    {t('pages.features.detailCtaText', locale)}
+                </p>
+                <div class="tyov-featureDetail__ctaRow tyov-featureDetail__ctaRow--center">
+                    <Button
+                        variant="primary"
+                        text={t('pages.features.cta', locale)}
+                        locale={locale}
+                    />
+                    {blogSlug && (
+                        <a href={blogSlug} class="tyov-featureDetail__secondaryLink">
+                            {t('pages.features.readGuide', locale)}
+                        </a>
+                    )}
+                </div>
+            </div>
+        </section>
+
+        {relatedIds.length > 0 && (
+            <section class="tyov-featureDetail__related">
+                <div class="tyov-featureDetail__inner">
+                    <h2 class="tyov-featureDetail__relatedTitle">
+                        {t('pages.features.relatedTitle', locale)}
+                    </h2>
+                    <div class="tyov-features__grid tyov-features__grid--three">
+                        {relatedIds.map((id) => (
+                            <FeatureCard featureId={id} locale={locale} />
+                        ))}
+                    </div>
+                </div>
+            </section>
+        )}
+    </article>
+</Layout>

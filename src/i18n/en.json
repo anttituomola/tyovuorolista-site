@@ -272,14 +272,35 @@
   },
   "features": {
     "readMore": "Read more",
-    "blogLanguageNote": "Article in Finnish",
+    "blogLanguageNote": "Page in Finnish",
+    "betaBadge": "New",
     "categories": {
       "planning": "Planning",
       "publishing": "Publishing",
-      "reporting": "Reporting",
+      "workers": "For employees",
+      "reporting": "Hours and reporting",
       "teams": "Teams"
     },
+    "categoryDescriptions": {
+      "planning": "Build the schedule by dragging — recurring shifts, templates and multi-select handle the routine work.",
+      "publishing": "When the schedule is ready, every employee gets their personal schedule by email with one click.",
+      "workers": "Employees see their shifts, report their hours and claim open shifts in their own portal.",
+      "reporting": "Actual hours are logged in the app and exported to payroll as a ready-made report.",
+      "teams": "Front of house, kitchen, two locations? Every team has its own schedules, and workers can be shared between teams."
+    },
     "items": {
+      "tes-apuri": {
+        "title": "Collective agreement assistant",
+        "shortDescription": "The app checks your shifts against the collective agreement and working time law while you plan."
+      },
+      "oma-portaali": {
+        "title": "Employee portal",
+        "shortDescription": "Employees see their shifts, request time off and report hours on their phone."
+      },
+      "avoimet-vuorot": {
+        "title": "Open shifts",
+        "shortDescription": "Publish a shift without an assignee — employees sign up and you choose."
+      },
       "recurring-shifts": {
         "title": "Recurring shifts",
         "shortDescription": "Create recurring shifts once and copy them across weeks."
@@ -412,8 +433,18 @@
   "pages": {
     "features": {
       "title": "Features",
-      "subtitle": "Tools for shift planning, publishing and reporting for small businesses. Read more in our articles.",
-      "cta": "Try for free"
+      "eyebrow": "Features",
+      "heroTitle": "Everything you actually need to build a shift schedule",
+      "subtitle": "Plan shifts by dragging, publish by email and export hours to payroll. No heavy enterprise system — just the tools a small business uses every week.",
+      "heroImageAlt": "Shift schedule calendar view with a week of color-coded shifts per employee",
+      "cta": "Try for free",
+      "ctaSecondary": "See pricing",
+      "ctaNote": "Free for up to three employees. No credit card.",
+      "detailCtaTitle": "Try it yourself — schedule ready in 15 minutes",
+      "detailCtaText": "Registration takes a minute, and use with up to three employees is free.",
+      "readGuide": "Read the guide on the blog",
+      "relatedTitle": "See also these features",
+      "backToFeatures": "All features"
     },
     "resources": {
       "title": "Resources",

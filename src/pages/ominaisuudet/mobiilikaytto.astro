@@ -1,0 +1,41 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="mobile-manager"
+    metaTitle="Työvuorolista mobiilissa | Työvuorolista"
+    metaDescription="Suunnittele, muokkaa ja julkaise työvuorolistat suoraan puhelimesta. Työntekijät eivät tarvitse erillistä sovellusta."
+    title="Mobiilikäyttö: tee lista siellä missä olet"
+    lead="Esihenkilön työpiste on harvoin työpöytä. Työvuorolista toimii täysimittaisesti puhelimessa ja tabletissa: vuorojen suunnittelu, muutokset, tuntien kirjaus ja julkaisu."
+    heroImage="/featureImages/mobiili-kalenteri.png"
+    heroImageAlt="Työvuorolistan kalenteri puhelimen näytöllä"
+    heroLayout="phone"
+    benefits={[
+        {
+            icon: 'ic:baseline-smartphone',
+            title: 'Koko sovellus, ei riisuttu versio',
+            text: 'Sama kalenteri, samat toiminnot: luo, siirrä ja poista vuoroja, hallitse työntekijöitä ja julkaise listoja puhelimella.',
+        },
+        {
+            icon: 'ic:baseline-flash-on',
+            title: 'Muutokset hetkessä',
+            text: 'Sairastapaus lauantaiaamuna? Avaa lista puhelimessa, siirrä vuoro ja lähetä päivitetty lista — parissa minuutissa.',
+        },
+        {
+            icon: 'ic:baseline-mail',
+            title: 'Työntekijöille ei pakoteta sovellusta',
+            text: 'Työntekijä saa oman listansa sähköpostiin. Halutessaan hän voi käyttää selaimessa toimivaa Oma-portaalia — asennettavaa ei ole.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Ei asennuksia, ei versiopäivityksiä',
+            paragraphs: [
+                'Työvuorolista toimii selaimessa, joten se on aina ajan tasalla jokaisella laitteella. Käyttöliittymä mukautuu kosketusnäytöille, ja navigointi kulkee tutun valikon kautta.',
+                'Tabletilla suunnittelu on väljää, puhelimella nopeat muutokset ja tarkistukset hoituvat vaikka bussissa.',
+            ],
+        },
+    ]}
+    related={['oma-portaali', 'email-publish', 'recurring-shifts']}
+/>

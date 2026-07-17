@@ -1,0 +1,39 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="email-preview"
+    metaTitle="Sähköpostin esikatselu | Työvuorolista"
+    metaDescription="Näe täsmälleen, millaisen viestin työntekijä saa, ennen kuin painat Lähetä. Esikatselu näyttää jokaisen vastaanottajan henkilökohtaisen listan."
+    title="Sähköpostin esikatselu: tiedä mitä lähetät, ennen kuin lähetät"
+    lead="Lähettäminen kymmenille ihmisille jännittää turhaan, jos et näe viestiä etukäteen. Esikatselu näyttää jokaisen työntekijän saaman sähköpostin juuri sellaisena kuin se saapuu perille."
+    heroImage="/featureImages/sahkopostin-esikatselu.png"
+    heroImageAlt="Sähköpostin esikatseluikkuna, jossa työntekijän henkilökohtainen työvuorolista"
+    benefits={[
+        {
+            icon: 'ic:baseline-preview',
+            title: 'Vastaanottajakohtainen esikatselu',
+            text: 'Selaa viestit työntekijä kerrallaan: jokainen saa oman listansa, ja näet ne kaikki ennen lähetystä.',
+        },
+        {
+            icon: 'ic:baseline-fact-check',
+            title: 'Virheet kiinni ajoissa',
+            text: 'Väärä viikko, puuttuva vuoro tai unohtunut kommentti erottuu esikatselussa — ei perjantain viestitulvassa.',
+        },
+        {
+            icon: 'ic:baseline-tune',
+            title: 'Viesti kuntoon ennen lähtöä',
+            text: 'Lisää saateviesti ja tarkista vastaanottajat samassa näkymässä. Lähetä vasta kun kokonaisuus näyttää oikealta.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Luottamus omaan lähetykseen',
+            paragraphs: [
+                'Työvuorolistan sähköposti on monessa yrityksessä viikon tärkein viesti — sen perusteella ihmiset tulevat töihin. Esikatselu tekee lähetyksestä varman: näet lopputuloksen etukäteen etkä vasta työntekijän kysymyksestä.',
+            ],
+        },
+    ]}
+    related={['email-publish', 'personal-print', 'day-notes']}
+/>

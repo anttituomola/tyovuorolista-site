@@ -1,0 +1,46 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="templates"
+    metaTitle="Mallipohjat työvuorolistoille | Työvuorolista"
+    metaDescription="Tallenna onnistunut viikko mallipohjaksi ja käytä sitä uuden työvuorolistan pohjana. Uusi lista syntyy minuuteissa, ei tunneissa."
+    title="Mallipohjat: hyvä viikko kannattaa tehdä vain kerran"
+    lead="Useimmissa yrityksissä viikot toistavat samaa kaavaa. Tallenna toimiva lista mallipohjaksi, niin seuraava lista syntyy valmiista pohjasta — muokkaat vain poikkeukset."
+    heroImage="/featureImages/mallineet.png"
+    heroImageAlt="Uuden listan luonti, jossa valitaan käytettävä mallipohja pudotusvalikosta"
+    benefits={[
+        {
+            icon: 'ic:baseline-layers',
+            title: 'Mikä tahansa lista pohjaksi',
+            text: 'Tallenna paras viikkosi mallipohjaksi yhdellä napilla. Voit pitää useita pohjia eri tilanteisiin: normaaliviikko, sesonki, juhlapyhät.',
+        },
+        {
+            icon: 'ic:baseline-bolt',
+            title: 'Uusi lista minuuteissa',
+            text: 'Valitse mallipohja listaa luodessa, ja vuorot kopioituvat oikeille viikonpäiville. Sinä hienosäädät, sovellus tekee massatyön.',
+        },
+        {
+            icon: 'ic:baseline-edit',
+            title: 'Vapaasti muokattavissa',
+            text: 'Pohjasta luotu lista on tavallinen luonnos: siirrä, poista ja lisää vuoroja kuten aina. Pohja ei muutu.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Lopeta saman listan rakentaminen uudestaan ja uudestaan',
+            paragraphs: [
+                'Tyypillinen työvuorolista rakennetaan käytännössä samanlaisena joka jakso — silti moni tekee sen joka kerta tyhjästä. Mallipohja poistaa toiston: vuorot, ajat ja tekijät kopioituvat uudelle listalle oikeille päiville, ja lomat sekä sairaslomat jäävät automaattisesti pois.',
+                'Kesäterassi, jouluruuhka, hiljainen tammikuu? Tee kullekin oma pohja ja vaihda tilanteen mukaan.',
+            ],
+        },
+        {
+            title: 'Toimii yhdessä toistuvien vuorojen kanssa',
+            paragraphs: [
+                'Mallipohja tuo koko viikon rakenteen, toistuvat vuorot hoitavat yksittäisen tekijän rytmin listan sisällä. Yhdessä ne tekevät listan teosta muutaman minuutin työn.',
+            ],
+        },
+    ]}
+    related={['recurring-shifts', 'multi-select', 'teams']}
+/>

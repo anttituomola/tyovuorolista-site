@@ -1,6 +1,11 @@
 ---
 import { Icon } from 'astro-icon/components'
-import { featureIcons } from '../../data/siteContent'
+import {
+  featureIcons,
+  featureImages,
+  features,
+  featurePagePath,
+} from '../../data/siteContent'
 import { t } from '../../utils/translations'
 
 const {
@@ -8,20 +13,36 @@ const {
   href,
   locale = 'fi',
   showBlogNote = false,
+  showImage = true,
 } = Astro.props
 
+const feature = features.find((f) => f.id === featureId)
 const title = t(`features.items.${featureId}.title`, locale)
 const description = t(`features.items.${featureId}.shortDescription`, locale)
 const readMore = t('features.readMore', locale)
 const blogNote = t('features.blogLanguageNote', locale)
+const betaBadge = t('features.betaBadge', locale)
 const iconName = featureIcons[featureId] ?? 'ic:baseline-star'
+const image = showImage ? featureImages[featureId] : undefined
+const cardHref = href ?? (feature ? featurePagePath(feature) : '#')
 ---
 
-<a href={href} class="tyov-features__card">
-    <div class="tyov-features__iconBox" aria-hidden="true">
-        <Icon name={iconName} />
-    </div>
-    <h3 class="tyov-features__cardTitle">{title}</h3>
+<a href={cardHref} class="tyov-features__card">
+    {image ? (
+        <div class="tyov-features__imageBox" aria-hidden="true">
+            <img src={image} alt="" loading="lazy" />
+        </div>
+    ) : (
+        <div class="tyov-features__iconBox" aria-hidden="true">
+            <Icon name={iconName} />
+        </div>
+    )}
+    <h3 class="tyov-features__cardTitle">
+        {title}
+        {feature?.isNew && (
+            <span class="tyov-features__badge">{betaBadge}</span>
+        )}
+    </h3>
     <p class="tyov-features__cardDesc">{description}</p>
     {showBlogNote && locale !== 'fi' && (
         <p class="tyov-features__cardNote">{blogNote}</p>

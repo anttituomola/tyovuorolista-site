@@ -20,9 +20,8 @@ const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | '
             {highlighted.map((feature) => (
                 <FeatureCard
                     featureId={feature.id}
-                    href={feature.blogSlug}
                     locale={locale}
-                    showBlogNote={true}
+                    showBlogNote={locale !== 'fi'}
                 />
             ))}
         </div>

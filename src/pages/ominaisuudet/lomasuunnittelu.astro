@@ -1,0 +1,40 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="vacation-planning"
+    metaTitle="Lomasuunnittelu | Työvuorolista"
+    metaDescription="Suunnittele vuosilomat ja käsittele lomatoiveet samassa sovelluksessa, jossa teet työvuorolistat. Lomat näkyvät automaattisesti vuorosuunnittelussa."
+    title="Lomasuunnittelu: lomat ja vuorot vihdoin samassa järjestelmässä"
+    lead="Kun lomat elävät Excelissä ja vuorot toisessa järjestelmässä, joku on aina lomalla väärään aikaan. Työvuorolistassa lomatoiveet, vahvistetut lomat ja vuorosuunnittelu ovat sama näkymä."
+    heroImage="/featureImages/lomasuunnittelu.png"
+    heroImageAlt="Lomasuunnittelunäkymä, jossa työntekijöiden lomat ja lomatoiveet aikajanalla"
+    benefits={[
+        {
+            icon: 'ic:baseline-wb-sunny',
+            title: 'Koko tiimin lomat yhdellä silmäyksellä',
+            text: 'Aikajana näyttää kaikkien lomat ja toiveet rinnakkain — päällekkäisyydet ja katvekuukaudet erottuvat heti.',
+        },
+        {
+            icon: 'ic:baseline-rule',
+            title: 'Toive ja vahvistus erikseen',
+            text: 'Lomatoive on eri asia kuin myönnetty loma. Näet kumpi on kumpi, ja vahvistat toiveet kun kokonaisuus on selvillä.',
+        },
+        {
+            icon: 'ic:baseline-event-busy',
+            title: 'Lomat mukana vuorosuunnittelussa',
+            text: 'Lomalla oleva työntekijä näkyy kalenterissa — vahinkovuoroa ei pääse syntymään huomaamatta.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Kesälomat kasaan ilman erillistä lomaexceliä',
+            paragraphs: [
+                'Kerää toiveet, katso kokonaiskuva ja vahvista lomat suoraan sovelluksessa. Yhteenveto näyttää kertyneet lomapäivät työntekijöittäin, ja lomasuunnitelman voi tulostaa ilmoitustaululle tai toimittaa palkanlaskentaan.',
+                'Kun loma on merkitty, se seuraa mukana kaikessa: listoissa, tulosteissa ja tuntiraporteissa.',
+            ],
+        },
+    ]}
+    related={['day-notes', 'hours-recording', 'oma-portaali']}
+/>

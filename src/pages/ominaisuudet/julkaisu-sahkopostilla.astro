@@ -1,0 +1,48 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="email-publish"
+    metaTitle="Työvuorolistan julkaisu sähköpostilla | Työvuorolista"
+    metaDescription="Julkaise työvuorolista yhdellä napilla: jokainen työntekijä saa henkilökohtaisen listansa sähköpostiin. Ei pakollista sovellusta työntekijöille."
+    title="Julkaisu sähköpostilla: jokaiselle oma lista, yhdellä napilla"
+    lead="Kun lista on valmis, painat Julkaise — ja jokainen työntekijä saa sähköpostiinsa henkilökohtaisen listan omista vuoroistaan. Ei kuvakaappauksia ryhmächättiin, ei ilmoitustaulun tulkintaa."
+    heroImage="/featureImages/julkaisu.png"
+    heroImageAlt="Julkaisunäkymä, jossa valmis työvuorolista ja julkaisu- sekä lähetyspainikkeet"
+    benefits={[
+        {
+            icon: 'ic:baseline-send',
+            title: 'Henkilökohtainen lista jokaiselle',
+            text: 'Työntekijä näkee omat vuoronsa selkeänä listana — ja koko tiimin listan sen perässä. Ei epäselvyyttä siitä, kuka tulee ja milloin.',
+        },
+        {
+            icon: 'ic:baseline-apps',
+            title: 'Ei pakollista sovellusta',
+            text: 'Sähköposti toimii jokaisella. Työntekijän ei tarvitse asentaa mitään eikä opetella uutta järjestelmää.',
+        },
+        {
+            icon: 'ic:baseline-image',
+            title: 'Myös kuvana ja PDF:nä',
+            text: 'Tarvitsetko listan WhatsAppiin tai ilmoitustaululle? Tallenna kuva tai PDF samasta näkymästä.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Julkaisu on nappi, ei prosessi',
+            paragraphs: [
+                'Merkitse lista julkaistuksi ja lähetä sähköpostit samasta näkymästä. Sovellus kertoo, jos jonkun sähköposti puuttuu tai viesti ei mene perille — tieto ei jää arvailun varaan.',
+                'Muuttuiko lista julkaisun jälkeen? Lähetä päivitetty versio samalla tavalla. Työntekijöille menee aina tuorein tieto.',
+            ],
+        },
+        {
+            title: 'Esikatselu näyttää viestin ennen lähetystä',
+            paragraphs: [
+                'Ennen lähetystä voit avata esikatselun ja nähdä täsmälleen sen viestin, jonka työntekijä saa. Erityisen hyödyllinen ensimmäisillä kerroilla — ja aina, kun listassa on jotain tavallisesta poikkeavaa.',
+            ],
+            image: '/featureImages/sahkopostin-esikatselu.png',
+            imageAlt: 'Sähköpostin esikatselu ennen työvuorolistan lähettämistä',
+        },
+    ]}
+    related={['email-preview', 'personal-print', 'oma-portaali']}
+/>

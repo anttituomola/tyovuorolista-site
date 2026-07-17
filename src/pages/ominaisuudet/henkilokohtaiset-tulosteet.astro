@@ -1,0 +1,39 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="personal-print"
+    metaTitle="Henkilökohtaiset työvuorolistatulosteet | Työvuorolista"
+    metaDescription="Tulosta koko tiimin lista tai jokaiselle työntekijälle oma sivu. Selkeä tuloste taukohuoneen seinälle tai mukaan kotiin."
+    title="Henkilökohtaiset tulosteet: paperilista niille, jotka sitä kaipaavat"
+    lead="Kaikki eivät lue sähköpostia, ja taukohuoneen seinä on edelleen paras ilmoitustaulu. Tulosta koko lista, henkilökohtaiset sivut tai molemmat — suoraan sovelluksesta."
+    heroImage="/featureImages/tulosteet.png"
+    heroImageAlt="Tulostusikkuna, jossa valittavana koko lista tai henkilökohtaiset listat"
+    benefits={[
+        {
+            icon: 'ic:baseline-print',
+            title: 'Kolme tulostustapaa',
+            text: 'Koko lista, henkilökohtaiset sivut työntekijöittäin — tai molemmat samalla kertaa.',
+        },
+        {
+            icon: 'ic:baseline-person',
+            title: 'Oma sivu jokaiselle',
+            text: 'Henkilökohtaisessa tulosteessa on vain omat vuorot: selkeä viedä kotiin jääkaapin oveen.',
+        },
+        {
+            icon: 'ic:baseline-picture-as-pdf',
+            title: 'Siisti lopputulos',
+            text: 'Tulosteet on muotoiltu luettaviksi: värit, kellonajat ja kommentit paikoillaan ilman säätämistä.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Sähköposti ja paperi eivät sulje toisiaan pois',
+            paragraphs: [
+                'Sama julkaisunäkymä hoitaa molemmat: lähetä listat sähköpostilla ja tulosta paperiversiot niille, jotka niitä haluavat. Tieto on identtistä, koska se tulee samasta listasta.',
+            ],
+        },
+    ]}
+    related={['email-publish', 'email-preview', 'vacation-planning']}
+/>

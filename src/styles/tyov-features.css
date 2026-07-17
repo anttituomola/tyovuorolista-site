@@ -218,3 +218,478 @@
 .resourcesCatalog + .footer {
   margin-top: 0;
 }
+
+/* ---------------------------------------------------------------- */
+/* Visual refresh: screenshot cards, hero, badges                    */
+/* ---------------------------------------------------------------- */
+
+.tyov-features__grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1024px) {
+  .tyov-features__grid--three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .tyov-features__grid--three {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Taller screenshot thumbs on cards */
+.tyov-features__imageBox {
+  height: 9rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.tyov-features__badge {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.1rem 0.5rem;
+  vertical-align: middle;
+  background: var(--brand-secondary, #33bde9);
+  border-radius: 999px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+/* Browser-style frame around app screenshots */
+.tyov-screenshotFrame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  box-shadow: 0 18px 45px rgba(45, 58, 53, 0.16);
+  padding-top: 1.65rem;
+}
+
+.tyov-screenshotFrame::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.65rem;
+  background: #edece8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.tyov-screenshotFrame::after {
+  content: '';
+  position: absolute;
+  top: 0.55rem;
+  left: 0.8rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #d3d1cb;
+  box-shadow:
+    0.95rem 0 0 #d3d1cb,
+    1.9rem 0 0 #d3d1cb;
+}
+
+.tyov-screenshotFrame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Features landing hero */
+.tyov-featuresHero {
+  box-sizing: border-box;
+  width: auto;
+  margin-inline: calc(50% - 50vw);
+  padding-inline: max(1.25rem, calc(50vw - 50%));
+  padding-block: 3.5rem 0;
+  background: linear-gradient(180deg, #f6f6f6 0%, #eef1ee 100%);
+}
+
+.tyov-featuresHero__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tyov-featuresHero__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand-primary);
+}
+
+.tyov-featuresHero__title {
+  margin: 0 auto 1rem;
+  max-width: 720px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--tummanvihrea);
+}
+
+.tyov-featuresHero__subtitle {
+  margin: 0 auto 1.6rem;
+  max-width: 640px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--harmaa);
+}
+
+.tyov-featuresHero__ctaRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.tyov-featuresHero__ctaNote {
+  margin: 0.8rem 0 0;
+  font-size: 0.875rem;
+  color: var(--harmaa);
+}
+
+.tyov-featuresHero__media {
+  max-width: 980px;
+  margin: 2.5rem auto -4.5rem;
+}
+
+/* Space under the overlapping hero screenshot */
+.tyov-features--catalog.tyov-features--underHero {
+  padding-top: 7.5rem;
+}
+
+.tyov-features--catalog .tyov-features__categoryDesc {
+  margin: 0 0 1.25rem;
+  max-width: 620px;
+  font-size: 0.9875rem;
+  line-height: 1.55;
+  color: var(--harmaa);
+}
+
+/* CTA band shared by the catalog + detail pages */
+.tyov-featureDetail__ctaBand {
+  box-sizing: border-box;
+  width: auto;
+  margin-inline: calc(50% - 50vw);
+  padding-inline: max(1.25rem, calc(50vw - 50%));
+  padding-block: 3.5rem;
+  background: var(--tummanvihrea);
+}
+
+.tyov-featureDetail__ctaBandInner {
+  text-align: center;
+}
+
+.tyov-featureDetail__ctaTitle {
+  margin: 0 0 0.6rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.tyov-featureDetail__ctaText {
+  margin: 0 auto 1.4rem;
+  max-width: 520px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* ---------------------------------------------------------------- */
+/* Feature detail pages (/ominaisuudet/*)                            */
+/* ---------------------------------------------------------------- */
+
+.tyov-featureDetail__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+
+.tyov-featureDetail__hero {
+  box-sizing: border-box;
+  width: auto;
+  margin-inline: calc(50% - 50vw);
+  padding-inline: max(1.25rem, calc(50vw - 50%));
+  padding-block: 3rem 3.5rem;
+  background: linear-gradient(180deg, #f6f6f6 0%, #eef1ee 100%);
+}
+
+.tyov-featureDetail__heroInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.tyov-featureDetail__breadcrumb {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.875rem;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__breadcrumb a {
+  color: var(--brand-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tyov-featureDetail__breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.tyov-featureDetail__title {
+  margin: 0 0 0.9rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--tummanvihrea);
+}
+
+.tyov-featureDetail__lead {
+  margin: 0 0 1.2rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__betaNote {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: 0 0 1.2rem;
+  padding: 0.7rem 0.9rem;
+  background: rgba(51, 189, 233, 0.12);
+  border: 1px solid rgba(51, 189, 233, 0.35);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--tummanvihrea);
+}
+
+.tyov-featureDetail__betaNote svg {
+  flex-shrink: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.1rem;
+  color: var(--brand-primary);
+}
+
+.tyov-featureDetail__ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.tyov-featureDetail__ctaRow--center {
+  justify-content: center;
+}
+
+.tyov-featureDetail__secondaryLink {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--brand-primary);
+  text-decoration: none;
+}
+
+.tyov-featureDetail__secondaryLink:hover {
+  text-decoration: underline;
+}
+
+.tyov-featureDetail__ctaBand .tyov-featureDetail__secondaryLink {
+  color: #9fd8ef;
+}
+
+.tyov-featureDetail__ctaNote {
+  margin: 0.8rem 0 0;
+  font-size: 0.875rem;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__heroMedia--phone {
+  display: flex;
+  justify-content: center;
+}
+
+.tyov-featureDetail__heroMedia--phone .tyov-screenshotFrame,
+.tyov-featureDetail__sectionMedia--phone .tyov-screenshotFrame {
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 22px;
+  padding-top: 1.1rem;
+}
+
+.tyov-featureDetail__heroMedia--phone .tyov-screenshotFrame::before,
+.tyov-featureDetail__sectionMedia--phone .tyov-screenshotFrame::before {
+  height: 1.1rem;
+}
+
+.tyov-featureDetail__heroMedia--phone .tyov-screenshotFrame::after,
+.tyov-featureDetail__sectionMedia--phone .tyov-screenshotFrame::after {
+  top: 0.35rem;
+  left: 50%;
+  width: 2.4rem;
+  height: 0.35rem;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  box-shadow: none;
+}
+
+.tyov-featureDetail__benefits {
+  padding-block: 3rem 1rem;
+}
+
+.tyov-featureDetail__benefitGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.tyov-featureDetail__benefit {
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tyov-featureDetail__benefitTitle {
+  margin: 0 0 0.4rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--tummanvihrea);
+}
+
+.tyov-featureDetail__benefitText {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__section {
+  padding-block: 3rem;
+}
+
+.tyov-featureDetail__section--alt {
+  box-sizing: border-box;
+  width: auto;
+  margin-inline: calc(50% - 50vw);
+  padding-inline: max(1.25rem, calc(50vw - 50%));
+  background: var(--section-alt-bg, #efefec);
+}
+
+.tyov-featureDetail__sectionInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.tyov-featureDetail__sectionInner--flip {
+  direction: rtl;
+}
+
+.tyov-featureDetail__sectionInner--flip > * {
+  direction: ltr;
+}
+
+.tyov-featureDetail__sectionInner--noImage {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+}
+
+.tyov-featureDetail__sectionTitle {
+  margin: 0 0 0.8rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--tummanvihrea);
+}
+
+.tyov-featureDetail__sectionText {
+  margin: 0 0 0.8rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__bullets {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--harmaa);
+}
+
+.tyov-featureDetail__bullets li + li {
+  margin-top: 0.25rem;
+}
+
+.tyov-featureDetail__related {
+  padding-block: 3rem 4rem;
+}
+
+.tyov-featureDetail__relatedTitle {
+  margin: 0 0 1.25rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--tummanvihrea);
+}
+
+@media (max-width: 900px) {
+  .tyov-featureDetail__heroInner,
+  .tyov-featureDetail__sectionInner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .tyov-featuresHero__title {
+    font-size: 2rem;
+  }
+
+  .tyov-featureDetail__title {
+    font-size: 1.9rem;
+  }
+
+  .tyov-featureDetail__benefitGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tyov-featuresHero__media {
+    margin-bottom: -3rem;
+  }
+
+  .tyov-features--catalog.tyov-features--underHero {
+    padding-top: 5.5rem;
+  }
+}

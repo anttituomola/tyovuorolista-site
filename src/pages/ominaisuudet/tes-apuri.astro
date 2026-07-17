@@ -1,0 +1,64 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="tes-apuri"
+    metaTitle="TES-apuri: työehtosopimus mukana suunnittelussa | Työvuorolista"
+    metaDescription="Sovellus tarkistaa työvuorot työehtosopimusta ja työaikalakia vasten jo suunnitteluvaiheessa. Tunnit luokitellaan valmiiksi palkanlaskentaan. Ensimmäisenä tuettuna MaRa-TES."
+    title="TES-apuri: työehtosopimus tarkistaa listasi puolestasi"
+    lead="Vuorokausilevot, vuoron pituudet, jakson tuntirajat, julkaisun määräajat — TES:n muistaminen ulkoa on kohtuuton vaatimus. TES-apuri tarkistaa listan sitä mukaa kun suunnittelet ja kertoo, mihin kannattaa kiinnittää huomiota."
+    heroImage="/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png"
+    heroImageAlt="Työvuorokalenteri, jossa TES-varoitusmerkki ja lakivaroituksen sisältävä työvuoro"
+    benefits={[
+        {
+            icon: 'ic:baseline-verified-user',
+            title: 'Varoitukset suunnitellessa',
+            text: 'Kolme tasoa: työaikalaki (punainen), TES-määräys (oranssi) ja huomio (sininen). Näet heti, mistä on kyse ja kenen kohdalla.',
+        },
+        {
+            icon: 'ic:baseline-lock-open',
+            title: 'Ei koskaan estä tallennusta',
+            text: 'Paikallinen sopimus tai työntekijän suostumus voi tehdä poikkeamasta sallitun. Apuri huomauttaa — päätös on aina sinun.',
+        },
+        {
+            icon: 'ic:baseline-calculate',
+            title: 'Tunnit valmiiksi luokiteltuina',
+            text: 'Lisätyöt, ylityöt, sunnuntailisät ja vuosivapaakertymä lasketaan automaattisesti ja siirtyvät palkkaraporttiin.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'MaRa-katalogi tarkistaa muun muassa',
+            paragraphs: [
+                'Valitset toimipaikallesi työehtosopimuksen, ja kalenteri tarkistaa listan sitä vasten reaaliajassa. Huomautukset kootaan paneeliin, joka kertoo työntekijäkohtaisesti mistä on kyse ja minä päivänä.',
+            ],
+            bullets: [
+                'Vuorokausilepo (11 h, sovittaessa 8 h)',
+                'Vuoron vähimmäis- ja enimmäispituus (4 h / 10 h)',
+                'V- ja X-vapaapäivät sekä enintään 7 työpäivää putkeen',
+                'Kolmiviikkoisjakson tuntirajat (112,5 h / 120 h)',
+                'Työvuorolistan julkaisun määräaika (viikko ennen jakson alkua)',
+            ],
+            image: '/blogPostImages/tes-tuki/tes-huomautukset-paneeli.png',
+            imageAlt: 'TES-huomautukset-paneeli, jossa työaikalakivaroitus vuorokausilevosta',
+        },
+        {
+            title: 'Lisätyö ja ylityö eriteltyinä — oikein',
+            paragraphs: [
+                'MaRa:ssa jakson tunnit 112,5–120 ovat lisätyötä yksinkertaisella tuntipalkalla, ja vasta sen jälkeen alkaa ylityö. Tämän moni lähde kertoo väärin — sovellus laskee sen oikein, samoin V- ja X-päivien korotukset, sunnuntain kahdennetut lisät ja vuosivapaakertymän.',
+                'Kategoriat siirtyvät sellaisenaan palkkaraporttiin (CSV, PDF ja Procountor-muoto), ja palkkalajikoodit voi mapata omaan palkanlaskentaan.',
+            ],
+            image: '/blogPostImages/tes-tuki/tes-jakson-tunnit.png',
+            imageAlt: 'Tuntien kirjaus jaksovalinnalla: työntekijäkortit, joissa lisätyö ja ylityö eriteltyinä',
+        },
+        {
+            title: 'Apuväline, ei automaattiohjaus',
+            paragraphs: [
+                'TES-apuri ei tee päätöksiä puolestasi eikä takaa vaatimustenmukaisuutta — työehtosopimusten tulkinta on lopulta työnantajan vastuulla. Sen tehtävä on varmistaa, ettei mikään jää huomaamatta.',
+                'TES-varoitukset ovat käytettävissä kaikissa tilauksissa ilman lisämaksua.',
+            ],
+        },
+    ]}
+    related={['hours-recording', 'payroll-report', 'vacation-planning']}
+/>

@@ -1,0 +1,46 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="hours-recording"
+    metaTitle="Toteutuneiden tuntien kirjaus | Työvuorolista"
+    metaDescription="Kirjaa toteutuneet työtunnit suoraan työvuorolistaan ja vertaa suunniteltuun. Sairaslomat ja muutokset talteen samalla."
+    title="Tuntien kirjaus: suunnitelmasta toteumaan ilman erillistä exceliä"
+    lead="Lista kertoo mitä piti tapahtua — palkka maksetaan siitä mitä tapahtui. Työvuorolistassa kirjaat toteutuneet tunnit suoraan vuoroille, ja erotus suunniteltuun näkyy heti."
+    heroImage="/featureImages/tuntien-kirjaus.png"
+    heroImageAlt="Tuntien kirjaus -näkymä, jossa työntekijöiden suunnitellut ja toteutuneet tunnit"
+    benefits={[
+        {
+            icon: 'ic:baseline-schedule',
+            title: 'Toteuma vuoron viereen',
+            text: 'Suunniteltu vuoro on jo valmiina — kirjaat vain poikkeamat. Ajallaan menneet vuorot kuittaantuvat sellaisinaan.',
+        },
+        {
+            icon: 'ic:baseline-sick',
+            title: 'Sairaslomat ja peruuntumiset',
+            text: 'Merkitse sairasloma tai toteutumaton vuoro suoraan listaan — tieto säilyy myös raportoinnissa.',
+        },
+        {
+            icon: 'ic:baseline-functions',
+            title: 'Summat valmiiksi laskettuna',
+            text: 'Näet työntekijittäin kirjatut ja puuttuvat tunnit valitulta jaksolta. Puuttuvat kirjaukset erottuvat heti.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Työntekijä voi ilmoittaa tunnit itse',
+            paragraphs: [
+                'Jos Oma-portaali on käytössä, työntekijä ilmoittaa toteutuneet ajat, sairasloman tai peruuntuneen vuoron suoraan puhelimestaan. Ilmoitukset kertyvät Odottaa hyväksyntää -välilehdelle, ja sinä käsittelet ne yhdellä tai kahdella klikkauksella.',
+                'Hyväksytyt tunnit ovat samat, joita palkkaraportti käyttää — kukaan ei kirjoita samoja lukuja kahteen järjestelmään.',
+            ],
+        },
+        {
+            title: 'Jakson tunnit aina ajan tasalla',
+            paragraphs: [
+                'Valitse tarkastelujakso suoraan listan mukaan tai kalenterista. Tuntien kokonaiskuva pysyy käsissä pitkin jaksoa, ei vasta palkanmaksun alla.',
+            ],
+        },
+    ]}
+    related={['payroll-report', 'oma-portaali', 'tes-apuri']}
+/>

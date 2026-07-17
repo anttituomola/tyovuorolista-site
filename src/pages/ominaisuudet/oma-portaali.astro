@@ -1,0 +1,50 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="oma-portaali"
+    metaTitle="Oma-portaali työntekijöille | Työvuorolista"
+    metaDescription="Työntekijän oma näkymä: omat vuorot, vapaatoiveet ja toteutuneiden tuntien ilmoittaminen suoraan puhelimesta. Ei asennettavaa sovellusta."
+    title="Oma-portaali: työntekijän vuorot, toiveet ja tunnit yhdessä paikassa"
+    lead="Oma-portaali on työntekijän oma näkymä selaimessa: omat vuorot aina ajan tasalla, vapaatoiveen jättäminen ja toteutuneiden tuntien ilmoittaminen — puhelimella, ilman asennettavaa sovellusta."
+    heroImage="/blogPostImages/oma-portaali/tyontekija-vuorot.png"
+    heroImageAlt="Oma-portaali puhelimen näytöllä: työntekijän omat vuorot kalenterissa ja listana"
+    heroLayout="phone"
+    benefits={[
+        {
+            icon: 'ic:baseline-person',
+            title: 'Omat vuorot aina taskussa',
+            text: 'Työntekijä näkee kaikki julkaistut vuoronsa yhdestä osoitteesta — myös menneet. Kirjautuminen sähköpostilinkillä, ei salasanoja.',
+        },
+        {
+            icon: 'ic:baseline-schedule',
+            title: 'Tunti-ilmoitus suoraan vuorolta',
+            text: 'Jäikö vuoro pidemmäksi tai sairastuitko? Ilmoitus lähtee vuorolta parilla napautuksella, ja sinä hyväksyt sen yhdellä.',
+        },
+        {
+            icon: 'ic:baseline-free-cancellation',
+            title: 'Vapaatoiveet talteen',
+            text: 'Toive vapaapäivästä kirjautuu suoraan suunnittelukalenteriisi — ei enää lappuja ja viestiketjuja.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Vähemmän kysymyksiä, vähemmän lappuja',
+            paragraphs: [
+                '"Milloin olen töissä?" ja "muistathan että tein ylimääräisen tunnin" ovat viestejä, joita esihenkilön ei tarvitse enää käsitellä käsin. Portaali vastaa ensimmäiseen ja tunti-ilmoitukset toiseen.',
+                'Työntekijän ilmoittamat tunnit kertyvät Tuntien kirjaus -näkymään hyväksyntää odottamaan. Hyväksytyt tunnit siirtyvät suoraan palkkaraportin pohjaksi — sama tieto kulkee koko putken läpi.',
+            ],
+            image: '/blogPostImages/oma-portaali/tuntien-hyvaksynta.png',
+            imageAlt: 'Tuntien kirjaus -näkymän Odottaa hyväksyntää -välilehti, jossa työntekijän tunti-ilmoitus',
+        },
+        {
+            title: 'Kevyt työntekijälle, hallittu sinulle',
+            paragraphs: [
+                'Kutsut työntekijät portaaliin yksitellen — sinä päätät, kuka portaalia käyttää. Sähköpostilla lähetettävä lista toimii kuten ennenkin, portaali täydentää sitä.',
+                'Portaali on suunniteltu puhelimelle: se toimii selaimessa eikä vaadi asennusta tai käyttäjätunnusten hallintaa.',
+            ],
+        },
+    ]}
+    related={['avoimet-vuorot', 'hours-recording', 'email-publish']}
+/>

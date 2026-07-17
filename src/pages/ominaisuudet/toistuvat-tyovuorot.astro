@@ -1,0 +1,51 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="recurring-shifts"
+    metaTitle="Toistuvat työvuorot | Työvuorolista"
+    metaDescription="Luo sama työvuoro kerralla koko listalle: arkipäivät, viikoittain tai oma rytmi. Esikatselu näyttää kaikki luotavat vuorot ennen tallennusta."
+    title="Toistuvat työvuorot: syötä vuoro kerran, älä kahtakymmentä kertaa"
+    lead="Jos sama työntekijä tekee samaa vuoroa viikosta toiseen, sen naputtelu käsin on hukattua aikaa. Toistuvilla vuoroilla luot koko listan rytmin yhdellä tallennuksella."
+    heroImage="/featureImages/toistuvat-vuorot.png"
+    heroImageAlt="Työvuoron luonti-ikkuna, jossa Toista vuoro listan aikana -valinta ja esikatselu luotavista vuoroista"
+    benefits={[
+        {
+            icon: 'ic:baseline-autorenew',
+            title: 'Kuusi valmista rytmiä',
+            text: 'Arkipäivät, joka päivä, kerran viikossa, joka toinen viikko — tai oma väli, esimerkiksi joka kolmas päivä.',
+        },
+        {
+            icon: 'ic:baseline-preview',
+            title: 'Esikatselu ennen tallennusta',
+            text: 'Näet listan kaikista luotavista vuoroista päivämäärineen ennen kuin mitään tallennetaan. Ei yllätyksiä kalenterissa.',
+        },
+        {
+            icon: 'ic:baseline-check-circle',
+            title: 'Päällekkäisyydet tarkistetaan',
+            text: 'Jokainen vuoro tarkistetaan erikseen. Jos jokin päivä ei onnistu, muut luodaan silti — ja näet mitä jäi väliin.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Viikon rutiinit paikalleen minuutissa',
+            paragraphs: [
+                'Luo vuoro normaalisti, kytke päälle Toista vuoro listan aikana ja valitse rytmi. Sovellus luo vuorot listan loppuun asti — kahden viikon listalle jopa kymmenen vuoroa yhdellä tallennuksella.',
+                'Toistuvuus toimii myös vuoroa muokatessa: jos huomaat, että aamuvuoro toistuu joka viikko, voit monistaa sen jälkikäteen.',
+            ],
+            bullets: [
+                'Jokainen arkipäivä (ma–pe)',
+                'Kerran viikossa tai joka toinen viikko',
+                'Mukautettu väli: joka 2.–30. päivä tai viikko',
+            ],
+        },
+        {
+            title: 'Yhdessä mallipohjien kanssa lista syntyy hetkessä',
+            paragraphs: [
+                'Toistuvat vuorot hoitavat yksittäisen työntekijän rytmin, mallipohjat koko viikon rakenteen. Kun molemmat ovat käytössä, uusi lista on valmis muutamassa minuutissa — ja sinulle jää aikaa hienosäätöön.',
+            ],
+        },
+    ]}
+    related={['templates', 'multi-select', 'day-notes']}
+/>

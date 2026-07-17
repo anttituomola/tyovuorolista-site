@@ -277,14 +277,35 @@
   },
   "features": {
     "readMore": "Lue lisää",
-    "blogLanguageNote": "Artikkeli suomeksi",
+    "blogLanguageNote": "Sivu suomeksi",
+    "betaBadge": "Uusi",
     "categories": {
       "planning": "Suunnittelu",
       "publishing": "Julkaisu",
-      "reporting": "Raportointi",
+      "workers": "Työntekijöille",
+      "reporting": "Tunnit ja raportointi",
       "teams": "Tiimit"
     },
+    "categoryDescriptions": {
+      "planning": "Työvuorolista syntyy raahaamalla — ja toistuvat vuorot, mallipohjat ja monivalinta hoitavat rutiinit puolestasi.",
+      "publishing": "Kun lista on valmis, jokainen työntekijä saa oman listansa sähköpostiin yhdellä napin painalluksella.",
+      "workers": "Työntekijä näkee vuoronsa, ilmoittaa tuntinsa ja nappaa avoimia vuoroja omasta portaalistaan.",
+      "reporting": "Toteutuneet tunnit kirjataan sovellukseen ja siirtyvät valmiina raporttina palkanlaskentaan.",
+      "teams": "Sali, keittiö, kaksi toimipistettä? Jokaisella tiimillä on omat listansa, ja työntekijöitä voi jakaa tiimien kesken."
+    },
     "items": {
+      "tes-apuri": {
+        "title": "TES-apuri",
+        "shortDescription": "Sovellus tarkistaa vuorot työehtosopimusta ja työaikalakia vasten jo suunnitteluvaiheessa."
+      },
+      "oma-portaali": {
+        "title": "Oma-portaali",
+        "shortDescription": "Työntekijän oma näkymä: vuorot, vapaatoiveet ja tunti-ilmoitukset puhelimella."
+      },
+      "avoimet-vuorot": {
+        "title": "Avoimet vuorot",
+        "shortDescription": "Julkaise vuoro ilman tekijää — työntekijät ilmoittautuvat ja sinä valitset."
+      },
       "recurring-shifts": {
         "title": "Toistuvat työvuorot",
         "shortDescription": "Luo toistuvia vuoroja kerran ja kopioi ne usealle viikolle."
@@ -417,8 +438,18 @@
   "pages": {
     "features": {
       "title": "Ominaisuudet",
-      "subtitle": "Työvuorosuunnittelun, julkaisun ja raportoinnin työkalut PK-yritykselle. Lue lisää artikkeleista.",
-      "cta": "Kokeile ilmaiseksi"
+      "eyebrow": "Ominaisuudet",
+      "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
+      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Ei raskasta enterprise-järjestelmää — vaan työkalut, joita PK-yritys käyttää joka viikko.",
+      "heroImageAlt": "Työvuorolistan kalenterinäkymä, jossa viikon työvuorot väreittäin työntekijöille",
+      "cta": "Kokeile ilmaiseksi",
+      "ctaSecondary": "Katso hinnoittelu",
+      "ctaNote": "Ilmainen kolmella työntekijällä. Ei luottokorttia.",
+      "detailCtaTitle": "Kokeile itse — lista valmiina vartissa",
+      "detailCtaText": "Rekisteröityminen vie minuutin, eikä alle neljän työntekijän käyttö maksa mitään.",
+      "readGuide": "Lue käyttöohje blogista",
+      "relatedTitle": "Katso myös nämä ominaisuudet",
+      "backToFeatures": "Kaikki ominaisuudet"
     },
     "resources": {
       "title": "Resurssit",
