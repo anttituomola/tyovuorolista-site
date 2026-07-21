@@ -10,10 +10,7 @@ image:
 tags: ['TES', 'MaRa', 'tasoittumisjärjestelmä', 'työaika', 'ravintola-ala']
 ---
 
-*Päivitetty 21.7.2026: Tuntilaskennassa näet nyt **kaikki valitulle
-aikavälille osuvat tasoittumiskaudet** allekkain. Voit siis tarkistaa
-koko vuoden saldot asettamalla aloitus- ja lopetuspäivän vuoden
-reunoille.*
+
 
 **Lyhyesti:** Tasoittumisjärjestelmä (MaRa-TES 12 §) antaa kuukausipalkkaisen
 kokoaikaisen työntekijän työajan joustaa jaksoittain enemmän kuin
@@ -102,6 +99,23 @@ TS-päivät:
 - rinnastetaan työpäivään V- ja X-päiviä, vuosilomaa ja osakuukauden palkkaa
   laskettaessa
 - **eivät saa mennä päällekkäin** muiden vapaapäivien tai vuosiloman kanssa
+
+## Poissaolojen vaikutus: loma ja sairausloma luetaan tehdyiksi tunneiksi
+
+TES 12 § 2 kohdan mukaan poissaoloajalta luetaan tehdyiksi työtunneiksi ne
+tunnit, jotka työvuorolistaan oli merkitty. Käytännössä tämä tarkoittaa
+kahta asiaa saldon kannalta:
+
+- **Sairausloma:** sairaspäivältä luetaan mukaan listaan merkityt tunnit.
+  Jos vuorossa oli 8 tuntia, saldoon kertyy 8 tuntia, vaikka työntekijä ei
+  ollut töissä.
+- **Vuosiloma:** loman ajalta luetaan 7,5 tuntia jokaiselta arkipäivältä
+  (ma-pe). Viikonloput eivät kerrytä, koska ne eivät ole työaikaa. Tämä on
+  sama lyhennysvaikutus, joka vuosilomalla on myös tavallisessa 112,5 tunnin
+  jaksossa (TES 27 §).
+
+Saldonäkymä huomioi molemmat automaattisesti, kun lomat ja sairauslomat on
+merkitty listaan normaalisti. Lomaviikko ei siis paina saldoa miinukselle.
 
 ## Lisä- ja ylityö kesken jakson: raja on korkeampi kuin tavallisessa jaksossa
 
@@ -216,6 +230,8 @@ Kun tasoittuminen on päällä, sovellus:
   vaikka tuntikertymä sen sallisi
 - huomioi VV-päivät kauden enimmäismäärässä automaattisesti, samoin kuin
   yksittäisessä jaksossa
+- laskee sairausloman listatut tunnit ja vuosiloman arkipäivät (7,5 h per
+  päivä) saldoon mukaan TES:n mukaisesti
 
 ### Saldojen lukeminen Tuntilaskennassa
 
@@ -231,6 +247,11 @@ enimmäismäärään sekä annetut TS-päivät.
 Jos haluat käydä läpi koko vuoden, aseta päivämäärät vuoden alusta loppuun.
 Silloin saat kaikki kaudet listaan ja voit tarkistaa saldot kerralla.
 Kausi luokitellaan aina kokonaisuutena, vaikka valitsisit vain osan siitä.
+
+Jakson tunnit ja saldo sisältävät myös loma- ja sairauslomapäivien
+hyvitykset: sairauslomalta luetaan listaan merkityt tunnit ja vuosiloman
+arkipäiviltä 7,5 tuntia per päivä. Jos saldo näyttää miinusta, kyse on
+yleensä vain siitä, että jaksoa ei ole vielä suunniteltu loppuun.
 
 Laajennettu 9 jakson / 136 tunnin malli otetaan käyttöön TES-asetusten
 **Paikalliset sopimukset** -osiosta, jonne kirjataan poikkeaman peruste,

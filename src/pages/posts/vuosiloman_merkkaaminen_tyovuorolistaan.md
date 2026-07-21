@@ -25,6 +25,8 @@ Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikk
 
 Voit myös käyttää sovelluksen [lomasuunnittelu-ominaisuutta](/posts/lomasuunnittelu) helpottamaan lomien hallintaa ja suunnittelua.
 
+Jos toimipaikallasi on käytössä [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla), lomamerkinnät vaikuttavat myös tuntisaldoon: vuosiloman arkipäiviltä luetaan 7,5 tuntia per päivä tehdyiksi työtunneiksi TES:n mukaisesti. Siksi lomat kannattaa aina merkitä listaan, vaikka ne olisi sovittu muutenkin.
+
 ## Entä palkattomat vapaat, jotka eivät ole vuosilomaa?
 Osa-aikaisella työntekijällähän päivä voidaan vain jättää tyhjäksi. Tämä on myös hyvää riskien hallintaa: mikäli työntekijä kuitenkin päätyy hommiin päivänä, joka on suunniteltu hänelle palkattomana vapaana, on merkkaamaton päivä yritykselle normihintainen. Merkatulta vapaalta töihin kutsuminen on kalliimpaa.
 
