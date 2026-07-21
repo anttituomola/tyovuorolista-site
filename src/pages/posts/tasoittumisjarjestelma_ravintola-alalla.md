@@ -10,14 +10,19 @@ image:
 tags: ['TES', 'MaRa', 'tasoittumisjärjestelmä', 'työaika', 'ravintola-ala']
 ---
 
+*Päivitetty 21.7.2026: Tuntilaskennassa näet nyt **kaikki valitulle
+aikavälille osuvat tasoittumiskaudet** allekkain. Voit siis tarkistaa
+koko vuoden saldot asettamalla aloitus- ja lopetuspäivän vuoden
+reunoille.*
+
 **Lyhyesti:** Tasoittumisjärjestelmä (MaRa-TES 12 §) antaa kuukausipalkkaisen
 kokoaikaisen työntekijän työajan joustaa jaksoittain enemmän kuin
 tavallinen [112,5 tunnin kolmiviikkoisjakso](/posts/kolmiviikkoisjakso_ravintola-alalla)
-sallisi — kunhan tunnit **tasoittuvat keskimäärin 112,5 tuntiin** enintään
+sallisi, kunhan tunnit **tasoittuvat keskimäärin 112,5 tuntiin** enintään
 kuuden peräkkäisen jakson kuluessa. Yksittäisessä jaksossa saa silloin olla
 enintään **130 tuntia** (paikallisesti sovittuna 136 tuntia yhdeksän jakson
 kaudella), ja kauden aikana on annettava vähintään **kolme tasoitusvapaata
-(TS)**. Tämä postaus käy läpi säännöt tarkemmin kuin lyhyt esittely — ja
+(TS)**. Tämä postaus käy läpi säännöt tarkemmin kuin lyhyt esittely, ja
 molempien osapuolten näkökulmasta.
 
 ## Mihin ongelmaan tasoittumisjärjestelmä vastaa?
@@ -34,39 +39,39 @@ kohtuullisena.
 Tasoittumisjärjestelmä sallii tämän vaihtelun: yhdellä jaksolla voi tehdä
 esimerkiksi 128 tuntia ja toisella 97 tuntia, kunhan koko kauden summa vastaa
 jaksojen määrää kertaa 112,5 tuntia (VV-päivillä vähennettynä). Se ei ole
-keino kiertää lisä- ja ylityökorvauksia — se siirtää vertailukohdan
+keino kiertää lisä- ja ylityökorvauksia. Se siirtää vertailukohdan
 yksittäisestä jaksosta koko kauteen.
 
 ## Perusmalli: kuusi jaksoa, 130 tunnin jaksokatto
 
 TES 12 § 1 kohdan mukaan tasoittumiskausi kestää **enintään kuusi peräkkäistä
 kolmiviikkoisjaksoa** (18 viikkoa). Kauden säännöllinen enimmäistyöaika on
-jaksojen määrä kertaa 112,5 tuntia — täydellä kuuden jakson kaudella
+jaksojen määrä kertaa 112,5 tuntia. Täydellä kuuden jakson kaudella
 6 × 112,5 h = **675 tuntia**. Jos kaudelle on merkitty
 [vuosivapaapäiviä (VV)](/posts/vuosivapaa_ravintola-alalla), kunkin VV-päivän
-kohdalla kauden enimmäismäärä pienenee 7,5 tunnilla — sama sääntö kuin
+kohdalla kauden enimmäismäärä pienenee 7,5 tunnilla. Sama sääntö kuin
 yksittäisessä jaksossa.
 
 Yksittäisen jakson säännöllinen työaika saa tässä mallissa olla enintään
-**130 tuntia** — 17,5 tuntia enemmän kuin ilman tasoittumista. Tämä on se
+**130 tuntia**, eli 17,5 tuntia enemmän kuin ilman tasoittumista. Tämä on se
 jousto, joka tekee sesonkivaihtelun suunnittelusta mahdollista.
 
 Muita perusmallin vaatimuksia:
 
 - viikkolepopäivä (V) annetaan edelleen **jokaisella** täydellä
-  työssäoloviikolla — tasoittuminen ei koske V-päivää
+  työssäoloviikolla. Tasoittuminen ei koske V-päivää
 - kustakin jaksosta saa siirtää enintään **kaksi
   [X-päivää](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)** muuhun
   kohtaan kautta, jolloin siirretty X-päivä annetaan yhdistettynä muuhun
   vapaaseen
 - kauden aikana tulee olla vähintään yksi peräkkäisten vapaapäivien
   yhdistelmä viikonloppuvapaiden lisäksi
-- vapaapäivien välissä saa olla enintään seitsemän työpäivää — sama sääntö
+- vapaapäivien välissä saa olla enintään seitsemän työpäivää. Sama sääntö
   kuin muuallakin TES:ssä
 
 Kauden pituus, alkamis- ja päättymisajankohta **on merkittävä
 työvuorolistaan**, ja työntekijän on voitava nähdä kauden yli- tai
-alijäämätuntinsa milloin tahansa — pelkkä "luota minuun" ei riitä.
+alijäämätuntinsa milloin tahansa. Pelkkä "luota minuun" ei riitä.
 
 ## Laajennettu malli: paikallisesti sovittu 9 jaksoa, 136 tuntia
 
@@ -78,8 +83,8 @@ jakson katto nousee **136 tuntiin**. Kauden enimmäistyöaika on tällöin
 vähintään kaksi peräkkäisten vapaapäivien yhdistelmää, enintään seitsemän
 työpäivää putkeen) pysyvät samoina.
 
-Laajennettu malli vaatii aina erillisen, perustellun paikallisen sopimuksen —
-sitä ei voi ottaa käyttöön yksipuolisesti.
+Laajennettu malli vaatii aina erillisen, perustellun paikallisen sopimuksen.
+Sitä ei voi ottaa käyttöön yksipuolisesti.
 
 ## Tasoitusvapaat (TS) tasoittavat päivittäistä työaikaa
 
@@ -88,7 +93,7 @@ työaikaa tai antamalla erillisiä
 [tasoitusvapaapäiviä (TS)](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa).
 Sopimus edellyttää, että kauden aikana annetaan vähintään kolme
 (laajennetussa mallissa viisi) TS-päivää, **mikäli tuntikertymä sen
-sallii** — jos saldo ei riitä, velvoite ei pakota antamaan vapaita
+sallii**. Jos saldo ei riitä, velvoite ei pakota antamaan vapaita
 tyhjästä.
 
 TS-päivät:
@@ -98,7 +103,7 @@ TS-päivät:
   laskettaessa
 - **eivät saa mennä päällekkäin** muiden vapaapäivien tai vuosiloman kanssa
 
-## Lisä- ja ylityö kesken jakson — raja on korkeampi kuin tavallisessa jaksossa
+## Lisä- ja ylityö kesken jakson: raja on korkeampi kuin tavallisessa jaksossa
 
 Tässä kohdassa moni menee helposti sekaisin, koska tasoittumisjärjestelmässä
 lisä- ja ylityöraja on **eri** kuin tavallisessa 112,5 tunnin jaksossa.
@@ -114,7 +119,7 @@ laajennetussa mallissa 136 h) ylittävistä tunneista:
 Esimerkki: työntekijä tekee tasoittumiskauden yhdellä jaksolla 138 tuntia.
 Ylitys 130 tunnin katosta on 8 tuntia: 7,5 tuntia lisätyötä yksinkertaisella
 tuntipalkalla ja 0,5 tuntia ylityötä +50 %. **Näitä jaksokohtaisia
-ylityötunteja ei lasketa mukaan kauden kokonaistuntimäärään** — ne on jo
+ylityötunteja ei lasketa mukaan kauden kokonaistuntimäärään.** Ne on jo
 korvattu, eivätkä ne enää kerrytä tai vähennä kauden saldoa. Jaksokohtaista
 korvausta ei myöskään voi vaihtaa vapaa-aikaan.
 
@@ -129,10 +134,10 @@ ylityötunnit pois lukien) kauden enimmäistyöaikaa vasten:
 - **Alijäämä**, joka johtuu **työntekijästä** (esim. hän on itse kieltäytynyt
   tarjotuista vuoroista), voidaan vähentää palkasta.
 - Jos työsuhde jatkuu normaalisti, alijäämä tasataan yksinkertaisesti
-  seuraavilla jaksoilla — sitä ei automaattisesti vähennetä, jos kausi
+  seuraavilla jaksoilla. Sitä ei automaattisesti vähennetä, jos kausi
   jatkuu.
-- Yli- tai alijäämää **ei voi siirtää** seuraavalle tasoittumiskaudelle —
-  kausi päättyy ja alkaa aina puhtaalta pöydältä.
+- Yli- tai alijäämää **ei voi siirtää** seuraavalle tasoittumiskaudelle.
+  Kausi päättyy ja alkaa aina puhtaalta pöydältä.
 
 TES:n omaa laskuesimerkkiä mukaillen: kuuden jakson kaudella enimmäismäärä on
 675 tuntia. Jos työntekijä on tehnyt ennen viimeistä jaksoa 625 tuntia, hänellä
@@ -150,30 +155,31 @@ Jos työsuhde päättyy kesken kauden, syyllä on väliä:
 - **Työnantajasta johtuva syy** (esim. irtisanominen tuotannollisin
   perustein): alijäämää ei vähennetä. Mahdollinen lisä- ja ylityö lasketaan
   toteutuneiden jaksojen **keskiarvosta** tavallista jaksorajaa (120 h)
-  vasten — ei jaksokaton (130 h) mukaan.
+  vasten, ei jaksokaton (130 h) mukaan.
 
 ## Esimiehelle: kenelle tasoittumisjärjestelmä sopii
 
 Tasoittumisjärjestelmä kannattaa harkita, jos toimipaikan kysyntä on
 selvästi kausiluonteista ja normaali 112,5 tunnin jaksokatto pakottaa
-maksamaan lisä- ja ylityötä toistuvasti samaan aikaan vuodesta — esimerkiksi
+maksamaan lisä- ja ylityötä toistuvasti samaan aikaan vuodesta, esimerkiksi
 kesäterassi, hiihtokeskus tai tapahtumapainotteinen ravintola. Käytännön
 edellytyksiä:
 
-- koskee vain **kuukausipalkkaisia kokoaikaisia** työntekijöitä — ei
-  osa-aikaisia, ei tuntipalkkaisia
+- koskee vain **kuukausipalkkaisia kokoaikaisia** työntekijöitä. Ei
+  osa-aikaisia, ei tuntipalkkaisia, eikä henkilöitä joilla on
+  [TES ei koske](/posts/tyontekijan_tes_tiedot) -valinta
 - kauden pituus ja alkujakso on päätettävä etukäteen, ei jälkikäteen
   parhaiten sopivaksi valikoiden
 - listalle on merkittävä kauden alku- ja päättymisajankohta, ja saldotiedon
-  on oltava työntekijän saatavilla — tämä ei ole vapaaehtoinen lisä, vaan
+  on oltava työntekijän saatavilla. Tämä ei ole vapaaehtoinen lisä, vaan
   TES:n vaatimus
 - vähintään kolme (laajennetussa mallissa viisi) TS-päivää on annettava
-  kauden aikana, jos tuntikertymä sen sallii — tätä ei kannata jättää
+  kauden aikana, jos tuntikertymä sen sallii. Tätä ei kannata jättää
   viimeiselle jaksolle muistettavaksi
 
 Tasoittumisjärjestelmä ei poista lisä- ja ylityökorvauksia, se ainoastaan
 siirtää niiden laskentapisteen jaksosta koko kauteen. Jos toteutuneet tunnit
-eivät koskaan tasaannu — esimerkiksi kysyntä on jatkuvasti korkealla —
+eivät koskaan tasaannu, esimerkiksi kysyntä on jatkuvasti korkealla,
 järjestelmä ei tuo säästöä, vaan ainoastaan viivästyttää korvausten
 maksamista kauden loppuun.
 
@@ -181,12 +187,12 @@ maksamista kauden loppuun.
 
 - Sinulla on **oikeus nähdä** tasoittumiskauden kertynyt saldo ja jäljellä
   olevat tunnit milloin tahansa kauden aikana.
-- Viikkolepopäiväsi (V) tulee edelleen joka viikko — tasoittuminen ei koske
+- Viikkolepopäiväsi (V) tulee edelleen joka viikko. Tasoittuminen ei koske
   sitä.
 - Tasoitusvapaasi (TS) eivät saa olla samaan aikaan muiden vapaapäivien tai
-  vuosilomasi kanssa — jos näet ne merkittynä päällekkäin, kysy asiasta.
-- Yksittäisellä jaksolla saa teettää enintään 130 (tai sovitusti 136) tuntia
-  — jos tunnit ylittävät tämän, kyse on lisä- tai ylityöstä siinä hetkessä,
+  vuosilomasi kanssa. Jos näet ne merkittynä päällekkäin, kysy asiasta.
+- Yksittäisellä jaksolla saa teettää enintään 130 (tai sovitusti 136) tuntia.
+  Jos tunnit ylittävät tämän, kyse on lisä- tai ylityöstä siinä hetkessä,
   ei vasta kauden lopussa.
 - Jos työsuhteesi päättyy kesken kauden ja irtisanomisen syy on
   työnantajasta johtuva, alijäämää ei vähennetä palkastasi.
@@ -211,8 +217,23 @@ Kun tasoittuminen on päällä, sovellus:
 - huomioi VV-päivät kauden enimmäismäärässä automaattisesti, samoin kuin
   yksittäisessä jaksossa
 
+### Saldojen lukeminen Tuntilaskennassa
+
+**Hallinta → Tuntien kirjaus** näyttää kokoaikaisille työntekijöille
+tasoittumiskausien saldotauleja. Valitse aloitus- ja lopetuspäivä kuten
+muutenkin sivulla: sovellus näyttää **kaikki aikavälille osuvat
+tasoittumiskaudet** allekkain omana taulukkonaan. Jokaisessa taulussa
+näet jaksokohtaiset tunnit ja kertyvän saldon, kauden yhteissumman suhteessa
+enimmäismäärään sekä annetut TS-päivät.
+
+<img src="/blogPostImages/tes-tuki/tasoittumisjaksot-useampi-kausi.png" alt="Tuntilaskenta: kaksi tasoittumiskautta allekkain, työntekijän jaksotunnit ja kertyvä saldo sekä TS-suhde 0/3" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+Jos haluat käydä läpi koko vuoden, aseta päivämäärät vuoden alusta loppuun.
+Silloin saat kaikki kaudet listaan ja voit tarkistaa saldot kerralla.
+Kausi luokitellaan aina kokonaisuutena, vaikka valitsisit vain osan siitä.
+
 Laajennettu 9 jakson / 136 tunnin malli otetaan käyttöön TES-asetusten
-**Paikalliset sopimukset** -osiosta, jonne kirjataan poikkeaman peruste —
+**Paikalliset sopimukset** -osiosta, jonne kirjataan poikkeaman peruste,
 samaan tapaan kuin muutkin paikalliset poikkeamat. Muutoshistoria säilyy
 myöhempää tarkastelua varten.
 
@@ -220,7 +241,7 @@ Tasoittumisjärjestelmä on toistaiseksi mukana samassa pilotissa kuin
 [TES-tuki kokonaisuudessaan](/posts/tes_tuki_tyovuorosuunnittelussa). Jos
 toimipaikkasi käyttää tai suunnittelee ottavansa tasoittumisjärjestelmän
 käyttöön, laita viestiä
-[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi) — erityisesti
+[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi). Erityisesti
 kausiluonteiset yritykset ovat nyt kiinnostavia pilottikäyttäjiä.
 
 ---
