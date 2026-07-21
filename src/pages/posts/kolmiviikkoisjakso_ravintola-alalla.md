@@ -44,6 +44,24 @@ täyttyvät.
 - Jos jakson tunnit ylittyvät, kyse on
   [lisä- tai ylityöstä](/posts/lisatyo_ja_ylityo_ravintola-alalla)
 
+## Vuosiloma ja vuosivapaa lyhentävät jakson työaikaa
+
+Jakson 112,5 tunnin enimmäismäärä pienenee, kun jaksolle osuu vapaata,
+joka rinnastetaan työajaksi:
+
+- **Vuosiloma:** jokainen lomaan kuuluva maanantain ja perjantain välinen
+  päivä lyhentää jakson työaikaa **7,5 tunnilla** (MaRa-TES 27 §). Viikon
+  loma tarkoittaa siis 37,5 tunnin lyhennystä, eli lomaviikon sisältävälle
+  jaksolle jää tehtäväksi 75 tuntia. Jakson yli ulottuva loma lasketaan
+  jaksoittain erikseen. Osa-aikaisella lyhennys on suhteessa
+  sopimustunteihin.
+- **Vuosivapaa (VV):** jokainen työvuorolistan mukainen VV-päivä lyhentää
+  jakson työaikaa 7,5 tunnilla.
+
+Lyhennys vaikuttaa myös lisä- ja ylityölaskentaan, koska rajat lasketaan
+lyhennetystä enimmäismäärästä. Tyovuorolista.fi huomioi molemmat
+automaattisesti, kun lomat ja vuosivapaat on merkitty listaan.
+
 ## Jaksorytmi kannattaa lyödä lukkoon
 
 Koska lisä- ja ylityöt lasketaan jaksoittain, koko laskenta seisoo tai

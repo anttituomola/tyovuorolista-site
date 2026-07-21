@@ -52,6 +52,27 @@ Huomaa myös, että vapaapäivinä
 työ korvataan omilla korotuksillaan eikä se kasvata jakson tuntisummaa —
 sekin on helppo laskea väärin käsin.
 
+## Vuosilomajakso muuttaa laskentaa kahdella tavalla
+
+Kun jaksolle osuu vuosilomaa, laskenta poikkeaa tavallisesta (MaRa-TES
+27 §):
+
+1. **Jakson enimmäistyöaika lyhenee** 7,5 tunnilla jokaiselta maanantain
+   ja perjantain väliseltä lomapäivältä. Viikon loma laskee rajan siis
+   75 tuntiin, ja lisätyö alkaa jo siitä.
+2. **Ylityö on suoraan +100 %.** Kun tehdyt tunnit ja loman
+   lyhennysvaikutus ylittävät yhdessä 112,5 tuntia, korvataan 120 tuntiin
+   asti lisätyönä ja sen yli menevä osa +100 % korotettuna. Tavallisen
+   jakson 18 tunnin +50 % porras jää lomajaksolla välistä.
+
+Esimerkki: työntekijä pitää viikon loman ja tekee jakson lopuilla
+kahdella viikolla 85 tuntia. Yhteensä 85 + 37,5 = 122,5 tuntia: 7,5
+tuntia lisätyötä ja 2,5 tuntia ylityötä +100 %. Ilman lomaa 85 tunnin
+jaksolla ei olisi lisä- eikä ylityötä lainkaan.
+
+Myös tämä erittely syntyy Tyovuorolista.fi:ssä automaattisesti, kun loma
+on [merkitty työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan).
+
 ## TES-apuri laskee tämän puolestasi
 
 [Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
