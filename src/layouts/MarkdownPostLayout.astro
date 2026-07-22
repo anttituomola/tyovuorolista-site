@@ -95,6 +95,16 @@ import dayjs from 'dayjs'
         line-height: 1.45;
     }
 
+    /* overflow is ignored on display:table — switch to block so wide
+       tables scroll sideways on mobile instead of breaking the layout */
+    @media (max-width: 768px) {
+        .blogWrapper :global(table) {
+            display: block;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+
     .blogWrapper :global(thead th) {
         background: rgba(52, 52, 52, 0.045);
         font-weight: 600;
