@@ -1,5 +1,4 @@
 ---
-
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Osa-aikaisen sopimustunnit ja lisätyön tarjoamisvelvoite ravintola-alalla'
 pubDate: 2026-07-27
@@ -8,8 +7,8 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyotunnit-tyosopimuksessa/tyontekijat-sopimustunnit.png'
     alt: 'Työntekijät-taulukko, jonka Sopimustunnit-sarakkeessa näkyy osa-aikaisten tuntimäärät (90h/3vk, 150h/kk).'
-
-## tags: ['TES', 'MaRa', 'osa-aikainen', 'lisätyö', 'sopimustunnit', 'ravintola-ala']
+tags: ['TES', 'MaRa', 'osa-aikainen', 'lisätyö', 'sopimustunnit', 'ravintola-ala']
+---
 
 **Lyhyesti:** Jos ravintolasi tarvitsee lisää työvoimaa tehtäviin, joihin
 nykyiset osa-aikaiset sopivat, MaRa-TES:n 6 § velvoittaa **tarjoamaan
