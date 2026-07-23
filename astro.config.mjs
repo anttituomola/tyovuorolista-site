@@ -1,9 +1,17 @@
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import vercel from "@astrojs/vercel";
 import react from "@astrojs/react";
 
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
+import { getFutureBlogPostPathnames } from './src/utils/blogPublishDate.mjs';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const futureBlogPostPathnames = getFutureBlogPostPathnames(
+  path.join(__dirname, 'src/pages/posts')
+);
 
 // https://astro.build/config
 export default defineConfig({
@@ -30,7 +38,21 @@ export default defineConfig({
         '/api/',
         '/_image'
       ];
-      return !excludePatterns.some(pattern => page.includes(pattern));
+      if (excludePatterns.some(pattern => page.includes(pattern))) {
+        return false;
+      }
+
+      // Drop scheduled (future pubDate) posts — sitemap is build-time.
+      try {
+        const pathname = decodeURIComponent(new URL(page).pathname).replace(/\/$/, '') || '/';
+        if (futureBlogPostPathnames.has(pathname)) {
+          return false;
+        }
+      } catch {
+        // Ignore malformed sitemap URLs
+      }
+
+      return true;
     }
   })]
 });

@@ -1,8 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro'
-const { frontmatter } = Astro.props
 import Button from '../components/common/Button.astro'
 import dayjs from 'dayjs'
+import { isPublishedPubDate } from '../utils/blogPosts'
+
+const { frontmatter } = Astro.props
+
+if (!isPublishedPubDate(frontmatter.pubDate)) {
+    return Astro.rewrite('/404')
+}
 ---
 
 <Layout>

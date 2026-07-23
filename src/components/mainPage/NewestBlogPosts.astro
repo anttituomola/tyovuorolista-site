@@ -1,6 +1,6 @@
 ---
 import type { BlogPostModule } from '../../utils/blogPosts'
-import { sortBlogPostsByDate } from '../../utils/blogPosts'
+import { getPublishedPosts } from '../../utils/blogPosts'
 import { getLocaleFromAstro } from '../../utils/translations'
 import BlogPostCard from '../common/BlogPostCard.astro'
 
@@ -12,7 +12,7 @@ if (locale === 'fi') {
     const allPosts = Object.values(
         import.meta.glob('../../pages/posts/*.md', { eager: true })
     ) as BlogPostModule[]
-    sixMostRecentPosts = sortBlogPostsByDate(allPosts).slice(0, 6)
+    sixMostRecentPosts = getPublishedPosts(allPosts).slice(0, 6)
 }
 ---
 

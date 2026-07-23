@@ -1,6 +1,6 @@
 ---
 import type { BlogPostModule } from '../utils/blogPosts'
-import { sortBlogPostsByDate } from '../utils/blogPosts'
+import { getPublishedPosts } from '../utils/blogPosts'
 import { getLocaleFromAstro, t } from '../utils/translations'
 import BlogPostCard from '../components/common/BlogPostCard.astro'
 import Layout from '../layouts/Layout.astro'
@@ -13,7 +13,7 @@ if (locale === 'fi') {
     const allPosts = Object.values(
         import.meta.glob('../pages/posts/*.md', { eager: true })
     ) as BlogPostModule[]
-    sortedPosts = sortBlogPostsByDate(allPosts)
+    sortedPosts = getPublishedPosts(allPosts)
 } else {
     return Astro.redirect(locale === 'en' ? '/en' : '/sv')
 }
