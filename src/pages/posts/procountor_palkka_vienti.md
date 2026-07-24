@@ -10,15 +10,16 @@ image:
 tags: ['palkkaraportti', 'Procountor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
-Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. Työvuorolistasta saat nyt **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
+Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. tyovuorolista.fi:stä saat **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
 
-Tämä ohje käy läpi asetukset kerran, ja sen jälkeen viennin kuukausirutiinina.
+Tämä ohje käy läpi asetukset kerran, ja sen jälkeen viennin kuukausirutiinina. Tekninen integraatiokuvaus (tiedostomuoto, kentät, käyttötapaukset):
+[tyovuorolista.fi ↔ Procountor: integraation dokumentaatio](/posts/procountor_integraatio_dokumentaatio).
 
 ## Mitä tarvitset ennen ensimmäistä vientiä
 
 ### 1. Henkilönumero jokaiselle työntekijälle
 
-Procountor tunnistaa rivit **henkilönumerolla** (tai henkilötunnuksella). Aseta sama numero Työvuorolistaan:
+Procountor tunnistaa rivit **henkilönumerolla** (tai henkilötunnuksella). Aseta sama numero tyovuorolista.fi:hin:
 
 1. Avaa **Hallinta → Työntekijät**
 2. Avaa työntekijä → **Muokkaa**
