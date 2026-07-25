@@ -48,11 +48,13 @@ Kun kaikki pakolliset kentät (merkitty tähdellä *) on täytetty, klikkaa **"R
 
 ### 4. Valmista - tili luotu!
 
-Kun tili on luotu, sovellus:
+Kun viimeistelet tiliä, voit halutessasi avata kohdan **Tuo työntekijät** ja liittää olemassa olevan henkilöstölistan heti mukaan. Kun tili on luotu, sovellus:
 - ✅ Luo yrityksellesi tilin automaattisesti
 - ✅ Lisää ensimmäisen tiimin nimellä "Tiimi 1"
-- ✅ Lisää sinut ensimmäiseksi työntekijäksi
+- ✅ Lisää sinut ensimmäiseksi työntekijäksi (ja tuomasi työntekijät, jos liitit listan)
 - ✅ Ohjaa sinut luomaan ensimmäisen työvuorolistan
+
+→ Laajempi opas: [Työntekijöiden hallinta](/posts/tyontekijoiden_hallinta)
 
 <img src="/blogPostImages/account-management/04-account-created-success.png" alt="Tili luotu onnistuneesti" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 

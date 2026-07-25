@@ -47,7 +47,7 @@ Rekisteröitymisen yhteydessä sinut lisätään jo yhdeksi työntekijäksi. Ty�
 **Mitä teet:**
 
 1. Avaa **Suunnittele** ja varmista, että oikea lista on valittu vasemman reunan listavalitsimesta.
-2. Klikkaa vasemman yläkulman **plus-ikonia** (Luo uusi työntekijä), kun ohje korostaa sitä.
+2. Klikkaa vasemman yläkulman **plus-ikonia** (Luo uusi työntekijä), kun ohje korostaa sitä — tai tuo useita kerralla **Hallinta → Työntekijät → Tuo työntekijät**.
 3. Täytä työntekijän nimi ja tarvittaessa sähköposti ([miksi sähköposti kannattaa](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta)).
 
 Paneelissa näet edistymisen muodossa **1 / 2 lisätty** → **2 / 2 lisätty**. Poistettuja (deaktivoituja) työntekijöitä ei lasketa mukaan.
