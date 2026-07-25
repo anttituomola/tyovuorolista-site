@@ -52,7 +52,7 @@ Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä toimii sekä tietoko
 ### Tietokone
 
 - **Yksi klikkaus** aikaruudukossa avaa vuoron luonti-ikkunan valitulla päivällä ja kellonajalla.
-- **Kaksoisklikkaus koko päivän rivillä** (ylärivi) avaa [päiväkohtaisen muistiinpanon](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat) – ei vuoron luontia.
+- **Yksi klikkaus koko päivän rivillä** (**Vapaa / tapahtuma**) avaa yhteisen ikkunan: valitse joko työntekijän vapaa tai [päiväkohtainen tapahtuma / muistiinpano](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat).
 
 <img src="/blogPostImages/toistuvat_tyovuorot/vuoron-luonti-modaali.png" alt="Kalenterin aikaruudukkoa klikattaessa avautuva vuoron luonti-ikkuna" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
@@ -99,7 +99,7 @@ Pidä **Alt** (Mac: **Option**) pohjassa ja raahaa olemassa oleva vuoro uuteen p
 
 ### Päivämuistiinpanot
 
-Kaksoisklikkaa kalenterin **koko päivän riviä** (tietokone) lisätäksesi päiväkohtaisen huomion koko tiimille – esimerkiksi *"Inventaario klo 14"*.
+Klikkaa kalenterin **Vapaa / tapahtuma** -riviä ja valitse välilehti **Tapahtuma** – näin lisäät päiväkohtaisen huomion koko tiimille, esimerkiksi *"Inventaario klo 14"*.
 
 → [Päiväkohtaiset muistiinpanot](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat)
 
@@ -122,6 +122,6 @@ Kaksoisklikkaa kalenterin **koko päivän riviä** (tietokone) lisätäksesi pä
 | Tarkat ajat modaalissa | Klikkaa aikaruudukkoa |
 | Sama vuoro usealle päivälle | Toista vuoro -kytkin |
 | Kopioi yksittäinen vuoro | Alt + raahaa |
-| Päivän tapahtuma koko tiimille | Kaksoisklikkaus koko päivän rivillä |
+| Päivän tapahtuma koko tiimille | Klikkaa Vapaa / tapahtuma -riviä → Tapahtuma |
 
 Kun lista on valmis, siirry **Julkaise**-näkymään ja lähetä vuorot työntekijöille – katso [työvuorolistojen julkaisu](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille).

@@ -76,7 +76,7 @@ Jos jokin päivä ei mene läpi (esim. päällekkäisyys toisen vuoron kanssa), 
 - Toistuvuus toimii vain **valitun listan** sisällä – ei yli listan rajojen eikä toiseen listaan.
 - **Julkaistuilla listoilla** vuoroja ei voi luoda tai muokata toistuvuudella.
 - Toistuvuus on käytettävissä vain **työvuoroille** (ei V-, X-, loma- tai muille koko päivän merkinnöille).
-- Klikkaamalla kalenterin **koko päivän riviä** (ylärivi) luot edelleen vapaapäivämerkintöjä – toistuvuus näkyy vain aikaruudukossa luotavissa työvuoroissa.
+- Klikkaamalla kalenterin **Vapaa / tapahtuma** -riviä avaat vapaan tai tapahtuman luonnin – toistuvuus näkyy vain aikaruudukossa luotavissa työvuoroissa.
 
 ## Yhteenveto
 

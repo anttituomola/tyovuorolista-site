@@ -5,27 +5,27 @@ pubDate: 2024-03-31
 description: 'Työvuorolistan päiväkohtaiset muistiinpanot eli koko päivän tapahtumat. Merkkaa esim. firman virkistyspäivä!'
 author: 'Antti Tuomola'
 image:
-    url: '/blogPostImages/muistiinpanot_modaali.png'
-    alt: 'tyovuorolista.fi:n kalenterinäkymä.'
+    url: '/blogPostImages/kalenterin-kaytettavyys/modal-tapahtuma.png'
+    alt: 'Vapaa / tapahtuma -ikkuna: Tapahtuma-välilehti'
 tags: ["työvuorolista", "ominaisuus", "ohjeet", "muistiinpanot"]
 ---
 Päiväkohtainen muistiinpano on **kätevä tapa ilmaista erilaisia päiväkohtaisia erikoisuuksia, kuten "Virkistyspäivä"**, "Yksityistilaisuus" tai vaikkapa "Virtasen häät".
 
-<video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
-  <source src="/blogPostImages/muistiinpano.mp4" type="video/mp4">
-</video>
-
 ### Miten teen muistiinpanon?
-<img src="/blogPostImages/muistiinpanot_nappi.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />
 
-Muistiinpanon voi tehdä kahdella eri tapaa:
-- **Tuplaklikkaa päivää kalenterinäkymässä**
-- Klikkaa "Lisää koko päivän tapahtuma" painiketta kalenterinäkymän työntekijöiden yläpuolella
+Helpoin tapa tietokoneella:
 
-Avautuu modaali, josta voit valita päivämäärän ja kirjoittaa muistiinpanon. Mikäli avasit modaalin tuplaklikkaamalla, klikkaamasi päivä on valmiiksi syötettynä.
-<img src="/blogPostImages/muistiinpanot_modaali.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />
+1. Klikkaa kalenterin yläreunan **Vapaa / tapahtuma** -rivillä haluamaasi päivää.
+2. Avautuu ikkuna, jossa on kaksi välilehteä – valitse **Tapahtuma**.
+3. Kirjoita muistiinpano, tarkista päivämäärä (ja tarvittaessa tiimit) ja tallenna.
+
+<img src="/blogPostImages/kalenterin-kaytettavyys/modal-tapahtuma.png" alt="Vapaa / tapahtuma -ikkuna: Tapahtuma-välilehti" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Vaihtoehtoisesti voit edelleen **tuplaklikata aikaruudukkoa** (ei yläriviä) – silloin avautuu suoraan muistiinpanoikkuna valitulla päivällä.
 
 Tallenna, ja näet muistiinpanosi samoin tein kalenterissa ja tulostettavassa listassa.
+
+> **Päivitys 07/2026:** Erillinen "Lisää koko päivän tapahtuma" -painike työntekijälistan yläreunasta poistettiin. Sama asia hoituu nyt **Vapaa / tapahtuma** -riviltä. Lue lisää: [Kalenteri helpommaksi isoilla tiimeillä](/posts/kalenterin_kaytettavyys_suuret_tiimit).
 
 ### Missä muistiinpano näkyy?
 Voit tehdä työvuorolistaan päiväkohtaisia muistiinpanoja, jotka näkyvät kolmessa paikassa:
@@ -50,10 +50,10 @@ Voit nyt tehdä muistiinpanoja, jotka kattavat useamman päivän. Modaalissa on 
 
 ### EDIT 15/05/2024: Julkiset ja sisäiset muistiinpanot
 
-Nyt voit määritellä muistiinpanolle, onko se julkinen vai ainoastaan sisäiseen käyttöön tarkoitettu. Kun luot uuden muistiinpanon, voit valita "Julkinen muistiinpano" -valinnan modaalissa. 
+Nyt voit määritellä muistiinpanolle, onko se julkinen vai ainoastaan sisäiseen käyttöön tarkoitettu. Tapahtuma-välilehdellä (tai muistiinpanoikkunassa) on kytkin **Julkinen (näkyy kaikille tiimin jäsenille)**.
 
-Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Sisäiset muistiinpanot näkyvät puolestaan vain sovelluksen suunnittelunäkymässä, jolloin voit tehdä muistiinpanoja, jotka ovat tarkoitettu vain esimiesten tietoon.
+Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään – kätevää esimiehille tarkoitetuille huomioille.
 
-<img src="/blogPostImages/public_datenote.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Julkinen muistiinpano -valinta muistiinpanomodaalissa" />
+<img src="/blogPostImages/public_datenote.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Julkinen-kytkin tapahtumaikkunassa" />
 
 Tämä ominaisuus on kätevä esimerkiksi silloin, kun haluat merkitä muistiin sisäisiä asioita, kuten "Huom! Aleksi tuuraaja, tarvitsee vielä perehdytystä" tai "Myyntiodotus: 15 000€", jotka eivät ole tarkoitettu koko henkilöstön nähtäväksi.
