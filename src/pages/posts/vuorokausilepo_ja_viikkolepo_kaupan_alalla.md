@@ -93,4 +93,4 @@ sallittu, mutta sen pitää olla tietoinen.
 TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 (info@tyovuorolista.fi) niin laitan sen päälle.
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 7 §, 8 § 3–5, 9 §; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 25 § (vuorokausilepo), 27 § (viikkolepo); [Työaika (tyosuojelu.fi)](https://tyosuojelu.fi/tyosuhde/tyoaika).*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 7 §, 8 § 3–5, 9 §; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 25 § (vuorokausilepo), 27 § (viikkolepo); [Työaika (tyosuojelu.fi)](https://tyosuojelu.fi/tyosuhde/tyoaika).*

@@ -94,4 +94,4 @@ palkkalajikoodeillaan — myös
 TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 (info@tyovuorolista.fi) niin laitan sen päälle.
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 14–15 §, 17 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (työaikalisät 1.5.2022– ja logistiikan yölisä 1.10.2026); [Kaupan liitto: TES-ratkaisun sisältö](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/).*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 14–15 §, 17 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (työaikalisät 1.5.2022– ja logistiikan yölisä 1.10.2026); [Kaupan liitto: TES-ratkaisun sisältö](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/).*

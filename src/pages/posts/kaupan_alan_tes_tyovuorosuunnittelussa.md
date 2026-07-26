@@ -52,7 +52,7 @@ logistiikkatyöntekijöillä 12 tuntia (TES 6 § 4–5).
 
 Kaupan alan julkaisusääntö on palvelualojen tiukimpia: työvuoroluettelo
 on annettava tiedoksi **viimeistään 2 viikkoa ennen työviikon
-alkamista** (TES 6 § 12). Jos käytössä on vähintään 19 viikon
+alkamista** (TES 6 § 15). Jos käytössä on vähintään 19 viikon
 tasoittumisjakso, aikaraja on 3 viikkoa. Työpaikkakohtaisesti sopien
 raja voidaan lyhentää yhteen viikkoon.
 

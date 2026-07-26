@@ -45,7 +45,7 @@ Tiedoksianto: järjestelmä annetaan työntekijöille viimeistään **2 viikkoa*
 ennen jakson alkua; jos jakso on vähintään **9 viikkoa**, määräaika on
 **3 viikkoa** (6 § 11). Pitkissä jaksoissa (≥ 19 vk) myös
 [työvuoroluettelon julkaisu](/posts/kaupan_alan_tes_tyovuorosuunnittelussa)
-venyy 3 viikkoon ennen työviikkoa (6 § 12).
+venyy 3 viikkoon ennen työviikkoa (6 § 15).
 
 Jakson aikana on oltava yhtä monta TES:n mukaista vapaata kuin jaksossa
 on viikkoja; vapaita voi siirtää viikolta toiselle, mutta siirretty vapaa
@@ -116,4 +116,4 @@ tallennusta: paikallinen sopiminen on kaupan alalla laajaa.
 TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 (info@tyovuorolista.fi) niin laitan sen päälle.
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 6 § 6–12, 8 § 7–8, 12 § 9; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 18 § (keskimääräinen 48 h/vko).*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 6–15, 8 § 7–8, 12 § 9; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 18 § (keskimääräinen 48 h/vko).*

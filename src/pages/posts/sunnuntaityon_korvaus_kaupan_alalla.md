@@ -161,7 +161,7 @@ tätä sopimismahdollisuutta ei ole.
 
 Korvaus ei ole ainoa sunnuntaita koskeva määräys. Työntekijällä on
 oltava kalenterivuodessa vähintään **22 työstä vapaata sunnuntaita**
-(8 § 27), ellei 25 §:n mukaisesti toisin sovita. Osavuotisessa
+(8 § 28), ellei 25 §:n mukaisesti toisin sovita. Osavuotisessa
 työsuhteessa määrä suhteutetaan.
 
 Lisäksi työntekijälle on annettava sunnuntai tai kirkollinen juhlapäivä
@@ -191,4 +191,4 @@ TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 
 ---
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 8 § 27, 10 §, 14 § 2–5, 15 § 1–6; [Työtuomioistuin TT 2026:10 (22.4.2026)](https://www.tyotuomioistuin.fi/ratkaisut/ratkaisujen-arkisto/tt-202610/); [Kaupan liitto: Kaupan työehtosopimusratkaisun tarkempi sisältö (5.3.2025)](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/); [Työaikalaki 872/2019, 17 § ja 40 § (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872)*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 8 § 28, 10 §, 14 § 2–5, 15 § 1–6; [Työtuomioistuin TT 2026:10 (22.4.2026)](https://www.tyotuomioistuin.fi/ratkaisut/ratkaisujen-arkisto/tt-202610/); [Kaupan liitto: Kaupan työehtosopimusratkaisun tarkempi sisältö (5.3.2025)](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/); [Työaikalaki 872/2019, 17 § ja 40 § (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872)*

@@ -160,4 +160,4 @@ TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 
 ---
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 6 § 11–16, 8 § 1, 25 §; [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872); [Työsuojeluhallinto: Työajan suunnittelu ja seuranta](https://tyosuojelu.fi/tyosuhde/tyoaika/suunnittelu-ja-seuranta); [TEM: Työaikalaki — soveltamisopas (Valtioneuvoston julkaisuarkisto)](https://julkaisut.valtioneuvosto.fi/bitstreams/71eacfe3-5be7-4638-885d-32e21c70442d/download)*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 11–16, 8 § 1, 25 §; [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872); [Työsuojeluhallinto: Työajan suunnittelu ja seuranta](https://tyosuojelu.fi/tyosuhde/tyoaika/suunnittelu-ja-seuranta); [TEM: Työaikalaki — soveltamisopas (Valtioneuvoston julkaisuarkisto)](https://julkaisut.valtioneuvosto.fi/bitstreams/71eacfe3-5be7-4638-885d-32e21c70442d/download)*

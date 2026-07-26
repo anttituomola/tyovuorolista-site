@@ -98,4 +98,4 @@ sesonkisuunnittelussa** mutta vaatii saldon seurantaa.
 TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
 (info@tyovuorolista.fi) niin laitan sen päälle.
 
-*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/04/Kaupan_TES_2025_PAM.pdf) 8 § 10–25 (vuosivapaa); työaikapöytäkirja “Arkipyhäjärjestelmä” (s. 113–117, kohdat 1–10).*
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 8 § 10–25 (vuosivapaa); työaikapöytäkirja “Arkipyhäjärjestelmä” (s. 113–117, kohdat 1–10).*
