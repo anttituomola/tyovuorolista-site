@@ -2,13 +2,16 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Näin otat TES-tuen käyttöön — opas nykyisille käyttäjille'
 pubDate: 2026-07-19
-description: 'TES-tuki on pilottivaiheessa ja avataan pyynnöstä. Tämä opas käy läpi käyttöönoton vaihe vaiheelta nykyiselle tyovuorolista.fi-käyttäjälle: TES-valinta, jaksorytmi, työntekijätiedot, palkkalajikoodit — ja miten saat ominaisuudesta eniten irti.'
+description: 'TES-tuki on pilottivaiheessa ja avataan pyynnöstä. Tämä opas käy läpi käyttöönoton vaihe vaiheelta nykyiselle tyovuorolista.fi-käyttäjälle: TES-valinta, jaksorytmi, työntekijätiedot — ja miten saat ominaisuudesta eniten irti.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'
     alt: 'Työehtosopimusasetukset: TES-valinta ja kolmiviikkoisjakson alkupäivä.'
 tags: ['TES', 'MaRa', 'käyttöönotto', 'opas', 'uudet ominaisuudet']
 ---
+
+*Päivitetty 27.7.2026: palkkalajikoodien yksityiskohdat siirretty
+[Procountor-vientiohjeeseen](/posts/procountor_palkka_vienti).*
 
 **Lyhyesti:** [TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa)
 käyttöönotto vie nykyiseltä käyttäjältä noin vartin: pyydä ominaisuus
@@ -53,49 +56,19 @@ TES-laskenta tarvitsee jokaiselta työntekijältä **työsuhteen tyypin**
 Työehtosopimus-sivun tarkistuslista näyttää suoraan, keneltä tietoja
 puuttuu — riviä klikkaamalla pääset täydentämään:
 
-<img src="/blogPostImages/tes-tuki/tyontekijoiden-tarkistuslista.png" alt="Tarkistuslista: yhdeltä työntekijältä puuttuu työsuhteen tyyppi; alla palkkalajikoodien asetukset" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tes-tuki/tyontekijoiden-tarkistuslista.png" alt="Tarkistuslista: yhdeltä työntekijältä puuttuu työsuhteen tyyppi" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Kaksi asiaa kannattaa täydentää samalla:
+Samalla sivulla kannattaa asettaa myös **vuosivapaasaldot**, jos
+työntekijöille on kertynyt [vuosivapaita](/posts/vuosivapaa_ravintola-alalla)
+jo ennen tätä. Ohjattu syöttö antaa kolme vaihtoehtoa: aloita nollasta,
+anna karkea arvio päivissä tai syötä tarkat tunnit. Jos aiempaa dataa
+ei ole, **Aloita kaikki nollasta** hoitaa koko henkilöstön kerralla.
+[Näin asetat alkusaldon oikein](/posts/vuosivapaan_alkusaldon_laskeminen),
+jos työntekijöillä on jo pitkä työhistoria takana.
 
-- **Vuosivapaasaldot**: jos työntekijöille on kertynyt
-  [vuosivapaita](/posts/vuosivapaa_ravintola-alalla) jo ennen tätä, aseta
-  alkutilanne Työehtosopimus-sivun **Vuosivapaasaldot**-listalta. Ohjattu
-  syöttö antaa kolme vaihtoehtoa: aloita nollasta, anna karkea arvio päivissä
-  tai syötä tarkat tunnit. Jos aiempaa dataa ei ole, **Aloita kaikki nollasta**
-  hoitaa koko henkilöstön kerralla. [Näin asetat alkusaldon
-  oikein](/posts/vuosivapaan_alkusaldon_laskeminen), jos työntekijöillä on
-  jo pitkä työhistoria takana
-- **Palkkalajikoodit**: jos viet raportit palkanlaskentaan, lisää
-  uusille riveille palkkalajikoodit samalta sivulta. Ilman koodia rivi
-  jätetään Procountor-viennistä pois, joten puuttuvat koodit näkyvät
-  sivulla selvästi.
-
-Procountorissa palkkalajit ovat kiinteitä nelinumeroisia koodeja
-([virallinen lista](https://help.procountor.fi/fi/articles/531621-palkkalajirekisteri)).
-TES-riveille löytyvät suoraan sopivat palkkalajit — MaRa:n V- ja
-X-päivätyölle on jopa omat koodinsa:
-
-| Rivi sovelluksessa | Procountor-koodi | Procountorin palkkalaji |
-| --- | --- | --- |
-| Työtunnit | 1004 | Tuntipalkka |
-| Lisätyö | 1201 | Lisätyökorvaus (tunteina) |
-| Ylityö 50 % | 1230 / 1232 | Ylityö, vrk / vko 50 % |
-| Ylityö 100 % | 1231 / 1233 | Ylityö, vrk / vko 100 % |
-| V-päivätyökorvaus (+100 %) | 1239 | V-ylityö 100 % |
-| X/VV-päivätyökorvaus (+50 %) | 1238 | X-ylityö 50 % |
-| Sunnuntailisä | 1410 | Sunnuntaityökorvaus |
-| Iltavuorolisä | 1447 | Iltavuorolisä |
-| Yövuorolisä | 1448 | Yövuorolisä |
-| Iltalisä su/pyhä (2×) | 1450 | Sunnuntai-iltavuorolisä |
-| Yölisä su/pyhä (2×) | 1451 | Sunnuntaiyövuorolisä |
-| Aattolisä (+50 %) | 1492 | Aattotyö 50 % |
-| Vuosivapaa | 2340 | Arkipyhäkorvaus |
-
-Tarkista silti mappaus palkanlaskijaltasi ennen ensimmäistä vientiä —
-erityisesti ylityörivien osalta, sillä osa palkanlaskennoista käyttää
-perusosa + korotusosa -mallia (perusosa 1220 erikseen) ja osa
-yhdistettyä palkkalajia. Sovelluksen rivit sisältävät tuntimäärät
-kategorioittain, joten kumpikin malli on mahdollinen.
+Jos viet tunnit Procountoriin, palkkalajikoodit asetetaan samalta
+sivulta — niistä on erillinen ohje:
+[Näin viet palkka-aineiston Procountoriin](/posts/procountor_palkka_vienti).
 
 ## Vaihe 4: Kohdista listat jaksoihin
 
