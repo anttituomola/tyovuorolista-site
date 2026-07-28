@@ -3,10 +3,79 @@ import type { APIContext } from 'astro'
 import { SESClient } from "@aws-sdk/client-ses";
 import { SendEmailCommand } from "@aws-sdk/client-ses";
 
-export async function POST({ request }: APIContext) {
+async function verifyTurnstileToken(token: string, remoteip?: string): Promise<boolean> {
+    const secret = import.meta.env.TURNSTILE_SECRET_KEY
+    if (!secret) {
+        console.error("❌ TURNSTILE_SECRET_KEY is not configured")
+        return false
+    }
+
+    if (!token || token.length > 2048) {
+        return false
+    }
+
     try {
-        const { email, phone } = await request.json();
-        console.log("🚀 API request body", { email, phone });
+        const body = new URLSearchParams({
+            secret,
+            response: token,
+        })
+        if (remoteip) {
+            body.set('remoteip', remoteip)
+        }
+
+        const response = await fetch(
+            'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+            {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body,
+            },
+        )
+
+        if (!response.ok) {
+            console.error("❌ Turnstile siteverify HTTP error:", response.status)
+            return false
+        }
+
+        const result = await response.json() as { success?: boolean }
+        return result.success === true
+    } catch (error) {
+        console.error("❌ Turnstile siteverify failed:", error)
+        return false
+    }
+}
+
+export async function POST({ request, clientAddress }: APIContext) {
+    try {
+        const { email, phone, turnstileToken } = await request.json();
+        console.log("🚀 API request body", { email, phone, hasTurnstileToken: !!turnstileToken });
+
+        if (!import.meta.env.TURNSTILE_SECRET_KEY) {
+            console.error("❌ TURNSTILE_SECRET_KEY is not configured");
+            return new Response(JSON.stringify({
+                message: "Server configuration error.",
+                status: "error",
+            }), {
+                status: 500,
+                headers: { 'Content-Type': 'application/json' },
+            });
+        }
+
+        const turnstileOk = await verifyTurnstileToken(
+            typeof turnstileToken === 'string' ? turnstileToken : '',
+            clientAddress,
+        )
+
+        if (!turnstileOk) {
+            console.log("❌ Turnstile verification failed");
+            return new Response(JSON.stringify({
+                message: "Verification failed.",
+                status: "error",
+            }), {
+                status: 403,
+                headers: { 'Content-Type': 'application/json' },
+            });
+        }
 
         // Validate input
         if (!email && !phone) {

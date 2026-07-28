@@ -222,7 +222,8 @@
     "submit": "Skicka",
     "success": "Tack! Jag kontaktar dig snart!",
     "error": "Formulärinlämning misslyckades. Försök igen.",
-    "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen."
+    "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen.",
+    "errorTurnstile": "Verifieringen misslyckades. Försök igen."
   },
   "mobileDemo": {
     "title": "Hantera skift även på mobilen",
