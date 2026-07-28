@@ -9,14 +9,87 @@ const { frontmatter } = Astro.props
 if (!isPublishedPubDate(frontmatter.pubDate)) {
     return Astro.rewrite('/404')
 }
+
+const siteUrl = (Astro.site || 'https://www.tyovuorolista.fi').toString().replace(/\/$/, '')
+const canonicalUrl = `${siteUrl}${Astro.url.pathname.replace(/\/$/, '')}`
+const publishedIso = dayjs(frontmatter.pubDate).toISOString()
+// reviewedDate = latest substantive review; prefer it over an explicit
+// modifiedDate, which in turn beats the original pubDate
+const dateModifiedSource = frontmatter.reviewedDate || frontmatter.modifiedDate
+const dateModifiedIso = dateModifiedSource
+    ? dayjs(dateModifiedSource).toISOString()
+    : publishedIso
+
+// Optional per-article CTA: posts can point the closing button at the
+// feature page that matches their topic instead of the generic register link
+const ctaText = frontmatter.ctaText ?? 'Kokeile Työvuorolistaa ilmaiseksi'
+const ctaHref = frontmatter.ctaHref ?? 'https://app.tyovuorolista.fi/register'
+
+const blogPostingJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: frontmatter.title,
+    description: frontmatter.description,
+    datePublished: publishedIso,
+    dateModified: dateModifiedIso,
+    author: {
+        '@type': 'Person',
+        name: frontmatter.author
+    },
+    publisher: {
+        '@type': 'Organization',
+        name: 'True Solutions Oy',
+        url: siteUrl
+    },
+    image: frontmatter.image ? new URL(frontmatter.image.url, siteUrl).href : undefined,
+    mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': canonicalUrl
+    }
+}
+
+const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Etusivu',
+            item: `${siteUrl}/`
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Blogitekstit',
+            item: `${siteUrl}/blogitekstit`
+        },
+        {
+            '@type': 'ListItem',
+            position: 3,
+            name: frontmatter.title,
+            item: canonicalUrl
+        }
+    ]
+}
 ---
 
 <Layout>
+    <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
+    <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
     <div class="blogWrapper">
         {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} />}
         <h1>{frontmatter.title}</h1>
         <p class="metadata">Kirjoittanut {frontmatter.author}<br />
         Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
+        {frontmatter.infoBasis && (
+            <aside class="infoBasis">
+                <p class="infoBasisText">{frontmatter.infoBasis}</p>
+                {frontmatter.reviewedDate && (
+                    <p class="infoBasisReviewed">Tarkistettu {dayjs(frontmatter.reviewedDate).format('DD.MM.YYYY')}</p>
+                )}
+            </aside>
+        )}
         <slot />
         <nav class="postHubLinks" aria-label="Aiheeseen liittyvät sivut">
             <a href="/ominaisuudet">Kaikki ominaisuudet</a>
@@ -25,9 +98,9 @@ if (!isPublishedPubDate(frontmatter.pubDate)) {
         </nav>
         <div style="margin: 4rem auto 2rem auto">
             <Button
-                text="Kokeile Työvuorolistaa ilmaiseksi"
+                text={ctaText}
                 variant="primary"
-                href="https://app.tyovuorolista.fi/register"
+                href={ctaHref}
             />
         </div>
     </div>
@@ -57,9 +130,30 @@ if (!isPublishedPubDate(frontmatter.pubDate)) {
         margin-bottom: 2rem;
     }
 
+    .infoBasis {
+        border: 1px solid var(--vaaleanharmaa);
+        border-left: 3px solid var(--tummanvihrea);
+        border-radius: 8px;
+        background: rgba(52, 52, 52, 0.045);
+        padding: 1rem 1.25rem;
+        margin: 0 0 2rem;
+        font-size: 0.9rem;
+    }
+
     /* Layout.astro sets global p { margin: 0 } — restore readable paragraph rhythm in posts */
     .blogWrapper :global(p:not(.metadata)) {
         margin-bottom: 1.15rem;
+    }
+
+    /* must come after the p rhythm rule above: equal specificity, later wins */
+    .blogWrapper .infoBasis p {
+        margin-bottom: 0;
+    }
+
+    .blogWrapper .infoBasis .infoBasisReviewed {
+        margin-top: 0.5rem;
+        color: var(--harmaa);
+        font-size: 0.85rem;
     }
     
     .blogWrapper :global(img) {

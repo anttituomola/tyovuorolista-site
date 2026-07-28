@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Arkipyhäjärjestelmä vai vuosivapaajärjestelmä kaupan alalla?'
 pubDate: 2026-07-31
 description: 'Kaupan TES:ssä yritys valitsee arkipyhä- tai vuosivapaajärjestelmän — ei kesken vuoden. 7,5 h viikkolyhennys vs. VV-portaikko (200 h → 1 pv). Päätöksenteko-opas yrittäjälle.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (8 § 10–25, vuosivapaa) ja työaikapöytäkirjaan ”Arkipyhäjärjestelmä” (kohdat 1–10). Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Luo kaupan alan työvuorolista'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-tes-asetukset.png'

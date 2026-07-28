@@ -1,0 +1,60 @@
+# Työvuorolista.fi
+
+> Työvuorolista on suomalainen työvuorosuunnitteluohjelma ravintoloille, kahviloille, hotelleille, kaupoille ja muille vuorotyötä tekeville yrityksille. Palvelun tarjoaa True Solutions Oy. Itse sovellus löytyy osoitteesta https://app.tyovuorolista.fi — tämä sivusto on markkinointi- ja tietosisältöä. Sivuston artikkelit käsittelevät erityisesti suomalaista työaikalainsäädäntöä ja alakohtaisia työehtosopimuksia (MaRa TES, kaupan alan TES) työvuorosuunnittelun näkökulmasta. Artikkelit perustuvat ensisijaisiin lähteisiin (Finlex, työehtosopimustekstit) ja niissä on näkyvä kirjoittaja ja julkaisupäivämäärä.
+
+## Tuote
+
+- [Etusivu](https://www.tyovuorolista.fi/)
+- [Ominaisuudet](https://www.tyovuorolista.fi/ominaisuudet)
+- [Hinnoittelu](https://www.tyovuorolista.fi/hinnoittelu)
+- [Käyttöohjeet](https://www.tyovuorolista.fi/kayttoohjeet)
+- [Yhteystiedot](https://www.tyovuorolista.fi/yhteystiedot)
+
+## Toimialasivut
+
+- [Ravintolat ja kahvilat](https://www.tyovuorolista.fi/ravintolat-ja-kahvilat)
+- [Hotellit ja majatalot](https://www.tyovuorolista.fi/hotellit-ja-majatalot)
+- [Siivous- ja kiinteistöpalvelut](https://www.tyovuorolista.fi/siivous-ja-kiinteistopalvelut)
+- [Taksiyritykset ja kuljetus](https://www.tyovuorolista.fi/taksiyritykset-ja-kuljetus)
+- [Tapahtumat ja sesonkityö](https://www.tyovuorolista.fi/tapahtumat-ja-sesonkityo)
+
+## Työaikalaki ja TES -artikkelit (ravintola-ala / MaRa TES)
+
+- [Lisätyö ja ylityö ravintola-alalla](https://www.tyovuorolista.fi/posts/lisatyo_ja_ylityo_ravintola-alalla)
+- [Kolmiviikkoisjakso ravintola-alalla](https://www.tyovuorolista.fi/posts/kolmiviikkoisjakso_ravintola-alalla)
+- [Työvuoron pituus ja lepoajat ravintola-alalla](https://www.tyovuorolista.fi/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla)
+- [Ruokatauko ravintola-alalla](https://www.tyovuorolista.fi/posts/ruokatauko_ravintola-alalla)
+- [Sunnuntailisä ravintola-alalla](https://www.tyovuorolista.fi/posts/sunnuntailisa_ravintola-alalla)
+- [Ilta-, yö- ja aattolisä ravintola-alalla](https://www.tyovuorolista.fi/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla)
+- [Tasoittumisjärjestelmä ravintola-alalla](https://www.tyovuorolista.fi/posts/tasoittumisjarjestelma_ravintola-alalla)
+- [Vuosivapaa ravintola-alalla](https://www.tyovuorolista.fi/posts/vuosivapaa_ravintola-alalla)
+- [Viikonloppuvapaat ravintola-alalla](https://www.tyovuorolista.fi/posts/viikonloppuvapaat_ravintola-alalla)
+- [Nollatuntisopimus ravintola-alalla](https://www.tyovuorolista.fi/posts/nollatuntisopimus_ravintola-alalla)
+- [Ättöpäivät ravintola-alalla](https://www.tyovuorolista.fi/posts/aattopaivat_ravintola-alalla)
+
+## Työaikalaki ja TES -artikkelit (kaupan ala)
+
+- [Lisätyö ja ylityö kaupan alalla](https://www.tyovuorolista.fi/posts/lisatyo_ja_ylityo_kaupan_alalla)
+- [Kaupan alan TES työvuorosuunnittelussa](https://www.tyovuorolista.fi/posts/kaupan_alan_tes_tyovuorosuunnittelussa)
+- [Kaupan alan työaikalisät 2026](https://www.tyovuorolista.fi/posts/kaupan_alan_tyoaikalisat_2026)
+- [Sunnuntaityön korvaus kaupan alalla](https://www.tyovuorolista.fi/posts/sunnuntaityon_korvaus_kaupan_alalla)
+- [Sunnuntai- ja aattolisät kaupan alalla](https://www.tyovuorolista.fi/posts/sunnuntai_ja_aattolisat_kaupan_alalla)
+- [Tasoittumisjärjestelmä kaupan alalla](https://www.tyovuorolista.fi/posts/tasoittumisjarjestelma_kaupan_alalla)
+- [Vapaapäivät kaupan alalla](https://www.tyovuorolista.fi/posts/vapaapaivat_kaupan_alalla)
+- [Vuorokausilepo ja viikkolepo kaupan alalla](https://www.tyovuorolista.fi/posts/vuorokausilepo_ja_viikkolepo_kaupan_alalla)
+- [Työvuorolistan julkaiseminen: määräajat ravintola- ja kaupan alalla](https://www.tyovuorolista.fi/posts/tyovuorolistan_julkaiseminen)
+
+## Yleiset työaika-artikkelit
+
+- [Työaikalain perusteet työvuorosuunnittelussa](https://www.tyovuorolista.fi/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa)
+- [Laiminlyöntimaksu työvuoroluettelosta ja työaikakirjanpidosta](https://www.tyovuorolista.fi/posts/laiminlyontimaksu_tyovuoroluettelosta_ja_tyoaikakirjanpidosta)
+- [Osa-aikaisen sopimustunnit ja lisätyön tarjoaminen](https://www.tyovuorolista.fi/posts/osa-aikaisen_sopimustunnit_ja_lisatyon_tarjoaminen)
+- [Työtunnit työsopimuksessa](https://www.tyovuorolista.fi/posts/tyotunnit_tyosopimuksessa)
+- [Työvuorolistan lyhenteet](https://www.tyovuorolista.fi/posts/tyovuorolista_lyhenteet)
+
+## Optional
+
+- [Kaikki blogitekstit](https://www.tyovuorolista.fi/blogitekstit)
+- [Resurssit](https://www.tyovuorolista.fi/resurssit)
+- [English](https://www.tyovuorolista.fi/en)
+- [Svenska](https://www.tyovuorolista.fi/sv)

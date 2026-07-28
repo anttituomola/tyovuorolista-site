@@ -392,21 +392,9 @@
         "title": "Program för skiftplanering",
         "shortDescription": "Allmän guide till skiftplanering och val av program."
       },
-      "min-shift-length": {
-        "title": "Minsta skiftlängd inom restaurang",
-        "shortDescription": "Påminnelse om skift under fyra timmar."
-      },
-      "break-between-shifts": {
-        "title": "Paus mellan skift",
-        "shortDescription": "Guide till pauser mellan skift."
-      },
-      "max-shift-length": {
-        "title": "Skiftets maximala längd inom restaurang",
-        "shortDescription": "Längsta tillåtna skift och när längre skift får användas."
-      },
-      "longest-workday": {
-        "title": "Längsta tillåtna arbetsdag inom restaurang",
-        "shortDescription": "Hur många timmar per dygn får arbetas enligt arbetstidsregler."
+      "shift-length-and-rest": {
+        "title": "Skiftlängd och vilotider inom restaurang",
+        "shortDescription": "Kortaste och längsta skift, dygnsvila och pauser."
       },
       "shift-abbreviations": {
         "title": "Förkortningar i arbetsschemat",

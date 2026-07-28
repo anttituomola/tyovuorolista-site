@@ -3,6 +3,9 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ruokatauko ravintola-alalla: milloin, kuinka pitkä ja maksetaanko?'
 pubDate: 2026-07-23
 description: 'MaRa-TES:ssä yli 4 tunnin vuoroon kuuluu palkallinen kahvitauko ja yli 6 tunnin työpäivään lisäksi 30 minuutin lepoaika — tai tilaisuus ruokailla työn lomassa. Palkaton tauko on laillinen vain, jos työpaikalta saa oikeasti poistua.'
+infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (7 §) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Suunnittele vuorot ja tauot TES:n mukaan'
+ctaHref: '/ominaisuudet/tes-apuri'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_hero.png'
@@ -45,8 +48,8 @@ Pitkissä vuoroissa on vielä yksi porras: kun vuoro kestää **yli 10
 tuntia**, työntekijällä on kahdeksan tunnin työskentelyn jälkeen
 halutessaan oikeus enintään puolen tunnin lisätaukoon työnantajan
 määräämänä ajankohtana. Lue myös
-[työvuoron maksimipituudesta](/posts/tyovuoron_maksimipituus_ravintola-alalla)
-ja [16 tunnin vuorokausirajasta](/posts/pisin_sallittu_tyopaiva_ravintola-alalla).
+[työvuoron maksimipituudesta ja vuorokauden 16 tunnin
+rajasta](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
 ## Palkallinen vai palkaton? Ratkaisee poistumisoikeus
 
@@ -83,7 +86,7 @@ ja [palkkaraportti](/posts/palkkaraportti_ominaisuus) pysyvät oikeina.
 
 Huomaa, että tämä postaus käsittelee vuoron **sisäisiä** taukoja —
 vuorojen **väliin** jäävästä lepoajasta (11 h / 8 h) kerron
-[omassa postauksessaan](/posts/kuinka_pitka_tauko_tyovuorojen_valilla).
+[pituus- ja lepoaikapostauksessa](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
 ---
 

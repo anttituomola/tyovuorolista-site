@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mikä on kolmiviikkoisjakso ravintola-alalla?'
 pubDate: 2026-07-14
 description: 'MaRa-TES:ssä työaikaa ei lasketa viikoittain vaan kolmen viikon jaksoissa: enintään 112,5 tuntia jaksossa, ja jakso alkaa aina maanantaina. Tästä jaksosta lasketaan myös lisä- ja ylityöt.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (tes.mara.fi) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Luo kolmiviikkoisjakson työvuorolista'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'
@@ -22,11 +26,10 @@ rajoissa.
 Ravintola-alan työ on epätasaista: viikonloput, sesongit ja tapahtumat
 heiluttavat tunteja viikosta toiseen. Siksi MaRa-TES käyttää
 jaksotyöaikaa. Työnantaja saa jakaa 112,5 tuntia kolmen viikon sisällä
-melko vapaasti, kunhan muut määräykset — kuten
-[vuorojen vähimmäis-](/posts/tyovuoron_minimipituus_ravintola-alalla) ja
-[enimmäispituudet](/posts/tyovuoron_maksimipituus_ravintola-alalla),
-[lepoajat](/posts/kuinka_pitka_tauko_tyovuorojen_valilla) ja vapaapäivät —
-täyttyvät.
+melko vapaasti, kunhan muut määräykset — kuten [vuorojen
+vähimmäis- ja enimmäispituudet sekä
+lepoajat](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla) ja
+vapaapäivät — täyttyvät.
 
 ## Jakson tärkeimmät säännöt
 
@@ -40,7 +43,7 @@ täyttyvät.
   30 h) ja [X-päivä](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)
   (vähintään 24 h)
 - Työvuorolista julkaistaan
-  [viimeistään viikkoa ennen jakson alkua](/posts/koska_tyovuorolista_pitaa_julkaista)
+  [viimeistään viikkoa ennen jakson alkua](/posts/tyovuorolistan_julkaiseminen)
 - Jos jakson tunnit ylittyvät, kyse on
   [lisä- tai ylityöstä](/posts/lisatyo_ja_ylityo_ravintola-alalla)
 

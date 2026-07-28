@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mitä tarkoittaa TS-päivä (tasoitusvapaa) työvuorolistassa?'
 pubDate: 2026-07-22
 description: 'Mikä on TS-päivä, kenelle se kuuluu, ja miksi se näkyy listalla vain osalla työntekijöistä?'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen tasoittumisjärjestelmämääräyksiin (työaika: tasoittumisjärjestelmä ja paikalliseen sopimiseen perustuva tasoittumisjärjestelmä, tes.mara.fi). Koskee MaRa TES:n piirissä olevia kuukausipalkkaisia kokoaikaisia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Seuraa saldoa ja TS-päiviä automaattisesti'
+ctaHref: '/ominaisuudet/tes-apuri'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'
@@ -61,3 +65,7 @@ toimipaikan TES-asetuksista, tyovuorolista.fi laskee jokaisen kokoaikaisen
 työntekijän jaksokohtaisen ja kumulatiivisen saldon automaattisesti ja
 muistuttaa, jos kaudelle ei ole merkitty vielä vaadittua määrää
 TS-päiviä, vaikka tuntikertymä sen sallisi.
+
+---
+
+*Lähteet: [MaRa-TES, työaika, tasoittumisjärjestelmä (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html)*

@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Aattopäivät ravintola-alalla: viisi aattoa, kello 15 ja keskiyön käännös'
 pubDate: 2026-08-02
 description: 'MaRa-TES:n aattolisä koskee täsmälleen viittä päivää ja alkaa vasta klo 15. Aatto ei ole pyhäpäivä — mutta jokaisen viiden aaton jälkeen keskiyöllä alkaa pyhä, jolloin korotus nousee 50 prosentista sataan.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen 17 §:ään (sunnuntai-, pyhä- ja aattotyö) sekä 19 ja 21 §:ään (tes.mara.fi). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Laske aatto- ja pyhäpäivälisät automaattisesti'
+ctaHref: '/ominaisuudet/tes-apuri'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png'

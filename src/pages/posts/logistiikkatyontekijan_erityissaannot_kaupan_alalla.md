@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Logistiikkatyöntekijän erityissäännöt kaupan alalla'
 pubDate: 2026-08-01
 description: 'Kaupan TES 15 § ja 12 § 7: logistiikan omat ilta-/yö-/lauantai-ikkunat, 12 h ylityöporras (+100 %), lisien lakkaaminen 12 h jälkeen, ja yölisän tuplauksen päättyminen 1.10.2026.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (6 § 5, 12 § 7 ja 15 §), ammattiryhmäpöytäkirjaan ”Logistiikkatyöntekijät” sekä kaupan palkankorotusohjeeseen 2025–2028. Koskee kaupan alan logistiikkatyöntekijöitä; muut työntekijäryhmät ja sopimusalat voivat poiketa.'
+ctaText: 'Erittele logistiikan tunnit ja lisät palkkaraportissa'
+ctaHref: '/ominaisuudet/palkkaraportti'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-huomautukset-paneeli.png'

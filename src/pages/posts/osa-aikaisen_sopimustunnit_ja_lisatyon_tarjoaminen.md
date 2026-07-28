@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Osa-aikaisen sopimustunnit ja lisätyön tarjoamisvelvoite ravintola-alalla'
 pubDate: 2026-07-27
 description: 'MaRa-TES velvoittaa tarjoamaan lisätyötä ensin omille osa-aikaisille 112,5 tuntiin asti kolmiviikkoisjaksossa, ja päivittämään sopimuksen, jos toteutuneet tunnit vakiintuneesti ylittävät sovitun. Tarkastelu tehdään kuuden kuukauden jaksoissa.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen määräyksiin (6 §) ja työaikalakiin (872/2019, 30 §). Koskee MaRa TES:n piirissä olevia osa-aikaisia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Vertaa sopimus- ja suunniteltuja tunteja'
+ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyotunnit-tyosopimuksessa/tyontekijat-sopimustunnit.png'

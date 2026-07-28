@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Harjoittelijan ja opiskelijan palkka ravintola-alalla'
 pubDate: 2026-07-26
 description: 'MaRa-TES:ssä harjoitteluajan palkka on 80 % tehtävän taulukkopalkasta ja harjoitteluaika kestää enintään kuusi kuukautta. Koululaiselle voidaan maksaa 70 % enintään kahdelta kuukaudelta. Palkaton työ on laillista vain oppilaitoksen tai TE-palvelujen sopimuksella.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen palkkamääräyksiin (14–17 §) ja kesäkuun 2026 palkkataulukoihin. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Vie harjoittelijan tunnit palkanlaskentaan'
+ctaHref: '/ominaisuudet/palkkaraportti'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tuntilaskuri.png'

@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Kaupan alan työaikalisät 2026: ilta-, yö- ja lauantailisä'
 pubDate: 2026-07-30
 description: 'Euromääräiset ilta-, yö- ja lauantailisät Kaupan TES:n palkkaliitteestä (PKS vs. muu Suomi), aattoiltalisä, inventaarilisä ja logistiikan poikkeavat ikkunat. Päivitetty sopimuskaudelle 2025–2028.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan työehtosopimukseen 1.2.2025–31.1.2028 (PAM) 14–15 § ja 17 § sekä Kaupan palkankorotusohjeeseen 2025–2028. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Vie työaikalisät suoraan palkanlaskentaan'
+ctaHref: '/ominaisuudet/palkkaraportti'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'

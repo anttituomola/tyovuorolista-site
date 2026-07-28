@@ -392,21 +392,9 @@
         "title": "Shift planning software",
         "shortDescription": "General guide to shift planning and choosing software."
       },
-      "min-shift-length": {
-        "title": "Minimum shift length in restaurants",
-        "shortDescription": "Reminder about shifts under four hours."
-      },
-      "break-between-shifts": {
-        "title": "Break between shifts",
-        "shortDescription": "Guide to required breaks between shifts."
-      },
-      "max-shift-length": {
-        "title": "Maximum shift length in restaurants",
-        "shortDescription": "Longest allowed shift and when longer shifts are permitted."
-      },
-      "longest-workday": {
-        "title": "Longest allowed workday in restaurants",
-        "shortDescription": "How many hours per day can be worked under working time rules."
+      "shift-length-and-rest": {
+        "title": "Shift length and rest periods in restaurants",
+        "shortDescription": "Minimum and maximum shift length, daily rest and breaks."
       },
       "shift-abbreviations": {
         "title": "Shift schedule abbreviations",

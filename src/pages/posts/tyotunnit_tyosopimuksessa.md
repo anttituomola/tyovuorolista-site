@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työtunnit työsopimuksessa — yksi kenttä, joka ohjaa tuntitavoitetta ja TES-laskentaa'
 pubDate: 2026-07-14
 description: 'Työntekijän sopimustunnit kirjataan nyt yhteen kenttään, jonka yksikön voit valita: tuntia kuukaudessa, viikossa tai kolmen viikon jaksossa. Sama luku ohjaa kalenterin tuntitavoitetta ja TES-tuen lisä- ja ylityörajoja.'
+reviewedDate: 2026-07-28
+infoBasis: 'Ensisijaisesti sovellusohje. Mainitut TES-luvut (jakson enimmäistyöaika 112,5 h ja lisä-/ylityöraja 120 h kolmessa viikossa) perustuvat MaRa-työehtosopimuksen työaikamääräyksiin (12 §) ja palkkamääräyksiin (18 §), ks. Lähteet. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Kirjaa sopimustunnit ja seuraa tavoitetta'
+ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyotunnit-tyosopimuksessa/tyontekijat-sopimustunnit.png'
@@ -52,12 +56,14 @@ joten koko henkilöstön sopimustilanne on yhdellä silmäyksellä selvillä:
 sopimustunnit ovat työsopimukseen kirjattu vähimmäistuntimäärä. TES-tuki
 käyttää tätä lukua lisätyörajan laskentaan: esimerkiksi MaRa:ssa
 osa-aikaisen 90 h/3 vk sopimuksella tunnit 90:stä ylöspäin ovat
-lisätyötä. Siksi tarkistuslista **Hallinta → Työehtosopimus** -sivulla
+[lisätyötä](/posts/lisatyo_ja_ylityo_ravintola-alalla) (MaRa-TES 18 §).
+Siksi tarkistuslista **Hallinta → Työehtosopimus** -sivulla
 huomauttaa, jos osa-aikaiselta puuttuu tuntimäärä.
 
 Kokoaikaisella työntekijällä kenttä toimii puhtaasti suunnittelun
 tuntitavoitteena — TES:n lisä- ja ylityörajat tulevat sopimuksen omista
-jaksorajoista (MaRa:ssa 112,5 h / 120 h kolmessa viikossa).
+jaksorajoista (MaRa:ssa 112,5 h / 120 h kolmessa viikossa, MaRa-TES
+12 § ja 18 §).
 
 ## Pieni kenttä, iso hyöty
 
@@ -69,3 +75,7 @@ homma Työntekijät-sivulla.
 
 Kysyttävää tai toiveita? Laita viestiä:
 [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
+
+---
+
+*Lähteet: [MaRa-TES, työaika, 12 § (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html), [MaRa-TES, palkka, 18 § lisä- ja ylityö (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/palkka.html)*

@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työaikalain perusteet työvuorosuunnittelussa'
 pubDate: 2026-07-25
 description: 'Työaikalaki pätee jokaisella työpaikalla, myös silloin kun alalla on työehtosopimus. Lista tiedoksi viimeistään viikkoa ennen, vuorokausilepo 11 tuntia, viikkolepo 35 tuntia ja enimmäistyöaika 48 tuntia viikossa.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu työaikalakiin (872/2019) sekä MaRa-työehtosopimuksen työaikamääräyksiin. Työaikalaki koskee kaikkia työpaikkoja; muut sopimusalat voivat poiketa MaRa:n TES-esimerkeistä.'
+ctaText: 'Luo työaikalain mukainen työvuorolista'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png'
@@ -32,7 +36,7 @@ on myös oikeus pyynnöstä saada itseään koskevat tiedot listasta ja
 työaikakirjanpidosta.
 
 Moni TES kiristää tätä: [ravintola-alalla lista pitää julkaista viikkoa
-ennen kolmiviikkoisjakson alkua](/posts/koska_tyovuorolista_pitaa_julkaista)
+ennen kolmiviikkoisjakson alkua](/posts/tyovuorolistan_julkaiseminen)
 eli käytännössä kolme viikkoa eteenpäin, ja kaupan alalla kaksi viikkoa
 ennen työviikkoa.
 

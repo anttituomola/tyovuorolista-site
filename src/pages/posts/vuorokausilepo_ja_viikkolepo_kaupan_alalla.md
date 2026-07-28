@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuorokausilepo ja viikkolepo kaupan alalla'
 pubDate: 2026-07-29
 description: 'Kaupan TES 7 §: 11 tunnin vuorokausilepo (sopien 9 h, kertaluonteisesti 7 h). Viikkolepo määräytyy työaikalain 27 §:n mukaan (35 h). Tyypilliset rikkomukset ilta–aamu-vaihdossa.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (7 §, 8 § 3–5 ja 9 §) sekä työaikalakiin 872/2019 (25 § ja 27 §). Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Tarkista lepoajat omassa työvuorolistassasi'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-varoitukset-kalenterissa.png'

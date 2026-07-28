@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntai-, ilta- ja aattolisät kaupan alalla'
 pubDate: 2026-07-23
 description: 'Kaupan TES: sunnuntaityöstä kaksinkertainen palkka, iltalisä klo 18–24, lauantailisä klo 13–24 ja aattoiltalisä kirkollisten juhlapäivien aattoina. Marras–joulukuun sunnuntai-illoissa on oma erikoisuutensa.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimuksen 10, 14 ja 15 §:n määräyksiin sekä palkkaliitteen 1.5.2025 mukaisiin euromääriin. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Vie sunnuntai- ja aattolisät palkanlaskentaan'
+ctaHref: '/ominaisuudet/palkkaraportti'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'

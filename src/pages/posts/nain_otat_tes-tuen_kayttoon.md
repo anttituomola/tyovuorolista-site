@@ -83,7 +83,7 @@ Vanhoja listoja ei tarvitse muuttaa.
 
 Tästä eteenpäin kalenteri tarkistaa vuorot suunnitellessasi:
 lepoajat, vuorojen pituudet, vapaapäivät, jakson tuntirajat ja
-[listan julkaisun määräajan](/posts/koska_tyovuorolista_pitaa_julkaista).
+[listan julkaisun määräajan](/posts/tyovuorolistan_julkaiseminen).
 Punainen on lakiasia, oranssi TES-asia, sininen huomio — eikä mikään
 niistä koskaan estä tallentamista.
 

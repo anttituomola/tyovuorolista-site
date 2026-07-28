@@ -397,21 +397,9 @@
         "title": "Työvuorosuunnitteluohjelma",
         "shortDescription": "Yleisopas työvuorosuunnitteluun ja ohjelmavalintaan."
       },
-      "min-shift-length": {
-        "title": "Vuoron minimipituus ravintola-alalla",
-        "shortDescription": "Muistutus alle neljän tunnin vuoroista."
-      },
-      "break-between-shifts": {
-        "title": "Tauko työvuorojen välillä",
-        "shortDescription": "Ohje taukojen pituudesta vuorojen välillä."
-      },
-      "max-shift-length": {
-        "title": "Työvuoron maksimipituus ravintola-alalla",
-        "shortDescription": "Pisin sallittu työvuoro ja milloin pidempiä saa teettää."
-      },
-      "longest-workday": {
-        "title": "Pisin sallittu työpäivä ravintola-alalla",
-        "shortDescription": "Kuinka monta tuntia vuorokaudessa saa tehdä töitä?"
+      "shift-length-and-rest": {
+        "title": "Työvuoron pituus ja lepoajat ravintola-alalla",
+        "shortDescription": "Minimi- ja maksimipituus, vuorokausilepo ja tauot."
       },
       "shift-abbreviations": {
         "title": "Työvuorolistan lyhenteet",

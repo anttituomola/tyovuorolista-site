@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi laiminlyöntimaksu työvuoroluettelosta ja työaikakirjanpidosta'
 pubDate: 2026-07-23
 description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Esitys on vielä lausuntokierroksella.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu työ- ja elinkeinoministeriön lausuntokierroksella olevaan lakiluonnokseen laiminlyöntimaksusta sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; lopullinen muoto ratkeaa eduskunnan käsittelyssä.'
+ctaText: 'Pidä työaikakirjanpito kuntoon'
+ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/aloitus_opas/julkaise-nakyma.png'
@@ -101,7 +105,7 @@ saa oman henkilökohtaisen listansa.
 <img src="/blogPostImages/aloitus_opas/julkaise-nakyma.png" alt="Julkaise-näkymä, josta työvuorolista lähetetään työntekijöille" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 TES-tuen kanssa näet myös, jos [julkaisun
-määräaika](/posts/koska_tyovuorolista_pitaa_julkaista) uhkaa ylittyä,
+määräaika](/posts/tyovuorolistan_julkaiseminen) uhkaa ylittyä,
 ennen kuin se on jo myöhässä.
 
 ### 2. Työaikakirjanpito samasta paikasta

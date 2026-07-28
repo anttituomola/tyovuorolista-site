@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mitä tarkoittaa X-päivä työvuorolistassa?'
 pubDate: 2026-07-21
 description: 'Mikä on X-päivä, miten se eroaa V-päivästä, ja voiko sen siirtää toiselle viikolle?'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (vapaapäivät ja tasoittumisjärjestelmä, tes.mara.fi). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Merkitse X- ja V-päivät automaattisesti'
+ctaHref: '/ominaisuudet/tes-apuri'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/x_ja_v_paivien_merkkaaminen_tyovuorolistaan.png'
@@ -11,10 +15,13 @@ tags: ["työvuoro", "työaikalainsäädäntö", "X-päivä", "vapaat"]
 ---
 
 X-päivä on lisävapaapäivä. Se tienataan samalla tahdilla kuin
-[V-päivä](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa): viittä (5)
-tehtyä työpäivää kohden ansaitaan kaksi vapaapäivää — yksi V-päivä ja yksi
-X-päivä. Erona V-päivään X-päivä on kestoltaan lyhyempi ja sen
-sijoittaminen työvuorolistaan on joustavampaa.
+[V-päivä](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa): viittä
+työpäivää sisältävää viikkoa kohden ansaitaan kaksi vapaapäivää — yksi
+V-päivä ja yksi X-päivä. (Työpäiväksi rinnastetaan myös esimerkiksi
+toiselta viikolta siirretty X-päivä ja
+[TS-päivä](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa).) Erona
+V-päivään X-päivä on kestoltaan lyhyempi ja sen sijoittaminen
+työvuorolistaan on joustavampaa.
 
 ## Miten X-päivä eroaa V-päivästä?
 
@@ -35,7 +42,7 @@ muuhun vapaaseen — ei siis yksinäisenä vapaapäivänä keskellä työviikkoa
 X-päivä kestää vähintään **24 tuntia**, eli sitä edeltävän työvuoron
 lopun ja sitä seuraavan työvuoron alun väliin tulee jäädä vähintään 24
 tuntia. V-päivän vastaava minimi on 30 tuntia — lue lisää
-[työvuorojen välisistä tauoista](/posts/kuinka_pitka_tauko_tyovuorojen_valilla).
+[työvuorojen välisistä lepoajoista](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
 ## Voiko X-päivän siirtää tasoittumisjärjestelmässä pidemmälle?
 
@@ -61,3 +68,7 @@ ensimmäinen merkattu vapaapäivä on V-päivä ja loput saman viikon vapaat
 X-päiviä. Voit tarvittaessa vaihtaa tyypin itse, ja sovellus laskee
 taustalla, että jokainen työntekijä saa oikean määrän vapaapäiviä oikean
 pituisina.
+
+---
+
+*Lähteet: [MaRa-TES, työaika, vapaapäivät ja tasoittumisjärjestelmä (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html)*

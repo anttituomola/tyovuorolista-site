@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntaityön korvaus kaupan alalla — tuplapalkka, ei sunnuntailisää'
 pubDate: 2026-08-04
 description: 'Kaupan alalla ei makseta euromääräistä sunnuntailisää vaan kaksinkertaista palkkaa (TES 10 § 3). Työaikalisät eivät kuulu korvauksen laskentapohjaan, ja työtuomioistuimen tuoreen lausunnon mukaan korvausta ei voi maksaa muuna kuin rahana.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan työehtosopimukseen 1.2.2025–31.1.2028 (10 §, 14–15 §), työtuomioistuimen lausuntoon TT 2026:10 (22.4.2026) ja työaikalakiin (872/2019) 17 § ja 40 §. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Erittele sunnuntaityön korvaus palkkaraportissa'
+ctaHref: '/ominaisuudet/palkkaraportti'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'
@@ -167,7 +171,7 @@ työsuhteessa määrä suhteutetaan.
 Lisäksi työntekijälle on annettava sunnuntai tai kirkollinen juhlapäivä
 vapaaksi **perustellusta perhesyystä**, jos hän ilmoittaa siitä ennen
 työvuoroluettelon laatimista — eli hyvissä ajoin ennen
-[listan julkaisua](/posts/tyovuorolista_kaksi_viikkoa_ennen_kaupan_alalla).
+[listan julkaisua](/posts/tyovuorolistan_julkaiseminen).
 Sunnuntaivapaasääntö ei koske huolto- ja liikenneasematyöntekijöitä
 eikä kioskimyyjiä. Loput vapaapäiväsäännöt ovat
 [vapaapäiväpostauksessa](/posts/vapaapaivat_kaupan_alalla).

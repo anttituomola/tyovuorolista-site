@@ -30,9 +30,9 @@ Vaihtoehdot voidaan jakaa ensin kahteen osaan:
 Molemmat ovat aivan mahdollisia vaihtoehtoja, mutta kerrankin kannattaa valita kotimainen softa: työvuorosuunnittelussa on tärkeää, että ohjelmisto ymmärtää suomalaista työaikalainsäädäntöä. Sen pitäisi osata kertoa sinulle esimerkiksi: 
 - kuinka pitkä listan tulee olla (3 viikkoa, tai [1–4 viikkoa Työvuorolistassa](/posts/listan_pituuden_valinta))
 - koska listan tulisi alkaa (maanantaista)
-- kuinka pitkä työvuoro saa olla ([10 h](/posts/tyovuoron_maksimipituus_ravintola-alalla), tai erikseen sovittaessa pidempi)
-- kuinka lyhyt työvuoro saa olla ([4 h](/posts/tyovuoron_minimipituus_ravintola-alalla), perustellusta syystä lyhyempi)
-- kuinka pitkä tauko työvuorojen välissä tulee olla ([11 h](/posts/kuinka_pitka_tauko_tyovuorojen_valilla))
+- kuinka pitkä työvuoro saa olla ([10 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla), tai erikseen sovittaessa pidempi)
+- kuinka lyhyt työvuoro saa olla ([4 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla), perustellusta syystä lyhyempi)
+- kuinka pitkä tauko työvuorojen välissä tulee olla ([11 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla))
 
 #### Kotimaisia ohjelmistoja ovat mm:
 - <a href='https://tyovuorolista.fi' target='_blank'>tyovuorolista.fi</a>

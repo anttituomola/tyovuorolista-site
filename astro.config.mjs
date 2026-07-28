@@ -36,7 +36,14 @@ export default defineConfig({
         '/sv/not-available',
         '/kayttoohjeet',
         '/api/',
-        '/_image'
+        '/_image',
+        // Merged posts — URLs 301 to hub pages, keep out of sitemap
+        '/posts/tyovuoron_maksimipituus_ravintola-alalla',
+        '/posts/tyovuoron_minimipituus_ravintola-alalla',
+        '/posts/pisin_sallittu_tyopaiva_ravintola-alalla',
+        '/posts/kuinka_pitka_tauko_tyovuorojen_valilla',
+        '/posts/koska_tyovuorolista_pitaa_julkaista',
+        '/posts/tyovuorolista_kaksi_viikkoa_ennen_kaupan_alalla'
       ];
       if (excludePatterns.some(pattern => page.includes(pattern))) {
         return false;

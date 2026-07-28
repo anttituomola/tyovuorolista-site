@@ -78,4 +78,4 @@ Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus 
 - [Mitä tarkoittaa TS-päivä (tasoitusvapaa) työvuorolistassa?](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa)
 - [Tasoittumisjärjestelmä ravintola-alalla: syväluotaava opas](/posts/tasoittumisjarjestelma_ravintola-alalla)
 - [Vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan)
-- [Kuinka pitkä tauko työvuorojen välillä pitäisi olla?](/posts/kuinka_pitka_tauko_tyovuorojen_valilla)
+- [Työvuoron pituus ja lepoajat ravintola-alalla](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla)

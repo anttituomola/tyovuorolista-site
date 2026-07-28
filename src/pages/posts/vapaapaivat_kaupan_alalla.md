@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vapaapäivät kaupan alalla: 8 vuoron sääntö, vapaat sunnuntait ja aattovapaat'
 pubDate: 2026-07-24
 description: 'Kaupan TES 8 §: enintään 8 työvuoroa vapaiden välissä, 22 työstä vapaata sunnuntaita vuodessa, 15 vähintään 59 tunnin vapaajaksoa ja kaksi vapaata aattoa. Mitä nämä tarkoittavat listasuunnittelussa?'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimuksen vapaapäiväsäännöksiin (8 § 26–29 ja 31) ja 9 §:n yövuorosäännöksiin. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Suunnittele vapaapäivät kaupan TES:n mukaan'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-varoitukset-kalenterissa.png'

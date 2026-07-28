@@ -7,4 +7,52 @@ Disallow: /kayttoohjeet/
 Disallow: /api/
 Disallow: /_image/
 
+# AI search and assistant crawlers — explicitly welcome
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /not-available
+Disallow: /en/not-available
+Disallow: /sv/not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /not-available
+Disallow: /kayttoohjeet
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://www.tyovuorolista.fi/sitemap-index.xml

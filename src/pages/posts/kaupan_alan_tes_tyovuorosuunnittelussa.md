@@ -3,6 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Kaupan alan TES työvuorosuunnittelussa'
 pubDate: 2026-07-21
 description: 'Mitä kaupan alan työehtosopimus vaatii työvuorolistalta: 37,5 tunnin viikko, listan julkaisu 2 viikkoa etukäteen, työvuoron pituusrajat ja vapaapäiväsäännöt.'
+reviewedDate: 2026-07-28
+infoBasis: 'Perustuu kaupan alan työehtosopimukseen (PAM ry – Kaupan liitto, 1.2.2025–31.1.2028, yleissitova), erityisesti 6 §:n ja 8 §:n määräyksiin. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
+ctaText: 'Luo kaupan TES:n mukainen työvuorolista'
+ctaHref: 'https://app.tyovuorolista.fi/register'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-tes-asetukset.png'
@@ -57,7 +61,7 @@ tasoittumisjakso, aikaraja on 3 viikkoa. Työpaikkakohtaisesti sopien
 raja voidaan lyhentää yhteen viikkoon.
 
 Vertailun vuoksi: [ravintola-alalla riittää viikko ennen jakson
-alkua](/posts/koska_tyovuorolista_pitaa_julkaista). Kahden viikon sääntö
+alkua](/posts/tyovuorolistan_julkaiseminen). Kahden viikon sääntö
 unohtuu helposti — sovellus näyttää julkaisun määräajan listan
 julkaisunäkymässä ja varoittaa, jos lista on myöhässä.
 

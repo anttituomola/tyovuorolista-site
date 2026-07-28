@@ -4,6 +4,7 @@ import Footer from '../components/navigation/Footer.astro'
 import GoogleAnalytics from '../components/common/GoogleAnalytics.astro'
 import CookieConsent from '../components/common/CookieConsent.astro'
 import { getLocaleFromAstro, t } from '../utils/translations'
+import logo from '../assets/logo.png'
 import '../styles/tyov-features.css'
 import '../styles/tyov-button.css'
 import '../styles/lang-switcher.css'
@@ -73,6 +74,41 @@ const canonicalUrl = customCanonicalUrl || (() => {
   const canonicalProtocol = canonicalHostname.includes('tyovuorolista.fi') ? 'https:' : currentUrl.protocol
   return `${canonicalProtocol}//${canonicalHostname}${canonicalPath}${currentUrl.search}`
 })()
+
+const siteUrl = (Astro.site || 'https://www.tyovuorolista.fi').toString().replace(/\/$/, '')
+const logoUrl = new URL(logo.src, siteUrl).href
+
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'True Solutions Oy',
+  url: siteUrl,
+  logo: {
+    '@type': 'ImageObject',
+    url: logoUrl
+  }
+}
+
+const softwareApplicationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Työvuorolista',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Web',
+  url: 'https://app.tyovuorolista.fi',
+  publisher: {
+    '@type': 'Organization',
+    name: 'True Solutions Oy',
+    url: siteUrl
+  },
+  offers: {
+    '@type': 'AggregateOffer',
+    priceCurrency: 'EUR',
+    lowPrice: '0',
+    highPrice: '60',
+    url: `${siteUrl}/hinnoittelu`
+  }
+}
 ---
 
 <!DOCTYPE html>
@@ -107,6 +143,9 @@ const canonicalUrl = customCanonicalUrl || (() => {
         <meta property="twitter:image" content={ogImage} />
 
         <!-- Meta Pixel loads via CookieConsent only after consent -->
+        <slot name="head" />
+        <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationJsonLd)} />
+        <script is:inline type="application/ld+json" set:html={JSON.stringify(softwareApplicationJsonLd)} />
     <style is:global>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
     :root {
