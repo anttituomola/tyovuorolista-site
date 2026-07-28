@@ -222,7 +222,8 @@
     "submit": "Send",
     "success": "Thank you! I'll contact you shortly!",
     "error": "Form submission failed. Please try again.",
-    "errorNetwork": "Form submission failed. Check your internet connection and try again."
+    "errorNetwork": "Form submission failed. Check your internet connection and try again.",
+    "errorTurnstile": "Verification failed. Please try again."
   },
   "mobileDemo": {
     "title": "Manage shifts on mobile too",

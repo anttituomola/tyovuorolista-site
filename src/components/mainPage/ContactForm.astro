@@ -10,6 +10,8 @@ const submitLabel = translations.submit ?? 'Lähetä'
 const successMessage = translations.success ?? ''
 const errorMessage = translations.error ?? ''
 const errorNetworkMessage = translations.errorNetwork ?? ''
+const errorTurnstileMessage = translations.errorTurnstile ?? ''
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
 ---
 
 <section class="contact-form" data-contact-form lang={locale}>
@@ -38,6 +40,7 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
           placeholder={phonePlaceholder}
         />
       </label>
+      <div class="contact-form__turnstile" data-contact-turnstile></div>
       <button type="submit" class="contact-form__submit" data-contact-submit>
         {submitLabel}
       </button>
@@ -49,13 +52,55 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
 </section>
 
 <script
+  src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+  async
+  defer
+></script>
+
+<script
   define:vars={{
     errorMessage,
     errorNetworkMessage,
+    errorTurnstileMessage,
+    turnstileSiteKey,
   }}
 >
-  const initContactForms = () => {
-    document.querySelectorAll('[data-contact-form]').forEach((root) => {
+  const loadTurnstile = () =>
+    new Promise((resolve, reject) => {
+      if (window.turnstile) {
+        resolve(window.turnstile)
+        return
+      }
+
+      const started = Date.now()
+      const poll = () => {
+        if (window.turnstile) {
+          resolve(window.turnstile)
+          return
+        }
+        if (Date.now() - started > 10000) {
+          reject(new Error('Turnstile failed to load'))
+          return
+        }
+        requestAnimationFrame(poll)
+      }
+      poll()
+    })
+
+  const initContactForms = async () => {
+    const forms = document.querySelectorAll('[data-contact-form]')
+    if (forms.length === 0) {
+      return
+    }
+
+    let turnstile
+    try {
+      turnstile = await loadTurnstile()
+    } catch {
+      console.error('Cloudflare Turnstile failed to load')
+    }
+
+    forms.forEach((root) => {
       if (root.getAttribute('data-contact-initialized') === 'true') {
         return
       }
@@ -67,9 +112,26 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
       const submitBtn = root.querySelector('[data-contact-submit]')
       const emailInput = root.querySelector('[data-contact-email]')
       const phoneInput = root.querySelector('[data-contact-phone]')
+      const turnstileContainer = root.querySelector('[data-contact-turnstile]')
 
       if (!form || !panel || !success || !submitBtn || !emailInput || !phoneInput) {
         return
+      }
+
+      let widgetId = null
+
+      if (turnstile && turnstileSiteKey && turnstileContainer) {
+        widgetId = turnstile.render(turnstileContainer, {
+          sitekey: turnstileSiteKey,
+          appearance: 'interaction-only',
+          theme: 'light',
+        })
+      }
+
+      const resetTurnstile = () => {
+        if (turnstile && widgetId !== null) {
+          turnstile.reset(widgetId)
+        }
       }
 
       form.addEventListener('submit', async (event) => {
@@ -78,6 +140,15 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
         const phone = phoneInput.value.trim()
 
         if (!email && !phone) {
+          return
+        }
+
+        const turnstileToken =
+          turnstile && widgetId !== null ? turnstile.getResponse(widgetId) : ''
+
+        if (!turnstileToken) {
+          alert(errorTurnstileMessage || errorMessage)
+          resetTurnstile()
           return
         }
 
@@ -94,11 +165,12 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
           const response = await fetch(apiUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, phone }),
+            body: JSON.stringify({ email, phone, turnstileToken }),
           })
 
           if (!response.ok) {
-            alert(errorMessage)
+            alert(response.status === 403 ? errorTurnstileMessage || errorMessage : errorMessage)
+            resetTurnstile()
             return
           }
 
@@ -109,9 +181,11 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
             success.hidden = false
           } else {
             alert(errorMessage)
+            resetTurnstile()
           }
         } catch {
           alert(errorNetworkMessage)
+          resetTurnstile()
         } finally {
           submitBtn.disabled = false
         }
@@ -195,6 +269,12 @@ const errorNetworkMessage = translations.errorNetwork ?? ''
   .contact-form__or {
     color: var(--tummanvihrea);
     font-weight: 500;
+  }
+
+  .contact-form__turnstile {
+    display: flex;
+    justify-content: center;
+    min-height: 0;
   }
 
   .contact-form__submit {

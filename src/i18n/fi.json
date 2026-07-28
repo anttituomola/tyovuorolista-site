@@ -222,7 +222,8 @@
     "submit": "Lähetä",
     "success": "Kiitos! Olen sinuun yhteydessä pikaisesti!",
     "error": "Lomakkeen lähetys epäonnistui. Yritä uudelleen.",
-    "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen."
+    "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.",
+    "errorTurnstile": "Vahvistus epäonnistui. Yritä uudelleen."
   },
   "mobileDemo": {
     "title": "Hallitse vuoroja myös mobiilissa",
