@@ -215,7 +215,7 @@
   },
   "contactForm": {
     "title": "I want to ask more!",
-    "description": "Leave your email or phone number, and I'll contact you shortly!",
+    "description": "Call or send a WhatsApp message — I'll reply quickly.",
     "emailPlaceholder": "Your email address",
     "phonePlaceholder": "Your phone number",
     "or": "or",
@@ -223,7 +223,14 @@
     "success": "Thank you! I'll contact you shortly!",
     "error": "Form submission failed. Please try again.",
     "errorNetwork": "Form submission failed. Check your internet connection and try again.",
-    "errorTurnstile": "Verification failed. Please try again."
+    "errorTurnstile": "Verification failed. Please try again.",
+    "errorValidation": "Please check the details you entered.",
+    "callAntti": "Call",
+    "whatsappAntti": "Send a WhatsApp message",
+    "whatsappPrefill": "Hi Antti! I'd like to learn more about Työvuorolista.",
+    "emailMe": "Email me",
+    "callMe": "Call me",
+    "callbackHint": "Or leave your details and I'll get back to you:"
   },
   "mobileDemo": {
     "title": "Manage shifts on mobile too",

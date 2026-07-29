@@ -1,13 +1,31 @@
 ---
-const { locale = 'fi', contactPage } = Astro.props
+const { locale = 'fi', contactPage, directContact = {} } = Astro.props
+
+const callLabel = directContact.callAntti ?? 'Soita'
+const whatsappLabel = directContact.whatsappAntti ?? 'Lähetä WhatsApp-viesti'
+const whatsappPrefill =
+	directContact.whatsappPrefill ??
+	'Hei Antti! Haluaisin kuulla lisää Työvuorolistasta.'
+
+const ANTTI_PHONE_DISPLAY = '+358 45 679 8818'
+const ANTTI_PHONE_TEL = '+358456798818'
+const ANTTI_WHATSAPP_NUMBER = '358456798818'
+const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappPrefill)}`
 ---
 
-<div class="wrapper">
+<div class="wrapper" lang={locale}>
     <h1>{contactPage?.title || 'Tyovuorolista.fi yhteystiedot'}</h1>
     <p>{contactPage?.company || 'True Solutions / tyovuorolista.fi'}</p>
     <p>{contactPage?.businessId || 'Y-tunnus: 3431534-2'}</p>
     <p>{contactPage?.address || 'Juhannuskylänkatu 1 B 6, 33100 Tampere'}</p>
 	<p>{contactPage?.sales || 'Myynti:'} <a href='mailto:eemeli@tyovuorolista.fi'>eemeli@tyovuorolista.fi</a></p>
     <p><a href='mailto:info@tyovuorolista.fi'>{contactPage?.info || 'info@tyovuorolista.fi'}</a></p>
-    <p><a href='tel:+358456798818'>+358 45 679 8818</a></p>
+    <p>
+      <a href={`tel:${ANTTI_PHONE_TEL}`}>{callLabel}: {ANTTI_PHONE_DISPLAY}</a>
+    </p>
+    <p>
+      <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+        {whatsappLabel}
+      </a>
+    </p>
 </div>

@@ -11,7 +11,11 @@ const contactPage = getTranslationObject('pages.contact', locale)
 
 <Layout>
     <main class="contact-page">
-        <ContactSection locale={locale} contactPage={contactPage} />
+        <ContactSection
+          locale={locale}
+          contactPage={contactPage}
+          directContact={contactFormTranslations}
+        />
         <ContactForm locale={locale} translations={contactFormTranslations} />
     </main>
 </Layout>

@@ -215,7 +215,7 @@
   },
   "contactForm": {
     "title": "Haluan kysyä lisää!",
-    "description": "Jätä sähköpostisi tai puhelinnumerosi, niin olen sinuun yhteydessä pikaisesti!",
+    "description": "Soita tai lähetä WhatsApp-viesti — vastaan nopeasti.",
     "emailPlaceholder": "Sähköpostiosoitteesi",
     "phonePlaceholder": "Puhelinnumerosi",
     "or": "tai",
@@ -223,7 +223,14 @@
     "success": "Kiitos! Olen sinuun yhteydessä pikaisesti!",
     "error": "Lomakkeen lähetys epäonnistui. Yritä uudelleen.",
     "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.",
-    "errorTurnstile": "Vahvistus epäonnistui. Yritä uudelleen."
+    "errorTurnstile": "Vahvistus epäonnistui. Yritä uudelleen.",
+    "errorValidation": "Tarkista syöttämäsi tiedot.",
+    "callAntti": "Soita",
+    "whatsappAntti": "Lähetä WhatsApp-viesti",
+    "whatsappPrefill": "Hei Antti! Haluaisin kuulla lisää Työvuorolistasta.",
+    "emailMe": "Sähköposti",
+    "callMe": "Soitto",
+    "callbackHint": "Tai jätä yhteystietosi, niin otan yhteyttä:"
   },
   "mobileDemo": {
     "title": "Hallitse vuoroja myös mobiilissa",

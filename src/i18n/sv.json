@@ -215,7 +215,7 @@
   },
   "contactForm": {
     "title": "Jag vill fråga mer!",
-    "description": "Lämna din e-post eller telefonnummer, så kontaktar jag dig snart!",
+    "description": "Ring eller skicka ett WhatsApp-meddelande — jag svarar snabbt.",
     "emailPlaceholder": "Din e-postadress",
     "phonePlaceholder": "Ditt telefonnummer",
     "or": "eller",
@@ -223,7 +223,14 @@
     "success": "Tack! Jag kontaktar dig snart!",
     "error": "Formulärinlämning misslyckades. Försök igen.",
     "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen.",
-    "errorTurnstile": "Verifieringen misslyckades. Försök igen."
+    "errorTurnstile": "Verifieringen misslyckades. Försök igen.",
+    "errorValidation": "Kontrollera uppgifterna du angav.",
+    "callAntti": "Ring",
+    "whatsappAntti": "Skicka WhatsApp-meddelande",
+    "whatsappPrefill": "Hej Antti! Jag vill gärna höra mer om Työvuorolista.",
+    "emailMe": "Mejla mig",
+    "callMe": "Ring mig",
+    "callbackHint": "Eller lämna dina uppgifter så återkommer jag:"
   },
   "mobileDemo": {
     "title": "Hantera skift även på mobilen",

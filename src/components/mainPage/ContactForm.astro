@@ -2,52 +2,99 @@
 const { locale = 'fi', translations = {} } = Astro.props
 
 const title = translations.title ?? 'Haluan kysyä lisää!'
-const description = translations.description ?? ''
-const emailPlaceholder = translations.emailPlaceholder ?? ''
-const phonePlaceholder = translations.phonePlaceholder ?? ''
-const orLabel = translations.or ?? 'tai'
+const description =
+	translations.description ??
+	'Soita tai lähetä WhatsApp-viesti — vastaan nopeasti.'
+const emailPlaceholder = translations.emailPlaceholder ?? 'Sähköpostiosoitteesi'
+const phonePlaceholder = translations.phonePlaceholder ?? 'Puhelinnumerosi'
 const submitLabel = translations.submit ?? 'Lähetä'
 const successMessage = translations.success ?? ''
 const errorMessage = translations.error ?? ''
 const errorNetworkMessage = translations.errorNetwork ?? ''
 const errorTurnstileMessage = translations.errorTurnstile ?? ''
+const errorValidationMessage =
+	translations.errorValidation ?? 'Tarkista syöttämäsi tiedot.'
+const callLabel = translations.callAntti ?? 'Soita'
+const whatsappLabel = translations.whatsappAntti ?? 'Lähetä WhatsApp-viesti'
+const whatsappPrefill =
+	translations.whatsappPrefill ??
+	'Hei Antti! Haluaisin kuulla lisää Työvuorolistasta.'
+const emailMeLabel = translations.emailMe ?? 'Sähköposti'
+const callMeLabel = translations.callMe ?? 'Soitto'
+const callbackHint =
+	translations.callbackHint ?? 'Tai jätä yhteystietosi, niin otan yhteyttä:'
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
+
+const ANTTI_PHONE_TEL = '+358456798818'
+const ANTTI_WHATSAPP_NUMBER = '358456798818'
+const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappPrefill)}`
 ---
 
 <section class="contact-form" data-contact-form lang={locale}>
-  <div class="contact-form__panel" data-contact-form-panel>
-    <h2 class="contact-form__title">{title}</h2>
-    <p class="contact-form__description">{description}</p>
-    <form class="contact-form__fields" data-contact-form-fields novalidate>
-      <label class="contact-form__field">
-        <span class="visually-hidden">{emailPlaceholder}</span>
-        <input
-          type="email"
-          name="email"
-          data-contact-email
-          autocomplete="email"
-          placeholder={emailPlaceholder}
-        />
-      </label>
-      <span class="contact-form__or">{orLabel}</span>
-      <label class="contact-form__field">
-        <span class="visually-hidden">{phonePlaceholder}</span>
-        <input
-          type="tel"
-          name="phone"
-          data-contact-phone
-          autocomplete="tel"
-          placeholder={phonePlaceholder}
-        />
-      </label>
-      <div class="contact-form__turnstile" data-contact-turnstile></div>
-      <button type="submit" class="contact-form__submit" data-contact-submit>
-        {submitLabel}
-      </button>
-    </form>
-  </div>
-  <div class="contact-form__success" data-contact-form-success hidden>
-    <h2 class="contact-form__title">{successMessage}</h2>
+  <div class="contact-form__panel">
+    <div data-contact-form-panel>
+      <h2 class="contact-form__title">{title}</h2>
+      <p class="contact-form__description">{description}</p>
+
+      <div class="contact-form__primary">
+        <a class="contact-form__primary-btn" href={`tel:${ANTTI_PHONE_TEL}`}>
+          {callLabel}
+        </a>
+        <a
+          class="contact-form__primary-btn"
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {whatsappLabel}
+        </a>
+      </div>
+
+      <div class="contact-form__callback" data-contact-callback>
+        <p class="contact-form__callback-hint">{callbackHint}</p>
+        <div class="contact-form__mode-toggle" role="group">
+          <button
+            type="button"
+            class="contact-form__mode-btn"
+            data-contact-mode="email"
+            aria-pressed="false"
+          >
+            {emailMeLabel}
+          </button>
+          <button
+            type="button"
+            class="contact-form__mode-btn"
+            data-contact-mode="phone"
+            aria-pressed="false"
+          >
+            {callMeLabel}
+          </button>
+        </div>
+
+        <form class="contact-form__fields" data-contact-form-fields hidden novalidate>
+          <label class="contact-form__field">
+            <span class="visually-hidden" data-contact-input-label>
+              {emailPlaceholder}
+            </span>
+            <input
+              type="email"
+              name="contact"
+              data-contact-input
+              autocomplete="email"
+              placeholder={emailPlaceholder}
+              required
+            />
+          </label>
+          <div class="contact-form__turnstile" data-contact-turnstile></div>
+          <button type="submit" class="contact-form__submit" data-contact-submit>
+            {submitLabel}
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="contact-form__success" data-contact-form-success hidden>
+      <h2 class="contact-form__title">{successMessage}</h2>
+    </div>
   </div>
 </section>
 
@@ -62,9 +109,19 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
     errorMessage,
     errorNetworkMessage,
     errorTurnstileMessage,
+    errorValidationMessage,
+    emailPlaceholder,
+    phonePlaceholder,
     turnstileSiteKey,
   }}
 >
+  const isValidEmail = (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+
+  const isValidPhone = (value) => {
+    const digits = value.replace(/\D/g, '')
+    return digits.length >= 6 && digits.length <= 15
+  }
+
   const loadTurnstile = () =>
     new Promise((resolve, reject) => {
       if (window.turnstile) {
@@ -106,18 +163,20 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
       }
       root.setAttribute('data-contact-initialized', 'true')
 
-      const form = root.querySelector('[data-contact-form-fields]')
       const panel = root.querySelector('[data-contact-form-panel]')
       const success = root.querySelector('[data-contact-form-success]')
+      const form = root.querySelector('[data-contact-form-fields]')
       const submitBtn = root.querySelector('[data-contact-submit]')
-      const emailInput = root.querySelector('[data-contact-email]')
-      const phoneInput = root.querySelector('[data-contact-phone]')
+      const input = root.querySelector('[data-contact-input]')
+      const inputLabel = root.querySelector('[data-contact-input-label]')
       const turnstileContainer = root.querySelector('[data-contact-turnstile]')
+      const modeButtons = root.querySelectorAll('[data-contact-mode]')
 
-      if (!form || !panel || !success || !submitBtn || !emailInput || !phoneInput) {
+      if (!panel || !success || !form || !submitBtn || !input || !inputLabel) {
         return
       }
 
+      let mode = null
       let widgetId = null
 
       if (turnstile && turnstileSiteKey && turnstileContainer) {
@@ -134,12 +193,58 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
         }
       }
 
+      const setMode = (nextMode) => {
+        mode = nextMode
+        form.hidden = false
+        input.value = ''
+
+        modeButtons.forEach((btn) => {
+          const active = btn.getAttribute('data-contact-mode') === nextMode
+          btn.setAttribute('aria-pressed', active ? 'true' : 'false')
+          btn.classList.toggle('contact-form__mode-btn--active', active)
+        })
+
+        if (nextMode === 'email') {
+          input.type = 'email'
+          input.name = 'email'
+          input.autocomplete = 'email'
+          input.placeholder = emailPlaceholder
+          inputLabel.textContent = emailPlaceholder
+          input.inputMode = 'email'
+        } else {
+          input.type = 'tel'
+          input.name = 'phone'
+          input.autocomplete = 'tel'
+          input.placeholder = phonePlaceholder
+          inputLabel.textContent = phonePlaceholder
+          input.inputMode = 'tel'
+        }
+
+        input.focus()
+      }
+
+      modeButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const nextMode = btn.getAttribute('data-contact-mode')
+          if (nextMode === 'email' || nextMode === 'phone') {
+            setMode(nextMode)
+          }
+        })
+      })
+
       form.addEventListener('submit', async (event) => {
         event.preventDefault()
-        const email = emailInput.value.trim()
-        const phone = phoneInput.value.trim()
+        if (!mode) {
+          return
+        }
 
-        if (!email && !phone) {
+        const value = input.value.trim()
+        const valid =
+          mode === 'email' ? isValidEmail(value) : isValidPhone(value)
+
+        if (!valid) {
+          alert(errorValidationMessage)
+          input.focus()
           return
         }
 
@@ -162,14 +267,23 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
             ? '/api/handleForm'
             : 'https://www.tyovuorolista.fi/api/handleForm'
 
+          const payload =
+            mode === 'email'
+              ? { email: value, phone: '', turnstileToken }
+              : { email: '', phone: value, turnstileToken }
+
           const response = await fetch(apiUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, phone, turnstileToken }),
+            body: JSON.stringify(payload),
           })
 
           if (!response.ok) {
-            alert(response.status === 403 ? errorTurnstileMessage || errorMessage : errorMessage)
+            alert(
+              response.status === 403
+                ? errorTurnstileMessage || errorMessage
+                : errorMessage
+            )
             resetTurnstile()
             return
           }
@@ -235,12 +349,91 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
     line-height: 1.5;
   }
 
+  .contact-form__primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .contact-form__primary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--tummanvihrea);
+    color: #fff;
+    font-size: var(--text-base);
+    font-family: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  .contact-form__primary-btn:hover {
+    background-color: var(--harmaa);
+    color: #fff;
+  }
+
+  .contact-form__callback {
+    margin-top: var(--space-xl);
+    padding-top: var(--space-xl);
+    border-top: 1px solid var(--ruskeaharmaa);
+  }
+
+  .contact-form__callback-hint {
+    margin: 0 0 var(--space-base);
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--tummanvihrea);
+  }
+
+  .contact-form__mode-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .contact-form__mode-btn {
+    padding: 0.65rem 1.1rem;
+    border-radius: 2px;
+    border: 1px solid var(--ruskeaharmaa);
+    background-color: transparent;
+    color: var(--tummanvihrea);
+    font-size: var(--text-base);
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .contact-form__mode-btn:hover {
+    border-color: var(--tummanvihrea);
+  }
+
+  .contact-form__mode-btn--active,
+  .contact-form__mode-btn[aria-pressed='true'] {
+    border-color: var(--tummanvihrea);
+    background-color: var(--tummanvihrea);
+    color: #fff;
+  }
+
   .contact-form__fields {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     width: 100%;
+    margin-top: 1rem;
+  }
+
+  .contact-form__fields[hidden] {
+    display: none !important;
   }
 
   .contact-form__field {
@@ -264,11 +457,6 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
     outline: none;
     background-color: #fff;
     border-color: var(--tummanvihrea);
-  }
-
-  .contact-form__or {
-    color: var(--tummanvihrea);
-    font-weight: 500;
   }
 
   .contact-form__turnstile {
@@ -299,16 +487,8 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
     cursor: wait;
   }
 
-  .contact-form__success {
-    width: 100%;
-    background-color: var(--hiekka);
-    border-radius: 8px;
-    padding: var(--space-2xl) var(--space-xl);
-    box-sizing: border-box;
-  }
-
   .contact-form__success[hidden],
-  .contact-form__panel[hidden] {
+  [data-contact-form-panel][hidden] {
     display: none !important;
   }
 
