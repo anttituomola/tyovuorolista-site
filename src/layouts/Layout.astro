@@ -5,6 +5,10 @@ import GoogleAnalytics from '../components/common/GoogleAnalytics.astro'
 import CookieConsent from '../components/common/CookieConsent.astro'
 import { getLocaleFromAstro, t } from '../utils/translations'
 import logo from '../assets/logo.png'
+import '@fontsource/work-sans/300.css'
+import '@fontsource/work-sans/400.css'
+import '@fontsource/work-sans/500.css'
+import '@fontsource/work-sans/600.css'
 import '../styles/tyov-features.css'
 import '../styles/tyov-button.css'
 import '../styles/lang-switcher.css'
@@ -115,7 +119,7 @@ const softwareApplicationJsonLd = {
 <html lang={langMap[locale] || 'fi'}>
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content={description} />
+        <meta name="description" content={finalDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link rel="sitemap" href="/sitemap-index.xml">
@@ -124,9 +128,9 @@ const softwareApplicationJsonLd = {
         <link rel="canonical" href={canonicalUrl} />
         {noindex && <meta name="robots" content="noindex, nofollow" />}
         <!-- Primary Meta Tags -->
-        <title>{title}</title>
-        <meta name="title" content={title} />
-        <meta name="description" content={description} />
+        <title>{finalTitle}</title>
+        <meta name="title" content={finalTitle} />
+        <meta name="description" content={finalDescription} />
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
@@ -143,11 +147,16 @@ const softwareApplicationJsonLd = {
         <meta property="twitter:image" content={ogImage} />
 
         <!-- Meta Pixel loads via CookieConsent only after consent -->
+        <!-- Preconnect to third-party origins used on every page (GA + Cloudflare Turnstile) -->
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://region1.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://region1.google-analytics.com" />
+        <link rel="preconnect" href="https://challenges.cloudflare.com" crossorigin />
+        <link rel="dns-prefetch" href="https://challenges.cloudflare.com" />
         <slot name="head" />
         <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationJsonLd)} />
         <script is:inline type="application/ld+json" set:html={JSON.stringify(softwareApplicationJsonLd)} />
     <style is:global>
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
     :root {
         --brand-primary: #3267b0;
         --brand-secondary: #33bde9;

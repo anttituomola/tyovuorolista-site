@@ -64,7 +64,7 @@ const statItems = [
                     <div class="testimonial-card">
                         <div class={`testimonial-image ${!image ? 'placeholder' : ''}`}>
                             {image ? (
-                                <Image src={image} quality="max" alt={testimonial.author} />
+                                <Image src={image} width={160} alt={testimonial.author} loading="lazy" />
                             ) : (
                                 <div class="placeholder-avatar">
                                     <span>RK</span>

@@ -18,7 +18,7 @@ if (locale === 'fi') {
 
 {locale === 'fi' && (
     <div class="wrapper">
-        <h1 style="text-align: center;">Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta</h1>
+        <h2 style="text-align: center;">Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta</h2>
         <div class="blogPosts">
             {sixMostRecentPosts.map((post) => <BlogPostCard post={post} />)}
         </div>
@@ -27,7 +27,7 @@ if (locale === 'fi') {
 )}
 
 <style>
-    h1 {
+    h2 {
         font-size: var(--text-3xl);
         margin-bottom: var(--space-2xl);
         font-weight: 500;
@@ -73,7 +73,7 @@ if (locale === 'fi') {
     }
     
     @media (max-width: 640px) {
-        h1 {
+        h2 {
             font-size: var(--text-2xl);
         }
         

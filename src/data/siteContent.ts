@@ -1,3 +1,5 @@
+import type { ImageMetadata } from 'astro'
+
 export type FeatureCategory =
   | 'planning'
   | 'publishing'
@@ -164,6 +166,32 @@ export const featureImages: Record<string, string> = {
   'hours-recording': '/featureImages/tuntien-kirjaus.png',
   'payroll-report': '/featureImages/palkkaraportti.png',
   teams: '/featureImages/tiimit.png',
+}
+
+/**
+ * Optimized versions of card images, processed by astro:assets at build time.
+ * Copies live under src/assets (the public/ originals stay for markdown pages
+ * and feature hero sections that reference them by URL string).
+ * Keyed by public path (e.g. '/featureImages/tiimit.png').
+ */
+const optimizedCardImages: Record<string, ImageMetadata> = {}
+const cardImageModules = {
+  ...import.meta.glob('../assets/featureImages/*.{png,jpg,jpeg,webp}', {
+    eager: true,
+    import: 'default',
+  }),
+  ...import.meta.glob('../assets/blogPostImages/**/*.{png,jpg,jpeg,webp}', {
+    eager: true,
+    import: 'default',
+  }),
+} as Record<string, ImageMetadata>
+for (const [assetPath, metadata] of Object.entries(cardImageModules)) {
+  optimizedCardImages[assetPath.replace(/^\.\.\/assets/, '')] = metadata
+}
+
+/** Optimized card image for a public image path, if an assets copy exists */
+export function getOptimizedCardImage(publicPath?: string) {
+  return publicPath ? optimizedCardImages[publicPath] : undefined
 }
 
 export const resources: ResourceItem[] = [

@@ -17,6 +17,7 @@
         "@astrojs/sitemap": "^3.7.2",
         "@astrojs/vercel": "^10.0.6",
         "@aws-sdk/client-ses": "^3.1045.0",
+        "@fontsource/work-sans": "^5.3.0",
         "@types/react": "^19.2.14",
         "@types/react-dom": "^19.2.3",
         "astro": "^6.3.1",

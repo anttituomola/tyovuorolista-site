@@ -1,10 +1,12 @@
 ---
+import { Image } from 'astro:assets'
 import { Icon } from 'astro-icon/components'
 import {
   featureIcons,
   featureImages,
   features,
   featurePagePath,
+  getOptimizedCardImage,
 } from '../../data/siteContent'
 import { t } from '../../utils/translations'
 
@@ -23,14 +25,25 @@ const readMore = t('features.readMore', locale)
 const blogNote = t('features.blogLanguageNote', locale)
 const betaBadge = t('features.betaBadge', locale)
 const iconName = featureIcons[featureId] ?? 'ic:baseline-star'
-const image = showImage ? featureImages[featureId] : undefined
+const imagePath = showImage ? featureImages[featureId] : undefined
+const optimizedImage = getOptimizedCardImage(imagePath)
 const cardHref = href ?? (feature ? featurePagePath(feature) : '#')
 ---
 
 <a href={cardHref} class="tyov-features__card">
-    {image ? (
+    {optimizedImage ? (
         <div class="tyov-features__imageBox" aria-hidden="true">
-            <img src={image} alt="" loading="lazy" />
+            <Image
+                src={optimizedImage}
+                alt=""
+                widths={[400, 800]}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 285px"
+                loading="lazy"
+            />
+        </div>
+    ) : imagePath ? (
+        <div class="tyov-features__imageBox" aria-hidden="true">
+            <img src={imagePath} alt="" loading="lazy" />
         </div>
     ) : (
         <div class="tyov-features__iconBox" aria-hidden="true">

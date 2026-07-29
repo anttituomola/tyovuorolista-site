@@ -1,16 +1,42 @@
 ---
+import { Image } from 'astro:assets'
+import type { ImageMetadata } from 'astro'
+import dayjs from 'dayjs'
+
 const { title, pubDate, image, description, tags } = Astro.props.post.frontmatter
 const { url } = Astro.props.post
-const { url: imageUrl, alt } = image || { url: '', alt: '' }; 
+const { url: imageUrl, alt } = image || { url: '', alt: '' };
+const HeadingTag = Astro.props.headingLevel || 'h3'
 
-import dayjs from 'dayjs'
+// Optimized card thumbnails, keyed by the public path used in frontmatter.
+// Copies live under src/assets/blogPostImages (public originals stay for the
+// markdown pages, which reference them by URL string).
+const optimizedImages: Record<string, ImageMetadata> = {}
+const imageModules = import.meta.glob('../../assets/blogPostImages/**/*.{png,jpg,jpeg,webp}', {
+    eager: true,
+    import: 'default',
+}) as Record<string, ImageMetadata>
+for (const [assetPath, metadata] of Object.entries(imageModules)) {
+    optimizedImages[assetPath.replace(/^\.\.\/\.\.\/assets/, '')] = metadata
+}
+const optimizedImage = imageUrl ? optimizedImages[imageUrl] : undefined
 ---
 
 <div class="blogPostCard" >
     <a href={url}>
         <div>
-            {imageUrl && <img src={imageUrl} alt={alt} />}
-            <h1>{title}</h1>
+            {optimizedImage ? (
+                <Image
+                    src={optimizedImage}
+                    alt={alt}
+                    widths={[400, 800]}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 373px"
+                    loading="lazy"
+                />
+            ) : imageUrl && (
+                <img src={imageUrl} alt={alt} loading="lazy" />
+            )}
+            <HeadingTag class="cardTitle">{title}</HeadingTag>
             <p>{description}</p>
             <p class="metadata">
                 Julkaistu {dayjs(pubDate).format('DD.MM.YYYY')}
@@ -28,7 +54,7 @@ import dayjs from 'dayjs'
     </a>
 </div>
 
-<style define:vars={{ imageUrl}}>
+<style>
 img {
     width: 100%;
     height: 120px;
@@ -69,7 +95,7 @@ img {
         text-decoration: none;
         color: inherit;
     }
-    h1 {
+    .cardTitle {
         font-size: var(--text-xl);
         margin: 0 0 var(--space-base) 0;
         font-weight: 600;
@@ -90,14 +116,14 @@ img {
     }
     .metadata {
         font-size: 0.8rem;
-        color: #999;
+        color: var(--harmaa);
         margin-top: 0.5rem;
         text-align: center;
         line-height: 1.4;
     }
     .tags {
         font-size: 0.8rem;
-        color: #999;
+        color: var(--harmaa);
         margin-top: auto;
         padding-top: var(--space-base);
         text-align: center;
@@ -111,7 +137,7 @@ img {
             width: 100%;
             height: auto;
         }
-        h1 {
+        .cardTitle {
             font-size: var(--text-lg);
         }
         p {

@@ -11,9 +11,9 @@ const { locale = 'fi' } = Astro.props
     <h1>{t('hero.title', locale as 'fi' | 'en' | 'sv')}</h1>
     <p class="tagline">{t('hero.tagline', locale as 'fi' | 'en' | 'sv')}</p>
     <div class="heroImage">
-        <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} loading='eager'/>
+        <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} loading="eager" fetchpriority="high" />
     </div>
-    <h3>{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h3>
+    <h2 class="subtitle">{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h2>
     <span class="buttons">
         <Button variant="primary" locale={locale} />
         <span style="color: var(--harmaa);">{t('hero.or', locale as 'fi' | 'en' | 'sv')}</span>
@@ -52,7 +52,7 @@ const { locale = 'fi' } = Astro.props
         margin: 0 0 var(--space-base);
         line-height: 1.5;
     }
-    h3 {
+    .subtitle {
         font-size: var(--text-xl);
         font-weight: 400;
         max-width: 85%;
@@ -79,7 +79,7 @@ const { locale = 'fi' } = Astro.props
             font-size: var(--text-4xl);
             max-width: 95%;
         }
-        h3 {
+        .subtitle {
             font-size: var(--text-lg);
             max-width: 90%;
         }
