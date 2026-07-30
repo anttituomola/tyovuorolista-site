@@ -1,17 +1,32 @@
 ---
 import Button from '../common/Button.astro'
-import { Image } from 'astro:assets'
+import { getImage } from 'astro:assets'
 import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
 import { t } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
+
+// Keep in sync with HeroLcpPreload.astro
+const heroImage = await getImage({
+    src: tyovuorolista_hero,
+    width: 600,
+    format: 'webp',
+})
 ---
 
 <div class="hero">
     <h1>{t('hero.title', locale as 'fi' | 'en' | 'sv')}</h1>
     <p class="tagline">{t('hero.tagline', locale as 'fi' | 'en' | 'sv')}</p>
     <div class="heroImage">
-        <Image src={tyovuorolista_hero} alt="Työvuorolista" width={600} loading="eager" fetchpriority="high" />
+        <img
+            src={heroImage.src}
+            alt="Työvuorolista"
+            width={heroImage.attributes.width}
+            height={heroImage.attributes.height}
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+        />
     </div>
     <h2 class="subtitle">{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h2>
     <span class="buttons">

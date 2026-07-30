@@ -1,0 +1,19 @@
+---
+import { getImage } from 'astro:assets'
+import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
+
+// Must match Hero.astro Image props so the preloaded URL is the LCP image.
+const heroImage = await getImage({
+	src: tyovuorolista_hero,
+	width: 600,
+	format: 'webp',
+})
+---
+
+<link
+	rel="preload"
+	as="image"
+	href={heroImage.src}
+	type="image/webp"
+	fetchpriority="high"
+/>

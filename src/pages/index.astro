@@ -1,7 +1,10 @@
 ---
+export const prerender = true
+
 import '../styles/index-page.css'
 import Layout from '../layouts/Layout.astro'
 import Hero from '../components/mainPage/Hero.astro'
+import HeroLcpPreload from '../components/mainPage/HeroLcpPreload.astro'
 import FeatureHighlights from '../components/mainPage/FeatureHighlights.astro'
 import DemoVideo from '../components/mainPage/DemoVideo.astro'
 import CustomerStory from '../components/mainPage/CustomerStory.astro'
@@ -17,6 +20,7 @@ const contactFormTranslations = getTranslationObject('contactForm', locale)
 ---
 
 <Layout>
+    <HeroLcpPreload slot="head" />
     <main class="index-page">
         <Hero locale={locale} />
         <FeatureHighlights locale={locale} />
