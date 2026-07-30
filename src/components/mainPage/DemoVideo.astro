@@ -11,8 +11,18 @@ const { locale = 'fi' } = Astro.props
         {t('demoVideo.description', locale as 'fi' | 'en' | 'sv')}
     </p>
     <div class="videoContainer">
-        <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
-            <source src="/blogPostImages/tyovuorolista-demo.webm" type="video/webm" />
+        <!-- Poster is a sized WebP; video src is attached only when near viewport so it doesn't compete with LCP. -->
+        <video
+            class="lazy-autoplay-video"
+            controls
+            muted
+            loop
+            playsinline
+            preload="none"
+            width="100%"
+            poster="/blogPostImages/tyovuorolista_hero-poster.webp"
+            data-src="/blogPostImages/tyovuorolista-demo.webm"
+        >
             Your browser doesn't support video.
         </video>
     </div>
@@ -28,6 +38,38 @@ const { locale = 'fi' } = Astro.props
         </div>
     </div>
 </div>
+
+<script>
+    const videos = document.querySelectorAll('video.lazy-autoplay-video[data-src]')
+    if (videos.length > 0) {
+        const loadVideo = (video) => {
+            const src = video.dataset.src
+            if (!src || video.querySelector('source')) return
+            const source = document.createElement('source')
+            source.src = src
+            source.type = 'video/webm'
+            video.appendChild(source)
+            video.load()
+            void video.play().catch(() => {})
+        }
+
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    for (const entry of entries) {
+                        if (!entry.isIntersecting) continue
+                        loadVideo(entry.target)
+                        observer.unobserve(entry.target)
+                    }
+                },
+                { rootMargin: '200px 0px' }
+            )
+            videos.forEach((video) => observer.observe(video))
+        } else {
+            videos.forEach(loadVideo)
+        }
+    }
+</script>
 
 <style>
     h2 {
@@ -50,6 +92,13 @@ const { locale = 'fi' } = Astro.props
         overflow: hidden;
         width: 100%;
         max-width: 800px;
+    }
+    .videoContainer video {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        background: #000;
     }
     .step {
         display: flex;
@@ -103,4 +152,3 @@ const { locale = 'fi' } = Astro.props
         }
     }
 </style>
-

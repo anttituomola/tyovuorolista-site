@@ -22,7 +22,7 @@ const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 's
             class:list={['logo', { 'logo--active': activeNav === 'home' }]}
             aria-current={activeNav === 'home' ? 'page' : undefined}
         >
-            <Image src={logo} alt="tyovuorolista.fi logo" class="logo-symbol" quality="max" />
+            <Image src={logo} alt="tyovuorolista.fi logo" class="logo-symbol" width={80} height={80} densities={[1, 2]} />
             <div class="logo-text">
                 <p class="logo-title">Tyovuorolista.fi</p>
                 <p class="logo-subtitle">{t('nav.logoSubtitle', locale as 'fi' | 'en' | 'sv')}</p>
