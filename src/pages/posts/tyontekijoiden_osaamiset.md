@@ -10,6 +10,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'palkkaraportti']
 ---
 
+*Päivitetty 30.7.2026: avoimien vuorojen ilmoittautuminen rajautuu nyt osaamisen mukaan – katso uusi osio alempana.*
+
 Työvuorolistaan on lisätty **osaamiset**: työpaikkakohtaiset nimikkeet, jotka voit liittää sekä työntekijöihin että työvuoroihin. Osaaminen voi olla vastuurooli (*vuorovastaava*, *anniskeluvastaava*), pätevyys (*hygieniapassi*, *B-kortti*) tai mikä tahansa muu nimike, jolla on merkitystä vuorosuunnittelussa tai palkanlaskennassa.
 
 Toiminto on heti käytössä kaikilla työpaikoilla – mitään ei tarvitse aktivoida erikseen. Osaamisiin liittyvät kentät ilmestyvät näkyviin, kun luot työpaikallesi ensimmäisen osaamisen.
@@ -117,10 +119,20 @@ Jos viet palkka-aineiston Procountoriin, anna osaamiselle **palkkalajikoodi** Os
 
 Osaamista ei poisteta, vaan se **arkistoidaan**. Arkistoitu osaaminen katoaa kaikista valintalistoista, mutta säilyy vanhoissa vuoroissa ja raporteissa – näin viime kuun palkkaraportti näyttää samat rivit myös jälkikäteen ajettuna. Jos taas muutat osaamisen nimeä, uusi nimi näkyy myös vanhoissa raporteissa.
 
+## Avoimet vuorot: vain osaava voi ilmoittautua *(uusi 30.7.2026)*
+
+Jos avoimella vuorolla on osaamisvaatimus, siihen voivat ilmoittautua Oma-portaalissa vain työntekijät, joilta vaadittu osaaminen löytyy.
+
+Vuoro näkyy silti **kaikille** tiimin työntekijöille – tämä on tarkoituksellista. Työntekijä näkee vuoron, sen vaatiman osaamisen ja syyn, miksi ilmoittautuminen ei ole mahdollista: *"Vaatii osaamisen: Anniskeluvastaava. Puuttuuko osaamismerkintä? Kysy esihenkilöltäsi."* Näin osaamisvaatimukset toimivat myös kannustimena – työntekijä huomaa, mikä osaaminen avaisi lisää vuoroja, ja toisaalta puuttuvat osaamis*merkinnät* tulevat esiin ja korjatuiksi.
+
+<img src="/blogPostImages/osaamiset/oma-avoin-vuoro-osaaminen.png" alt="Oma-portaalin avoimet vuorot puhelimella: ylempään vuoroon työntekijä voi ilmoittautua, alempi vaatii osaamisen jota hänellä ei ole – ilmoittautumispainike on pois käytöstä ja vieressä lukee syy" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+
+Sinulle esihenkilönä mikään ei muutu: voit edelleen antaa minkä tahansa vuoron kenelle tahansa. Jos ilmoittautuneen työntekijän osaaminen on ehtinyt muuttua ilmoittautumisen jälkeen (esim. lisäsit vuorolle vaatimuksen jälkikäteen), näet ilmoittautumisen kohdalla varoitusmerkinnän – mutta hyväksyntä on aina sinun päätöksesi.
+
 ## Mitä osaamiset eivät (vielä) tee
 
-- Järjestelmä **ei estä** merkitsemästä vuoroon työntekijää ilman vaadittua osaamista – varoitus on tarkoituksella vain varoitus.
-- Avoimien vuorojen ilmoittautumista **ei vielä rajata** osaamisen mukaan – kuka tahansa tiimin työntekijä voi ilmoittautua avoimeen vuoroon, vaikka vuorolla olisi osaamisvaatimus. Tämä on työn alla seuraavaksi.
+- Järjestelmä **ei estä sinua** merkitsemästä vuoroon työntekijää ilman vaadittua osaamista – varoitus on tarkoituksella vain varoitus. (Työntekijän oma ilmoittautuminen avoimeen vuoroon sen sijaan vaatii osaamisen, katso yllä.)
 - Osaamisilla ei ole **voimassaoloaikoja** (esim. hygieniapassin vanheneminen) eikä tasoja.
+- Ilmoituksia ei (vielä) lähetetä, kun osaamistasi vastaava avoin vuoro julkaistaan.
 
 Jos jokin näistä olisi sinulle tärkeä, laita viestiä (Antti, info@tyovuorolista.fi) – rakennan näitä siinä järjestyksessä, missä niille on oikeaa tarvetta.

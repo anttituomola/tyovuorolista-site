@@ -80,7 +80,7 @@ Avoimet vuorot ovat aluksi vain sinun nähtävissäsi. Kun haluat tarjota niitä
 - **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu – voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu.
 - **Yksittäinen vuoro:** avaa avoin vuoro kalenterista ja paina **Julkaise työntekijöille**. Samasta paikasta voit myös perua julkaisun.
 
-Julkaisun jälkeen vuoro näkyy tiimin työntekijöille Oma-portaalissa, ja he voivat **ilmoittautua** siihen. Useampi työntekijä voi ilmoittautua samaan vuoroon – sinä valitset, kuka vuoron saa.
+Julkaisun jälkeen vuoro näkyy tiimin työntekijöille Oma-portaalissa, ja he voivat **ilmoittautua** siihen. Useampi työntekijä voi ilmoittautua samaan vuoroon – sinä valitset, kuka vuoron saa. Jos vuorolla on [osaamisvaatimus](/posts/tyontekijoiden_osaamiset), ilmoittautua voivat vain työntekijät, joilta vaadittu osaaminen löytyy – vuoro näkyy silti kaikille.
 
 Ilmoittautumiset näet avaamalla vuoron kalenterista. **Hyväksy** antaa vuoron ilmoittautuneelle: vuoro siirtyy hänen nimiinsä, ilmestyy hänen aikajanalleen portaalissa ja muiden ilmoittautumiset hylätään automaattisesti. Ennen hyväksyntää järjestelmä tarkistaa vielä, ettei työntekijälle ole tullut päällekkäistä vuoroa ilmoittautumisen jälkeen.
 
