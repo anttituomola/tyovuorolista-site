@@ -35,7 +35,7 @@ Henkilökohtainen oletuspituus on hyödyllinen esimerkiksi:
 
 Voit asettaa työntekijäkohtaisen oletuspituuden joko:
 - Työntekijää lisätessä kohdassa "Oletustyövuoron pituus"
-- Muokkaamalla työntekijän tietoja valitsemalla työntekijän nimi kalenterinäkymässä ja sitten "Muokkaa työntekijää"
+- Muokkaamalla työntekijän tietoja: kalenterissa tai Työntekijät-sivulla → **Muokkaa** → **Asetukset** → "Oletustyövuoron pituus"
 
 ### Aikaportaat
 

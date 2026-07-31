@@ -10,7 +10,7 @@ image:
 tags: ["työntekijät", "hallinta", "onboarding", "työsopimus", "päivitykset"]
 ---
 
-*Päivitetty 25.7.2026: lisätty työntekijöiden tuonti liittämällä lista (Työntekijät-sivulla ja tilin luonnissa) sekä tarkennettu eri lisäystavat.*
+*Päivitetty 31.7.2026: työntekijän muokkaus on jaettu osioihin (Asetukset, Henkilötiedot, Työsuhde). Tiimit voi asettaa suoraan muokkauksessa, ja poisto on Vaara-alueella.*
 
 Työntekijät ovat työvuorosuunnittelun perusta. Tässä oppaassa käydään läpi **kaikki tavat lisätä työntekijöitä**, mitä kannattaa tietää nimistä ja sähköposteista, sekä miten muokkaat ja poistat työntekijöitä turvallisesti.
 
@@ -41,7 +41,7 @@ Paina **Lisää uusi työntekijä**. Pakollisia ovat etu- ja sukunimi. Muut kent
 
 <img src="/blogPostImages/tyontekijoiden_hallinta/lisaa_tyontekija_modaali.png" alt="Lisää työntekijä -modaali: nimi, valinnainen sähköposti ja henkilönumero" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />
 
-Uusi työntekijä liitetään automaattisesti **valittuun tiimiin**. Useaan tiimiin: **Hallinta → Tiimit** ([tiimit ja saman työntekijän käyttö eri tiimeissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa)).
+Uusi työntekijä liitetään automaattisesti **valittuun tiimiin**. Useaan tiimiin voit lisätä hänet myöhemmin muokkauksessa (Asetukset → Tiimit) tai [tiimin asetuksista](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa).
 
 ### 2. Tuo lista liittämällä (uutuus)
 
@@ -81,20 +81,35 @@ Kun viimeistelet uutta tiliä (**Viimeistele tilisi**), voit avata valinnaisen k
 
 ## Työntekijän tietojen muokkaus
 
-Klikkaa työntekijän riviä **Työntekijät**- tai **Suunnittele**-näkymässä. Avaa **Muokkaa** ja päivitä tiedot.
+Klikkaa työntekijän riviä **Työntekijät**- tai **Suunnittele**-näkymässä. Avaa **Muokkaa**. Lomake on jaettu osioihin — useimmin muokattavat kentät ovat ylhäällä:
 
-Tärkeimmät kentät:
+1. **Asetukset** (auki oletuksena) — tiimit, oletustyövuoron pituus, osaamiset, oletusresurssi ja taustaväri
+2. **Henkilötiedot** — etu- ja sukunimi, sähköposti
+3. **Työsuhde** — työsuhteen päivät, sopimustunnit, henkilönumero ja TES-kentät (kun TES on käytössä)
 
-- **Sähköposti** – ennen listojen lähettämistä
-- **Työtunnit työsopimuksessa** – täysaikaisilla tyypillisesti 150 h/kk ([tavoitetuntien laskenta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen))
+<img src="/blogPostImages/tyontekijoiden_hallinta/muokkaa_asetukset.png" alt="Muokkaa työntekijää: Asetukset-osio auki, tiimit ja oletustyövuoron pituus" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Tärkeimmät kentät arjessa:
+
+- **Tiimit** – missä kalentereissa työntekijä näkyy ([sama henkilö monessa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa))
 - **Oletustyövuoron pituus** – yksilöllinen oletus vuorojen luonnissa
-- **Oletusresurssi** – jos resurssiaikataulutus on käytössä ([resurssien aikataulutus](/posts/resurssien_aikataulutus_ominaisuus))
+- **Osaamiset** – jos käytössä ([osaamiset](/posts/tyontekijoiden_osaamiset))
+- **Sähköposti** – ennen listojen lähettämistä (Henkilötiedot)
+- **Työtunnit työsopimuksessa** – Työsuhde-osiossa ([tavoitetuntien laskenta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen))
 
 Kalenterin vasemmasta reunasta: [työntekijälistauksen muokkaus](/posts/tyontekijalistauksen_muokkaus_kalenterinakymassa).
 
 ## Työntekijän poisto
 
-**Poista työntekijä** (työntekijän tietonäkymässä) poistaa työntekijän pysyvästi. Ennen vahvistusta sovellus varoittaa:
+Poisto on harvinainen toimenpide, joten se on piilotettu muokkausnäkymän **Vaara-alueeseen**:
+
+1. Avaa työntekijä → **Muokkaa**
+2. Avaa alhaalta **Vaara-alue**
+3. Paina **Poista työntekijä**
+
+<img src="/blogPostImages/tyontekijoiden_hallinta/vaara_alue.png" alt="Muokkaa työntekijää: Vaara-alue avattuna, Poista työntekijä -painike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Ennen vahvistusta sovellus varoittaa:
 
 > Olet poistamassa työntekijää. Tämä poistaa myös kaikki hänen julkaisemattomat työvuoronsa.
 
@@ -114,7 +129,7 @@ Julkaistun listan vuorot säilyvät, vaikka poistaisit työntekijän — histori
 
 1. **Lisää yksi** — Hallinta → Työntekijät → Lisää uusi työntekijä (tai kalenterin plus)
 2. **Tuo monta** — Tuo työntekijät → liitä lista → tarkista → tuo (tai jo tilin luonnissa)
-3. **Muokkaa** tarvittaessa — erityisesti sähköposti ennen listojen lähettämistä
-4. **Poista** vain pysyvään poistumiseen — muista julkaisemattomien vuorojen katoaminen
+3. **Muokkaa** tarvittaessa — Asetukset (tiimit, oletuspituus), Henkilötiedot, Työsuhde
+4. **Poista** vain pysyvään poistumiseen — Muokkaa → Vaara-alue; muista julkaisemattomien vuorojen katoaminen
 
 Hyvin ylläpidetty työntekijärekisteri tekee sekä suunnittelusta että [tuntien kirjauksesta](/posts/tuntien_kirjaus_opas) sujuvampaa.

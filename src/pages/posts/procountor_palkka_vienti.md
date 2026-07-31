@@ -10,6 +10,8 @@ image:
 tags: ['palkkaraportti', 'Procountor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
+*Päivitetty 31.7.2026: henkilönumero löytyy työntekijän muokkauksessa Työsuhde-osiosta.*
+
 Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. tyovuorolista.fi:stä saat **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
 
 Tämä ohje käy läpi asetukset kerran, ja sen jälkeen viennin kuukausirutiinina. Tekninen integraatiokuvaus (tiedostomuoto, kentät, käyttötapaukset):
@@ -23,9 +25,9 @@ Procountor tunnistaa rivit **henkilönumerolla** (tai henkilötunnuksella). Aset
 
 1. Avaa **Hallinta → Työntekijät**
 2. Avaa työntekijä → **Muokkaa**
-3. Täytä kenttä **Henkilönumero (palkanlaskenta)** samalla arvolla kuin Procountorissa
+3. Avaa **Työsuhde**-osio ja täytä **Henkilönumero (palkanlaskenta)** samalla arvolla kuin Procountorissa
 
-<img src="/blogPostImages/procountor-vienti/tyontekija-henkilonumero.png" alt="Työntekijäkortti muokkaustilassa, henkilönumero-kenttä täytettynä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/procountor-vienti/tyontekija-henkilonumero.png" alt="Työntekijän muokkaus: Työsuhde-osiossa henkilönumero-kenttä täytettynä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 Jos numero puuttuu, vienti käyttää sisäistä tunnusta ja saat siitä varoituksen — Procountor ei tällöin yleensä löydä henkilöä.
 

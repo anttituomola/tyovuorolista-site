@@ -10,7 +10,7 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'palkkaraportti']
 ---
 
-*Päivitetty 30.7.2026: avoimien vuorojen ilmoittautuminen rajautuu nyt osaamisen mukaan – katso uusi osio alempana.*
+*Päivitetty 31.7.2026: työntekijän osaamiset löytyvät muokkauksessa Asetukset-osiosta. (30.7.: avoimien vuorojen ilmoittautuminen rajautuu osaamisen mukaan.)*
 
 Työvuorolistaan on lisätty **osaamiset**: työpaikkakohtaiset nimikkeet, jotka voit liittää sekä työntekijöihin että työvuoroihin. Osaaminen voi olla vastuurooli (*vuorovastaava*, *anniskeluvastaava*), pätevyys (*hygieniapassi*, *B-kortti*) tai mikä tahansa muu nimike, jolla on merkitystä vuorosuunnittelussa tai palkanlaskennassa.
 
@@ -39,9 +39,9 @@ Jokaisella osaamisella on kolme asetusta:
 
 ### 2. Merkitse työntekijöiden osaamiset
 
-Avaa työntekijä listasta ja paina **Muokkaa**. Osaamiset-kenttään voit valita kaikki työntekijän osaamiset. Sama kenttä on myös uuden työntekijän lisäyslomakkeella (Lisäasetukset-osiossa).
+Avaa työntekijä listasta ja paina **Muokkaa**. **Asetukset**-osiossa on Osaamiset-kenttä — valitse siihen kaikki työntekijän osaamiset. Sama kenttä on myös uuden työntekijän lisäyslomakkeella (Lisäasetukset-osiossa).
 
-<img src="/blogPostImages/osaamiset/tyontekijan-osaamiset.png" alt="Työntekijän muokkausnäkymä, jossa Osaamiset-monivalinta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/osaamiset/tyontekijan-osaamiset.png" alt="Työntekijän muokkaus: Asetukset-osio, jossa Osaamiset-monivalinta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 Työntekijöiden osaamiset näkyvät myös suoraan työntekijälistassa omassa sarakkeessaan:
 
