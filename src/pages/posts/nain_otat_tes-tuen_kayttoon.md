@@ -10,7 +10,10 @@ image:
 tags: ['TES', 'MaRa', 'käyttöönotto', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 27.7.2026: palkkalajikoodien yksityiskohdat siirretty
+*Päivitetty 31.7.2026: kaikki neljä työehtosopimusta ovat nyt täydessä
+tuessa — myös [SOSTES eli yksityinen
+sosiaalipalveluala](/posts/sostes_tyovuorosuunnittelussa). Päivitetty
+27.7.2026: palkkalajikoodien yksityiskohdat siirretty
 [Procountor-vientiohjeeseen](/posts/procountor_palkka_vienti).*
 
 **Lyhyesti:** [TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa)
@@ -34,9 +37,12 @@ aktivointi on riskitön.
 Kun ominaisuus on päällä, avaa **Hallinta →**
 <a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>.
 Valitse
-sopimuksesi (MaRa on pilotissa pisimmällä) ja aseta
-[kolmiviikkoisjakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
-alkumaanantai:
+sopimuksesi — tuettuina ovat MaRa, Kaupan ala, Kiinteistöpalveluala ja
+[SOSTES](/posts/sostes_tyovuorosuunnittelussa) — ja jaksollisissa
+sopimuksissa (MaRa, SOSTES) aseta
+[jakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
+alkumaanantai. SOSTES-venue valitsee samalla työvuoroluettelon pituuden
+(3 tai 6 viikkoa):
 
 <img src="/blogPostImages/tes-tuki/tes-asetukset.png" alt="TES-asetukset: MaRa valittuna ja jakson alkumaanantai asetettuna, alla tulevien jaksojen esikatselu" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
