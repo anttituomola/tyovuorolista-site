@@ -1,0 +1,33 @@
+---
+description: Työvuorolista marketing website (Astro) — project overview and conventions
+alwaysApply: true
+---
+
+# Työvuorolista Marketing Website
+
+Marketing site for Työvuorolista. Built with Astro, deployed on Vercel.
+
+## Tech Stack
+
+- Astro 6 + React (via `@astrojs/react`) + TypeScript
+- Vercel serverless; contact form via AWS SES (`/api/handleForm`)
+- i18n: Finnish (default, no prefix), English (`/en/`), Swedish (`/sv/`)
+
+## Layout
+
+- `src/pages/` — routes; blog posts in `src/pages/posts/`
+- `src/components/` — React and Astro components
+- `src/i18n/` — `fi.json`, `en.json`, `sv.json`
+- `src/layouts/` — page layouts
+- `api/` — `handleForm.mjs`
+- `public/` — static assets (blog images under `public/blogPostImages/`)
+
+## Conventions
+
+- Site URL: https://www.tyovuorolista.fi/ (trailing slashes disabled)
+- Prefer existing layout/components and i18n keys over one-off markup
+- Blog screenshots and post workflows are driven from the app repo skills (`tyovuorolista/.cursor/skills/blog-post`)
+
+## Commands
+
+- `npm run dev` / `npm run build` / `npm run preview`
