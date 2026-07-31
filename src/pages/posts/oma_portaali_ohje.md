@@ -1,20 +1,22 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Oma-portaali: työntekijän oma näkymä vuoroihin (beta)'
+title: 'Oma-portaali: työntekijän oma näkymä vuoroihin'
 pubDate: 2026-07-01
 description: 'Ohje Oma-portaalin käyttöön: työntekijä näkee omat julkaistut vuoronsa, ilmoittaa vapaatoiveen ja toteutuneet tunnit sekä ilmoittautuu avoimiin vuoroihin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
     alt: 'Oma-portaalin näkymä, jossa työntekijä näkee omat vuoronsa kalenterissa.'
-tags: ["päivitykset", "beta", "työntekijät", "julkaisu", "tuntien kirjaus"]
+tags: ["päivitykset", "työntekijät", "julkaisu", "tuntien kirjaus"]
 ---
 
 *Päivitetty 11.7.2026: lisätty tuntien ilmoittaminen (tunti-ilmoitus) ja avoimet vuorot.*
 
-**Oma-portaali** on uusi, erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta – sekä menneet että tulevat vuorot samassa aikajanassa.
+*Päivitetty 31.7.2026: Oma-portaali ei ole enää beta – erillistä aktivointia ei tarvita, vaan ominaisuus on heti käytettävissä kaikilla maksullisilla tilauksilla.*
 
-> **Beta-vaihe:** Oma-portaali on vielä kokeilussa. Se pitää **aktivoida erikseen** – ota yhteyttä minuun (Antti, info@tyovuorolista.fi), niin laitan sen päälle työpaikallesi. Ilman aktivointia kutsu- ja kirjautumistoiminnot eivät ole käytössä.
+**Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta – sekä menneet että tulevat vuorot samassa aikajanassa.
+
+> **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita – jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
 
 Portaali tarjoaa tällä hetkellä neljä toimintoa:
 
@@ -65,7 +67,7 @@ Kun työntekijä ilmoittaa toteutuneet tuntinsa portaalista (katso työntekijän
 
 <img src="/blogPostImages/oma-portaali/tuntien-hyvaksynta.png" alt="Tuntien kirjaus -näkymän Odottaa hyväksyntää -välilehti, jossa työntekijän tunti-ilmoitus odottaa käsittelyä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Tunti-ilmoitus on oletuksena päällä, kun Oma-portaali on aktivoitu. Jos et halua käyttää sitä, voit kytkeä sen pois työpaikan asetuksista (**Hallinta → Profiili**).
+Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytkeä sen pois työpaikan asetuksista (**Hallinta → Profiili**).
 
 ### 6. Avoimet vuorot: suunnittele vuoro ilman tekijää *(uusin)*
 
@@ -156,7 +158,7 @@ Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kir
 
 ## Mitä portaali ei vielä tee
 
-Beta-vaiheessa Oma-portaali **ei korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
+Oma-portaali **ei vielä korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
 
 - et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairasloman voit ilmoittaa tunti-ilmoituksella)
 - et voi hyväksyä tai hylätä esimiehen ehdottamia vuoromuutoksia
@@ -166,6 +168,6 @@ Beta-vaiheessa Oma-portaali **ei korvaa** sähköpostitse lähetettyä työvuoro
 
 Näitä ja muita työntekijän toimintoja suunnitellaan seuraaviin versioihin.
 
-## Palautetta beta-testauksesta?
+## Palautetta?
 
-Jos testaat Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, toimivatko vapaatoive, tunti-ilmoitus ja avoimiin vuoroihin ilmoittautuminen? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
+Jos käytät Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, toimivatko vapaatoive, tunti-ilmoitus ja avoimiin vuoroihin ilmoittautuminen? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
