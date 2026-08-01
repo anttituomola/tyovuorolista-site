@@ -14,6 +14,8 @@ tags: ["päivitykset", "työntekijät", "julkaisu", "tuntien kirjaus"]
 
 *Päivitetty 31.7.2026: Oma-portaali ei ole enää beta – erillistä aktivointia ei tarvita, vaan ominaisuus on heti käytettävissä kaikilla maksullisilla tilauksilla.*
 
+*Päivitetty 1.8.2026: vapaatoiveen voi nyt hyväksyä tai hylätä suoraan kalenterista – hyväksyntä merkitsee V- ja X-päivät automaattisesti.*
+
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta – sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita – jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
@@ -53,9 +55,18 @@ Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaess
 
 ### 4. Vapaatoiveet kalenterissa
 
-Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin – se on vain suunnitteluvihje.
+Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin – se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen.
 
-Voit silti merkitä työntekijälle vuoron vapaatoivepäivälle; järjestelmä varoittaa päällekkäisyydestä, mutta tallennus on mahdollinen.
+<img src="/blogPostImages/oma-portaali/vapaatoive-kalenteri.png" alt="Kalenteri, jossa työntekijän vapaatoive näkyy suunnittelumerkintänä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+Avaa vapaatoive kalenterista nähdäksesi tarkemmat tiedot ja käsitelläksesi sen:
+
+- **Hyväksy vapaatoive** merkitsee päivät työvuorolistan V- ja X-päiviksi automaattisesti (ensimmäinen vapaapäivä viikolla V, loput X – sama logiikka kuin manuaalisessa merkinnässä). Hyväksyntä vaatii, että jokaiselle päivälle on olemassa lista, joka kattaa kyseisen ajankohdan.
+- **Hylkää** poistaa vapaatoiveen. Voit halutessasi kirjoittaa lyhyen syyn (valinnainen).
+
+<img src="/blogPostImages/oma-portaali/vapaatoive-hyvaksynta.png" alt="Vapaatoiveen tiedot kalenterissa: Hyväksy vapaatoive ja Hylkää -painikkeet" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Hyväksyntä estetään, jos työntekijällä on jo työvuoro vapaatoivepäivänä. Voit silti merkitä vuoron manuaalisesti tarvittaessa – järjestelmä varoittaa päällekkäisyydestä.
 
 ### 5. Työntekijöiden tunti-ilmoitusten hyväksyntä
 
@@ -123,7 +134,7 @@ Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](h
 - Vapaatoive **ei näy** omien vuorojen aikajanalla – se on erillisellä sivulla.
 - Et voi ilmoittaa vapaatoivetta päivälle, jolla sinulla on jo **julkaistu työvuoro**.
 
-Esimies näkee vapaatoiveesi kalenterissa suunnittelua varten. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin.
+Esimies näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä** sen. Hyväksytyt päivät ilmestyvät työvuorolistaan V- ja X-merkintöinä; hylätty toive poistuu Oma-portaalin vapaatoivesivulta. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
 
 ### Ilmoita toteutuneet tunnit *(uusi)*
 
