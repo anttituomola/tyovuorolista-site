@@ -1,6 +1,6 @@
 # Weekly legal and workforce scheduling watch
 
-This file is the concise repository log for the weekly Työvuorolista.fi legal and workforce-scheduling review. The automation checks primary Finnish sources (including Finlex, ministries, occupational safety authorities and courts), labour-market organisations, and Työvuorolista.fi's public product, help and blog content. A fuller report is delivered in Finnish; this log records only material findings and resulting actions. Updates are proposed every Monday through a pull request and are never merged automatically.
+This file is the concise repository log for the weekly tyovuorolista.fi legal and workforce-scheduling review. The automation checks primary Finnish sources (including Finlex, ministries, occupational safety authorities and courts), labour-market organisations, and tyovuorolista.fi's public product, help and blog content. A fuller report is delivered in Finnish; this log records only material findings and resulting actions. Updates are proposed every Monday through a pull request and are never merged automatically.
 
 ## 2026-08-03
 
