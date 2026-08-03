@@ -2,9 +2,9 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi laiminlyöntimaksu työvuoroluettelosta ja työaikakirjanpidosta'
 pubDate: 2026-07-23
-description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Esitys on vielä lausuntokierroksella.'
-reviewedDate: 2026-07-28
-infoBasis: 'Perustuu työ- ja elinkeinoministeriön lausuntokierroksella olevaan lakiluonnokseen laiminlyöntimaksusta sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; lopullinen muoto ratkeaa eduskunnan käsittelyssä.'
+description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Esitys on vielä lausuntokierroksella; oikeuskansleri on vaatinut täsmennyksiä.'
+reviewedDate: 2026-08-03
+infoBasis: 'Perustuu työ- ja elinkeinoministeriön lausuntokierroksella olevaan lakiluonnokseen laiminlyöntimaksusta, oikeuskanslerin lausuntoon OKV/1883/21/2026 (29.7.2026) sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; lopullinen muoto ratkeaa eduskunnan käsittelyssä.'
 ctaText: 'Pidä työaikakirjanpito kuntoon'
 ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
@@ -22,6 +22,11 @@ Maksu voisi olla enintään **10 000 euroa**; useammasta yhtäaikaisesta
 laiminlyönnistä yhteensä enintään **15 000 euroa**. Esitys ei ole vielä
 laki: lausuntokierros on käynnissä 21.8.2026 asti, ja hallituksen esitys
 on tarkoitus viedä eduskuntaan syyskuussa 2026.
+
+> **Päivitys 29.7.2026:** Oikeuskansleri on vaatinut esitysluonnokseen
+> täsmennyksiä muun muassa poikkeustilanteista, työnantajan kuulemisesta
+> ja hallinnollisen maksun suhteesta rikosprosessiin. Esitys on edelleen
+> lausuntovaiheessa, eikä ehdotettu sääntely ole voimassa.
 
 ## Mitä on suunnitteilla?
 
@@ -77,6 +82,25 @@ työvuoroluettelon osalta päätyä eri asemaan.
 
 Eli: suunta on selvä, yksityiskohdat elävät vielä lausuntokierroksen
 ajan. Kannattaa seurata, mitä eduskuntaan lopulta menee.
+
+## Oikeuskansleri vaatii täsmennyksiä
+
+Oikeuskansleri antoi 29.7.2026 lausunnon (OKV/1883/21/2026) ehdotuksesta.
+Luonnosta ei hylätty, mutta lopullinen hallituksen esitys voi poiketa
+nykyisestä. Lausunnossa vaaditaan täsmennyksiä erityisesti seuraaviin
+kohtiin:
+
+- tilanteet, joissa työvuoroluetteloa ei lain, poikkeusluvan tai TES:n
+  perusteella tarvitse laatia
+- työaikakirjanpidon laiminlyöntiä koskevat perustelut, jotka puuttuvat
+  luonnoksesta
+- työnantajan kuulemisen kirjaaminen suoraan lakiin
+- hallinnollisen maksun ja rikosprosessin yhteensovittaminen
+- vähäisten laiminlyöntien käsittely
+- muutoksenhaku sekä lain vaikutusten seuranta
+
+Lausuntokierros jatkuu 21.8.2026 asti. Hallituksen esitys on tarkoitus
+antaa syyskuussa.
 
 ## Mitä voit tehdä jo nyt?
 
@@ -142,4 +166,4 @@ tehty juuri siihen.
 
 ---
 
-*Lähteet: [TEM:n tiedote lausuntokierroksesta (6.7.2026)](https://tem.fi/-/lausuntokierros-alkaa-tyonantajalle-laiminlyontimaksu-tyoaika-ja-vuosilomavelvollisuuksien-laiminlyonnista), [Suomen Yrittäjät: tiedote](https://www.yrittajat.fi/ajankohtaista/tiedotteet/yrittajat-tyonantajille-esitetty-laiminlyontimaksu-on-monin-tavoin-ongelmallinen/), [Aamulehti 6.7.2026](https://www.aamulehti.fi/kotimaa/art-2000012123692.html), [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872)*
+*Lähteet: [TEM:n tiedote lausuntokierroksesta (6.7.2026)](https://tem.fi/-/lausuntokierros-alkaa-tyonantajalle-laiminlyontimaksu-tyoaika-ja-vuosilomavelvollisuuksien-laiminlyonnista), [Oikeuskanslerin lausuntotiivistelmä OKV/1883/21/2026](https://oikeuskansleri.fi/-/laiminlyontimaksun-lisaaminen-tyoaika-ja-vuosilomalainsaadantoon), [Oikeuskanslerin lausunto (PDF)](https://oikeuskansleri.fi/documents/1428954/254241863/julkaistu_lausunto_laiminlyontimaksun_lisaaminen_tyoaika_ja_vuosilomalainsaadantoon_OKV_1883_21_2026.pdf/5765bc96-0d0a-8020-ef2f-9d9f009d054a), [Lausuntopalvelu: esitysluonnos](https://www.lausuntopalvelu.fi/FI/Proposal/Participation?proposalId=bdc81418-b573-43de-a80d-bd09b321eefa), [Suomen Yrittäjät: tiedote](https://www.yrittajat.fi/ajankohtaista/tiedotteet/yrittajat-tyonantajille-esitetty-laiminlyontimaksu-on-monin-tavoin-ongelmallinen/), [Aamulehti 6.7.2026](https://www.aamulehti.fi/kotimaa/art-2000012123692.html), [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872)*
