@@ -101,7 +101,6 @@ sovita.
 
 <img src="/blogPostImages/kaupan-tes/kaupan-huomautukset-paneeli.png" alt="TES-huomautukset: viikkotunnit ja vuororajat" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 5, 12 § 7, 15 §; ammattiryhmäpöytäkirja “Logistiikkatyöntekijät” 3 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (yölisä 1.10.2026).*

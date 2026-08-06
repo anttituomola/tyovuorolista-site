@@ -107,5 +107,4 @@ mapattavissa omaan palkanlaskentaan. Varoitukset eivät estä
 tallentamista — paikallinen sopiminen on kaupan alalla laajaa, ja
 sovellus jättää tulkinnan sinulle.
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).

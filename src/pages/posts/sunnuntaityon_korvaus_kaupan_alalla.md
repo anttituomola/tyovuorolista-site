@@ -190,8 +190,7 @@ logistiikkatyöntekijän omat säännöt tulevat työntekijäryhmän mukaan.
 Rivit viedään palkanlaskentaan omilla palkkalajikoodeillaan, myös
 [Procountor-muodossa](/posts/procountor_palkka_vienti).
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 ---
 

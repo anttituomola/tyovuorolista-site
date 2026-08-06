@@ -114,5 +114,6 @@ laskeminen](/posts/vuosivapaan_alkusaldon_laskeminen).
 
 Jos jokin tieto tuntuu puuttuvan tai laskenta näyttää oudolta työntekijän
 kohdalla, laita viestiä
-[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi). TES-tuki on
-pilottivaiheessa, ja palaute menee suoraan minulle.
+[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi)
+(aiheeksi esim. `TES-apuri beta`). TES-apuri on beta-vaiheessa, ja palaute
+menee suoraan minulle.

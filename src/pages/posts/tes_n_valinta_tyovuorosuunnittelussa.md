@@ -143,9 +143,11 @@ sovellus tuntee vain, jos ne on kirjattu asetuksiin. Varoitusten
 tarkoitus on, ettei mikään jää huomaamatta; päätökset jäävät aina
 sinulle.
 
-TES-tuki on toistaiseksi pilottivaiheessa ja avataan pyynnöstä. Jos
-haluat sen käyttöösi — tai alasi sopimus puuttuu valikosta — laita
-viestiä [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus
+asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat
+käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+Jos alasi sopimus puuttuu valikosta, laita viestiä
+[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
 
 ---
 

@@ -112,7 +112,6 @@ tarkastelevat alan taloustilannetta joulukuussa 2026 ja sopimus on
 irtisanottavissa päättymään 30.4.2027 — seuraamme tilannetta ja
 päivitämme laskennan, jos määräykset muuttuvat.
 
-TES-tuki on tällä hetkellä beta-vaiheessa ja aktivoidaan erikseen —
-laita viesti (info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Yksityisen sosiaalipalvelualan työehtosopimus 1.1.2026–30.4.2028 (Tehy, PDF)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf) 6 § (työaika), 7 § (arkipyhät) ja uudistamispöytäkirja (sopimuskausi); [HALI: yksityinen sosiaalipalveluala](https://www.hyvinvointiala.fi/tyosuhdetietoa/tyoehtosopimukset/sosiaalipalveluala/); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 7 §, 8 §, 30 §.*

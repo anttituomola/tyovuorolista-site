@@ -117,7 +117,6 @@ tallennusta: paikallinen sopiminen on kaupan alalla laajaa.
 
 <img src="/blogPostImages/kaupan-tes/kaupan-tes-asetukset.png" alt="TES-asetukset Kaupan alan TES:llä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 6–15, 8 § 7–8, 12 § 9; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 18 § (keskimääräinen 48 h/vko).*

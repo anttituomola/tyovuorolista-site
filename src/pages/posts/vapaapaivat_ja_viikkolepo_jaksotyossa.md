@@ -95,7 +95,6 @@ Varoitukset eivät estä tallentamista — moni sääntö joustaa sopimalla, ja
 päätös jää aina esihenkilölle. Sovellus vahtii myös ne rajat, joista ei
 voi sopia: työaikalain ehdottomat vähimmäislevot.
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Yksityisen sosiaalipalvelualan työehtosopimus 1.1.2026–30.4.2028 (Tehy, PDF)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf) 6 § kohdat 9 (yövuorot), 12 (vapaapäivät) ja 13 (viikkolepo) sekä 6 a § (paikallinen sopiminen); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 25 § (vuorokausilepo), 27 § (viikkolepo); [HALI: yksityinen sosiaalipalveluala](https://www.hyvinvointiala.fi/tyosuhdetietoa/tyoehtosopimukset/sosiaalipalveluala/).*

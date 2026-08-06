@@ -191,9 +191,10 @@ että muutos vaatii työntekijän suostumuksen. Lue lisää siitä, [miten
 listat julkaistaan ja lähetetään
 työntekijöille](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille).
 
-[Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa) on
-beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+[Tyovuorolista.fi:n TES-apuri](/posts/tes_tuki_tyovuorosuunnittelussa)
+(beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista,
+niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso
+[näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 ---
 

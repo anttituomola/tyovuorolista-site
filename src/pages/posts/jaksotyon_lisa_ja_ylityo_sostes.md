@@ -112,7 +112,6 @@ vietyä omilla palkkalajikoodeillaan — myös
 
 <img src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: jaksotyön ylityörivit ja työaikalisät" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Yksityisen sosiaalipalvelualan työehtosopimus 1.1.2026–30.4.2028 (Tehy, PDF)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf) 7 § (arkipyhät), 8 § (lisätyö), 9 § (ylityö, ml. 6 vk esimerkki), 11 § (tuntikohtaisten korvausten laskenta) ja palkkasopimuksen G-taulukot 1.8.2025; [HALI: yksityinen sosiaalipalveluala](https://www.hyvinvointiala.fi/tyosuhdetietoa/tyoehtosopimukset/sosiaalipalveluala/); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 16 §, 20 §.*

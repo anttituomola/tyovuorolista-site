@@ -262,12 +262,12 @@ Laajennettu 9 jakson / 136 tunnin malli otetaan käyttöön TES-asetusten
 samaan tapaan kuin muutkin paikalliset poikkeamat. Muutoshistoria säilyy
 myöhempää tarkastelua varten.
 
-Tasoittumisjärjestelmä on toistaiseksi mukana samassa pilotissa kuin
-[TES-tuki kokonaisuudessaan](/posts/tes_tuki_tyovuorosuunnittelussa). Jos
-toimipaikkasi käyttää tai suunnittelee ottavansa tasoittumisjärjestelmän
-käyttöön, laita viestiä
-[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi). Erityisesti
-kausiluonteiset yritykset ovat nyt kiinnostavia pilottikäyttäjiä.
+Tasoittumisjärjestelmä sisältyy [TES-apuriin](/posts/tes_tuki_tyovuorosuunnittelussa)
+(beta) kaikissa paketeissa. Valitse työehtosopimus asetuksista ja ota
+tasoittumisjärjestelmä käyttöön Työehtosopimus-sivulta. Katso
+[näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+Suosittelemme vertaamaan palkkaraporttia omaan palkanlaskentaan 1–2
+ensimmäisen jakson ajan.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'TES-tuki työvuorosuunnittelussa — pilotissa ensimmäisenä MaRa-ala'
+title: 'TES-tuki työvuorosuunnittelussa — MaRa, Kaupan ala, KipaTES ja SOSTES'
 pubDate: 2026-07-14
-description: 'Työvuorolista tarkistaa nyt työvuorosi työehtosopimusta ja työaikalakia vasten: varoitukset suunnitteluvaiheessa ja tunnit valmiiksi luokiteltuina palkanlaskentaan. Pilotti alkaa MaRa-TES:stä.'
+description: 'Työvuorolista tarkistaa työvuorosi työehtosopimusta ja työaikalakia vasten: varoitukset suunnitteluvaiheessa ja tunnit valmiiksi luokiteltuina palkanlaskentaan. TES-apuri (beta) sisältyy kaikkiin paketteihin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png'
@@ -17,20 +17,33 @@ toteutuneet tunnit luokitellaan valmiiksi palkanlaskennan kategorioihin —
 lisätyöt, ylityöt ja lisät eriteltyinä.
 
 Ensimmäisenä tuki kattaa **Matkailu-, ravintola- ja vapaa-ajan palveluiden
-TES:n (MaRa)**. Kaupan alan, Kiinteistöpalvelualan ja Yksityisen
-sosiaalipalvelualan (SOSTES) sopimukset ovat mukana valikossa ja
-laajenevat pilotin edetessä.
+TES:n (MaRa)**. Mukana ovat myös Kaupan alan, Kiinteistöpalvelualan
+(KipaTES) ja Yksityisen sosiaalipalvelualan (SOSTES) sopimukset — kukin
+omilla säännöillään. Ominaisuus on beta-vaiheessa kaikissa paketeissa.
 
-## Ominaisuus on nyt pilottivaiheessa — pääset mukaan pyytämällä
+## Näin otat TES-apurin käyttöön
 
-TES-tuki on toistaiseksi erikseen aktivoitava ominaisuus. Jos haluat sen
-käyttöösi, laita viesti osoitteeseen
-[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi) — viesti tulee
-suoraan minulle ja laitan ominaisuuden päälle toimipaikallesi. Erityisesti
-etsin nyt MaRa-alan yrityksiä, jotka haluavat verrata sovelluksen
-laskemia tunteja omaan palkanlaskentaansa.
+TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin.
+Aktivointi on itsepalvelua:
 
-TES-varoitukset ovat ilmainen ominaisuus kaikissa tilauksissa.
+1. **Valitse työehtosopimus** Asetuksista tai
+   [Työehtosopimus-sivulta](https://app.tyovuorolista.fi/admin/tes)
+   (uusille käyttäjille valinta tarjotaan jo rekisteröityessä).
+2. **Aseta jakson alkumaanantai**, jos sopimus käyttää
+   kolmiviikkoisjaksoja (MaRa, SOSTES).
+3. **Täydennä työntekijöiden TES-tiedot** (työsuhteen tyyppi,
+   sopimustunnit) tarkistuslistan mukaan.
+4. **Mapaa palkkalajikoodit** oman palkanlaskennan koodeihin, jos viet
+   palkkaraportin.
+
+Vaiheittainen ohje:
+[Näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+Pois päältä valitsemalla *Ei työehtosopimusta*.
+
+TES-varoitukset, saldonäkymät ja vuosivapaaseuranta ovat ilmaisia kaikissa
+tilauksissa. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin
+paketteihin kuten ennenkin. Suosittelemme vertaamaan palkkaraporttia
+omaan palkanlaskentaan 1–2 ensimmäisen jakson ajan.
 
 ## Varoitukset suunnitteluvaiheessa — eivät koskaan estä tallentamista
 
@@ -121,6 +134,6 @@ paikalliset sopimukset voivat muuttaa määräyksiä tavoilla, joita sovellus
 ei tunne ellei niitä ole kirjattu asetuksiin. Varoitusten tarkoitus on,
 ettei mikään jää huomaamatta — ei tehdä päätöksiä puolestasi.
 
-Jos haluat TES-tuen käyttöösi tai sinulla on toiveita tuettavista
-määräyksistä, laita viestiä:
+Jos huomaat virheen tai sinulla on toiveita tuettavista määräyksistä,
+laita viestiä (aiheeksi `TES-apuri beta`):
 [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).

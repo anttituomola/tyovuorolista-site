@@ -116,7 +116,6 @@ irtisanottavissa päättymään jo 31.3.2027 (ilmoitusaika 31.1.2027
 mennessä). Seuraamme tilannetta ja päivitämme laskennan, jos sopimus
 muuttuu.
 
-TES-tuki on tällä hetkellä beta-vaiheessa ja aktivoidaan erikseen —
-laita viesti (info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8–10 § ja allekirjoituspöytäkirja; [Kiinteistötyönantajat ry: työehtosopimukset](https://kiinteistotyonantajat.fi/edunvalvonta/tyoelamaasiat/tyoehtosopimukset/); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 30 §.*

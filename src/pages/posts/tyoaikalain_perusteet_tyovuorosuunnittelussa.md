@@ -112,8 +112,7 @@ vakavimman tason **laki-merkin** suoraan kalenterissa:
 <img src="/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png" alt="Kalenterinäkymä: punainen laki-merkki yläpalkissa kertoo yhdestä lain vastaisesta vuorosta" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Varoitukset eivät koskaan estä tallentamista, vaan päätös on aina sinun.
-TES-tuki on tällä hetkellä beta-vaiheessa ja aktivoidaan erikseen:
-laita viesti (info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 ---
 

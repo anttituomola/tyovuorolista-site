@@ -95,7 +95,6 @@ sunnuntai…) ja palkkaraportissa rivit saa vietyä omilla
 palkkalajikoodeillaan — myös
 [Procountor-muotoon](/posts/procountor_palkka_vienti).
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 14–15 §, 17 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (työaikalisät 1.5.2022– ja logistiikan yölisä 1.10.2026); [Kaupan liitto: TES-ratkaisun sisältö](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/).*

@@ -105,5 +105,4 @@ Huomio syksyyn 2026: kaupan alan **palkkausuudistus tulee voimaan
 1.10.2026** ja muuttaa mm. myyjien vaativuusluokitusta ja eräitä lisiä.
 Päivitämme laskennan ja tämän ohjeistuksen ennen lokakuuta.
 
-TES-tuki on tällä hetkellä beta-vaiheessa ja aktivoidaan erikseen —
-laita viesti (info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Näin otat TES-tuen käyttöön — opas nykyisille käyttäjille'
 pubDate: 2026-07-19
-description: 'TES-tuki on pilottivaiheessa ja avataan pyynnöstä. Tämä opas käy läpi käyttöönoton vaihe vaiheelta nykyiselle tyovuorolista.fi-käyttäjälle: TES-valinta, jaksorytmi, työntekijätiedot — ja miten saat ominaisuudesta eniten irti.'
+description: 'TES-apuri (beta) sisältyy kaikkiin paketteihin. Tämä opas käy läpi käyttöönoton vaihe vaiheelta: TES-valinta, jaksorytmi, työntekijätiedot — ja miten saat ominaisuudesta eniten irti.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'
@@ -10,39 +10,32 @@ image:
 tags: ['TES', 'MaRa', 'käyttöönotto', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 31.7.2026: kaikki neljä työehtosopimusta ovat nyt täydessä
-tuessa — myös [SOSTES eli yksityinen
-sosiaalipalveluala](/posts/sostes_tyovuorosuunnittelussa). Päivitetty
-27.7.2026: palkkalajikoodien yksityiskohdat siirretty
+*Päivitetty 6.8.2026: TES-apuri (beta) on itsepalveluna kaikissa
+paketeissa — erillistä aktivointipyyntöä ei tarvita. Päivitetty 31.7.2026:
+kaikki neljä työehtosopimusta ovat nyt täydessä tuessa — myös
+[SOSTES eli yksityinen sosiaalipalveluala](/posts/sostes_tyovuorosuunnittelussa).
+Päivitetty 27.7.2026: palkkalajikoodien yksityiskohdat siirretty
 [Procountor-vientiohjeeseen](/posts/procountor_palkka_vienti).*
 
-**Lyhyesti:** [TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa)
-käyttöönotto vie nykyiseltä käyttäjältä noin vartin: pyydä ominaisuus
-käyttöön, valitse työehtosopimus ja jaksorytmi, täydennä
-työntekijöiden tiedot ja jatka suunnittelua kuten ennenkin. Suurin hyöty
-tulee, kun ensimmäisen kokonaisen jakson tuntierittelyä verrataan omaan
-palkanlaskentaan.
+**Lyhyesti:** [TES-apurin](/posts/tes_tuki_tyovuorosuunnittelussa)
+käyttöönotto vie nykyiseltä käyttäjältä noin vartin: valitse
+työehtosopimus ja jaksorytmi, täydennä työntekijöiden tiedot ja jatka
+suunnittelua kuten ennenkin. Suurin hyöty tulee, kun ensimmäisen
+kokonaisen jakson tuntierittelyä verrataan omaan palkanlaskentaan.
 
-## Vaihe 1: Pyydä ominaisuus käyttöön
+## Vaihe 1: Valitse TES ja jaksorytmi
 
-TES-tuki on pilottivaiheessa, ja laitan sen päälle toimipaikoille
-pyynnöstä. Lähetä viesti osoitteeseen
-[info@tyovuorolista.fi](mailto:info@tyovuorolista.fi) — viesti tulee
-suoraan minulle, ja ominaisuus on käytössäsi yleensä saman päivän
-aikana. Mikään ei muutu ennen kuin teet seuraavan vaiheen valinnat, joten
-aktivointi on riskitön.
-
-## Vaihe 2: Valitse TES ja jaksorytmi
-
-Kun ominaisuus on päällä, avaa **Hallinta →**
-<a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>.
-Valitse
-sopimuksesi — tuettuina ovat MaRa, Kaupan ala, Kiinteistöpalveluala ja
+Avaa **Hallinta →**
+<a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>
+(tai Asetukset → työehtosopimusvalinta). Valitse sopimuksesi — tuettuina
+ovat MaRa, Kaupan ala, Kiinteistöpalveluala ja
 [SOSTES](/posts/sostes_tyovuorosuunnittelussa) — ja jaksollisissa
 sopimuksissa (MaRa, SOSTES) aseta
 [jakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
 alkumaanantai. SOSTES-venue valitsee samalla työvuoroluettelon pituuden
-(3 tai 6 viikkoa):
+(3 tai 6 viikkoa). Jos valitsit TES:n jo rekisteröityessä, apuri on jo
+päällä — vahvista vain jaksorytmi ja työntekijätiedot. Pois päältä
+valitsemalla *Ei työehtosopimusta*.
 
 <img src="/blogPostImages/tes-tuki/tes-asetukset.png" alt="TES-asetukset: MaRa valittuna ja jakson alkumaanantai asetettuna, alla tulevien jaksojen esikatselu" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -54,7 +47,7 @@ sopineet paikallisesti toisin, kirjaa poikkeamat samalta sivulta
 (**Paikalliset sopimukset** — jokainen poikkeama vaatii perustelun, joka
 jää muutoshistoriaan).
 
-## Vaihe 3: Täydennä työntekijöiden tiedot
+## Vaihe 2: Täydennä työntekijöiden tiedot
 
 TES-laskenta tarvitsee jokaiselta työntekijältä **työsuhteen tyypin**
 (kokoaikainen / osa-aikainen) ja osa-aikaisilta
@@ -76,7 +69,7 @@ Jos viet tunnit Procountoriin, palkkalajikoodit asetetaan samalta
 sivulta — niistä on erillinen ohje:
 [Näin viet palkka-aineiston Procountoriin](/posts/procountor_palkka_vienti).
 
-## Vaihe 4: Kohdista listat jaksoihin
+## Vaihe 3: Kohdista listat jaksoihin
 
 Varoitukset toimivat heti, olivat listasi minkä mittaisia tahansa. Sen
 sijaan **lisä- ja ylityöerittely lasketaan vain kokonaisilta
@@ -85,7 +78,7 @@ tehdä jakson rajoille (21 päivää, maanantaista sunnuntaihin). Uusi
 lista ehdottaa jakson rajoja automaattisesti, kun TES on valittu.
 Vanhoja listoja ei tarvitse muuttaa.
 
-## Vaihe 5: Suunnittele kuten ennenkin — ja lue varoitukset
+## Vaihe 4: Suunnittele kuten ennenkin — ja lue varoitukset
 
 Tästä eteenpäin kalenteri tarkistaa vuorot suunnitellessasi:
 lepoajat, vuorojen pituudet, vapaapäivät, jakson tuntirajat ja
@@ -101,12 +94,12 @@ kortti erittelee
 [kahdennetut sunnuntailisät](/posts/sunnuntailisa_ravintola-alalla) ja
 vuosivapaasaldon automaattisesti.
 
-## Näin saat eniten irti pilotista
+## Näin saat eniten irti beta-vaiheesta
 
-1. **Aja rinnakkain yksi kokonainen jakso.** Vertaa sovelluksen
-   tuntierittelyä palkanlaskentasi omaan laskentaan ensimmäisen täyden
-   kolmiviikkoisjakson jälkeen. Jos yksikin luku eroaa, kerro minulle —
-   jokainen ero selvitetään juurta myöten.
+1. **Aja rinnakkain 1–2 jaksoa.** Vertaa sovelluksen tuntierittelyä
+   palkanlaskentasi omaan laskentaan ensimmäisten täysien jaksojen
+   jälkeen. Jos yksikin luku eroaa, kerro minulle (aiheeksi
+   `TES-apuri beta`) — jokainen ero selvitetään juurta myöten.
 2. **Kerro työntekijöille.** [Oma-portaalissa](/posts/oma_portaali_ohje)
    työntekijä näkee oman jaksosaldonsa ja vuosivapaansa — kysymykset
    vähenevät, kun tieto on kaikilla sama.
@@ -116,5 +109,5 @@ vuosivapaasaldon automaattisesti.
 
 TES-apuri seuraa näitä säädöksiä puolestasi joka päivä tästä eteenpäin —
 mutta sinä tunnet työpaikkasi. Varoitukset ovat apuväline, päätökset
-ovat sinun. Tervetuloa pilottiin:
+ovat sinun. Palaute:
 [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).

@@ -98,5 +98,4 @@ Mikään varoitus ei estä tallentamista — 8 §:n säännöistä moni joustaa
 paikallisella sopimisella, ja sovelluksen tehtävä on varmistaa, että
 poikkeama on tietoinen valinta eikä vahinko.
 
-TES-tuki on beta-vaiheessa ja aktivoidaan erikseen — laita viesti
-(info@tyovuorolista.fi) niin laitan sen päälle.
+TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
