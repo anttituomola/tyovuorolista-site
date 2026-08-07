@@ -95,7 +95,7 @@ that doesn't exist:
 | `hotellit-ja-majatalot.astro` | MaRa, hotel wording (yövuorot, vastaanotto 24/7) |
 | `siivous-ja-kiinteistopalvelut.astro` | KipaTES: viikkoylityö, nimetyt lauantait, jaksotilitys. **KIPA-blogilinkit vielä pois** (ks. Follow-up alla) |
 | `tapahtumat-ja-sesonkityo.astro` | MaRa + **tasoittumisjärjestelmä** (sesonkiyrityksen paras TES-koukku: pitkät kesäviikot tasoittuvat). Link `posts/tasoittumisjarjestelma_ravintola-alalla` |
-| `taksiyritykset-ja-kuljetus.astro` | **Ei TES-lupausta** (kuljetusalan sopimuksille ei ole presettiä). Angle: työaikalain rajat valvottuina (lepoajat, 30 § julkaisusääntö) + "TES-valikoima laajenee — kerro tarpeestasi" |
+| `taksiyritykset-ja-kuljetus.astro` | **Ei TES-lupausta** (kuljetusalan sopimuksille ei ole presettiä). **Ei myöskään työaikalaki-lupausta:** ilman TES-valintaa sovellus ei aja mitään työaikatarkistuksia (zero-impact-periaate; legacy-toastit poistettu 07/2026), joten "työaikalain rajat valvottuina" olisi väärä väite. Angle: toivelista-CTA "TES-valikoima laajenee toiveiden mukaan — kerro tarpeestasi". (Product idea, app repo: law-only mode tes_id='none' -venueille tekisi työaikalaki-kulmasta totta.) |
 
 en/sv segment variants: one added feature bullet only ("Finnish TES
 compliance warnings included in every plan" / sv equivalent), no full

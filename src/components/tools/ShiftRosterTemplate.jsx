@@ -299,7 +299,7 @@ function ShiftRosterTemplate() {
             </div>
 
             <footer className="roster-print-footer">
-                <p>Työvuorolista.fi – pk-yrityksen työvuorolista nopeasti ja helposti</p>
+                <p>Tyovuorolista.fi – pk-yrityksen työvuorolista nopeasti ja helposti</p>
                 <p>www.tyovuorolista.fi</p>
             </footer>
         </div>
