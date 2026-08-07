@@ -139,13 +139,13 @@ const pathMappings: Record<string, Record<Locale, string>> = {
   },
   '/kaupan-ala': {
     fi: '/kaupan-ala',
-    en: '/kaupan-ala',
-    sv: '/kaupan-ala'
+    en: '/en/retail',
+    sv: '/sv/handel'
   },
   '/hoivakodit-ja-palveluasuminen': {
     fi: '/hoivakodit-ja-palveluasuminen',
-    en: '/hoivakodit-ja-palveluasuminen',
-    sv: '/hoivakodit-ja-palveluasuminen'
+    en: '/en/care-homes-and-assisted-living',
+    sv: '/sv/vardhem-och-serviceboende'
   },
   '/ominaisuudet': {
     fi: '/ominaisuudet',
@@ -217,6 +217,8 @@ const reversePathMappings: Record<string, string> = {
   '/cleaning-and-property-services': '/siivous-ja-kiinteistopalvelut',
   '/hotels-and-inns': '/hotellit-ja-majatalot',
   '/events-and-seasonal-work': '/tapahtumat-ja-sesonkityo',
+  '/retail': '/kaupan-ala',
+  '/care-homes-and-assisted-living': '/hoivakodit-ja-palveluasuminen',
   // Swedish paths -> Finnish
   '/kontakt': '/yhteystiedot',
   '/prissattning': '/hinnoittelu',
@@ -226,6 +228,8 @@ const reversePathMappings: Record<string, string> = {
   '/stadning-och-fastighetstjanster': '/siivous-ja-kiinteistopalvelut',
   '/hotell-och-vardshus': '/hotellit-ja-majatalot',
   '/evenemang-och-sasongsarbete': '/tapahtumat-ja-sesonkityo',
+  '/handel': '/kaupan-ala',
+  '/vardhem-och-serviceboende': '/hoivakodit-ja-palveluasuminen',
   '/features': '/ominaisuudet',
   '/resources': '/resurssit',
   '/funktioner': '/ominaisuudet',

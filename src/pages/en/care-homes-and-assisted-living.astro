@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Button from '../../components/common/Button.astro'
+---
+
+<Layout
+    title="Care home shift schedules and SOSTES period work | tyovuorolista.fi"
+    description="Shift planning for care homes and assisted living with SOSTES period work. TES helper (beta): period hours, overtime and weekly rest in every plan."
+    ogTitle="Care home shift schedules and SOSTES period work"
+    ogDescription="Plan 3/6-week rosters for SOSTES period work. TES helper warns on rest rules and classifies overtime. For care homes and assisted living."
+    ogUrl="https://tyovuorolista.fi/en/care-homes-and-assisted-living"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <div class="landing-wrapper">
+        <div class="hero-section">
+            <h1>Care home shift schedules and SOSTES period work</h1>
+            <p class="hero-subtitle">Shift planning for private social services: period work, night shifts and TES helper in one app. For care homes and assisted living.</p>
+            <p class="hero-cta"><em>First schedule ready and with your team in under five minutes.</em></p>
+            <div class="video-container">
+                <video controls preload="metadata" poster="/blogPostImages/tes-apuri-demo-poster.png">
+                    <source src="/blogPostImages/tes-apuri-demo.webm" type="video/webm" />
+                    <source src="/blogPostImages/tes-apuri-demo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="key-features">
+                <h2>Key features</h2>
+                <ul>
+                    <li>Finnish TES compliance warnings (SOSTES) included in every plan.</li>
+                    <li>3/6-week rosters and period balance for managers.</li>
+                    <li>Night shifts and Sunday/evening premiums classified for payroll.</li>
+                    <li>Teams by unit and personal schedules by email.</li>
+                    <li>Drag-and-drop calendar and templates.</li>
+                </ul>
+            </div>
+
+            <div class="tes-note">
+                <h2>TES helper for SOSTES period work</h2>
+                <p>TES helper (beta) supports the private social services agreement (SOSTES) in period work: period hour limits, overtime bands, weekly rest and day-off rules. This page is for care homes and assisted living. Early childhood education follows Vaka-TES, which has no preset yet. Detailed guides are in Finnish on the <a href="/hoivakodit-ja-palveluasuminen">care page</a> and <a href="/ominaisuudet/tes-apuri">TES helper</a>.</p>
+                <div class="tes-media">
+                    <img src="/blogPostImages/sostes-tes/sostes-jaksosaldo.png" alt="SOSTES period balance and overtime breakdown" loading="lazy" width="1200" height="675" />
+                </div>
+            </div>
+
+            <div class="pricing">
+                <h2>Pricing</h2>
+                <div class="pricing-tiers">
+                    <div class="tier"><h3>€0</h3><p>3 employees</p></div>
+                    <div class="tier"><h3>€18</h3><p>20 employees</p></div>
+                    <div class="tier"><h3>€60</h3><p>50 employees</p></div>
+                    <div class="tier"><h3>€180</h3><p>100 employees (+ VAT)</p></div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <Button text="Try Työvuorolista for free" variant="primary" href="https://app.tyovuorolista.fi/register" />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .landing-wrapper { max-width: 1200px; margin: 0 auto; padding: var(--space-base); }
+    .hero-section { text-align: center; padding: var(--space-4xl) 0; border-bottom: 1px solid var(--vaaleanharmaa); margin-bottom: var(--space-4xl); }
+    h1 { font-size: var(--text-4xl); color: var(--tummanvihrea); margin-bottom: var(--space-xl); font-weight: 600; }
+    .hero-subtitle { font-size: var(--text-lg); line-height: 1.6; color: var(--harmaa); margin-bottom: var(--space-lg); max-width: 800px; margin-left: auto; margin-right: auto; }
+    .hero-cta { font-size: var(--text-base); color: var(--tummanvihrea); margin-bottom: var(--space-4xl); }
+    .video-container { margin: 0 auto; max-width: 800px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); border-radius: 12px; overflow: hidden; }
+    .video-container video { width: 100%; height: auto; display: block; }
+    .content-section { display: flex; flex-direction: column; gap: var(--space-4xl); }
+    h2 { font-size: var(--text-2xl); color: var(--tummanvihrea); margin-bottom: var(--space-lg); font-weight: 600; }
+    ul { list-style: none; padding: 0; }
+    li { padding: var(--space-sm) 0; font-size: var(--text-base); line-height: 1.6; color: var(--harmaa); position: relative; padding-left: var(--space-lg); }
+    li::before { content: "✓"; position: absolute; left: 0; color: var(--tummanvihrea); font-weight: bold; }
+    .tes-note p { font-size: var(--text-base); line-height: 1.6; color: var(--harmaa); margin: 0 0 var(--space-lg); }
+    .tes-note a { color: var(--tummanvihrea); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+    .tes-media { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); border-radius: 12px; overflow: hidden; max-width: 900px; }
+    .tes-media img { display: block; width: 100%; height: auto; }
+    .pricing-tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-lg); margin-top: var(--space-lg); }
+    .tier { background-color: white; border: 1px solid var(--vaaleanharmaa); border-radius: 8px; padding: var(--space-xl); text-align: center; }
+    .tier h3 { font-size: var(--text-2xl); color: var(--tummanvihrea); margin: 0 0 var(--space-sm) 0; font-weight: 600; }
+    .tier p { color: var(--harmaa); margin: 0; }
+    .cta-section { text-align: center; padding: var(--space-4xl) 0; border-top: 1px solid var(--vaaleanharmaa); }
+    @media (max-width: 768px) {
+        h1 { font-size: var(--text-3xl); }
+        .hero-subtitle { font-size: var(--text-base); }
+        .pricing-tiers { grid-template-columns: 1fr; }
+    }
+</style>
