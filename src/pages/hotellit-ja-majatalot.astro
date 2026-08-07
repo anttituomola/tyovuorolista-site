@@ -5,9 +5,9 @@ import Button from '../components/common/Button.astro'
 
 <Layout
     title="Hotellin työvuorolistat keittiöstä vastaanottoon | tyovuorolista.fi"
-    description="Yhdistä vastaanoton, keittiön ja siivouksen aikataulut yhteen näkymään. Pitää koko henkilökunnan ajan tasalla. Kokeile ilmaiseksi!"
+    description="Yhdistä vastaanoton, keittiön ja siivouksen aikataulut yhteen näkymään. TES-apuri (beta) MaRa-sopimukselle yövuoroille ja vastaanottoon. Kokeile ilmaiseksi!"
     ogTitle="Hotellin työvuorolistat keittiöstä vastaanottoon"
-    ogDescription="Luo tiimejä eri osastoille ja estä tuplabuukkaukset. Päiväkohtaiset muistiinpanot tapahtumille ja konferensseille. Lomasuunnittelu pitää kesälomat hallinnassa."
+    ogDescription="Luo tiimejä eri osastoille. TES-apuri varoittaa lepoajoista yövuoroissa ja 24/7-vastaanotossa. Lomasuunnittelu pitää kesälomat hallinnassa."
     ogUrl="https://tyovuorolista.fi/hotellit-ja-majatalot"
     ogImage="https://tyovuorolista.fi/assets/metaImage.png"
 >
@@ -37,11 +37,21 @@ import Button from '../components/common/Button.astro'
             <div class="key-features">
                 <h2>Avainominaisuudet</h2>
                 <ul>
-                    <li>Helppolukuiset listat kuvana ja PDF:nä.</li>
+                                        <li>TES-apuri (beta): MaRa-varoitukset yövuoroille ja 24/7-vastaanotolle kaikissa paketeissa.</li>
+<li>Helppolukuiset listat kuvana ja PDF:nä.</li>
                     <li>Toteutuneiden tuntien laskenta ja raportointi.</li>
                     <li>Mallinteet toistuville vuoroille.</li>
                     <li>Sähköpostin esikatselutoiminto.</li>
                 </ul>
+            </div>
+
+            <div class="tes-section">
+                <h2>TES-apuri hotellin MaRa-listoihin</h2>
+                <p>Hotellin ja majatalon vuorot kulkevat usein vuorokauden ympäri. TES-apuri (beta) tarkistaa MaRa-sopimuksen lepoajat, vuoron pituudet ja jaksotunnit vastaanoton, keittiön ja muiden osastojen listoilla. Yövuorojen välinen lepo ja julkaisun määräajat nousevat esiin jo suunnitteluvaiheessa. Varoitukset kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin.</p>
+                <p>Lue lisää: <a href="/posts/tes_tuki_tyovuorosuunnittelussa">TES-tuki työvuorosuunnittelussa</a> ja <a href="/ominaisuudet/tes-apuri">TES-apuri</a>.</p>
+                <div class="tes-section__media">
+                    <img src="/featureImages/tes/kalenteri-varoitus.png" alt="Työvuorokalenteri MaRa-TES-varoituksella" loading="lazy" width="1200" height="675" />
+                </div>
             </div>
 
             <div class="testimonial">
@@ -225,6 +235,40 @@ import Button from '../components/common/Button.astro'
         text-align: center;
         padding: var(--space-4xl) 0;
         border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     @media (max-width: 768px) {

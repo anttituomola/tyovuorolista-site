@@ -93,13 +93,28 @@ that doesn't exist:
 |---|---|
 | `ravintolat-ja-kahvilat.astro` | MaRa: lepoajat, jaksotunnit, VV-saldo, kahdennetut su-lisät. Link `posts/tes_tuki_tyovuorosuunnittelussa` + MaRa cluster |
 | `hotellit-ja-majatalot.astro` | MaRa, hotel wording (yövuorot, vastaanotto 24/7) |
-| `siivous-ja-kiinteistopalvelut.astro` | KipaTES: viikkoylityö, nimetyt lauantait, jaksotilitys. Link KIPA cluster (julkaistaan 9.–13.8. — linkitä vasta kun postit ovat ulkona) |
+| `siivous-ja-kiinteistopalvelut.astro` | KipaTES: viikkoylityö, nimetyt lauantait, jaksotilitys. **KIPA-blogilinkit vielä pois** (ks. Follow-up alla) |
 | `tapahtumat-ja-sesonkityo.astro` | MaRa + **tasoittumisjärjestelmä** (sesonkiyrityksen paras TES-koukku: pitkät kesäviikot tasoittuvat). Link `posts/tasoittumisjarjestelma_ravintola-alalla` |
 | `taksiyritykset-ja-kuljetus.astro` | **Ei TES-lupausta** (kuljetusalan sopimuksille ei ole presettiä). Angle: työaikalain rajat valvottuina (lepoajat, 30 § julkaisusääntö) + "TES-valikoima laajenee — kerro tarpeestasi" |
 
 en/sv segment variants: one added feature bullet only ("Finnish TES
 compliance warnings included in every plan" / sv equivalent), no full
 section.
+
+### Follow-up: unpublished blog links (do not link yet)
+
+Today is before the KIPA cluster pubDates. When these are live, add links
+from `siivous-ja-kiinteistopalvelut.astro` TES-section:
+
+| pubDate | slug |
+|---|---|
+| 2026-08-09 | `posts/kipa_tes_tyovuorosuunnittelussa` |
+| 2026-08-10 | `posts/lisatyo_ja_ylityo_kiinteistopalvelualalla` |
+| 2026-08-11 | `posts/tasoittumisjarjestelma_kiinteistopalvelualalla` |
+| 2026-08-12 | `posts/ilta_yo_ja_aattolisat_kiinteistopalvelualalla` |
+| 2026-08-13 | `posts/arkipyhakorvaus_ja_vuosivapaa_kiinteistopalvelualalla` |
+
+(Original plan said "linkitä vasta kun postit ovat ulkona".)
 
 ## 4. New segment pages (2 × ~half day, fi first)
 

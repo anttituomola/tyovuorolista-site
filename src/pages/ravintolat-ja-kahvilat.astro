@@ -5,9 +5,9 @@ import Button from '../components/common/Button.astro'
 
 <Layout
     title="Ravintolan työvuorolistat helposti ja nopeasti | tyovuorolista.fi"
-    description="Unohda Excel ja paperiset listat. Työvuorolista tekee ravintolan ja kahvilan työvuorosuunnittelusta nopeaa ja virheetöntä. Kokeile ilmaiseksi!"
+    description="Unohda Excel ja paperiset listat. Työvuorolista tekee ravintolan ja kahvilan työvuorosuunnittelusta nopeaa. TES-apuri (beta) MaRa-sopimukselle kaikissa paketeissa. Kokeile ilmaiseksi!"
     ogTitle="Ravintolan työvuorolistat helposti ja nopeasti"
-    ogDescription="Hallitse kiireiset lounas- ja iltavuorot drag-and-drop-kalenterissa. Tiimien hallinta keittiölle, salille ja baaripuolelle. Ilmainen ≤3 työntekijää."
+    ogDescription="Hallitse lounas- ja iltavuorot drag-and-drop-kalenterissa. TES-apuri varoittaa lepoajoista ja jaksotunneista. Ilmainen ≤3 työntekijää."
     ogUrl="https://tyovuorolista.fi/ravintolat-ja-kahvilat"
     ogImage="https://tyovuorolista.fi/assets/metaImage.png"
 >
@@ -38,12 +38,22 @@ import Button from '../components/common/Button.astro'
             <div class="key-features">
                 <h2>Avainominaisuudet</h2>
                 <ul>
-                    <li>Ilmainen ≤3 työntekijää.</li>
+                                        <li>TES-apuri (beta): MaRa-varoitukset lepoajoista, jaksotunneista ja VV-saldoista kaikissa paketeissa.</li>
+<li>Ilmainen ≤3 työntekijää.</li>
                     <li>Toteutuneiden tuntien automaattinen laskenta.</li>
                     <li>Lomasuunnittelu suoraan kalenterissa.</li>
                     <li>Mallipohjat toistuville listoille.</li>
                     <li>Sähköpostin esikatselu ennen lähetystä.</li>
                 </ul>
+            </div>
+
+            <div class="tes-section">
+                <h2>TES-apuri MaRa-sopimukselle</h2>
+                <p>TES-apuri (beta) tarkistaa listan Matkailu-, ravintola- ja vapaa-ajan palveluiden TES:iä vasten jo suunnitteluvaiheessa: vuorokausilevot, vuoron pituudet, jaksotunnit, V- ja X-päivät sekä vuosivapaakertymä. Kahdennetut sunnuntailisät ja aattolisät näkyvät tuntien kirjauksessa valmiiksi eriteltyinä. Varoitukset kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin.</p>
+                <p>Lue lisää: <a href="/posts/tes_tuki_tyovuorosuunnittelussa">TES-tuki työvuorosuunnittelussa</a> ja <a href="/ominaisuudet/tes-apuri">TES-apuri</a>.</p>
+                <div class="tes-section__media">
+                    <img src="/featureImages/tes/kalenteri-varoitus.png" alt="Työvuorokalenteri MaRa-TES-varoituksella" loading="lazy" width="1200" height="675" />
+                </div>
             </div>
 
             <div class="testimonial">
@@ -233,6 +243,40 @@ import Button from '../components/common/Button.astro'
         text-align: center;
         padding: var(--space-4xl) 0;
         border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     @media (max-width: 768px) {

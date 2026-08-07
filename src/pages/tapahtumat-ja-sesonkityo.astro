@@ -5,9 +5,9 @@ import Button from '../components/common/Button.astro'
 
 <Layout
     title="Sesonkityön työvuorot helposti ja nopeasti | tyovuorolista.fi"
-    description="Pop-up-ravintola, kesäfestari tai joulumarkkinat? Toimii heti ilman pitkiä sopimuksia. Ilmainen pienille tiimeille. Kokeile!"
+    description="Pop-up-ravintola, kesäfestari tai joulumarkkinat? TES-apuri (beta) MaRa-tasoittumisjärjestelmälle sesonkiviikkoihin. Kokeile ilmaiseksi!"
     ogTitle="Sesonkityön työvuorot helposti ja nopeasti"
-    ogDescription="Kuukausi- tai vuosilaskutus, lopeta milloin haluat. Julkaise vuorolistat WhatsAppissa tai sähköpostilla yhdellä klikkauksella."
+    ogDescription="Kuukausi- tai vuosilaskutus, lopeta milloin haluat. TES-apuri auttaa tasoittamaan pitkät kesäviikot MaRa-sopimuksella."
     ogUrl="https://tyovuorolista.fi/tapahtumat-ja-sesonkityo"
     ogImage="https://tyovuorolista.fi/assets/metaImage.png"
 >
@@ -37,11 +37,21 @@ import Button from '../components/common/Button.astro'
             <div class="key-features">
                 <h2>Avainominaisuudet</h2>
                 <ul>
-                    <li>Drag-and-drop suunnittelu.</li>
+                                        <li>TES-apuri (beta): MaRa ja tasoittumisjärjestelmä sesonkiviikkoihin kaikissa paketeissa.</li>
+<li>Drag-and-drop suunnittelu.</li>
                     <li>Lomasuunnittelu ja monipäiväiset muistiinpanot.</li>
                     <li>Tiimien nopea luonti eri tapahtumille.</li>
                     <li>Mallineet toistuviin tapahtumiin.</li>
                 </ul>
+            </div>
+
+            <div class="tes-section">
+                <h2>TES-apuri sesonkiin ja tasoittumiseen</h2>
+                <p>Sesonkiviikot venyvät helposti yli normaalin. TES-apuri (beta) tukee MaRa-sopimuksen tasoittumisjärjestelmää: pitkät kesäviikot voi tasoittaa jaksojen yli, ja apuri varoittaa lepoajoista sekä jaksotunneista jo listaa tehdessä. Varoitukset kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin.</p>
+                <p>Lue lisää: <a href="/posts/tasoittumisjarjestelma_ravintola-alalla">Tasoittumisjärjestelmä ravintola-alalla</a> ja <a href="/ominaisuudet/tes-apuri">TES-apuri</a>.</p>
+                <div class="tes-section__media">
+                    <img src="/featureImages/tes/kalenteri-varoitus.png" alt="Työvuorokalenteri MaRa-TES-varoituksella" loading="lazy" width="1200" height="675" />
+                </div>
             </div>
 
             <div class="testimonial">
@@ -225,6 +235,40 @@ import Button from '../components/common/Button.astro'
         text-align: center;
         padding: var(--space-4xl) 0;
         border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     @media (max-width: 768px) {

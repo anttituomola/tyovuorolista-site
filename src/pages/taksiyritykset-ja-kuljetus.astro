@@ -5,9 +5,9 @@ import Button from '../components/common/Button.astro'
 
 <Layout
     title="Taksien ja kuljetusalan työvuorolistat vaivatta | tyovuorolista.fi"
-    description="Selkeät päivä- ja yövuorot yhdellä työkalulla. Nopeuttaa kuljettajien aikataulutusta ja varmistaa henkilökohtaiset listat. Kokeile ilmaiseksi!"
+    description="Selkeät päivä- ja yövuorot yhdellä työkalulla. Työaikalain lepoajat ja julkaisun määräajat valvottuina. TES-valikoima laajenee. Kokeile ilmaiseksi!"
     ogTitle="Taksien ja kuljetusalan työvuorolistat vaivatta"
-    ogDescription="Epäsäännölliset työajat? Drag-and-drop tekee vuorojen vaihtamisesta helppoa. Kuljettaja voi kuulua useaan tiimiin. Palkanlaskennan raportti Procountoriin."
+    ogDescription="Epäsäännölliset työajat drag-and-dropilla. Työaikalain rajat valvottuina. Kuljetusalan TES-presettiä ei vielä ole: kerro tarpeestasi."
     ogUrl="https://tyovuorolista.fi/taksiyritykset-ja-kuljetus"
     ogImage="https://tyovuorolista.fi/assets/metaImage.png"
 >
@@ -37,7 +37,8 @@ import Button from '../components/common/Button.astro'
             <div class="key-features">
                 <h2>Avainominaisuudet</h2>
                 <ul>
-                    <li>Henkilökohtaiset sähköpostilistat ja PDF-kuvat.</li>
+                                        <li>Työaikalain lepoajat ja julkaisun määräajat valvottuina. TES-valikoima laajenee: kerro tarpeestasi.</li>
+<li>Henkilökohtaiset sähköpostilistat ja PDF-kuvat.</li>
                     <li>Toteutuneiden tuntien laskenta ja varoitukset ylitöistä.</li>
                     <li>Tiimikohtainen kalenteri ja muistiinpanot esim. erityiskeikoille.</li>
                 </ul>
@@ -53,6 +54,12 @@ import Button from '../components/common/Button.astro'
                     <li><strong>Selkeys:</strong> Autot näkyvät automaattisesti työvuorolistoissa ja sähköposteissa, jolloin kuljettajat tietävät heti, mitä autoa he käyttävät.</li>
                 </ul>
                 <p style="margin-top: var(--space-lg);"><a href="/posts/resurssien_aikataulutus_ominaisuus" style="color: var(--tummanvihrea); text-decoration: underline; font-weight: 500;">Lue lisää resurssien aikataulutus -ominaisuudesta →</a></p>
+            </div>
+
+            <div class="tes-section">
+                <h2>Työaikalain rajat valvottuina</h2>
+                <p>TES-apuri (beta) valvoo työaikalain lepoaikoja ja listan julkaisun määräaikaa (työaikalaki 30 §) myös kuljetusalalla. Kuljetusalan omaa TES-presettiä voi toivoa osoitteeseen <a href="mailto:info@tyovuorolista.fi">info@tyovuorolista.fi</a>: TES-valikoima laajenee toiveiden mukaan.</p>
+                <p>Lue lisää: <a href="/ominaisuudet/tes-apuri">TES-apuri</a>.</p>
             </div>
 
             <div class="testimonial">
@@ -259,6 +266,40 @@ import Button from '../components/common/Button.astro'
         text-align: center;
         padding: var(--space-4xl) 0;
         border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     @media (max-width: 768px) {
