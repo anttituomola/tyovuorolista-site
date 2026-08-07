@@ -8,7 +8,7 @@
     "login": "Logga in",
     "register": "Registrera dig",
     "openMenu": "Öppna menyn",
-    "logoSubtitle": "Arbetsscheman för småföretag snabbt och enkelt"
+    "logoSubtitle": "Finsk skiftplanering för småföretag"
   },
   "cookieConsent": {
     "message": "Vi använder cookies för besöksstatistik och marknadsföring.",
@@ -37,10 +37,20 @@
   },
   "hero": {
     "title": "Arbetsscheman för småföretag snabbt och enkelt",
-    "tagline": "Mallar, återkommande skift och e-postpublicering — utan en tung enterprise-app.",
-    "subtitle": "Registrera dig, skapa ett arbetsschema och publicera det på mindre än fem minuter!",
+    "tagline": "Allt du behöver för skiftplanering i en app: TES-hjälpare, anställdportal, e-postpublicering och lönerapporter.",
+    "subtitle": "Första schemat klart och hos medarbetarna på under fem minuter.",
     "tryDemo": "Prova demo",
     "or": "ELLER"
+  },
+  "tesHighlight": {
+    "eyebrow": "TES-hjälpare (beta)",
+    "title": "Kollektivavtal med i planeringen",
+    "lead": "Varningar medan du planerar.",
+    "bullet1": "Varningar under planering: vilotider, skiftlängd, periodtimmar",
+    "bullet2": "Timmar klara för lönekategorier: tillägg, övertid, söndagstillägg",
+    "bullet3": "MaRa, handeln, fastighetsservice och SOSTES: fyra avtal redo",
+    "boundary": "Varningar, saldon och årsledighetsuppföljning i alla paket, även gratis Mini. Lönerapport med TES-klassificering ingår i betalda paket.",
+    "secondaryCta": "Läs mer om TES-hjälparen"
   },
   "demoVideo": {
     "title": "Att skapa arbetsscheman kan också vara enkelt",
@@ -210,6 +220,14 @@
           "Työvuorolista är så enkelt att du inte behöver utbildning för att använda det. Om du vill kan vi gå igenom dess användning tillsammans, men jag litar också på att du kan använda detta utan handhållning.",
           "Lätt anställdupplevelse: anställda får sitt personliga schema via e-post eller utskrift. Ingen obligatorisk enterprise-app för anställda — vi fokuserar på att skapa scheman, publicera och registrera timmar."
         ]
+      },
+      "tesCost": {
+        "question": "Vad kostar TES-hjälparen?",
+        "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
+      },
+      "tesSupported": {
+        "question": "Vilka kollektivavtal stöds?",
+        "answer": "MaRa, handeln (Kaupan ala), fastighetsservice (KipaTES) och SOSTES. Behöver du ett annat avtal? Berätta (önskelistan styr utvecklingen): info@tyovuorolista.fi."
       }
     }
   },
@@ -470,6 +488,7 @@
           "yearlyPrice": "0 €",
           "pricingUnit": "Per konto",
           "features": [
+            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
             "Obegränsat antal arbetsscheman",
             "Obegränsat antal team",
             "Mobilvänligt gränssnitt",
@@ -484,9 +503,10 @@
           "pricingUnit": "Per konto",
           "yearlySavings": "Spara 72 € per år med årsdebitering.",
           "features": [
+            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
             "Obegränsat antal arbetsscheman",
             "Obegränsat antal team",
-            "Lönerapporter",
+            "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
@@ -500,9 +520,10 @@
           "pricingUnit": "Per konto",
           "yearlySavings": "Spara 216 € per år med årsdebitering.",
           "features": [
+            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
             "Obegränsat antal arbetsscheman",
             "Obegränsat antal team",
-            "Lönerapporter",
+            "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
@@ -516,13 +537,21 @@
           "pricingUnit": "Per konto",
           "yearlySavings": "Spara 720 € per år med årsdebitering.",
           "features": [
+            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
             "Obegränsat antal arbetsscheman",
             "Obegränsat antal team",
-            "Lönerapporter",
+            "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
           ]
+        }
+      },
+      "faq": {
+        "title": "TES-hjälpare och prissättning",
+        "tesCost": {
+          "question": "Vad kostar TES-hjälparen?",
+          "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
         }
       }
     },
@@ -554,4 +583,3 @@
     "backToHome": "Tillbaka till startsidan"
   }
 }
-

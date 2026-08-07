@@ -44,7 +44,7 @@
 /* Hero: a bit less top padding, extra air above the next band */
 .index-page > .hero {
   padding-top: var(--space-3xl);
-  padding-bottom: var(--space-4xl);
+  padding-bottom: var(--space-3xl);
 }
 
 /* Feature block: band from index stripe; keep same vertical rhythm as other sections */
@@ -99,7 +99,7 @@ main.index-page + .footer {
 
   .index-page > .hero {
     padding-top: var(--space-2xl);
-    padding-bottom: var(--space-3xl);
+    padding-bottom: var(--space-2xl);
   }
 
   .index-page > .contact-form {

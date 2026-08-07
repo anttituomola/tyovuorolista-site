@@ -31,6 +31,8 @@ const {
   heroImage,
   heroImageAlt,
   heroLayout = 'wide',
+  heroVideo,
+  heroVideoPoster,
   betaNote,
   benefits = [],
   sections = [],
@@ -44,6 +46,8 @@ const {
   heroImage: string
   heroImageAlt: string
   heroLayout?: 'wide' | 'phone'
+  heroVideo?: string
+  heroVideoPoster?: string
   betaNote?: string
   benefits?: FeatureBenefit[]
   sections?: FeatureSection[]
@@ -103,9 +107,23 @@ const relatedIds =
                         heroLayout === 'phone' && 'tyov-featureDetail__heroMedia--phone',
                     ]}
                 >
-                    <div class="tyov-screenshotFrame">
-                        <img src={heroImage} alt={heroImageAlt} loading="eager" />
-                    </div>
+                    {heroVideo ? (
+                        <div class="tyov-screenshotFrame tyov-screenshotFrame--video">
+                            <video
+                                controls
+                                preload="metadata"
+                                poster={heroVideoPoster}
+                                width="100%"
+                            >
+                                <source src={`${heroVideo}.webm`} type="video/webm" />
+                                <source src={`${heroVideo}.mp4`} type="video/mp4" />
+                            </video>
+                        </div>
+                    ) : (
+                        <div class="tyov-screenshotFrame">
+                            <img src={heroImage} alt={heroImageAlt} loading="eager" />
+                        </div>
+                    )}
                 </div>
             </div>
         </section>

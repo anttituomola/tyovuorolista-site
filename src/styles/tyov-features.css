@@ -302,6 +302,18 @@
   height: auto;
 }
 
+.tyov-screenshotFrame--video {
+  background: #000;
+}
+
+.tyov-screenshotFrame--video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
 /* Features landing hero */
 .tyov-featuresHero {
   box-sizing: border-box;

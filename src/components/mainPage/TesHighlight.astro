@@ -1,0 +1,151 @@
+---
+import Button from '../common/Button.astro'
+import { t } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const loc = locale as 'fi' | 'en' | 'sv'
+/** Feature detail pages are Finnish-only */
+const featurePath = '/ominaisuudet/tes-apuri'
+const bullets = [
+	t('tesHighlight.bullet1', loc),
+	t('tesHighlight.bullet2', loc),
+	t('tesHighlight.bullet3', loc),
+]
+---
+
+<section class="tesHighlight">
+	<div class="tesHighlight__inner">
+		<header class="tesHighlight__header">
+			<span class="tesHighlight__eyebrow">{t('tesHighlight.eyebrow', loc)}</span>
+			<h2>{t('tesHighlight.title', loc)}</h2>
+			<p class="tesHighlight__lead">{t('tesHighlight.lead', loc)}</p>
+		</header>
+
+		<div class="tesHighlight__grid">
+			<div class="tesHighlight__video">
+				<video
+					controls
+					preload="metadata"
+					poster="/blogPostImages/tes-apuri-demo-poster.png"
+					width="100%"
+				>
+					<source src="/blogPostImages/tes-apuri-demo.webm" type="video/webm" />
+					<source src="/blogPostImages/tes-apuri-demo.mp4" type="video/mp4" />
+				</video>
+			</div>
+
+			<div class="tesHighlight__copy">
+				<ul class="tesHighlight__bullets">
+					{bullets.map((bullet) => (
+						<li>{bullet}</li>
+					))}
+				</ul>
+				<p class="tesHighlight__boundary">{t('tesHighlight.boundary', loc)}</p>
+				<div class="tesHighlight__cta">
+					<Button variant="primary" locale={locale} />
+					<a href={featurePath} class="tesHighlight__secondary">
+						{t('tesHighlight.secondaryCta', loc)}
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.tesHighlight {
+		width: 100%;
+	}
+	.tesHighlight__inner {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	.tesHighlight__header {
+		text-align: center;
+		margin-bottom: var(--space-2xl);
+	}
+	.tesHighlight__eyebrow {
+		display: inline-block;
+		font-size: var(--text-sm);
+		font-weight: 600;
+		color: var(--tummanvihrea);
+		letter-spacing: 0.02em;
+		margin-bottom: var(--space-sm);
+	}
+	.tesHighlight h2 {
+		font-size: var(--text-3xl);
+		font-weight: 500;
+		margin: 0 0 var(--space-base);
+		text-wrap: balance;
+	}
+	.tesHighlight__lead {
+		font-size: var(--text-lg);
+		line-height: 1.6;
+		color: var(--harmaa);
+		max-width: 640px;
+		margin: 0 auto;
+	}
+	.tesHighlight__grid {
+		display: grid;
+		grid-template-columns: 1.2fr 1fr;
+		gap: var(--space-2xl);
+		align-items: center;
+	}
+	.tesHighlight__video {
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+		border-radius: 8px;
+		overflow: hidden;
+		background: #000;
+	}
+	.tesHighlight__video video {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 9;
+	}
+	.tesHighlight__bullets {
+		margin: 0 0 var(--space-lg);
+		padding-left: var(--space-xl);
+	}
+	.tesHighlight__bullets li {
+		font-size: var(--text-base);
+		line-height: 1.6;
+		margin: var(--space-sm) 0;
+		color: var(--tummanvihrea);
+	}
+	.tesHighlight__boundary {
+		font-size: var(--text-sm);
+		line-height: 1.55;
+		color: var(--harmaa);
+		margin: 0 0 var(--space-base);
+	}
+	.tesHighlight__cta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: var(--space-base);
+		margin-top: var(--space-lg);
+	}
+	.tesHighlight__secondary {
+		font-size: var(--text-base);
+		font-weight: 500;
+		color: var(--tummanvihrea);
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.tesHighlight__secondary:hover {
+		opacity: 0.85;
+	}
+	@media (max-width: 900px) {
+		.tesHighlight__grid {
+			grid-template-columns: 1fr;
+			gap: var(--space-xl);
+		}
+		.tesHighlight h2 {
+			font-size: var(--text-2xl);
+		}
+		.tesHighlight__lead {
+			font-size: var(--text-base);
+		}
+	}
+</style>

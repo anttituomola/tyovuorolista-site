@@ -8,7 +8,7 @@
     "login": "Log in",
     "register": "Sign up",
     "openMenu": "Open menu",
-    "logoSubtitle": "Shift schedule for small businesses quickly and easily"
+    "logoSubtitle": "Finnish shift planning for small businesses"
   },
   "cookieConsent": {
     "message": "We use cookies to measure traffic and for marketing.",
@@ -37,10 +37,20 @@
   },
   "hero": {
     "title": "Shift schedule for small businesses quickly and easily",
-    "tagline": "Templates, recurring shifts and email publishing — without a bloated enterprise app.",
-    "subtitle": "Sign up, create a shift schedule and publish it in under five minutes!",
+    "tagline": "Everything you need for shift planning in one app: TES helper, employee portal, email publishing and payroll reports.",
+    "subtitle": "First schedule ready and with your team in under five minutes.",
     "tryDemo": "Try demo",
     "or": "OR"
+  },
+  "tesHighlight": {
+    "eyebrow": "TES helper (beta)",
+    "title": "Finnish collective agreements built in",
+    "lead": "Warnings while you plan.",
+    "bullet1": "Warnings while planning: rest periods, shift length, period hours",
+    "bullet2": "Hours ready for payroll categories: premiums, overtime, Sunday pay",
+    "bullet3": "MaRa, retail, property services and SOSTES: four agreements ready",
+    "boundary": "Warnings, balance views and annual leave tracking in every plan, including free Mini. Payroll report with TES classification is in paid plans.",
+    "secondaryCta": "Learn about TES helper"
   },
   "demoVideo": {
     "title": "Creating shift schedules can be easy too",
@@ -210,6 +220,14 @@
           "Työvuorolista is so simple that you don't need training to use it. If you want, we can go through its use together, but I also trust that you can use this without hand-holding.",
           "Lightweight employee experience: employees receive their personal schedule by email or print. No mandatory enterprise app for employees — we focus on creating schedules, publishing and recording hours."
         ]
+      },
+      "tesCost": {
+        "question": "What does TES helper cost?",
+        "answer": "TES helper (beta) is included in every plan, including free Mini. Warnings, balance views and annual leave tracking are free. Payroll report with TES classification is in paid plans."
+      },
+      "tesSupported": {
+        "question": "Which collective agreements are supported?",
+        "answer": "MaRa, retail (Kaupan ala), property services (KipaTES) and SOSTES. Need another agreement? Tell us (wishlist drives development): info@tyovuorolista.fi."
       }
     }
   },
@@ -470,6 +488,7 @@
           "yearlyPrice": "€0",
           "pricingUnit": "Per account",
           "features": [
+            "TES helper (beta): warnings, balances and annual leave tracking",
             "Unlimited shift schedules",
             "Unlimited teams",
             "Mobile-friendly interface",
@@ -484,9 +503,10 @@
           "pricingUnit": "Per account",
           "yearlySavings": "Save €72 per year with yearly billing.",
           "features": [
+            "TES helper (beta): warnings, balances and annual leave tracking",
             "Unlimited shift schedules",
             "Unlimited teams",
-            "Payroll reports",
+            "Payroll report with TES classification",
             "Email notifications for workers",
             "Mobile-friendly interface",
             "Customer support"
@@ -500,9 +520,10 @@
           "pricingUnit": "Per account",
           "yearlySavings": "Save €216 per year with yearly billing.",
           "features": [
+            "TES helper (beta): warnings, balances and annual leave tracking",
             "Unlimited shift schedules",
             "Unlimited teams",
-            "Payroll reports",
+            "Payroll report with TES classification",
             "Email notifications for workers",
             "Mobile-friendly interface",
             "Customer support"
@@ -516,13 +537,21 @@
           "pricingUnit": "Per account",
           "yearlySavings": "Save €720 per year with yearly billing.",
           "features": [
+            "TES helper (beta): warnings, balances and annual leave tracking",
             "Unlimited shift schedules",
             "Unlimited teams",
-            "Payroll reports",
+            "Payroll report with TES classification",
             "Email notifications for workers",
             "Mobile-friendly interface",
             "Customer support"
           ]
+        }
+      },
+      "faq": {
+        "title": "TES helper and pricing",
+        "tesCost": {
+          "question": "What does TES helper cost?",
+          "answer": "TES helper (beta) is included in every plan, including free Mini. Warnings, balances and annual leave tracking at no extra cost. Payroll report with TES classification is in paid plans."
         }
       }
     },
@@ -554,4 +583,3 @@
     "backToHome": "Back to home page"
   }
 }
-

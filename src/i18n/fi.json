@@ -8,7 +8,7 @@
     "login": "Kirjaudu",
     "register": "Rekisteröidy",
     "openMenu": "Avaa valikko",
-    "logoSubtitle": "PK-yrityksen työvuorolista nopeasti ja helposti"
+    "logoSubtitle": "Suomalainen työvuorosuunnittelu pk-yrityksille"
   },
   "cookieConsent": {
     "message": "Käytämme evästeitä kävijämäärien mittaamiseen ja markkinointiin.",
@@ -36,11 +36,21 @@
     }
   },
   "hero": {
-    "title": "PK-yrityksen työvuorolista nopeasti ja helposti",
-    "tagline": "Mallipohjat, toistuvat vuorot ja sähköpostijulkaisu — ilman raskasta enterprise-sovellusta.",
-    "subtitle": "Rekisteröidy, tee työvuorolista ja julkaise se alta viiden minuutin!",
+    "title": "Pk-yrityksen työvuorolista nopeasti ja helposti",
+    "tagline": "Kaikki vuorosuunnitteluun tarvittava yhdessä sovelluksessa: TES-apuri, työntekijäportaali, sähköpostijulkaisu ja palkkaraportit.",
+    "subtitle": "Ensimmäinen lista valmiina ja työntekijöillä alle viidessä minuutissa.",
     "tryDemo": "Kokeile demoa",
     "or": "TAI"
+  },
+  "tesHighlight": {
+    "eyebrow": "TES-apuri (beta)",
+    "title": "Työehtosopimus mukana suunnittelussa",
+    "lead": "Sovellus varoittaa TES- ja työaikarikkomuksista jo listaa tehdessä.",
+    "bullet1": "Varoitukset suunnitellessa: lepoajat, vuoron pituudet, jakson tunnit",
+    "bullet2": "Tunnit valmiiksi palkkakategorioihin: lisät, ylityöt, sunnuntailisät",
+    "bullet3": "MaRa, Kaupan ala, KipaTES ja SOSTES: neljä sopimusta valmiina",
+    "boundary": "Varoitukset, saldonäkymät ja vuosivapaaseuranta kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin. Palkkaraportti TES-luokitteluineen on maksullisissa paketteissa.",
+    "secondaryCta": "Tutustu TES-apuriin"
   },
   "demoVideo": {
     "title": "Työvuorolistan teko voi olla myös helppoa",
@@ -210,6 +220,14 @@
           "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
           "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille — keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
         ]
+      },
+      "tesCost": {
+        "question": "Mitä TES-apuri maksaa?",
+        "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ovat käytössä ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
+      },
+      "tesSupported": {
+        "question": "Mitkä työehtosopimukset ovat tuettuina?",
+        "answer": "Valmiina ovat MaRa, Kaupan alan TES, Kiinteistöpalvelualan TES (KipaTES) ja SOSTES. Jos tarvitset muuta sopimusta, kerro siitä (toivelista ohjaa kehitystä): info@tyovuorolista.fi."
       }
     }
   },
@@ -436,7 +454,7 @@
       "title": "Ominaisuudet",
       "eyebrow": "Ominaisuudet",
       "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
-      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Ei raskasta enterprise-järjestelmää — vaan työkalut, joita PK-yritys käyttää joka viikko.",
+      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Ei raskasta enterprise-järjestelmää — vaan työkalut, joita pk-yritys käyttää joka viikko.",
       "heroImageAlt": "Työvuorolistan kalenterinäkymä, jossa viikon työvuorot väreittäin työntekijöille",
       "cta": "Kokeile ilmaiseksi",
       "ctaSecondary": "Katso hinnoittelu",
@@ -475,6 +493,7 @@
           "yearlyPrice": "0 €",
           "pricingUnit": "Per tili",
           "features": [
+            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
             "Rajaton määrä työvuorolistoja",
             "Rajaton määrä tiimejä",
             "Mobiiliystävällinen käyttöliittymä",
@@ -489,9 +508,10 @@
           "pricingUnit": "Per tili",
           "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
           "features": [
+            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
             "Rajaton määrä työvuorolistoja",
             "Rajaton määrä tiimejä",
-            "Raportit palkanlaskentaan",
+            "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
@@ -505,9 +525,10 @@
           "pricingUnit": "Per tili",
           "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
           "features": [
+            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
             "Rajaton määrä työvuorolistoja",
             "Rajaton määrä tiimejä",
-            "Raportit palkanlaskentaan",
+            "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
@@ -521,13 +542,21 @@
           "pricingUnit": "Per tili",
           "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
           "features": [
+            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
             "Rajaton määrä työvuorolistoja",
             "Rajaton määrä tiimejä",
-            "Raportit palkanlaskentaan",
+            "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
           ]
+        }
+      },
+      "faq": {
+        "title": "TES-apuri ja hinnoittelu",
+        "tesCost": {
+          "question": "Mitä TES-apuri maksaa?",
+          "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
         }
       }
     },
@@ -559,4 +588,3 @@
     "backToHome": "Palaa etusivulle"
   }
 }
-

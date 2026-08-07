@@ -80,6 +80,14 @@ const tiers = [
     </div>
 
     <p class="billingHint">{pricing?.billingHint}</p>
+
+    {pricing?.faq?.tesCost && (
+        <section class="pricingFaq">
+            <h2>{pricing.faq.title}</h2>
+            <h3>{pricing.faq.tesCost.question}</h3>
+            <p>{pricing.faq.tesCost.answer}</p>
+        </section>
+    )}
 </div>
 
 <script is:inline>
@@ -363,6 +371,33 @@ const tiers = [
         text-align: center;
         font-size: var(--text-sm);
         color: var(--harmaa);
+    }
+
+    .pricingFaq {
+        max-width: 760px;
+        margin: var(--space-3xl) auto 0;
+        text-align: left;
+    }
+
+    .pricingFaq h2 {
+        font-size: var(--text-2xl);
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: var(--space-xl);
+    }
+
+    .pricingFaq h3 {
+        font-size: var(--text-lg);
+        font-weight: 600;
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-base);
+    }
+
+    .pricingFaq p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
     }
 
     @media (max-width: 1100px) {
