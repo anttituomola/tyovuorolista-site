@@ -27,7 +27,7 @@ Sarjan muut osat:
 [lisä- ja ylityö](/posts/jaksotyon_lisa_ja_ylityo_sostes) ·
 [lisät](/posts/sunnuntai_ja_iltalisat_sostes).
 
-## Kuusi vapaapäivää kolmessa viikossa — kaksi peräkkäin
+## Kuusi vapaapäivää kolmessa viikossa: kaksi peräkkäin
 
 Työviikko järjestetään keskimäärin enintään viisipäiväiseksi (TES
 6 § 12). Soveltamisohje muuntaa sen konkretiaksi: **kolmen viikon
@@ -36,7 +36,7 @@ työvuorolistalla tulee olla vähintään kuusi vapaapäivää** sekä
 ellei arkipyhävapaiden ajankohdasta ole sovittu erikseen.
 
 Vuorot suunnitellaan lisäksi niin, että työntekijä saa **vähintään kaksi
-peräkkäistä vapaapäivää kolmen viikon aikana** — ja tarpeettomia yhden
+peräkkäistä vapaapäivää kolmen viikon aikana**, ja tarpeettomia yhden
 päivän vapaita vältetään muutenkin. Yksittäiset ripotellut vapaapäivät
 täyttävät kirjaimen kuudesta vapaasta, mutta eivät peräkkäisyysvaatimusta.
 
@@ -46,7 +46,7 @@ Työntekijälle on järjestettävä **vähintään kaksi lauantain ja sunnuntain
 kestävää viikonloppuvapaata kuuden viikon ajanjaksolla**, ellei työn
 käynnissä pitäminen välttämättä muuta edellytä tai työntekijän kanssa
 toisin sovita (TES 6 § 12). Ympärivuorokautisessa hoivassa tämä on
-tyypillisesti se sääntö, joka listantekijältä unohtuu — viikonloput
+tyypillisesti se sääntö, joka listantekijältä unohtuu. Viikonloput
 täyttyvät huomaamatta, kun vapaat sijoitetaan arkipäiville.
 
 ## Viikkolepo: 35 tuntia kalenteriviikossa
@@ -54,16 +54,16 @@ täyttyvät huomaamatta, kun vapaat sijoitetaan arkipäiville.
 Työntekijälle annetaan **vähintään 35 tunnin keskeytymätön viikkolepo
 kunakin kalenteriviikkona** (TES 6 § 13, sama pääsääntö kuin työaikalain
 27 §:ssä). Tilapäisesti työnantaja ja työntekijä voivat sopia, että lepo
-tasoittuu keskimäärin 35 tuntiin **kahden viikon aikana** — mutta
+tasoittuu keskimäärin 35 tuntiin **kahden viikon aikana**, mutta
 silloinkin joka viikolla on oltava **vähintään 30 tunnin** yhtenäinen
 lepo.
 
 Käytännössä: jos työntekijä työskentelee maanantaista lauantaihin klo
 8–16, pisin yhtenäinen vapaa (lauantai-iltapäivästä maanantaiaamuun) jää
-32 tuntiin — se alittaa 35 tunnin pääsäännön ja edellyttää sopimista.
+32 tuntiin, se alittaa 35 tunnin pääsäännön ja edellyttää sopimista.
 
 Jos viikkolepo jää työn vuoksi pitämättä, saamatta jäänyt lepo on
-korvattava lyhentämällä työaikaa kolmen kuukauden kuluessa — tai
+korvattava lyhentämällä työaikaa kolmen kuukauden kuluessa, tai
 työntekijän suostumuksella rahalla (TES 6 § 13).
 
 ## Vuorokausilepo ja yövuoroputket
@@ -84,14 +84,14 @@ kutakin kertaa varten antamalla suostumuksella (TES 6 § 9).
 
 Kaikki tämän postauksen säännöt ovat sovelluksessa automaattisina
 tarkistuksina: kalenteri merkitsee ongelmavuorot ja huomautuspaneeli
-kertoo, mistä säännöstä varoitus tulee — lakitason rikkomukset
+kertoo, mistä säännöstä varoitus tulee. Lakitason rikkomukset
 punaisella, TES-tason oranssilla.
 
 <img src="/blogPostImages/sostes-tes/sostes-varoitukset-kalenterissa.png" alt="Kalenteri: punainen lakitason varoitus lepoajasta ja TES-varoituksia jaksotyön säännöistä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 <img src="/blogPostImages/sostes-tes/sostes-huomautukset-paneeli.png" alt="TES-huomautukset-paneeli: jakson tuntiylitys ja viikkolepovaroitus selityksineen" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Varoitukset eivät estä tallentamista — moni sääntö joustaa sopimalla, ja
+Varoitukset eivät estä tallentamista. Moni sääntö joustaa sopimalla, ja
 päätös jää aina esihenkilölle. Sovellus vahtii myös ne rajat, joista ei
 voi sopia: työaikalain ehdottomat vähimmäislevot.
 

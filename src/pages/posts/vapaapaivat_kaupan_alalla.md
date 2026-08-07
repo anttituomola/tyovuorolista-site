@@ -28,7 +28,7 @@ Työvuoroluetteloa laadittaessa vapaiden välissä voi olla enintään
 **8 työvuoroa** (8 § 26). Työpaikkakohtaisesti sopien raja on 10 ja
 työntekijän kanssa kertaluonteisesti sopien 11 vuoroa.
 
-Huomaa että raja lasketaan **vuoroissa, ei päivissä** — jos samana
+Huomaa että raja lasketaan **vuoroissa, ei päivissä**, jos samana
 päivänä on kaksi erillistä vuoroa, ne kuluttavat kiintiötä kaksi.
 (Vertaa [ravintola-alan seitsemän työpäivän
 sääntöön](/posts/kolmiviikkoisjakso_ravintola-alalla).)
@@ -44,7 +44,7 @@ Tämä on tyypillinen "huomataan marraskuussa" -sääntö: yksittäinen
 lista näyttää aina hyvältä, mutta vuoden mittaan sunnuntaityö kasautuu
 samoille tekijöille. Sovellus seuraa toteutuneita työsunnuntaita koko
 kalenterivuodelta ja varoittaa siinä vaiheessa, kun 22 vapaan
-sunnuntain tavoite ei enää voi toteutua — silloin loppuvuoden
+sunnuntain tavoite ei enää voi toteutua, silloin loppuvuoden
 sunnuntait on oikeasti suunniteltava vapaiksi.
 
 ## Pitkät viikonloppuvapaat ja 59 tunnin vapaajaksot
@@ -52,7 +52,7 @@ sunnuntait on oikeasti suunniteltava vapaiksi.
 Kalenterivuoden aikana työntekijälle annetaan vähintään **7 pitkää
 viikonloppuvapaata** ja **8 muuta vapaapäiväyhdistelmää** (8 § 27).
 Pitkä viikonloppuvapaa alkaa viimeistään perjantaina klo 22 ja päättyy
-aikaisintaan maanantaina klo 06 — ja kummankin vapaan tyypin on oltava
+aikaisintaan maanantaina klo 06, ja kummankin vapaan tyypin on oltava
 **yhtäjaksoisesti vähintään 59 tuntia**. TES suosittaa sijoittamaan ne
 tasaisesti pitkin vuotta: 15 yhdistelmää tarkoittaa käytännössä yhtä
 noin kolmen ja puolen viikon välein.
@@ -82,19 +82,18 @@ annettava **2 vapaata** (9 §).
 ## Miten sovellus valvoo näitä?
 
 Nämä säännöt ovat luonteeltaan sellaisia, ettei niitä näe yhdestä
-listasta — ne vaativat viikkojen tai koko vuoden tarkastelua.
+listasta, ne vaativat viikkojen tai koko vuoden tarkastelua.
 TES-tuki tekee sen automaattisesti ja merkitsee ongelmat suoraan
 kalenteriin:
 
 <img src="/blogPostImages/kaupan-tes/kaupan-varoitukset-kalenterissa.png" alt="Kalenteri: varoituslaskuri ja punainen varoitusmerkki työvuorolla" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Varoituspaneeli kertoo jokaisesta huomiosta säännön ja päivämäärät —
-esimerkiksi "9 työvuoroa ilman vapaapäivää" tai "vapaita sunnuntaita
+Varoituspaneeli kertoo jokaisesta huomiosta säännön ja päivämäärät, esimerkiksi "9 työvuoroa ilman vapaapäivää" tai "vapaita sunnuntaita
 voi jäädä enää 1, kun TES edellyttää vähintään 12":
 
 <img src="/blogPostImages/kaupan-tes/kaupan-huomautukset-paneeli.png" alt="TES-huomautukset-paneeli: julkaisun määräaika, vuorokausilepo, viikkotunnit, 9 työvuoroa ilman vapaapäivää ja työsunnuntait" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Mikään varoitus ei estä tallentamista — 8 §:n säännöistä moni joustaa
+Mikään varoitus ei estä tallentamista. 8 §:n säännöistä moni joustaa
 paikallisella sopimisella, ja sovelluksen tehtävä on varmistaa, että
 poikkeama on tietoinen valinta eikä vahinko.
 

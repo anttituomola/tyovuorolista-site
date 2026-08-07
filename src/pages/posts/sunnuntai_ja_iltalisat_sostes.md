@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntai-, lauantai-, ilta- ja yölisät sosiaalipalvelualalla'
 pubDate: 2026-08-07
-description: 'SOSTES:n työaikalisät prosentteina: sunnuntaityö +100 % (myös aattoina ja pääsiäislauantaina), lauantai 25 %, ilta 15 % ja jaksotyön yölisä 40 % — ja miksi lauantai-ilta klo 20 jälkeen maksaa tuplasti.'
+description: 'SOSTES:n työaikalisät prosentteina: sunnuntaityö +100 % (myös aattoina ja pääsiäislauantaina), lauantai 25 %, ilta 15 % ja jaksotyön yölisä 40 %, ja miksi lauantai-ilta klo 20 jälkeen maksaa tuplasti.'
 reviewedDate: 2026-07-30
 infoBasis: 'Perustuu yksityisen sosiaalipalvelualan työehtosopimukseen (HALI ry – Sote ry, JHL, Talentia ja Salli ry, 1.1.2026–30.4.2028, yleissitova) 11–14 §:iin ja palkkasopimuksen G-taulukoihin 1.8.2025. Yölisän prosentti koskee jaksotyötä; muissa työaikamuodoissa se on 30 %.'
 ctaText: 'Vie työaikalisät suoraan palkanlaskentaan'
@@ -19,7 +19,7 @@ perustuntipalkasta** ja ne **maksetaan päällekkäin**: sunnuntaityö
 **+100 %**, lauantaityö **25 %** (klo 06–20), iltatyö **15 %**
 (klo 18–21) ja yötyö jaksotyössä **40 %** (klo 21–06). Sunnuntaikorotus
 maksetaan sunnuntaiden lisäksi kirkollisina juhlapyhinä, **pääsiäislauantaina
-sekä juhannus- ja jouluaattona** — ja jokaisen tällaisen päivän aattona
+sekä juhannus- ja jouluaattona**, ja jokaisen tällaisen päivän aattona
 **klo 20–24**. Käytännössä siis myös tavallinen lauantai-ilta kello 20
 jälkeen maksaa tuplasti.
 
@@ -42,7 +42,7 @@ taulukko 1.8.2025, ilman palveluslisiä): 2 415,76 € ÷ 163 = **14,82 €**.
 | Lauantaityö | la 06–20 | 25 % | 3,71 € |
 | Sunnuntaityö | ks. päivälista alla | 100 % | 14,82 € |
 
-Palkkoja korotetaan 1.9.2026 (yleiskorotus 2,7 %) — tarkista
+Palkkoja korotetaan 1.9.2026 (yleiskorotus 2,7 %). Tarkista
 ajantasainen taulukko ennen palkanlaskentaa.
 
 ## Lisät maksetaan päällekkäin
@@ -63,23 +63,23 @@ uudenvuodenpäivänä, loppiaisena, pitkäperjantaina,
 
 Huomaa ero esimerkiksi ravintola-alaan: SOSTES:ssa **juhannus- ja
 jouluaatto sekä pääsiäislauantai ovat kokonaisia
-sunnuntaityöpäiviä** — koko vuoro maksaa tuplasti, ei vain iltaosuus.
+sunnuntaityöpäiviä**, koko vuoro maksaa tuplasti, ei vain iltaosuus.
 Lauantailisää ei näiltä tunneilta makseta (TES 13 §: ei
 sunnuntaityökorotukseen oikeutetulta ajalta).
 
 ## Aattosääntö: edeltävä ilta klo 20–24
 
 Sunnuntaityökorotus maksetaan myös **kaikkia edellä lueteltuja päiviä
-edeltävänä päivänä klo 20.00–24.00** tehdystä työstä — poikkeuksena vain
+edeltävänä päivänä klo 20.00–24.00** tehdystä työstä. Poikkeuksena vain
 juhannus- ja jouluaattoa edeltävät päivät (TES 12 §).
 
 Käytännön seuraukset yllättävät monen palkanlaskijan:
 
-- **Jokainen tavallinen lauantai-ilta klo 20–24 on +100 %** — lauantai
+- **Jokainen tavallinen lauantai-ilta klo 20–24 on +100 %**: lauantai
   edeltää aina sunnuntaita. Klo 06–20 lauantailisä on 25 %, mutta kello
   20 jälkeen siirrytään sunnuntaikorotukseen.
 - Sama koskee esimerkiksi vapunaattoa ja itsenäisyyspäivän aattoa
-  klo 20–24 — ja kiirastorstaita, joka edeltää pitkäperjantaita.
+  klo 20–24, ja kiirastorstaita, joka edeltää pitkäperjantaita.
 - 23.12. illalla korotusta **ei** makseta (jouluaaton aaton poikkeus),
   vaikka jouluaatto itsessään on täysi sunnuntaityöpäivä.
 
@@ -94,7 +94,7 @@ Esimerkki lauantaivuorosta klo 14–22 (G20C, muu Suomi):
 
 Minuutin tarkkuudella. Sovellus tunnistaa sunnuntaityöpäivät (myös
 pääsiäislauantain ja aatot), jakaa vuoron tunnit oikeisiin ikkunoihin ja
-pinoaa lisät päällekkäin TES:n mukaisesti — myös keskiyön yli menevissä
+pinoaa lisät päällekkäin TES:n mukaisesti, myös keskiyön yli menevissä
 vuoroissa. Palkkaraportissa jokainen kategoria on omalla rivillään ja
 vietävissä omalla palkkalajikoodillaan
 [Procountoriin tai yleisenä CSV:nä](/posts/procountor_palkka_vienti).

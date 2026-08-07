@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Iltalisä, yölisä ja aattolisä ravintola-alalla — pikaopas'
+title: 'Iltalisä, yölisä ja aattolisä ravintola-alalla: pikaopas'
 pubDate: 2026-07-22
-description: 'MaRa-TES:n iltalisä on 1,40 €/h klo 18–24 ja yölisä 2,37 €/h klo 24–06 — joka päivä, myös lauantaina. Aattoina klo 15 jälkeen palkka ja iltalisä maksetaan 50 % korotettuna, sunnuntaisin ja pyhinä lisät tuplaantuvat.'
+description: 'MaRa-TES:n iltalisä on 1,40 €/h klo 18–24 ja yölisä 2,37 €/h klo 24–06. Joka päivä, myös lauantaina. Aattoina klo 15 jälkeen palkka ja iltalisä maksetaan 50 % korotettuna, sunnuntaisin ja pyhinä lisät tuplaantuvat.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimukseen (matkailu-, ravintola- ja vapaa-ajan palveluita koskeva työntekijöiden työehtosopimus); lisien euromäärät 1.9.2025 alkaen. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Laske ilta-, yö- ja aattolisät automaattisesti'
@@ -15,7 +15,7 @@ tags: ['TES', 'MaRa', 'iltalisä', 'yölisä', 'aattolisä', 'palkanlaskenta', '
 ---
 
 **Lyhyesti:** MaRa-TES:ssä maksetaan **iltalisää 1,40 €/h klo 18–24** ja
-**yölisää 2,37 €/h klo 24–06** tehdystä työstä — viikonpäivästä
+**yölisää 2,37 €/h klo 24–06** tehdystä työstä. Viikonpäivästä
 riippumatta. Viitenä aattopäivänä **klo 15 jälkeen** peruspalkka ja
 iltalisä maksetaan **50 % korotettuna**, ja sunnuntaisin ja pyhäpäivinä
 sekä palkka että lisät **kaksinkertaisina**. Erillistä lauantailisää
@@ -32,17 +32,17 @@ aikaikkunaan osuvalta työtunnilta:
 | Yölisä | klo 24–06 | 2,37 €/h |
 
 Kesäkuun 2026 palkankorotus nosti taulukko- ja henkilökohtaisia
-palkkoja, mutta **ei muuttanut lisien euromääriä** — ne pysyvät
+palkkoja, mutta **ei muuttanut lisien euromääriä**, ne pysyvät
 1.9.2025 tasolla aina 1.7.2027 asti, jolloin iltalisä nousee
 1,43 euroon ja yölisä 2,43 euroon tunnilta.
 
 Lisät kuuluvat myös kuukausipalkkaiselle: tuntipalkka saadaan
 jakamalla kuukausipalkka luvulla 159. Työntekijöiden TES ei tunne
 mahdollisuutta "leipoa" ilta- ja yölisiä kiinteänä osana
-kuukausipalkkaan — se järjestely löytyy vain esihenkilöiden
+kuukausipalkkaan, se järjestely löytyy vain esihenkilöiden
 sopimuksesta.
 
-## Aattolisä — viisi päivää vuodessa
+## Aattolisä: viisi päivää vuodessa
 
 Aattolisä koskee täsmälleen viittä päivää: **uudenvuodenaatto,
 pääsiäislauantai, vapunaatto, juhannusaatto ja jouluaatto**. Näinä
@@ -51,12 +51,11 @@ iltalisä **50 % korotettuna**.
 
 Kaksi kompastuskiveä, jotka menevät palkanlaskennassa helposti väärin:
 
-- **Aatto ei ole pyhä.** Aattona iltalisä maksetaan 1,5-kertaisena —
-  ei tuplana. Vasta keskiyöllä alkaa varsinainen pyhäpäivä, jolloin
+- **Aatto ei ole pyhä.** Aattona iltalisä maksetaan 1,5-kertaisena, ei tuplana. Vasta keskiyöllä alkaa varsinainen pyhäpäivä, jolloin
   siirrytään [sunnuntaisääntöön](/posts/sunnuntailisa_ravintola-alalla)
   eli 100 % korotukseen.
 - **Jos aatto osuu pyhäpäivälle** (esimerkiksi vapunaatto sunnuntaille),
-  aattolisää ei makseta — silloin koko päivä menee pyhäsäännöllä eli
+  aattolisää ei makseta, silloin koko päivä menee pyhäsäännöllä eli
   kaikki 100 % korotettuna.
 
 ## Sunnuntai tuplaa myös lisät
@@ -70,7 +69,7 @@ Sunnuntai-iltana klo 18 jälkeen työntekijä saa siis tuplapalkan päälle
 ## Entä lauantai?
 
 MaRa-TES:ssä **ei ole lauantailisää**. Lauantaista maksetaan normaali
-palkka, ja illalla ja yöllä tavalliset ilta- ja yölisät — samat kuin
+palkka, ja illalla ja yöllä tavalliset ilta- ja yölisät, samat kuin
 tiistainakin. Ainoa erikoislauantai on pääsiäislauantai, joka on yksi
 viidestä aattopäivästä.
 
@@ -80,7 +79,7 @@ viidestä aattopäivästä.
 seuraa tätäkin säädöstä puolestasi: iltalisä- ja yölisätunnit,
 aattotunnit sekä sunnuntain kahdennetut lisät lasketaan toteutuneista
 vuoroista ja eritellään omiksi riveikseen
-[palkkaraporttiin](/posts/palkkaraportti_ominaisuus) — esimerkiksi
+[palkkaraporttiin](/posts/palkkaraportti_ominaisuus), esimerkiksi
 "Iltavuorolisä", "Iltalisä su/pyhä (2×)" ja "Juhannusaattolisä".
 Sinun ei tarvitse muistaa, kumpi sääntö koskee juhannusaattoa ja kumpi
 juhannuspäivää.

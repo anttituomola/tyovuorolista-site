@@ -220,7 +220,7 @@
           "Hinnat ovat julkisesti näkyvillä: me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.",
           "Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa. Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.",
           "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
-          "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille — keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
+          "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille. Keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
         ]
       },
       "tesCost": {
@@ -235,7 +235,7 @@
   },
   "contactForm": {
     "title": "Haluan kysyä lisää!",
-    "description": "Soita tai lähetä WhatsApp-viesti — vastaan nopeasti.",
+    "description": "Soita tai lähetä WhatsApp-viesti, vastaan nopeasti.",
     "emailPlaceholder": "Sähköpostiosoitteesi",
     "phonePlaceholder": "Puhelinnumerosi",
     "or": "tai",
@@ -261,7 +261,7 @@
       "Toteutuneiden tuntien kirjaus",
       "Listojen julkaisu ja sähköpostitus"
     ],
-    "employeeNote": "Työntekijät eivät tarvitse erillistä sovellusta — he saavat oman listansa sähköpostilla.",
+    "employeeNote": "Työntekijät eivät tarvitse erillistä sovellusta. He saavat oman listansa sähköpostilla.",
     "moreInfo": "Käyttöliittymä mukautuu kosketusnäytöille, ja navigointi toimii hampurilaisvalikon kautta.",
     "readMore": "Lue lisää mobiilista"
   },
@@ -300,7 +300,7 @@
   },
   "contactCta": {
     "title": "Haluatko kysyä lisää?",
-    "description": "Olemme sinuun yhteydessä nopeasti — jätä viesti yhteystiedot-sivulla.",
+    "description": "Olemme sinuun yhteydessä nopeasti. Jätä viesti yhteystiedot-sivulla.",
     "button": "Siirry yhteystietoihin"
   },
   "features": {
@@ -315,7 +315,7 @@
       "teams": "Tiimit"
     },
     "categoryDescriptions": {
-      "planning": "Työvuorolista syntyy raahaamalla — ja toistuvat vuorot, mallipohjat ja monivalinta hoitavat rutiinit puolestasi.",
+      "planning": "Työvuorolista syntyy raahaamalla, ja toistuvat vuorot, mallipohjat ja monivalinta hoitavat rutiinit puolestasi.",
       "publishing": "Kun lista on valmis, jokainen työntekijä saa oman listansa sähköpostiin yhdellä napin painalluksella.",
       "workers": "Työntekijä näkee vuoronsa, ilmoittaa tuntinsa ja nappaa avoimia vuoroja omasta portaalistaan.",
       "reporting": "Toteutuneet tunnit kirjataan sovellukseen ja siirtyvät valmiina raporttina palkanlaskentaan.",
@@ -332,7 +332,7 @@
       },
       "avoimet-vuorot": {
         "title": "Avoimet vuorot",
-        "shortDescription": "Julkaise vuoro ilman tekijää — työntekijät ilmoittautuvat ja sinä valitset."
+        "shortDescription": "Julkaise vuoro ilman tekijää. Työntekijät ilmoittautuvat ja sinä valitset."
       },
       "recurring-shifts": {
         "title": "Toistuvat työvuorot",
@@ -456,12 +456,12 @@
       "title": "Ominaisuudet",
       "eyebrow": "Ominaisuudet",
       "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
-      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Ei raskasta enterprise-järjestelmää — vaan työkalut, joita pk-yritys käyttää joka viikko.",
+      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Työkalut, joita pk-yritys käyttää joka viikko.",
       "heroImageAlt": "Työvuorolistan kalenterinäkymä, jossa viikon työvuorot väreittäin työntekijöille",
       "cta": "Kokeile ilmaiseksi",
       "ctaSecondary": "Katso hinnoittelu",
       "ctaNote": "Ilmainen kolmella työntekijällä. Ei luottokorttia.",
-      "detailCtaTitle": "Kokeile itse — lista valmiina vartissa",
+      "detailCtaTitle": "Kokeile itse: lista valmiina vartissa",
       "detailCtaText": "Rekisteröityminen vie minuutin, eikä alle neljän työntekijän käyttö maksa mitään.",
       "readGuide": "Lue käyttöohje blogista",
       "relatedTitle": "Katso myös nämä ominaisuudet",

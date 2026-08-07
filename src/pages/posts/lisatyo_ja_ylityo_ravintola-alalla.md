@@ -18,7 +18,7 @@ tags: ['TES', 'MaRa', 'lisätyö', 'ylityö', 'palkanlaskenta', 'ravintola-ala']
 [kolmiviikkoisjakson](/posts/kolmiviikkoisjakso_ravintola-alalla) tunnit
 jakautuvat MaRa-TES:ssä kolmeen koriin: **112,5 tuntiin asti** normaalia
 työaikaa, **112,5–120 tuntia lisätyötä yksinkertaisella tuntipalkalla**,
-ja vasta **120 tunnin jälkeen ylityötä** — ensimmäiset 18 tuntia +50 %
+ja vasta **120 tunnin jälkeen ylityötä**. Ensimmäiset 18 tuntia +50 %
 ja sen jälkeiset +100 % korotettuna.
 
 ## Yleinen väärinkäsitys
@@ -26,7 +26,7 @@ ja sen jälkeiset +100 % korotettuna.
 Moni olettaa (ja osa verkkolähteistäkin väittää), että korotettu palkka
 alkaa heti, kun 112,5 tuntia ylittyy. Ei ala: tunnit 112,5:stä 120:een
 ovat **lisätyötä**, josta maksetaan normaali tuntipalkka ilman korotusta.
-Työntekijälle ero on iso — 7,5 tuntia jaksossa — ja palkanlaskennassa se
+Työntekijälle ero on iso (7,5 tuntia jaksossa), ja palkanlaskennassa se
 menee helposti väärin kumpaankin suuntaan.
 
 Esimerkki: työntekijä tekee jaksossa 128 tuntia.
@@ -40,7 +40,7 @@ Esimerkki: työntekijä tekee jaksossa 128 tuntia.
 Vasta jos jakson tunnit ylittäisivät 138 (120 + 18), loput menisivät
 +100 % korotettuna.
 
-<img src="/blogPostImages/tes-tuki/tes-jakson-tunnit.png" alt="Tuntien kirjaus: 128 tunnin jakso eriteltynä — 7,5 h lisätyötä ja 8 h ylityötä +50 %" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tes-tuki/tes-jakson-tunnit.png" alt="Tuntien kirjaus: 128 tunnin jakso eriteltynä. 7,5 h lisätyötä ja 8 h ylityötä +50 %" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 ## Osa-aikaisella raja on sopimustunnit
 
@@ -48,13 +48,11 @@ Osa-aikaisen työntekijän lisätyö alkaa jo hänen
 [työsopimukseensa kirjatusta tuntimäärästä](/posts/tyotunnit_tyosopimuksessa):
 esimerkiksi 90 h/3 vk -sopimuksella tunnit 90:stä 112,5:een ovat
 lisätyötä. Ylityökorotukset alkavat samasta 120 tunnista kuin
-kokoaikaisilla. Siksi sopimustuntien kirjaaminen järjestelmään kannattaa —
-ilman niitä osa-aikaisen lisätyötä ei voi laskea oikein.
+kokoaikaisilla. Siksi sopimustuntien kirjaaminen järjestelmään kannattaa, ilman niitä osa-aikaisen lisätyötä ei voi laskea oikein.
 
 Huomaa myös, että vapaapäivinä
 ([V- ja X-päivinä](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan)) tehty
-työ korvataan omilla korotuksillaan eikä se kasvata jakson tuntisummaa —
-sekin on helppo laskea väärin käsin.
+työ korvataan omilla korotuksillaan eikä se kasvata jakson tuntisummaa. Sekin on helppo laskea väärin käsin.
 
 ## Vuosilomajakso muuttaa laskentaa kahdella tavalla
 

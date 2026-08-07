@@ -61,7 +61,7 @@ Silloin käytännön työ jää edelleen sinun tehtäväksesi: tarkistat tunnit 
 
 ## Mitä Työvuorolista tekee PDF:n lisäksi
 
-Työvuorolista ei ole vain tapa tulostaa lista PDF:ksi, vaan työkalu koko työvuorosuunnitteluun.
+Työvuorolista on työkalu koko työvuorosuunnitteluun, ei pelkkä tapa tulostaa lista PDF:ksi.
 
 Kun teet listan sovelluksessa, saat samalla käyttöösi muutakin kuin tulostettavan lopputuloksen:
 

@@ -17,15 +17,14 @@ tags: ['TES', 'MaRa', 'nollatuntisopimus', 'vaihteleva työaika', 'sopimustunnit
 **Lyhyesti:** "Nollatuntisopimus" (0–40 h/vko) on laissa **vaihtelevaa
 työaikaa**, ja sitä säännellään tiukemmin kuin moni luulee. MaRa-TES
 menee vielä pidemmälle: **osa-aikaiselle työntekijälle on aina sovittava
-vähimmäistyöaika kolmiviikkoisjaksoa kohti** — puhdasta nollasopimusta
+vähimmäistyöaika kolmiviikkoisjaksoa kohti**. Puhdasta nollasopimusta
 sopimusala ei tunne. Ja jos toteutuneet tunnit ylittävät sovitun
 minimin jatkuvasti, työaika on korjattava vastaamaan todellisuutta.
 
 ## Milloin vaihteleva työaika on ylipäätään sallittu?
 
 Työsopimuslain mukaan vaihtelevasta työajasta **ei saa työnantajan
-aloitteesta sopia, jos työvoiman tarve on todellisuudessa kiinteä** —
-eikä vähimmäistuntimäärää saa sopia pienemmäksi kuin tarve edellyttää.
+aloitteesta sopia, jos työvoiman tarve on todellisuudessa kiinteä**, eikä vähimmäistuntimäärää saa sopia pienemmäksi kuin tarve edellyttää.
 Jos ravintolassa on joka viikko tiedossa samat vuorot, niitä ei voi
 teettää nollasopimuksella. Työntekijän omasta aloitteesta vaihteleva
 työaika on aina mahdollinen.
@@ -38,14 +37,14 @@ MaRa-TES:ssä työnantaja ja osa-aikainen työntekijä sopivat joko
   90 h / 3 vk), tai
 - **keskimääräisestä** kolmiviikkoisjakson vähimmäistyöajasta.
 
-Kiinteän vähimmäistyöajan on toteuduttava joka jaksossa — jos
+Kiinteän vähimmäistyöajan on toteuduttava joka jaksossa, jos
 työnantaja ei tarjoa sovittuja tunteja, puuttuvat tunnit on
 korvattava. Keskimääräisen vähimmäistyöajan toteutumista taas
 **tarkastellaan kuuden kuukauden välein** (sesonkitoiminnassa enintään
 vuoden jaksolla): jos toteutunut työaika on ilman perusteltua syytä
 sovittua suurempi, **työaika tulee sopia toteutunutta vastaavaksi**.
 Tämä puolen vuoden tarkastelurytmi on nykyisen sopimuskauden
-(2025–2028) uudistus — laissa vastaava tarkastelu on tehtävä vähintään
+(2025–2028) uudistus. Laissa vastaava tarkastelu on tehtävä vähintään
 12 kuukauden välein.
 
 Ainoa poikkeus ovat aidosti satunnaiset, **erikseen tarvittaessa työhön
@@ -53,13 +52,13 @@ kutsuttavat**: heihin vähimmäistyöaikamääräyksiä ei sovelleta, mutta
 silloin jokaisesta vuorosta sovitaan erikseen ja työntekijällä on
 oikeus kieltäytyä.
 
-## Työvuorolista sitoo — myös nollasopimuslaista
+## Työvuorolista sitoo, myös nollasopimuslaista
 
 Vaihtelevan työajan työntekijän suoja on vahvasti kiinni
 työvuorolistassa:
 
 - Vähimmäistyöajan **ylittävien** vuorojen merkitseminen listaan vaatii
-  työntekijän suostumuksen — se voidaan antaa kerta kerralta tai
+  työntekijän suostumuksen, se voidaan antaa kerta kerralta tai
   lyhyehköksi ajaksi kerrallaan
 - [Julkaistua listaa](/posts/tyovuorolistan_julkaiseminen) ei
   MaRa-TES:ssä saa muuttaa ilman molempien suostumusta
@@ -69,19 +68,18 @@ työvuorolistassa:
 - **Sairausajan palkka**: oikeus syntyy, kun vuoro oli listassa tai
   olosuhteista on muuten selvää, että työntekijä olisi ollut töissä
 - **Irtisanomisaikana** työtä on tarjottava vähintään viimeisten 12
-  viikon keskiarvon verran — ja MaRa:ssa irtisanomisajan listaan on
+  viikon keskiarvon verran, ja MaRa:ssa irtisanomisajan listaan on
   merkittävä vähintään sovittu keskimääräinen vähimmäistyöaika
 
 Lisäksi lisätunnit on tarjottava ensin omille osa-aikaisille ennen
-uuden työntekijän palkkaamista — MaRa-TES:n mukaan aina 112,5 tuntiin
+uuden työntekijän palkkaamista. MaRa-TES:n mukaan aina 112,5 tuntiin
 asti jaksossa.
 
 ## Kirjaa vähimmäistunnit järjestelmään
 
 Käytännössä koko nollasopimusproblematiikka pyörii yhden luvun
 ympärillä: työsopimukseen kirjatun vähimmäistuntimäärän. Se kannattaa
-kirjata myös työvuorosuunnitteluun —
-[Työtunnit työsopimuksessa -kenttään](/posts/tyotunnit_tyosopimuksessa)
+kirjata myös työvuorosuunnitteluun. [Työtunnit työsopimuksessa -kenttään](/posts/tyotunnit_tyosopimuksessa)
 voit antaa tunnit suoraan kolmen viikon jaksoa kohti, kuten MaRa:n
 sopimuksissa tyypillisesti sovitaan.
 

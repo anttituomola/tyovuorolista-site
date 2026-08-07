@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'TES:n valinta työvuorosuunnittelussa — mitä "Ei mikään näistä" tarkoittaa?'
+title: 'TES:n valinta työvuorosuunnittelussa, mitä "Ei mikään näistä" tarkoittaa?'
 pubDate: 2026-07-20
 description: 'Työehtosopimuksen valinta ohjaa tyovuorolista.fi:n TES-varoituksia ja palkkaraporttien tuntikategorioita. Tämä opas kertoo, mistä valinta tehdään, mitä "Ei mikään näistä" tarkoittaa ja mitä valinnan vaihtaminen vaikuttaa.'
 author: 'Antti Tuomola'
@@ -15,14 +15,14 @@ lähtee yhdestä valinnasta: mitä työehtosopimusta toimipaikkasi noudattaa.
 Valinta kysytään jo rekisteröityessä, ja se määrää, miten sovellus
 varoittaa vuorosuunnittelun virheistä ja luokittelee tunnit
 palkanlaskentaan. Jos et ole varma, valitse **"Ei mikään näistä / en osaa
-sanoa"** — mikään ei mene rikki, ja valinnan voi tehdä tai vaihtaa
+sanoa"**. Mikään ei mene rikki, ja valinnan voi tehdä tai vaihtaa
 myöhemmin asetuksista.
 
 ## Miksi TES:n valinnalla on väliä?
 
 Työehtosopimus määrää työvuorosuunnittelun pelisäännöt: työ- ja
 lepoajat, vuorojen pituudet, vapaapäivät, lisä- ja ylityörajat sekä
-erilaiset lisät. Ne vaihtelevat aloittain — ravintola-alan
+erilaiset lisät. Ne vaihtelevat aloittain. Ravintola-alan
 [kolmiviikkoisjakso ja 112,5 tunnin
 raja](/posts/kolmiviikkoisjakso_ravintola-alalla) on eri asia kuin kaupan
 alan viikkotyöaikamalli.
@@ -30,7 +30,7 @@ alan viikkotyöaikamalli.
 Kun olet valinnut toimipaikallesi TES:n, sovellus:
 
 - **varoittaa suunnitteluvaiheessa**, jos vuoro rikkoo työaikalakia tai
-  TES:n määräyksiä — punainen on lakiasia, oranssi TES-asia ja sininen
+  TES:n määräyksiä. Punainen on lakiasia, oranssi TES-asia ja sininen
   huomio, eikä mikään niistä koskaan estä tallentamista
 - **luokittelee toteutuneet tunnit** automaattisesti palkanlaskennan
   kategorioihin: lisätyöt, ylityöt 50 % ja 100 %, V- ja X-päivätyöt sekä
@@ -38,7 +38,7 @@ Kun olet valinnut toimipaikallesi TES:n, sovellus:
 - **vie kategoriat [palkkaraporttiin](/posts/palkkaraportti_ominaisuus)**
   sellaisenaan, palkkalajikoodein varustettuna
 
-Ilman valintaa sovellus ei oleta alaasi — eikä siten voi tietää, mitä
+Ilman valintaa sovellus ei oleta alaasi, eikä siten voi tietää, mitä
 sääntöjä listojasi pitäisi verrata vasten.
 
 ## Valinta tehdään jo rekisteröityessä
@@ -52,7 +52,7 @@ Valikossa on neljä sopimusta: **Matkailu-, ravintola- ja vapaa-ajan
 palveluiden TES (MaRa)**, **Kaupan alan TES**, **Kiinteistöpalvelualan
 TES** ja **Yksityisen sosiaalipalvelualan TES (SOSTES)**. Oletuksena on
 "Ei mikään näistä / en osaa sanoa", joten valinta ei koskaan jää
-rekisteröitymisen esteeksi — se tallentuu kuitenkin joka tapauksessa,
+rekisteröitymisen esteeksi, se tallentuu kuitenkin joka tapauksessa,
 jotta alakohtaiset ominaisuudet voidaan tarjota myöhemmin oikealle
 yleisölle.
 
@@ -74,7 +74,7 @@ Kaksi asiaa kannattaa tietää taustalla:
   Sieltä näet, onko alallasi yleissitova TES.
 
 Jos asia jää epäselväksi, kysy palkanlaskijaltasi tai alan
-työntekijäliitosta (esimerkiksi PAM palvelualoilla) — väärällä
+työntekijäliitosta (esimerkiksi PAM palvelualoilla). Väärällä
 valinnalla suunnittelemat varoitukset ovat hyödyttömämpiä kuin ei
 varoituksia ollenkaan.
 
@@ -88,8 +88,7 @@ mikään näistä":
 - kaikki muu toimii täsmälleen kuten ennen TES-tukea: listat,
   julkaisut, tuntien kirjaus ja raportit toimivat normaalisti
 
-Valitse tämä myös silloin, jos alasi sopimus puuttuu vielä valikosta —
-ja kerro siitä minulle, niin tiedän, mitä alaa kannattaa työstää
+Valitse tämä myös silloin, jos alasi sopimus puuttuu vielä valikosta, ja kerro siitä minulle, niin tiedän, mitä alaa kannattaa työstää
 seuraavaksi. Valinnan voi vaihtaa koska tahansa myöhemmin.
 
 ## Näin vaihdat valintaa myöhemmin
@@ -112,13 +111,13 @@ palauttaa toimipaikan "ei valintaa" -tilaan.
 Vaihto on kevyt operaatio, mutta hyvä ymmärtää sen vaikutukset:
 
 - **Varoitukset seuraavat uutta TES:ää heti.** Kalenteri tulkitsee
-  listat jatkossa uuden sopimuksen säännöillä — esimerkiksi ravintolan
+  listat jatkossa uuden sopimuksen säännöillä, esimerkiksi ravintolan
   ja kaupan vuoron pituus- ja leposäännöt eroavat toisistaan.
 - **Tuntien luokittelu muuttuu.** Lisä- ja ylityörajat sekä lisät
   lasketaan uuden TES:n mukaan, ja palkkaraportin kategoriat seuraavat
   samaa muutosta.
 - **Vuorot, työntekijät ja tuntikirjaukset eivät muutu.** Vaihto ei
-  koske tallennettuihin listoihin eikä työntekijöiden tietoihin — vain
+  koske tallennettuihin listoihin eikä työntekijöiden tietoihin, vain
   sääntöihin, joilla sovellus tulkitsee niitä. Työntekijöiden
   [sopimustunnit](/posts/tyotunnit_tyosopimuksessa) ja muut TES-tiedot
   säilyvät, joten palaaminen aiempaan valintaan ei vaadi tiedon
@@ -137,7 +136,7 @@ tulee suoraan minulle ja vaikuttaa työstöjärjestykseen.
 
 TES-tuki on suunnittelun apuväline, ei vaatimustenmukaisuustakuu.
 Sovellus tarkistaa listasi valitun sopimuksen säännöillä, mutta
-työehtosopimuksen tulkinta on lopulta työnantajan vastuulla — ja
+työehtosopimuksen tulkinta on lopulta työnantajan vastuulla, ja
 paikalliset sopimukset voivat muuttaa määräyksiä tavoilla, joita
 sovellus tuntee vain, jos ne on kirjattu asetuksiin. Varoitusten
 tarkoitus on, ettei mikään jää huomaamatta; päätökset jäävät aina

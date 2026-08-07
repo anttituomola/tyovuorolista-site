@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Sunnuntaityön korvaus kaupan alalla — tuplapalkka, ei sunnuntailisää'
+title: 'Sunnuntaityön korvaus kaupan alalla: tuplapalkka, ei sunnuntailisää'
 pubDate: 2026-08-04
 description: 'Kaupan alalla ei makseta euromääräistä sunnuntailisää vaan kaksinkertaista palkkaa (TES 10 § 3). Työaikalisät eivät kuulu korvauksen laskentapohjaan, ja työtuomioistuimen tuoreen lausunnon mukaan korvausta ei voi maksaa muuna kuin rahana.'
 reviewedDate: 2026-07-28
@@ -18,7 +18,7 @@ tags: ['TES', 'kaupan ala', 'sunnuntaityö', 'sunnuntailisä', 'palkanlaskenta',
 "sunnuntailisää" vaan **kaksinkertainen palkka** sunnuntaina sekä
 kirkollisena juhla-, itsenäisyys- ja vapunpäivänä tehdystä
 säännöllisestä työstä (TES 10 § 3). Korvausta laskettaessa
-**työaikalisiä ei oteta huomioon peruspalkassa** — lisät maksetaan
+**työaikalisiä ei oteta huomioon peruspalkassa**. Lisät maksetaan
 päälle omien sääntöjensä mukaan. Sunnuntaityöhön tarvitaan
 työntekijän suostumus, ja työtuomioistuimen huhtikuussa 2026 antaman
 lausunnon mukaan korvausta ei voi maksaa muuna kuin rahana.
@@ -38,7 +38,7 @@ eli peruspalkka ja sen suuruinen korotusosa.
 Siksi sunnuntain arvo riippuu työntekijän omasta palkasta, kun taas
 iltalisä on kaikille samassa kaupungissa sama. Ja siksi
 sunnuntaityökorvaus kasvaa automaattisesti palkankorotuksissa, vaikka
-työaikalisien euromäärät pysyisivät ennallaan — kuten tällä
+työaikalisien euromäärät pysyisivät ennallaan, kuten tällä
 sopimuskaudella (1.5.2022 → 31.1.2028) pääosin pysyvätkin.
 
 ## Mitkä päivät oikeuttavat korvaukseen?
@@ -47,10 +47,10 @@ sopimuskaudella (1.5.2022 → 31.1.2028) pääosin pysyvätkin.
 |---|---|---|
 | Sunnuntai | kyllä | kyllä |
 | Kirkollinen juhlapäivä | kyllä | kyllä |
-| Itsenäisyyspäivä | — | kyllä |
-| Vapunpäivä | — | kyllä |
-| Arkilauantai | — | ei (lauantailisä) |
-| Juhla-aatto | — | ei (aattoiltalisä) |
+| Itsenäisyyspäivä | – | kyllä |
+| Vapunpäivä | – | kyllä |
+| Arkilauantai | – | ei (lauantailisä) |
+| Juhla-aatto | – | ei (aattoiltalisä) |
 
 Kirkollisia juhlapäiviä ovat mm. uudenvuodenpäivä, loppiainen,
 pitkäperjantai, pääsiäispäivä ja toinen pääsiäispäivä, helatorstai,
@@ -64,7 +64,7 @@ työsopimuksessa tai erikseen annettu. Sunnuntaityön teettämisessä on
 lisäksi noudatettava tasapuolisuutta ottaen huomioon työntekijän
 ammattitaito, osaaminen ja soveltuvuus tehtävään (10 § 2).
 
-## Lisät eivät tuplaannu — kolmea poikkeusta lukuun ottamatta
+## Lisät eivät tuplaannu: kolmea poikkeusta lukuun ottamatta
 
 Sopimusteksti on tässä täsmällinen: *"Sunnuntaityökorvausta
 laskettaessa työaikalisiä ei oteta huomioon peruspalkassa."*
@@ -79,7 +79,7 @@ Poikkeuksia on kolme:
 2. **Logistiikkatyöntekijän iltalisä** maksetaan kaksinkertaisena
    sunnuntaina ja pyhänä (15 § 1).
 3. **Logistiikkatyöntekijän yölisä** maksetaan kaksinkertaisena
-   sunnuntaina ja pyhänä — mutta vain **30.9.2026 asti** (15 § 4).
+   sunnuntaina ja pyhänä, mutta vain **30.9.2026 asti** (15 § 4).
    Palkkausuudistuksen myötä tuplaus poistuu ja yölisä nousee 5,30
    euroon tunnilta.
 
@@ -109,7 +109,7 @@ Sunnuntaityökorvaus maksetaan **säännöllisestä** työstä.
 Jos sunnuntain tunnit ovat samalla
 [ylityötä](/posts/lisatyo_ja_ylityo_kaupan_alalla), maksetaan molemmat:
 sunnuntaityökorvaus ja ylityökorvaus. Ylityökorvaus lasketaan
-kuitenkin **korottamattomasta** palkasta (työaikalaki 17 §) — korotukset
+kuitenkin **korottamattomasta** palkasta (työaikalaki 17 §). Korotukset
 eivät siis kerro toisiaan, vaan lasketaan kumpikin samasta
 peruspalkasta.
 
@@ -157,7 +157,7 @@ Käytännön esimerkki liittojen omasta ohjeistuksesta: työntekijä tekee
 helatorstaiviikolla töitä maanantaista torstaihin ja on vapaalla
 perjantaista sunnuntaihin. Helatorstain työstä maksetaan normaali
 palkka, ja työntekijä saa vastineeksi pidemmän yhtenäisen vapaan.
-Poikkeus koskee vain arkipyhäjärjestelmää — jos yrityksessä on käytössä
+Poikkeus koskee vain arkipyhäjärjestelmää, jos yrityksessä on käytössä
 [vuosivapaajärjestelmä](/posts/arkipyhajarjestelma_vai_vuosivapaa_kaupan_alalla),
 tätä sopimismahdollisuutta ei ole.
 
@@ -170,7 +170,7 @@ työsuhteessa määrä suhteutetaan.
 
 Lisäksi työntekijälle on annettava sunnuntai tai kirkollinen juhlapäivä
 vapaaksi **perustellusta perhesyystä**, jos hän ilmoittaa siitä ennen
-työvuoroluettelon laatimista — eli hyvissä ajoin ennen
+työvuoroluettelon laatimista, eli hyvissä ajoin ennen
 [listan julkaisua](/posts/tyovuorolistan_julkaiseminen).
 Sunnuntaivapaasääntö ei koske huolto- ja liikenneasematyöntekijöitä
 eikä kioskimyyjiä. Loput vapaapäiväsäännöt ovat

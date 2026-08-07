@@ -4,7 +4,7 @@ title: 'Työvuorosuunnitteluohjelmien vertailu 2026: hinnat, ilmaiset vaihtoehdo
 pubDate: 2026-08-03
 reviewedDate: 2026-08-03
 description: 'Rehellinen vertailu suomalaisista työvuorosuunnitteluohjelmista 2026: julkiset hinnat, ilmaiset paketit, TES-tulkinta ja kenelle mikäkin ohjelma sopii. Tiedot julkisista lähteistä, tarkistettu 3.8.2026.'
-infoBasis: 'Kaikki hinnat ja tiedot on kerätty vertailtujen ohjelmistojen julkisilta verkkosivuilta 3.8.2026, ja lähteet on linkitetty tekstiin. Vertailun on laatinut Tyovuorolista.fi:n tekijä — olemme yksi vertailun ohjelmista. Virheilmoitukset ja korjauspyynnöt: info@tyovuorolista.fi.'
+infoBasis: 'Kaikki hinnat ja tiedot on kerätty vertailtujen ohjelmistojen julkisilta verkkosivuilta 3.8.2026, ja lähteet on linkitetty tekstiin. Vertailun on laatinut Tyovuorolista.fi:n tekijä. Olemme yksi vertailun ohjelmista. Virheilmoitukset ja korjauspyynnöt: info@tyovuorolista.fi.'
 ctaText: 'Katso julkiset hintamme'
 ctaHref: '/hinnoittelu'
 author: 'Antti Tuomola'
@@ -21,16 +21,16 @@ Etsitkö työvuorosuunnitteluohjelmaa pienelle tai keskikokoiselle yritykselle? 
 > **Näin vertailu on tehty**
 >
 > - Kaikki tiedot on kerätty ohjelmistojen **julkisilta verkkosivuilta 3.8.2026**. Jokaisen kohdan lähde on linkitetty.
-> - Emme arvioi kilpailijoiden käyttökokemusta, koska emme ole käyttäneet niitä — kerromme vain todennettavat faktat: hinnat, paketit ja julkisesti luvatut ominaisuudet.
+> - Emme arvioi kilpailijoiden käyttökokemusta, koska emme ole käyttäneet niitä. Kerromme vain todennettavat faktat: hinnat, paketit ja julkisesti luvatut ominaisuudet.
 > - Kerromme myös suoraan, **milloin jokin muu ohjelma on parempi valinta kuin omamme**.
-> - Huomasitko virheen tai vanhentuneen tiedon? Kerro: [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi) — korjaamme heti.
+> - Huomasitko virheen tai vanhentuneen tiedon? Kerro: [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi). Korjaamme heti.
 
 ## Yhteenveto: markkinan kaksi leiriä
 
 Suomen työvuorosuunnittelumarkkina jakautuu kahtia:
 
-1. **Itsepalveluohjelmat julkisilla hinnoilla** — rekisteröidyt, kokeilet ja maksat kortilla ilman myyntipuheluita: Tyovuorolista.fi, Otta, Tuntikone ja Workfeed.
-2. **Myyntivetoiset järjestelmät ilman julkista hinnastoa** — hinta selviää demon ja tarjouksen kautta: Finago Työvuorovelho, Finago MaraPlan Pro, HRSuunti ja Nepton. Suuryrityksille on lisäksi omat järjestelmänsä (Quinyx, Numeron, CGI Titania), jotka rajaamme tämän vertailun ulkopuolelle.
+1. **Itsepalveluohjelmat julkisilla hinnoilla**: rekisteröidyt, kokeilet ja maksat kortilla ilman myyntipuheluita: Tyovuorolista.fi, Otta, Tuntikone ja Workfeed.
+2. **Myyntivetoiset järjestelmät ilman julkista hinnastoa**: hinta selviää demon ja tarjouksen kautta: Finago Työvuorovelho, Finago MaraPlan Pro, HRSuunti ja Nepton. Suuryrityksille on lisäksi omat järjestelmänsä (Quinyx, Numeron, CGI Titania), jotka rajaamme tämän vertailun ulkopuolelle.
 
 Huomionarvoinen muutos vuonna 2026: sekä Työvuorovelho että MaraPlan ovat siirtyneet Accountor-konsernin Mepcon (Finago) alle, ja kummankaan hinnastoa ei enää julkaista verkossa (tarkistettu 3.8.2026).
 
@@ -38,7 +38,7 @@ Huomionarvoinen muutos vuonna 2026: sekä Työvuorovelho että MaraPlan ovat sii
 
 | Ohjelma | Julkinen hinta? | Hinnoittelumalli | Ilmainen paketti tai kokeilu | Itsepalvelu? | TES-tulkinta |
 | :-- | :-: | :-- | :-- | :-: | :-- |
-| **Tyovuorolista.fi** | ✅ | Kiinteä hinta tiliä kohti, 0–180 €/kk | Pysyvästi ilmainen ≤ 3 työntekijää | ✅ | ✅ MaRa, Kaupan ala, KipaTES, SOSTES — kaikissa paketeissa |
+| **Tyovuorolista.fi** | ✅ | Kiinteä hinta tiliä kohti, 0–180 €/kk | Pysyvästi ilmainen ≤ 3 työntekijää | ✅ | ✅ MaRa, Kaupan ala, KipaTES, SOSTES, kaikissa paketeissa |
 | **Otta** | ✅ | Perusmaksu + käyttäjämaksu (Mini 9 €/kk + 2 €/käyttäjä) | 14 pv kokeilu | ✅ | Työaikalain tulkintaa; TES-tuki tarkistettava myyjältä |
 | **Tuntikone** | ✅ | 2–5 €/käyttäjä/kk; työvuorosuunnittelu lisäosana +1 €/käyttäjä | 30 pv kokeilu | ✅ | Tarkistettava myyjältä |
 | **Workfeed** | ✅ | 0–6 €/käyttäjä/kk | Starter 0 € (max 500 vuoroa, 1 esihenkilö) | ✅ | Ei suomalaista TES-tulkintaa tiedossa |
@@ -71,15 +71,15 @@ Laskettu julkisista hinnastoista (alv 0 %, kuukausilaskutus). Myyntivetoiset jä
 | Tuntikone+ ja vuorosuunnittelulisä | 80 € |
 | Workfeed Basic | 80 € |
 
-Ero syntyy hinnoittelumallista: useimmat ohjelmat laskuttavat **jokaisesta työntekijästä**, me laskutamme **tilistä**. Kun tiimi kasvaa, käyttäjäkohtainen hinta kasvaa mukana — kiinteä hinta ei.
+Ero syntyy hinnoittelumallista: useimmat ohjelmat laskuttavat **jokaisesta työntekijästä**, me laskutamme **tilistä**. Kun tiimi kasvaa, käyttäjäkohtainen hinta kasvaa mukana. Kiinteä hinta ei.
 
 Alle 4 työntekijän tiimille sekä Tyovuorolista.fi:n Mini (pysyvästi 0 €) että Workfeedin Starter (0 €, max 500 vuoroa) riittävät pitkälle ilmaiseksi.
 
 ## Ohjelmat lyhyesti
 
-### Tyovuorolista.fi — meidän ohjelmamme
+### Tyovuorolista.fi: meidän ohjelmamme
 
-Suomalainen, työvuorosuunnittelu edellä rakennettu itsepalveluohjelma alle 100 työntekijän yrityksille. Julkiset hinnat: ilmainen 3 työntekijälle, maksulliset 18–180 €/kk tiliä kohti ([hinnasto](https://www.tyovuorolista.fi/hinnoittelu)). Ei käyttöönottoprojektia eikä aloitusmaksua — ensimmäisen listan tekee minuuteissa. **TES-tulkinta (MaRa, Kaupan ala, KipaTES ja SOSTES) sisältyy kaikkiin paketteihin, myös ilmaiseen** — tietääksemme ainoana Suomessa. Lisäksi työntekijäportaali, palkkaraportit ja Procountor-palkka-aineiston vienti.
+Suomalainen, työvuorosuunnittelu edellä rakennettu itsepalveluohjelma alle 100 työntekijän yrityksille. Julkiset hinnat: ilmainen 3 työntekijälle, maksulliset 18–180 €/kk tiliä kohti ([hinnasto](https://www.tyovuorolista.fi/hinnoittelu)). Ei käyttöönottoprojektia eikä aloitusmaksua. Ensimmäisen listan tekee minuuteissa. **TES-tulkinta (MaRa, Kaupan ala, KipaTES ja SOSTES) sisältyy kaikkiin paketteihin, myös ilmaiseen**. Tietääksemme ainoana Suomessa. Lisäksi työntekijäportaali, palkkaraportit ja Procountor-palkka-aineiston vienti.
 
 ### Finago Työvuorovelho ja MaraPlan Pro
 
@@ -91,11 +91,11 @@ Kotimainen työajanseurannan ohjelmisto, jossa myös työvuorosuunnittelu. Julki
 
 ### Tuntikone
 
-Tuntikirjausten ja työajanseurannan itsepalveluohjelma (2–5 €/käyttäjä/kk, 30 päivän kokeilu). Työvuorosuunnittelu myydään hinnaston mukaan lisäosana (+1 €/käyttäjä/kk). Järkevä, jos laskutat tunteja asiakkailta tai tarvitset Koho-kytkennän — vuorosuunnittelu ei ole sen pääosassa.
+Tuntikirjausten ja työajanseurannan itsepalveluohjelma (2–5 €/käyttäjä/kk, 30 päivän kokeilu). Työvuorosuunnittelu myydään hinnaston mukaan lisäosana (+1 €/käyttäjä/kk). Järkevä, jos laskutat tunteja asiakkailta tai tarvitset Koho-kytkennän. Vuorosuunnittelu ei ole sen pääosassa.
 
 ### Workfeed
 
-Tanskalainen, hyvin suomennettu itsepalveluohjelma. Starter on aidosti ilmainen pienelle käytölle (max 500 julkaistua vuoroa, 1 esihenkilö), maksulliset 4–6 €/käyttäjä/kk, Pro-tasolla automaattinen vuorosuunnittelu. Vahva kansainvälinen tuote — mutta suomalaisten työehtosopimusten tulkintaa emme löytäneet sen julkisilta sivuilta. TES-lisien, arkipyhien ja jaksotyön kanssa jäät itse laskemaan.
+Tanskalainen, hyvin suomennettu itsepalveluohjelma. Starter on aidosti ilmainen pienelle käytölle (max 500 julkaistua vuoroa, 1 esihenkilö), maksulliset 4–6 €/käyttäjä/kk, Pro-tasolla automaattinen vuorosuunnittelu. Vahva kansainvälinen tuote, mutta suomalaisten työehtosopimusten tulkintaa emme löytäneet sen julkisilta sivuilta. TES-lisien, arkipyhien ja jaksotyön kanssa jäät itse laskemaan.
 
 ### HRSuunti ja Nepton
 
@@ -103,16 +103,16 @@ HRSuunti on kotimainen, erityisesti ravintola-, hoiva- ja apteekkialalle suunnat
 
 ### Excel ja Teams Shifts
 
-Ilmaisia, ja moni pärjää niillä pitkään — teimme itsekin [ilmaisen Excel/PDF-työvuorolistapohjan](/posts/tyovuorolista_pohja_pdf). Rajat tulevat vastaan, kun listoja pitää muokata kesken jakson, työntekijöiden pitää nähdä vuoronsa puhelimesta, tunnit pitää saada palkanlaskentaan tai TES vaatii lisien ja lepoaikojen seurantaa. Työaikalain vaatima työvuoroluettelo pitää silti laatia ja säilyttää — pelkkä Teams-näkymä ei sitä korvaa.
+Ilmaisia, ja moni pärjää niillä pitkään. Teimme itsekin [ilmaisen Excel/PDF-työvuorolistapohjan](/posts/tyovuorolista_pohja_pdf). Rajat tulevat vastaan, kun listoja pitää muokata kesken jakson, työntekijöiden pitää nähdä vuoronsa puhelimesta, tunnit pitää saada palkanlaskentaan tai TES vaatii lisien ja lepoaikojen seurantaa. Työaikalain vaatima työvuoroluettelo pitää silti laatia ja säilyttää. Pelkkä Teams-näkymä ei sitä korvaa.
 
 ## Milloin jokin muu kuin Tyovuorolista.fi on parempi valinta?
 
-Rehellisyys ennen kaikkea — älä valitse meitä, jos:
+Rehellisyys ennen kaikkea. Älä valitse meitä, jos:
 
 - **Tärkein tarpeesi on kellokortti ja leimaus.** Otta, Tuntikone ja Nepton on rakennettu työajanseuranta edellä; meillä toteutuneet tunnit kirjataan ja hyväksytään, mutta leimauspäätettä meillä ei ole.
-- **Olet monen toimipaikan ketju, jossa on satoja työntekijöitä.** MaraPlan Pro, Quinyx, Numeron ja Titania ovat sitä kokoluokkaa varten — me olemme parhaimmillamme alle 100 työntekijän yrityksissä.
+- **Olet monen toimipaikan ketju, jossa on satoja työntekijöitä.** MaraPlan Pro, Quinyx, Numeron ja Titania ovat sitä kokoluokkaa varten. Me olemme parhaimmillamme alle 100 työntekijän yrityksissä.
 - **Haluat automaattisen, algoritmin ehdottaman vuorosuunnittelun.** Workfeedin Pro-taso lupaa tämän; meillä listat tehdään itse (mallipohjien ja toistuvien vuorojen avulla).
-- **Haluat, että toimittaja hoitaa käyttöönoton projektina koulutuksineen.** Myyntivetoiset toimijat tekevät juuri tätä — itsepalvelu ei ole kaikille se oikea malli.
+- **Haluat, että toimittaja hoitaa käyttöönoton projektina koulutuksineen.** Myyntivetoiset toimijat tekevät juuri tätä. Itsepalvelu ei ole kaikille se oikea malli.
 
 ## Usein kysytyt kysymykset
 
@@ -126,8 +126,8 @@ On: Tyovuorolista.fi on pysyvästi ilmainen enintään 3 työntekijän tiimeille
 Julkisilla hinnastoilla 10 työntekijän yritys maksaa 18–40 €/kk (ks. laskuesimerkit yllä). Myyntivetoisissa järjestelmissä hinta selviää vain tarjouksesta, ja niihin liittyy usein käyttöönottoprojekti.
 
 **Mikä työvuorosuunnitteluohjelma tulkitsee työehtosopimuksia?**
-TES-tulkintaa tarjoavat ainakin Tyovuorolista.fi (MaRa, Kaupan ala, KipaTES, SOSTES — kaikissa paketeissa, myös ilmaisessa), sekä myyntivetoisista Työvuorovelho, MaraPlan Pro ja HRSuunti osana käyttöönottoa.
+TES-tulkintaa tarjoavat ainakin Tyovuorolista.fi (MaRa, Kaupan ala, KipaTES, SOSTES, kaikissa paketeissa, myös ilmaisessa), sekä myyntivetoisista Työvuorovelho, MaraPlan Pro ja HRSuunti osana käyttöönottoa.
 
 ---
 
-Haluatko kokeilla itse? [Rekisteröidy ilmaiseksi](https://app.tyovuorolista.fi/register) — ei luottokorttia, ensimmäinen lista valmiina minuuteissa. Kysymyksiä vertailusta? [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
+Haluatko kokeilla itse? [Rekisteröidy ilmaiseksi](https://app.tyovuorolista.fi/register), ei luottokorttia, ensimmäinen lista valmiina minuuteissa. Kysymyksiä vertailusta? [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).

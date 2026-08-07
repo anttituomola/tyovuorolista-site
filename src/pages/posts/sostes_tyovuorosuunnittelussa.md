@@ -45,7 +45,7 @@ viikon luettelossa se tarkoittaa 115:tä ja kuuden viikon luettelossa
 230:tä tuntia.
 
 Jaksotyö eroaa tavallisesta viikkotyöajasta yhdellä ratkaisevalla
-tavalla: **vuorokautista tai viikoittaista ylityötä ei ole** — vain
+tavalla: **vuorokautista tai viikoittaista ylityötä ei ole**, vain
 jakson kokonaistunnit ratkaisevat. Siksi yövuoron ja aamuvuoron voi
 ketjuttaa tiiviisti ilman, että jokainen pitkä päivä laukaisee
 ylityölaskennan. Ylityöstä lisää
@@ -56,20 +56,20 @@ ylityölaskennan. Ylityöstä lisää
 Luettelo laaditaan **kokonaisiksi kalenteriviikoiksi** ja
 tasoittumisjakson pituus on **3–6 viikkoa** (TES 6 § 7). Kuuden viikon
 luettelossa on lisäraja: kummankaan kolmen viikon puoliskon tunnit eivät
-saa ylittää **126:ta tuntia** — kokonaisuuden pitää silti pysyä 230
+saa ylittää **126:ta tuntia**. Kokonaisuuden pitää silti pysyä 230
 tunnissa.
 
 Luettelo on annettava tiedoksi **viimeistään viikkoa ennen** sen alkua
 (TES 6 § 8, sama kuin työaikalain 30 §:n vähimmäisvaatimus). Julkaistua
 listaa saa muuttaa vain sopimalla tai painavasta, ennalta
-arvaamattomasta syystä — ja silloinkin muutoksesta on kerrottava
+arvaamattomasta syystä, ja silloinkin muutoksesta on kerrottava
 mahdollisimman varhain.
 
 ## Työvuorojen pituudet ja yövuoroputket
 
 Alle **4 tunnin** vuoroja ei tule käyttää, elleivät työntekijän omat
 tarpeet tai perusteltu syy sitä edellytä (TES 6 § 5). Yläraja on 10
-tuntia, yövuorossa 12 — ja päivystysluonteisessa työssä pidemmästä
+tuntia, yövuorossa 12, ja päivystysluonteisessa työssä pidemmästä
 vuorosta voidaan sopia paikallisesti.
 
 Yövuoroja saa teettää peräkkäin enintään **viisi**, minkä jälkeen
@@ -84,7 +84,7 @@ Pitkäperjantai, toinen pääsiäispäivä, juhannusaatto sekä arkipäiviksi
 osuvat uudenvuodenpäivä, loppiainen, vappu, helatorstai,
 itsenäisyyspäivä, jouluaatto, joulupäivä ja tapaninpäivä ovat
 **ylimääräisiä vapaapäiviä**. Jokainen niistä lyhentää jakson
-säännöllistä työaikaa keskimääräisen työpäivän verran — kokoaikaisella
+säännöllistä työaikaa keskimääräisen työpäivän verran. Kokoaikaisella
 **7 tuntia 40 minuuttia** (TES 7 §). Oikeus lyhennykseen on
 työntekijällä, jonka työsuhde kestää vähintään kaksi viikkoa.
 
@@ -109,7 +109,7 @@ sovellus kertoo poikkeamista mutta jättää päätöksen sinulle.
 
 Sopimuskausi on 28 kuukautta (1.1.2026–30.4.2028), mutta osapuolet
 tarkastelevat alan taloustilannetta joulukuussa 2026 ja sopimus on
-irtisanottavissa päättymään 30.4.2027 — seuraamme tilannetta ja
+irtisanottavissa päättymään 30.4.2027. Seuraamme tilannetta ja
 päivitämme laskennan, jos määräykset muuttuvat.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).

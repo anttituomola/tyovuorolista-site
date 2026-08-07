@@ -97,4 +97,4 @@ Tilauksen ostaminen on helppoa:
 3. Maksa Stripessä
 4. Aloita käyttö välittömästi
 
-Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi). Maksullisissa paketeissa saat myös [palkkaraportit](/posts/palkkaraportti_ominaisuus) – katso [ajankohtaiset hinnat](/posts/hinnoittelun_uudistus_maaliskuu_2026).
+Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi). Maksullisissa paketeissa saat myös [palkkaraportit](/posts/palkkaraportti_ominaisuus). Katso [ajankohtaiset hinnat](/posts/hinnoittelun_uudistus_maaliskuu_2026).

@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Usean vuoron valinta – siirrä tai poista vuoroja kerralla'
+title: 'Usean vuoron valinta: siirrä tai poista vuoroja kerralla'
 pubDate: 2026-05-31
 description: 'Voit nyt valita useita työvuoroja Ctrl- tai Cmd-klikkauksella ja siirtää tai poistaa ne kerralla. Siirto tunteina tai päivinä, automaattinen päällekkäisyystarkistus ja osittainen onnistuminen kuten toistuvissa vuoroissa.'
 author: 'Antti Tuomola'
@@ -12,7 +12,7 @@ tags: ["työvuorolista", "uudet ominaisuudet", "työvuorot", "kalenteri", "suunn
 
 Vuorojen siirtäminen tai poistaminen yksi kerrallaan vie aikaa, jos niitä on monta. **Usean vuoron valinnalla** poimit haluamasi työvuorot kalenterista ja käsittelet ne yhdellä kertaa.
 
-Ominaisuus toimii **tietokoneella** julkaisemattomilla listoilla. Valita voit **tavallisia työvuoroja** aikaruudukosta – ei vapaapäiviä, lomia eikä muita koko päivän merkintöjä.
+Ominaisuus toimii **tietokoneella** julkaisemattomilla listoilla. Valita voit **tavallisia työvuoroja** aikaruudukosta, ei vapaapäiviä, lomia eikä muita koko päivän merkintöjä.
 
 <img src="/blogPostImages/monivalinta_vuorot/kalenteri-valinta.png" alt="Neljä työvuoroa valittuna maanantaina kalenterissa, valintapalkki näyttää 4 valittu" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -21,7 +21,7 @@ Ominaisuus toimii **tietokoneella** julkaisemattomilla listoilla. Valita voit **
 1. Avaa **Suunnittele**-näkymä ja valitse muokattava lista.
 2. Pidä **Ctrl-näppäintä** (Windows) tai **Cmd-näppäintä** (Mac) pohjassa ja klikkaa työvuoroa. Klikkaus joko lisää vuoron valintaan tai poistaa sen siitä.
 3. Klikkaa näin niin monta vuoroa kuin haluat. Valitut vuorot näkyvät reunuksella ja valintamerkillä.
-4. Kalenterin alareunaan ilmestyy **valintapalkki**, jossa lukee valittujen määrä – esimerkiksi *3 valittu*.
+4. Kalenterin alareunaan ilmestyy **valintapalkki**, jossa lukee valittujen määrä, esimerkiksi *3 valittu*.
 5. Avaa **muokkausikkuna** kynäkuvakkeesta tai tyhjennä valinta X:stä.
 
 **Vinkki:** Voit tyhjentää valinnan nopeasti **Esc-näppäimellä**. Valinta tyhjenee myös, kun vaihdat listaa.
@@ -46,7 +46,7 @@ Tunteina tehtävät siirrot **kiinnittyvät kalenterin aikaportaaseen** (esim. 3
 
 ## Mitä tapahtuu tallennuksen jälkeen?
 
-Jokainen vuoro käsitellään erikseen – samalla logiikalla kuin [toistuvien vuorojen](/posts/toistuvat_tyovuorot) luonnissa. Ennen siirtoa tarkistetaan, että vuoro mahtuu paikalleen:
+Jokainen vuoro käsitellään erikseen, samalla logiikalla kuin [toistuvien vuorojen](/posts/toistuvat_tyovuorot) luonnissa. Ennen siirtoa tarkistetaan, että vuoro mahtuu paikalleen:
 
 - **Päällekkäisyys** saman työntekijän toisen vuoron kanssa estää kyseisen siirron
 - **Resurssikonfliktit** tarkistetaan, jos resurssien aikataulutus on käytössä
@@ -56,10 +56,10 @@ Jos osa vuoroista ei mene läpi, **loput siirretään tai poistetaan silti**. Lo
 
 ## Rajoitukset
 
-- Valinta toimii vain **tietokoneella** – mobiilissa klikkaus avaa edelleen yksittäisen vuoron.
+- Valinta toimii vain **tietokoneella**. Mobiilissa klikkaus avaa edelleen yksittäisen vuoron.
 - Valittavissa ovat vain **tavalliset työvuorot** valitun listan aikaruudukosta (ei V-, X-, loma- tai muita koko päivän merkintöjä).
 - **Julkaistuilla listoilla** vuoroja ei voi valita eikä muokata tällä tavalla.
-- Vuorot pysyvät **valitun listan** sisällä – niitä ei siirretä toiseen listaan.
+- Vuorot pysyvät **valitun listan** sisällä. Niitä ei siirretä toiseen listaan.
 
 ## Milloin tästä on hyötyä?
 
@@ -75,6 +75,6 @@ Usean vuoron valinta nopeuttaa listan hienosäätöä:
 - **Valintapalkki** näyttää valittujen määrän ja avaa muokkausikkunan
 - **Siirto** tunteina tai päivinä eteen- tai taaksepäin
 - **Poisto** kerralla erillisellä vahvistuksella
-- **Osittainen onnistuminen** – kelvolliset vuorot käsitellään ja ongelmalliset ohitetaan
+- **Osittainen onnistuminen**: kelvolliset vuorot käsitellään ja ongelmalliset ohitetaan
 
 Haluatko tarkemman oppaan vuorojen luomisesta? Lue [Näin lisäät työvuoroita kalenteriin](/posts/vuorojen_lisaminen_kalenteriin). Toistuvien kaavojen luontiin sopii [Toistuvat työvuorot](/posts/toistuvat_tyovuorot).

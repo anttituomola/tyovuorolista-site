@@ -36,7 +36,7 @@ Kaupan TES käyttää kolmea käsitettä (12 §):
   +50 % kaikesta yli 10 h/pv tai yli 37,5 h/vk tehdystä työstä.
 
 Käytännön palkanlaskennassa ratkaiseva raja on siis **37,5 tuntia
-viikossa** (ja 10 tuntia päivässä) — ei työaikalain 40 tuntia.
+viikossa** (ja 10 tuntia päivässä), ei työaikalain 40 tuntia.
 
 ## Kokoaikainen: esimerkki 42 tunnin viikosta
 
@@ -50,11 +50,11 @@ yli 10 tunnin päivää:
 
 Jos samalla viikolla olisi ollut yksi 12 tunnin päivä, siitä olisi
 erotettu ensin 2 tuntia päiväkohtaista +50 % -työtä, ja vasta loput
-tunnit olisi verrattu viikkorajaan — samat tunnit eivät koskaan
+tunnit olisi verrattu viikkorajaan, samat tunnit eivät koskaan
 korotu kahdesti.
 
 Viikon työaikaan lasketaan myös viikon aikana annettu **vuosivapaa**
-(12 § 6) — vuosivapaapäivä ei siis siirrä korotusrajaa kauemmas.
+(12 § 6). Vuosivapaapäivä ei siis siirrä korotusrajaa kauemmas.
 
 ## Osa-aikainen: sovitut tunnit ratkaisevat
 
@@ -83,7 +83,7 @@ Esimerkiksi 13 tunnin päivästä: 10 h yksinkertaisena, 2 h +50 % ja
 ylimenevää tuntia olisivat +50 %.
 
 Tämän takia sovelluksessa työntekijälle valitaan työntekijäryhmä
-(myyjä / logistiikka / toimihenkilö / siivooja) — sama tuntimäärä voi
+(myyjä / logistiikka / toimihenkilö / siivooja), sama tuntimäärä voi
 luokittua eri tavalla eri ryhmissä.
 
 ## Tasoittumisjaksossa lasketaan jakson lopussa
@@ -104,7 +104,7 @@ jo suunnitteluvaiheessa, kun viikko on kasvamassa yli 37,5 tunnin:
 Palkkaraporteissa tunnit jaotellaan valmiiksi: työtunnit, lisätyö,
 ylityö +50 % ja +100 % omille riveilleen, palkkalajikoodit
 mapattavissa omaan palkanlaskentaan. Varoitukset eivät estä
-tallentamista — paikallinen sopiminen on kaupan alalla laajaa, ja
+tallentamista. Paikallinen sopiminen on kaupan alalla laajaa, ja
 sovellus jättää tulkinnan sinulle.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).

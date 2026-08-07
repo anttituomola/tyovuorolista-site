@@ -72,13 +72,13 @@ Kun klikkaat olemassa olevaa lomatoivetta kalenterissa, avautuu muokkausmodaali,
 
 ## Lomatoiveen hyväksyminen suunnittelukalenterista
 
-Lomatoiveita voi hyväksyä myös suoraan **Suunnittele**-näkymän kalenterista – sinun ei tarvitse siirtyä erikseen Lomasuunnittelu-näkymään.
+Lomatoiveita voi hyväksyä myös suoraan **Suunnittele**-näkymän kalenterista, sinun ei tarvitse siirtyä erikseen Lomasuunnittelu-näkymään.
 
 1. Avaa työvuorolista, jolla lomatoive näkyy (lomatoiveet näkyvät suunnittelukalenterissa)
 2. Klikkaa lomatoivetta kalenterissa
 3. Paina modaalissa vihreää **Hyväksy lomatoive** -painiketta
 
-Lomatoive muuttuu vahvistetuksi vuosilomaksi (VL). Sen jälkeen loma näkyy myös julkaistavissa listoissa ja työntekijöille lähetettävissä sähköposteissa – toisin kuin pelkkä lomatoive.
+Lomatoive muuttuu vahvistetuksi vuosilomaksi (VL). Sen jälkeen loma näkyy myös julkaistavissa listoissa ja työntekijöille lähetettävissä sähköposteissa. Toisin kuin pelkkä lomatoive.
 
 <img src="/blogPostImages/lomasuunnittelu/hyvaksy_lomatoive_kalenterissa.png" alt="Hyväksy lomatoive -painike suunnittelukalenterin vuoromodaalissa" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 

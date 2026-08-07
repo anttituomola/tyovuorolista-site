@@ -48,7 +48,7 @@ Voit lähettää henkilökohtaiset työvuorolistat työntekijöille sähköposti
 - Avautuu modaali, jossa on listattu kaikki tiimin työntekijät, ja valittu ne, joilla on vuoroja listalla.
 - Voit valita myös työntekijöitä, joilla ei ole vuoroja listalla. Voit myös poistaa valinnan työntekijöiltä, joille et halua listaa lähettää.
 - Paina **Lähetä sähköpostit** tai **Esikatsele sähköpostit** (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)), jolloin valituille työntekijöille lähetetään sähköpostilla heidän henkilökohtaiset työvuorolistansa. [Työntekijät ilman sähköpostiosoitetta](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta) ohitetaan automaattisesti. Saat erillisen notifikaation jokaisesta lähetyksestä.
-- Jos aiemmissa lähetyksissä on ollut ongelmia, modaali näyttää [punaisen varoituksen toimitusongelmista](/posts/sahkopostin_toimitusongelmat_varoitus) – tarkista osoitteet ennen uutta lähetystä.
+- Jos aiemmissa lähetyksissä on ollut ongelmia, modaali näyttää [punaisen varoituksen toimitusongelmista](/posts/sahkopostin_toimitusongelmat_varoitus). Tarkista osoitteet ennen uutta lähetystä.
 
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_notifikaatiot.png" alt="Työvuorolistan lähetysnotifikaatiot" width="50%" style="max-width: 600px; display: block; margin: 20px auto;" />
 

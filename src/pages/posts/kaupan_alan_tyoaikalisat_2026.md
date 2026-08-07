@@ -19,8 +19,7 @@ tags: ['TES', 'kaupan ala', 'iltalisä', 'yölisä', 'lauantailisä', 'palkanlas
 iltalisä on klo **18–24**, yölisä klo **00–06** ja lauantailisä
 arkilauantaina klo **13–24**. Summat eroavat pääkaupunkiseudun
 (Helsinki, Espoo, Kauniainen, Vantaa) ja muun Suomen välillä. Lisät ovat
-pysyneet samoina 1.5.2022 alkaen sopimuskauden loppuun (31.1.2028) —
-poikkeuksena logistiikan yölisä 1.10.2026.
+pysyneet samoina 1.5.2022 alkaen sopimuskauden loppuun (31.1.2028). Poikkeuksena logistiikan yölisä 1.10.2026.
 
 Sunnuntain tuplapalkasta ja aattoiltalisän peukalosäännöistä lisää:
 [Sunnuntai-, ilta- ja aattolisät kaupan alalla](/posts/sunnuntai_ja_aattolisat_kaupan_alalla).
@@ -67,7 +66,7 @@ soveltaa myyjien 14 §:n ikkunoita.
 Toimihenkilöillä ilta-/yölisä on sama euromäärä koko ikkunalle
 18–06 (PKS 2,02 €/h, muu Suomi 1,89 €/h), sunnuntaina kaksinkertaisena.
 Siivoojilla iltalisä on noin 0,95 €/h (18–22) ja yölisä noin 1,79 €/h
-(22–06) — tarkat luvut palkkaliitteestä.
+(22–06). Tarkat luvut palkkaliitteestä.
 
 ## Muut erikoislisät (ei euromääräisiä taulukoita)
 
@@ -75,7 +74,7 @@ Siivoojilla iltalisä on noin 0,95 €/h (18–22) ja yölisä noin 1,79 €/h
 - **Pakkashuone** +20 % kyseisiltä tunneilta
 - **Hälytysraha** 2 tunnin palkka + muu hälytystyön palkka
 - **Vastuulisä** ja **myymälänhoitajan sijaisuuslisä** voimassa
-  **30.9.2026 asti** — poistuvat palkkausuudistuksen yhteydessä
+  **30.9.2026 asti**. Poistuvat palkkausuudistuksen yhteydessä
 
 ## Esimerkki: perjantain iltavuoro + lauantai
 
@@ -92,7 +91,7 @@ Peruspalkka juoksee erikseen; lisät eivät korota toisiaan.
 
 TES-tuki luokittelee tunnit kategorioihin (ilta, yö, lauantai, aattoilta,
 sunnuntai…) ja palkkaraportissa rivit saa vietyä omilla
-palkkalajikoodeillaan — myös
+palkkalajikoodeillaan, myös
 [Procountor-muotoon](/posts/procountor_palkka_vienti).
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).

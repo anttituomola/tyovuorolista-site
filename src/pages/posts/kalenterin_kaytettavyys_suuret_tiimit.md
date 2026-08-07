@@ -12,8 +12,8 @@ tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'käyttöliittymä']
 
 ## Lyhyesti
 
-- **Työntekijät kahteen sarakkeeseen** – suuren tiimin lista mahtuu paremmin näytölle.
-- **Vapaa / tapahtuma -rivi** – yksi klikkaus avaa yhteisen ikkunan.
+- **Työntekijät kahteen sarakkeeseen**: suuren tiimin lista mahtuu paremmin näytölle.
+- **Vapaa / tapahtuma -rivi**: yksi klikkaus avaa yhteisen ikkunan.
 - Valitse joko **työntekijän vapaa** tai **yhteinen tapahtuma** samasta paikasta.
 
 <img src="/blogPostImages/kalenterin-kaytettavyys/hero.png" alt="Kalenteri kahden sarakkeen työntekijänäkymällä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
@@ -47,7 +47,7 @@ Lisää tiimille yhteinen muistiinpano tai tapahtuma (esim. juhla, huolto, sulku
 
 <img src="/blogPostImages/kalenterin-kaytettavyys/modal-tapahtuma.png" alt="Ikkuna: yhteinen tapahtuma" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Aikaisempi erillinen muistiinpano-painike työntekijälistan yläreunasta poistettiin – sama asia hoituu nyt suoraan kalenterista.
+Aikaisempi erillinen muistiinpano-painike työntekijälistan yläreunasta poistettiin. Sama asia hoituu nyt suoraan kalenterista.
 
 ## Näin kokeilet
 

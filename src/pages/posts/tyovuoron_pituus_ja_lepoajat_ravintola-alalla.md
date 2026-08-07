@@ -15,7 +15,7 @@ tags: ['TES', 'MaRa', 'työvuoro', 'lepoajat', 'tauot', 'työaikalaki', 'ravinto
 ---
 
 **Lyhyesti:** MaRa-TES:n mukaan työvuoron pituus on **vähintään 4
-tuntia** ja **enintään 10 tuntia** — suostumuksella vuoroa voi
+tuntia** ja **enintään 10 tuntia**. Suostumuksella vuoroa voi
 pidentää, mutta vuorokauden työaika ei saa ylittää **16 tuntia**.
 Työvuorojen väliin jää lepoaikaa **vähintään 11 tuntia**, ellei
 työntekijän kanssa sovita lyhyemmästä, kuitenkin aina **vähintään 8
@@ -25,14 +25,14 @@ minuutin ruokatauko** tai tilaisuus aterioida työn lomassa.
 Tämä postaus kokoaa neljä aiemmin erikseen käsiteltyä sääntöä yhdeksi
 kokonaisuudeksi: vuoron minimi- ja maksimipituuden, vuorokauden
 enimmäistyöajan ja vuorojen välisen lepoajan. Rajat tulevat
-MaRa-työehtosopimuksesta — työaikalaki asettaa omat yleisrajansa, mutta
+MaRa-työehtosopimuksesta. Työaikalaki asettaa omat yleisrajansa, mutta
 TES voi niistä poiketa, ja ravintola-alalla se poikkeaakin.
 
 ## Työvuoron minimipituus: 4 tuntia
 
 **Lyhyesti:** Työvuoron pituuden tulee olla vähintään **4 tuntia**.
 Lyhyempi vuoro on mahdollinen työntekijän pyynnöstä tai perustellusta
-syystä — ja syy pitää kertoa työntekijälle ennen työvuorolistan
+syystä, ja syy pitää kertoa työntekijälle ennen työvuorolistan
 laatimista.
 
 Perusteltu syy voi liittyä MaRa-TES:n mukaan esimerkiksi palvelujen
@@ -43,12 +43,12 @@ luonteeltaan lyhytkestoista.
 
 Perusteltu syy ei kuitenkaan ole mikä tahansa syy. Tuntien pilkkominen
 usealle työntekijälle kolmen tunnin pätkiin pelkän mukavuuden vuoksi ei
-ole perusteltua — ja alle neljän tunnin vuoroista pitää aina kertoa
+ole perusteltua, ja alle neljän tunnin vuoroista pitää aina kertoa
 työntekijälle ennen kuin lista tehdään.
 
 **Esimerkki:** Ravintolan lounasruuhka kestää klo 11–14. Kolmen tunnin
-lounasvuoro on mahdollinen, kunhan työntekijälle on kerrottu syy —
-kysynnän mukainen työvoimatarve — ennen listan laatimista. Ilman
+lounasvuoro on mahdollinen, kunhan työntekijälle on kerrottu syy
+(kysynnän mukainen työvoimatarve) ennen listan laatimista. Ilman
 ennakkotietoa vuoron pitäisi olla vähintään 4 tuntia.
 
 ## Työvuoron maksimipituus ja pisin sallittu työpäivä: 10 h / 16 h
@@ -62,13 +62,13 @@ MaRa-TES:n tarkat määräykset:
 - Kymmenen tunnin pituisia työvuoroja **ei saa teettää kohtuuttomasti**
 - Työntekijän **toivomuksesta tai suostumuksella** voidaan tehdä myös
   peräkkäisiä 10 tunnin työvuoroja
-- **Vuorokautinen työaika saa olla enintään 16 tuntia** — tämä on
+- **Vuorokautinen työaika saa olla enintään 16 tuntia**, tämä on
   sopimuksen suora enimmäisraja, ei johdannainen muista säännöistä
 
 16 tunnin vuorokausiraja koskee vuorokauden kaikkia työtunteja, olipa ne
 yhdessä pitkässä vuorossa tai kahdessa erillisessä vuorossa. Käytännössä
 sen saavuttaminen edellyttää myös vuorojen välisen lepoajan tiukkaa
-aikataulutusta — katso seuraava osio.
+aikataulutusta. Katso seuraava osio.
 
 **Esimerkki:** Tarjoilijan vuoro on klo 14–02 eli 12 tuntia. Vuoro
 ylittää 10 tunnin enimmäispituuden, joten se vaatii työntekijän
@@ -87,22 +87,22 @@ vähintään 10 tunnin vuorojen väliin on kuitenkin aina jätettävä
 Sääntö tulee MaRa-TES:stä, joka poikkeaa työaikalain yleissäännöstä.
 Työaikalain 25 §:n mukaan työntekijälle on annettava jokaisen työvuoron
 alkamista seuraavan 24 tunnin aikana vähintään 11 tunnin keskeytymätön
-lepoaika — mutta työaikalaki sallii työehtosopimuksella poikkeamisen, ja
+lepoaika, mutta työaikalaki sallii työehtosopimuksella poikkeamisen, ja
 MaRa-TES käyttää tätä mahdollisuutta: 11 tunnin lepoajasta voidaan
 työntekijän kanssa sopia alas 8 tuntiin asti.
 
 Huomioita säännön yksityiskohdista:
 
 - Sopimus alle 11 tunnin lepoajasta on voimassa, **kunnes jompikumpi
-  toisin ilmoittaa** — kuitenkin aina jo julkaistun työvuorolistan
+  toisin ilmoittaa**. Kuitenkin aina jo julkaistun työvuorolistan
   loppuun saakka. Työnantaja ei siis voi irtisanoa sopimusta kesken
   julkaistun jakson.
 - **Peräkkäiset vähintään 10 tunnin vuorot** vaativat aina 11 tunnin
-  lepoajan — alle 11 tunnin sopimus ei päde niiden välissä.
+  lepoajan. Alle 11 tunnin sopimus ei päde niiden välissä.
 
 **Esimerkki 1:** Työntekijä on töissä tänään klo 15–02 eli 11 tuntia.
 Huomisen vuoro on 10-tuntinen. Koska kyseessä on peräkkäiset vähintään
-10 tunnin vuorot, lepoajan on oltava 11 tuntia — huominen vuoro voi
+10 tunnin vuorot, lepoajan on oltava 11 tuntia. Huominen vuoro voi
 alkaa aikaisintaan klo 13.
 
 **Esimerkki 2:** Sama päivä klo 15–02, mutta huominen vuoro on
@@ -125,7 +125,7 @@ vapaasti poistua työpaikalta.
 
 Työaikalain 24 §:n yleissääntö on vähintään tunnin tauko yli kuuden
 tunnin työpäivässä, mutta laki sallii sopimalla lyhentämisen puoleen
-tuntiin — ja vuoro- ja jaksotyössä lähtökohta on suoraan vähintään
+tuntiin, ja vuoro- ja jaksotyössä lähtökohta on suoraan vähintään
 puolen tunnin tauko tai tilaisuus aterioida työn aikana. MaRa-TES:n
 määräys vastaa lain vuorotyömallia, joten ravintola-alalla tunnin
 ruokataukoa ei sovelleta sellaisenaan.
@@ -139,7 +139,7 @@ TES:n määräykset kokonaisuudessaan:
   työntekijällä pitää olla mahdollisuus nauttia virvokkeita työn
   lomassa.
 - **Ruokatauko:** yhdenjaksoisen työajan ylittäessä 6 tuntia annetaan
-  kahvitauon lisäksi vähintään puolen tunnin lepoaika — tai työrytmi
+  kahvitauon lisäksi vähintään puolen tunnin lepoaika, tai työrytmi
   huomioiden tilaisuus aterioida ruokailuun soveltuvassa tilassa.
   Ravintola-arjessa jälkimmäinen on tavallinen: kun salia ei voi jättää
   tyhjilleen, syödään työajalla, eikä siitä vähennetä palkkaa.
@@ -156,7 +156,7 @@ TES:n määräykset kokonaisuudessaan:
 salia tarjotessaan taukotilassa, valmiina palaamaan tarvittaessa. Koska
 työntekijä ei voi vapaasti poistua, ruokailu on työaikaa: koko 8 tuntia
 on palkallista. Jos samassa vuorossa olisi aito 30 minuutin palkaton
-ruokatauko, palkallista aikaa olisi 7,5 tuntia — ja taukoa ei saisi
+ruokatauko, palkallista aikaa olisi 7,5 tuntia, ja taukoa ei saisi
 sijoittaa klo 10:een tai 17:30 alkavaksi.
 
 ## Näitä rajoja ei tarvitse muistaa ulkoa
@@ -165,7 +165,7 @@ sijoittaa klo 10:een tai 17:30 alkavaksi.
 seuraa näitä säädöksiä puolestasi: sovellus huomauttaa, kun olet
 tekemässä alle 4 tunnin tai yli 10 tunnin vuoroa, ja varoittaa, jos
 vuorojen välinen lepoaika jää vaadittua lyhyemmäksi. Sovellus on
-joustava — se sallii poikkeukset, koska tilanteet ovat tilanteita — mutta
+joustava: se sallii poikkeukset, koska tilanteet ovat tilanteita, mutta
 kertoo aina selvästi, milloin vuoro on suosituksen vastainen tai
 sääntöjen rajoilla. Päätös on aina sinun.
 

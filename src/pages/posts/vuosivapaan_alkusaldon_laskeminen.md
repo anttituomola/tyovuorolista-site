@@ -16,7 +16,7 @@ toimipaikassa, jossa työntekijät ovat tehneet töitä jo pitkään, sovellus e
 tiedä aiempia tunteja. Ne tuodaan mukaan kertaalleen, jotta kertymä jatkuu
 oikeasta kohdasta eikä ala virheellisesti nollasta. Homma hoituu **ohjatulla
 syötöllä**, jossa voit joko aloittaa nollasta, antaa karkean arvion päivissä
-tai — jos data löytyy — syöttää tarkat tunnit.
+tai, jos data löytyy, syöttää tarkat tunnit.
 
 ## Mistä saldot asetetaan
 
@@ -32,21 +32,21 @@ Saldot löytyvät kahdesta paikasta, ja molemmat avaavat saman ohjatun näkymän
 
 Kun avaat Vuosivapaasaldot ensimmäistä kertaa, sovellus kysyy vain yhden
 kysymyksen: **onko työntekijöillä kertyneitä vuosivapaita jo ennestään?**
-Jos ei ole (tai et ole varma), yksi klikkaus — *Ei, aloita kaikki
-nollasta* — ja käyttöönotto on valmis: kertymä lähtee käyntiin tästä
+Jos ei ole (tai et ole varma), yksi klikkaus (*Ei, aloita kaikki
+nollasta*) ja käyttöönotto on valmis: kertymä lähtee käyntiin tästä
 päivästä eteenpäin. Saldoja voi aina täydentää myöhemmin työntekijän
 tiedoista.
 
 <img src="/blogPostImages/tes-tuki/vuosivapaasaldot-roster.png" alt="Vuosivapaasaldot-lista Työehtosopimus-sivulla: jokaisella työntekijällä tila ja saldo, ylhäällä Aloita loput nollasta -painike" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Jos osalla työntekijöistä on kertymää ja osalla ei, syötä saldot niille
-joilla on, ja paina lopuksi **Aloita loput nollasta** — se vahvistaa
+joilla on, ja paina lopuksi **Aloita loput nollasta**. Se vahvistaa
 nollasaldon kerralla kaikille vielä tarkistamattomille.
 
 ## Ohjattu syöttö: kolme tapaa
 
 Kun avaat työntekijän saldon, valitset kuluvalle vuodelle yhden kolmesta
-tavasta. Oletuksena näytetään vain **kuluva vuosi** — aiemmat vuodet saat
+tavasta. Oletuksena näytetään vain **kuluva vuosi**. Aiemmat vuodet saat
 esiin *Lisää aiempi vuosi* -painikkeella, jos siirtymää on.
 
 <img src="/blogPostImages/tes-tuki/vuosivapaa-ohjattu-syotto.png" alt="Ohjattu vuosivapaan syöttö: valittuna Arvio päivissä, kentät Kertynyt vuosivapaa ja Vielä antamatta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
@@ -61,13 +61,13 @@ toteutuneista tunneista tästä eteenpäin.
 
 Tämä riittää useimmiten. Syötät kaksi lukua päivinä:
 
-- **Kertynyt vuosivapaa (pv)** — suunnilleen montako vuosivapaapäivää on
+- **Kertynyt vuosivapaa (pv)**: suunnilleen montako vuosivapaapäivää on
   kertynyt tänä vuonna tähän mennessä
-- **Vielä antamatta (pv)** — montako niistä on vielä pitämättä
+- **Vielä antamatta (pv)**: montako niistä on vielä pitämättä
 
 Esimerkiksi "tälle on kertynyt tänä vuonna noin 6 päivää, joista 2 on vielä
 antamatta". Sovellus muuntaa arviot tunneiksi puolestasi. Et voi vahingossa
-antaa enempää kuin on kertynyt — jos vielä antamatta -luku on suurempi kuin
+antaa enempää kuin on kertynyt: jos vielä antamatta -luku on suurempi kuin
 kertynyt, ohjelma huomauttaa eikä anna tallentaa.
 
 ### 3. Tarkat tunnit tiedossa
@@ -75,9 +75,9 @@ kertynyt, ohjelma huomauttaa eikä anna tallentaa.
 Käytä tätä vain, jos sinulla on tarkat kertymätunnit palkkaohjelmasta tai
 aiemmasta järjestelmästä. Syötät:
 
-- **Kertymätunnit saldopäivänä** — toteutuneet työtunnit, joihin
+- **Kertymätunnit saldopäivänä**: toteutuneet työtunnit, joihin
   kertymäportaikko perustuu
-- **Käyttämättömät oikeustunnit (h)** — vielä antamatta oleva vuosivapaa
+- **Käyttämättömät oikeustunnit (h)**: vielä antamatta oleva vuosivapaa
   tunteina
 
 Tarkat tunnit pitävät kertymäportaikon oikeassa kohdassa: 1050 h ≠ 1200 h,
@@ -124,7 +124,7 @@ porrastus.)
   Sovellus näyttää siirtymän erikseen omalla määräpäivällään (MaRa: seuraavan
   vuoden loppuun; Kaupan/Kipa: pääsääntöisesti seuraavan huhtikuun loppuun).
 - **Etkä tiedä tarkkoja lukuja.** Käytä *arvio päivissä* -tapaa ja pyöristä
-  mieluummin alaspäin — liian pieni saldo korjaantuu uusista tunneista, liian
+  mieluummin alaspäin. Liian pieni saldo korjaantuu uusista tunneista, liian
   suuri voi näyttää virheellisesti suuren jäljellä olevan määrän.
 
 ## Vuodenvaihteen jälkeen
@@ -146,7 +146,7 @@ Tyovuorolista.fi erottaa toisistaan:
 
 Saldo näkyy Tuntien kirjaus -sivulla työnantajalle ja
 [Oma-portaalissa](/posts/oma_portaali_ohje) työntekijälle. Näytetty
-"kertynyt" tarkoittaa kuluvaa vuotta — se **ei** ole koko käytettävissä oleva
+"kertynyt" tarkoittaa kuluvaa vuotta. Se **ei** ole koko käytettävissä oleva
 saldo, jos edelliseltä vuodelta on siirtymää.
 
 ---

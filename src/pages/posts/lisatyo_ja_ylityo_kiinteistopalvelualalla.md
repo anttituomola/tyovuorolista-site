@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Lisätyö ja ylityö kiinteistöpalvelualalla — 40 tunnin raja ratkaisee'
+title: 'Lisätyö ja ylityö kiinteistöpalvelualalla: 40 tunnin raja ratkaisee'
 pubDate: 2026-08-10
 description: 'KipaTES:ssä lisätyö ulottuu 40 tuntiin asti ja ylityö alkaa sen jälkeen: päivässä 2 ensimmäistä tuntia +50 %, viikossa 8 ensimmäistä +50 %. Koska viikkotyöaika on 37,5 h, +50 %:n kaista on käytännössä 10,5 tuntia.'
 reviewedDate: 2026-08-06
@@ -22,7 +22,7 @@ viikkotasolla 40 tunnin jälkeen ensimmäisiltä kahdeksalta +50 %.
 Koska säännöllinen viikkotyöaika on 37,5 tuntia, käytännössä **37,5:stä
 48:een tuntiin muodostuu yksi 10,5 tunnin +50 %:n kaista**.
 
-## Lisätyö vai ylityö — 40 tunnin raja
+## Lisätyö vai ylityö: 40 tunnin raja
 
 **Lisätyötä** on työ, joka ylittää työntekijälle sovitun työajan mutta
 jää enimmäään 40 tuntiin viikossa. **Ylityötä** on vasta 40 tunnin
@@ -39,7 +39,7 @@ Korvaukset määräytyvät kahdella tasolla (TES 10 § 1):
 Lisäksi sopimuksessa on palvelualoille epätavallinen kohta: kun
 säännöllinen työaika on enintään 37,5 h/vk, myös **37,5–40 tunnin
 lisätyö korotetaan +50 %:lla**. Näin ollen kokoaikaisen korotettu
-+50 %:n kaista on yhtenäisenä 37,5 tunnista 48 tuntiin — yhteensä 10,5
++50 %:n kaista on yhtenäisenä 37,5 tunnista 48 tuntiin. Yhteensä 10,5
 tuntia, josta 2,5 on korotettua lisätyötä.
 
 ## Sopimuksen oma esimerkki: 54 tunnin viikko
@@ -56,20 +56,20 @@ TES:n täystekstin esimerkissä työntekijän viikkototeuma on
 | 7 h viikkoylityötä (40 → 47 laskentaan jäävistä tunneista) | +50 % |
 
 Huomaa, että päiväylityötunnit karsitaan pois ennen viikkotason
-laskentaa — samoja tunteja ei koroteta kahdesti.
+laskentaa. Samoja tunteja ei koroteta kahdesti.
 
 ## Osa-aikaisella +50 % alkaa vasta 37,5 tunnista
 
 PAM:n Työelämäoppaan lisätyötulkinnan (päivitetty 4.2.2026) mukaan
 osa-aikaisen työntekijän tunnit **sopimustunneista 37,5 tuntiin
-maksetaan normaalilla tuntipalkalla** — korotettu +50 %:n kaista alkaa
+maksetaan normaalilla tuntipalkalla**. Korotettu +50 %:n kaista alkaa
 TES:n säännöllisestä enimmäistyöajasta eli 37,5 tunnista, ei
 työntekijän omista sopimustunneista.
 
 Esimerkki: työntekijän sopimus on 30 h/vk ja toteuma 44 h.
 Tunnit 30 → 37,5 ovat lisätyötä yksinkertaisella tuntipalkalla (7,5 h),
 ja vasta tunnit 37,5 → 44 korotetaan +50 %:lla (6,5 h). Tämä on yleinen
-virhekohta käsin laskettaessa — ja siksi
+virhekohta käsin laskettaessa, ja siksi
 [sopimustuntien kirjaaminen](/posts/tyotunnit_tyosopimuksessa)
 järjestelmään kannattaa.
 
@@ -79,7 +79,7 @@ Lisä- ja ylityölaskennassa työssäolon veroiseksi ajaksi luetaan
 vuosiloman lisäksi TES:n mukainen palkallinen sairausloma ja alle
 10-vuotiaan lapsen äkillisestä sairastumisesta johtuva tilapäinen
 poissaolo (10 § 1). Toisin sanoen lomaviikon jälkeinen kiireviikko ei
-kevennä laskentaa — lomapäivät täyttävät viikon perustunnit
+kevennä laskentaa. Lomapäivät täyttävät viikon perustunnit
 normaalisti.
 
 ## Tasoittumisjärjestelmä muuttaa kaiken

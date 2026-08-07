@@ -39,12 +39,12 @@ Tämä toiminto säästää aikaa, kun haluat luoda samanlaisia vuoroja useille 
 
 Kun kopioit työvuoron, uusi vuoro sisältää samat tiedot kuin alkuperäinen:
 
-- **Työntekijä** – sama työntekijä kuin alkuperäisessä vuorossa
-- **Aikataulu** – sama kesto, mutta uusi alkamisaika/päivämäärä
-- **Vuoron tyyppi** – työvuoro, loma, lomatoive, vapaapäivä, X-päivä
-- **Muistiinpanot** – kaikki vuoron muistiinpanot
-- **Resurssi** – auto, työkalu tai muu resurssi (lue lisää [resurssien aikataulutuksesta](/posts/resurssien_aikataulutus_ominaisuus))
-- **Väri** – työntekijän väri säilyy samana
+- **Työntekijä**: sama työntekijä kuin alkuperäisessä vuorossa
+- **Aikataulu**: sama kesto, mutta uusi alkamisaika/päivämäärä
+- **Vuoron tyyppi**: työvuoro, loma, lomatoive, vapaapäivä, X-päivä
+- **Muistiinpanot**: kaikki vuoron muistiinpanot
+- **Resurssi**: auto, työkalu tai muu resurssi (lue lisää [resurssien aikataulutuksesta](/posts/resurssien_aikataulutus_ominaisuus))
+- **Väri**: työntekijän väri säilyy samana
 
 ## Käytännön esimerkkejä
 
@@ -77,7 +77,7 @@ ALT-raahaus on nopea tapa kopioida työvuoroja kalenterissa:
 
 - **Nopeampi** kuin manuaalinen luonti useille päiville
 - **Säilyttää** kaikki vuoron tiedot
-- **Yksinkertainen** – pidä ALT pohjassa ja raahaa
+- **Yksinkertainen**: pidä ALT pohjassa ja raahaa
 - **Toimii** kaikilla vuorotyypeillä
 
-Kokeile seuraavan kerran, kun luot toistuvia vuoroja! Julkaistuilla listoilla kopiointi ei ole mahdollista – lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille).
+Kokeile seuraavan kerran, kun luot toistuvia vuoroja! Julkaistuilla listoilla kopiointi ei ole mahdollista. Lue lisää [työvuorolistojen julkaisemisesta](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille).

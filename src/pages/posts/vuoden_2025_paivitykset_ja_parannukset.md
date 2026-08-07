@@ -92,12 +92,12 @@ Työvuorolista-sovellukseen lisättiin mahdollisuus valita kuukausittaisen ja vu
 
 Vuoden 2025 jälkeen on julkaistu muun muassa:
 
-- **[Uusi käyttöliittymä](/posts/uusi_kayttoliittyma_navigaatio_listat_ja_tiimit)** – selkeämpi navigaatio, listat ja tiimit
-- **[Hinnoittelun uudistus maaliskuu 2026](/posts/hinnoittelun_uudistus_maaliskuu_2026)** – uudet kuukausihinnat
-- **[Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa)** – resurssit PDF:ssä ja tulosteissa
-- **[Henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten_tyovuorolistojen_tulostus)** – tulosta tiimin ja henkilökohtaiset listat
-- **[Listan pituuden valinta](/posts/listan_pituuden_valinta)** – 1–4 viikon listat
-- **[Vapaa viesti sähköpostiin](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)** – oman viestin lisäys lähetykseen
+- **[Uusi käyttöliittymä](/posts/uusi_kayttoliittyma_navigaatio_listat_ja_tiimit)**: selkeämpi navigaatio, listat ja tiimit
+- **[Hinnoittelun uudistus maaliskuu 2026](/posts/hinnoittelun_uudistus_maaliskuu_2026)**: uudet kuukausihinnat
+- **[Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa)**: resurssit PDF:ssä ja tulosteissa
+- **[Henkilökohtaisten listojen tulostus](/posts/henkilokohtaisten_tyovuorolistojen_tulostus)**: tulosta tiimin ja henkilökohtaiset listat
+- **[Listan pituuden valinta](/posts/listan_pituuden_valinta)**: 1–4 viikon listat
+- **[Vapaa viesti sähköpostiin](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)**: oman viestin lisäys lähetykseen
 
 ## Yhteenveto
 
@@ -110,5 +110,5 @@ Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta tai päivitystä**, jo
 - **Parannettu tilin hallinta** - helpompi tilin luominen, tilauksen ostaminen ja peruuttaminen, sekä palautteen lähetys
 - **Vuosilaskutus** - mahdollisuus maksaa laskulla vuodeksi kerrallaan
 
-Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ota yhteys tukeen](/posts/ohje_ja_tuki_chat) sovelluksen chatista — kuuntelemme mielellämme!
+Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ota yhteys tukeen](/posts/ohje_ja_tuki_chat) sovelluksen chatista. Kuuntelemme mielellämme!
 

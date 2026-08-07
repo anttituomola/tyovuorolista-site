@@ -48,7 +48,7 @@ Jos säännöllinen vuorokautinen työaika on sovittu enintään 12 tunniksi,
 korotettu palkka alkaa vasta **12 tunnin jälkeen** (+100 %).
 
 **Ilta- ja yölisiä ei makseta**, kun työaika ylittää 12 h vuorokaudessa
-(12 § 7 viimeinen kappale) — pitkän vuoron “häntä” on siis pelkkää
+(12 § 7 viimeinen kappale). Pitkän vuoron “häntä” on siis pelkkää
 korotettua palkkaa, ei lisiä päälle.
 
 ## Omat lisäikkunat (15 §)
@@ -61,8 +61,7 @@ korotettua palkkaa, ei lisiä päälle.
 
 Iltalisä on **3,73 €/h**, sunnuntaina ja pyhäpäivinä kaksinkertaisena
 (7,47 €/h). Yölisä on **4,40 €/h** 30.9.2026 asti (su/pyhä 8,79 €/h);
-**1.10.2026 alkaen 5,30 €/h** yksinkertaisena myös sunnuntaina —
-tuplaus poistuu. Lauantailisä seuraa palkkaliitteen PKS/muu Suomi
+**1.10.2026 alkaen 5,30 €/h** yksinkertaisena myös sunnuntaina. Tuplaus poistuu. Lauantailisä seuraa palkkaliitteen PKS/muu Suomi
 -taulukkoa (5,46 / 5,27 €/h).
 
 Euromäärät kootusti:
@@ -71,7 +70,7 @@ Euromäärät kootusti:
 ## Tasoittumisjakso jopa 52 viikkoon
 
 Logistiikkatyöntekijöitä koskeva pöytäkirja sallii sopia
-tasoittumisjaksosta toisin kuin 6 § 7:n 26 viikon katto — enintään
+tasoittumisjaksosta toisin kuin 6 § 7:n 26 viikon katto. Enintään
 **52 viikkoa** (pöytäkirja 3 § 3). TES 6 § 8:n rajoitukset (kuka saa
 kuulua 27–52 vk -jaksoon) **eivät koske** logistiikkaa.
 

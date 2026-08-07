@@ -16,12 +16,12 @@ Päiväkohtainen muistiinpano on **kätevä tapa ilmaista erilaisia päiväkohta
 Helpoin tapa tietokoneella:
 
 1. Klikkaa kalenterin yläreunan **Vapaa / tapahtuma** -rivillä haluamaasi päivää.
-2. Avautuu ikkuna, jossa on kaksi välilehteä – valitse **Tapahtuma**.
+2. Avautuu ikkuna, jossa on kaksi välilehteä. Valitse **Tapahtuma**.
 3. Kirjoita muistiinpano, tarkista päivämäärä (ja tarvittaessa tiimit) ja tallenna.
 
 <img src="/blogPostImages/kalenterin-kaytettavyys/modal-tapahtuma.png" alt="Vapaa / tapahtuma -ikkuna: Tapahtuma-välilehti" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Vaihtoehtoisesti voit edelleen **tuplaklikata aikaruudukkoa** (ei yläriviä) – silloin avautuu suoraan muistiinpanoikkuna valitulla päivällä.
+Vaihtoehtoisesti voit edelleen **tuplaklikata aikaruudukkoa** (ei yläriviä), silloin avautuu suoraan muistiinpanoikkuna valitulla päivällä.
 
 Tallenna, ja näet muistiinpanosi samoin tein kalenterissa ja tulostettavassa listassa.
 
@@ -52,7 +52,7 @@ Voit nyt tehdä muistiinpanoja, jotka kattavat useamman päivän. Modaalissa on 
 
 Nyt voit määritellä muistiinpanolle, onko se julkinen vai ainoastaan sisäiseen käyttöön tarkoitettu. Tapahtuma-välilehdellä (tai muistiinpanoikkunassa) on kytkin **Julkinen (näkyy kaikille tiimin jäsenille)**.
 
-Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään – kätevää esimiehille tarkoitetuille huomioille.
+Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään. Kätevää esimiehille tarkoitetuille huomioille.
 
 <img src="/blogPostImages/public_datenote.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Julkinen-kytkin tapahtumaikkunassa" />
 

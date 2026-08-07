@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ruokatauko ravintola-alalla: milloin, kuinka pitkä ja maksetaanko?'
 pubDate: 2026-07-23
-description: 'MaRa-TES:ssä yli 4 tunnin vuoroon kuuluu palkallinen kahvitauko ja yli 6 tunnin työpäivään lisäksi 30 minuutin lepoaika — tai tilaisuus ruokailla työn lomassa. Palkaton tauko on laillinen vain, jos työpaikalta saa oikeasti poistua.'
+description: 'MaRa-TES:ssä yli 4 tunnin vuoroon kuuluu palkallinen kahvitauko ja yli 6 tunnin työpäivään lisäksi 30 minuutin lepoaika, tai tilaisuus ruokailla työn lomassa. Palkaton tauko on laillinen vain, jos työpaikalta saa oikeasti poistua.'
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (7 §) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Suunnittele vuorot ja tauot TES:n mukaan'
 ctaHref: '/ominaisuudet/tes-apuri'
@@ -16,7 +16,7 @@ tags: ['TES', 'MaRa', 'ruokatauko', 'tauot', 'työaikalaki', 'ravintola-ala']
 **Lyhyesti:** MaRa-TES:ssä **yli 4 tunnin** työvuoroon kuuluu vähintään
 yksi **palkallinen kahvitauko**. Kun yhdenjaksoinen työaika ylittää
 **6 tuntia**, työntekijälle on lisäksi annettava **vähintään 30
-minuutin lepoaika** — tai tilaisuus ruokailla työn lomassa, jos työtä
+minuutin lepoaika**, tai tilaisuus ruokailla työn lomassa, jos työtä
 ei voi keskeyttää. Lepoaika on palkaton vain, jos työntekijä saa sen
 aikana **vapaasti poistua työpaikalta**. Muuten se on työaikaa, josta
 maksetaan palkka.
@@ -24,7 +24,7 @@ maksetaan palkka.
 ## Kahvitauko: yli 4 tunnin vuoroissa, aina palkallinen
 
 Kahvitauko luetaan työajaksi, eikä sen aikana saa poistua työpaikalta
-ilman työnantajan lupaa. Pituutta TES ei määrittele — käytännöt
+ilman työnantajan lupaa. Pituutta TES ei määrittele. Käytännöt
 sovitaan työpaikalla, tyypillisesti puhutaan noin vartista. Jos taukoa
 ei töiden järjestelyjen takia voida antaa (lähinnä
 yksintyöskentelyssä), työntekijällä pitää olla mahdollisuus nauttia
@@ -34,13 +34,13 @@ virvokkeita työn lomassa.
 
 Kun päivittäinen yhdenjaksoinen työaika ylittää kuusi tuntia,
 kahvitauon lisäksi on annettava **vähintään puolen tunnin lepoaika**
-— tai työrytmi huomioiden tilaisuus riittävän pitkään taukoon
+Tai työrytmi huomioiden tilaisuus riittävän pitkään taukoon
 aterioimista varten ruokailuun soveltuvassa tilassa. Jälkimmäinen on
 ravintoloiden arkea: kun salia ei voi jättää tyhjilleen, syödään
 työajalla, ja silloin mitään ei vähennetä palkasta.
 
 Työaikalain yleissääntö on tunnin ruokatauko, mutta laki sallii
-lyhentämisen puoleen tuntiin sopimalla — ja vuorotyössä lähtökohta on
+lyhentämisen puoleen tuntiin sopimalla, ja vuorotyössä lähtökohta on
 muutenkin 30 minuuttia tai ruokailu työn ohessa. MaRa-TES:n määräys
 siis vastaa lain vuorotyömallia.
 
@@ -58,15 +58,15 @@ yksinkertainen:
 
 - Jos työntekijä saa lepoajalla **vapaasti poistua työpaikalta**,
   tauko ei ole työaikaa eikä siltä makseta palkkaa
-- Jos työntekijän pitää pysyä paikalla tai käytettävissä — syödään
-  tiskin ääressä ja hypätään väliin kun asiakas tulee — tauko **on
+- Jos työntekijän pitää pysyä paikalla tai käytettävissä (syödään
+  tiskin ääressä ja hypätään väliin kun asiakas tulee), tauko **on
   työaikaa ja siitä maksetaan palkka**
 
 Laiton yhdistelmä on se tuttu: palkasta vähennetään puolen tunnin
 "ruokatauko", vaikka käytännössä kukaan ei pääse ulos ovesta. Palkaton
 tauko edellyttää todellista poistumismahdollisuutta, ei vain sitä,
 että tauko lukee listassa. Eikä kiire ole peruste jättää taukoja
-kokonaan väliin — sekin kannattaa sanoa ääneen.
+kokonaan väliin. Sekin kannattaa sanoa ääneen.
 
 ## Miten tauot näkyvät työvuorolistassa ja tunneissa?
 
@@ -77,15 +77,14 @@ palkatonta lepoaikaa: kahdeksan tunnin läsnäolo, josta vähennetään
 palkaton 30 minuuttia, on 7,5 palkallista tuntia.
 
 Tyovuorolista.fi laskee vuoron tunnit alkamisajasta päättymisaikaan
-eikä vähennä taukoja automaattisesti — MaRa-arjessa ruokailu tapahtuu
+eikä vähennä taukoja automaattisesti. MaRa-arjessa ruokailu tapahtuu
 tyypillisesti työajalla, jolloin vähennettävää ei ole. Jos
 työpaikallasi on käytössä aito palkaton ruokatauko, merkitse vuoron
 ajat palkallisen työajan mukaan, niin
 [tuntilaskenta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen)
 ja [palkkaraportti](/posts/palkkaraportti_ominaisuus) pysyvät oikeina.
 
-Huomaa, että tämä postaus käsittelee vuoron **sisäisiä** taukoja —
-vuorojen **väliin** jäävästä lepoajasta (11 h / 8 h) kerron
+Huomaa, että tämä postaus käsittelee vuoron **sisäisiä** taukoja. Vuorojen **väliin** jäävästä lepoajasta (11 h / 8 h) kerron
 [pituus- ja lepoaikapostauksessa](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
 ---

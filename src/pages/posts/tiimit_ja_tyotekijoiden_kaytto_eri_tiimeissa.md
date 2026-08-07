@@ -24,7 +24,7 @@ Työntekijät voi liittää tiimeihin kahdella tapaa.
 
 1. Siirry **Hallinta → Työntekijät** (tai klikkaa nimeä kalenterissa).
 2. Avaa työntekijä → **Muokkaa**.
-3. **Asetukset**-osiossa on **Tiimit**-kenttä — valitse kaikki tiimit, joissa henkilö näkyy kalenterissa.
+3. **Asetukset**-osiossa on **Tiimit**-kenttä. Valitse kaikki tiimit, joissa henkilö näkyy kalenterissa.
 4. Paina **Tallenna**.
 
 <img src="/blogPostImages/tyovuorolista_tiimit4.png" alt="Työntekijän muokkaus: Asetukset-osiossa Tiimit-monivalinta, työntekijä sekä Salissa että Keittiössä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />

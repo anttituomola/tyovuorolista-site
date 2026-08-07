@@ -16,7 +16,7 @@ tags: ["työvuoro", "työaikalainsäädäntö", "X-päivä", "vapaat"]
 
 X-päivä on lisävapaapäivä. Se tienataan samalla tahdilla kuin
 [V-päivä](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa): viittä
-työpäivää sisältävää viikkoa kohden ansaitaan kaksi vapaapäivää — yksi
+työpäivää sisältävää viikkoa kohden ansaitaan kaksi vapaapäivää. Yksi
 V-päivä ja yksi X-päivä. (Työpäiväksi rinnastetaan myös esimerkiksi
 toiselta viikolta siirretty X-päivä ja
 [TS-päivä](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa).) Erona
@@ -25,7 +25,7 @@ työvuorolistaan on joustavampaa.
 
 ## Miten X-päivä eroaa V-päivästä?
 
-V-päivä on sidottu ansaintaviikkoonsa — sitä ei voi siirtää. X-päivä sen
+V-päivä on sidottu ansaintaviikkoonsa, sitä ei voi siirtää. X-päivä sen
 sijaan voidaan antaa **joko ansaintaviikon aikana tai muuhun vapaaseen
 yhdistäen samalla kolmiviikkoisjaksolla**. Käytännössä tämä tarkoittaa,
 että kolmen täyden työviikon aikana tienatut kolme X-päivää voidaan
@@ -35,13 +35,13 @@ tarjoamaan työntekijälle pidempi vapaajakso.
 Jos X-päivä annetaan sillä viikolla, jolta se on tienattu, se kannattaa
 sijoittaa V-päivän yhteyteen peräkkäiseksi vapaaksi. Jos X-päivä
 siirretään toiselle viikolle, se on annettava yhdistettynä johonkin
-muuhun vapaaseen — ei siis yksinäisenä vapaapäivänä keskellä työviikkoa.
+muuhun vapaaseen, ei siis yksinäisenä vapaapäivänä keskellä työviikkoa.
 
 ## Kuinka pitkä X-päivä on?
 
 X-päivä kestää vähintään **24 tuntia**, eli sitä edeltävän työvuoron
 lopun ja sitä seuraavan työvuoron alun väliin tulee jäädä vähintään 24
-tuntia. V-päivän vastaava minimi on 30 tuntia — lue lisää
+tuntia. V-päivän vastaava minimi on 30 tuntia. Lue lisää
 [työvuorojen välisistä lepoajoista](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
 ## Voiko X-päivän siirtää tasoittumisjärjestelmässä pidemmälle?

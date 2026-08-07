@@ -16,7 +16,7 @@ tags: ['TES', 'MaRa', 'kaupan ala', 'työvuoroluettelo', 'julkaisu', 'työaikala
 
 **Lyhyesti:** Työaikalaki (30 §) vaatii, että työvuoroluettelo saatetaan
 työntekijöiden tietoon **viimeistään viikkoa ennen** sen kattaman
-ajanjakson alkua — ja julkaistua listaa saa muuttaa vain työntekijän
+ajanjakson alkua, ja julkaistua listaa saa muuttaa vain työntekijän
 suostumuksella tai töiden järjestelyihin liittyvästä painavasta syystä.
 Työehtosopimukset kiristävät molempia: **MaRa-TES** vaatii listan
 viimeistään viikkoa ennen kolmiviikkoisjakson alkua ja sallii muutokset
@@ -46,13 +46,13 @@ kysynnän vaihtelua. Yllättävä sairauspoissaolo tai ennakoimaton
 tilausruuhka voi olla sellainen, mutta jos listaa muutetaan
 yksipuolisesti joka viikko, kyse ei enää ole ennalta arvaamattomasta
 syystä. Muutoksesta on ilmoitettava työntekijälle henkilökohtaisesti ja
-mahdollisimman pian — pelkkä muutos järjestelmässä ei ole ilmoitus. Jo
+mahdollisimman pian. Pelkkä muutos järjestelmässä ei ole ilmoitus. Jo
 alkanutta työvuoroa ei muuteta ilman työntekijän suostumusta.
 
 Kirjallisuusvaatimus ei tarkoita paperia: sähköposti, tulostettava PDF
 tai sovelluksen oma näkymä täyttää vaatimuksen, kun lista on
 tosiasiassa jokaisen työntekijän saatavilla. Käytännön kannalta
-olennaista on, että tiedoksiannosta jää jälki — riidassa kysymys on
+olennaista on, että tiedoksiannosta jää jälki. Riidassa kysymys on
 yleensä siitä, milloin lista annettiin tiedoksi ja mitä siinä silloin
 luki.
 
@@ -68,7 +68,7 @@ julkaistaan kerralla, ei viikko kerrallaan.
 viimeistään maanantaina 27.7.
 
 Julkaisun jälkeen listaa **ei saa muuttaa ilman työntekijän ja
-työnantajan suostumusta** — kumpikaan ei voi muuttaa sitä yksipuolisesti.
+työnantajan suostumusta**. Kumpikaan ei voi muuttaa sitä yksipuolisesti.
 Tämä on tiukempi kuin työaikalain yleissääntö: laki sallii muutoksen
 myös painavasta syystä, MaRa-TES ei. Käytännössä siis myös työnantajan
 tekemä vuoromuutos vaatii työntekijän hyväksynnän (ja toisinpäin).
@@ -90,7 +90,7 @@ alkaa maanantaina klo 00.00, ellei paikallisesti ole toisin sovittu
 tiedoksi viimeistään maanantaina **24.8.2026**.
 
 Jos julkaiset kerralla useamman viikon listan, jokaisen viikon on
-täytettävä oma määräaikansa — käytännössä siis koko lista viimeistään
+täytettävä oma määräaikansa. Käytännössä siis koko lista viimeistään
 kaksi viikkoa ennen sen **ensimmäistä** viikkoa. Loppupään viikot saavat
 tässä reilusti ylimääräistä pelivaraa, mikä on yksi hyvä syy tehdä
 pidempiä listoja kerralla.
@@ -127,7 +127,7 @@ Työvuoroluetteloon merkitään (6 § 12):
   sekä näistä laskettu keskimääräinen viikkotyöaika
 
 Kaksi ensimmäistä tulevat suoraan työaikalaista, kolmas on kaupan TES:n
-oma lisäys — ja juuri se puuttuu tyypillisesti käsin tehdystä
+oma lisäys, ja juuri se puuttuu tyypillisesti käsin tehdystä
 Excel-listasta.
 
 Ennen listan vahvistamista työntekijälle on varattava tilaisuus esittää
@@ -151,7 +151,7 @@ liittyvä painava syy. Jos julkaistu vuoro venyy, kyse on
 ## Alojen sääntöjen ero
 
 Alat menevät helposti sekaisin, koska kumpikin on tiukempi kuin toinen
-— mutta eri kohdassa.
+Mutta eri kohdassa.
 
 | | Kaupan ala | MaRa (ravintola-ala) |
 |---|---|---|
@@ -164,7 +164,7 @@ julkaistu lista on käytännössä lukittu.
 
 ## Miksi tällä on väliä?
 
-Myöhässä julkaistu lista on yleisimpiä TES-rikkeitä alalla — ja
+Myöhässä julkaistu lista on yleisimpiä TES-rikkeitä alalla, ja
 työvuoroluettelon laiminlyönti on jo nykyisin rangaistava teko. Lisäksi
 valmisteilla on [hallinnollinen
 laiminlyöntimaksu](/posts/laiminlyontimaksu_tyovuoroluettelosta_ja_tyoaikakirjanpidosta),
@@ -177,14 +177,14 @@ keskellä.
 ## Sovellus näyttää määräajan ennen kuin se ylittyy
 
 Tyovuorolista.fi näyttää julkaisun määräajan suoraan Julkaise-näkymässä
-ja laskee sen automaattisesti valitun TES:n mukaan — MaRa:n
+ja laskee sen automaattisesti valitun TES:n mukaan. MaRa:n
 kolmiviikkoisjakson tai kaupan kahden viikon säännön mukaisesti. Merkki
 muuttuu oranssiksi, kun aikaa on kolme päivää tai vähemmän, ja
 punaiseksi kun määräaika on ylittynyt:
 
 <img src="/blogPostImages/tes-tuki/julkaisun-maaraaika.png" alt="Julkaise-näkymä: punainen Julkaisuaika ylittyi -merkki listan vieressä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Myöhäisestä julkaisusta sovellus näyttää vahvistusikkunan — mutta ei
+Myöhäisestä julkaisusta sovellus näyttää vahvistusikkunan, mutta ei
 koskaan estä julkaisua, sillä myöhässäkin oleva lista on parempi kuin ei
 listaa. Julkaisun jälkeen muutetuista vuoroista sovellus huomauttaa,
 että muutos vaatii työntekijän suostumuksen. Lue lisää siitä, [miten
@@ -198,4 +198,4 @@ niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso
 
 ---
 
-*Lähteet: [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872); [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html); [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 11–16, 8 § 1, 25 §; [Työsuojeluhallinto: Työajan suunnittelu ja seuranta](https://tyosuojelu.fi/tyosuhde/tyoaika/suunnittelu-ja-seuranta); [TEM: Työaikalaki — soveltamisopas (Valtioneuvoston julkaisuarkisto)](https://julkaisut.valtioneuvosto.fi/bitstreams/71eacfe3-5be7-4638-885d-32e21c70442d/download)*
+*Lähteet: [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872); [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html); [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 11–16, 8 § 1, 25 §; [Työsuojeluhallinto: Työajan suunnittelu ja seuranta](https://tyosuojelu.fi/tyosuhde/tyoaika/suunnittelu-ja-seuranta); [TEM: Työaikalaki. Soveltamisopas (Valtioneuvoston julkaisuarkisto)](https://julkaisut.valtioneuvosto.fi/bitstreams/71eacfe3-5be7-4638-885d-32e21c70442d/download)*

@@ -20,7 +20,7 @@ tasoittumisjärjestelmän**, jonka aikana viikkotyöaika tasoittuu tähän
 keskiarvoon. Yksittäinen viikko saa silti olla enintään **48 tuntia**, ja
 kolmen viikon jaksossa saa olla enintään **9 yli 8 tunnin työvuoroa**
 (ellei pidemmistä vuoroista ole sovittu). Jakson lopussa yli menevät tunnit
-tilitetään **+50 %:lla** (12 § 9) — päivittäinen yli 10 h -korotus maksetaan
+tilitetään **+50 %:lla** (12 § 9). Päivittäinen yli 10 h -korotus maksetaan
 kuitenkin heti.
 
 Sama ajatus ravintola-alalla, eri mittakaavassa:
@@ -36,7 +36,7 @@ tasoitu keskenään.
 Tasoittumisjärjestelmä siirtää vertailun yksittäisestä viikosta koko
 jaksoon. Esimerkki 12 viikon jaksosta: suunniteltu enimmäistyöaika on
 12 × 37,5 = **450 tuntia**. Yhdellä viikolla voi olla 45 tuntia ja toisella
-30, kunhan jakson summa pysyy rajassa — ja kun päiväkohtaiset yli 10 h
+30, kunhan jakson summa pysyy rajassa, ja kun päiväkohtaiset yli 10 h
 -tunnit sekä jakson lopun erotus on hoidettu TES 12 § 9:n mukaan.
 
 ## Perusmalli: 2–26 viikkoa
@@ -65,7 +65,7 @@ olevat, joiden sopimustyöaika on vähintään **30 h/viikko**; alle 37,5 h
 tekeville maksetaan suhteutettua kuukausipalkkaa.
 
 Logistiikkatyöntekijöillä 27–52 vk -jaksoa koskevat omat pöytäkirjamääräykset
-— niistä lisää
+Niistä lisää
 [logistiikkapostauksessa](/posts/logistiikkatyontekijan_erityissaannot_kaupan_alalla).
 
 ## Mitä jakson sisällä saa tapahtua?
@@ -93,7 +93,7 @@ Tasoittumisjaksossa korotettu palkka lasketaan näin:
 
 TES:n esimerkki 21 (12 vk, 450 h suunniteltu, 500 h toteuma, 12 h
 päiväylityötä): erikseen +50 % 12 tunnille ja jakson erotuksesta 38
-tunnille — yhteensä 50 tuntia +50 %.
+tunnille. Yhteensä 50 tuntia +50 %.
 
 Osa-aikaisella suunniteltu tuntimäärä on viikkosopimus × viikot, mutta
 korotetun palkan **enimmäisraja** on sama kuin kokoaikaisella
@@ -106,7 +106,7 @@ Tasoittuminen kannattaa, kun kysyntä vaihtelee viikkojen välillä mutta
 vuosi- tai kausitasolla tuntimäärä on ennustettava. Se ei ole keino
 välttää korotuksia: yli 10 h -päivät ja jakson lopun ylitys maksetaan
 silti. Jos jokainen viikko on jo lähellä 37,5 tuntia, järjestelmästä on
-vähän hyötyä — vain hallinnollista työtä.
+vähän hyötyä, vain hallinnollista työtä.
 
 ## Miten sovellus auttaa?
 

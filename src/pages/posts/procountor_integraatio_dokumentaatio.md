@@ -74,26 +74,26 @@ E;1001;1447;;6;;;;;;;;;
 ```
 
 Kentissä ei saa olla puolipistettä. Tiedostoa ei tarvitse muokata
-Excelissä ennen sisäänlukua — tyovuorolista.fi tuottaa valmiin CSV:n.
+Excelissä ennen sisäänlukua. Tyovuorolista.fi tuottaa valmiin CSV:n.
 
 ## Käyttöönotto tyovuorolista.fi:ssä
 
-1. **Henkilönumerot** — *Hallinta → Työntekijät → Muokkaa* → kenttä
+1. **Henkilönumerot**. *Hallinta → Työntekijät → Muokkaa* → kenttä
    *Henkilönumero (palkanlaskenta)* sama arvo kuin Procountorin
    palkansaajalla.
-2. **Palkkalajikoodit** — *Asetukset → TES-apuri → Palkkalajikoodit*.
+2. **Palkkalajikoodit**. *Asetukset → TES-apuri → Palkkalajikoodit*.
    Oletuksena Procountorin vakiorekisterin koodeja (esim. tuntipalkka
    1004, iltalisä 1447). Omat koodit voi ylikirjoittaa.
-3. **Vienti** — *Hallinta → Tuntien kirjaus* → valitse jakso ja
+3. **Vienti**. *Hallinta → Tuntien kirjaus* → valitse jakso ja
    työntekijät → *Luo palkkaraportti…* → muoto
    **Procountor (palkka-aineisto)** → *Luo raportti*.
-4. **Sisäänluku** — Procountorissa *Palkat → Uusi palkkalista* → lue
+4. **Sisäänluku**: procountorissa *Palkat → Uusi palkkalista* → lue
    ladattu CSV.
 
 <img src="/blogPostImages/procountor-vienti/procountor-modaali.png" alt="tyovuorolista.fi: palkkaraportti, Procountor-muoto valittuna" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 Jos henkilönumero puuttuu, vienti varoittaa ja käyttää sisäistä
-tunnusta — Procountor ei tällöin yleensä löydä palkansaajaa. Jos
+tunnusta. Procountor ei tällöin yleensä löydä palkansaajaa. Jos
 palkkalajikoodi puuttuu (esim. ylityö ilman vrk/vko-valintaa), kyseinen
 kategoria jätetään pois aineistosta.
 
@@ -108,7 +108,7 @@ listan Procountorissa ennen maksatusta.
 ### 2. TES-lisät mukana samassa tiedostossa
 
 Kun TES-apuri on päällä, ilta-, yö-, lauantai- ja sunnuntailisät sekä
-mahdolliset lisä-/ylityöt menevät omille palkkalajiriveilleen — ei
+mahdolliset lisä-/ylityöt menevät omille palkkalajiriveilleen, ei
 erillistä Excel-laskentaa.
 
 ### 3. Tarkistus ennen sisäänlukua
@@ -120,7 +120,7 @@ sisäänluettavaksi.
 ### 4. Useita tiimejä / toimipisteitä
 
 Vie kerralla valitut työntekijät ja jakso. Vie mieluiten **yksi
-palkkajakso kerrallaan** — sama aineisto kahdesti Procountoriin tuplaa
+palkkajakso kerrallaan**, sama aineisto kahdesti Procountoriin tuplaa
 rivit.
 
 ## Roolit yhteiskäytössä
@@ -133,7 +133,7 @@ rivit.
 ## Rajoitteet (tietoinen rajaus)
 
 - Ei API-synkronointia henkilö- tai palkkalajirekistereihin
-- Ei automaattista siirtoa taustalla — käyttäjä lataa ja lukee tiedoston
+- Ei automaattista siirtoa taustalla. Käyttäjä lataa ja lukee tiedoston
 - Ylityökoodit (vrk/vko) on valittava TES-apurissa, koska Procountor
   erottaa ne eri palkkalajeiksi
 - Integraatio ei korvaa Procountorin palkkalaskelman tarkastusta
@@ -144,7 +144,7 @@ rivit.
   [procountor_palkka_vienti](/posts/procountor_palkka_vienti)
 - Sähköposti: **info@tyovuorolista.fi**
 - Procountorin sisäänluku:
-  [help.procountor.fi — palkka-aineisto](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin)
+  [help.procountor.fi. Palkka-aineisto](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin)
   · [aineiston sisäänluku yleisesti](https://help.procountor.fi/fi/articles/531566-aineiston-sisaanluku)
 
 *Lähteet: [Palkka-aineiston sisäänluku Procountoriin (Procountor Help)](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin); tyovuorolista.fi Procountor-vienti (erittelytietue CSV).*

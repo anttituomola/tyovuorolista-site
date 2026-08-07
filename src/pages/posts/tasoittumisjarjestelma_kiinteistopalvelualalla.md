@@ -28,8 +28,8 @@ tulee 9 peräkkäisen työpäivän katto.
 Ilman tasoittumisjärjestelmää jokainen viikko seisoo omallaan: 37,5
 tunnin ylitys laukaisee heti korotetun palkan, kuten
 [lisä- ja ylityöpostauksessa](/posts/lisatyo_ja_ylityo_kiinteistopalvelualalla)
-kerroimme. Siivouksen ja kiinteistönhuollon vaihteleva kuorma —
-tilakohtaiset piikit, sesonkit ja loma-ajat — sopii usein paremmin
+kerroimme. Siivouksen ja kiinteistönhuollon vaihteleva kuorma
+(tilakohtaiset piikit, sesonkit ja loma-ajat) sopii usein paremmin
 jaksoon, jossa kiireviikot ja hiljaisviikot tasoittuvat keskenään.
 
 ## Rajat: 9 tuntia päivässä, 45 tuntia viikossa
@@ -55,14 +55,14 @@ ylityötä.
 Tämä on tasoittumisjärjestelmän yllättävin kohta (TES 10 § 1,
 laskentaohje):
 
-1. **Päiväkynnys on 10 tuntia — ja kaikki sen yli menevä on suoraan
+1. **Päiväkynnys on 10 tuntia, ja kaikki sen yli menevä on suoraan
    +100 %.** Tavallisen viikkotyön 8 tunnin kynnys ja 2 tunnin
    +50 % -porras eivät ole olemassa.
 2. Jakson lopussa yli 10 tunnin päivien tunnit vähennetään
    kokonaissummasta ja korvataan +100 %:lla.
 3. Jäljelle jääneistä tunneista vähennetään **viikot × 37,5**.
 4. Ylijäämä korotetaan +50 %:lla enintään **viikot × 10,5 tuntia**
-   (josta 2,5 h/vk on korotettua lisätyötä) — loput +100 %:lla.
+   (josta 2,5 h/vk on korotettua lisätyötä). Loput +100 %:lla.
 
 **Sopimuksen esimerkki:** työntekijä tekee 4 viikon jaksossa 197
 tuntia, joista 3 tuntia on yli 10 tunnin päiviltä.
@@ -81,7 +81,7 @@ tasoittumisjakson enimmäispituus nousee **8:sta 12 viikkoon**, ja
 keskimääräistä viikkotyöaikaa käytettäessä työvuoroluetteloon saa
 merkitä enintään **9 peräkkäistä työpäivää** (paikallisesti sopien 12).
 Jos siis suunnittelet tasoittumisen käyttöönottoa, kannattaa harkita
-suoraan vuoden 2027 säännöillä — sovellus osaa molemmat ja vaihtaa
+suoraan vuoden 2027 säännöillä. Sovellus osaa molemmat ja vaihtaa
 säännöt automaattisesti vuodenvaihteessa.
 
 ## Miten sovellus auttaa?
@@ -89,13 +89,13 @@ säännöt automaattisesti vuodenvaihteessa.
 Tyovuorolista.fi:ssä tasoittumisjakson pituus ja alkamisviikko
 määritellään Työehtosopimus-sivulla. Kalenteri valvoo päivä- ja
 viikkorajoja suunnittelun aikana, ja tunnit luokitellaan jakson lopussa
-yllä olevan kaavan mukaan — myös 10 tunnin päiväkynnyksen +100 % -erä
+yllä olevan kaavan mukaan, myös 10 tunnin päiväkynnyksen +100 % -erä
 eritellään omaksi rivikseen. Paikallisesti sovitut pidennetyt rajat
 (10 h/päivä, 26 vk jakso) kirjataan perusteluineen samalle sivulle.
 
 <img src="/blogPostImages/kipa-tes/kipa-varoitukset-kalenterissa.png" alt="Kalenterinäkymä: TES-varoitukset tasoittumisjakson työvuoroista" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Varoitukset eivät estä tallentamista — päätös ja vastuu tulkinnasta
+Varoitukset eivät estä tallentamista. Päätös ja vastuu tulkinnasta
 jäävät työnantajalle, kuten aina TES-tuessa.
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8 § 1 mom. (sis. osa-aikaisen jaksoesimerkki), 10 § 1 mom. laskentaohje (sis. 197 tunnin esimerkki) ja allekirjoituspöytäkirja kohdat 5–6 (1.1.2027 muutokset); [Kiinteistötyönantajat ry: sovitut muutokset 2025–2028](https://kiinteistotyonantajat.fi/wp-content/uploads/2025/04/kiinteistopalvelualan-tyontekijat-palkankorotukset-ja-tekstimuutokset_2025.pdf).*

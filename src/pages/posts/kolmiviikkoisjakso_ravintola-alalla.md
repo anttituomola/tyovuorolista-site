@@ -17,7 +17,7 @@ tags: ['TES', 'MaRa', 'kolmiviikkoisjakso', 'työaika', 'ravintola-ala']
 **Lyhyesti:** Matkailu- ja ravintola-alalla (MaRa-TES) kokoaikaisen
 työntekijän säännöllinen työaika on **enintään 112,5 tuntia kolmessa
 viikossa**. Jakso **alkaa aina maanantaina**, ja siihen mahtuu enintään
-15 työpäivää. Viikkokohtaista tuntirajaa ei ole — sama työntekijä voi
+15 työpäivää. Viikkokohtaista tuntirajaa ei ole, sama työntekijä voi
 tehdä yhtenä viikkona 50 tuntia ja toisena 25, kunhan jakson summa pysyy
 rajoissa.
 
@@ -26,16 +26,16 @@ rajoissa.
 Ravintola-alan työ on epätasaista: viikonloput, sesongit ja tapahtumat
 heiluttavat tunteja viikosta toiseen. Siksi MaRa-TES käyttää
 jaksotyöaikaa. Työnantaja saa jakaa 112,5 tuntia kolmen viikon sisällä
-melko vapaasti, kunhan muut määräykset — kuten [vuorojen
+melko vapaasti, kunhan muut määräykset, kuten [vuorojen
 vähimmäis- ja enimmäispituudet sekä
 lepoajat](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla) ja
-vapaapäivät — täyttyvät.
+vapaapäivät. Täyttyvät.
 
 ## Jakson tärkeimmät säännöt
 
 - **112,5 tuntia** on kokoaikaisen jakson enimmäistyöaika; osa-aikaisella
   raja on työsopimuksen tuntimäärä
-- Jakso **alkaa aina maanantaina** — jaksorytmi on kiinteä, se ei siirry
+- Jakso **alkaa aina maanantaina**. Jaksorytmi on kiinteä, se ei siirry
   listojen mukana
 - Jaksossa saa olla **enintään 15 työpäivää**
 - Jokaista viittä työpäivää kohti ansaitaan kaksi vapaapäivää:
@@ -84,7 +84,7 @@ tahansa jakson tunnit yhdellä klikkauksella.
 [Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
 seuraa tätäkin säädöstä puolestasi: sovellus laskee jokaisen työntekijän
 jakson tunnit suunnitellessa ja varoittaa, kun 112,5 tunnin raja lähestyy
-tai ylittyy — ennen kuin lista on julkaistu ja tunnit tehty.
+tai ylittyy, ennen kuin lista on julkaistu ja tunnit tehty.
 
 ---
 

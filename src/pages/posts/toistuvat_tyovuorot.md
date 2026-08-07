@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Toistuvat työvuorot – luo sama vuoro kerralla usealle päivälle'
+title: 'Toistuvat työvuorot: luo sama vuoro kerralla usealle päivälle'
 pubDate: 2026-05-31
 description: 'Voit nyt toistaa työvuoron listan loppuun asti valitulla kaavalla: arkipäivät, viikoittain, joka toinen viikko tai mukautettu väli. Esikatselu näyttää kaikki luotavat vuorot ennen tallennusta.'
 author: 'Antti Tuomola'
@@ -23,7 +23,7 @@ Toistuvuus toimii **julkaisemattomilla listoilla** ja koskee **tavallisia työvu
 3. Täytä työntekijä, ajat ja muut tiedot kuten tavallisesti.
 4. Kytke päälle **Toista vuoro listan aikana**.
 5. Valitse toistuvuus ja tarkista esikatselu.
-6. Tallenna – järjestelmä luo vuorot yksitellen listan loppuun asti.
+6. Tallenna. Järjestelmä luo vuorot yksitellen listan loppuun asti.
 
 <img src="/blogPostImages/toistuvat_tyovuorot/toista-vuoro-kytkin.png" alt="Toista vuoro listan aikana -kytkin vuoron luonti-ikkunassa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -60,23 +60,23 @@ Valitse aloituspäivä ja ajat, kytke toistuvuus päälle ja tallenna. Järjeste
 
 ### Olemassa oleva vuoro
 
-Voit päivittää nykyisen vuoron ja samalla luoda loput toistuvat esiintymät. Esikatselu näyttää vain **uudet** vuorot – nykyistä päivitetään erikseen, eikä sitä luoda uudelleen.
+Voit päivittää nykyisen vuoron ja samalla luoda loput toistuvat esiintymät. Esikatselu näyttää vain **uudet** vuorot. Nykyistä päivitetään erikseen, eikä sitä luoda uudelleen.
 
 ## Mitä tapahtuu tallennuksen jälkeen?
 
-Jokainen vuoro luodaan **erillisenä rivinä** tietokantaan – sama logiikka kuin yksittäisessä luonnissa. Järjestelmä tarkistaa jokaisen vuoron:
+Jokainen vuoro luodaan **erillisenä rivinä** tietokantaan, sama logiikka kuin yksittäisessä luonnissa. Järjestelmä tarkistaa jokaisen vuoron:
 
 - päällekkäisyydet saman työntekijän muiden vuorojen kanssa
 - resurssikonfliktit (jos käytössä [resurssien aikataulutus](/posts/resurssien_aikataulutus_ominaisuus))
 
-Jos jokin päivä ei mene läpi (esim. päällekkäisyys toisen vuoron kanssa), **muut vuorot luodaan silti**. Päällekkäiset päivät ohitetaan automaattisesti – sama tarkistus kuin yksittäisessä vuoron luonnissa. Saat yhteenvedon esimerkiksi muodossa *"10/12 vuoroa luotu (2 ohitettiin)"*.
+Jos jokin päivä ei mene läpi (esim. päällekkäisyys toisen vuoron kanssa), **muut vuorot luodaan silti**. Päällekkäiset päivät ohitetaan automaattisesti, sama tarkistus kuin yksittäisessä vuoron luonnissa. Saat yhteenvedon esimerkiksi muodossa *"10/12 vuoroa luotu (2 ohitettiin)"*.
 
 ## Rajoitukset
 
-- Toistuvuus toimii vain **valitun listan** sisällä – ei yli listan rajojen eikä toiseen listaan.
+- Toistuvuus toimii vain **valitun listan** sisällä, ei yli listan rajojen eikä toiseen listaan.
 - **Julkaistuilla listoilla** vuoroja ei voi luoda tai muokata toistuvuudella.
 - Toistuvuus on käytettävissä vain **työvuoroille** (ei V-, X-, loma- tai muille koko päivän merkinnöille).
-- Klikkaamalla kalenterin **Vapaa / tapahtuma** -riviä avaat vapaan tai tapahtuman luonnin – toistuvuus näkyy vain aikaruudukossa luotavissa työvuoroissa.
+- Klikkaamalla kalenterin **Vapaa / tapahtuma** -riviä avaat vapaan tai tapahtuman luonnin. Toistuvuus näkyy vain aikaruudukossa luotavissa työvuoroissa.
 
 ## Yhteenveto
 
@@ -85,6 +85,6 @@ Toistuvat työvuorot nopeuttavat suunnittelua, kun sama kaava toistuu listan aik
 - **Valmiit mallit** arkipäiville, viikoittaisille ja muille yleisille kaavoille
 - **Mukautettu väli** päivissä tai viikoissa
 - **Esikatselu** kaikista luotavista vuoroista ennen tallennusta
-- **Osittainen onnistuminen** – kelvolliset vuorot luodaan, ongelmalliset ohitetaan
+- **Osittainen onnistuminen**: kelvolliset vuorot luodaan, ongelmalliset ohitetaan
 
 Haluatko tarkemman käsikirjan kaikista tavoista lisätä vuoroja? Lue [Näin lisäät työvuoroita kalenteriin](/posts/vuorojen_lisaminen_kalenteriin).

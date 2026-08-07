@@ -28,8 +28,8 @@ osa-aikaisille ennen uusien palkkaamista. Tarjousvelvoite ulottuu
 täyteen säännölliseen työaikaan asti, siis 112,5 tuntiin
 [kolmiviikkoisjaksossa](/posts/kolmiviikkoisjakso_ravintola-alalla).
 
-Käytännössä tämä tarkoittaa sitä, että uuden vuoron omalle osa-aikaiselle
-tarjoaminen ei ole vain kohteliaisuutta vaan TES:n velvoite. TES
+Käytännössä tämä tarkoittaa sitä, että uuden vuoron tarjoaminen omalle
+osa-aikaiselle on TES:n velvoite, ei pelkkä kohteliaisuus. TES
 suosittelee sopimaan tarjoamisen pelisäännöistä paikallisesti,
 esimerkiksi miten ja missä ajassa tarjoukseen vastataan.
 

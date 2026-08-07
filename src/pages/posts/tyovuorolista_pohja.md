@@ -11,7 +11,7 @@ tags: ["työvuorolista", "pohja", "ilmainen"]
 ---
 
 <div style="background: rgba(45, 58, 53, 0.06); border-left: 4px solid #2d3a35; padding: 1rem 1.25rem; margin-bottom: 2rem; border-radius: 0 4px 4px 0;">
-<strong>Päivitys 2026:</strong> Tarvitsetko listan heti selaimessa? Kokeile <a href="/pohja">ilmaista tulostettavaa 3 viikon pohjaa</a> – ei asennusta, ei sähköpostia. Täytä nimet ja vuorot, tulosta tai tallenna PDF.
+<strong>Päivitys 2026:</strong> Tarvitsetko listan heti selaimessa? Kokeile <a href="/pohja">ilmaista tulostettavaa 3 viikon pohjaa</a>, ei asennusta, ei sähköpostia. Täytä nimet ja vuorot, tulosta tai tallenna PDF.
 </div>
 
 Jos haluaa ehdottomasti tehdä työvuorolistansa isommalle porukalle ilmaiseksi, olen eläissäni löytänyt tasan yhden hyvän valmispohjan tähän tarkoitukseen. Se on OpenOffice-laskentataulukko, joka tekee käytännössä kaiken tarpeellisen laskennan automaattisesti.

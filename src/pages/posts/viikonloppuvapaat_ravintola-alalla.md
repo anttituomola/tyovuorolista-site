@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Viikonloppuvapaat ravintola-alalla: joka viides viikonloppu kuuluu antaa vapaaksi'
 pubDate: 2026-07-24
-description: 'MaRa-TES:ssä on nimenomainen sääntö: vähintään joka viides viikonloppu on järjestettävä vapaaksi peräkkäisinä vapaapäivinä. Pyhävuorojen tasajakoa laki ei sen sijaan vaadi — mutta tasapuolinen kohtelu edellyttää johdonmukaisia perusteita.'
+description: 'MaRa-TES:ssä on nimenomainen sääntö: vähintään joka viides viikonloppu on järjestettävä vapaaksi peräkkäisinä vapaapäivinä. Pyhävuorojen tasajakoa laki ei sen sijaan vaadi, mutta tasapuolinen kohtelu edellyttää johdonmukaisia perusteita.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (8 §, sopimuskausi 1.4.2025 alkaen), työaikalakiin (872/2019) ja työsopimuslakiin (55/2001). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Suunnittele viikonloppuvapaat työvuorolistalla'
@@ -17,8 +17,7 @@ tags: ['TES', 'MaRa', 'viikonloppuvapaa', 'vapaapäivät', 'V-päivä', 'X-päiv
 **Lyhyesti:** MaRa-TES:ssä on sääntö, joka jää usein huomaamatta:
 **vähintään joka viides viikonloppu on järjestettävä vapaaksi** niin,
 että perjantai ja lauantai tai lauantai ja sunnuntai ovat peräkkäisiä
-vapaapäiviä. Sen sijaan sääntöä pyhävuorojen tasajaosta ei ole —
-vuorojen sijoittelu on työnantajan päätettävissä, kunhan
+vapaapäiviä. Sen sijaan sääntöä pyhävuorojen tasajaosta ei ole. Vuorojen sijoittelu on työnantajan päätettävissä, kunhan
 vertailukelpoisia työntekijöitä kohdellaan johdonmukaisesti.
 
 ## Mistä viikonloppuvapaat tulevat: V- ja X-päivät
@@ -32,7 +31,7 @@ ansaitsee kaksi vapaapäivää:
 [kolmiviikkoisjakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
 sisällä). Vapaapäivien välissä saa olla enintään seitsemän työpäivää.
 Mikään näistä ei kuitenkaan vielä takaa, että vapaat osuisivat koskaan
-viikonlopulle — siihen tarvitaan oma määräyksensä.
+viikonlopulle. Siihen tarvitaan oma määräyksensä.
 
 ## Joka viides viikonloppu vapaaksi
 
@@ -45,11 +44,11 @@ poiketa vain työntekijän omasta halusta tai pakottavasta syystä.
 Muutama tarkennus:
 
 - Sääntö koskee V- ja X-päiviä ansaitsevia eli viisipäiväistä viikkoa
-  tekeviä — mutta nykyisen sopimuskauden (1.4.2025 alkaen) mukaan myös
+  tekeviä, mutta nykyisen sopimuskauden (1.4.2025 alkaen) mukaan myös
   muut työntekijät saavat saman oikeuden **pyytämällä**
 - Kun peräkkäisiä vapaapäiviä annetaan parillinen määrä, vapaita
   edeltävä vuoro järjestetään aamuvuoroksi ja vapaiden jälkeinen vuoro
-  iltavuoroksi — vapaasta ei saa nipistää päitä pois
+  iltavuoroksi. Vapaasta ei saa nipistää päitä pois
 - TES:n osapuolet suosittelevat **kiertävää vapaapäiväjärjestelmää**,
   jossa viikonloppuvapaat kiertävät työntekijältä toiselle
 
@@ -57,14 +56,14 @@ Muutama tarkennus:
 
 Tähän liittyy kaksi yleistä kysymystä. Ensin ikävämpi uutinen:
 sunnuntaityöhön ei ravintolassa tarvita erillistä suostumusta, koska
-työtä tehdään laatunsa vuoksi säännöllisesti sunnuntaisin — ja
+työtä tehdään laatunsa vuoksi säännöllisesti sunnuntaisin, ja
 sääntöä, joka pakottaisi jakamaan sunnuntai- ja pyhävuorot (ja niiden
 [tuplapalkat](/posts/sunnuntailisa_ravintola-alalla)) matemaattisen
 tasan, ei laista eikä TES:stä löydy.
 
 Sitten parempi: työsopimuslain **tasapuolisen kohtelun vaatimus**
 koskee myös työvuorosuunnittelua. Vertailukelpoisia työntekijöitä on
-kohdeltava johdonmukaisin perustein — jos listantekijä suosii
+kohdeltava johdonmukaisin perustein, jos listantekijä suosii
 systemaattisesti itseään tai suosikkejaan pyhävuorojen jaossa ilman
 perustetta, ollaan ongelmissa. Hyväksyttäviä syitä poiketa tasajaosta
 toki on: työntekijöiden omat toiveet, osaamistarpeet ja
@@ -78,7 +77,7 @@ eräät muut poikkeukset pois lukien).
 [Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
 seuraa tätäkin säädöstä puolestasi: sovellus tarkistaa suunnitellessa
 V- ja X-päivät, enintään seitsemän työpäivän putket **ja joka viidennen
-viikonlopun vapaan** — jos työntekijällä on viides peräkkäinen
+viikonlopun vapaan**, jos työntekijällä on viides peräkkäinen
 viikonloppu töitä, saat huomautuksen ennen listan julkaisua.
 
 <img src="/blogPostImages/tes-tuki/tes-huomautukset-paneeli.png" alt="TES-huomautukset-paneeli, jossa työntekijäkohtaiset huomautukset listan säännöistä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />

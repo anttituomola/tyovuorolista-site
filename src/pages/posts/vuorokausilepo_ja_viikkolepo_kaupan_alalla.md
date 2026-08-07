@@ -19,7 +19,7 @@ työntekijälle on annettava vähintään **11 tunnin keskeytymätön
 vuorokausilepo** (Kaupan TES 7 § 1). Työpaikkakohtaisesti sopien lepo voi
 olla **vähintään 9 tuntia**; työntekijän kanssa kertaluonteisesti sopien
 **vähintään 7 tuntia**. **Viikkolepo** määräytyy työaikalain 27 §:n mukaan
-— lähtökohtaisesti **35 tuntia** yhdenjaksoista vapaa-aikaa viikossa.
+Lähtökohtaisesti **35 tuntia** yhdenjaksoista vapaa-aikaa viikossa.
 
 Laajemmin lain tasolla:
 [Työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa).
@@ -31,7 +31,7 @@ selkeästi:
 
 | Taso | Lepo | Edellytys |
 |---|---|---|
-| Pääsääntö | ≥ 11 h | — |
+| Pääsääntö | ≥ 11 h | – |
 | Työpaikkasopimus (25 §) | ≥ 9 h | Paikallinen sopimus |
 | Kertaluonteinen sopimus | ≥ 7 h | Työntekijän kanssa kyseiseen tilanteeseen |
 
@@ -42,12 +42,12 @@ edellinen vuoro ei saa päättyä myöhemmin kuin klo 19.
 ## Tyypillinen sudenkuoppa: ilta → aamu
 
 Myymälän sulkeminen klo 21–22 ja avaus klo 07–08 näyttää kalenterissa
-siistiltä — mutta 22 → 07 on vain **9 tuntia**. Ilman 9 h -sopimusta tämä
+siistiltä, mutta 22 → 07 on vain **9 tuntia**. Ilman 9 h -sopimusta tämä
 on TES-rikkomus; ilman mitään sopimusta se on sekä TES- että usein
 työaikalain vastainen.
 
 Toinen tyypillinen tapaus on yövuoron ja aamuvuoron väli: yövuoro klo
-23–06 ja uusi vuoro samana päivänä klo 14 antaa 8 tuntia lepoa — se
+23–06 ja uusi vuoro samana päivänä klo 14 antaa 8 tuntia lepoa, se
 vaatii kertaluonteisen 7 h -sopimuksen **ja** silti vähintään 7 tuntia.
 
 ## Ruoka- ja kahvitauot samaan pykälään
@@ -61,7 +61,7 @@ Samassa 7 §:ssä:
 - taukoja ei saa sijoittaa vuoron alkuun tai loppuun; työnantajan on
   huolehdittava, että ne voidaan tosiasiallisesti pitää
 
-Nämä eivät korvaa vuorokausilepoa — ne ovat vuoron sisäisiä taukoja.
+Nämä eivät korvaa vuorokausilepoa, ne ovat vuoron sisäisiä taukoja.
 
 ## Viikkolepo: työaikalaki 27 §
 
@@ -74,7 +74,7 @@ puolella, jonka lepoajasta on kyse.
 Huomaa ero [vapaapäiväsääntöihin](/posts/vapaapaivat_kaupan_alalla):
 TES:n **vapaa** (vähintään 24 h, 8 § 5) on viikkolevon *lisäksi*
 annettava vapaajakso, joka merkitään listaan. Viikkolepo ja TES-vapaa
-ovat siis kaksi eri käsitettä — vaikka käytännössä ne usein limittäin.
+ovat siis kaksi eri käsitettä, vaikka käytännössä ne usein limittäin.
 
 ## Yövuorot ja lepo
 
@@ -87,7 +87,7 @@ yö- että vuorokausileposääntöjä samalla listalla.
 
 TES-tuki laskee vuorojen välisen lepoajan ja liputtaa alle 11 tunnin
 välit. Jos olet sopinut 9 h -poikkeuksesta, kirjaa se paikallisena
-sopimuksena asetuksiin — muuten varoitus jää päälle tarkoituksella.
+sopimuksena asetuksiin, muuten varoitus jää päälle tarkoituksella.
 
 <img src="/blogPostImages/kaupan-tes/kaupan-varoitukset-kalenterissa.png" alt="Kalenteri TES-varoitusmerkeillä vuorokausilevosta" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 

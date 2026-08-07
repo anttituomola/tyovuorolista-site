@@ -42,12 +42,12 @@ jatko-osissa yksityiskohdat:
 Säännöllinen työaika on enintään **7,5 tuntia vuorokaudessa ja 37,5
 tuntia viikossa** (TES 8 §). Vaihtoehtoisesti voidaan sopia 8 h/vrk ja
 40 h/vk -järjestelmästä, jolloin työaikaa lyhennetään liitteen mukaisesti
-**100 tunnilla vuodessa** — sovellus tukee toistaiseksi vain 37,5 tunnin
+**100 tunnilla vuodessa**. Sovellus tukee toistaiseksi vain 37,5 tunnin
 järjestelmää. Työviikko ja -vuorokausi alkavat maanantaina kello 00.00,
 ellei toisin sovita (8 § 2).
 
 Alle neljän tunnin vuoroja ei tule käyttää ilman perusteltua syytä
-(8 § 3). Viikkotyöaikaa voi tasata enintään 8 viikon jaksolla — siitä
+(8 § 3). Viikkotyöaikaa voi tasata enintään 8 viikon jaksolla, siitä
 lisää [tasoittumispostauksessa](/posts/tasoittumisjarjestelma_kiinteistopalvelualalla).
 
 ## Lista tiedoksi viikkoa ennen
@@ -55,7 +55,7 @@ lisää [tasoittumispostauksessa](/posts/tasoittumisjarjestelma_kiinteistopalvel
 Työvuoroluettelo laaditaan **vähintään viikoksi** ja annetaan tiedoksi
 **viimeistään viikkoa ennen** sen voimaantuloa (TES 8 § 3, sama
 vähimmäisvaatimus kuin työaikalain 30 §:ssä). Julkaistua listaa voi
-muuttaa yksipuolisesti vain painavasta syystä — ja vain sellaisen vuoron
+muuttaa yksipuolisesti vain painavasta syystä, ja vain sellaisen vuoron
 osalta, jonka alkuun on vähintään **5 kalenteripäivää**.
 
 Talvikautena (1.11.–31.3.) on oma poikkeus: **lumityöntekijöiden**
@@ -73,7 +73,7 @@ Lisäksi kuusi nimettyä lauantaita ovat pääsääntöisesti vapaapäiviä
 (8 § 11): uudenvuodenpäiväviikon, loppiaisviikon, vapunpäiväviikon,
 helatorstaiviikon ja itsenäisyyspäiväviikon lauantait sekä
 pääsiäislauantai. Kiinteistöpalveluissa katkeamaton palvelutarjonta
-tekee näistä usein työpäiviä — silloin työstä maksetaan **50 %
+tekee näistä usein työpäiviä, silloin työstä maksetaan **50 %
 korotettu palkka**, mistä lisää
 [lisäpostauksessa](/posts/ilta_yo_ja_aattolisat_kiinteistopalvelualalla).
 
@@ -81,15 +81,15 @@ Lepoajat ovat tutut: vuorokausilepo **11 tuntia** (paikallisesti
 sovittavissa, ei koskaan alle 7 tuntia) ja viikkolepo **35 tuntia**
 kerran viikossa.
 
-## Arkipyhäkorvaus — ja sen loppu 31.12.2026
+## Arkipyhäkorvaus, ja sen loppu 31.12.2026
 
 Toisin kuin kaupan alalla, kiinteistöpalvelualan arkipyhät **eivät
-lyhennä työaikaa** — työntekijä saa niistä rahakorvauksen
+lyhennä työaikaa**. Työntekijä saa niistä rahakorvauksen
 keskituntiansiolla (9 § 6). Järjestelmä on kuitenkin voimassa vain
 **31.12.2026 asti**: vuoden 2027 alusta sen tilalle tulee
 **vuosivapaajärjestelmä**, jossa tehdyistä tunneista kertyy 1–9
 vapaapäivää. Kesken sopimuskauden tapahtuva vaihdos on harvinainen, ja
-siihen kannattaa valmistautua hyvissä ajoin — käymme molemmat
+siihen kannattaa valmistautua hyvissä ajoin. Käymme molemmat
 järjestelmät läpi [omassa postauksessaan](/posts/arkipyhakorvaus_ja_vuosivapaa_kiinteistopalvelualalla).
 
 ## Miten sovellus auttaa?
@@ -98,8 +98,8 @@ Kun valitset venuellesi Kiinteistöpalvelualan TES:n,
 tyovuorolista.fi:n [TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
 valvoo näitä sääntöjä suunnittelun aikana ja luokittelee tunnit
 palkanlaskentaa varten (lisätyö, ylityö 50 %/100 %, ilta- ja yölisät,
-lauantai- ja aattokorvaukset). Vuoden 2027 sääntömuutokset —
-vuosivapaa, pidempi tasoittumisjakso ja peräkkäisten työpäivien katto —
+lauantai- ja aattokorvaukset). Vuoden 2027 sääntömuutokset
+(vuosivapaa, pidempi tasoittumisjakso ja peräkkäisten työpäivien katto)
 on tallennettu sovellukseen päiväysversiona, joka astuu voimaan
 automaattisesti 1.1.2027.
 

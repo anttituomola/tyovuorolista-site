@@ -6,11 +6,11 @@ description: 'Tarvitset työvuorolistan heti? Täytä ilmainen 3 viikon pohja se
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/pohja-tulostettava/pohja-esimerkki.png'
-    alt: 'Työvuorolista pohja selaimessa – esimerkki täytetystä 3 viikon listasta.'
+    alt: 'Työvuorolista pohja selaimessa. Esimerkki täytetystä 3 viikon listasta.'
 tags: ["työvuorolista", "pohja", "tulostus", "ilmainen"]
 ---
 
-Jos etsit hakusanalla **työvuorolista pohja**, tarvitset luultavasti listan **heti käyttöön** – ei huomenna, ei asennuksia, ei sähköpostiosoitetta rekisteröitymiseen. Siksi teimme ilmaisen työvuorolista-pohjan, jonka voit täyttää suoraan selaimessa ja tulostaa paperille tai tallentaa PDF-tiedostoksi.
+Jos etsit hakusanalla **työvuorolista pohja**, tarvitset luultavasti listan **heti käyttöön**, ei huomenna, ei asennuksia, ei sähköpostiosoitetta rekisteröitymiseen. Siksi teimme ilmaisen työvuorolista-pohjan, jonka voit täyttää suoraan selaimessa ja tulostaa paperille tai tallentaa PDF-tiedostoksi.
 
 <div style="margin: 2rem 0; text-align: center;">
     <a href="/pohja" style="display: inline-block; background-color: #2d3a35; color: #e2e2e2; padding: 1rem 1.5rem; border-radius: 4px; text-decoration: none; font-size: 1.1rem; font-weight: 500;">
@@ -27,13 +27,13 @@ Yksinkertainen työvuorolista pohja on hyvä valinta, kun:
 - et halua asentaa Exceliä, OpenOfficea tai muuta ohjelmaa
 - riittää, että kirjoitat vuorot käsin tai koneella soluihin (esim. `9-17`, `15-23`, `V`)
 
-Jos tarvitset automaattista tuntien laskentaa, useita tiimejä, lomasuunnittelua tai sähköpostilistoja työntekijöille, paperipohja loppuu nopeasti kesken. Silloin kannattaa katsoa [Työvuorolista.fi-palvelua](https://app.tyovuorolista.fi/register) – mutta aloita rauhassa pohjalla, jos se riittää nyt.
+Jos tarvitset automaattista tuntien laskentaa, useita tiimejä, lomasuunnittelua tai sähköpostilistoja työntekijöille, paperipohja loppuu nopeasti kesken. Silloin kannattaa katsoa [Työvuorolista.fi-palvelua](https://app.tyovuorolista.fi/register), mutta aloita rauhassa pohjalla, jos se riittää nyt.
 
 ## Näin käytät pohjaa
 
 ### 1. Valitse aloituspäivä
 
-Avaa [työvuorolista pohja -sivu](/pohja) ja valitse aloituspäivä kalenterista. Lista alkaa aina **viikon maanantaista** – eli jos valitset keskiviikon, pohja alkaa edeltävästä maanantaista. Tämä vastaa suomalaista tapaa, jossa työvuorolista etenee ma–su -viikkoina.
+Avaa [työvuorolista pohja -sivu](/pohja) ja valitse aloituspäivä kalenterista. Lista alkaa aina **viikon maanantaista**, eli jos valitset keskiviikon, pohja alkaa edeltävästä maanantaista. Tämä vastaa suomalaista tapaa, jossa työvuorolista etenee ma–su -viikkoina.
 
 Pohja kattaa **kolme viikkoa**, yhteensä 21 päivää.
 
@@ -51,18 +51,18 @@ Täytä vuorot soluihin vapaalla tekstillä. Voit käyttää esimerkiksi:
 - vapaapäiviä: `V`, `x`
 - lyhenteitä: `aam`, `ilta`, `yö`
 
-Pohja ei laske tunteja automaattisesti – se on tarkoituksella yksinkertainen piirtoalusta.
+Pohja ei laske tunteja automaattisesti, se on tarkoituksella yksinkertainen piirtoalusta.
 
 ### 4. Tulosta tai tallenna PDF
 
 Paina **Tulosta / tallenna PDF** ja valitse selaimen tulostusikkunasta:
 
-- **Tulosta** – fyysinen paperilista
-- **Tallenna PDF** / **Save as PDF** – digitaalinen kopio jaettavaksi
+- **Tulosta**: fyysinen paperilista
+- **Tallenna PDF** / **Save as PDF**. Digitaalinen kopio jaettavaksi
 
 Tulostus jakaa listan kolmeen viikkoon, jotta se mahtuu luettavasti A4-paperille.
 
-## Milloin yksinkertainen pohja riittää – ja milloin ei
+## Milloin yksinkertainen pohja riittää, ja milloin ei
 
 **Pohja riittää**, kun:
 
@@ -85,8 +85,8 @@ Näissä tapauksissa [Työvuorolista.fi](https://app.tyovuorolista.fi/register) 
 
 Jos etsit eri tyyppistä pohjaa, meillä on myös näitä artikkeleita:
 
-- **[Työvuorolista pohja (OpenOffice-taulukko)](/posts/tyovuorolista_pohja)** – ilmainen laskentataulukkopohja, joka laskee tunnit automaattisesti. Vaatii OpenOfficen asennuksen.
-- **[Työvuorolista pohja PDF](/posts/tyovuorolista_pohja_pdf)** – kun tarvitset valmiin, siistin PDF:n suoraan Työvuorolista-sovelluksesta ja haluat lähettää listat sähköpostilla.
+- **[Työvuorolista pohja (OpenOffice-taulukko)](/posts/tyovuorolista_pohja)**: ilmainen laskentataulukkopohja, joka laskee tunnit automaattisesti. Vaatii OpenOfficen asennuksen.
+- **[Työvuorolista pohja PDF](/posts/tyovuorolista_pohja_pdf)**: kun tarvitset valmiin, siistin PDF:n suoraan Työvuorolista-sovelluksesta ja haluat lähettää listat sähköpostilla.
 
 Uusi selainpohja on nopein tapa aloittaa: ei latauksia, ei tilejä, vain täytä ja tulosta.
 
@@ -110,4 +110,4 @@ Voit täyttää vain ensimmäisen viikon solut ja jättää loput tyhjiksi, tai 
 
 ---
 
-**Tarvitsetko listan nyt?** [Avaa ilmainen työvuorolista pohja](/pohja), täytä vuorot ja tulosta – valmis muutamassa minuutissa.
+**Tarvitsetko listan nyt?** [Avaa ilmainen työvuorolista pohja](/pohja), täytä vuorot ja tulosta. Valmis muutamassa minuutissa.

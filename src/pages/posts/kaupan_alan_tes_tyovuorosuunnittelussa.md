@@ -24,14 +24,14 @@ työstä vapaata sunnuntaita vuodessa).
 
 Tämä on kaupan alan vastine aiemmalle
 [ravintola-alan TES-sarjallemme](/posts/kolmiviikkoisjakso_ravintola-alalla)
-— jos teet listoja myymälään, varastoon tai logistiikkakeskukseen, tässä
+Jos teet listoja myymälään, varastoon tai logistiikkakeskukseen, tässä
 postauksessa on kokonaiskuva ja jatko-osissa yksityiskohdat:
 
 - [Lisätyö ja ylityö kaupan alalla](/posts/lisatyo_ja_ylityo_kaupan_alalla)
 - [Sunnuntai-, ilta- ja aattolisät kaupan alalla](/posts/sunnuntai_ja_aattolisat_kaupan_alalla)
 - [Vapaapäivät kaupan alalla](/posts/vapaapaivat_kaupan_alalla)
 
-## Viikkotyöaika 37,5 tuntia — jaksolla tai ilman
+## Viikkotyöaika 37,5 tuntia: jaksolla tai ilman
 
 Toisin kuin ravintola-alan kolmiviikkoisjaksossa, kaupan alalla
 säännöllinen työaika on **enintään 37,5 tuntia viikossa** (TES 6 §).
@@ -41,7 +41,7 @@ tasoittumisjakson**, jonka aikana viikkotyöaika tasoittuu enintään
 enintään 48 tuntia, ja työpaikkakohtaisesti sopien jakso voi olla jopa
 52 viikkoa.
 
-Ilman tasoittumisjärjestelmää jokainen viikko seisoo omillaan — ja
+Ilman tasoittumisjärjestelmää jokainen viikko seisoo omillaan, ja
 37,5 tunnin ylitys tarkoittaa heti korotettua palkkaa. Tästä lisää
 [lisä- ja ylityöpostauksessa](/posts/lisatyo_ja_ylityo_kaupan_alalla).
 
@@ -62,7 +62,7 @@ raja voidaan lyhentää yhteen viikkoon.
 
 Vertailun vuoksi: [ravintola-alalla riittää viikko ennen jakson
 alkua](/posts/tyovuorolistan_julkaiseminen). Kahden viikon sääntö
-unohtuu helposti — sovellus näyttää julkaisun määräajan listan
+unohtuu helposti. Sovellus näyttää julkaisun määräajan listan
 julkaisunäkymässä ja varoittaa, jos lista on myöhässä.
 
 ## Vapaapäivät ja sunnuntait
@@ -81,8 +81,7 @@ Kaupan alalla arkipyhien lyhennysvaikutus hoidetaan joko perinteisellä
 **arkipyhäjärjestelmällä** (työaika lyhenee arkipyhäviikolla) tai
 **vuosivapaajärjestelmällä** (vapaita kertyy tehdyistä tunneista samaan
 tapaan kuin [ravintola-alalla](/posts/vuosivapaa_ravintola-alalla)).
-Valinta on yritystasoinen eikä sitä voi vaihtaa kesken vuoden —
-sovelluksessa valinta tehdään Työehtosopimus-sivulla.
+Valinta on yritystasoinen eikä sitä voi vaihtaa kesken vuoden. Sovelluksessa valinta tehdään Työehtosopimus-sivulla.
 
 ## Miten sovellus auttaa?
 
@@ -90,7 +89,7 @@ Kun valitset venuellesi Kaupan alan TES:n, tyovuorolista.fi:n
 [TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa) valvoo näitä sääntöjä
 suunnittelun aikana ja luokittelee tunnit palkanlaskentaa varten
 (iltalisät, lauantailisät, sunnuntaityö, lisä- ja ylityöt). Työntekijöille
-merkitään lisäksi työntekijäryhmä — myyjän ja logistiikkatyöntekijän
+merkitään lisäksi työntekijäryhmä. Myyjän ja logistiikkatyöntekijän
 lisät ja ylityörajat poikkeavat toisistaan, ja sovellus laskee kummankin
 oikein.
 

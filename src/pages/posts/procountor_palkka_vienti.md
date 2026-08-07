@@ -29,7 +29,7 @@ Procountor tunnistaa rivit **henkilönumerolla** (tai henkilötunnuksella). Aset
 
 <img src="/blogPostImages/procountor-vienti/tyontekija-henkilonumero.png" alt="Työntekijän muokkaus: Työsuhde-osiossa henkilönumero-kenttä täytettynä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Jos numero puuttuu, vienti käyttää sisäistä tunnusta ja saat siitä varoituksen — Procountor ei tällöin yleensä löydä henkilöä.
+Jos numero puuttuu, vienti käyttää sisäistä tunnusta ja saat siitä varoituksen. Procountor ei tällöin yleensä löydä henkilöä.
 
 ### 2. Palkkalajikoodit (TES-apuri)
 
@@ -50,7 +50,7 @@ Siirry **Hallinta → Tuntien kirjaus**. Valitse palkkajaksoa vastaava lista tai
 
 ### 2. Avaa palkkaraportti ja valitse Procountor
 
-Klikkaa **Luo palkkaraportti…**. Valitse muodoksi **Procountor (palkka-aineisto)**. Sarakevalintaa ei näytetä — Procountorin siirtotiedoston rakenne on kiinteä.
+Klikkaa **Luo palkkaraportti…**. Valitse muodoksi **Procountor (palkka-aineisto)**. Sarakevalintaa ei näytetä. Procountorin siirtotiedoston rakenne on kiinteä.
 
 <img src="/blogPostImages/procountor-vienti/procountor-modaali.png" alt="Palkkaraportti-modali Procountor-vaihtoehto valittuna" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
@@ -62,7 +62,7 @@ Valitse vielä, mitkä rivit (työtunnit, lisät, poissaolot…) kuuluvat mukaan
 2. Käytä palkka-aineiston sisäänlukua
 3. Valitse juuri lataamasi CSV
 
-Tiedosto on puolipisteellä eroteltu, ilman otsikkoriviä — juuri Procountorin virallinen erittelytietue-muoto.
+Tiedosto on puolipisteellä eroteltu, ilman otsikkoriviä. Juuri Procountorin virallinen erittelytietue-muoto.
 
 ## Mitä tiedostoon tulee
 
@@ -83,12 +83,12 @@ Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkape
 | Rivin tyyppi | Suomeksi (“Työtunnit”) | Palkkalajikoodi |
 | Muoto | Pilkku, otsikot | Puolipiste, ei otsikkoa |
 
-Sama tuntidata, eri pakkaus. Tavallinen palkkaraportti on edelleen kätevä tarkistukseen — Procountor-vienti on se, jonka tilitoimisto tai palkanlaskija lukee järjestelmään.
+Sama tuntidata, eri pakkaus. Tavallinen palkkaraportti on edelleen kätevä tarkistukseen. Procountor-vienti on se, jonka tilitoimisto tai palkanlaskija lukee järjestelmään.
 
 ## Vinkkejä ensimmäiseen kerran jälkeen
 
 - Pidä henkilönumerot ajan tasalla, kun Procountoriin tulee uusi palkansaaja
 - Jos jokin lisä puuttuu aineistosta, tarkista TES-apurin palkkalajikoodi ja modaalin rivivalinnat
-- Vie yksi jakso kerrallaan — sama aineisto kahdesti Procountoriin tuplaa rivit
+- Vie yksi jakso kerrallaan, sama aineisto kahdesti Procountoriin tuplaa rivit
 
 Jos jokin kohtaa jumiutuu (koodit, henkilönumerot, sisäänluku), laita viestiä: **info@tyovuorolista.fi**.

@@ -33,8 +33,7 @@ lauantailla tehdystä työstä **+50 %**.
 | Ryhmänvanhimman vastuulisä (10 § 4) | työsuhteen aikana | 1,04 €/h |
 | Hälytysluontoinen työ (10 § 5) | hälytyskeikka | +100 % |
 
-Euromääräiset lisät on kirjattu sopimustekstiin kiinteinä euroina —
-sopimuskauden palkankorotukset eivät koske niitä automaattisesti.
+Euromääräiset lisät on kirjattu sopimustekstiin kiinteinä euroina. Sopimuskauden palkankorotukset eivät koske niitä automaattisesti.
 Ilta- ja yölisä maksetaan kaikkina viikonpäivinä, ja samat euromäärät
 pätevät ilta- ja yövuorolisinä jatkuvassa vuorotyössä.
 
@@ -51,7 +50,7 @@ sovittu toisin.
 Aatot eivät ole kirkollisia juhlapäiviä, mutta KipaTES korvaa ne
 omalla määräyksellään: **juhannus- ja jouluaattona tehdystä työstä
 maksetaan 100 prosentilla korotettu palkka** (10 § 6). Korvaus koskee
-koko aattopäivää — ei vain iltaa. Vertailun vuoksi
+koko aattopäivää, ei vain iltaa. Vertailun vuoksi
 [ravintola-alalla](/posts/aattopaivat_ravintola-alalla) aattokorotus
 alkaa vasta klo 15, joten alaa vaihtaessa ero on hyvä muistaa.
 
@@ -71,18 +70,18 @@ Niinä tehdystä työstä maksetaan **50 prosentilla korotettu palkka**
 
 "X-viikon lauantai" tarkoittaa sen maanantaista alkavan viikon
 lauantaita, jolla kyseinen pyhä sijaitsee (viikko alkaa maanantaina
-klo 00, 8 § 2). Jos pyhä osuu itsessään lauantaiksi — kuten loppiainen
-joskus osuu — päivä on pyhäpäivä ja työstä maksetaan pyhän +100 %.
+klo 00, 8 § 2). Jos pyhä osuu itsessään lauantaiksi (kuten loppiainen
+joskus osuu), päivä on pyhäpäivä ja työstä maksetaan pyhän +100 %.
 
 Kiinteistöpalveluissa katkeamaton palvelutarjonta on arkipäivää, joten
-nämä lauantait ovat usein normaaleja työpäiviä — mutta +50 %:n
+nämä lauantait ovat usein normaaleja työpäiviä, mutta +50 %:n
 korvausvelvoite säilyy, vaikka vapaaehto poikkeaisi.
 
 ## Poikkeus: keskeytymätön kolmivuorotyö
 
 Aatto- ja lauantaikorvauksia (10 § 6) ei makseta keskeytymättömässä
 kolmivuorotyössä. Sovellus ei yritä arvailla, kumpi tilanne kyseessä
-on — se näyttää huomautuksen ja jättää tulkinnan työnantajalle.
+on, se näyttää huomautuksen ja jättää tulkinnan työnantajalle.
 
 ## Miten sovellus auttaa?
 

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Arkipyhäjärjestelmä vai vuosivapaajärjestelmä kaupan alalla?'
 pubDate: 2026-07-31
-description: 'Kaupan TES:ssä yritys valitsee arkipyhä- tai vuosivapaajärjestelmän — ei kesken vuoden. 7,5 h viikkolyhennys vs. VV-portaikko (200 h → 1 pv). Päätöksenteko-opas yrittäjälle.'
+description: 'Kaupan TES:ssä yritys valitsee arkipyhä- tai vuosivapaajärjestelmän, ei kesken vuoden. 7,5 h viikkolyhennys vs. VV-portaikko (200 h → 1 pv). Päätöksenteko-opas yrittäjälle.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (8 § 10–25, vuosivapaa) ja työaikapöytäkirjaan ”Arkipyhäjärjestelmä” (kohdat 1–10). Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Luo kaupan alan työvuorolista'
@@ -29,7 +29,7 @@ osastotasoinen**, eikä sitä voi vaihtaa kesken kalenterivuoden
 | Lyhennys / ansainta | 7,5 h per lyhentävä arkipyhä (osa-aikainen: sopimus ÷ 5) | 200 h → 1 pv … 1560 h → 9 pv |
 | Kelpoisuus | Työsuhde ≥ 1 kk ennen arkipyhää (itsenäisyyspäivä poikkeus) | Ansainta alkaa vasta 6 kk työsuhteen jälkeen |
 | Antaminen | Vapaa arkipyhäviikolla ± 2 vk tai tasoittumisjaksossa | Ensisijaisesti ansaintavuonna, viimeistään seuraavan huhtikuun loppuun |
-| Korvaa TES:stä | 8 § 10–25 (VV-määräykset) | — (oletus TES:ssä) |
+| Korvaa TES:stä | 8 § 10–25 (VV-määräykset) |. (oletus TES:ssä) |
 
 Molempia ei käytetä rinnakkain samassa yksikössä: arkipyhäpöytäkirjan
 kohdat 3–7 **korvaavat** vuosivapaita koskevat 8 §:n kohdat 10–25.
@@ -43,7 +43,7 @@ Lisäksi **vain ma–pe osuessaan**: uudenvuodenpäivä, loppiainen, vappu,
 itsenäisyyspäivä, jouluaatto ja tapaninpäivä.
 
 Kokoaikaisella yksi arkipyhä tiputtaa viikon enimmäistyöajan
-**30 tuntiin**, kaksi arkipyhää **22,5 tuntiin** — ylittävästä työstä
+**30 tuntiin**, kaksi arkipyhää **22,5 tuntiin**. Ylittävästä työstä
 maksetaan +50 % (arkipyhäpöytäkirja 9. kohta). Tasoittumisjaksossa
 enimmäistyöajasta vähennetään lyhennysten lukumäärä × 7,5 h.
 
@@ -67,7 +67,7 @@ lyhennysviikolla 4 työpäivää ja **30 tuntia**.
 Vuosivapaa merkitään listaan **7,5 tunnin** pituisena työpäivänä (8 § 18)
 eikä sille vuorokaudelle voi suunnitella alkavaa tai päättyvää vuoroa.
 Ansaintavuotta seuraavan **huhtikuun loppuun** mennessä antamatta
-jääneet vapaat on hoidettava — kirjallinen jatkosiirto on mahdollinen
+jääneet vapaat on hoidettava. Kirjallinen jatkosiirto on mahdollinen
 työntekijän aloitteesta.
 
 Vertaa ravintola-alan vastaavaan:
@@ -75,7 +75,7 @@ Vertaa ravintola-alan vastaavaan:
 
 ## Kumman kanssa työntekijä “jää voitolle”?
 
-Yhtä oikeaa vastausta ei ole — se riippuu kalenterista ja tuntimäärästä:
+Yhtä oikeaa vastausta ei ole, se riippuu kalenterista ja tuntimäärästä:
 
 - **Arkipyhä** hyödyttää tasaisesti kaikkia, myös lyhyitä työsuhteita
   (kelpoisuus 1 kk, itsenäisyyspäivällä ei edes sitä). Sesonkivuosina,
@@ -93,7 +93,7 @@ sesonkisuunnittelussa** mutta vaatii saldon seurantaa.
 ## Mitä päätät ennen vuodenvaihdetta?
 
 1. Valitse järjestelmä yritykselle tai sen osalle.
-2. Kerro valinta henkilöstölle — vaihtoa ei voi tehdä kesken vuotta.
+2. Kerro valinta henkilöstölle. Vaihtoa ei voi tehdä kesken vuotta.
 3. Merkitse valinta tyovuorolista.fi:n Työehtosopimus-sivulle, jotta
    viikkorajat ja VV-kertymä lasketaan oikein.
 

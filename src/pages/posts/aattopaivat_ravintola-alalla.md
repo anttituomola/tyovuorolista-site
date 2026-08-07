@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Aattopäivät ravintola-alalla: viisi aattoa, kello 15 ja keskiyön käännös'
 pubDate: 2026-08-02
-description: 'MaRa-TES:n aattolisä koskee täsmälleen viittä päivää ja alkaa vasta klo 15. Aatto ei ole pyhäpäivä — mutta jokaisen viiden aaton jälkeen keskiyöllä alkaa pyhä, jolloin korotus nousee 50 prosentista sataan.'
+description: 'MaRa-TES:n aattolisä koskee täsmälleen viittä päivää ja alkaa vasta klo 15. Aatto ei ole pyhäpäivä, mutta jokaisen viiden aaton jälkeen keskiyöllä alkaa pyhä, jolloin korotus nousee 50 prosentista sataan.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen 17 §:ään (sunnuntai-, pyhä- ja aattotyö) sekä 19 ja 21 §:ään (tes.mara.fi). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Laske aatto- ja pyhäpäivälisät automaattisesti'
@@ -24,10 +24,10 @@ keskiyöllä sataan prosenttiin.
 
 Lisien euromäärät ja perusteet käytiin läpi
 [ilta-, yö- ja aattolisän pikaoppaassa](/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla)
-— tämä postaus menee aattoihin syvemmälle, koska juuri ne menevät
+Tämä postaus menee aattoihin syvemmälle, koska juuri ne menevät
 palkanlaskennassa väärin.
 
-## Viisi aattoa — eikä yhtään enempää
+## Viisi aattoa, eikä yhtään enempää
 
 | Aatto | 2026 | 2027 |
 |---|---|---|
@@ -38,8 +38,7 @@ palkanlaskennassa väärin.
 | Jouluaatto | to 24.12. | pe 24.12. |
 
 Lista on tyhjentävä. Loppiaisen aatto, kiirastorstai, helatorstain
-aatto ja pyhäinpäivän aatto **eivät** ole MaRa-TES:n aattopäiviä —
-niinä päivinä maksetaan täysin tavallinen palkka ja tavalliset ilta-
+aatto ja pyhäinpäivän aatto **eivät** ole MaRa-TES:n aattopäiviä. Niinä päivinä maksetaan täysin tavallinen palkka ja tavalliset ilta-
 ja yölisät. (Kaupan alalla nämä ovat aattoiltalisään oikeuttavia
 päiviä, mikä sekoittaa asiaa aloja vaihtavalla työntekijällä. Kaupan
 säännöt ovat
@@ -63,7 +62,7 @@ kellonaika, ei vuoro.
 ## Mitä 50 prosentin korotus koskee?
 
 Sopimusteksti nimeää korotettavat erät: **peruspalkka**, **iltatyölisä**
-ja **luvanhaltijan edustajan lisä**. Yötyölisä ei ole listalla — eikä
+ja **luvanhaltijan edustajan lisä**. Yötyölisä ei ole listalla, eikä
 sitä käytännössä tarvitakaan, sillä yötyölisä alkaa klo 24 ja siinä
 vaiheessa aatto on jo vaihtunut pyhäksi.
 
@@ -104,7 +103,7 @@ lainkaan, joten juhannuspäivän korotus tulee yksin pyhäpäiväsäännöstä.
 
 Sopimuksessa on yhden lauseen poikkeus: *aattolisää ei makseta
 pyhäpäivälle sijoittuvalta aatolta*. Käytännössä tämä koskee tilannetta,
-jossa aatto osuu sunnuntaiksi — esimerkiksi vuonna 2028 sekä vapunaatto,
+jossa aatto osuu sunnuntaiksi, esimerkiksi vuonna 2028 sekä vapunaatto,
 jouluaatto että uudenvuodenaatto ovat sunnuntaita.
 
 Silloin aattosääntö väistyy ja koko päivä menee sunnuntaisäännöllä:
@@ -125,7 +124,7 @@ erikoisasemassa työaikaa laskettaessa. Aatto vaikuttaa vain palkkaan.
 Yksi kohta kannattaa sopia etukäteen: jos aatolle sijoittuu
 [V- tai X-päivä](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan) ja
 työntekijä tulee silti töihin, sopimusteksti mainitsee vapaapäivätyön
-päälle erikseen vain sunnuntaityökorvauksen — aattolisää se ei nimeä.
+päälle erikseen vain sunnuntaityökorvauksen. Aattolisää se ei nimeä.
 Tulkinta kannattaa käydä läpi ennen listan tekoa eikä vasta
 palkkalaskelman jälkeen.
 

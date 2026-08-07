@@ -15,7 +15,7 @@ tags: ['TES', 'sosiaalipalveluala', 'jaksotyö', 'ylityö', 'lisätyö', 'palkan
 ---
 
 **Lyhyesti:** Jaksotyössä ylityötä on työ, joka ylittää
-**työvuoroluetteloon merkityn säännöllisen työajan** — kokoaikaisella
+**työvuoroluetteloon merkityn säännöllisen työajan**. Kokoaikaisella
 enintään 115 h / 3 vk. Korotus lasketaan **kultakin kolmen viikon
 jaksolta: ensimmäiset 18 tuntia +50 % ja seuraavat +100 %** (SOSTES
 9 §). Arkipyhät alentavat rajaa **7 h 40 min päivältä** ja poissaolot
@@ -40,7 +40,7 @@ esimerkki kuuden viikon luettelosta havainnollistaa tämän:
 | Yhteensä | 230 h | 255 h | 25 h |
 
 Huomaa kaksi asiaa. Ensinnäkin **+50 %:n 18 tunnin porras aukeaa
-jokaiselle kolmen viikon jaksolle erikseen** — myös kuuden viikon
+jokaiselle kolmen viikon jaksolle erikseen**, myös kuuden viikon
 luettelon sisällä. Toiseksi jälkimmäisen jakson ylityö lasketaan
 suunnitellusta 110 tunnista, vaikka 115 tuntia on TES:n peruslukema:
 kynnys seuraa listaa myös alaspäin.
@@ -54,13 +54,12 @@ enemmän, ylimenevä osa on ylityötä jo suunnitteluvaiheessa.
 
 Jokainen [arkipyhä](/posts/sostes_tyovuorosuunnittelussa) alentaa jakson
 säännöllistä enimmäistyöaikaa **keskimääräisen työpäivän verran** eli
-viikkotyöaika ÷ 5 — kokoaikaisella 38 h 20 min ÷ 5 = **7 h 40 min**,
+viikkotyöaika ÷ 5. Kokoaikaisella 38 h 20 min ÷ 5 = **7 h 40 min**,
 osa-aikaisella sopimusviikkotunnit ÷ 5 (TES 7 §). Esimerkiksi
 pääsiäisjaksossa, johon osuvat pitkäperjantai ja toinen pääsiäispäivä,
 kokoaikaisen raja on 115 h − 2 × 7 h 40 min = **99 h 40 min**.
 
-Sama alennus koskee myös osa-aikaisen **lisätyökynnystä** (TES 8 § 1) —
-molemmat rajat elävät yhdessä.
+Sama alennus koskee myös osa-aikaisen **lisätyökynnystä** (TES 8 § 1). Molemmat rajat elävät yhdessä.
 
 ## Poissaolot: kaksi laskusääntöä
 
@@ -100,14 +99,14 @@ ajantasainen taulukko ennen palkanlaskentaa.
 
 Sovellus tuntee jaksorytmin ja laskee jokaiselle työntekijälle jakson
 tunnit, arkipyhä- ja poissaolokorjatun enimmäismäärän sekä lisä- ja
-ylityön portaineen — myös kuuden viikon luettelon puoliskot (126 h
+ylityön portaineen, myös kuuden viikon luettelon puoliskot (126 h
 raja) erikseen. Tuntinäkymän jaksosaldotaulukko näyttää tilanteen jo
 suunnitteluvaiheessa:
 
 <img src="/blogPostImages/sostes-tes/sostes-jaksosaldo.png" alt="Jaksosaldotaulukko: suunnitellut tunnit suhteessa jakson enimmäismäärään sekä lisä- ja ylityöt" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Palkkaraportissa rivit (lisätyö, ylityö +50 %, ylityö +100 %) saa
-vietyä omilla palkkalajikoodeillaan — myös
+vietyä omilla palkkalajikoodeillaan, myös
 [Procountor-muotoon](/posts/procountor_palkka_vienti).
 
 <img src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: jaksotyön ylityörivit ja työaikalisät" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />

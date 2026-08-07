@@ -14,7 +14,7 @@ Jos loit väärän listan tai haluat aloittaa työvuorosuunnittelun puhtaalta p�
 
 <img src="/blogPostImages/listan-poistaminen/hero-image.png" alt="Työvuorolistat-sivulla avattu kolmen pisteen valikko, jossa Poista-vaihtoehto" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Poisto on **pysyvä** — sitä ei voi perua. Käytä sitä vain, kun olet varma ettei listaa enää tarvita.
+Poisto on **pysyvä**, sitä ei voi perua. Käytä sitä vain, kun olet varma ettei listaa enää tarvita.
 
 ## Missä lista poistetaan?
 
@@ -54,4 +54,4 @@ Jos tarkoituksesi on vaihtaa listan pituutta (esim. kolmesta viikosta kahteen), 
 
 - Poista vain **luonnoslistoja** Hallinta → Työvuorolistat -sivulta.
 - **Julkaistu lista** → Palauta muokattavaksi → Poista.
-- Poisto on lopullinen — varmista ennen vahvistusta, ettei listaa tarvita enää.
+- Poisto on lopullinen. Varmista ennen vahvistusta, ettei listaa tarvita enää.

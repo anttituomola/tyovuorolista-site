@@ -10,7 +10,7 @@ image:
 tags: ["aloittaminen", "käyttöönotto", "onboarding", "työvuorolista", "kalenteri"]
 ---
 
-Haluatko saada ensimmäisen työvuorolistan kuntoon nopeasti? Tämä opas on tarkoitettu **uusille käyttäjille**: se kokoaa yhteen polun [tyovuorolista.fi](https://tyovuorolista.fi)-sovelluksessa tilin luomisesta ensimmäiseen julkaisunäkymään. Samat vaiheet näkyvät sovelluksessa **Aloita käyttö** -checklistalla kalenterinäkymässä — voit lukea tämän läpi kerralla ja seurata ohjetta rinnalla.
+Haluatko saada ensimmäisen työvuorolistan kuntoon nopeasti? Tämä opas on tarkoitettu **uusille käyttäjille**: se kokoaa yhteen polun [tyovuorolista.fi](https://tyovuorolista.fi)-sovelluksessa tilin luomisesta ensimmäiseen julkaisunäkymään. Samat vaiheet näkyvät sovelluksessa **Aloita käyttö** -checklistalla kalenterinäkymässä, voit lukea tämän läpi kerralla ja seurata ohjetta rinnalla.
 
 ## 1. Luo tili ja yritys
 
@@ -30,7 +30,7 @@ Kun lista on luotu, pääset **Suunnittele**-näkymään (`/`). Vasemmalla näet
 
 ## Uutuus: Aloita käyttö -ohje kalenterissa
 
-Uusille käyttäjille näkyy oikeaan alakulmaan **Aloita käyttö** -paneeli. Siinä on kolme vaihetta kerralla näkyvissä, etenemispalkki ja lyhyet ohjeet. Voit sulkea ohjeen (**Ohita ohjeet**) milloin tahansa — se ei palaa, ellei selaintallennusta tyhjennetä.
+Uusille käyttäjille näkyy oikeaan alakulmaan **Aloita käyttö** -paneeli. Siinä on kolme vaihetta kerralla näkyvissä, etenemispalkki ja lyhyet ohjeet. Voit sulkea ohjeen (**Ohita ohjeet**) milloin tahansa, se ei palaa, ellei selaintallennusta tyhjennetä.
 
 Ohje näkyy vain **julkaisemattoman listan** kalenterissa. Jos yritykselläsi on jo julkaistuja listoja ja vähintään kaksi aktiivista työntekijää, ohjetta ei yleensä näytetä uudelleen.
 
@@ -47,7 +47,7 @@ Rekisteröitymisen yhteydessä sinut lisätään jo yhdeksi työntekijäksi. Ty�
 **Mitä teet:**
 
 1. Avaa **Suunnittele** ja varmista, että oikea lista on valittu vasemman reunan listavalitsimesta.
-2. Klikkaa vasemman yläkulman **plus-ikonia** (Luo uusi työntekijä), kun ohje korostaa sitä — tai tuo useita kerralla **Hallinta → Työntekijät → Tuo työntekijät**.
+2. Klikkaa vasemman yläkulman **plus-ikonia** (Luo uusi työntekijä), kun ohje korostaa sitä, tai tuo useita kerralla **Hallinta → Työntekijät → Tuo työntekijät**.
 3. Täytä työntekijän nimi ja tarvittaessa sähköposti ([miksi sähköposti kannattaa](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta)).
 
 Paneelissa näet edistymisen muodossa **1 / 2 lisätty** → **2 / 2 lisätty**. Poistettuja (deaktivoituja) työntekijöitä ei lasketa mukaan.
@@ -84,7 +84,7 @@ Vaihtoehtoisia tapoja:
 
 ## Vaihe 3: Tutustu julkaisunäkymään
 
-Kun listalla on tarpeeksi vuoroja, kolmas vaihe avautuu. Tavoite on **tutustua Julkaise-näkymään** — sinun ei tarvitse vielä julkaista listaa tai maksaa tilausta ohjeen täyttämiseksi. Riittää, että avaat sivun kerran.
+Kun listalla on tarpeeksi vuoroja, kolmas vaihe avautuu. Tavoite on **tutustua Julkaise-näkymään**. Sinun ei tarvitse vielä julkaista listaa tai maksaa tilausta ohjeen täyttämiseksi. Riittää, että avaat sivun kerran.
 
 **Mitä teet:**
 
@@ -120,7 +120,7 @@ Työvuorolistan aloitus kolmessa lauseessa:
 
 1. **Luo tili** ja **ensimmäinen lista**.
 2. **Lisää toinen työntekijä** ja **raahaa vähintään viisi vuoroa** kalenteriin.
-3. **Avaa Julkaise-näkymä** tutustuaksesi jakamiseen — julkaisu proper voi odottaa, kun olet valmis.
+3. **Avaa Julkaise-näkymä** tutustuaksesi jakamiseen. Julkaisu proper voi odottaa, kun olet valmis.
 
 Sovelluksen **Aloita käyttö** -paneeli kulkee näiden vaiheiden mukana kalenterissa ja kertoo, missä kohdassa olet. Kun kaikki kolme on tehty tai ohje ohitetaan, voit keskittyä omaan aikatauluusi.
 

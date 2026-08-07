@@ -12,20 +12,20 @@ tags: ["päivitykset", "työntekijät", "julkaisu", "tuntien kirjaus"]
 
 *Päivitetty 11.7.2026: lisätty tuntien ilmoittaminen (tunti-ilmoitus) ja avoimet vuorot.*
 
-*Päivitetty 31.7.2026: Oma-portaali ei ole enää beta – erillistä aktivointia ei tarvita, vaan ominaisuus on heti käytettävissä kaikilla maksullisilla tilauksilla.*
+*Päivitetty 31.7.2026: Oma-portaali ei ole enää beta, erillistä aktivointia ei tarvita, vaan ominaisuus on heti käytettävissä kaikilla maksullisilla tilauksilla.*
 
-*Päivitetty 1.8.2026: vapaatoiveen voi nyt hyväksyä tai hylätä suoraan kalenterista – hyväksyntä merkitsee V- ja X-päivät automaattisesti.*
+*Päivitetty 1.8.2026: vapaatoiveen voi nyt hyväksyä tai hylätä suoraan kalenterista. Hyväksyntä merkitsee V- ja X-päivät automaattisesti.*
 
-**Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta – sekä menneet että tulevat vuorot samassa aikajanassa.
+**Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
-> **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita – jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
+> **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
 
 Portaali tarjoaa tällä hetkellä neljä toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
-- **Vapaatoiveen ilmoittaminen** – toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
-- **Tuntien ilmoittaminen** – toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
-- **Avoimiin vuoroihin ilmoittautuminen** – esimies julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua *(uusin, aktivoidaan erikseen)*
+- **Vapaatoiveen ilmoittaminen**: toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
+- **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
+- **Avoimiin vuoroihin ilmoittautuminen**: esimies julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua *(uusin, aktivoidaan erikseen)*
 
 ## Esimiehelle: näin otat Oma-portaalin käyttöön
 
@@ -39,7 +39,7 @@ Siirry **Julkaise**-näkymään, valitse lista ja paina **Merkitse lista julkais
 
 ### 2. Varmista, että työntekijällä on sähköpostiosoite
 
-Kutsu ja kirjautuminen toimivat vain sähköpostilla. Työntekijän sähköposti täytyy olla tallennettuna työntekijätietoihin – sama osoite, johon kutsu lähetetään.
+Kutsu ja kirjautuminen toimivat vain sähköpostilla. Työntekijän sähköposti täytyy olla tallennettuna työntekijätietoihin, sama osoite, johon kutsu lähetetään.
 
 ### 3. Kutsu työntekijä portaaliin
 
@@ -49,30 +49,30 @@ Avaa **Hallinta → Työntekijät**, klikkaa työntekijän nimeä listasta ja pa
 
 <img src="/blogPostImages/oma-portaali/admin-kutsu.png" alt="Työntekijän tiedot -modaali, jossa Oma-portaali-osio ja Kutsu Oma-portaaliin -painike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Työntekijä saa sähköpostiin henkilökohtaisen linkin, jolla hän kirjautuu ensimmäisen kerran. Linkki on tarkoitettu vain hänelle – älä välitä sitä eteenpäin.
+Työntekijä saa sähköpostiin henkilökohtaisen linkin, jolla hän kirjautuu ensimmäisen kerran. Linkki on tarkoitettu vain hänelle, älä välitä sitä eteenpäin.
 
 Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaessa lähettää linkin uudelleen (**Lähetä linkki uudelleen**).
 
 ### 4. Vapaatoiveet kalenterissa
 
-Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin – se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen.
+Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin, se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen.
 
 <img src="/blogPostImages/oma-portaali/vapaatoive-kalenteri.png" alt="Kalenteri, jossa työntekijän vapaatoive näkyy suunnittelumerkintänä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Avaa vapaatoive kalenterista nähdäksesi tarkemmat tiedot ja käsitelläksesi sen:
 
-- **Hyväksy vapaatoive** merkitsee päivät työvuorolistan V- ja X-päiviksi automaattisesti (ensimmäinen vapaapäivä viikolla V, loput X – sama logiikka kuin manuaalisessa merkinnässä). Hyväksyntä vaatii, että jokaiselle päivälle on olemassa lista, joka kattaa kyseisen ajankohdan.
+- **Hyväksy vapaatoive** merkitsee päivät työvuorolistan V- ja X-päiviksi automaattisesti (ensimmäinen vapaapäivä viikolla V, loput X, sama logiikka kuin manuaalisessa merkinnässä). Hyväksyntä vaatii, että jokaiselle päivälle on olemassa lista, joka kattaa kyseisen ajankohdan.
 - **Hylkää** poistaa vapaatoiveen. Voit halutessasi kirjoittaa lyhyen syyn (valinnainen).
 
 <img src="/blogPostImages/oma-portaali/vapaatoive-hyvaksynta.png" alt="Vapaatoiveen tiedot kalenterissa: Hyväksy vapaatoive ja Hylkää -painikkeet" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Hyväksyntä estetään, jos työntekijällä on jo työvuoro vapaatoivepäivänä. Voit silti merkitä vuoron manuaalisesti tarvittaessa – järjestelmä varoittaa päällekkäisyydestä.
+Hyväksyntä estetään, jos työntekijällä on jo työvuoro vapaatoivepäivänä. Voit silti merkitä vuoron manuaalisesti tarvittaessa. Järjestelmä varoittaa päällekkäisyydestä.
 
 ### 5. Työntekijöiden tunti-ilmoitusten hyväksyntä
 
 Kun työntekijä ilmoittaa toteutuneet tuntinsa portaalista (katso työntekijän ohje alempana), ilmoitukset kertyvät **Tuntien kirjaus** -näkymään uudelle välilehdelle **Odottaa hyväksyntää**. Välilehden kohdalla näkyy laskuri, kun käsiteltävää on.
 
-- **Hyväksy** siirtää työntekijän ilmoittamat ajat toteutuneiksi tunneiksi – samat tunnit, joita palkkaraportti käyttää.
+- **Hyväksy** siirtää työntekijän ilmoittamat ajat toteutuneiksi tunneiksi, samat tunnit, joita palkkaraportti käyttää.
 - **Hylkää** jättää suunnitellut ajat voimaan; voit samalla kirjata oikeat ajat itse.
 - **Hyväksy kaikki** käsittelee koko listan kerralla, ja **Kumoa viimeisin hyväksyntä** palauttaa tilanteen, jos hyväksyit vahingossa.
 
@@ -82,7 +82,7 @@ Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytk
 
 ### 6. Avoimet vuorot: suunnittele vuoro ilman tekijää *(uusin)*
 
-**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Tällä hetkellä avoimen vuoron voi luoda vain **klikkaamalla kalenterin aikaa** – avautuvassa vuoromodaalissa valitse työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
+**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Tällä hetkellä avoimen vuoron voi luoda vain **klikkaamalla kalenterin aikaa**. Avautuvassa vuoromodaalissa valitse työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
 
 > Tavalliset vuorot luodaan usein raahaamalla työntekijän nimi kalenteriin. Avoimelle vuorolle ei ole vielä vastaavaa raahattavaa elementtiä, joten käytä kalenterin klikkausta.
 
@@ -90,22 +90,22 @@ Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytk
 
 Avoimet vuorot ovat aluksi vain sinun nähtävissäsi. Kun haluat tarjota niitä työntekijöille:
 
-- **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu – voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu.
+- **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu, voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu.
 - **Yksittäinen vuoro:** avaa avoin vuoro kalenterista ja paina **Julkaise työntekijöille**. Samasta paikasta voit myös perua julkaisun.
 
-Julkaisun jälkeen vuoro näkyy tiimin työntekijöille Oma-portaalissa, ja he voivat **ilmoittautua** siihen. Useampi työntekijä voi ilmoittautua samaan vuoroon – sinä valitset, kuka vuoron saa. Jos vuorolla on [osaamisvaatimus](/posts/tyontekijoiden_osaamiset), ilmoittautua voivat vain työntekijät, joilta vaadittu osaaminen löytyy – vuoro näkyy silti kaikille.
+Julkaisun jälkeen vuoro näkyy tiimin työntekijöille Oma-portaalissa, ja he voivat **ilmoittautua** siihen. Useampi työntekijä voi ilmoittautua samaan vuoroon. Sinä valitset, kuka vuoron saa. Jos vuorolla on [osaamisvaatimus](/posts/tyontekijoiden_osaamiset), ilmoittautua voivat vain työntekijät, joilta vaadittu osaaminen löytyy. Vuoro näkyy silti kaikille.
 
 Ilmoittautumiset näet avaamalla vuoron kalenterista. **Hyväksy** antaa vuoron ilmoittautuneelle: vuoro siirtyy hänen nimiinsä, ilmestyy hänen aikajanalleen portaalissa ja muiden ilmoittautumiset hylätään automaattisesti. Ennen hyväksyntää järjestelmä tarkistaa vielä, ettei työntekijälle ole tullut päällekkäistä vuoroa ilmoittautumisen jälkeen.
 
 <img src="/blogPostImages/oma-portaali/avoin-vuoro-ilmoittautumiset.png" alt="Avoimen vuoron tiedot kalenterissa: ilmoittautuneet työntekijät ja Hyväksy-painike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-> Avoimet vuorot on tuorein lisäys ja se aktivoidaan työpaikoille erikseen samaan tapaan kuin koko portaali – laita viestiä, jos haluat kokeilla.
+> Avoimet vuorot on tuorein lisäys ja se aktivoidaan työpaikoille erikseen samaan tapaan kuin koko portaali. Laita viestiä, jos haluat kokeilla.
 
 ## Työntekijälle: näin käytät Oma-portaalia
 
 ### Ensimmäinen kirjautuminen
 
-1. Avaa sähköpostiisi tullut kutsu. Viestin otsikko on muotoa **Kutsu Oma-portaaliin – [työnantajan nimi]** ja lähettäjänä näkyy tyovuorolista.fi.
+1. Avaa sähköpostiisi tullut kutsu. Viestin otsikko on muotoa **Kutsu Oma-portaaliin: [työnantajan nimi]** ja lähettäjänä näkyy tyovuorolista.fi.
 2. Viestissä kerrotaan, kuka on kutsunut sinut Oma-portaaliin ja mitä portaalissa voi tehdä.
 3. Klikkaa viestissä olevaa linkkiä **Kirjaudu Oma-portaaliin**.
 4. Sinut ohjataan Oma-portaaliin osoitteeseen [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma).
@@ -118,7 +118,7 @@ Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenp�
 
 Etusivulla näet kalenterin ja listan omista vuoroistasi. Voit selata kuukausia ja avata yksittäisen vuoron tarkemmin klikkaamalla sitä.
 
-Näkyvissä ovat kaikki vuorot **julkaistuilta** listoilta – myös menneet. Jos tulevia vuoroja ei ole, näet tekstin *Ei tulevia vuoroja*. Menneet vuorot saat näkyviin painikkeella **Näytä menneet vuorot**.
+Näkyvissä ovat kaikki vuorot **julkaistuilta** listoilta, myös menneet. Jos tulevia vuoroja ei ole, näet tekstin *Ei tulevia vuoroja*. Menneet vuorot saat näkyviin painikkeella **Näytä menneet vuorot**.
 
 <img src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Oma-portaali mobiilinäkymässä: kalenteri ja vuorolista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
@@ -126,12 +126,12 @@ Portaali on suunniteltu erityisesti mobiilikäyttöön, joten se toimii hyvin pu
 
 ### Ilmoita vapaatoive
 
-Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) voit ilmoittaa **vapaatoiveen** – toiveen vapaasta ajasta **ilman palkkaa**.
+Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) voit ilmoittaa **vapaatoiveen**. Toiveen vapaasta ajasta **ilman palkkaa**.
 
 - Voit valita yhden päivän tai päivävälin (alku- ja loppupäivä).
 - Voit lisätä valinnaisen lyhyen muistiinpanon (esim. *"Häät viikonloppuna"*).
 - Vapaatoive **ei korvaa** lomaa eikä lomatoivetta, eikä se poista julkaistuja vuoroja.
-- Vapaatoive **ei näy** omien vuorojen aikajanalla – se on erillisellä sivulla.
+- Vapaatoive **ei näy** omien vuorojen aikajanalla, se on erillisellä sivulla.
 - Et voi ilmoittaa vapaatoivetta päivälle, jolla sinulla on jo **julkaistu työvuoro**.
 
 Esimies näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä** sen. Hyväksytyt päivät ilmestyvät työvuorolistaan V- ja X-merkintöinä; hylätty toive poistuu Oma-portaalin vapaatoivesivulta. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
@@ -140,13 +140,13 @@ Esimies näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä**
 
 Kun vuoro on alkanut tai päättynyt, voit ilmoittaa siitä toteumat suoraan portaalista. Avaa vuoro aikajanalta ja täytä **tunti-ilmoitus**:
 
-- **Toteutuneet ajat** – jos aloitit tai lopetit eri aikaan kuin listaan oli suunniteltu
-- **Sairasloma** – jos vuoro jäi väliin sairauden takia
-- **Vuoro ei toteutunut** – jos vuoro peruuntui kokonaan
+- **Toteutuneet ajat**: jos aloitit tai lopetit eri aikaan kuin listaan oli suunniteltu
+- **Sairasloma**: jos vuoro jäi väliin sairauden takia
+- **Vuoro ei toteutunut**: jos vuoro peruuntui kokonaan
 
 <img src="/blogPostImages/oma-portaali/tunti-ilmoitus.png" alt="Vuoron tiedot Oma-portaalissa: tunti-ilmoituslomake, jossa toteutuneet ajat" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
-Ilmoitus jää tilaan **Odottaa hyväksyntää**, kunnes esimies käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi – erillisiä lappuja tai viestejä ei enää tarvita.
+Ilmoitus jää tilaan **Odottaa hyväksyntää**, kunnes esimies käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita.
 
 ### Ilmoittaudu avoimeen vuoroon *(uusin)*
 
@@ -155,7 +155,7 @@ Jos työpaikallasi on käytössä **avoimet vuorot**, näet etusivulla painikkee
 <img src="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
 - Näet oman tiimisi avoimet vuorot päivämäärineen ja kellonaikoineen.
-- **Ilmoittaudu vuoroon** lähettää esimiehelle pyynnön – vuoro ei siis tule sinulle heti, vaan esimies valitsee ilmoittautuneista.
+- **Ilmoittaudu vuoroon** lähettää esimiehelle pyynnön. Vuoro ei siis tule sinulle heti, vaan esimies valitsee ilmoittautuneista.
 - Voit perua ilmoittautumisen niin kauan kuin se odottaa käsittelyä.
 - Kun esimies hyväksyy ilmoittautumisesi, vuoro ilmestyy omalle aikajanallesi. Hylätyistä ja hyväksytyistä ilmoittautumisista näet tiedon samalla sivulla.
 
@@ -163,7 +163,7 @@ Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien 
 
 ### Myöhemmät kirjautumiset
 
-Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu) – syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi.
+Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu). Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi.
 
 <img src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
