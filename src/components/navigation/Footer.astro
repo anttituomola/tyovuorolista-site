@@ -16,6 +16,8 @@ const taxiPath = getLocalizedPath('/taksiyritykset-ja-kuljetus', locale as 'fi' 
 const cleaningPath = getLocalizedPath('/siivous-ja-kiinteistopalvelut', locale as 'fi' | 'en' | 'sv')
 const hotelsPath = getLocalizedPath('/hotellit-ja-majatalot', locale as 'fi' | 'en' | 'sv')
 const eventsPath = getLocalizedPath('/tapahtumat-ja-sesonkityo', locale as 'fi' | 'en' | 'sv')
+const retailPath = '/kaupan-ala'
+const carePath = '/hoivakodit-ja-palveluasuminen'
 ---
 
 <div class='footer'>
@@ -33,10 +35,12 @@ const eventsPath = getLocalizedPath('/tapahtumat-ja-sesonkityo', locale as 'fi' 
         <h4>{t('footer.industrySolutions', locale as 'fi' | 'en' | 'sv')}</h4>
         <div class='industryLinksGrid'>
             <p><a href={restaurantsPath}>{t('footer.industries.restaurants', locale as 'fi' | 'en' | 'sv')}</a></p>
-            <p><a href={taxiPath}>{t('footer.industries.taxi', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={retailPath}>{t('footer.industries.retail', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={carePath}>{t('footer.industries.care', locale as 'fi' | 'en' | 'sv')}</a></p>
             <p><a href={cleaningPath}>{t('footer.industries.cleaning', locale as 'fi' | 'en' | 'sv')}</a></p>
             <p><a href={hotelsPath}>{t('footer.industries.hotels', locale as 'fi' | 'en' | 'sv')}</a></p>
             <p><a href={eventsPath}>{t('footer.industries.events', locale as 'fi' | 'en' | 'sv')}</a></p>
+            <p><a href={taxiPath}>{t('footer.industries.taxi', locale as 'fi' | 'en' | 'sv')}</a></p>
         </div>
     </div>
 </div>

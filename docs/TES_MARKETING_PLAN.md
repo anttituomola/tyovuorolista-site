@@ -116,6 +116,14 @@ from `siivous-ja-kiinteistopalvelut.astro` TES-section:
 
 (Original plan said "linkitä vasta kun postit ovat ulkona".)
 
+**SOSTES (hoiva page):** leave out until live:
+
+| pubDate | slug |
+|---|---|
+| 2026-08-08 | `posts/vapaapaivat_ja_viikkolepo_jaksotyossa` |
+
+Add to `hoivakodit-ja-palveluasuminen.astro` TES-link list when published.
+
 ## 4. New segment pages (2 × ~half day, fi first)
 
 Follow the existing segment-page pattern (hero + video/screenshot +

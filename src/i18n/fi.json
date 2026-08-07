@@ -29,6 +29,8 @@
     "industrySolutions": "Toimialakohtaiset ratkaisut",
     "industries": {
       "restaurants": "Ravintolat ja kahvilat",
+      "retail": "Kaupan ala",
+      "care": "Hoivakodit ja palveluasuminen",
       "taxi": "Taksiyritykset ja kuljetus",
       "cleaning": "Siivous- ja kiinteistöpalvelut",
       "hotels": "Hotellit ja majatalot",

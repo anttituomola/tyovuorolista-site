@@ -1,0 +1,317 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+---
+
+<Layout
+    title="Hoivakodin työvuorolistat ja SOSTES jaksotyö | tyovuorolista.fi"
+    description="Hoivakodin ja palveluasumisen työvuorosuunnittelu SOSTES-jaksotyöllä. TES-apuri (beta): jaksotunnit, ylityöt ja viikkolepo kaikissa paketeissa. Kokeile ilmaiseksi!"
+    ogTitle="Hoivakodin työvuorolistat ja SOSTES jaksotyö"
+    ogDescription="Suunnittele 3/6 vk -listat SOSTES-jaksotyöhön. TES-apuri varoittaa lepoajoista ja laskee jakson ylityöt hoivakodeissa ja palveluasumisessa."
+    ogUrl="https://tyovuorolista.fi/hoivakodit-ja-palveluasuminen"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <div class="landing-wrapper">
+        <div class="hero-section">
+            <h1>Hoivakodin työvuorolistat ja SOSTES jaksotyö</h1>
+            <p class="hero-subtitle">Työvuorosuunnittelu yksityiseen sosiaalipalvelualaan: jaksotyö, yövuorot ja TES-apuri samassa sovelluksessa. Sopii hoivakodeille ja palveluasumiseen.</p>
+            <p class="hero-cta"><em>Ensimmäinen lista valmiina ja työntekijöillä alle viidessä minuutissa.</em></p>
+
+            <div class="video-container">
+                <video controls preload="metadata" poster="/blogPostImages/tes-apuri-demo-poster.png">
+                    <source src="/blogPostImages/tes-apuri-demo.webm" type="video/webm" />
+                    <source src="/blogPostImages/tes-apuri-demo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="problem-solution">
+                <h2>Ongelma ja ratkaisu</h2>
+                <ul>
+                    <li>Kolmen ja kuuden viikon listat: ankkuroi jaksot ja seuraa jaksosaldoa kalenterissa.</li>
+                    <li>Jaksotyön ylityöt (18 h +50 %, sen jälkeen +100 %) lasketaan listaan merkitystä työajasta.</li>
+                    <li>Vapaapäivä- ja viikkoleposäännöt nousevat TES-huomautuksina jo suunnitteluvaiheessa.</li>
+                </ul>
+            </div>
+
+            <div class="key-features">
+                <h2>Avainominaisuudet</h2>
+                <ul>
+                    <li>TES-apuri (beta): SOSTES-jaksotyö kaikissa paketeissa, myös Miniissä.</li>
+                    <li>3/6 vk -listat ja jaksosaldo esihenkilölle.</li>
+                    <li>Yövuorot, sunnuntai- ja iltalisät valmiiksi eriteltyinä.</li>
+                    <li>Tiimit osastoittain ja henkilökohtaiset sähköpostilistat.</li>
+                    <li>Drag-and-drop-kalenteri ja mallipohjat.</li>
+                </ul>
+            </div>
+
+            <div class="tes-section">
+                <h2>TES-apuri SOSTES-jaksotyöhön</h2>
+                <p>TES-apuri (beta) tukee yksityisen sosiaalipalvelualan TES:iä (SOSTES) jaksotyössä: jakson tuntirajat, ylityöerittely, viikkolepo ja vapaapäiväsäännöt. Arkipyhät ja poissaolot alentavat ylityörajaa automaattisesti. Varoitukset, saldonäkymät ja vuosivapaaseuranta kuuluvat kaikkiin paketteihin.</p>
+                <p>Sivu on tarkoitettu hoivakodeille ja palveluasumiseen. Varhaiskasvatuksen Vaka-TES:lle ei ole vielä valmista presettiä.</p>
+                <p>Lue lisää:</p>
+                <ul class="tes-links">
+                    <li><a href="/posts/sostes_tyovuorosuunnittelussa">SOSTES työvuorosuunnittelussa</a></li>
+                    <li><a href="/posts/jaksotyon_lisa_ja_ylityo_sostes">Jaksotyön lisä- ja ylityö</a></li>
+                    <li><a href="/posts/sunnuntai_ja_iltalisat_sostes">Sunnuntai- ja iltalisät</a></li>
+                    <li><a href="/ominaisuudet/tes-apuri">TES-apuri</a></li>
+                </ul>
+                <div class="tes-section__media">
+                    <img src="/blogPostImages/sostes-tes/sostes-jaksosaldo.png" alt="SOSTES jaksosaldo ja ylityöerittely hoivakodin listalla" loading="lazy" width="1200" height="675" />
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <h2>Asiakkaiden kokemuksia</h2>
+                <blockquote>
+                    "Työvuorolistojen tekemisestä on tullut todella helppo… Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin."
+                    <cite>– <strong>Anita Lindov, Velj. Kitola Oy</strong></cite>
+                </blockquote>
+            </div>
+
+            <div class="pricing">
+                <h2>Hinnoittelu</h2>
+                <div class="pricing-tiers">
+                    <div class="tier">
+                        <h3>0 €</h3>
+                        <p>3 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>18 €</h3>
+                        <p>20 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>60 €</h3>
+                        <p>50 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>180 €</h3>
+                        <p>100 työntekijää (+ alv)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <Button
+                    text="Kokeile Työvuorolistaa ilmaiseksi"
+                    variant="primary"
+                    href="https://app.tyovuorolista.fi/register"
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .landing-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-base);
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-bottom: 1px solid var(--vaaleanharmaa);
+        margin-bottom: var(--space-4xl);
+    }
+
+    h1 {
+        font-size: var(--text-4xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-xl);
+        font-weight: 600;
+    }
+
+    .hero-subtitle {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin-bottom: var(--space-lg);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-cta {
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-4xl);
+    }
+
+    .video-container {
+        margin: 0 auto;
+        max-width: 800px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4xl);
+    }
+
+    h2 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-lg);
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: var(--space-sm) 0;
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        position: relative;
+        padding-left: var(--space-lg);
+    }
+
+    li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--tummanvihrea);
+        font-weight: bold;
+    }
+
+    .tes-links li::before {
+        content: "→";
+    }
+
+    .testimonial {
+        background-color: var(--vaaleanharmaa);
+        padding: var(--space-4xl);
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    blockquote {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+        font-style: italic;
+    }
+
+    cite {
+        display: block;
+        margin-top: var(--space-lg);
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        font-style: normal;
+    }
+
+    .pricing-tiers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-lg);
+    }
+
+    .tier {
+        background-color: white;
+        border: 1px solid var(--vaaleanharmaa);
+        border-radius: 8px;
+        padding: var(--space-xl);
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .tier:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .tier h3 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-sm) 0;
+        font-weight: 600;
+    }
+
+    .tier p {
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: var(--text-3xl);
+        }
+
+        .hero-subtitle {
+            font-size: var(--text-base);
+        }
+
+        .video-container {
+            max-width: 100%;
+        }
+
+        .content-section {
+            gap: var(--space-2xl);
+        }
+
+        .testimonial {
+            padding: var(--space-2xl);
+        }
+
+        .pricing-tiers {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

@@ -29,6 +29,8 @@
     "industrySolutions": "Industry-specific solutions",
     "industries": {
       "restaurants": "Restaurants and cafés",
+      "retail": "Retail",
+      "care": "Care homes and assisted living",
       "taxi": "Taxi companies and transport",
       "cleaning": "Cleaning and property services",
       "hotels": "Hotels and inns",

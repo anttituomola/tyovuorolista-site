@@ -29,6 +29,8 @@
     "industrySolutions": "Branschspecifika lösningar",
     "industries": {
       "restaurants": "Restauranger och kaféer",
+      "retail": "Handel",
+      "care": "Vårdhem och serviceboende",
       "taxi": "Taxibolag och transport",
       "cleaning": "Städning och fastighetstjänster",
       "hotels": "Hotell och värdshus",

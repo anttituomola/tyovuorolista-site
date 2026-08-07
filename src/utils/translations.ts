@@ -137,6 +137,16 @@ const pathMappings: Record<string, Record<Locale, string>> = {
     en: '/en/events-and-seasonal-work',
     sv: '/sv/evenemang-och-sasongsarbete'
   },
+  '/kaupan-ala': {
+    fi: '/kaupan-ala',
+    en: '/kaupan-ala',
+    sv: '/kaupan-ala'
+  },
+  '/hoivakodit-ja-palveluasuminen': {
+    fi: '/hoivakodit-ja-palveluasuminen',
+    en: '/hoivakodit-ja-palveluasuminen',
+    sv: '/hoivakodit-ja-palveluasuminen'
+  },
   '/ominaisuudet': {
     fi: '/ominaisuudet',
     en: '/en/features',
