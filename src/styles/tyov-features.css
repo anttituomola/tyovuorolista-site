@@ -41,10 +41,17 @@
 }
 
 .tyov-features__grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 2.5rem;
+}
+
+.tyov-features__grid > .tyov-features__card {
+  flex: 0 1 calc((100% - 3 * 1rem) / 4);
+  max-width: calc((100% - 3 * 1rem) / 4);
+  min-width: 0;
 }
 
 .tyov-features__card,
@@ -161,8 +168,9 @@
 }
 
 @media (max-width: 1024px) {
-  .tyov-features__grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .tyov-features__grid > .tyov-features__card {
+    flex-basis: calc((100% - 1rem) / 2);
+    max-width: calc((100% - 1rem) / 2);
   }
 }
 
@@ -178,8 +186,9 @@
     padding-block: 2.75rem 3rem;
   }
 
-  .tyov-features__grid {
-    grid-template-columns: 1fr;
+  .tyov-features__grid > .tyov-features__card {
+    flex-basis: 100%;
+    max-width: 100%;
   }
 
   .tyov-features__title {
@@ -223,19 +232,22 @@
 /* Visual refresh: screenshot cards, hero, badges                    */
 /* ---------------------------------------------------------------- */
 
-.tyov-features__grid--three {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.tyov-features__grid--three > .tyov-features__card {
+  flex-basis: calc((100% - 2 * 1rem) / 3);
+  max-width: calc((100% - 2 * 1rem) / 3);
 }
 
 @media (max-width: 1024px) {
-  .tyov-features__grid--three {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .tyov-features__grid--three > .tyov-features__card {
+    flex-basis: calc((100% - 1rem) / 2);
+    max-width: calc((100% - 1rem) / 2);
   }
 }
 
 @media (max-width: 520px) {
-  .tyov-features__grid--three {
-    grid-template-columns: 1fr;
+  .tyov-features__grid--three > .tyov-features__card {
+    flex-basis: 100%;
+    max-width: 100%;
   }
 }
 
