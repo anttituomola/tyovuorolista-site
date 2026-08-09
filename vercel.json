@@ -1,6 +1,26 @@
 {
   "redirects": [
     {
+      "source": "/posts/ty%C3%B6vuorosuunnittelu_ohjelma",
+      "destination": "/posts/tyovuorosuunnittelu_ohjelma",
+      "permanent": true
+    },
+    {
+      "source": "/posts/työvuorosuunnittelu_ohjelma",
+      "destination": "/posts/tyovuorosuunnittelu_ohjelma",
+      "permanent": true
+    },
+    {
+      "source": "/en/pohja",
+      "destination": "/pohja",
+      "permanent": true
+    },
+    {
+      "source": "/sv/pohja",
+      "destination": "/pohja",
+      "permanent": true
+    },
+    {
       "source": "/posts/tuntien-kirjaus-opas",
       "destination": "/posts/tuntien_kirjaus_opas",
       "permanent": true

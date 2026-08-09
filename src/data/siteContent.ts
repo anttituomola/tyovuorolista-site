@@ -235,7 +235,7 @@ export const resources: ResourceItem[] = [
     id: 'scheduling-software',
     section: 'guides',
     type: 'guide',
-    blogSlug: '/posts/työvuorosuunnittelu_ohjelma',
+    blogSlug: '/posts/tyovuorosuunnittelu_ohjelma',
   },
   {
     id: 'shift-length-and-rest',
