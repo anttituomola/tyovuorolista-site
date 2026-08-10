@@ -50,7 +50,8 @@ viimeistään klo 19 illalla.
 Laissa on poikkeuksia (mm. vuoronvaihtotilanteet ja kausiruuhkat), mutta
 tavallisessa ravintola- tai myymälälistassa 11 tuntia on se luku, jota
 kannattaa vahtia. Lyhennetystä lepoajasta on aina annettava korvaava
-lepoaika.
+lepoaika. Poikkeukset ja TES-kohtaiset rajat on koottu postaukseen
+[lepoaika työvuorojen välissä](/posts/lepoaika_tyovuorojen_valissa).
 
 ## Tauko työpäivän aikana (24 §)
 

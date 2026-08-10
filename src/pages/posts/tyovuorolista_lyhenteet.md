@@ -79,3 +79,5 @@ Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus 
 - [Tasoittumisjärjestelmä ravintola-alalla: syväluotaava opas](/posts/tasoittumisjarjestelma_ravintola-alalla)
 - [Vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan)
 - [Työvuoron pituus ja lepoajat ravintola-alalla](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla)
+- [Lepoaika työvuorojen välissä: 11 tunnin pääsääntö](/posts/lepoaika_tyovuorojen_valissa)
+- [Työvuorosuunnitteluohjelma: vaihtoehdot ja valintaopas](/posts/tyovuorosuunnittelu_ohjelma)

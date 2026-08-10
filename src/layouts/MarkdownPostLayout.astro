@@ -74,7 +74,11 @@ const breadcrumbJsonLd = {
 }
 ---
 
-<Layout>
+<Layout
+    title={frontmatter.title}
+    description={frontmatter.description}
+    ogImage={frontmatter.image ? new URL(frontmatter.image.url, siteUrl).href : undefined}
+>
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
     <div class="blogWrapper">

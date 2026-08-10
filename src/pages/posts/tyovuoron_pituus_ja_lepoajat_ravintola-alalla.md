@@ -113,7 +113,8 @@ sopimusta aikaisin aloitus on klo 13 (11 tunnin lepoaika).
 Vuorokausilevon lisäksi MaRa-TES tuntee pidemmät vapaat:
 [V-päivän 30 tunnin](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa) ja
 [X-päivän 24 tunnin](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)
-lepoajat.
+lepoajat. Työaikalain yleissääntö ja muiden alojen poikkeukset:
+[lepoaika työvuorojen välissä](/posts/lepoaika_tyovuorojen_valissa).
 
 ## Ruokatauko ja kahvitauko työvuoron aikana
 

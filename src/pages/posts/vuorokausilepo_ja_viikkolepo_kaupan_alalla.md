@@ -22,7 +22,9 @@ olla **vähintään 9 tuntia**; työntekijän kanssa kertaluonteisesti sopien
 Lähtökohtaisesti **35 tuntia** yhdenjaksoista vapaa-aikaa viikossa.
 
 Laajemmin lain tasolla:
-[Työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa).
+[Työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa)
+ja kaikkien alojen vertailu:
+[lepoaika työvuorojen välissä](/posts/lepoaika_tyovuorojen_valissa).
 
 ## Vuorokausilepo: 11 → 9 → 7 tuntia
 

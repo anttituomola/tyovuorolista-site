@@ -19,7 +19,10 @@ if (locale === 'fi') {
 }
 ---
 
-<Layout>
+<Layout
+    title={`${t('blogPosts.blogPageTitle', locale)} – tyovuorolista.fi`}
+    description="Ohjeita ja oppaita työvuorosuunnitteluun: TES-säännöt, työaikalaki, ilmaiset työvuorolistapohjat ja sovelluksen käyttöohjeet."
+>
     <div class="wrapper">
         <h1>{t('blogPosts.blogPageTitle', locale)}</h1>
         <p class="hubIntro">

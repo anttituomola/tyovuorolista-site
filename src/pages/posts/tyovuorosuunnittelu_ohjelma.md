@@ -1,55 +1,146 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Työvuorosuunnittelu ohjelma: työvuorojen suunnittelu ravintola-alalla'
+title: 'Työvuorosuunnitteluohjelma: hinnat, ilmaiset vaihtoehdot ja valintaopas 2026'
 pubDate: 2022-07-07
-description: 'Mitä vaihtoehtoja on ravintolan työvuorojen suunnitteluun? Miten työvuorosuunnitteluohjelma voi auttaa?'
+description: 'Mikä työvuorosuunnitteluohjelma sopii pienelle yritykselle? Vertailussa Excel, ilmaiset pohjat ja kotimaiset ohjelmistot. Hinnat, TES-tuki ja valintakriteerit ravintolaan, kauppaan, hoivaan ja siivousalalle.'
+reviewedDate: 2026-08-10
+infoBasis: 'Hinnat ja ohjelmistovaihtoehdot tarkistettu elokuussa 2026. Lakiviittaukset perustuvat työaikalakiin 872/2019 (30 §) ja alakohtaisiin työehtosopimuksiin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_hero.png'
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
-tags: ["työvuorosuunnittelu", "ohjelma", "työvuorosuunnitteluohjelmistot"]
+tags: ["työvuorosuunnittelu", "ohjelma", "työvuorosuunnitteluohjelmistot", "ilmainen"]
 ---
 
-Työvuorolistan suunnittelu ravintolassa on pakollista puuhaa: laki määrittää, että työvuorolista on oltava tehtynä aina tulevalle kolmelle viikolle (Työvuorolistassa voit valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta)), ja julkaistuna viimeistään viikkoa ennen sen alkamista. Tämä pätee sekä saliin että keittiöön.
+**Lyhyesti:** Työvuorolistan voi tehdä paperilla, Excelillä tai
+työvuorosuunnitteluohjelmalla. Ohjelma maksaa itsensä takaisin, jos se
+säästää edes tunnin työvoimakuluja kuukaudessa tai tunnin omaa aikaasi.
+Valitse kotimainen ohjelma, joka ymmärtää suomalaista työaikalakia ja
+TES:iä, ja jonka hinnat ovat julkisesti näkyvillä. Ilmaiseksi pääsee
+alkuun [tulostettavalla pohjalla](/pohja) tai Työvuorolistan
+Mini-paketilla (enintään 3 työntekijää).
 
-## Mitä vaihtoehtoja työvuorosuunnitteluun löytyy?
-Ravintolan tai kahvilan työvuorosuunnitteluun löytyy rajallinen määrä erilaisia ohjelmia. Yleisimpiä vaihtoehtoja ovat Excel, Google Sheets, tai jokin työvuorosuunnitteluohjelma. Jokaisella näistä on omat hyvät ja huonot puolensa. Jotkut tekevät listat myös käsin, mutta siinä tulee tehtyä tupladuunia: joudut kuitenkin syöttämään tiedot johonkin digitaaliseen systeemiin, jotta saat palkat laskettua tai tiedot palkanlaskijalle. Samoin tein kannattaa suunnitella listat digitaalisesti, jotta ne on helppo jakaa työntekijöille ja palkanlaskentaan.
+Työvuorolistan tekeminen ei ole vapaaehtoista: työaikalain mukaan
+jokaiselle työpaikalle on laadittava työvuoroluettelo vähintään viikoksi
+kerrallaan, ja se on annettava työntekijöille tiedoksi viimeistään
+viikkoa ennen jakson alkamista. Moni TES kiristää tätä: ravintola-alalla
+lista laaditaan käytännössä [kolmeksi viikoksi
+kerrallaan](/posts/kolmiviikkoisjakso_ravintola-alalla), ja kaupan
+alalla lista pitää julkaista kaksi viikkoa ennen työviikon alkua. Katso
+tarkemmin: [koska työvuorolista pitää
+julkaista](/posts/tyovuorolistan_julkaiseminen).
 
-### Excel / Google Sheets
-Työvuorolistaa voi lähteä tekemään taulukko-ohjelmistolla, esim. Excel tai Google Sheets. Hyviä puoli on se, että ainakin Sheets on ilmainen käyttää. Huono puoli on se, että suurin osa ajastasi menee itse listan tekoon, ei työvuorojen suunnitteluun. Lisää aikaa kuluu työvuorojen julkaisemiseen, toteutuneiden tuntien kirjaamiseen, tuntien laskentaan ja muuhun. Tämä kaikki on pois siitä ajasta ja aivotyöstä, jonka voisit käyttää itse työvuorosuunnitteluun.
+## Vaihtoehdot: paperi, Excel vai työvuorosuunnitteluohjelma?
 
-Jos kuitenkin haluat käyttää ilmaista pohjaa, lue [paras ilmainen pohja ravintolan työvuorolistalle](/posts/tyovuorolista_pohja) -teksti.
+Vaihtoehtoja on käytännössä kolme: käsin tehty lista, taulukkolaskenta
+(Excel tai Google Sheets) ja varsinainen työvuorosuunnitteluohjelma.
 
-Miksi aikaa kannattaa käyttää työvuorosuunnitteluun? Jos saat nipistettyä yhdenkin tunnin pois kuukauden työvuorolistasta (se on melko helppoa, pienenkin ravintolan tuntilista on satoja tunteja per lista), olet säästänyt enemmän rahaa kuin esimerkiksi Tyovuorolista.fi -palvelun kuukausimaksu (12 €). Ja säästät aikaa, jota voit käyttää johonkin muuhun. Vaikka asiakaspalveluun. Tai kaljan juomiseen.
+Käsin tehdyssä listassa tulee tehtyä tupladuunia: tiedot pitää
+kuitenkin syöttää johonkin digitaaliseen järjestelmään, jotta palkat
+saadaan laskettua tai toimitettua palkanlaskijalle. Siksi lista
+kannattaa suunnitella alusta asti digitaalisesti.
 
-### Työvuorosuunnitteluohjelma
-Vaihtoehdot voidaan jakaa ensin kahteen osaan:
-1. Kotimaiset ohjelmistot
-2. Ulkomaiset ohjelmistot
+### Excel ja Google Sheets
 
-Molemmat ovat aivan mahdollisia vaihtoehtoja, mutta kerrankin kannattaa valita kotimainen softa: työvuorosuunnittelussa on tärkeää, että ohjelmisto ymmärtää suomalaista työaikalainsäädäntöä. Sen pitäisi osata kertoa sinulle esimerkiksi: 
-- kuinka pitkä listan tulee olla (3 viikkoa, tai [1–4 viikkoa Työvuorolistassa](/posts/listan_pituuden_valinta))
-- koska listan tulisi alkaa (maanantaista)
-- kuinka pitkä työvuoro saa olla ([10 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla), tai erikseen sovittaessa pidempi)
-- kuinka lyhyt työvuoro saa olla ([4 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla), perustellusta syystä lyhyempi)
-- kuinka pitkä tauko työvuorojen välissä tulee olla ([11 h](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla))
+Taulukkolaskenta on tuttu ja Sheets on ilmainen. Huono puoli: suurin
+osa ajasta menee itse taulukon vääntämiseen, ei työvuorojen
+suunnitteluun. Lisää aikaa kuluu listojen jakamiseen työntekijöille,
+toteutuneiden tuntien kirjaamiseen ja tuntien laskentaan. Kaikki tämä
+on pois siitä ajattelusta, jolla listasta tulee hyvä.
 
-#### Kotimaisia ohjelmistoja ovat mm:
-- <a href='https://tyovuorolista.fi' target='_blank'>tyovuorolista.fi</a>
-- <a href='https://maraplan.fi' target='_blank'>MaraPlan</a>
-- <a href='https://www.hrsuunti.fi/' target='_blank'>HRSuunti</a>
+Jos haluat silti aloittaa taulukolla, lue [paras ilmainen pohja
+työvuorolistalle](/posts/tyovuorolista_pohja) ja pidempi vertailu
+[Excel vs. työvuorolistaohjelma](/posts/excel_vs_tyovuorolista_ohjelma).
 
-#### Ulkomaisia ohjelmistoja ovat mm:
-- <a href='https://wheniwork.com' target='_blank'>When I Work</a>
-- <a href='https://www.deputy.com' target='_blank'>Deputy</a>
-- <a href='https://www.7shifts.com' target='_blank'>7shifts</a>
+Miksi suunnitteluun kannattaa käyttää aikaa? Jos saat nipistettyä
+yhdenkin tunnin pois kuukauden työvuorolistasta (se on melko helppoa,
+pienenkin ravintolan lista on satoja tunteja kuussa), olet säästänyt
+enemmän kuin ohjelman kuukausimaksun. Ja säästät omaa aikaasi, jota voit
+käyttää vaikka asiakaspalveluun. Tai kaljan juomiseen.
 
-Ulkomaisissa ohjelmistoissa - jotka käytännössä aina ovat jenkkiläisiä - saattaa olla myös ärsyttäviä paikalliserikoisuuksia, kuten viikon alkaminen sunnuntaista, kellonaikojen ilmaiseminen AM/PM -jaolla, jne.
+## Ilmainen työvuorosuunnittelu: kolme tapaa
+
+1. **[Tulostettava pohja selaimessa](/pohja)**: täytä nimet ja vuorot,
+   tulosta tai tallenna PDF. Ei asennusta, ei rekisteröitymistä.
+2. **[Ilmainen taulukkopohja](/posts/tyovuorolista_pohja)**:
+   OpenOffice-pohja, joka laskee tunnit automaattisesti. Vaatii hieman
+   säätöä.
+3. **Työvuorolistan Mini-paketti**: sovelluksen käyttö on ilmaista
+   enintään kolmen työntekijän listoille, ilman aikarajaa. Sopii
+   pienelle kahvilalle tai kioskille sellaisenaan.
+
+## Miten valita työvuorosuunnitteluohjelma?
+
+Tärkein valintakriteeri: **ohjelman pitää ymmärtää suomalaista
+työaikalainsäädäntöä ja työehtosopimuksia**. Hyvä ohjelma kertoo
+suunnittelun aikana esimerkiksi:
+
+- kuinka pitkä listan tulee olla ja [koska se pitää
+  julkaista](/posts/tyovuorolistan_julkaiseminen)
+- kuinka pitkä tai lyhyt työvuoro saa olla ([ravintola-alalla 4–10
+  tuntia](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla))
+- jääkö vuorojen väliin riittävä [lepoaika (pääsääntö 11
+  tuntia)](/posts/lepoaika_tyovuorojen_valissa)
+- täyttyvätkö jakson tunnit ja vapaapäivät ([TES-tuki tekee tämän
+  automaattisesti](/posts/tes_tuki_tyovuorosuunnittelussa))
+
+Muut kriteerit, joita kannattaa vaatia:
+
+- **Julkiset hinnat.** Jos hinnan saa vain "pyydä demo" -lomakkeen
+  kautta, hinta on yleensä korkea ja myyntiprosessi pitkä.
+- **Helppo julkaisu**: lista työntekijöille sähköpostilla, PDF:nä tai
+  vaikka WhatsAppilla parilla klikkauksella.
+- **Mobiilikäyttö**: työntekijät katsovat vuoronsa puhelimesta.
+- **Tuntien kirjaus**: toteutuneet tunnit samaan järjestelmään, josta
+  ne lähtevät palkanlaskentaan.
+
+### Kotimainen vai ulkomainen ohjelmisto?
+
+Molemmat ovat mahdollisia, mutta kerrankin kannattaa valita kotimainen:
+ulkomainen ohjelma ei tunne suomalaisia työehtosopimuksia, ja
+jenkkiläisissä ohjelmistoissa on usein ärsyttäviä paikalliserikoisuuksia,
+kuten viikon alkaminen sunnuntaista tai kellonajat AM/PM-muodossa.
+
+Kotimaisia ohjelmistoja ovat mm. <a href='https://tyovuorolista.fi'>tyovuorolista.fi</a>,
+<a href='https://maraplan.fi' target='_blank' rel='noopener'>MaraPlan</a> ja
+<a href='https://www.hrsuunti.fi/' target='_blank' rel='noopener'>HRSuunti</a>.
+Ulkomaisia ovat mm. <a href='https://wheniwork.com' target='_blank' rel='noopener'>When I Work</a>,
+<a href='https://www.deputy.com' target='_blank' rel='noopener'>Deputy</a> ja
+<a href='https://www.7shifts.com' target='_blank' rel='noopener'>7shifts</a>.
+Yksityiskohtainen vertailu ominaisuuksineen ja hintoineen:
+[työvuorosuunnitteluohjelmien vertailu 2026](/posts/tyovuorosuunnitteluohjelmien_vertailu_2026).
+
+## Eri alojen erityispiirteet
+
+Työvuorosuunnittelun säännöt tulevat pääosin alan TES:stä, joten
+ohjelman pitää taipua oman alasi käytäntöihin:
+
+- **[Ravintolat ja kahvilat](/ravintolat-ja-kahvilat)**:
+  kolmiviikkoisjaksot, MaRa-TES:n vuororajat ja lisät
+- **[Kaupan ala](/kaupan-ala)**: tasoittumisjärjestelmä ja
+  kaksi viikkoa etukäteen julkaistavat listat
+- **[Hoivakodit ja palveluasuminen](/hoivakodit-ja-palveluasuminen)**:
+  jaksotyö, yövuoroputket ja SOSTES:n vapaapäiväsäännöt
+- **[Siivous- ja kiinteistöpalvelut](/siivous-ja-kiinteistopalvelut)**:
+  useat kohteet ja vaihtelevat tuntimäärät
+- **[Taksiyritykset ja kuljetus](/taksiyritykset-ja-kuljetus)**:
+  ajoaikojen ja lepoaikojen yhteensovittaminen
 
 ## Miksi valita Tyovuorolista.fi?
-Työvuorolistan etuja kilpailijoihin nähden ovat:
-- Me emme koeta kynyttää sinulta jokaista irtoavaa euroa: hintamme ovat julkisesti nähtävillä, toisin kuin muilla kotimaisilla toimijoilla.
-- Voit [aloittaa käytön heti](/posts/uuden_tilin_luominen): meillä sovellus ostetaan kotisivuilta, ja sen käytön voi aloittaa heti. Ei demopuheluita, tarjouspyyntöjä ja muut ajanhukkaa.
-- Käytön helppous: työvuorot laitetaan kalenteriin vetämällä työntekijä halutulle kohdalle. Työvuorot julkaistaan nappia painamalla.
-- Joustavuus: me ymmärrämme, että ravintolat ovat hektisiä ympäristöjä. Välillä sääntöjen tulee joustaa. Meillä voit tehdä työvuorolistan myös viikoksi, tai aloittaa sen torstaista, tai tehdä kahden tunnin työvuoron. Me näytämme muistutuksen, mutta emme estä sinua. Sovellus on tehty mahdollistamaan ravintolasi toiminta, ei valvomaan työaikalainsäädäntöä.
-- Ilmainen aloittaa, edullinen käyttää: voit aloittaa käytön heti ilmaiseksi. Vasta kun lisäät neljännen työntekijän, maksat yhden lounaan hintaisen kuukausimaksun. Tällä hinnalla voit tehdä listoja 20:lle työntekijälle! Katso [ajankohtaiset hinnat](/posts/hinnoittelun_uudistus_maaliskuu_2026) ja [työvuorolista PDF:nä](/posts/tyovuorolista_pohja_pdf).
+
+- **Julkinen, reilu hinnoittelu**: käyttö on ilmaista enintään kolmen
+  työntekijän listoille. Siitä ylöspäin Normi-paketti maksaa 18 €/kk
+  (tai 144 €/vuosi) ja kattaa jopa 20 työntekijää. Katso
+  [ajankohtaiset hinnat](/hinnoittelu).
+- **Aloitat heti**: [tili luodaan verkossa](/posts/uuden_tilin_luominen)
+  ja ensimmäinen lista on julkaistu noin viidessä minuutissa. Ei
+  demopuheluita eikä tarjouspyyntöjä.
+- **Helppo käyttää**: työvuorot laitetaan kalenteriin raahaamalla
+  työntekijä halutulle kohdalle, ja lista julkaistaan nappia painamalla
+  [sähköpostilla tai PDF:nä](/posts/tyovuorolista_pohja_pdf).
+- **TES-tuki**: sovellus varoittaa, jos vuoro rikkoo työaikalakia tai
+  valitsemasi TES:n sääntöjä, mutta ei koskaan estä sinua. Säännöt
+  joustavat, koska arki on arkea.
+- **Tuntien kirjaus**: toteutuneet tunnit kirjataan samaan
+  järjestelmään ja saat niistä [palkkaraportin](/posts/palkkaraportti_ominaisuus)
+  palkanlaskentaan.
