@@ -103,7 +103,7 @@ jo suunnitteluvaiheessa, kun viikko on kasvamassa yli 37,5 tunnin:
 
 Palkkaraporteissa tunnit jaotellaan valmiiksi: työtunnit, lisätyö,
 ylityö +50 % ja +100 % omille riveilleen, palkkalajikoodit
-mapattavissa omaan palkanlaskentaan. Varoitukset eivät estä
+kohdistettavissa omaan palkanlaskentaan. Varoitukset eivät estä
 tallentamista. Paikallinen sopiminen on kaupan alalla laajaa, ja
 sovellus jättää tulkinnan sinulle.
 

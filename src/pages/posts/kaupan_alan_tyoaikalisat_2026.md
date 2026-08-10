@@ -87,7 +87,7 @@ Peruspalkka juoksee erikseen; lisät eivät korota toisiaan.
 
 <img src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Tuntiluokittelu: iltalisä, aattoiltalisä, sunnuntaikorvaus" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
-## Sovellus mapaa lisät palkkariviksi
+## Sovellus muuntaa lisät palkkariveiksi
 
 TES-tuki luokittelee tunnit kategorioihin (ilta, yö, lauantai, aattoilta,
 sunnuntai…) ja palkkaraportissa rivit saa vietyä omilla

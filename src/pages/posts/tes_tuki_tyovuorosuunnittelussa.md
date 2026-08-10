@@ -33,7 +33,7 @@ Aktivointi on itsepalvelua:
    kolmiviikkoisjaksoja (MaRa, SOSTES).
 3. **Täydennä työntekijöiden TES-tiedot** (työsuhteen tyyppi,
    sopimustunnit) tarkistuslistan mukaan.
-4. **Mapaa palkkalajikoodit** oman palkanlaskennan koodeihin, jos viet
+4. **Kohdista palkkalajikoodit** oman palkanlaskennan koodeihin, jos viet
    palkkaraportin.
 
 Vaiheittainen ohje:
@@ -120,7 +120,7 @@ Lisäksi sovellus seuraa **vuosivapaakertymää** (1 vuosivapaa jokaista
 200 toteutunutta työtuntia kohti, enintään 9 päivää vuodessa). Saldo näkyy sekä työnantajalle että työntekijälle Oma-portaalissa.
 
 Kategoriat siirtyvät sellaisenaan [palkkaraporttiin](/posts/palkkaraportti_ominaisuus)
-(CSV, PDF ja Procountor-muoto), ja palkkalajikoodit voi mapata omaan
+(CSV, PDF ja Procountor-muoto), ja palkkalajikoodit voi kohdistaa omaan
 palkanlaskentaan sopiviksi.
 
 ## Mitä TES-tuki ei ole

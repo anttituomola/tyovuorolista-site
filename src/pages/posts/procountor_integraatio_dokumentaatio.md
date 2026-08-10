@@ -46,7 +46,7 @@ Jokainen CSV-rivi on yksi palkkalajirivi yhdelle palkansaajalle:
 Tyypillisiä rivejä: työtunnit, ilta-/yö-/lauantai-/sunnuntailisät,
 aattoiltalisä, sairausajan palkka, vuosivapaa sekä TES-tulkitut
 lisätyö- ja ylityörivit (kun TES-apuri on käytössä ja koodit on
-mapattu).
+kohdistettu).
 
 **Ei siirretä** tällä integraatiolla: myyntilaskuja, maksatustietoja,
 palkansaajarekisterin perustietoja eikä projektikohdennuksia.
