@@ -1,6 +1,7 @@
 ---
 import ContactSection from '../../components/mainPage/Contact.astro'
 import ContactForm from '../../components/mainPage/ContactForm.astro'
+import AboutPage from '../../components/pages/AboutPage.astro'
 import Layout from '../../layouts/Layout.astro'
 import { getTranslationObject } from '../../utils/translations'
 
@@ -16,6 +17,7 @@ const contactPage = getTranslationObject('pages.contact', locale)
           contactPage={contactPage}
           directContact={contactFormTranslations}
         />
+        <AboutPage locale={locale} showHero={false} showCta={false} />
         <ContactForm locale={locale} translations={contactFormTranslations} />
     </main>
 </Layout>

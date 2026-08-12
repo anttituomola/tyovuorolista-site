@@ -13,19 +13,63 @@ const ANTTI_WHATSAPP_NUMBER = '358456798818'
 const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappPrefill)}`
 ---
 
-<div class="wrapper" lang={locale}>
-    <h1>{contactPage?.title || 'Tyovuorolista.fi yhteystiedot'}</h1>
-    <p>{contactPage?.company || 'True Solutions / tyovuorolista.fi'}</p>
-    <p>{contactPage?.businessId || 'Y-tunnus: 3431534-2'}</p>
-    <p>{contactPage?.address || 'Juhannuskylänkatu 1 B 6, 33100 Tampere'}</p>
-	<p>{contactPage?.sales || 'Myynti:'} <a href='mailto:eemeli@tyovuorolista.fi'>eemeli@tyovuorolista.fi</a></p>
-    <p><a href='mailto:info@tyovuorolista.fi'>{contactPage?.info || 'info@tyovuorolista.fi'}</a></p>
-    <p>
-      <a href={`tel:${ANTTI_PHONE_TEL}`}>{callLabel}: {ANTTI_PHONE_DISPLAY}</a>
-    </p>
-    <p>
-      <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-        {whatsappLabel}
-      </a>
-    </p>
-</div>
+<section class="contactInfo" lang={locale}>
+	<h1>{contactPage?.title || 'Tyovuorolista.fi yhteystiedot'}</h1>
+	<p>{contactPage?.company || 'True Solutions / tyovuorolista.fi'}</p>
+	<p>{contactPage?.businessId || 'Y-tunnus: 3431534-2'}</p>
+	<p>{contactPage?.address || 'Juhannuskylänkatu 1 B 6, 33100 Tampere'}</p>
+	<p>
+		{contactPage?.sales || 'Myynti:'}
+		{' '}
+		<a href="mailto:eemeli@tyovuorolista.fi">eemeli@tyovuorolista.fi</a>
+	</p>
+	<p>
+		<a href="mailto:info@tyovuorolista.fi">{contactPage?.info || 'info@tyovuorolista.fi'}</a>
+	</p>
+	<p>
+		<a href={`tel:${ANTTI_PHONE_TEL}`}>{callLabel}: {ANTTI_PHONE_DISPLAY}</a>
+	</p>
+	<p>
+		<a href={whatsappUrl} target="_blank" rel="noopener noreferrer">{whatsappLabel}</a>
+	</p>
+</section>
+
+<style>
+	.contactInfo {
+		max-width: 880px;
+		margin: 0 auto;
+		padding: var(--space-2xl) var(--space-lg) var(--space-xl);
+		text-align: center;
+		color: var(--harmaa);
+		font-size: var(--text-base);
+		line-height: 1.6;
+	}
+
+	h1 {
+		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-weight: 600;
+		color: var(--tummanvihrea);
+		margin: 0 0 var(--space-lg);
+	}
+
+	p {
+		margin: 0 0 0.4rem;
+	}
+
+	a {
+		color: var(--tummanvihrea);
+		font-weight: 500;
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	a:hover {
+		color: var(--harmaa);
+	}
+
+	@media (max-width: 700px) {
+		.contactInfo {
+			padding: var(--space-xl) var(--space-base) var(--space-lg);
+		}
+	}
+</style>

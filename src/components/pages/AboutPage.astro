@@ -3,16 +3,16 @@ import PageHero from '../common/PageHero.astro'
 import ContactCta from '../mainPage/ContactCta.astro'
 import { getTranslationObject } from '../../utils/translations'
 
-const { locale = 'fi' } = Astro.props
+const { locale = 'fi', showHero = true, showCta = true } = Astro.props
 const page = getTranslationObject('pages.about', locale as 'fi' | 'en' | 'sv')
 const people = page?.people || []
 ---
 
-<div class="aboutPage hubPage">
-    <PageHero title={page?.title} subtitle={page?.subtitle} />
-
-    {page?.intro && (
-        <p class="aboutIntro">{page.intro}</p>
+<div class:list={['aboutPage', 'hubPage', { aboutPageEmbedded: !showHero }]}>
+    {showHero ? (
+        <PageHero title={page?.title} subtitle={page?.subtitle} />
+    ) : (
+        <h2 class="aboutEmbeddedTitle">{page?.title}</h2>
     )}
 
     <div class="peopleList">
@@ -72,7 +72,7 @@ const people = page?.people || []
         ))}
     </div>
 
-    <ContactCta locale={locale} />
+    {showCta && <ContactCta locale={locale} />}
 </div>
 
 <style>
@@ -82,13 +82,17 @@ const people = page?.people || []
         margin: 0 auto;
     }
 
-    .aboutIntro {
-        font-size: var(--text-lg);
-        line-height: 1.65;
-        color: var(--harmaa);
-        margin: 0 auto var(--space-3xl);
-        max-width: 680px;
+    .aboutPageEmbedded {
+        padding-top: var(--space-3xl);
+        padding-bottom: var(--space-2xl);
+    }
+
+    .aboutEmbeddedTitle {
+        font-size: clamp(1.75rem, 3vw, 2.25rem);
+        font-weight: 600;
+        color: var(--tummanvihrea);
         text-align: center;
+        margin: 0 0 var(--space-3xl);
     }
 
     .peopleList {
@@ -96,6 +100,10 @@ const people = page?.people || []
         flex-direction: column;
         gap: var(--space-3xl);
         margin-bottom: var(--space-3xl);
+    }
+
+    .aboutPageEmbedded .peopleList {
+        margin-bottom: 0;
     }
 
     .person {
@@ -188,6 +196,11 @@ const people = page?.people || []
     @media (max-width: 700px) {
         .hubPage {
             padding: var(--space-xl) var(--space-base) var(--space-3xl);
+        }
+
+        .aboutPageEmbedded {
+            padding-top: var(--space-2xl);
+            padding-bottom: var(--space-xl);
         }
 
         .person {
