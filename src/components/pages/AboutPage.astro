@@ -1,0 +1,208 @@
+---
+import PageHero from '../common/PageHero.astro'
+import ContactCta from '../mainPage/ContactCta.astro'
+import { getTranslationObject } from '../../utils/translations'
+
+const { locale = 'fi' } = Astro.props
+const page = getTranslationObject('pages.about', locale as 'fi' | 'en' | 'sv')
+const people = page?.people || []
+---
+
+<div class="aboutPage hubPage">
+    <PageHero title={page?.title} subtitle={page?.subtitle} />
+
+    {page?.intro && (
+        <p class="aboutIntro">{page.intro}</p>
+    )}
+
+    <div class="peopleList">
+        {people.map((person: {
+            id: string
+            name: string
+            role: string
+            initials: string
+            photo?: string
+            photoAlt: string
+            paragraphs: string[]
+            links?: { label: string; href: string }[]
+        }) => (
+            <section class="person" id={person.id} aria-labelledby={`${person.id}-name`}>
+                {person.photo ? (
+                    <img
+                        class="personPhoto"
+                        src={person.photo}
+                        alt={person.photoAlt}
+                        width="180"
+                        height="180"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                ) : (
+                    <div class="personPhoto personPhotoPlaceholderBox" role="img" aria-label={person.photoAlt}>
+                        <span class="personPhotoPlaceholder" aria-hidden="true">{person.initials}</span>
+                        <span class="personPhotoHint">{page?.photoPlaceholder}</span>
+                    </div>
+                )}
+                <div class="personBody">
+                    <h2 id={`${person.id}-name`}>{person.name}</h2>
+                    <p class="personRole">{person.role}</p>
+                    {person.paragraphs?.map((paragraph: string) => (
+                        <p>{paragraph}</p>
+                    ))}
+                    {person.links && person.links.length > 0 && (
+                        <ul class="personLinks">
+                            {person.links.map((link: { label: string; href: string }) => {
+                                const isExternal = link.href.startsWith('http')
+                                return (
+                                    <li>
+                                        <a
+                                            href={link.href}
+                                            target={isExternal ? '_blank' : undefined}
+                                            rel={isExternal ? 'noopener noreferrer' : undefined}
+                                        >
+                                            {link.label}
+                                        </a>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    )}
+                </div>
+            </section>
+        ))}
+    </div>
+
+    <ContactCta locale={locale} />
+</div>
+
+<style>
+    .hubPage {
+        padding: var(--space-2xl) var(--space-lg) var(--space-4xl);
+        max-width: 880px;
+        margin: 0 auto;
+    }
+
+    .aboutIntro {
+        font-size: var(--text-lg);
+        line-height: 1.65;
+        color: var(--harmaa);
+        margin: 0 auto var(--space-3xl);
+        max-width: 680px;
+        text-align: center;
+    }
+
+    .peopleList {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-3xl);
+        margin-bottom: var(--space-3xl);
+    }
+
+    .person {
+        display: grid;
+        grid-template-columns: 180px minmax(0, 1fr);
+        gap: var(--space-xl);
+        align-items: start;
+    }
+
+    .personPhoto {
+        aspect-ratio: 1;
+        width: 100%;
+        max-width: 180px;
+        border-radius: 1rem;
+        object-fit: cover;
+        display: block;
+        background: rgba(172, 173, 148, 0.2);
+        box-sizing: border-box;
+    }
+
+    .personPhotoPlaceholderBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--space-sm);
+        border: 1px dashed rgba(74, 93, 70, 0.35);
+        color: var(--tummanvihrea);
+        text-align: center;
+        padding: var(--space-base);
+    }
+
+    .personPhotoPlaceholder {
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+    }
+
+    .personPhotoHint {
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+        line-height: 1.3;
+    }
+
+    .personBody h2 {
+        font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+        font-weight: 600;
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-xs);
+    }
+
+    .personRole {
+        font-size: var(--text-base);
+        font-weight: 600;
+        color: var(--ruskeaharmaa, var(--harmaa));
+        margin: 0 0 var(--space-lg);
+    }
+
+    .personBody p {
+        font-size: var(--text-base);
+        line-height: 1.65;
+        color: var(--harmaa);
+        margin: 0 0 var(--space-base);
+    }
+
+    .personBody p:last-child {
+        margin-bottom: 0;
+    }
+
+    .personLinks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-sm) var(--space-base);
+        list-style: none;
+        padding: 0;
+        margin: var(--space-sm) 0 0;
+    }
+
+    .personLinks a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+    }
+
+    .personLinks a:hover {
+        color: var(--harmaa);
+    }
+
+    @media (max-width: 700px) {
+        .hubPage {
+            padding: var(--space-xl) var(--space-base) var(--space-3xl);
+        }
+
+        .person {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .personBody {
+            text-align: left;
+            width: 100%;
+        }
+
+        .personPhoto {
+            max-width: 160px;
+        }
+    }
+</style>

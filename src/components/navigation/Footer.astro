@@ -7,6 +7,7 @@ const currentYear = new Date().getFullYear()
 
 const featuresPath = getLocalizedPath('/ominaisuudet', locale as 'fi' | 'en' | 'sv')
 const resourcesPath = getLocalizedPath('/resurssit', locale as 'fi' | 'en' | 'sv')
+const aboutPath = getLocalizedPath('/meista', locale as 'fi' | 'en' | 'sv')
 const blogPath = '/blogitekstit'
 const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
@@ -26,6 +27,7 @@ const carePath = getLocalizedPath('/hoivakodit-ja-palveluasuminen', locale as 'f
     <div class='footerLinks'>
         <p><a href={featuresPath}>{t('footer.links.features', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={resourcesPath}>{t('footer.links.resources', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={aboutPath}>{t('footer.links.about', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={blogPath}>{t('footer.links.blog', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={contactPath}>{t('footer.links.contact', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={pricingPath}>{t('footer.links.pricing', locale as 'fi' | 'en' | 'sv')}</a></p>

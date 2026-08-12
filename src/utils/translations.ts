@@ -157,6 +157,11 @@ const pathMappings: Record<string, Record<Locale, string>> = {
     en: '/en/resources',
     sv: '/sv/resurser'
   },
+  '/meista': {
+    fi: '/meista',
+    en: '/en/about',
+    sv: '/sv/om-oss'
+  },
   '/blogitekstit': {
     fi: '/blogitekstit',
     en: '/blogitekstit',
@@ -232,8 +237,10 @@ const reversePathMappings: Record<string, string> = {
   '/vardhem-och-serviceboende': '/hoivakodit-ja-palveluasuminen',
   '/features': '/ominaisuudet',
   '/resources': '/resurssit',
+  '/about': '/meista',
   '/funktioner': '/ominaisuudet',
   '/resurser': '/resurssit',
+  '/om-oss': '/meista',
 };
 
 /**

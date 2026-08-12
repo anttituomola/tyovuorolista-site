@@ -21,6 +21,7 @@
     "links": {
       "features": "Funktioner",
       "resources": "Resurser",
+      "about": "Om oss",
       "blog": "Blogg (FI)",
       "contact": "Kontakt",
       "pricing": "Prissättning",
@@ -556,6 +557,66 @@
           "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
         }
       }
+    },
+    "about": {
+      "metaTitle": "Om oss | tyovuorolista.fi",
+      "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen.",
+      "title": "Om oss",
+      "subtitle": "Två personer bakom tyovuorolista.fi.",
+      "intro": "Vi gjorde det här för att schemaläggning tog för mycket av vår egen tid. Vi vill att kunden ska veta vem hen ringer till.",
+      "photoPlaceholder": "Bild kommer snart",
+      "people": [
+        {
+          "id": "antti",
+          "name": "Antti Tuomola",
+          "role": "Grundare, produkt",
+          "initials": "AT",
+          "photo": "/about/antti-tuomola.webp",
+          "photoAlt": "Antti Tuomola",
+          "paragraphs": [
+            "Jag är Antti Tuomola. Jag har över 15 års erfarenhet från restaurangbranschen som anställd, chef och företagare. Jag har jobbat i kvarterskrogar och Michelin-restauranger, drivit herrgårdsrestauranger och food truck. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland i Excel, ibland med särskilda program. Jag har aldrig varit helt nöjd. Därför tyovuorolista.fi.",
+            "Nu jobbar jag som mjukvaruutvecklare på ett stort finskt IT-konsultbolag, bland annat för ministerier och andra stora kunder. Jag bygger tyovuorolista.fi på True Solutions Oy tillsammans med Eemeli.",
+            "Jag bor i Tammerfors. Man kan ringa eller skriva till mig."
+          ],
+          "links": [
+            {
+              "label": "anttituomola.fi",
+              "href": "https://anttituomola.fi"
+            },
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/antti-tuomola/"
+            },
+            {
+              "label": "+358 45 679 8818",
+              "href": "tel:+358456798818"
+            }
+          ]
+        },
+        {
+          "id": "eemeli",
+          "name": "Eemeli Raninen",
+          "role": "Grundare, kunder",
+          "initials": "ER",
+          "photo": "/about/eemeli-raninen.webp",
+          "photoAlt": "Eemeli Raninen",
+          "paragraphs": [
+            "Jag är Eemeli Raninen, den andra grundaren av tyovuorolista.fi, och jag sköter kunder och försäljning. Jag började jobba för Antti på Jollas herrgård 2021, och efter några omvägar grundade vi True Solutions Oy 2024.",
+            "Samtidigt studerar jag International Management och CEMS vid Aalto-universitetets handelshögskola. Vid sidan av Työvuorolista har jag tidigare arbetat med kommunikation och marknadsföring, bland annat på visitsauna.com och Aalto-universitetet.",
+            "Just nu arbetar jag på hållbarhetsavdelningen på ett internationellt kemiföretag i Tyskland."
+          ],
+          "links": [
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/eemeli-raninen/"
+            },
+            {
+              "label": "+358 45 126 4460",
+              "href": "tel:+358451264460"
+            }
+          ]
+        }
+      ]
     },
     "contact": {
       "title": "Tyovuorolista.fi kontaktinformation",

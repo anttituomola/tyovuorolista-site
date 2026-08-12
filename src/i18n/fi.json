@@ -21,6 +21,7 @@
     "links": {
       "features": "Ominaisuudet",
       "resources": "Resurssit",
+      "about": "Meistä",
       "blog": "Blogi",
       "contact": "Yhteystiedot",
       "pricing": "Hinnoittelut",
@@ -561,6 +562,66 @@
           "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
         }
       }
+    },
+    "about": {
+      "metaTitle": "Meistä | tyovuorolista.fi",
+      "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen.",
+      "title": "Meistä",
+      "subtitle": "Kaksi ihmistä tyovuorolista.fi:n takana.",
+      "intro": "Teimme tämän, koska vuorolistojen teko vei meiltä itseltämme liikaa aikaa. Haluamme, että asiakas tietää kenelle soittaa.",
+      "photoPlaceholder": "Kuva tulossa",
+      "people": [
+        {
+          "id": "antti",
+          "name": "Antti Tuomola",
+          "role": "Perustaja, tuotekehitys",
+          "initials": "AT",
+          "photo": "/about/antti-tuomola.webp",
+          "photoAlt": "Antti Tuomola",
+          "paragraphs": [
+            "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä Excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tyovuorolista.fi.",
+            "Nykyisin teen ohjelmistokehitystä isossa suomalaisessa IT-konsulttitalossa, työskentelen mm. ministeriöille ja muille isoille asiakkuuksille. Rakennan tyovuorolista.fi:tä True Solutions Oy:ssä Eemelin kanssa.",
+            "Asun Tampereella. Minulle voi soittaa tai laittaa viestiä."
+          ],
+          "links": [
+            {
+              "label": "anttituomola.fi",
+              "href": "https://anttituomola.fi"
+            },
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/antti-tuomola/"
+            },
+            {
+              "label": "+358 45 679 8818",
+              "href": "tel:+358456798818"
+            }
+          ]
+        },
+        {
+          "id": "eemeli",
+          "name": "Eemeli Raninen",
+          "role": "Perustaja, asiakkuudet",
+          "initials": "ER",
+          "photo": "/about/eemeli-raninen.webp",
+          "photoAlt": "Eemeli Raninen",
+          "paragraphs": [
+            "Olen Eemeli Raninen, tyovuorolista.fi:n toinen perustaja, ja hoidan asiakkuuksia ja myyntiä. Aloitin Antilla töissä Jollaksen Kartanossa 2021, josta muutaman mutkan kautta päädyimme perustamaan True Solutions Oy:n 2024.",
+            "Samalla opiskelen Aalto-yliopiston kauppakorkeakoulussa International Management- ja CEMS-ohjelmissa. Tyovuorolistan ohella olen aiemmin työskennellyt viestinnän ja markkinoinnin parissa muun muassa visitsauna.comissa ja Aalto-yliopistossa.",
+            "Tällä hetkellä työskentelen kansainvälisen kemianteollisuuden yrityksen vastuullisuusosastolla Saksassa."
+          ],
+          "links": [
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/eemeli-raninen/"
+            },
+            {
+              "label": "+358 45 126 4460",
+              "href": "tel:+358451264460"
+            }
+          ]
+        }
+      ]
     },
     "contact": {
       "title": "Tyovuorolista.fi yhteystiedot",
