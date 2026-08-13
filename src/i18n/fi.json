@@ -474,7 +474,6 @@
       "cta": "Kokeile ilmaiseksi"
     },
     "pricing": {
-      "eyebrow": "Hinnoittelu",
       "title": "Hinnoittelu per tili",
       "subtitle": "Valitse tilillesi sopiva paketti. Hinta koskee koko tiliä, ei yksittäisiä työntekijöitä, ja samalla tilillä voit hallita useita toimipisteitä.",
       "priceNote": "Hinta on per tili, ei per työntekijä.",
@@ -485,9 +484,8 @@
       "monthlyPeriod": "/ kk",
       "yearlyPeriod": "/ vuosi",
       "monthlyMessage": "Vaihda vuosilaskutukseen ja säästä jopa 4 kuukautta verrattuna kuukausihintaan.",
-      "yearlyMessage": "Vuosilaskutus on oletus, koska maksat vain 8 kuukaudesta ja saat 4 kuukautta kaupan päälle.",
       "yearlyBadge": "4 kk ilmaiseksi",
-      "billingHint": "Vuosilaskutus on selvästi kuukausiveloitusta edullisempi. Esimerkiksi Normi maksaa 18 € / kk tai 144 € / vuosi.",
+      "featureUnavailable": "Ei sisälly",
       "tiers": {
         "tier1": {
           "title": "Mini",
@@ -497,6 +495,10 @@
           "pricingUnit": "Per tili",
           "features": [
             "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
+            { "text": "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset", "included": false },
+            { "text": "Avoimet vuorot", "included": false },
+            { "text": "Palkkaraportti TES-luokitteluineen", "included": false },
+            { "text": "Sähköposti-ilmoitukset työntekijöille", "included": false },
             "Rajaton määrä työvuorolistoja",
             "Rajaton määrä tiimejä",
             "Mobiiliystävällinen käyttöliittymä",
@@ -512,10 +514,12 @@
           "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
           "features": [
             "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
+            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+            "Avoimet vuorot",
             "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
           ]
@@ -529,10 +533,12 @@
           "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
           "features": [
             "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
+            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+            "Avoimet vuorot",
             "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
           ]
@@ -546,20 +552,15 @@
           "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
           "features": [
             "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
+            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+            "Avoimet vuorot",
             "Palkkaraportti TES-luokitteluineen",
             "Sähköposti-ilmoitukset työntekijöille",
+            "Rajaton määrä työvuorolistoja",
+            "Rajaton määrä tiimejä",
             "Mobiiliystävällinen käyttöliittymä",
             "Asiakastuki"
           ]
-        }
-      },
-      "faq": {
-        "title": "TES-apuri ja hinnoittelu",
-        "tesCost": {
-          "question": "Mitä TES-apuri maksaa?",
-          "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
         }
       }
     },

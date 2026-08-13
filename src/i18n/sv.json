@@ -469,7 +469,6 @@
       "cta": "Prova gratis"
     },
     "pricing": {
-      "eyebrow": "Prissättning",
       "title": "Prissättning per konto",
       "subtitle": "Välj paketet som passar ditt konto. Priset gäller hela kontot, inte enskilda anställda, och med ett konto kan du hantera flera verksamhetsställen.",
       "priceNote": "Priset är per konto, inte per anställd.",
@@ -480,9 +479,8 @@
       "monthlyPeriod": "/ månad",
       "yearlyPeriod": "/ år",
       "monthlyMessage": "Byt till årsdebitering och spara upp till 4 månader jämfört med månadspriset.",
-      "yearlyMessage": "Årsdebitering är standard eftersom du bara betalar för 8 månader och får 4 månader på köpet.",
       "yearlyBadge": "4 månader gratis",
-      "billingHint": "Årsdebitering är tydligt billigare än månadsbetalning. Till exempel kostar Normi 18 € / månad eller 144 € / år.",
+      "featureUnavailable": "Ingår inte",
       "tiers": {
         "tier1": {
           "title": "Mini",
@@ -492,6 +490,10 @@
           "pricingUnit": "Per konto",
           "features": [
             "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
+            { "text": "Personalportal: skift, ledighetsönskemål och timrapporter", "included": false },
+            { "text": "Lediga skift", "included": false },
+            { "text": "Lönerapport med TES-klassificering", "included": false },
+            { "text": "E-postnotiser till anställda", "included": false },
             "Obegränsat antal arbetsscheman",
             "Obegränsat antal team",
             "Mobilvänligt gränssnitt",
@@ -507,10 +509,12 @@
           "yearlySavings": "Spara 72 € per år med årsdebitering.",
           "features": [
             "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
+            "Personalportal: skift, ledighetsönskemål och timrapporter",
+            "Lediga skift",
             "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
           ]
@@ -524,10 +528,12 @@
           "yearlySavings": "Spara 216 € per år med årsdebitering.",
           "features": [
             "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
+            "Personalportal: skift, ledighetsönskemål och timrapporter",
+            "Lediga skift",
             "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
           ]
@@ -541,20 +547,15 @@
           "yearlySavings": "Spara 720 € per år med årsdebitering.",
           "features": [
             "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
+            "Personalportal: skift, ledighetsönskemål och timrapporter",
+            "Lediga skift",
             "Lönerapport med TES-klassificering",
             "E-postnotiser till anställda",
+            "Obegränsat antal arbetsscheman",
+            "Obegränsat antal team",
             "Mobilvänligt gränssnitt",
             "Kundsupport"
           ]
-        }
-      },
-      "faq": {
-        "title": "TES-hjälpare och prissättning",
-        "tesCost": {
-          "question": "Vad kostar TES-hjälparen?",
-          "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
         }
       }
     },

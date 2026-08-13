@@ -2,6 +2,16 @@
 import Button from './Button.astro'
 import { getTranslationObject } from '../../utils/translations'
 
+type PricingFeature = string | { text: string; included?: boolean }
+
+function getFeatureText(feature: PricingFeature) {
+    return typeof feature === 'string' ? feature : feature.text
+}
+
+function isFeatureIncluded(feature: PricingFeature) {
+    return typeof feature === 'string' || feature.included !== false
+}
+
 const { locale = 'fi' } = Astro.props
 const pricing = getTranslationObject('pages.pricing', locale as 'fi' | 'en' | 'sv')
 const tiers = [
@@ -14,13 +24,13 @@ const tiers = [
 
 <div class="wrapper pricingWrapper" id="pricingRoot" data-billing="yearly">
     <section class="hero">
-        <span class="eyebrow">{pricing?.eyebrow}</span>
         <h1>{pricing?.title}</h1>
         <p class="subtitle">{pricing?.subtitle}</p>
-        <div class="noticeRow">
-            <span class="noticePill noticePillPrimary">{pricing?.priceNote}</span>
-            <span class="noticePill">{pricing?.taxNote}</span>
-        </div>
+        <p class="noticeRow">
+            <span>{pricing?.priceNote}</span>
+            <span class="noticeDivider" aria-hidden="true"></span>
+            <span>{pricing?.taxNote}</span>
+        </p>
         <div class="billingToggle" role="tablist" aria-label={pricing?.toggleLabel}>
             <button
                 type="button"
@@ -40,7 +50,6 @@ const tiers = [
             </button>
         </div>
         <p class="modeMessage monthlyOnly">{pricing?.monthlyMessage}</p>
-        <p class="modeMessage yearlyOnly">{pricing?.yearlyMessage}</p>
     </section>
 
     <div class="pricing">
@@ -52,24 +61,43 @@ const tiers = [
                 </div>
 
                 <div class="priceBlock">
-                    <p class="price monthlyOnly">{tier?.monthlyPrice}</p>
-                    <p class="price yearlyOnly">{tier?.yearlyPrice}</p>
-                    <p class="period monthlyOnly">{pricing?.monthlyPeriod}</p>
-                    <p class="period yearlyOnly">{pricing?.yearlyPeriod}</p>
-                    <p class="pricingUnit">{tier?.pricingUnit}</p>
-                    {tier?.yearlySavings && (
-                        <div class="savingsBlock">
-                            <span class="savingsBadge yearlyOnly">{pricing?.yearlyBadge}</span>
-                            <p class="savingsText">{tier?.yearlySavings}</p>
-                        </div>
-                    )}
+                    <p class="priceRow monthlyOnly">
+                        <span class="price">{tier?.monthlyPrice}</span>
+                        <span class="period">{pricing?.monthlyPeriod}</span>
+                        <span class="priceSep" aria-hidden="true">·</span>
+                        <span class="pricingUnit">{tier?.pricingUnit}</span>
+                    </p>
+                    <p class="priceRow yearlyOnly">
+                        <span class="price">{tier?.yearlyPrice}</span>
+                        <span class="period">{pricing?.yearlyPeriod}</span>
+                        <span class="priceSep" aria-hidden="true">·</span>
+                        <span class="pricingUnit">{tier?.pricingUnit}</span>
+                    </p>
+                    <div class="savingsBlock">
+                        {tier?.yearlySavings && (
+                            <>
+                                <span class="savingsBadge yearlyOnly">{pricing?.yearlyBadge}</span>
+                                <p class="savingsText">{tier?.yearlySavings}</p>
+                            </>
+                        )}
+                    </div>
                 </div>
 
                 <ul class="featureList">
                     <li class="featurePrimary">{tier?.limit}</li>
-                    {tier?.features?.map((feature: string) => (
-                        <li>{feature}</li>
-                    ))}
+                    {tier?.features?.map((feature: PricingFeature) => {
+                        const text = getFeatureText(feature)
+                        const included = isFeatureIncluded(feature)
+
+                        return included ? (
+                            <li>{text}</li>
+                        ) : (
+                            <li class="featureExcluded">
+                                <span class="visually-hidden">{pricing?.featureUnavailable}: </span>
+                                <s>{text}</s>
+                            </li>
+                        )
+                    })}
                 </ul>
 
                 <div class="cardAction">
@@ -78,16 +106,6 @@ const tiers = [
             </section>
         ))}
     </div>
-
-    <p class="billingHint">{pricing?.billingHint}</p>
-
-    {pricing?.faq?.tesCost && (
-        <section class="pricingFaq">
-            <h2>{pricing.faq.title}</h2>
-            <h3>{pricing.faq.tesCost.question}</h3>
-            <p>{pricing.faq.tesCost.answer}</p>
-        </section>
-    )}
 </div>
 
 <script is:inline>
@@ -131,19 +149,6 @@ const tiers = [
         gap: var(--space-base);
     }
 
-    .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.4rem 0.85rem;
-        border-radius: 999px;
-        background: rgba(172, 173, 148, 0.25);
-        color: var(--tummanvihrea);
-        font-size: var(--text-sm);
-        font-weight: 600;
-        letter-spacing: 0.02em;
-    }
-
     .subtitle {
         max-width: 680px;
         font-size: var(--text-lg);
@@ -152,26 +157,26 @@ const tiers = [
     .noticeRow {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: var(--space-sm);
-    }
-
-    .noticePill {
-        display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: 0.6rem 1rem;
-        border-radius: 999px;
-        background: white;
-        border: 1px solid rgba(74, 93, 88, 0.16);
+        gap: 0.65rem 0.9rem;
+        margin: 0;
         font-size: var(--text-sm);
         font-weight: 500;
-        color: var(--tummanvihrea);
+        color: var(--harmaa);
     }
 
-    .noticePillPrimary {
-        background: rgba(172, 173, 148, 0.2);
-        border-color: rgba(172, 173, 148, 0.7);
+    .noticeDivider {
+        display: none;
+        width: 1px;
+        height: 1em;
+        background: rgba(74, 93, 88, 0.28);
+    }
+
+    @media (min-width: 641px) {
+        .noticeDivider {
+            display: block;
+        }
     }
 
     .billingToggle {
@@ -226,18 +231,21 @@ const tiers = [
     .pricing {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 1.25rem;
+        column-gap: 1.25rem;
+        row-gap: 1.25rem;
         max-width: 1320px;
         width: 100%;
         margin: 2.5rem 0 1.5rem;
     }
 
     .pricingElement {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 4;
+        row-gap: 0;
         border: 1px solid rgba(74, 93, 88, 0.16);
         border-radius: 1rem;
-        padding: 1.5rem;
+        padding: 1.15rem 1.25rem 1.25rem;
         background: white;
         box-shadow: 0 10px 30px rgba(45, 58, 53, 0.06);
         transition:
@@ -257,61 +265,78 @@ const tiers = [
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--space-sm);
-        margin-bottom: var(--space-base);
+        gap: 0.35rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .cardHeader h2 {
+        font-size: var(--text-xl);
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
     }
 
     .planBadge {
         display: inline-flex;
-        padding: 0.35rem 0.75rem;
+        padding: 0.2rem 0.6rem;
         border-radius: 999px;
         background: rgba(45, 58, 53, 0.07);
         color: var(--tummanvihrea);
-        font-size: var(--text-sm);
+        font-size: var(--text-xs);
         font-weight: 600;
     }
 
     .priceBlock {
         display: flex;
         flex-direction: column;
-        gap: 0.35rem;
-        padding-bottom: var(--space-lg);
-        margin-bottom: var(--space-lg);
+        align-items: flex-start;
+        gap: 0.2rem;
+        padding-bottom: 0.85rem;
+        margin-bottom: 0.85rem;
         border-bottom: 1px solid rgba(74, 93, 88, 0.12);
     }
 
+    .priceRow {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        column-gap: 0.4rem;
+        row-gap: 0.1rem;
+        margin: 0;
+    }
+
     .price {
-        font-size: clamp(2rem, 4vw, 2.75rem);
+        font-size: clamp(1.5rem, 2.4vw, 1.85rem);
         font-weight: 700;
-        line-height: 1;
+        line-height: 1.1;
         color: var(--tummanvihrea);
         margin: 0;
     }
 
-    .period {
+    .period,
+    .priceSep,
+    .pricingUnit {
         font-size: var(--text-sm);
         color: var(--harmaa);
         margin: 0;
     }
 
     .pricingUnit {
-        font-size: var(--text-sm);
         font-weight: 600;
         color: var(--tummanvihrea);
-        margin: 0;
     }
 
     .savingsBlock {
         display: flex;
         flex-direction: column;
-        gap: 0.45rem;
-        margin-top: var(--space-sm);
+        align-items: flex-start;
+        gap: 0.2rem;
+        margin-top: 0.35rem;
     }
 
     .savingsBadge {
         display: inline-flex;
-        align-self: flex-start;
-        padding: 0.35rem 0.75rem;
+        padding: 0.2rem 0.55rem;
         border-radius: 999px;
         background: rgba(45, 122, 72, 0.12);
         color: #1f6a3c;
@@ -322,9 +347,10 @@ const tiers = [
     }
 
     .savingsText {
-        font-size: var(--text-sm);
+        font-size: var(--text-xs);
         color: var(--tummanvihrea);
         margin: 0;
+        line-height: 1.35;
     }
 
     .featureList {
@@ -334,7 +360,6 @@ const tiers = [
         display: flex;
         flex-direction: column;
         gap: 0.75rem;
-        flex-grow: 1;
     }
 
     .featurePrimary {
@@ -360,44 +385,39 @@ const tiers = [
         background: var(--tummanvihrea);
     }
 
+    .featureList li.featureExcluded {
+        color: rgba(74, 93, 88, 0.45);
+    }
+
+    .featureList li.featureExcluded s {
+        text-decoration: line-through;
+        text-decoration-color: rgba(74, 93, 88, 0.35);
+    }
+
+    .featureList li.featureExcluded::before {
+        background: transparent;
+        border: 1.5px solid rgba(74, 93, 88, 0.28);
+        box-sizing: border-box;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
     .cardAction {
+        display: flex;
+        justify-content: center;
         margin-top: var(--space-xl);
         padding-top: var(--space-lg);
         border-top: 1px solid rgba(74, 93, 88, 0.12);
-    }
-
-    .billingHint {
-        max-width: 760px;
-        text-align: center;
-        font-size: var(--text-sm);
-        color: var(--harmaa);
-    }
-
-    .pricingFaq {
-        max-width: 760px;
-        margin: var(--space-3xl) auto 0;
-        text-align: left;
-    }
-
-    .pricingFaq h2 {
-        font-size: var(--text-2xl);
-        font-weight: 500;
-        text-align: center;
-        margin-bottom: var(--space-xl);
-    }
-
-    .pricingFaq h3 {
-        font-size: var(--text-lg);
-        font-weight: 600;
-        color: var(--tummanvihrea);
-        margin-bottom: var(--space-base);
-    }
-
-    .pricingFaq p {
-        font-size: var(--text-base);
-        line-height: 1.6;
-        color: var(--harmaa);
-        margin: 0;
     }
 
     @media (max-width: 1100px) {
@@ -423,6 +443,7 @@ const tiers = [
         .noticeRow {
             flex-direction: column;
             width: 100%;
+            gap: 0.35rem;
         }
 
         .billingToggle {
@@ -435,11 +456,6 @@ const tiers = [
             flex: 1 1 0;
             padding-left: 0.75rem;
             padding-right: 0.75rem;
-        }
-
-        .noticePill {
-            width: 100%;
-            box-sizing: border-box;
         }
     }
 </style>
