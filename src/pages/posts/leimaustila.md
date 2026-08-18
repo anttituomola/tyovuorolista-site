@@ -1,5 +1,4 @@
 ---
-
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Leimaustila: täytä viikon vuorot klikkaamalla'
 pubDate: 2026-08-18
@@ -8,14 +7,17 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/leimaustila/hero.png'
     alt: 'Leimaustila päällä: Emma valittuna ja viikon vuorot merkitty klikkaamalla.'
-
-## tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
+tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
+---
 
 Työvuorolistan täyttäminen tietokoneella on ollut raahausta sivupalkista ruudukkoon, tai klikkaus joka avaa luonti-ikkunan. Molemmat toimivat edelleen. **Leimaustila** on kolmas tapa: valitset työntekijän kerran ja klikkaat kellonaikoja. Vuoro syntyy heti, pituutena työntekijän (tai tiimin) oletus.
 
 Sama logiikka kuin raahauksessa, ilman raahausta. Viikon vuorot yhdelle ihmiselle syntyvät muutamalla klikkauksella.
 
-
+<video controls preload="metadata" poster="/blogPostImages/leimaustila/leimaustila-demo-poster.png" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+  <source src="/blogPostImages/leimaustila/leimaustila-demo.webm" type="video/webm" />
+  <source src="/blogPostImages/leimaustila/leimaustila-demo.mp4" type="video/mp4" />
+</video>
 
 Leimaustila on tietokoneen kalenterissa. Puhelimessa käytät plus-painikkeen pikaluontia, siitä on oma ohje: [Työvuorolista mobiililaitteilla](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
 
@@ -28,13 +30,13 @@ Avaa **Suunnittele**-näkymä ja valitse julkaisematon lista.
 3. Klikkaa työntekijää sivupalkista. Palkki näyttää etunimen ja oletuspituuden, esimerkiksi *Emma · 8 h*. Valitun kortin ympärille tulee kehys.
 4. Klikkaa aikaruudukkoa siinä kohdassa, josta vuoron haluat alkavan. Vuoro syntyy heti oletuspituudella.
 
+<img src="/blogPostImages/leimaustila/leimaustila-valitse.png" alt="Leimaustila päällä, palkki kehottaa valitsemaan työntekijän" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-
-
+<img src="/blogPostImages/leimaustila/leimaustila-tyontekija.png" alt="Emma valittuna leimaustilaan: kehys kortin ympärillä ja palkki Emma · 8 h" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Tila jää päälle. Klikkaa seuraavaa päivää, vaihda työntekijää sivupalkista, jatka. Lopeta **Escillä**, palkin rastilla tai samalla leimauskuvakkeella.
 
-
+<img src="/blogPostImages/leimaustila/hero.png" alt="Emman 10–18-vuorot merkittyinä maanantaista perjantaihin leimaustilassa" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Oletuspituus tulee työntekijän tiedoista, ja jos sitä ei ole asetettu, tiimin oletuksesta. Kellonaika on se, jota klikkasit — ruudukko napsahtaa tiimin aikaportaisiin.
 
@@ -42,7 +44,7 @@ Oletuspituus tulee työntekijän tiedoista, ja jos sitä ei ole asetettu, tiimin
 
 Klikkaa kalenterin **Vapaa / tapahtuma** -riviä leimaustilan ollessa päällä. Ensimmäinen merkintä viikolle on **V**, seuraava saman viikon klikkaus samalle työntekijälle on **X**. Sama automaattisääntö kuin raahauksessa koko päivän riville.
 
-
+<img src="/blogPostImages/leimaustila/leimaustila-vapaa.png" alt="Emman vapaapäivä (V) sunnuntain Vapaa/tapahtuma-rivillä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Päiväkohtaisen tapahtuman (muistiinpanon) lisääminen ei onnistu leimaustilan aikana, koska yksi klikkaus leimaa vapaan. Poistu tilasta ja klikkaa riviä normaalisti. Ohje: [päiväkohtaiset muistiinpanot](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat).
 
