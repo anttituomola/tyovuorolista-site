@@ -10,9 +10,11 @@ image:
 tags: ["työvuorolista", "ohjeet", "työvuorot", "kalenteri", "aloittaminen"]
 ---
 
-Työvuorolistan täyttäminen tapahtuu **Suunnittele**-näkymässä. Vasemmalla on työntekijät, keskellä kalenteri valitulle listalle. Kun lista on vielä julkaisematon, voit lisätä vuoroja vapaasti. Julkaisun jälkeen muokkaus on lukittu.
+*Päivitetty 18.8.2026: puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
 
-Tässä oppaassa kolme pääasiallista tapaa luoda vuoroja: **raahaus**, **klikkaus** ja **toistuvuus**. Valitse tapa tilanteen mukaan; voit yhdistellä niitä saman listan aikana.
+Työvuorolistan täyttäminen tapahtuu **Suunnittele**-näkymässä. Tietokoneella vasemmalla on työntekijät, keskellä kalenteri valitulle listalle. Puhelimessa näet yhden päivän kortteina. Kun lista on vielä julkaisematon, voit lisätä vuoroja vapaasti. Julkaisun jälkeen muokkaus on lukittu.
+
+Tässä oppaassa tietokoneen tavat: **raahaus**, **klikkaus** ja **toistuvuus**. Puhelimessa käytät plus-painikkeen pikaluontia. Valitse tapa tilanteen mukaan; voit yhdistellä niitä saman listan aikana.
 
 <img src="/blogPostImages/vuorojen_lisaminen/hero.png" alt="Kalenterinäkymä työntekijöineen ja aikaruudukkineen" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -21,7 +23,8 @@ Tässä oppaassa kolme pääasiallista tapaa luoda vuoroja: **raahaus**, **klikk
 | Tapa | Parhaiten kun… | Laitteet |
 |------|----------------|----------|
 | **Raahaa työntekijä** | Tiedät heti kenen ja mihin aikaan | Tietokone |
-| **Klikkaa kalenteria** | Haluat tarkat ajat modaalissa | Tietokone ja mobiili |
+| **Klikkaa kalenteria** | Haluat tarkat ajat modaalissa | Tietokone |
+| **Plus-painike (pikaluonti)** | Nopea vuoron tai vapaan lisäys | Mobiili |
 | **Toista vuoro** | Sama vuoro toistuu useana päivänä | Tietokone ja mobiili |
 
 Lisäksi voit **kopioida** olemassa olevan vuoron Alt/Option + raahauksella. Lue [työvuoron kopiointi](/posts/tyovuoron_kopiointi_alt_raahaus).
@@ -47,7 +50,7 @@ Raahaus sopii erityisesti, kun haluat sijoittaa vuoron visuaalisesti oikeaan koh
 
 ## 2. Klikkaa kalenteria
 
-Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä toimii sekä tietokoneella että mobiilissa.
+Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä on tietokoneen tapa, kun et halua raahata.
 
 ### Tietokone
 
@@ -58,9 +61,11 @@ Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä toimii sekä tietoko
 
 ### Mobiili
 
-Napauta haluamaasi **päivää tai aikaa** kalenterissa. Sama luonti-ikkuna avautuu. Mobiilissa klikkaus on usein kätevin tapa, koska raahaus ei ole yhtä luonteva.
+Puhelimessa kalenteri on **päivänäkymä**. Napauta alareunan **+**-painiketta: valitse työntekijä, valitse aika ja luo vuoro. Vapaa merkitään saman ikkunan **Vapaa / X** -välilehdeltä. Toistuvuus ja muut kentät ovat kohdassa **Kaikki kentät**.
 
-<img src="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png" alt="Mobiilikalenterin päivänäkymä, jossa vuoroja voi luoda napauttamalla aikaikkunaa" width="100%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Mobiilin pikaluonti: työntekijä, aikapainikkeet ja Luo vuoro" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+
+Olemassa olevan vuoron kopioit kortin **⋮**-valikosta (**Monista toiselle päivälle**). Koko ohje: [Työvuorolista mobiililaitteilla](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
 
 ### Vuoron luonti-ikkuna
 
@@ -120,8 +125,10 @@ Klikkaa kalenterin **Vapaa / tapahtuma** -riviä ja valitse välilehti **Tapahtu
 |----------|-------|
 | Nopea sijoitus tietokoneella | Raahaa työntekijä kalenteriin |
 | Tarkat ajat modaalissa | Klikkaa aikaruudukkoa |
+| Nopea luonti puhelimessa | Plus-painike → pikaluonti |
+| Kopioi puhelimessa | Kortin ⋮ → Monista |
 | Sama vuoro usealle päivälle | Toista vuoro -kytkin |
-| Kopioi yksittäinen vuoro | Alt + raahaa |
+| Kopioi yksittäinen vuoro tietokoneella | Alt + raahaa |
 | Päivän tapahtuma koko tiimille | Klikkaa Vapaa / tapahtuma -riviä → Tapahtuma |
 
 Kun lista on valmis, siirry **Julkaise**-näkymään ja lähetä vuorot työntekijöille. Katso [työvuorolistojen julkaisu](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille).

@@ -257,13 +257,13 @@
     "title": "Manage shifts on mobile too",
     "description": "As a planner, you can use Työvuorolista fully on your phone or tablet: shift planning, employee management, hour logging and publishing schedules.",
     "features": [
-      "Planning and editing shifts",
+      "Day view and quick create on your phone",
       "Managing employees",
       "Recording hours worked",
-      "Publishing schedules and emailing"
+      "Publishing, share and PDF"
     ],
     "employeeNote": "Employees don't need a separate app — they receive their schedule by email.",
-    "moreInfo": "The interface adapts to touch screens, and navigation works through a hamburger menu.",
+    "moreInfo": "On your phone, planning is a day view: a week strip, shift cards and a plus-button quick create. Navigation is in the menu.",
     "readMore": "Read more about mobile"
   },
   "blogPosts": {
@@ -380,7 +380,7 @@
       },
       "mobile-manager": {
         "title": "Mobile for planners",
-        "shortDescription": "Plan and publish shifts directly from your phone."
+        "shortDescription": "Day view, quick create and publishing from your phone."
       }
     }
   },

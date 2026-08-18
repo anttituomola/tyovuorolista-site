@@ -24,3 +24,5 @@ Vapaapäivä luodaan kuten työvuorokin, raahaamalla työntekijä kalenteriin, m
 
 tyovuorolista.fi määrittää vapaapäivän tyypin automaattisesti näin: jokaisen työntekijän viikon <strong>ensimmäisenä merkattu vapaapäivä määritellään automaattisesti V-päiväksi</strong>, ja kaikki sen jälkeiset saman viikon vapaapäivät määritellään automaattisesti X-päiviksi. Voit vaihtaa näitä määrityksiä klikkaamalla vuoroa ja vaihtamalla modaalissa olevan vapaapäivän tyypin.
 
+Puhelimessa vapaa merkitään plus-painikkeen **Vapaa / X** -välilehdeltä. Sama V/X-sääntö pätee. Lue [mobiilisuunnittelun ohje](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
+

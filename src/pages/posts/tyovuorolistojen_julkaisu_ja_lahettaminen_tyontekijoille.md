@@ -10,6 +10,8 @@ image:
 tags: ["tiimit", "julkaisu", "työvuorolista"]
 ---
 
+*Päivitetty 18.8.2026: puhelimessa listan jakaminen on **Jaa** (JPEG) ja **Lataa PDF**. Kopioi kuva ja Tulosta ovat tietokoneella.*
+
 ### Kaksi eri työvuorolistatyyppiä
 Työvuorolistassa on kahta eri työvuorolistatyyppiä:
 1. **Tiimikohtainen työvuorolista**: tällä listalla näkyy **kaikki tiimin työntekijät**, joilla on vuoroja listalla, sekä heidän työvuoronsa. Tämä lista on saatavilla kuvana ja PDF:nä.
@@ -23,9 +25,11 @@ Työvuorolistassa on kahta eri työvuorolistatyyppiä:
 
 Työvuorolista-sovelluksessa on monta tapaa julkaista työvuorolista työntekijöille:
 
-1. **Kuva**: voit tallentaa kuvan tiimin työvuorolistasta koneellesi tai kopioida sen leikepöydällesi. Nämä toiminnot ovat näppäriä, kun haluat lähettää vaikkapa ehdotuksen työvuoroista työntekijöiden Whatsapp-ryhmään tai muualle.
-2. **PDF**: voit tallentaa tai tulostaa PDF-version tiimin työvuorolistasta. Sen resoluutio mahdollistaa zoomaamisen lähelle laadun kärsimättä, ja PDF:stä saat teräviä tulosteita työpaikan seinälle. Lue lisää [työvuorolista PDF:nä](/posts/tyovuorolista_pohja_pdf) ja [resurssien näyttämisestä julkaistuissa listoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa).
-3. **Sähköposti**: voit lähettää työntekijöille heidän henkilökohtaisen työvuorolistansa. Tämä lista sisältää aina työntekijän kaikki vuorot lähetettävän listan ajalta - myös ne, jotka ovat mahdollisesti toisten tiimien listoilla saman aikaikkunan sisällä. Voit myös [lisätä oman viestin sähköpostin alkuun](/posts/vapaa_viesti_tyovuorolista_sahkopostiin).
+1. **Kuva** (tietokone): voit tallentaa kuvan tiimin työvuorolistasta koneellesi tai kopioida sen leikepöydällesi. Näppärä, kun lähetät ehdotuksen WhatsApp-ryhmään.
+2. **PDF**: tietokoneella tallennat tai tulostat PDF:n. Puhelimessa sama tiedosto tulee **Lataa PDF** -painikkeesta (A4 vaaka).
+3. **Sähköposti**: henkilökohtainen lista kullekin työntekijälle. Voit myös [lisätä oman viestin sähköpostin alkuun](/posts/vapaa_viesti_tyovuorolista_sahkopostiin).
+
+Puhelimen Julkaise-näkymässä **Jaa** avaa jakovalikon JPEG-kuvalla (WhatsApp, Mail, Tallenna kuva). Kopioi kuva ja Tulosta ovat piilossa kapealla näytöllä. Katso [mobiiliohje](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
 
 ### Tiivis ja väljä asettelu
 

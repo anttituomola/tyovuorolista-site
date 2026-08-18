@@ -75,7 +75,8 @@ Ohjeessa voit painaa **Näytä** nähdäksesi lyhyen animaation raahaamisesta.
 
 Vaihtoehtoisia tapoja:
 
-- Klikkaa kalenterin aikaa ja täytä vuoro modaalissa (erityisen kätevä [mobiilissa](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla)).
+- Klikkaa kalenterin aikaa ja täytä vuoro modaalissa (tietokone).
+- Puhelimessa napauta **+** ja luo vuoro pikaluonnista ([mobiiliohje](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla)).
 - Kopioi olemassa oleva vuoro **Alt + raahaus** ([työvuoron kopiointi](/posts/tyovuoron_kopiointi_alt_raahaus)).
 
 → Laajempi opas: [Tuntien kirjaus ja vuorojen merkitseminen](/posts/tuntien_kirjaus_opas)

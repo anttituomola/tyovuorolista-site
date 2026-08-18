@@ -35,15 +35,12 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
         </div>
         <div class="videoSection">
             <div class="videoContainer">
-                <video 
-                    controls 
-                    preload="none" 
-                    poster="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift-poster.webp"
-                    width="100%"
-                >
-                    <source src="/blogPostImages/mobile-demo.webm" type="video/webm" />
-                    Selaimesi ei tue videota.
-                </video>
+                <img
+                    src="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png"
+                    alt={t('mobileDemo.title', locale as 'fi' | 'en' | 'sv')}
+                    width="390"
+                    height="844"
+                />
             </div>
         </div>
     </div>
@@ -116,9 +113,9 @@ const mobileDemo = getTranslationObject('mobileDemo', locale as 'fi' | 'en' | 's
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
         border-radius: 12px;
         overflow: hidden;
-        background: #000;
+        background: #fff;
     }
-    .videoContainer video {
+    .videoContainer img {
         display: block;
         width: 100%;
         height: auto;

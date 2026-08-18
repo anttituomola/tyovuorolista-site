@@ -257,13 +257,13 @@
     "title": "Hantera skift även på mobilen",
     "description": "Som planerare kan du använda Työvuorolista fullt ut i telefon eller surfplatta: skiftplanering, personalhantering, timregistrering och publicering.",
     "features": [
-      "Planera och redigera skift",
+      "Dagsvy och snabbskapande i telefonen",
       "Hantera anställda",
       "Registrera arbetade timmar",
-      "Publicera scheman och skicka e-post"
+      "Publicering, dela och PDF"
     ],
     "employeeNote": "Anställda behöver ingen separat app — de får sitt schema via e-post.",
-    "moreInfo": "Gränssnittet anpassar sig till pekskärmar, och navigering fungerar via en hamburgermeny.",
+    "moreInfo": "I telefonen är planeringen en dagsvy: veckorad, skiftkort och snabbskapande via plusknappen. Navigeringen sker via menyn.",
     "readMore": "Läs mer om mobil"
   },
   "blogPosts": {
@@ -380,7 +380,7 @@
       },
       "mobile-manager": {
         "title": "Mobil för planerare",
-        "shortDescription": "Planera och publicera skift direkt från telefonen."
+        "shortDescription": "Dagsvy, snabbskapande och publicering direkt i telefonen."
       }
     }
   },

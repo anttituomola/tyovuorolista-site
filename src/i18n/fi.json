@@ -257,13 +257,13 @@
     "title": "Hallitse vuoroja myös mobiilissa",
     "description": "Suunnittelijana voit käyttää Työvuorolistaa täysimittaisesti älypuhelimessa ja tabletilla: vuorojen suunnittelu, työntekijöiden hallinta, tuntien kirjaus ja listojen julkaisu.",
     "features": [
-      "Työvuorojen suunnittelu ja muokkaus",
+      "Päivänäkymä ja pikaluonti puhelimessa",
       "Työntekijöiden hallinta",
       "Toteutuneiden tuntien kirjaus",
-      "Listojen julkaisu ja sähköpostitus"
+      "Julkaisu, Jaa ja PDF"
     ],
     "employeeNote": "Työntekijät eivät tarvitse erillistä sovellusta. He saavat oman listansa sähköpostilla.",
-    "moreInfo": "Käyttöliittymä mukautuu kosketusnäytöille, ja navigointi toimii hampurilaisvalikon kautta.",
+    "moreInfo": "Puhelimessa suunnittelu on päivänäkymä: viikonauha, vuorokortit ja plus-painikkeen pikaluonti. Navigointi kulkee valikon kautta.",
     "readMore": "Lue lisää mobiilista"
   },
   "blogPosts": {
@@ -385,7 +385,7 @@
       },
       "mobile-manager": {
         "title": "Mobiili suunnittelijalle",
-        "shortDescription": "Suunnittele ja julkaise vuoroja suoraan puhelimesta."
+        "shortDescription": "Päivänäkymä, pikaluonti ja julkaisu suoraan puhelimesta."
       }
     }
   },

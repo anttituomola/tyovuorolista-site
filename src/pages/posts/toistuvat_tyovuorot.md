@@ -19,7 +19,7 @@ Toistuvuus toimii **julkaisemattomilla listoilla** ja koskee **tavallisia työvu
 ## Miten pääset alkuun?
 
 1. Avaa **Suunnittele**-näkymä ja valitse muokattava lista.
-2. **Luo uusi vuoro** klikkaamalla kalenterin aikaruudukkoa (tietokone), raahamalla työntekijä kalenteriin (tietokone) tai napauttamalla sitä (mobiili). Vaihtoehtoisesti avaa olemassa oleva työvuoro muokattavaksi.
+2. **Luo uusi vuoro** tietokoneella klikkaamalla kalenterin aikaruudukkoa tai raahaamalla työntekijä kalenteriin. Puhelimessa napauta **+** ja avaa **Kaikki kentät**, jos tarvitset toistuvuuden. Vaihtoehtoisesti avaa olemassa oleva työvuoro muokattavaksi.
 3. Täytä työntekijä, ajat ja muut tiedot kuten tavallisesti.
 4. Kytke päälle **Toista vuoro listan aikana**.
 5. Valitse toistuvuus ja tarkista esikatselu.
