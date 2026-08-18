@@ -30,21 +30,15 @@ Avaa **Suunnittele**-näkymä ja valitse julkaisematon lista.
 3. Klikkaa työntekijää sivupalkista. Palkki näyttää etunimen ja oletuspituuden, esimerkiksi *Emma · 8 h*. Valitun kortin ympärille tulee kehys.
 4. Klikkaa aikaruudukkoa siinä kohdassa, josta vuoron haluat alkavan. Vuoro syntyy heti oletuspituudella.
 
-<img src="/blogPostImages/leimaustila/leimaustila-valitse.png" alt="Leimaustila päällä, palkki kehottaa valitsemaan työntekijän" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
-
-<img src="/blogPostImages/leimaustila/leimaustila-tyontekija.png" alt="Emma valittuna leimaustilaan: kehys kortin ympärillä ja palkki Emma · 8 h" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
-
 Tila jää päälle. Klikkaa seuraavaa päivää, vaihda työntekijää sivupalkista, jatka. Lopeta **Escillä**, palkin rastilla tai samalla leimauskuvakkeella.
 
-<img src="/blogPostImages/leimaustila/hero.png" alt="Emman 10–18-vuorot merkittyinä maanantaista perjantaihin leimaustilassa" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/leimaustila/hero.png" alt="Leimaustila: Emma valittuna, viikon vuorot merkitty klikkaamalla" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Oletuspituus tulee työntekijän tiedoista, ja jos sitä ei ole asetettu, tiimin oletuksesta. Kellonaika on se, jota klikkasit — ruudukko napsahtaa tiimin aikaportaisiin.
 
 ## Vapaa ja X samalla tavalla
 
 Klikkaa kalenterin **Vapaa / tapahtuma** -riviä leimaustilan ollessa päällä. Ensimmäinen merkintä viikolle on **V**, seuraava saman viikon klikkaus samalle työntekijälle on **X**. Sama automaattisääntö kuin raahauksessa koko päivän riville.
-
-<img src="/blogPostImages/leimaustila/leimaustila-vapaa.png" alt="Emman vapaapäivä (V) sunnuntain Vapaa/tapahtuma-rivillä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Päiväkohtaisen tapahtuman (muistiinpanon) lisääminen ei onnistu leimaustilan aikana, koska yksi klikkaus leimaa vapaan. Poistu tilasta ja klikkaa riviä normaalisti. Ohje: [päiväkohtaiset muistiinpanot](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat).
 
