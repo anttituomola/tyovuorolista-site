@@ -262,7 +262,7 @@
       "Toteutuneiden tuntien kirjaus",
       "Julkaisu, Jaa ja PDF"
     ],
-    "employeeNote": "Työntekijät eivät tarvitse erillistä sovellusta. He saavat oman listansa sähköpostilla.",
+    "employeeNote": "Työntekijöiden ei tarvitse asentaa sovelluksia. He saavat oman listansa omasta web-portaalista sekä sähköpostitse.",
     "moreInfo": "Puhelimessa suunnittelu on päivänäkymä: viikonauha, vuorokortit ja plus-painikkeen pikaluonti. Navigointi kulkee valikon kautta.",
     "readMore": "Lue lisää mobiilista"
   },
