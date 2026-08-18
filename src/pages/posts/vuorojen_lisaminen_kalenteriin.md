@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Näin lisäät työvuoroita kalenteriin'
 pubDate: 2026-05-29
-description: 'Kolme tapaa täyttää työvuorolista: raahaa työntekijä kalenteriin, klikkaa aikaa modaalissa tai luo toistuvia vuoroja kerralla. Vertailu ja käytännön vinkit.'
+description: 'Tavat täyttää työvuorolista tietokoneella ja puhelimessa: leimaustila, raahaus, luonti-ikkuna, pikaluonti ja toistuvat vuorot.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/vuorojen_lisaminen/hero.png'
@@ -10,11 +10,11 @@ image:
 tags: ["työvuorolista", "ohjeet", "työvuorot", "kalenteri", "aloittaminen"]
 ---
 
-*Päivitetty 18.8.2026: puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
+*Päivitetty 18.8.2026: tietokoneella voit täyttää vuorot myös leimaustilalla (valitse työntekijä, klikkaa ruudukkoa). Puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
 
 Työvuorolistan täyttäminen tapahtuu **Suunnittele**-näkymässä. Tietokoneella vasemmalla on työntekijät, keskellä kalenteri valitulle listalle. Puhelimessa näet yhden päivän kortteina. Kun lista on vielä julkaisematon, voit lisätä vuoroja vapaasti. Julkaisun jälkeen muokkaus on lukittu.
 
-Tässä oppaassa tietokoneen tavat: **raahaus**, **klikkaus** ja **toistuvuus**. Puhelimessa käytät plus-painikkeen pikaluontia. Valitse tapa tilanteen mukaan; voit yhdistellä niitä saman listan aikana.
+Tässä oppaassa tietokoneen tavat: **leimaustila**, **raahaus**, **klikkaus** ja **toistuvuus**. Puhelimessa käytät plus-painikkeen pikaluontia. Valitse tapa tilanteen mukaan; voit yhdistellä niitä saman listan aikana.
 
 <img src="/blogPostImages/vuorojen_lisaminen/hero.png" alt="Kalenterinäkymä työntekijöineen ja aikaruudukkineen" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -22,8 +22,9 @@ Tässä oppaassa tietokoneen tavat: **raahaus**, **klikkaus** ja **toistuvuus**.
 
 | Tapa | Parhaiten kun… | Laitteet |
 |------|----------------|----------|
+| **Leimaustila** | Täytät yhden työntekijän viikon oletuspituudella | Tietokone |
 | **Raahaa työntekijä** | Tiedät heti kenen ja mihin aikaan | Tietokone |
-| **Klikkaa kalenteria** | Haluat tarkat ajat modaalissa | Tietokone |
+| **Klikkaa kalenteria** | Haluat tarkat ajat luonti-ikkunassa | Tietokone |
 | **Plus-painike (pikaluonti)** | Nopea vuoron tai vapaan lisäys | Mobiili |
 | **Toista vuoro** | Sama vuoro toistuu useana päivänä | Tietokone ja mobiili |
 
@@ -31,9 +32,17 @@ Lisäksi voit **kopioida** olemassa olevan vuoron Alt/Option + raahauksella. Lue
 
 ---
 
-## 1. Raahaa työntekijä kalenteriin
+## 1. Leimaustila (tietokone)
 
-Nopein tapa tietokoneella: valitse päivä ja kellonaika kalenterista, **raahaa** työntekijän nimi vasemmalta aikaruudukkoon ja vapauta.
+Nopein tapa täyttää yhden työntekijän viikko oletuspituudella: laita leimaustila päälle sivupalkin leimasinkuvakkeesta, valitse työntekijä ja klikkaa kellonaikoja. Vuoro syntyy heti, ilman raahausta tai luonti-ikkunaa. Vapaa/X merkitään klikkaamalla **Vapaa / tapahtuma** -riviä.
+
+Koko ohje: [Leimaustila](/posts/leimaustila).
+
+---
+
+## 2. Raahaa työntekijä kalenteriin
+
+Valitse päivä ja kellonaika kalenterista, **raahaa** työntekijän nimi vasemmalta aikaruudukkoon ja vapauta.
 
 1. Varmista, että oikea **lista** on valittu vasemman reunan valitsimesta.
 2. Valitse kalenterista haluamasi **päivä ja aika** (tai koko päivän rivi vapaapäivälle).
@@ -48,7 +57,7 @@ Raahaus sopii erityisesti, kun haluat sijoittaa vuoron visuaalisesti oikeaan koh
 
 ---
 
-## 2. Klikkaa kalenteria
+## 3. Klikkaa kalenteria
 
 Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä on tietokoneen tapa, kun et halua raahata.
 
@@ -77,7 +86,7 @@ Olemassa olevan **työvuoron** muokkaus tapahtuu samalla ikkunalla: klikkaa vuor
 
 ---
 
-## 3. Toista vuoro usealle päivälle
+## 4. Toista vuoro usealle päivälle
 
 Kun sama työntekijä toistuu samoihin aikoihin useana päivänä tai viikolla, käytä **Toista vuoro listan aikana** -kytkintä vuoron luonti- tai muokkausikkunassa.
 
@@ -123,8 +132,9 @@ Klikkaa kalenterin **Vapaa / tapahtuma** -riviä ja valitse välilehti **Tapahtu
 
 | Toiminto | Miten |
 |----------|-------|
-| Nopea sijoitus tietokoneella | Raahaa työntekijä kalenteriin |
-| Tarkat ajat modaalissa | Klikkaa aikaruudukkoa |
+| Viikko yhdelle työntekijälle | Leimaustila |
+| Yksittäinen sijoitus tietokoneella | Raahaa työntekijä kalenteriin |
+| Tarkat ajat luonti-ikkunassa | Klikkaa aikaruudukkoa |
 | Nopea luonti puhelimessa | Plus-painike → pikaluonti |
 | Kopioi puhelimessa | Kortin ⋮ → Monista |
 | Sama vuoro usealle päivälle | Toista vuoro -kytkin |
