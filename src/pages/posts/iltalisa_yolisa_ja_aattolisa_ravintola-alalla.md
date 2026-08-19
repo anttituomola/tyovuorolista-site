@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png'
     alt: 'Työntekijäkortti, jossa ilta- ja sunnuntailisätunnit eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'MaRa', 'iltalisä', 'yölisä', 'aattolisä', 'palkanlaskenta', 'ravintola-ala']
 ---
 
@@ -75,16 +76,10 @@ viidestä aattopäivästä.
 
 ## TES-apuri erittelee lisätunnit automaattisesti
 
-[Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
-seuraa tätäkin säädöstä puolestasi: iltalisä- ja yölisätunnit,
-aattotunnit sekä sunnuntain kahdennetut lisät lasketaan toteutuneista
-vuoroista ja eritellään omiksi riveikseen
-[palkkaraporttiin](/posts/palkkaraportti_ominaisuus), esimerkiksi
-"Iltavuorolisä", "Iltalisä su/pyhä (2×)" ja "Juhannusaattolisä".
-Sinun ei tarvitse muistaa, kumpi sääntö koskee juhannusaattoa ja kumpi
-juhannuspäivää.
-
-<img src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: iltalisä- ja sunnuntailisätunnit eriteltyinä omiksi riveikseen" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhoneRow">
+<p><a href="/posts/tes_tuki_tyovuorosuunnittelussa">Tyovuorolista.fi:n TES-tuki</a> seuraa tätäkin säädöstä puolestasi: iltalisä- ja yölisätunnit, aattotunnit sekä sunnuntain kahdennetut lisät lasketaan toteutuneista vuoroista ja eritellään omiksi riveikseen <a href="/posts/palkkaraportti_ominaisuus">palkkaraporttiin</a>, esimerkiksi "Iltavuorolisä", "Iltalisä su/pyhä (2×)" ja "Juhannusaattolisä". Sinun ei tarvitse muistaa, kumpi sääntö koskee juhannusaattoa ja kumpi juhannuspäivää.</p>
+<img class="blogPhone" src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: iltalisä- ja sunnuntailisätunnit eriteltyinä omiksi riveikseen" />
+</div>
 
 ---
 

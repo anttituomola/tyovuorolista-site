@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'
     alt: 'Työntekijäkortti, jossa sunnuntailisä-, iltalisä- ja aattoiltalisätunnit eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'kaupan ala', 'sunnuntaityö', 'sunnuntailisä', 'palkanlaskenta', 'työaikalaki']
 ---
 
@@ -178,17 +179,12 @@ eikä kioskimyyjiä. Loput vapaapäiväsäännöt ovat
 
 ## Sovellus laskee kertoimen ja lisät erikseen
 
-<img src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Työntekijäkortti: sunnuntailisä 8 h, iltalisä 6 h ja aattoiltalisä 4 h eriteltyinä omiksi riveikseen" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Kun toimipaikalle on valittu
-[Kaupan alan TES](/posts/kaupan_alan_tes_tyovuorosuunnittelussa),
-tyovuorolista.fi tunnistaa sunnuntait ja kirkolliset juhlapäivät
-kalenterista, erittelee sunnuntaityökorvaukseen oikeuttavat tunnit
-omalle rivilleen ja pitää työaikalisät erillään korvauksen
-laskentapohjasta. Marras–joulukuun kaksinkertainen iltalisä ja
-logistiikkatyöntekijän omat säännöt tulevat työntekijäryhmän mukaan.
-Rivit viedään palkanlaskentaan omilla palkkalajikoodeillaan, myös
-[Procountor-muodossa](/posts/procountor_palkka_vienti).
+<div class="blogPhoneRow">
+<div>
+<p>Kun toimipaikalle on valittu <a href="/posts/kaupan_alan_tes_tyovuorosuunnittelussa">Kaupan alan TES</a>, tyovuorolista.fi tunnistaa sunnuntait ja kirkolliset juhlapäivät kalenterista, erittelee sunnuntaityökorvaukseen oikeuttavat tunnit omalle rivilleen ja pitää työaikalisät erillään korvauksen laskentapohjasta. Marras–joulukuun kaksinkertainen iltalisä ja logistiikkatyöntekijän omat säännöt tulevat työntekijäryhmän mukaan. Rivit viedään palkanlaskentaan omilla palkkalajikoodeillaan, myös <a href="/posts/procountor_palkka_vienti">Procountor-muodossa</a>.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Työntekijäkortti: sunnuntailisä 8 h, iltalisä 6 h ja aattoiltalisä 4 h eriteltyinä omiksi riveikseen" />
+</div>
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 

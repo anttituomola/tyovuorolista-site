@@ -75,9 +75,10 @@ Näin työntekijä tietää suoraan listasta, että tiistain vuoro on nimenomaan
 
 Oma-portaalissa sama tieto näkyy vuorokortissa ja vuoron tiedoissa **Rooli**-rivinä:
 
-<img src="/blogPostImages/osaamiset/oma-vuorot-osaaminen.png" alt="Oma-portaalin vuorolista puhelimella, vuorokortissa osaamisen nimi" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-<img src="/blogPostImages/osaamiset/oma-vuoro-rooli.png" alt="Oma-portaalin vuoron tiedot, jossa Rooli-rivi kertoo vuoron vaatiman osaamisen" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/osaamiset/oma-vuorot-osaaminen.png" alt="Oma-portaalin vuorolista puhelimella, vuorokortissa osaamisen nimi" />
+<img class="blogPhone" src="/blogPostImages/osaamiset/oma-vuoro-rooli.png" alt="Oma-portaalin vuoron tiedot, jossa Rooli-rivi kertoo vuoron vaatiman osaamisen" />
+</div>
 
 Nimikkeet, joita työntekijän ei tarvitse nähdä (esim. sisäiset pätevyysmerkinnät), pidät yksinkertaisesti ilman Näytä vuorossa -valintaa, ne näkyvät vain sinulle.
 
@@ -125,7 +126,7 @@ Jos avoimella vuorolla on osaamisvaatimus, siihen voivat ilmoittautua Oma-portaa
 
 Vuoro näkyy silti **kaikille** tiimin työntekijöille. Tämä on tarkoituksellista. Työntekijä näkee vuoron, sen vaatiman osaamisen ja syyn, miksi ilmoittautuminen ei ole mahdollista: *"Vaatii osaamisen: Anniskeluvastaava. Puuttuuko osaamismerkintä? Kysy esihenkilöltäsi."* Näin osaamisvaatimukset toimivat myös kannustimena. Työntekijä huomaa, mikä osaaminen avaisi lisää vuoroja, ja toisaalta puuttuvat osaamis*merkinnät* tulevat esiin ja korjatuiksi.
 
-<img src="/blogPostImages/osaamiset/oma-avoin-vuoro-osaaminen.png" alt="Oma-portaalin avoimet vuorot puhelimella: ylempään vuoroon työntekijä voi ilmoittautua, alempi vaatii osaamisen jota hänellä ei ole. Ilmoittautumispainike on pois käytöstä ja vieressä lukee syy" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/osaamiset/oma-avoin-vuoro-osaaminen.png" alt="Oma-portaalin avoimet vuorot puhelimella: ylempään vuoroon työntekijä voi ilmoittautua, alempi vaatii osaamisen jota hänellä ei ole. Ilmoittautumispainike on pois käytöstä ja vieressä lukee syy" />
 
 Sinulle esihenkilönä mikään ei muutu: voit edelleen antaa minkä tahansa vuoron kenelle tahansa. Jos ilmoittautuneen työntekijän osaaminen on ehtinyt muuttua ilmoittautumisen jälkeen (esim. lisäsit vuorolle vaatimuksen jälkikäteen), näet ilmoittautumisen kohdalla varoitusmerkinnän, mutta hyväksyntä on aina sinun päätöksesi.
 

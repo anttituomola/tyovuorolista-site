@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sostes-tes/sostes-jakson-tunnit.png'
     alt: 'Työntekijäkortti: sunnuntaityö, lauantailisä, iltalisä ja yölisä eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'sosiaalipalveluala', 'sunnuntailisä', 'iltalisä', 'yölisä', 'palkanlaskenta']
 ---
 
@@ -99,7 +100,7 @@ vuoroissa. Palkkaraportissa jokainen kategoria on omalla rivillään ja
 vietävissä omalla palkkalajikoodillaan
 [Procountoriin tai yleisenä CSV:nä](/posts/procountor_palkka_vienti).
 
-<img src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: sunnuntaityö, lauantai-, ilta- ja yölisät sekä ylityöt eriteltyinä" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: sunnuntaityö, lauantai-, ilta- ja yölisät sekä ylityöt eriteltyinä" />
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 

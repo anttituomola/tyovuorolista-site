@@ -54,13 +54,16 @@ Julkaistu lista on lukittu muokkauksilta. Jos listaa pitää muuttaa, palauta se
 
 ## Sähköposti-ilmoitukset: jokainen valitsee itse
 
-Sähköposti-ilmoitukset ovat **oletuksena pois päältä**. Kukaan ei saa sähköpostia, ellei ole itse kytkenyt sitä päälle:
-
-- **Esihenkilö:** profiilisivun kohdasta **Ilmoitusasetukset**
-- **Työntekijä:** Oma-portaalin **Profiili**-välilehdeltä
-
-Jokaisen ilmoitustyypin voi valita erikseen, joten sähköpostiin tulee vain se, mikä on itselle tärkeää.
-
-<img src="/blogPostImages/ilmoitukset/ilmoitusasetukset.png" alt="Ilmoitusasetukset: sähköposti-ilmoituksen voi kytkeä päälle ilmoitustyypeittäin" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />
+<div class="blogPhoneRow">
+<div>
+<p>Sähköposti-ilmoitukset ovat <strong>oletuksena pois päältä</strong>. Kukaan ei saa sähköpostia, ellei ole itse kytkenyt sitä päälle:</p>
+<ul>
+<li><strong>Esihenkilö:</strong> profiilisivun kohdasta <strong>Ilmoitusasetukset</strong></li>
+<li><strong>Työntekijä:</strong> Oma-portaalin <strong>Profiili</strong>-välilehdeltä</li>
+</ul>
+<p>Jokaisen ilmoitustyypin voi valita erikseen, joten sähköpostiin tulee vain se, mikä on itselle tärkeää.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/ilmoitukset/ilmoitusasetukset.png" alt="Ilmoitusasetukset: sähköposti-ilmoituksen voi kytkeä päälle ilmoitustyypeittäin" />
+</div>
 
 Kysyttävää? Tukichat vastaa sovelluksen oikeasta alakulmasta, tai laita viestiä osoitteeseen [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).

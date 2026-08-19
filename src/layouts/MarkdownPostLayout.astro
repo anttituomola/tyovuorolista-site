@@ -24,6 +24,9 @@ const dateModifiedIso = dateModifiedSource
 // feature page that matches their topic instead of the generic register link
 const ctaText = frontmatter.ctaText ?? 'Kokeile Työvuorolistaa ilmaiseksi'
 const ctaHref = frontmatter.ctaHref ?? 'https://app.tyovuorolista.fi/register'
+const imageLayout = frontmatter.image?.layout
+const isPhoneHero = imageLayout === 'phone'
+const isNarrowHero = imageLayout === 'phone' || imageLayout === 'narrow'
 
 const blogPostingJsonLd = {
     '@context': 'https://schema.org',
@@ -82,10 +85,42 @@ const breadcrumbJsonLd = {
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
     <div class="blogWrapper">
-        {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} />}
-        <h1>{frontmatter.title}</h1>
-        <p class="metadata">Kirjoittanut {frontmatter.author}<br />
-        Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
+        {frontmatter.image && isNarrowHero ? (
+            <header class="blogHero blogHero--phone">
+                <div class="blogHeroCopy">
+                    <h1>{frontmatter.title}</h1>
+                    <p class="metadata">Kirjoittanut {frontmatter.author}<br />
+                    Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
+                </div>
+                {isPhoneHero ? (
+                    <div class="blogHeroMedia tyov-featureDetail__heroMedia--phone">
+                        <div class="tyov-screenshotFrame">
+                            <img
+                                src={frontmatter.image.url}
+                                alt={frontmatter.image.alt}
+                                width="390"
+                                height="844"
+                            />
+                        </div>
+                    </div>
+                ) : (
+                    <div class="blogHeroMedia">
+                        <img
+                            class="blogPhone"
+                            src={frontmatter.image.url}
+                            alt={frontmatter.image.alt}
+                        />
+                    </div>
+                )}
+            </header>
+        ) : (
+            <>
+                {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} />}
+                <h1>{frontmatter.title}</h1>
+                <p class="metadata">Kirjoittanut {frontmatter.author}<br />
+                Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>
+            </>
+        )}
         {frontmatter.infoBasis && (
             <aside class="infoBasis">
                 <p class="infoBasisText">{frontmatter.infoBasis}</p>
@@ -111,8 +146,46 @@ const breadcrumbJsonLd = {
 </Layout>
 
 <style>
+    /* Layout.astro uses flex on .blogWrapper; flex items ignore float,
+       so phone screenshots cannot sit beside the following copy. */
+    .blogWrapper {
+        display: block;
+    }
+
+    .blogWrapper::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .blogHero--phone {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 280px);
+        gap: 1.5rem 2rem;
+        align-items: center;
+        margin: var(--space-xl) 0 2rem;
+    }
+
+    .blogHero--phone .metadata {
+        margin-bottom: 0;
+    }
+
+    .blogWrapper .blogHero :global(img) {
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .blogHeroMedia {
+        justify-self: center;
+        width: 100%;
+    }
+
     .blogWrapper :global(h2) {
         margin-top: 4rem;
+        clear: both;
     }
     
     .blogWrapper :global(h2:first-of-type) {
@@ -121,10 +194,12 @@ const breadcrumbJsonLd = {
     
     .blogWrapper :global(h3) {
         margin-top: 2.5rem;
+        clear: both;
     }
     
     .blogWrapper :global(h4) {
         margin-top: 2rem;
+        clear: both;
     }
     
     .metadata {
@@ -171,8 +246,60 @@ const breadcrumbJsonLd = {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
     
-    .blogWrapper :global(img:first-child) {
+    .blogWrapper > :global(img:first-child) {
         margin-top: var(--space-2xl);
+    }
+
+    .blogWrapper :global(img.blogPhone),
+    .blogWrapper :global(video.blogPhone) {
+        display: block;
+        width: 240px;
+        max-width: 55%;
+        margin: 1.25rem auto;
+        padding: 0.45rem;
+    }
+
+    .blogWrapper :global(.blogPhoneRow) {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 240px;
+        gap: 1.25rem 2rem;
+        align-items: start;
+        margin: 1.25rem 0 1.75rem;
+    }
+
+    .blogWrapper :global(.blogPhoneRow .blogPhone) {
+        width: 240px;
+        max-width: 100%;
+        margin: 0;
+        justify-self: end;
+    }
+
+    .blogWrapper :global(.blogPhoneRow > :not(.blogPhone)) {
+        min-width: 0;
+    }
+
+    .blogWrapper :global(.blogPhoneRow p:last-child) {
+        margin-bottom: 0;
+    }
+
+    .blogWrapper :global(.blogPhonePair) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 240px));
+        justify-content: center;
+        gap: 1.25rem;
+        margin: 1.25rem 0 1.75rem;
+    }
+
+    .blogWrapper :global(.blogPhonePair .blogPhone) {
+        width: 100%;
+        max-width: 240px;
+        margin: 0;
+    }
+
+    .blogWrapper .blogHeroMedia :global(img.blogPhone) {
+        width: 100%;
+        max-width: 240px;
+        margin: 0;
     }
     
     .blogWrapper :global(video) {
@@ -206,6 +333,44 @@ const breadcrumbJsonLd = {
             display: block;
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .blogHero--phone {
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+            margin-top: var(--space-base);
+        }
+
+        .blogHeroMedia :global(.tyov-screenshotFrame) {
+            max-width: 200px;
+        }
+
+        .blogWrapper :global(img.blogPhone),
+        .blogWrapper :global(video.blogPhone) {
+            width: 200px;
+            max-width: 55%;
+            margin: 0.75rem auto 1.15rem;
+        }
+
+        .blogWrapper :global(.blogPhoneRow) {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 1rem;
+        }
+
+        .blogWrapper :global(.blogPhoneRow > :not(.blogPhone)) {
+            justify-self: stretch;
+        }
+
+        .blogWrapper :global(.blogPhoneRow .blogPhone) {
+            width: 200px;
+            justify-self: center;
+        }
+
+        .blogWrapper :global(.blogPhonePair) {
+            grid-template-columns: minmax(0, 200px);
         }
     }
 

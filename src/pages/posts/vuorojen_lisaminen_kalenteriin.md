@@ -70,11 +70,13 @@ Voit luoda vuoron myös **klikkaamalla** kalenteria. Tämä on tietokoneen tapa,
 
 ### Mobiili
 
-Puhelimessa kalenteri on **päivänäkymä**. Napauta alareunan **+**-painiketta: valitse työntekijä, valitse aika ja luo vuoro. Vapaa merkitään saman ikkunan **Vapaa / X** -välilehdeltä. Toistuvuus ja muut kentät ovat kohdassa **Kaikki kentät**.
-
-<img src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Mobiilin pikaluonti: työntekijä, aikapainikkeet ja Luo vuoro" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Olemassa olevan vuoron kopioit kortin **⋮**-valikosta (**Monista toiselle päivälle**). Koko ohje: [Työvuorolista mobiililaitteilla](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
+<div class="blogPhoneRow">
+<div>
+<p>Puhelimessa kalenteri on <strong>päivänäkymä</strong>. Napauta alareunan <strong>+</strong>-painiketta: valitse työntekijä, valitse aika ja luo vuoro. Vapaa merkitään saman ikkunan <strong>Vapaa / X</strong> -välilehdeltä. Toistuvuus ja muut kentät ovat kohdassa <strong>Kaikki kentät</strong>.</p>
+<p>Olemassa olevan vuoron kopioit kortin <strong>⋮</strong>-valikosta (<strong>Monista toiselle päivälle</strong>). Koko ohje: <a href="/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla">Työvuorolista mobiililaitteilla</a>.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Mobiilin pikaluonti: työntekijä, aikapainikkeet ja Luo vuoro" />
+</div>
 
 ### Vuoron luonti-ikkuna
 

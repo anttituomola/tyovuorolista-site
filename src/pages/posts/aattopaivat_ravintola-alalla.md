@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png'
     alt: 'Työntekijäkortti, jossa aatto-, sunnuntai- ja iltalisätunnit eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'MaRa', 'aattolisä', 'juhannusaatto', 'jouluaatto', 'palkanlaskenta', 'ravintola-ala']
 ---
 
@@ -134,15 +135,12 @@ arkilauantaiksi, palkka on maksettava jo edeltävänä päivänä (21 § 1).
 
 ## Sovellus erittelee aattotunnit omalle rivilleen
 
-<img src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti, jossa sunnuntai- ja iltalisätunnit eriteltyinä omiksi riveikseen" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-[Tyovuorolista.fi:n TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
-tunnistaa viisi aattoa kalenterista, katkaisee tunnit klo 15 ja
-keskiyöllä ja laskee kummallekin puolelle oman korotuksensa. Rivit
-siirtyvät sellaisenaan
-[palkkaraporttiin](/posts/palkkaraportti_ominaisuus) omilla
-palkkalajikoodeillaan, joten juhannusaaton ja juhannuspäivän eroa ei
-tarvitse muistella joka kesäkuu uudelleen.
+<div class="blogPhoneRow">
+<div>
+<p><a href="/posts/tes_tuki_tyovuorosuunnittelussa">Tyovuorolista.fi:n TES-tuki</a> tunnistaa viisi aattoa kalenterista, katkaisee tunnit klo 15 ja keskiyöllä ja laskee kummallekin puolelle oman korotuksensa. Rivit siirtyvät sellaisenaan <a href="/posts/palkkaraportti_ominaisuus">palkkaraporttiin</a> omilla palkkalajikoodeillaan, joten juhannusaaton ja juhannuspäivän eroa ei tarvitse muistella joka kesäkuu uudelleen.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti, jossa sunnuntai- ja iltalisätunnit eriteltyinä omiksi riveikseen" />
+</div>
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 

@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'
     alt: 'Työntekijäkortti: iltalisä, aattoiltalisä ja sunnuntailisä eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'kaupan ala', 'iltalisä', 'yölisä', 'lauantailisä', 'palkanlaskenta']
 ---
 
@@ -85,7 +86,7 @@ Myyjä (muu Suomi), pe klo 14–22 ja la klo 10–18:
 
 Peruspalkka juoksee erikseen; lisät eivät korota toisiaan.
 
-<img src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Tuntiluokittelu: iltalisä, aattoiltalisä, sunnuntaikorvaus" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Tuntiluokittelu: iltalisä, aattoiltalisä, sunnuntaikorvaus" />
 
 ## Sovellus muuntaa lisät palkkariveiksi
 

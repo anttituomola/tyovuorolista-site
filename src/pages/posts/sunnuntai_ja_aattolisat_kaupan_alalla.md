@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png'
     alt: 'Työntekijäkortti juhannusviikolta: sunnuntailisä 8 h, iltalisä 6 h, aattoiltalisä 4 h ja ylityö +50 % 12,5 h.'
+    layout: narrow
 tags: ['TES', 'kaupan ala', 'sunnuntailisä', 'iltalisä', 'aattoiltalisä', 'lauantailisä']
 ---
 
@@ -86,7 +87,7 @@ Myyjä tekee ma–to 10–18, juhannusaattona 12–22 ja sunnuntaina 12–20. Yh
 
 Sama laskelma sovelluksen tuntinäkymässä:
 
-<img src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Työntekijäkortti: 50 h viikko, ylityö +50 % 12,5 h, sunnuntailisä 8 h, iltalisä 6 h, aattoiltalisä 4 h" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/kaupan-tes/kaupan-juhannusviikon-tunnit.png" alt="Työntekijäkortti: 50 h viikko, ylityö +50 % 12,5 h, sunnuntailisä 8 h, iltalisä 6 h, aattoiltalisä 4 h" />
 
 Juhannuspäivä (lauantai) on kirkollinen juhlapäivä: jos sinä päivänä
 tehdään töitä, palkka on kaksinkertainen eikä lauantailisää makseta. Pyhälauantai ei ole arkilauantai. Pääsiäislauantai taas **on**

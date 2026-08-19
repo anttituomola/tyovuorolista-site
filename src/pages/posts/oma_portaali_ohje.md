@@ -7,6 +7,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
     alt: 'Oma-portaalin näkymä, jossa työntekijä näkee omat vuoronsa kalenterissa.'
+    layout: phone
 tags: ["päivitykset", "työntekijät", "julkaisu", "tuntien kirjaus"]
 ---
 
@@ -116,13 +117,14 @@ Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenp�
 
 ### Omat vuorot
 
-Etusivulla näet kalenterin ja listan omista vuoroistasi. Voit selata kuukausia ja avata yksittäisen vuoron tarkemmin klikkaamalla sitä.
-
-Näkyvissä ovat kaikki vuorot **julkaistuilta** listoilta, myös menneet. Jos tulevia vuoroja ei ole, näet tekstin *Ei tulevia vuoroja*. Menneet vuorot saat näkyviin painikkeella **Näytä menneet vuorot**.
-
-<img src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Oma-portaali mobiilinäkymässä: kalenteri ja vuorolista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Portaali on suunniteltu erityisesti mobiilikäyttöön, joten se toimii hyvin puhelimella.
+<div class="blogPhoneRow">
+<div>
+<p>Etusivulla näet kalenterin ja listan omista vuoroistasi. Voit selata kuukausia ja avata yksittäisen vuoron tarkemmin klikkaamalla sitä.</p>
+<p>Näkyvissä ovat kaikki vuorot <strong>julkaistuilta</strong> listoilta, myös menneet. Jos tulevia vuoroja ei ole, näet tekstin <em>Ei tulevia vuoroja</em>. Menneet vuorot saat näkyviin painikkeella <strong>Näytä menneet vuorot</strong>.</p>
+<p>Portaali on suunniteltu erityisesti mobiilikäyttöön, joten se toimii hyvin puhelimella.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Oma-portaali mobiilinäkymässä: kalenteri ja vuorolista" />
+</div>
 
 ### Ilmoita vapaatoive
 
@@ -138,34 +140,41 @@ Esimies näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä**
 
 ### Ilmoita toteutuneet tunnit *(uusi)*
 
-Kun vuoro on alkanut tai päättynyt, voit ilmoittaa siitä toteumat suoraan portaalista. Avaa vuoro aikajanalta ja täytä **tunti-ilmoitus**:
-
-- **Toteutuneet ajat**: jos aloitit tai lopetit eri aikaan kuin listaan oli suunniteltu
-- **Sairasloma**: jos vuoro jäi väliin sairauden takia
-- **Vuoro ei toteutunut**: jos vuoro peruuntui kokonaan
-
-<img src="/blogPostImages/oma-portaali/tunti-ilmoitus.png" alt="Vuoron tiedot Oma-portaalissa: tunti-ilmoituslomake, jossa toteutuneet ajat" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Ilmoitus jää tilaan **Odottaa hyväksyntää**, kunnes esimies käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita.
+<div class="blogPhoneRow">
+<div>
+<p>Kun vuoro on alkanut tai päättynyt, voit ilmoittaa siitä toteumat suoraan portaalista. Avaa vuoro aikajanalta ja täytä <strong>tunti-ilmoitus</strong>:</p>
+<ul>
+<li><strong>Toteutuneet ajat</strong>: jos aloitit tai lopetit eri aikaan kuin listaan oli suunniteltu</li>
+<li><strong>Sairasloma</strong>: jos vuoro jäi väliin sairauden takia</li>
+<li><strong>Vuoro ei toteutunut</strong>: jos vuoro peruuntui kokonaan</li>
+</ul>
+<p>Ilmoitus jää tilaan <strong>Odottaa hyväksyntää</strong>, kunnes esimies käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tunti-ilmoitus.png" alt="Vuoron tiedot Oma-portaalissa: tunti-ilmoituslomake, jossa toteutuneet ajat" />
+</div>
 
 ### Ilmoittaudu avoimeen vuoroon *(uusin)*
 
 Jos työpaikallasi on käytössä **avoimet vuorot**, näet etusivulla painikkeen **Avoimia vuoroja tarjolla** aina, kun tarjolla on jotain. Sama näkymä löytyy osoitteesta [app.tyovuorolista.fi/oma/avoimet](https://app.tyovuorolista.fi/oma/avoimet).
 
-<img src="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-- Näet oman tiimisi avoimet vuorot päivämäärineen ja kellonaikoineen.
-- **Ilmoittaudu vuoroon** lähettää esimiehelle pyynnön. Vuoro ei siis tule sinulle heti, vaan esimies valitsee ilmoittautuneista.
-- Voit perua ilmoittautumisen niin kauan kuin se odottaa käsittelyä.
-- Kun esimies hyväksyy ilmoittautumisesi, vuoro ilmestyy omalle aikajanallesi. Hylätyistä ja hyväksytyistä ilmoittautumisista näet tiedon samalla sivulla.
-
-Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa.
+<div class="blogPhoneRow">
+<div>
+<ul>
+<li>Näet oman tiimisi avoimet vuorot päivämäärineen ja kellonaikoineen.</li>
+<li><strong>Ilmoittaudu vuoroon</strong> lähettää esimiehelle pyynnön. Vuoro ei siis tule sinulle heti, vaan esimies valitsee ilmoittautuneista.</li>
+<li>Voit perua ilmoittautumisen niin kauan kuin se odottaa käsittelyä.</li>
+<li>Kun esimies hyväksyy ilmoittautumisesi, vuoro ilmestyy omalle aikajanallesi. Hylätyistä ja hyväksytyistä ilmoittautumisista näet tiedon samalla sivulla.</li>
+</ul>
+<p>Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" />
+</div>
 
 ### Myöhemmät kirjautumiset
 
 Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu). Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi.
 
-<img src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" />
 
 ## Mitä portaali ei vielä tee
 

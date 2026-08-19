@@ -7,19 +7,22 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png'
     alt: 'Työvuorolistan mobiilisuunnittelu: viikonauha ja perjantain vuorokortit.'
+    layout: phone
 tags: ["mobiili", "käyttöliittymä", "työvuorosuunnittelu", "tuntien kirjaus"]
 ---
 
 *Päivitetty 19.8.2026: ohjevideo alla. Suunnittelunäkymä, valikko, työntekijät ja julkaisu on tehty puhelimelle uudestaan — ei kutistettu työpöytäkalenteri. Julkaisussa WhatsApp-jako on **Jaa**, PDF tulee **Lataa PDF** -painikkeesta.*
 
-Työvuorolista-sovellus toimii puhelimessa ja tabletissa. Voit suunnitella vuorot, hallita työntekijöitä ja kirjata tunteja suoraan älypuhelimesta. Tietokone on edelleen nopein tapa täyttää koko lista, mutta puhelimella hoituu nyt muutos, sairastapaus ja julkaisu ilman että käyttöliittymä on tiellä.
-
-<video controls preload="metadata" poster="/blogPostImages/mobile-usage/mobiili-demo-poster.png" width="60%" style="max-width: 400px; display: block; margin: 20px auto;">
+<div class="blogPhoneRow">
+<div>
+<p>Työvuorolista-sovellus toimii puhelimessa ja tabletissa. Voit suunnitella vuorot, hallita työntekijöitä ja kirjata tunteja suoraan älypuhelimesta. Tietokone on edelleen nopein tapa täyttää koko lista, mutta puhelimella hoituu nyt muutos, sairastapaus ja julkaisu ilman että käyttöliittymä on tiellä.</p>
+<p>Videossa: päivänäkymä ja viikonauha, pikaluonti, avoimen vuoron julkaisu haettavaksi, julkaisun skannattava lista ja valikko.</p>
+</div>
+<video class="blogPhone" controls preload="metadata" poster="/blogPostImages/mobile-usage/mobiili-demo-poster.png">
   <source src="/blogPostImages/mobile-usage/mobiili-demo.webm" type="video/webm" />
   <source src="/blogPostImages/mobile-usage/mobiili-demo.mp4" type="video/mp4" />
 </video>
-
-Videossa: päivänäkymä ja viikonauha, pikaluonti, avoimen vuoron julkaisu haettavaksi, julkaisun skannattava lista ja valikko.
+</div>
 
 ## Mitä voit tehdä mobiililla?
 
@@ -34,110 +37,116 @@ Lomasuunnittelu on toistaiseksi tietokoneella: kuukausinäkymä usean työntekij
 
 ## Navigointi mobiilissa
 
-<img src="/blogPostImages/mobile-usage/05-mobile-navigation-menu.png" alt="Mobiilivalikko jaoteltuna Suunnittelu-, Hallinta- ja Asetukset-osioihin" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Valikko aukeaa oikean yläkulman hampurilaisikonista. Sivut on jaettu ryhmiin:
-
-- **Suunnittelu:** Uusi lista, Suunnittele, Julkaise
-- **Hallinta:** Työntekijät, Tiimit, Listat, Resurssit, Tuntien kirjaus
-- **Asetukset:** Työehtosopimus, Asetukset, Tilaus
-- **Tuki:** Ohjeet ja tuki, Ilmoitukset
-- **Tili:** sähköpostiosoite ja Kirjaudu ulos
-
-Nykyinen sivu on korostettu. Lomasuunnittelu ei näy valikossa, se on varattu tietokoneelle.
+<div class="blogPhoneRow">
+<div>
+<p>Valikko aukeaa oikean yläkulman hampurilaisikonista. Sivut on jaettu ryhmiin:</p>
+<ul>
+<li><strong>Suunnittelu:</strong> Uusi lista, Suunnittele, Julkaise</li>
+<li><strong>Hallinta:</strong> Työntekijät, Tiimit, Listat, Resurssit, Tuntien kirjaus</li>
+<li><strong>Asetukset:</strong> Työehtosopimus, Asetukset, Tilaus</li>
+<li><strong>Tuki:</strong> Ohjeet ja tuki, Ilmoitukset</li>
+<li><strong>Tili:</strong> sähköpostiosoite ja Kirjaudu ulos</li>
+</ul>
+<p>Nykyinen sivu on korostettu. Lomasuunnittelu ei näy valikossa, se on varattu tietokoneelle.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/mobile-usage/05-mobile-navigation-menu.png" alt="Mobiilivalikko jaoteltuna Suunnittelu-, Hallinta- ja Asetukset-osioihin" />
+</div>
 
 ## Kirjautuminen ja rekisteröityminen
 
-<img src="/blogPostImages/mobile-usage/01-mobile-login.png" alt="Kirjautuminen mobiilissa" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
 Kirjautuminen toimii samalla tavalla kuin tietokoneella: Google tai sähköposti ja salasana. Työntekijä kirjautuu [Oma-portaaliin](/posts/oma_portaali_ohje) omalla linkillään, hän ei tarvitse esihenkilötiliä.
 
-<img src="/blogPostImages/mobile-usage/03-mobile-registration.png" alt="Rekisteröityminen: työnantaja tai työntekijä" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/mobile-usage/01-mobile-login.png" alt="Kirjautuminen mobiilissa" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/03-mobile-registration.png" alt="Rekisteröityminen: työnantaja tai työntekijä" />
+</div>
 
 ## Työntekijöiden hallinta
 
-<img src="/blogPostImages/mobile-usage/06-mobile-workers-page.png" alt="Työntekijät kortteina mobiilissa" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
 Työntekijäsivu näyttää jokaisen henkilön korttina: nimi, tiimit ja väri. Napauta korttia muokataksesi tietoja. Uusi työntekijä lisätään **Lisää uusi työntekijä** -painikkeesta.
+
+<img class="blogPhone" src="/blogPostImages/mobile-usage/06-mobile-workers-page.png" alt="Työntekijät kortteina mobiilissa" />
 
 ## Tiimit
 
-<img src="/blogPostImages/mobile-usage/13-mobile-team-settings.png" alt="Tiimit-sivu mobiilissa: Sali ja Keittiö" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
 Tiimit-sivulla näet kunkin tiimin oletusajat, vuoron pituuden ja työntekijät. Napauta korttia avataksesi tiimin asetukset.
+
+<img class="blogPhone" src="/blogPostImages/mobile-usage/13-mobile-team-settings.png" alt="Tiimit-sivu mobiilissa: Sali ja Keittiö" />
 
 ## Työvuorolistojen hallinta
 
-<img src="/blogPostImages/mobile-usage/12-mobile-lists-management.png" alt="Työvuorolistat-sivu: luonnos ja julkaistu lista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+Listat-sivulla luonnokset ja julkaistut listat ovat omissa osioissaan. Kortista näet jakson, tunnit ja työntekijät. Uusi lista syntyy **Lisää uusi työvuorolista** -painikkeesta tai valikon kohdasta **Uusi lista**. Valitse aloitusmaanantai ja pituus (1–4 viikkoa). Päättymispäivä lasketaan automaattisesti. Tallennuksen jälkeen sovellus avaa uuden listan Suunnittele-näkymään.
 
-Listat-sivulla luonnokset ja julkaistut listat ovat omissa osioissaan. Kortista näet jakson, tunnit ja työntekijät. Uusi lista syntyy **Lisää uusi työvuorolista** -painikkeesta tai valikon kohdasta **Uusi lista**.
-
-<img src="/blogPostImages/mobile-usage/08-mobile-date-picker.png" alt="Uuden listan luonti: aloituspäivä ja pituus" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Valitse aloitusmaanantai ja pituus (1–4 viikkoa). Päättymispäivä lasketaan automaattisesti. Tallennuksen jälkeen sovellus avaa uuden listan Suunnittele-näkymään.
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/mobile-usage/12-mobile-lists-management.png" alt="Työvuorolistat-sivu: luonnos ja julkaistu lista" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/08-mobile-date-picker.png" alt="Uuden listan luonti: aloituspäivä ja pituus" />
+</div>
 
 ## Suunnittelu puhelimessa
 
 Puhelimessa Suunnittele-näkymä ei ole tietokoneen viikkokalenteri. Näet **yhden päivän kerrallaan**, ja viikon päivät ovat yläreunan nauhassa.
 
-<img src="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png" alt="Mobiilisuunnittelu: viikonauha, perjantain vuorokortit ja plus-painike" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-- Listan nimi avaa listavalitsimen
-- **Tänään** hyppää kuluvaan päivään, jos se kuuluu listaan
-- Viikonauhasta napautat päivän; pisteet kertovat, millä päivillä on vuoroja
-- Viikon vaihtaminen onnistuu nauhan nuolilla tai pyyhkäisemällä päivälistaa
-- Päivän otsikossa on vuorojen määrä ja tunnit, alareunassa viikon yhteistunnit
-- Koko päivän merkinnät (vapaa, loma, päivämuistiinpano) ovat ylimmäisinä, työvuorot sen alla kortteina
-
-Julkaistulla listalla plus-painike ja korttien muokkaus ovat poissa: lista on lukittu kuten tietokoneellakin.
+<div class="blogPhoneRow">
+<div>
+<ul>
+<li>Listan nimi avaa listavalitsimen</li>
+<li><strong>Tänään</strong> hyppää kuluvaan päivään, jos se kuuluu listaan</li>
+<li>Viikonauhasta napautat päivän; pisteet kertovat, millä päivillä on vuoroja</li>
+<li>Viikon vaihtaminen onnistuu nauhan nuolilla tai pyyhkäisemällä päivälistaa</li>
+<li>Päivän otsikossa on vuorojen määrä ja tunnit, alareunassa viikon yhteistunnit</li>
+<li>Koko päivän merkinnät (vapaa, loma, päivämuistiinpano) ovat ylimmäisinä, työvuorot sen alla kortteina</li>
+</ul>
+<p>Julkaistulla listalla plus-painike ja korttien muokkaus ovat poissa: lista on lukittu kuten tietokoneellakin.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png" alt="Mobiilisuunnittelu: viikonauha, perjantain vuorokortit ja plus-painike" />
+</div>
 
 ### Vuoron luominen (kaksi napautusta)
 
 Plus-painike avaa alareunan pikaluonnin. Valitse työntekijä, valitse aika listan yleisimmistä (tai **Muu…**) ja paina **Luo vuoro**. Ikkuna pysyy auki, joten seuraava vuoro syntyy heti perään.
 
-Jos luot avoimen vuoron (ei tekijää), ilmoituksessa on **Julkaise haettavaksi**. Sillä vuoron saa heti Oma-portaalin hakuun, ilman että pitää käydä Julkaise-sivulla.
+Jos luot avoimen vuoron (ei tekijää), ilmoituksessa on **Julkaise haettavaksi**. Sillä vuoron saa heti Oma-portaalin hakuun, ilman että pitää käydä Julkaise-sivulla. Viimeksi käytetty työntekijä ja aika muistetaan. Jos tarvitset toistuvuuden, resurssin tai osaamiset, avaa **Kaikki kentät** saman ikkunan alareunasta.
 
-<img src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Pikaluonti: työntekijävalinta, aikapainikkeet ja Luo vuoro" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Viimeksi käytetty työntekijä ja aika muistetaan. Jos tarvitset toistuvuuden, resurssin tai osaamiset, avaa **Kaikki kentät** saman ikkunan alareunasta.
+<img class="blogPhone" src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Pikaluonti: työntekijävalinta, aikapainikkeet ja Luo vuoro" />
 
 ### Vapaa ja X
 
 Välilehti **Vapaa / X** merkitsee vapaapäivän. Ensimmäinen vapaa viikolle on automaattisesti V, seuraavat X, sama logiikka kuin tietokoneen raahauksessa. Voit vaihtaa tyypin ennen tallennusta.
 
-<img src="/blogPostImages/mobile-usage/planner-vapaa-tab.png" alt="Pikaluonnin Vapaa / X -välilehti" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-<img src="/blogPostImages/mobile-usage/18-mobile-shift-created-success.png" alt="Perjantai, jolle on lisätty Vapaa-merkintä vuorokorttien yläpuolelle" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/mobile-usage/planner-vapaa-tab.png" alt="Pikaluonnin Vapaa / X -välilehti" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/18-mobile-shift-created-success.png" alt="Perjantai, jolle on lisätty Vapaa-merkintä vuorokorttien yläpuolelle" />
+</div>
 
 ### Vuoron muokkaus, kopiointi ja poisto
 
-Napauta korttia avataksesi muokkausikkunan (koko näytön levyinen). Aikoja, tyyppiä, resurssia ja muistiinpanoja voi muuttaa; työntekijää ei.
+Napauta korttia avataksesi muokkausikkunan (koko näytön levyinen). Aikoja, tyyppiä, resurssia ja muistiinpanoja voi muuttaa; työntekijää ei. Kortin **⋮** (tai pitkä painallus) avaa toiminnot: Muokkaa, Monista toiselle päivälle, Poista.
 
-<img src="/blogPostImages/mobile-usage/20-mobile-shift-modal-edit.png" alt="Vuoron muokkaus koko näytöllä" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Kortin **⋮** (tai pitkä painallus) avaa toiminnot: Muokkaa, Monista toiselle päivälle, Poista.
-
-<img src="/blogPostImages/mobile-usage/planner-action-sheet.png" alt="Vuorokortin toiminnot: Muokkaa, Monista, Poista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/mobile-usage/20-mobile-shift-modal-edit.png" alt="Vuoron muokkaus koko näytöllä" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/planner-action-sheet.png" alt="Vuorokortin toiminnot: Muokkaa, Monista, Poista" />
+</div>
 
 **Monista** avaa pienen viikonauhan. Lähdepäivä on merkitty *nyk.* eikä sitä voi valita. Päällekkäiset päivät ovat harmaana. Valitse yksi tai useampi päivä ja kopioi.
 
-<img src="/blogPostImages/mobile-usage/planner-duplicate.png" alt="Monista vuoro: kaksi päivää valittuna viikonauhasta" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/planner-duplicate.png" alt="Monista vuoro: kaksi päivää valittuna viikonauhasta" />
 
 Toistuva kaava koko listan ajalle on edelleen **Kaikki kentät** -ikkunassa, ei pikaluonnissa. Lue [toistuvat työvuorot](/posts/toistuvat_tyovuorot).
 
 ## Tuntien kirjaus mobiilissa
 
-<img src="/blogPostImages/mobile-usage/22-mobile-log-hours-shift-card.png" alt="Tuntien kirjaus: Emma Virtasen vuorokortti toteumineen" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
 Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Toteutuneet ajat ovat esitäytetty suunnitelluista, muuta vain poikkeamat. Sairausloma merkitään kortista, ja korvaajan vuoron voi lisätä samasta näkymästä.
+
+<img class="blogPhone" src="/blogPostImages/mobile-usage/22-mobile-log-hours-shift-card.png" alt="Tuntien kirjaus: Emma Virtasen vuorokortti toteumineen" />
 
 ## Julkaisu puhelimessa
 
-<img src="/blogPostImages/mobile-usage/planner-publish.png" alt="Julkaisu mobiilissa: lähetä sähköpostilla, merkitse julkaistuksi ja vuorolista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
 Julkaise-näkymässä ylhäällä ovat **Lähetä sähköpostilla...** ja **Merkitse lista julkaistuksi**. Jos listalla on avoimia vuoroja, **Julkaise avoimet vuorot** näkyy samassa kohdassa. Vuorot-osio on auki valmiiksi: koko jakso skannattavana, ei päivä kerrallaan.
 
-<img src="/blogPostImages/mobile-usage/planner-publish-share.png" alt="Jaa ja lataa: Jaa-painike ja Lataa PDF" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/mobile-usage/planner-publish.png" alt="Julkaisu mobiilissa: lähetä sähköpostilla, merkitse julkaistuksi ja vuorolista" />
+<img class="blogPhone" src="/blogPostImages/mobile-usage/planner-publish-share.png" alt="Jaa ja lataa: Jaa-painike ja Lataa PDF" />
+</div>
 
 **Jaa ja lataa** -osiossa:
 

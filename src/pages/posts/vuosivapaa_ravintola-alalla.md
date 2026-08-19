@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png'
     alt: 'Työntekijäkortti, jossa vuosivapaasaldo: kertynyt 4, käytetty 1, jäljellä 3 päivää.'
+    layout: narrow
 tags: ['TES', 'MaRa', 'vuosivapaa', 'VV', 'ravintola-ala']
 ---
 
@@ -50,13 +51,12 @@ Tyovuorolista.fi seuraa jokaisen työntekijän saldoa automaattisesti ja
 erottaa toisistaan kuluvan vuoden kertymän, käytettävissä olevan oikeuden
 sekä jo pidetyt ja vasta suunnitellut vapaat:
 
-<img src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: vuosivapaa 2026. Kertynyt, käytetty, suunniteltu ja käytettävissä" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
-
-Saldo näkyy työnantajalle Tuntien kirjaus -sivulla ja työntekijälle
-itselleen [Oma-portaalissa](/posts/oma_portaali_ohje). Jos vapaita on
-kertynyt jo ennen sovelluksen käyttöönottoa,
-[alkusaldon voi asettaa ohjatulla syötöllä](/posts/vuosivapaan_alkusaldon_laskeminen)
-Kertymä jatkuu siitä mihin se jäi.
+<div class="blogPhoneRow">
+<div>
+<p>Saldo näkyy työnantajalle Tuntien kirjaus -sivulla ja työntekijälle itselleen <a href="/posts/oma_portaali_ohje">Oma-portaalissa</a>. Jos vapaita on kertynyt jo ennen sovelluksen käyttöönottoa, <a href="/posts/vuosivapaan_alkusaldon_laskeminen">alkusaldon voi asettaa ohjatulla syötöllä</a>. Kertymä jatkuu siitä mihin se jäi.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: vuosivapaa 2026. Kertynyt, käytetty, suunniteltu ja käytettävissä" />
+</div>
 
 ## TES-apuri pitää saldon ajan tasalla
 

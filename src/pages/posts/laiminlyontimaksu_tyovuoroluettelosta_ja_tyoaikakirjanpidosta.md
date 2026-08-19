@@ -153,7 +153,7 @@ listalla eikä huku erilliseen taulukkoon.
 puhelimella. Se täydentää sähköpostijulkaisua: lista on aina saatavilla,
 eikä “en saanut listaa” -tilanteita tarvitse selvittää kuvakaappauksilla.
 
-<img src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Työntekijän Oma-portaali: omat vuorot puhelimessa" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Työntekijän Oma-portaali: omat vuorot puhelimessa" />
 
 ---
 

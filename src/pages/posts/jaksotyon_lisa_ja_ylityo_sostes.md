@@ -11,6 +11,7 @@ author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sostes-tes/sostes-jakson-tunnit.png'
     alt: 'Työntekijäkortti: jaksotyön ylityö +50 % ja +100 % sekä työaikalisät eriteltyinä.'
+    layout: narrow
 tags: ['TES', 'sosiaalipalveluala', 'jaksotyö', 'ylityö', 'lisätyö', 'palkanlaskenta']
 ---
 
@@ -109,7 +110,7 @@ Palkkaraportissa rivit (lisätyö, ylityö +50 %, ylityö +100 %) saa
 vietyä omilla palkkalajikoodeillaan, myös
 [Procountor-muotoon](/posts/procountor_palkka_vienti).
 
-<img src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: jaksotyön ylityörivit ja työaikalisät" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/sostes-tes/sostes-jakson-tunnit.png" alt="Työntekijäkortti: jaksotyön ylityörivit ja työaikalisät" />
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 
