@@ -10,9 +10,16 @@ image:
 tags: ["mobiili", "käyttöliittymä", "työvuorosuunnittelu", "tuntien kirjaus"]
 ---
 
-*Päivitetty 18.8.2026: suunnittelunäkymä puhelimessa on uusi. Viikonauha, vuorokortit ja pikaluonti korvaavat vanhan kalenteriruudukon. Julkaisussa WhatsApp-jako on **Jaa**, PDF tulee **Lataa PDF** -painikkeesta.*
+*Päivitetty 19.8.2026: ohjevideo alla. Suunnittelunäkymä, valikko, työntekijät ja julkaisu on tehty puhelimelle uudestaan — ei kutistettu työpöytäkalenteri. Julkaisussa WhatsApp-jako on **Jaa**, PDF tulee **Lataa PDF** -painikkeesta.*
 
-Työvuorolista-sovellus toimii puhelimessa ja tabletissa. Voit suunnitella vuorot, hallita työntekijöitä ja kirjata tunteja suoraan älypuhelimesta.
+Työvuorolista-sovellus toimii puhelimessa ja tabletissa. Voit suunnitella vuorot, hallita työntekijöitä ja kirjata tunteja suoraan älypuhelimesta. Tietokone on edelleen nopein tapa täyttää koko lista, mutta puhelimella hoituu nyt muutos, sairastapaus ja julkaisu ilman että käyttöliittymä on tiellä.
+
+<video controls preload="metadata" poster="/blogPostImages/mobile-usage/mobiili-demo-poster.png" width="60%" style="max-width: 400px; display: block; margin: 20px auto;">
+  <source src="/blogPostImages/mobile-usage/mobiili-demo.webm" type="video/webm" />
+  <source src="/blogPostImages/mobile-usage/mobiili-demo.mp4" type="video/mp4" />
+</video>
+
+Videossa: päivänäkymä ja viikonauha, pikaluonti, avoimen vuoron julkaisu haettavaksi, julkaisun skannattava lista ja valikko.
 
 ## Mitä voit tehdä mobiililla?
 
@@ -88,6 +95,8 @@ Julkaistulla listalla plus-painike ja korttien muokkaus ovat poissa: lista on lu
 
 Plus-painike avaa alareunan pikaluonnin. Valitse työntekijä, valitse aika listan yleisimmistä (tai **Muu…**) ja paina **Luo vuoro**. Ikkuna pysyy auki, joten seuraava vuoro syntyy heti perään.
 
+Jos luot avoimen vuoron (ei tekijää), ilmoituksessa on **Julkaise haettavaksi**. Sillä vuoron saa heti Oma-portaalin hakuun, ilman että pitää käydä Julkaise-sivulla.
+
 <img src="/blogPostImages/mobile-usage/16-mobile-shift-modal-create.png" alt="Pikaluonti: työntekijävalinta, aikapainikkeet ja Luo vuoro" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
 Viimeksi käytetty työntekijä ja aika muistetaan. Jos tarvitset toistuvuuden, resurssin tai osaamiset, avaa **Kaikki kentät** saman ikkunan alareunasta.
@@ -126,7 +135,7 @@ Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Tote
 
 <img src="/blogPostImages/mobile-usage/planner-publish.png" alt="Julkaisu mobiilissa: lähetä sähköpostilla, merkitse julkaistuksi ja vuorolista" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
-Julkaise-näkymässä ylhäällä ovat **Lähetä sähköpostilla...** ja **Merkitse lista julkaistuksi**. Vuorot-osio on auki valmiiksi, jotta näet listan ennen lähetystä.
+Julkaise-näkymässä ylhäällä ovat **Lähetä sähköpostilla...** ja **Merkitse lista julkaistuksi**. Jos listalla on avoimia vuoroja, **Julkaise avoimet vuorot** näkyy samassa kohdassa. Vuorot-osio on auki valmiiksi: koko jakso skannattavana, ei päivä kerrallaan.
 
 <img src="/blogPostImages/mobile-usage/planner-publish-share.png" alt="Jaa ja lataa: Jaa-painike ja Lataa PDF" width="60%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
@@ -156,4 +165,6 @@ Puhelimella hoituu:
 - [Resurssien aikataulutus](/posts/resurssien_aikataulutus_ominaisuus)
 - [Korvaajan vuoron lisäys](/posts/korvaajan_vuoron_lisays_sairauslomalle) sairauslomalle
 
-Lomasuunnittelu ja vuorojen monivalinta ovat toistaiseksi tietokoneella. Lue myös [vuorojen oletuspituudesta](/posts/vuorojen_oletuspituus_ja_aikaportaat) ja [näin lisäät työvuoroita](/posts/vuorojen_lisaminen_kalenteriin).
+Lomasuunnittelu ja vuorojen monivalinta ovat toistaiseksi tietokoneella. Tietokoneen kalenterissa on myös [leimaustila](/posts/leimaustila): valitse työntekijä, klikkaa kellonaikoja, vuoro syntyy oletuspituudella ilman raahausta.
+
+Lue myös [vuorojen oletuspituudesta](/posts/vuorojen_oletuspituus_ja_aikaportaat) ja [näin lisäät työvuoroita](/posts/vuorojen_lisaminen_kalenteriin).
