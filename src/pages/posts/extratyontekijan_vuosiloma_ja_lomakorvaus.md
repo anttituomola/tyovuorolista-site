@@ -132,6 +132,14 @@ Käyttöönotto on kuvattu oppaassa
 Vapaajärjestelmää ei pidä sekoittaa MaRa- ja kaupan alan
 vuosivapaajärjestelmään. Vuosivapaa on työehtosopimukseen perustuva
 työajan lyhennys. Vapaajärjestelmä taas perustuu vuosilomalakiin.
+[Vuosivapaan ja vuosiloman erot on koottu omaan
+oppaaseen](/posts/vuosivapaa_vs_vuosiloma).
+
+## Lue myös
+
+- [Lomapäivien kertyminen: 14 päivän ja 35 tunnin säännöt](/posts/lomapaivien_kertyminen_14_paivan_ja_35_tunnin_saannot)
+- [Vuosiloman kertymä: näin otat seurannan käyttöön](/posts/vuosiloman_kertyman_seuranta)
+- [Vuosivapaa vai vuosiloma: mikä ero?](/posts/vuosivapaa_vs_vuosiloma)
 
 ---
 

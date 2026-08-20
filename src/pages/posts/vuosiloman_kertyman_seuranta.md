@@ -177,8 +177,14 @@ kertymätaulukoita ja viisipäiväistä lomaviikkoa. Työntekijälle
 valitaan silti 14 päivän sääntö, 35 tunnin sääntö tai
 vapaajärjestelmä.
 
+## Lue myös
+
+- [Lomapäivien kertyminen: 14 päivän ja 35 tunnin säännöt](/posts/lomapaivien_kertyminen_14_paivan_ja_35_tunnin_saannot)
+- [Extratyöntekijän vuosiloma ja lomakorvaus](/posts/extratyontekijan_vuosiloma_ja_lomakorvaus)
+- [Vuosivapaa vai vuosiloma: mikä ero?](/posts/vuosivapaa_vs_vuosiloma)
+
 ---
 
-*Lähteet: [vuosilomalaki 162/2005](https://www.finlex.fi/fi/laki/ajantasa/2005/20050162) (erityisesti 4–8 §, 14 § ja 29 §), [Työsuojeluhallinto: Vuosiloma](https://www.tyosuojelu.fi/tyosuhde/vuosiloma).*
+*Lähteet: [vuosilomalaki 162/2005](https://finlex.fi/fi/lainsaadanto/2005/162) (erityisesti 4–8 §, 14 § ja 29 §), [Työsuojeluhallinto: Vuosiloma](https://tyosuojelu.fi/tyosuhde/vuosiloma).*
 
 *Huom: Tämä artikkeli kuvaa Työvuorolistan toimintaa eikä ole oikeudellista neuvontaa. Työsopimus ja TES ratkaisevat, mikä ansaintasääntö ketäkin koskee.*

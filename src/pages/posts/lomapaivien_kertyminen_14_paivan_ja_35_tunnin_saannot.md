@@ -107,8 +107,8 @@ Työntekijällä on silti oikeus halutessaan saada kaksi arkipäivää
 palkatonta vapaata jokaiselta kalenterikuukaudelta, jonka aikana
 työsuhde on voimassa. Vapaan ajalta maksetaan lomakorvaus.
 
-Tätä kutsutaan vapaajärjestelmäksi. Aiheesta tulee oma artikkelinsa
-extratyöntekijän vuosilomasta ja lomakorvauksesta.
+Tätä kutsutaan vapaajärjestelmäksi. Lue tarkemmin
+[extratyöntekijän vuosilomasta ja lomakorvauksesta](/posts/extratyontekijan_vuosiloma_ja_lomakorvaus).
 
 ## Miten Työvuorolista seuraa kertymää?
 
@@ -134,6 +134,12 @@ Sovellus ei tällä hetkellä tunnista perhevapaita tai lomautuksia omista
 merkinnöistään. Niiden vaikutus kertymään on tarkistettava erikseen.
 SOSTES-toimipaikoilla sovellus käyttää työehtosopimuksen omia
 kertymätaulukoita ja viisipäiväistä lomaviikkoa.
+
+## Lue myös
+
+- [Vuosiloman kertymä: näin otat seurannan käyttöön](/posts/vuosiloman_kertyman_seuranta)
+- [Extratyöntekijän vuosiloma ja lomakorvaus](/posts/extratyontekijan_vuosiloma_ja_lomakorvaus)
+- [Vuosivapaa vai vuosiloma: mikä ero?](/posts/vuosivapaa_vs_vuosiloma)
 
 ---
 
