@@ -10,6 +10,10 @@ image:
 tags: ["lomasuunnittelu", "lomat", "lomatoiveet", "työvuorosuunnittelu"]
 ---
 
+*Päivitetty 20.8.2026: lomaraportti laskee pidetyt päivät vuosilomalain
+arkipäivinä, ja TES-toimipaikoilla näkyy myös ansaittu oikeus. Kertymän
+käyttöönotto: [vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).*
+
 Työvuorolista-sovellukseen on lisätty uusi Lomasuunnittelu-ominaisuus, jonka avulla voit helposti hallinnoida työntekijöiden lomatoiveita ja lomia. Tässä oppaassa käymme läpi ominaisuuden käytön yksityiskohtaisesti.
 
 <video controls preload="none" poster="/blogPostImages/lomasuunnittelu-yleisnakyma.png" width="100%" style="max-width: 600px; display: block; margin: 20px auto;">
@@ -103,23 +107,14 @@ Lue myös [vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaami
 
 ## Lomapäiväyhteenveto
 
-Lomasuunnittelukalenterin alla on Lomapäiväyhteenveto-ominaisuus, joka laskee valitulle ajanjaksolle merkatut lomat ja lomatoiveet. Yhteenveto jakautuu kahteen osaan:
-
-<img src="/blogPostImages/lomapaivayhteenveto.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Lomapäiväyhteenveto" />
-
-### 1. Lomapäivät (ma-la - laskenta)
-Tämä osio näyttää lomapäivien lukumäärät 6-päiväisen laskentatavan mukaan, jota käytetään yleisesti Suomessa. Tässä laskentatavassa:
-- Huomioidaan lomat 6-päiväisen työviikon mukaan (ma-la)
-- Suomessa yksityisellä sektorilla lomat lasketaan yleensä tällä tavalla
-- Lauantait lasketaan lomapäiviksi
-- Tämä on vuosilomalain mukainen laskentatapa
-
-### 2. Lomapäivät (kaikki)
-Tämä osio näyttää loman todellisen keston kalenteripäivinä:
-- Sisältää kaikki päivät (arkipäivät, lauantait ja sunnuntait)
-- Antaa hyödyllistä tietoa loman kokonaiskestosta ja poissaoloajasta
-
-Lomapäiväyhteenvedon ajanjakson voit valita vuosittain, mutta se on aina huhtikuun ensimmäisestä maaliskuun viimeiseen, mikä on Suomessa tyypillisesti käytetty lomalaskukausi. Esimerkiksi jos valitset pudotusvalikosta 2024-2025, saat lukumäärät ajanjaksolle 01.04.2024 - 31.03.2025.
+Lomasuunnittelukalenterin alla on **Lomaraportti**, joka listaa valitun
+lomanmääräytymisvuoden (1.4.–31.3.) pidetyt päivät ja lomatoiveet
+työntekijöittäin. Pidetyt päivät lasketaan vuosilomalain arkipäivinä
+(lauantai mukaan, sunnuntai ja pyhät pois). TES-toimipaikalla taulukossa
+on lisäksi **Ansaittu oikeus** saman LMV:n kertymästä — älä vähennä sen
+rivin pidettyjä ansaitusta, ne kuuluvat pääosin edelliseen vuoteen.
+Kertymän käyttöönotto on omassa ohjeessaan:
+[vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
 
 ## Lomien tulostus
 
@@ -153,7 +148,7 @@ Sivun alaosassa on Lomien tulostus -ominaisuus, jonka avulla voit tulostaa näky
 Lomasuunnittelu-ominaisuus tarjoaa tehokkaan työkalun lomien ja lomatoiveiden hallintaan:
 - Näet koko tiimin tai usean tiimin lomatoiveet ja lomat yhdellä silmäyksellä
 - Voit helposti muuntaa lomatoiveet vahvistetuiksi lomiksi
-- Lomapäiväyhteenveto auttaa seuraamaan työntekijöiden lomapäivien määrää
+- Lomaraportti näyttää pidetyt arkipäivät ja TES-toimipaikalla ansaitun oikeuden
 - Tulostustoiminto mahdollistaa lomien ja lomatoiveiden jakamisen eteenpäin helposti
 
 Käytä tätä ominaisuutta sujuvoittamaan yrityksesi lomasuunnittelua ja varmistaaksesi, että kaikki tarvittavat lomat tulevat huomioiduksi työvuorosuunnittelussa. 

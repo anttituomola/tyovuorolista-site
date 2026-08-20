@@ -10,7 +10,10 @@ image:
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 21.7.2026: työsuhteen tyyppiin tuli uusi vaihtoehto
+*Päivitetty 20.8.2026: samaan Työsuhde-osioon tuli vuosiloman
+ansaintasääntö ja alkusaldo —
+[vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
+Päivitetty 21.7.2026: työsuhteen tyyppiin tuli uusi vaihtoehto
 **TES ei koske (yrittäjä, tms.)**, jolla yrittäjä tai muu TES:n
 ulkopuolinen henkilö jätetään TES-hälytysten ja tasoittumislaskennan
 ulkopuolelle.*
@@ -100,7 +103,9 @@ Toimipaikoilla, joiden sopimuksessa on vuosivapaajärjestelmä (MaRa ja
 Kaupan ala), työntekijän TES-kenttien yhteydessä näkyy myös
 **vuosivapaasaldo**, jonka alkutilanteen voi syöttää ohjatusti. Siitä
 on oma oppaansa: [vuosivapaan alkusaldon
-laskeminen](/posts/vuosivapaan_alkusaldon_laskeminen).
+laskeminen](/posts/vuosivapaan_alkusaldon_laskeminen). Samassa osiossa
+valitaan **vuosiloman ansaintasääntö**; kertymän käyttöönotto on
+ohjeessa [vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
 
 ## Näin pidät tiedot ajan tasalla
 
