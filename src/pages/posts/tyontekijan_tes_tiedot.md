@@ -6,7 +6,7 @@ description: 'TES-laskenta tarvitsee jokaiselta työntekijältä työsuhteen tyy
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tes-kentat.png'
-    alt: 'Työntekijän muokkausnäkymän TES-kentät: työsuhteen tyyppi ja ohjeteksti lisä- ja ylityörajoista.'
+    alt: 'Työntekijän muokkausnäkymän TES-kentät: työsuhteen tyyppi Osa-aikainen, vuosiloman ansaintasääntö ja vuosivapaasaldo.'
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
@@ -59,7 +59,7 @@ ylityörajat lasketaan eri tavalla:
 
 <img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tyyppi-valikko.png" alt="Työntekijän muokkaus: Työsuhteen tyyppi (TES) -valikko auki, vaihtoehtoina Ei valittu, Kokoaikainen, Osa-aikainen ja TES ei koske (yrittäjä, tms.)" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-<img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tes-kentat.png" alt="Työsuhde-osion TES-kentät: Työsuhteen tyyppi (TES) -valinta asennossa Osa-aikainen ja ohjeteksti, joka kertoo rajojen laskennan" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tes-kentat.png" alt="Työsuhde-osion TES-kentät: Työsuhteen tyyppi (TES) asennossa Osa-aikainen, vuosiloman ansaintasääntö ja vuosivapaasaldo" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 Työsuhteen tyyppi vaikuttaa myös siihen, ketä
 [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla)
