@@ -157,7 +157,7 @@ Ansaittu oikeus ja pidetyt päivät koskevat tavallisesti eri
 lomanmääräytymisvuosia. Älä siis vähennä saman rivin pidettyjä päiviä
 ansaitusta oikeudesta.
 
-<img src="/blogPostImages/vuosiloman-kertyman-seuranta/lomaraportti.png" alt="Lomaraportti: Emma Virtasella 6 pidettyä arkipäivää ja 13 päivää ansaittua oikeutta. Muiden työntekijöiden ansaittu oikeus on viiva." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/vuosiloman-kertyman-seuranta/lomaraportti.png" alt="Lomaraportti: Emma Virtasella 6 pidettyä arkipäivää ja 13 päivää ansaittua oikeutta. Sofialla 10 päivää ansaittua oikeutta. Jussilla ja Ainolla ansaittu oikeus on viiva." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 Lomien merkitseminen listalle toimii kuten ennen. Katso tarvittaessa
 ohjeet [vuosiloman merkitsemiseen](/posts/vuosiloman_merkkaaminen_tyovuorolistaan)
