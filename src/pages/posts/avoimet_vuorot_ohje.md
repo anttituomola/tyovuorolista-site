@@ -25,13 +25,12 @@ Avoimet vuorot sopivat esimerkiksi näihin tilanteisiin:
 
 ### 1. Luo avoin vuoro
 
-Klikkaa kalenterissa aikaa, jolle haluat vuoron. Valitse avautuvassa vuoroikkunassa työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
+Klikkaa kalenterissa aikaa, jolle haluat vuoron. Valitse avautuvassa vuoroikkunassa työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana. Puhelimella sama onnistuu päiväsuunnittelijan **+**-painikkeesta: valitse työntekijärivistä **Avoin** (ei tekijää).
 
-<img src="/blogPostImages/avoimet-vuorot/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa, työntekijävalikosta valittu Avoin vuoro" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
-
-Puhelimella sama onnistuu päiväsuunnittelijan **+**-painikkeesta: valitse työntekijärivistä **Avoin** (ei tekijää).
-
-<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-mobiili.png" alt="Mobiilin pikaluonti, jossa työntekijävalinnassa Avoin vuoro -vaihtoehto" style="display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa, työntekijävalikosta valittu Avoin vuoro" />
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-mobiili.png" alt="Mobiilin pikaluonti, jossa työntekijävalinnassa Avoin vuoro -vaihtoehto" />
+</div>
 
 Avoimelle vuorolle voi lisätä [osaamisvaatimuksen](/posts/tyontekijoiden_osaamiset) samalla tavalla kuin tavalliselle vuorolle. Vaatimus rajaa, ketkä voivat ilmoittautua.
 
@@ -52,15 +51,18 @@ Kun työntekijöitä ilmoittautuu, näet määrän suoraan kalenterissa vuoron k
 
 <img src="/blogPostImages/avoimet-vuorot/avoin-vuoro-kalenterissa.png" alt="Kalenteri, jossa avoimet vuorot näkyvät harmaina ja ilmoittautumisten määrä laskurina vuoron kulmassa" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Avaa vuoro nähdäksesi ilmoittautuneet. **Hyväksy** antaa vuoron valitsemallesi työntekijälle:
-
-- vuoro siirtyy hänen nimiinsä ja ilmestyy hänen aikajanalleen Oma-portaalissa
-- muiden ilmoittautumiset hylätään automaattisesti
-- ennen hyväksyntää järjestelmä tarkistaa vielä, ettei työntekijälle ole tullut päällekkäistä vuoroa ilmoittautumisen jälkeen
-
-<img src="/blogPostImages/avoimet-vuorot/avoin-vuoro-ilmoittautumiset.png" alt="Avoimen vuoron tiedot kalenterissa: ilmoittautuneet työntekijät ja Hyväksy-painike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
-
-Voit myös hylätä yksittäisen ilmoittautumisen tai antaa vuoron suoraan kenelle tahansa työntekijälle ilmoittautumisista riippumatta.
+<div class="blogPhoneRow">
+<div>
+<p>Avaa vuoro nähdäksesi ilmoittautuneet. <strong>Hyväksy</strong> antaa vuoron valitsemallesi työntekijälle:</p>
+<ul>
+<li>vuoro siirtyy hänen nimiinsä ja ilmestyy hänen aikajanalleen Oma-portaalissa</li>
+<li>muiden ilmoittautumiset hylätään automaattisesti</li>
+<li>ennen hyväksyntää järjestelmä tarkistaa vielä, ettei työntekijälle ole tullut päällekkäistä vuoroa ilmoittautumisen jälkeen</li>
+</ul>
+<p>Voit myös hylätä yksittäisen ilmoittautumisen tai antaa vuoron suoraan kenelle tahansa työntekijälle ilmoittautumisista riippumatta.</p>
+</div>
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-ilmoittautumiset.png" alt="Avoimen vuoron tiedot kalenterissa: ilmoittautuneet työntekijät ja Hyväksy-painike" />
+</div>
 
 ## Työntekijälle: näin ilmoittaudut avoimeen vuoroon
 
@@ -79,7 +81,7 @@ Voit myös hylätä yksittäisen ilmoittautumisen tai antaa vuoron suoraan kenel
 
 Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa. Jos vuorolla on osaamisvaatimus, jota sinulla ei ole, näet vaatimuksen mutta et voi ilmoittautua — näin tiedät, mikä osaaminen avaisi lisää vuoroja.
 
-<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" style="display: block; margin: 20px auto;" />
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" />
 
 ## Mitä avoimista vuoroista kannattaa tietää
 
