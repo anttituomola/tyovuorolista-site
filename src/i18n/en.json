@@ -25,7 +25,8 @@
       "blog": "Blog (FI)",
       "contact": "Contact",
       "pricing": "Pricing",
-      "terms": "Terms of use, privacy policy and refund policy"
+      "terms": "Terms of use, privacy policy and refund policy",
+      "privacy": "Privacy policy"
     },
     "industrySolutions": "Industry-specific solutions",
     "industries": {
@@ -564,6 +565,7 @@
       "metaDescription": "The people behind tyovuorolista.fi: Antti Tuomola and Eemeli Raninen.",
       "title": "About us",
       "subtitle": "Two people behind tyovuorolista.fi.",
+      "company": "Työvuorolista is a Tampere shift scheduling app for restaurants, cafés, hotels, retail and other shift-based small businesses. The product site is tyovuorolista.fi and the app is at app.tyovuorolista.fi. The service is provided by True Solutions Oy (Finnish business ID 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere, Finland. Contact: info@tyovuorolista.fi, +358 45 679 8818.",
       "photoPlaceholder": "Photo coming soon",
       "people": [
         {
@@ -620,7 +622,7 @@
     },
     "contact": {
       "title": "Tyovuorolista.fi contact information",
-      "company": "True Solutions / tyovuorolista.fi",
+      "company": "True Solutions Oy / tyovuorolista.fi",
       "businessId": "Business ID: 3431534-2",
       "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
       "sales": "Sales:",
@@ -643,6 +645,13 @@
     "title": "Page not found - 404",
     "heading": "Page not found",
     "description": "Sorry, the page you're looking for could not be found. It may have been moved or deleted.",
-    "backToHome": "Back to home page"
+    "backToHome": "Back to home page",
+    "usefulLinks": "Useful links",
+    "sitemap": "Sitemap",
+    "llms": "llms.txt (index for agents)",
+    "agentInstructions": "Agent instructions",
+    "about": "About us",
+    "contact": "Contact",
+    "privacy": "Privacy policy"
   }
 }

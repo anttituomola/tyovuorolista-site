@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro'
+import AboutPage from '../components/pages/AboutPage.astro'
+import { getTranslationObject } from '../utils/translations'
+
+const locale = 'en'
+const page = getTranslationObject('pages.about', locale)
+---
+
+<Layout
+    locale={locale}
+    title={page?.metaTitle}
+    description={page?.metaDescription}
+    canonicalUrl="https://www.tyovuorolista.fi/en/about"
+>
+    <AboutPage locale={locale} />
+</Layout>

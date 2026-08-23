@@ -25,7 +25,8 @@
       "blog": "Blogi",
       "contact": "Yhteystiedot",
       "pricing": "Hinnoittelut",
-      "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
+      "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt",
+      "privacy": "Tietosuojaseloste"
     },
     "industrySolutions": "Toimialakohtaiset ratkaisut",
     "industries": {
@@ -569,6 +570,7 @@
       "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen.",
       "title": "Meistä",
       "subtitle": "Kaksi ihmistä tyovuorolista.fi:n takana.",
+      "company": "Työvuorolista on tamperelainen työvuorosuunnitteluohjelma ravintoloille, kahviloille, hotelleille, kaupoille ja muille vuorotyötä tekeville pk-yrityksille. Tuote on osoitteessa tyovuorolista.fi, sovellus osoitteessa app.tyovuorolista.fi. Palvelun tarjoaa True Solutions Oy (Y-tunnus 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere. Yhteys: info@tyovuorolista.fi, +358 45 679 8818.",
       "photoPlaceholder": "Kuva tulossa",
       "people": [
         {
@@ -625,7 +627,7 @@
     },
     "contact": {
       "title": "Tyovuorolista.fi yhteystiedot",
-      "company": "True Solutions / tyovuorolista.fi",
+      "company": "True Solutions Oy / tyovuorolista.fi",
       "businessId": "Y-tunnus: 3431534-2",
       "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
       "sales": "Myynti:",
@@ -648,6 +650,13 @@
     "title": "Sivua ei löydy - 404",
     "heading": "Sivua ei löydy",
     "description": "Valitettavasti etsimääsi sivua ei löytynyt. Sivu on saattanut siirtyä tai poistua.",
-    "backToHome": "Palaa etusivulle"
+    "backToHome": "Palaa etusivulle",
+    "usefulLinks": "Hyödyllisiä linkkejä",
+    "sitemap": "Sivukartta",
+    "llms": "llms.txt (sisällysluettelo agenteille)",
+    "agentInstructions": "Agent-ohjeet",
+    "about": "Meistä",
+    "contact": "Yhteystiedot",
+    "privacy": "Tietosuojaseloste"
   }
 }

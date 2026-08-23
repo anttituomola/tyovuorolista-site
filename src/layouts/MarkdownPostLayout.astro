@@ -3,11 +3,19 @@ import Layout from '../layouts/Layout.astro'
 import Button from '../components/common/Button.astro'
 import dayjs from 'dayjs'
 import { isPublishedPubDate } from '../utils/blogPosts'
+import { getMarkdownForPath, markdownResponse } from '../utils/siteMarkdown.ts'
 
 const { frontmatter } = Astro.props
 
 if (!isPublishedPubDate(frontmatter.pubDate)) {
     return Astro.rewrite('/404')
+}
+
+if (Astro.locals.prefersMarkdown) {
+    const raw = getMarkdownForPath(Astro.url.pathname)
+    if (raw) {
+        return markdownResponse(raw)
+    }
 }
 
 const siteUrl = (Astro.site || 'https://www.tyovuorolista.fi').toString().replace(/\/$/, '')

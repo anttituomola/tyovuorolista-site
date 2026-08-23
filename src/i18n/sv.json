@@ -25,7 +25,8 @@
       "blog": "Blogg (FI)",
       "contact": "Kontakt",
       "pricing": "Prissättning",
-      "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy"
+      "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy",
+      "privacy": "Integritetspolicy"
     },
     "industrySolutions": "Branschspecifika lösningar",
     "industries": {
@@ -564,6 +565,7 @@
       "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen.",
       "title": "Om oss",
       "subtitle": "Två personer bakom tyovuorolista.fi.",
+      "company": "Työvuorolista är ett arbetsschemaprogram från Tammerfors för restauranger, kaféer, hotell, handel och andra skiftbaserade småföretag. Produktsajten är tyovuorolista.fi och appen finns på app.tyovuorolista.fi. Tjänsten tillhandahålls av True Solutions Oy (FO-nummer 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tammerfors, Finland. Kontakt: info@tyovuorolista.fi, +358 45 679 8818.",
       "photoPlaceholder": "Bild kommer snart",
       "people": [
         {
@@ -620,7 +622,7 @@
     },
     "contact": {
       "title": "Tyovuorolista.fi kontaktinformation",
-      "company": "True Solutions / tyovuorolista.fi",
+      "company": "True Solutions Oy / tyovuorolista.fi",
       "businessId": "Organisationsnummer: 3431534-2",
       "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
       "sales": "Försäljning:",
@@ -643,6 +645,13 @@
     "title": "Sidan hittades inte - 404",
     "heading": "Sidan hittades inte",
     "description": "Tyvärr kunde sidan du letar efter inte hittas. Den kan ha flyttats eller tagits bort.",
-    "backToHome": "Tillbaka till startsidan"
+    "backToHome": "Tillbaka till startsidan",
+    "usefulLinks": "Användbara länkar",
+    "sitemap": "Webbplatskarta",
+    "llms": "llms.txt (index för agenter)",
+    "agentInstructions": "Agentinstruktioner",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "privacy": "Integritetspolicy"
   }
 }

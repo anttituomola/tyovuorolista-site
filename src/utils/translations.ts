@@ -1,6 +1,6 @@
-import fiTranslations from '../i18n/fi.json';
-import enTranslations from '../i18n/en.json';
-import svTranslations from '../i18n/sv.json';
+import fiTranslations from '../i18n/fi.json' with { type: 'json' };
+import enTranslations from '../i18n/en.json' with { type: 'json' };
+import svTranslations from '../i18n/sv.json' with { type: 'json' };
 
 type Locale = 'fi' | 'en' | 'sv';
 
@@ -68,11 +68,16 @@ export function getTranslationObject(key: string, locale: Locale = 'fi'): any {
 /**
  * Get current locale from Astro context
  */
+const ENGLISH_ROOT_PAGES = new Set(['about', 'contact', 'privacy', 'pricing', 'terms'])
+
 export function getLocaleFromAstro(Astro: any): Locale {
   try {
-    const locale = Astro.locale || Astro.url.pathname.split('/')[1];
-    if (locale === 'en' || locale === 'sv') {
-      return locale;
+    const fromPath = getLocaleFromPath(Astro.url.pathname);
+    if (fromPath !== 'fi') {
+      return fromPath;
+    }
+    if (Astro.locale === 'en' || Astro.locale === 'sv') {
+      return Astro.locale;
     }
     return 'fi';
   } catch {
@@ -89,6 +94,9 @@ export function getLocaleFromPath(pathname: string): Locale {
   
   if (firstSegment === 'en' || firstSegment === 'sv') {
     return firstSegment;
+  }
+  if (firstSegment && ENGLISH_ROOT_PAGES.has(firstSegment)) {
+    return 'en';
   }
   return 'fi';
 }
@@ -161,6 +169,11 @@ const pathMappings: Record<string, Record<Locale, string>> = {
     fi: '/meista',
     en: '/en/about',
     sv: '/sv/om-oss'
+  },
+  '/tietosuoja': {
+    fi: '/tietosuoja',
+    en: '/en/privacy',
+    sv: '/sv/integritet'
   },
   '/blogitekstit': {
     fi: '/blogitekstit',
@@ -238,6 +251,8 @@ const reversePathMappings: Record<string, string> = {
   '/features': '/ominaisuudet',
   '/resources': '/resurssit',
   '/about': '/meista',
+  '/privacy': '/tietosuoja',
+  '/integritet': '/tietosuoja',
   '/funktioner': '/ominaisuudet',
   '/resurser': '/resurssit',
   '/om-oss': '/meista',

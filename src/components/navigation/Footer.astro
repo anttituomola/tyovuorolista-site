@@ -12,6 +12,7 @@ const blogPath = '/blogitekstit'
 const contactPath = getLocalizedPath('/yhteystiedot', locale as 'fi' | 'en' | 'sv')
 const pricingPath = getLocalizedPath('/hinnoittelu', locale as 'fi' | 'en' | 'sv')
 const termsPath = getLocalizedPath('/kayttoehdot', locale as 'fi' | 'en' | 'sv')
+const privacyPath = getLocalizedPath('/tietosuoja', locale as 'fi' | 'en' | 'sv')
 const restaurantsPath = getLocalizedPath('/ravintolat-ja-kahvilat', locale as 'fi' | 'en' | 'sv')
 const taxiPath = getLocalizedPath('/taksiyritykset-ja-kuljetus', locale as 'fi' | 'en' | 'sv')
 const cleaningPath = getLocalizedPath('/siivous-ja-kiinteistopalvelut', locale as 'fi' | 'en' | 'sv')
@@ -32,6 +33,7 @@ const carePath = getLocalizedPath('/hoivakodit-ja-palveluasuminen', locale as 'f
         <p><a href={contactPath}>{t('footer.links.contact', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={pricingPath}>{t('footer.links.pricing', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={termsPath}>{t('footer.links.terms', locale as 'fi' | 'en' | 'sv')}</a></p>
+        <p><a href={privacyPath}>{t('footer.links.privacy', locale as 'fi' | 'en' | 'sv')}</a></p>
     </div>
     <div class='industryLinks'>
         <h4>{t('footer.industrySolutions', locale as 'fi' | 'en' | 'sv')}</h4>

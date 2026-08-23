@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PrivacyPage from '../components/pages/PrivacyPage.astro'
+import { getPrivacyContent } from '../utils/privacyContent.ts'
+
+const page = getPrivacyContent('fi')
+---
+
+<Layout title={page.metaTitle} description={page.metaDescription}>
+    <PrivacyPage locale="fi" />
+</Layout>

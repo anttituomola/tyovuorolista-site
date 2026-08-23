@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PrivacyPage from '../components/pages/PrivacyPage.astro'
+import { getPrivacyContent } from '../utils/privacyContent.ts'
+
+const page = getPrivacyContent('en')
+---
+
+<Layout
+    locale="en"
+    title={page.metaTitle}
+    description={page.metaDescription}
+    canonicalUrl="https://www.tyovuorolista.fi/en/privacy"
+>
+    <PrivacyPage locale="en" />
+</Layout>

@@ -55,6 +55,10 @@ export default defineConfig({
         if (futureBlogPostPathnames.has(pathname)) {
           return false;
         }
+        // English alias URLs canonicalize to /en/* — keep one copy in the sitemap
+        if (pathname === '/about' || pathname === '/privacy' || pathname === '/contact') {
+          return false;
+        }
       } catch {
         // Ignore malformed sitemap URLs
       }

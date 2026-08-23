@@ -15,6 +15,10 @@ const people = page?.people || []
         <h2 class="aboutEmbeddedTitle">{page?.title}</h2>
     )}
 
+    {page?.company && (
+        <p class="companyIntro">{page.company}</p>
+    )}
+
     <div class="peopleList">
         {people.map((person: {
             id: string
@@ -93,6 +97,16 @@ const people = page?.people || []
         color: var(--tummanvihrea);
         text-align: center;
         margin: 0 0 var(--space-3xl);
+    }
+
+    .companyIntro {
+        font-size: var(--text-base);
+        line-height: 1.65;
+        color: var(--harmaa);
+        margin: 0 0 var(--space-3xl);
+        max-width: 42rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .peopleList {

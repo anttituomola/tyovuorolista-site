@@ -2,13 +2,26 @@
 import Layout from '../layouts/Layout.astro'
 import Button from '../components/common/Button.astro'
 import { t, getLocaleFromAstro } from '../utils/translations'
+import { getNotFoundMarkdown, markdownResponse } from '../utils/siteMarkdown.ts'
 
 const locale = getLocaleFromAstro(Astro)
 
-// Set HTTP 404 status code
 Astro.response.status = 404
 
+if (Astro.locals.prefersMarkdown) {
+    return markdownResponse(getNotFoundMarkdown(), 404)
+}
+
 const homePath = locale === 'fi' ? '/' : `/${locale}`
+const recoveryLinks = [
+    { href: homePath, label: t('notFound.backToHome', locale) },
+    { href: '/sitemap-index.xml', label: t('notFound.sitemap', locale) },
+    { href: '/llms.txt', label: t('notFound.llms', locale) },
+    { href: '/agent-instructions.md', label: t('notFound.agentInstructions', locale) },
+    { href: locale === 'en' ? '/en/about' : locale === 'sv' ? '/sv/om-oss' : '/meista', label: t('notFound.about', locale) },
+    { href: locale === 'en' ? '/en/contact' : locale === 'sv' ? '/sv/kontakt' : '/yhteystiedot', label: t('notFound.contact', locale) },
+    { href: locale === 'en' ? '/en/privacy' : locale === 'sv' ? '/sv/integritet' : '/tietosuoja', label: t('notFound.privacy', locale) },
+]
 ---
 
 <Layout 
@@ -27,6 +40,14 @@ const homePath = locale === 'fi' ? '/' : `/${locale}`
                     variant="secondary"
                 />
             </div>
+            <nav class="recovery" aria-label={t('notFound.usefulLinks', locale)}>
+                <h2>{t('notFound.usefulLinks', locale)}</h2>
+                <ul>
+                    {recoveryLinks.map((link) => (
+                        <li><a href={link.href}>{link.label}</a></li>
+                    ))}
+                </ul>
+            </nav>
         </div>
     </div>
 </Layout>
@@ -66,5 +87,29 @@ const homePath = locale === 'fi' ? '/' : `/${locale}`
         justify-content: center;
         gap: var(--space-base);
     }
-</style>
 
+    .recovery {
+        margin-top: var(--space-2xl);
+        text-align: left;
+    }
+
+    .recovery h2 {
+        font-size: var(--text-lg);
+        margin-bottom: var(--space-base);
+        text-align: center;
+    }
+
+    .recovery ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .recovery a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+    }
+</style>
