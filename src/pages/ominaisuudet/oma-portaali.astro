@@ -1,6 +1,7 @@
 ---
 import FeatureDetail from '../../components/pages/FeatureDetail.astro'
-import OmaPortalEntry from '../../components/common/OmaPortalEntry.astro'
+import OmaPortalEntry, { OMA_PORTAL_HREF } from '../../components/common/OmaPortalEntry.astro'
+import Button from '../../components/common/Button.astro'
 ---
 
 <FeatureDetail
@@ -49,5 +50,8 @@ import OmaPortalEntry from '../../components/common/OmaPortalEntry.astro'
     ]}
     related={['avoimet-vuorot', 'hours-recording', 'email-publish']}
 >
+    <div slot="heroCta" class="tyov-featureDetail__ctaRow">
+        <Button variant="primary" text="Kirjaudu Oma-portaaliin" href={OMA_PORTAL_HREF} />
+    </div>
     <OmaPortalEntry slot="afterHero" />
 </FeatureDetail>
