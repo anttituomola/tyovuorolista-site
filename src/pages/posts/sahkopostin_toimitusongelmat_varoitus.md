@@ -1,41 +1,49 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Sähköpostin toimitusongelmien varoitus työvuorolistojen lähetyksessä'
+title: 'Kun työntekijän sähköposti ei mene perille'
 pubDate: 2026-05-22
-description: 'Julkaise-näkymä varoittaa, jos aiempi työvuorolistojen sähköposti on palautunut tai merkitty roskapostiksi. Tarkista osoitteet ennen uutta lähetystä.'
+description: 'Yläpalkin kello kertoo heti, jos työvuorolista- tai ilmoitussähköposti palautuu tai merkitään roskapostiksi. Julkaise-näkymä muistuttaa vielä lähettäessä.'
 author: 'Antti Tuomola'
 image:
-    url: '/blogPostImages/sahkopostin_toimitusongelmat_varoitus/toimitusvaroitus.png'
-    alt: 'Punainen varoitus sähköpostin lähetysmodaalissa toimitusongelmista.'
-tags: ["sähköposti", "julkaisu", "työvuorolista", "varoitus"]
+    url: '/blogPostImages/sahkopostin_toimitusongelmat_varoitus/kello-toimitusvaroitus.png'
+    alt: 'Ilmoituskellon pudotusvalikko: työntekijän sähköposti ei mennyt perille.'
+tags: ["sähköposti", "julkaisu", "ilmoitukset", "työvuorolista", "varoitus"]
 ---
 
-Kun lähetät työvuorolistoja sähköpostilla **Julkaise**-näkymästä, sovellus tarkistaa automaattisesti, onko aiemmissa lähetyksissä ollut ongelmia. Jos on, näet punaisen varoituksen ennen kuin lähetät uusia viestejä.
+*Päivitetty 24.8.2026: toimitusongelma näkyy nyt heti yläpalkin kellossa, ei vasta seuraavalla lähetyksellä. Julkaise-näkymä muistuttaa edelleen, jos lähetät uuden listan.*
 
-## Milloin varoitus näkyy?
+Jos työntekijän sähköposti palautuu tai merkitään roskapostiksi, et huomaa sitä vasta seuraavalla lähetyksellä. Yläpalkin **kello** kertoo heti: *sähköposti ei mennyt perille*. Silloin tiedät, ettei lista tai ilmoitus ole perillä, ennen kuin joku kysyy.
 
-Varoitus ilmestyy **Lähetä sähköpostilla** -modaaliin, kun joidenkin viimeaikaisten työvuorolistojen sähköpostien toimitus on:
+<img src="/blogPostImages/sahkopostin_toimitusongelmat_varoitus/kello-toimitusvaroitus.png" alt="Ilmoituskellon pudotusvalikko, jossa lukematon ilmoitus sähköpostin toimitusongelmasta" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />
 
-- **epäonnistunut** (bounced: osoite ei ole kelvollinen tai postilaatikko täynnä), tai
-- **merkitty roskapostiksi** (complained: vastaanottaja on ilmoittanut viestin roskapostiksi)
+## Mistä ilmoitus syntyy?
 
-Varoituksessa listataan ongelmaiset sähköpostiosoitteet ja niiden tila.
+Kelloon ilmestyy ilmoitus, kun aiempi työntekijälle lähetetty viesti on:
 
-<img src="/blogPostImages/sahkopostin_toimitusongelmat_varoitus/toimitusvaroitus.png" alt="Punainen varoitus modaalissa epäonnistuneista sähköpostiosoitteista" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
+- **palautunut** (osoite ei ole kelvollinen, postilaatikko täynnä tai vastaava), tai
+- **merkitty roskapostiksi** (vastaanottaja on ilmoittanut viestin roskapostiksi)
+
+Sama ilmoitus tulee sekä työvuorolistaviestistä että ilmoitussähköpostista. Ilmoitukset-sivulla näet osoitteen ja kehotuksen tarkistaa se. Klikkaus vie [työntekijöiden hallintaan](/posts/tyontekijoiden_hallinta), jossa osoitteen voi korjata.
+
+<img src="/blogPostImages/sahkopostin_toimitusongelmat_varoitus/ilmoitukset-toimitusvaroitus.png" alt="Ilmoitukset-sivu: työvuorolistaviesti ei mennyt perille, osoitteessa kirjoitusvirhe" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+Kello kuuluu [ilmoituksiin](/posts/ilmoitukset_ohje). Sähköposti-ilmoitus tästä on oletuksena pois; sen voi kytkeä päälle profiilin **Ilmoitusasetuksista** (*Sähköposti ei mennyt perille*). Kelloon ilmoitus tulee aina.
+
+## Julkaise-näkymä muistuttaa vielä lähettäessä
+
+Kun avaat **Julkaise → Lähetä sähköpostilla...**, modaali näyttää punaisen varoituksen, jos viimeaikaisia työvuorolistojen sähköposteja on palautunut tai merkitty roskapostiksi. Osoitteet on listattu varoituksessa, joten ehdit tarkistaa ne ennen uutta lähetystä.
+
+<img src="/blogPostImages/sahkopostin_toimitusongelmat_varoitus/julkaisu-toimitusvaroitus.png" alt="Lähetä sähköpostilla -modaali, jossa punainen varoitus palautuneesta sähköpostiosoitteesta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Modaalissa voi näkyä myös **keltainen huomio**, jos joillakin työntekijöillä ei ole sähköpostiosoitetta lainkaan. He eivät saa listaa automaattisesti. Lisää osoite **Lisää sähköposti** -linkistä tai käytä toista jakotapaa.
 
 ## Mitä sinun kannattaa tehdä?
 
-1. **Tarkista osoitteet**: varmista, ettei työntekijän sähköpostiosoitteessa ole kirjoitusvirhettä. Voit korjata sen modaalin **Lisää sähköposti** -linkistä tai [Työntekijät](/posts/tyontekijoiden_hallinta)-sivulta.
-2. **Kysy työntekijältä**: jos osoite on oikein mutta viesti on palautunut, postilaatikko voi olla täynnä tai osoite vanhentunut.
-3. **Roskapostimerkintä**: pyydä työntekijää merkitsemään aiempi viesti luotettavaksi tai lisäämään lähettäjä osoitekirjaansa. Lue myös [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa), jolla voit varmistaa viestin sisällön ennen lähetystä.
-4. **Vaihtoehtoiset kanavat**: jos sähköposti ei toimi, voit jakaa listan [PDF:nä](/posts/tyovuorolista_pohja_pdf), [tulostaa henkilökohtaiset listat](/posts/henkilokohtaisten_tyovuorolistojen_tulostus) tai lähettää kuvan tiimin chatissa.
-
-## Muut sähköpostiin liittyvät huomiot
-
-Modaalissa voi näkyä myös **keltainen huomio**, jos joillakin työntekijöillä ei ole sähköpostiosoitetta lainkaan. He eivät saa listaa automaattisesti. Lisää osoite tai käytä toista jakotapaa.
-
-Muista myös, että sähköposti lähetetään omasta osoitteestasi, jos olet ottanut sen käyttöön. Muussa tapauksessa viestit lähtevät osoitteesta info@tyovuorolista.fi.
+1. **Tarkista osoite**: kirjoitusvirhe on yleisin syy (kuten `gmai.com`). Korjaa se työntekijäkortista.
+2. **Kysy työntekijältä**: jos osoite on oikein mutta viesti palautuu, postilaatikko voi olla täynnä tai osoite vanhentunut.
+3. **Roskapostimerkintä**: pyydä merkitsemään aiempi viesti luotettavaksi tai lisäämään lähettäjä osoitekirjaan. [Sähköpostin esikatselu](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) auttaa varmistamaan sisällön ennen lähetystä.
+4. **Toinen kanava**: jos sähköposti ei toimi, jaa lista [PDF:nä](/posts/tyovuorolista_pohja_pdf), [tulosta henkilökohtaiset listat](/posts/henkilokohtaisten_tyovuorolistojen_tulostus) tai lähetä kuva tiimin chatissa.
 
 ## Yhteenveto
 
-Toimitusongelmien varoitus auttaa välttämään tilanteen, jossa luulet lähettäneesi listan mutta työntekijä ei koskaan saanut sitä. Tarkista varoituksen osoitteet ennen uutta lähetystä, ja pidä työntekijöiden yhteystiedot ajan tasalla [työntekijöiden hallinnassa](/posts/tyontekijoiden_hallinta).
+Kello kertoo heti, kun työntekijän viesti ei mene perille. Julkaise-näkymä muistuttaa samasta asiasta vielä siinä vaiheessa, kun lähetät uuden listan. Tarkista varoituksen osoitteet ja pidä yhteystiedot ajan tasalla [työntekijöiden hallinnassa](/posts/tyontekijoiden_hallinta).

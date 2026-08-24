@@ -22,7 +22,7 @@ Kelloon ilmestyy merkki, kun:
 - työntekijä **ilmoittaa sairastumisesta** tai toteutumattomasta vuorosta
 - työntekijä lähettää **tuntiraportin** tai **vapaatoiveen**
 - työntekijä aktivoi Oma-portaalin
-- työntekijälle lähetetty **sähköposti ei mene perille**: huomaat virheellisen osoitteen heti, et vasta kun joku jäi ilman listaa
+- työntekijälle lähetetty **sähköposti ei mene perille**: huomaat virheellisen osoitteen heti, et vasta kun joku jäi ilman listaa ([ohje](/posts/sahkopostin_toimitusongelmat_varoitus))
 - työvuorolista on **julkaisematta** lähellä jakson alkua tai julkaistulla listalla on **täyttämättömiä vuoroja** (muistutus kerran, uudestaan vasta kun edellinen on luettu)
 
 <img src="/blogPostImages/ilmoitukset/kello-admin.png" alt="Ilmoituskellon pudotusvalikko, jossa ilmoittautuminen, sairastuminen ja vapaatoive" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />

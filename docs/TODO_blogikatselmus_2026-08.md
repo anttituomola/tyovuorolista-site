@@ -10,8 +10,9 @@ https://claude.ai/code/artifact/9425afb4-b32c-4311-875d-acfea921384b
 
 ## Korjaa heti
 
-- [ ] `sahkopostin_toimitusongelmat_varoitus.md` — kuvakansio puuttuu kokonaan
+- [x] `sahkopostin_toimitusongelmat_varoitus.md` — kuvakansio puuttuu kokonaan
       (`public/blogPostImages/sahkopostin_toimitusongelmat_varoitus/`), hero rikki
+      — tehty 24.8.2026: kello + ilmoitukset + julkaisumodaali, kuvat pipelineasta
 - [ ] `osa-aikaisen_sopimustunnit_ja_lisatyon_tarjoaminen.md` — kaksi tyhjää
       kuvapaikkaa, postaus päättyy kesken kaksoispisteeseen
 - [ ] `tilauksen_ostaminen.md` — vanhat hinnat 12/42/120 €/kk (nyk. 18/60/180),
