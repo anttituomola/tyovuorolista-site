@@ -72,8 +72,8 @@ Raportti sisältää seuraavat tiedot valittujen työntekijöiden ja päivämä�
 
 ### Työtunnit
 
-- **Työtunnit**: Työtuntien kokonaismäärä (ei sisällä sairauslomaa)
-- **Sairausajan palkka**: Sairausloman tuntien määrä
+- **Työtunnit**: Työtuntien kokonaismäärä (ei sisällä sairaslomaa)
+- **Sairausajan palkka**: Sairasloman tuntien määrä
 
 ### Lisät
 
@@ -149,7 +149,7 @@ PDF-muoto on ihanteellinen, jos haluat:
 Palkkaraportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat, mikä varmistaa, että raportti vastaa täsmälleen sitä, mitä näet sovelluksen käyttöliittymässä yksittäisen työntekijän yhteenvedossa.
 
 Laskentalogiikka:
-- **Perustunnit**: Kokonaistunnit miinus sairausloman tunnit = työtunnit
+- **Perustunnit**: Kokonaistunnit miinus sairasloman tunnit = työtunnit
 - **Lisät**: Lasketaan erikseen (lauantai, sunnuntai, arkipyhät, jne.)
 - **Bonukset**: Iltalisä ja yölisä ovat tuntipohjaisia
 - **Koko päivän vuorot**: Lasketaan päivinä, ei tunteina
@@ -160,9 +160,9 @@ Palkkaraportin laskelmat perustuvat paikkakohtaisiin tuntilaskennan asetuksiin. 
 
 ### Asetusten sijainti
 
-Asetukset löytyvät **Hallinta → Profiili** -sivulta (<a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">avaa profiiliasetukset</a>) osiosta **"Tuntilaskennan asetukset"**.
+Asetukset löytyvät **Hallinta → Asetukset** -sivulta (<a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">avaa Asetukset</a>) osiosta **"Tuntilaskennan asetukset"**.
 
-<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_laskenta_asetukset.png" alt="Tuntilaskennan asetukset profiilisivulla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_laskenta_asetukset.png" alt="Tuntilaskennan asetukset Asetukset-sivulla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 
 ### Saatavilla olevat asetukset
 
@@ -242,6 +242,6 @@ Uusi palkkaraportti-ominaisuus tekee palkkatietojen viennistä helpompaa:
 - Valitse haluamasi sarakkeet
 - Generoi ja lataa raportti muutamassa sekunnissa
 
-Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
+Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
 
 

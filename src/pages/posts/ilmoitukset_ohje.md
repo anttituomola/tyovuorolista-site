@@ -58,7 +58,7 @@ Julkaistu lista on lukittu muokkauksilta. Jos listaa pitää muuttaa, palauta se
 <div>
 <p>Sähköposti-ilmoitukset ovat <strong>oletuksena pois päältä</strong>. Kukaan ei saa sähköpostia, ellei ole itse kytkenyt sitä päälle:</p>
 <ul>
-<li><strong>Esihenkilö:</strong> profiilisivun kohdasta <strong>Ilmoitusasetukset</strong></li>
+<li><strong>Esihenkilö:</strong> <strong>Hallinta → Asetukset</strong> -sivun kohdasta <strong>Ilmoitusasetukset</strong></li>
 <li><strong>Työntekijä:</strong> Oma-portaalin <strong>Profiili</strong>-välilehdeltä</li>
 </ul>
 <p>Jokaisen ilmoitustyypin voi valita erikseen, joten sähköpostiin tulee vain se, mikä on itselle tärkeää.</p>

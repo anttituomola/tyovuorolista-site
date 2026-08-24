@@ -106,13 +106,13 @@ TS-päivät:
   laskettaessa
 - **eivät saa mennä päällekkäin** muiden vapaapäivien tai vuosiloman kanssa
 
-## Poissaolojen vaikutus: loma ja sairausloma luetaan tehdyiksi tunneiksi
+## Poissaolojen vaikutus: loma ja sairasloma luetaan tehdyiksi tunneiksi
 
 TES 12 § 2 kohdan mukaan poissaoloajalta luetaan tehdyiksi työtunneiksi ne
 tunnit, jotka työvuorolistaan oli merkitty. Käytännössä tämä tarkoittaa
 kahta asiaa saldon kannalta:
 
-- **Sairausloma:** sairauspäivältä luetaan mukaan listaan merkityt tunnit.
+- **Sairasloma:** sairauspäivältä luetaan mukaan listaan merkityt tunnit.
   Jos vuorossa oli 8 tuntia, saldoon kertyy 8 tuntia, vaikka työntekijä ei
   ollut töissä.
 - **Vuosiloma:** loman ajalta luetaan 7,5 tuntia jokaiselta arkipäivältä
@@ -120,7 +120,7 @@ kahta asiaa saldon kannalta:
   sama lyhennysvaikutus, joka vuosilomalla on myös tavallisessa 112,5 tunnin
   jaksossa (TES 27 §).
 
-Saldonäkymä huomioi molemmat automaattisesti, kun lomat ja sairauslomat on
+Saldonäkymä huomioi molemmat automaattisesti, kun lomat ja sairaslomat on
 merkitty listaan normaalisti. Lomaviikko ei siis paina saldoa miinukselle.
 
 ## Lisä- ja ylityö kesken jakson: raja on korkeampi kuin tavallisessa jaksossa
@@ -236,7 +236,7 @@ Kun tasoittuminen on päällä, sovellus:
   vaikka tuntikertymä sen sallisi
 - huomioi VV-päivät kauden enimmäismäärässä automaattisesti, samoin kuin
   yksittäisessä jaksossa
-- laskee sairausloman listatut tunnit ja vuosiloman arkipäivät (7,5 h per
+- laskee sairasloman listatut tunnit ja vuosiloman arkipäivät (7,5 h per
   päivä) saldoon mukaan TES:n mukaisesti
 
 ### Saldojen lukeminen Tuntilaskennassa
@@ -254,8 +254,8 @@ Jos haluat käydä läpi koko vuoden, aseta päivämäärät vuoden alusta loppu
 Silloin saat kaikki kaudet listaan ja voit tarkistaa saldot kerralla.
 Kausi luokitellaan aina kokonaisuutena, vaikka valitsisit vain osan siitä.
 
-Jakson tunnit ja saldo sisältävät myös loma- ja sairauslomapäivien
-hyvitykset: sairauslomalta luetaan listaan merkityt tunnit ja vuosiloman
+Jakson tunnit ja saldo sisältävät myös loma- ja sairaslomapäivien
+hyvitykset: sairaslomalta luetaan listaan merkityt tunnit ja vuosiloman
 arkipäiviltä 7,5 tuntia per päivä. Jos saldo näyttää miinusta, kyse on
 yleensä vain siitä, että jaksoa ei ole vielä suunniteltu loppuun.
 

@@ -31,7 +31,7 @@ Aktivointi on itsepalvelua:
 1. **Valitse työehtosopimus** kohdasta
    **Hallinta → Työehtosopimus**
    ([avaa sivu](https://app.tyovuorolista.fi/admin/tes)).
-   Sama valinta on myös profiilissa; uusille käyttäjille se tarjotaan
+   Sama valinta on myös **Hallinta → Asetukset** -sivulla; uusille käyttäjille se tarjotaan
    jo rekisteröityessä.
 2. **Aseta jakson alkumaanantai**, jos sopimus käyttää
    kolmiviikkoisjaksoja (MaRa, SOSTES).

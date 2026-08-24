@@ -205,7 +205,7 @@
             },
             "creator": {
                 "question": "Kuka tämä on tehnyt?",
-                "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
+                "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esihenkilönä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
             },
             "difficulty": {
                 "question": "Onko tätä vaikea käyttää?",
@@ -584,7 +584,7 @@
                     "photo": "/about/antti-tuomola.webp",
                     "photoAlt": "Antti Tuomola",
                     "paragraphs": [
-                        "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä Excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tyovuorolista.fi.",
+                        "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esihenkilönä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä Excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tyovuorolista.fi.",
                         "Nykyisin teen ohjelmistokehitystä isossa suomalaisessa IT-konsulttitalossa, työskentelen mm. ministeriöille ja muille isoille asiakkuuksille. Rakennan tyovuorolista.fi:tä True Solutions Oy:ssä Eemelin kanssa.",
                         "Asun Tampereella. Minulle voi soittaa tai laittaa viestiä."
                     ],

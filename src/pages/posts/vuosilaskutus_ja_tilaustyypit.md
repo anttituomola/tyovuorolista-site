@@ -64,10 +64,10 @@ Molemmissa tilaustyypeissä **ei ole irtisanomisaikaa**:
 
 ## Tilausten hallinta
 
-Voit hallita tilauksiasi ja vaihtaa paketteja osoitteessa:
-[https://app.tyovuorolista.fi/admin/profile](https://app.tyovuorolista.fi/admin/profile)
+Voit hallita tilauksiasi ja vaihtaa paketteja kohdassa **Hallinta → Tilaus**:
+[https://app.tyovuorolista.fi/admin/subscription](https://app.tyovuorolista.fi/admin/subscription)
 
-Profiilisivulta löydät kaikki tilaustiedot ja voit tehdä tarvittavat muutokset helposti. Lue lisää [tilauksen ostamisesta](/posts/tilauksen_ostaminen) tai [tilauksen peruuttamisesta](/posts/tilauksen_peruuttaminen). Muutokset astuvat voimaan automaattisesti sääntöjen mukaisesti ilman erillistä vahvistusta.
+Tilauksen peruuttaminen onnistuu **Hallinta → Asetukset** -sivulta. Lue lisää [tilauksen ostamisesta](/posts/tilauksen_ostaminen) tai [tilauksen peruuttamisesta](/posts/tilauksen_peruuttaminen). Muutokset astuvat voimaan automaattisesti sääntöjen mukaisesti ilman erillistä vahvistusta.
 
 ## Kumpi sopii sinulle?
 

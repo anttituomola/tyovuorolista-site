@@ -86,7 +86,7 @@ Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien 
 ## Mitä avoimista vuoroista kannattaa tietää
 
 - **Useampi työntekijä voi ilmoittautua samaan vuoroon.** Esihenkilö valitsee aina tekijän: vuoro ei mene ensimmäiselle ilmoittautuneelle automaattisesti.
-- **Ilmoitukset kulkevat molempiin suuntiin:** työntekijä saa ilmoituksen uudesta avoimesta vuorosta, ja esihenkilö saa ilmoituksen uudesta ilmoittautumisesta. Ilmoitusasetuksia voi säätää profiilissa.
+- **Ilmoitukset kulkevat molempiin suuntiin:** työntekijä saa ilmoituksen uudesta avoimesta vuorosta, ja esihenkilö saa ilmoituksen uudesta ilmoittautumisesta. Ilmoitusasetuksia voi säätää **Hallinta → Asetukset** -sivulta (esihenkilö) tai Oma-portaalin **Profiili**-välilehdeltä (työntekijä).
 - **Julkaisun voi perua** niin kauan kuin vuoroa ei ole annettu kenellekään. Peruttu vuoro poistuu työntekijöiden näkymästä.
 - **Avoin vuoro ei vaadi julkaistua listaa.** Voit tarjota avoimia vuoroja jo luonnosvaiheessa olevalta listalta.
 - Ilmoittautuminen edellyttää, että työntekijä on [kutsuttu Oma-portaaliin](/posts/oma_portaali_ohje) ja kuuluu tiimiin, jonka listalla vuoro on.

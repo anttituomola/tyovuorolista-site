@@ -68,7 +68,7 @@ Sama alennus koskee myös osa-aikaisen **lisätyökynnystä** (TES 8 § 1). Mole
   vuosiloma) alentavat ylityökynnystä keskimääräisen päivittäisen
   työajan verran: kokoaikaisella 7 h 40 min työpäivältä (TES 9 § 6).
 - **Luettelon vahvistamisen jälkeen tulevat poissaolot** (esim. äkillinen
-  sairausloma) alentavat kynnystä **listaan merkittyjen tekemättä
+  sairasloma) alentavat kynnystä **listaan merkittyjen tekemättä
   jääneiden tuntien** verran (TES 9 § 8).
 
 Arkipyhää ei vähennetä kahdesti: jos se osuu jo työaikaa lyhentävään

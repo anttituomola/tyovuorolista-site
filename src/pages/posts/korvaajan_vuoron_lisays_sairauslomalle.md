@@ -1,16 +1,16 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Korvaajan vuoron lisäys sairauslomalle'
+title: 'Korvaajan vuoron lisäys sairaslomalle'
 pubDate: 2025-11-01
-description: 'Uusi toiminto tekee korvaajan vuoron lisäämisen nopeaksi ja helpoksi, kun merkitset vuoron sairauslomaksi. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät.'
+description: 'Uusi toiminto tekee korvaajan vuoron lisäämisen nopeaksi ja helpoksi, kun merkitset vuoron sairaslomaksi. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sickleave-substitute/sickleave-subsitute (1).png'
     alt: 'Korvaajan vuoron lisäys -näyttö.'
-tags: ["sairausloma", "korvaaja", "tuntien kirjaus", "työvuorojen hallinta"]
+tags: ["sairasloma", "korvaaja", "tuntien kirjaus", "työvuorojen hallinta"]
 ---
 
-Kun työntekijä jää sairauslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairauslomaksi, ja painike ilmestyy heti: kaikki tiedot esitäytetään automaattisesti!
+Kun työntekijä jää sairaslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairaslomaksi, ja painike ilmestyy heti: kaikki tiedot esitäytetään automaattisesti!
 
 ## Uudet toiminnot Tuntien kirjaus -näkymässä
 
@@ -27,7 +27,7 @@ Jokaisen vuoron kohdalla näet myös, mihin tiimiin vuoro kuuluu.
 
 ### Korvaajan vuoro yhdellä napsautuksella
 
-Kun merkitset vuoron sairauslomaksi, näet heti **"Lisää korvaajan vuoro"** -painikkeen.
+Kun merkitset vuoron sairaslomaksi, näet heti **"Lisää korvaajan vuoro"** -painikkeen.
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" style="max-width: 800px; display: block; margin: 20px auto;">
   <source src="/blogPostImages/sickleave-substitute/sickleave-substitute.mp4" type="video/mp4">
@@ -56,9 +56,9 @@ Voit nyt poistaa vuoroja suoraan Tuntien kirjaus -näkymästä. Poisto-painike (
 
 ## Miten käytät uutta toimintoa?
 
-### 1. Merkitse vuoro sairauslomaksi
+### 1. Merkitse vuoro sairaslomaksi
 
-Kirjaa toteutuneet tunnit kuten normaalisti Tuntien kirjaus -näkymässä. Kun merkitset vuoron sairauslomaksi valintaruudulla, painike **"Lisää korvaajan vuoro"** ilmestyy heti vuoron viereen.
+Kirjaa toteutuneet tunnit kuten normaalisti Tuntien kirjaus -näkymässä. Kun merkitset vuoron sairaslomaksi valintaruudulla, painike **"Lisää korvaajan vuoro"** ilmestyy heti vuoron viereen.
 
 ### 2. Lisää korvaajan vuoro
 
@@ -70,7 +70,7 @@ Korvaajan vuoro ilmestyy heti samaan kalenterinäkymään kuin alkuperäinen vuo
 
 ## Mobiilissa
 
-Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairauslomaksi. Lue lisää [mobiilituesta](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
+Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -painike ilmestyy vuorokortin alle, kun merkitset vuoron sairaslomaksi. Lue lisää [mobiilituesta](/posts/tyovuorolista_sovellus_nyt_kaytettavissa_mobiililaitteilla).
 
 ## Käytännön hyödyt
 
@@ -82,7 +82,7 @@ Kaikki uudet toiminnot toimivat myös mobiilissa. Korvaajan vuoron lisäys -pain
 ## Yhteenveto
 
 Uusi korvaajan vuoro -toiminto tekee sairauslomien hallinnan helpommaksi:
-- Merkitse vuoro sairauslomaksi → painike ilmestyy
+- Merkitse vuoro sairaslomaksi → painike ilmestyy
 - Klikkaa painiketta → ikkuna avautuu esitäytetyillä tiedoilla
 - Valitse korvaaja → vuoro luodaan automaattisesti
 

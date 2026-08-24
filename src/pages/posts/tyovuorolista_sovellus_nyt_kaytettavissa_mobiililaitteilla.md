@@ -135,7 +135,7 @@ Toistuva kaava koko listan ajalle on edelleen **Kaikki kentät** -ikkunassa, ei 
 
 ## Tuntien kirjaus mobiilissa
 
-Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Toteutuneet ajat on esitäytetty suunnitelluista, muuta vain poikkeamat. Sairausloma merkitään kortista, ja korvaajan vuoron voi lisätä samasta näkymästä.
+Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Toteutuneet ajat on esitäytetty suunnitelluista, muuta vain poikkeamat. Sairasloma merkitään kortista, ja korvaajan vuoron voi lisätä samasta näkymästä.
 
 <img class="blogPhone" src="/blogPostImages/mobile-usage/22-mobile-log-hours-shift-card.png" alt="Tuntien kirjaus: Emma Virtasen vuorokortti toteumineen" />
 
@@ -172,7 +172,7 @@ Puhelimella hoituu:
 - Toteutuneiden tuntien kirjaus
 - [Listojen julkaisu, sähköposti, Jaa ja PDF](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille)
 - [Resurssien aikataulutus](/posts/resurssien_aikataulutus_ominaisuus)
-- [Korvaajan vuoron lisäys](/posts/korvaajan_vuoron_lisays_sairauslomalle) sairauslomalle
+- [Korvaajan vuoron lisäys](/posts/korvaajan_vuoron_lisays_sairauslomalle) sairaslomalle
 
 Lomasuunnittelu ja vuorojen monivalinta ovat toistaiseksi tietokoneella. Tietokoneen kalenterissa on myös [leimaustila](/posts/leimaustila): valitse työntekijä, klikkaa kellonaikoja, vuoro syntyy oletuspituudella ilman raahausta.
 

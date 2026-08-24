@@ -25,12 +25,12 @@ Leimaustila on tietokoneen kalenterissa. Puhelimessa käytät plus-painikkeen pi
 
 Avaa **Suunnittele**-näkymä ja valitse julkaisematon lista.
 
-1. Paina työntekijälistan yläreunan **leimauskuvaketta** (leimasin). Kuvake muuttuu siniseksi.
+1. Paina työntekijälistan yläreunan **leimasinkuvaketta** (leimasin). Kuvake muuttuu siniseksi.
 2. Sininen palkki ilmestyy kalenterin yläpuolelle: *Leimaustila: valitse työntekijä · Esc lopettaa*.
 3. Klikkaa työntekijää sivupalkista. Palkki näyttää etunimen ja oletuspituuden, esimerkiksi *Emma · 8 h*. Valitun kortin ympärille tulee kehys.
 4. Klikkaa aikaruudukkoa siinä kohdassa, josta vuoron haluat alkavan. Vuoro syntyy heti oletuspituudella.
 
-Tila jää päälle. Klikkaa seuraavaa päivää, vaihda työntekijää sivupalkista, jatka. Lopeta **Escillä**, palkin rastilla tai samalla leimauskuvakkeella.
+Tila jää päälle. Klikkaa seuraavaa päivää, vaihda työntekijää sivupalkista, jatka. Lopeta **Escillä**, palkin rastilla tai samalla leimasinkuvakkeella.
 
 <img src="/blogPostImages/leimaustila/hero.png" alt="Leimaustila: Emma valittuna, viikon vuorot merkitty klikkaamalla" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -44,7 +44,7 @@ Päiväkohtaisen tapahtuman (muistiinpanon) lisääminen ei onnistu leimaustilan
 
 ## Huomioitavaa
 
-- Vuoroja voi leimata vain **julkaisemattomalle** listalle. Julkaistussa kalenterissa leimauskuvaketta ei ole.
+- Vuoroja voi leimata vain **julkaisemattomalle** listalle. Julkaistussa kalenterissa leimasinkuvaketta ei ole.
 - Jos klikkaat päällekkäin saman työntekijän olemassa olevan vuoron kanssa, vuoroa ei luoda. Näet ilmoituksen ja voit klikata toiseen kohtaan.
 - Olemassa olevan vuoron voi edelleen avata klikkaamalla. Raahaus toimii kuten ennen.
 - Toistuvuus, muistiinpanot, resurssi ja muut kentät ovat luonti-ikkunassa. Avaa se klikkaamalla ruudukkoa ilman leimaustilaa.

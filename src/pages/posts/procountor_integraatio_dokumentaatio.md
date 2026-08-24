@@ -101,7 +101,7 @@ kategoria jätetään pois aineistosta.
 
 ### 1. Kuukausittainen tuntipalkkalaisten palkka-aineisto
 
-Esimies kirjaa toteutuneet tunnit palkkajaksolta, vie Procountor-CSV:n
+Esihenkilö kirjaa toteutuneet tunnit palkkajaksolta, vie Procountor-CSV:n
 ja lukee sen uuteen palkkalistaan. Tilitoimisto / palkanlaskija tarkastaa
 listan Procountorissa ennen maksatusta.
 

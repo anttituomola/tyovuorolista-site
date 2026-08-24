@@ -45,7 +45,7 @@ Harkitse tilin poistamista, jos:
 ### 1. Siirry asetuksiin
 
 1. Kirjaudu sisään sovellukseen
-2. Mene **HALLINTA → Asetukset**
+2. Mene **Hallinta → Asetukset**
 
 ### 2. Klikkaa "Poista tili"
 
@@ -103,6 +103,6 @@ Tilin poistaminen:
 
 **Vaihtoehdot:**
 - [Peruuta tilaus](/posts/tilauksen_peruuttaminen) jos haluat vain lopettaa maksut
-- Ota yhteyttä [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi) jos tarvitset apua
+- Ota yhteyttä [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi) jos tarvitset apua
 
 **Ole varma ennen kuin poistat!**

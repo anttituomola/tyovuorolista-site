@@ -2,15 +2,15 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tuntien kirjaus: opas toteutuneiden tuntien merkitsemiseen'
 pubDate: 2026-05-22
-description: 'Tuntien kirjaus -näkymässä merkitset toteutuneet työajat, sairauslomat ja korvaajavuorot sekä luot palkkaraportin valitulta ajanjaksolta.'
+description: 'Tuntien kirjaus -näkymässä merkitset toteutuneet työajat, sairaslomat ja korvaajavuorot sekä luot palkkaraportin valitulta ajanjaksolta.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tuntien_kirjaus_opas/yleiskuva.png'
     alt: 'Tuntien kirjaus -näkymä työntekijöiden valinnalla ja vuorotaulukolla.'
-tags: ["tuntien kirjaus", "työtunnit", "palkkaraportti", "sairausloma", "hallinta"]
+tags: ["tuntien kirjaus", "työtunnit", "palkkaraportti", "sairasloma", "hallinta"]
 ---
 
-Kun työvuorolista on suunniteltu ja julkaistu, seuraava askel on usein toteutuneiden tuntien kirjaaminen. **Tuntien kirjaus** -näkymässä näet valitsemiesi työntekijöiden vuorot valitulla ajanjaksolla, voit merkitä toteutuneet aloitus- ja lopetusajat, käsitellä sairauslomat ja luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) suoraan samasta näkymästä.
+Kun työvuorolista on suunniteltu ja julkaistu, seuraava askel on usein toteutuneiden tuntien kirjaaminen. **Tuntien kirjaus** -näkymässä näet valitsemiesi työntekijöiden vuorot valitulla ajanjaksolla, voit merkitä toteutuneet aloitus- ja lopetusajat, käsitellä sairaslomat ja luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) suoraan samasta näkymästä.
 
 Tämä opas kattaa työpöytäversion peruskäytön. Mobiilissa sama näkymä toimii, mutta taulukko esitetään korttilistana.
 
@@ -49,19 +49,19 @@ Taulukossa jokaiselle vuorolle näkyy muun muassa:
 - **Suunniteltu aloitus** ja **Suunniteltu lopetus**
 - **Toteutunut aloitus** ja **Toteutunut lopetus**, nämä kentät muokkaat tarvittaessa
 - **Ero**: ero suunnitellun ja toteutuneen pituuden välillä
-- **Sairaana?**: ruutu sairausloman merkitsemiseen
+- **Sairaana?**: ruutu sairasloman merkitsemiseen
 
 Muutokset tallentuvat automaattisesti, kun poistut kentästä. Tuntien laskenta käyttää **toteutuneita aikoja**, kun ne on merkitty, muuten suunniteltuja aikoja.
 
 <img src="/blogPostImages/tuntien_kirjaus_opas/vuorotaulukko.png" alt="Vuorotaulukko suunnitelluilla ja toteutuneilla ajoilla" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-### Sairausloma ja korvaajan vuoro
+### Sairasloma ja korvaajan vuoro
 
-Merkitse vuoro sairauslomaksi valitsemalla **Sairaana?** -ruutu. Sen jälkeen voit lisätä korvaajan vuoron suoraan samasta rivistä. Painike avaa **Lisää vuoro** -modaalin esitäytettynä alkuperäisen vuoron tiedoilla.
+Merkitse vuoro sairaslomaksi valitsemalla **Sairaana?** -ruutu. Sen jälkeen voit lisätä korvaajan vuoron suoraan samasta rivistä. Painike avaa **Lisää vuoro** -modaalin esitäytettynä alkuperäisen vuoron tiedoilla.
 
-Lue tarkemmin [korvaajan vuoron lisäämisestä sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle).
+Lue tarkemmin [korvaajan vuoron lisäämisestä sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle).
 
-<img src="/blogPostImages/tuntien_kirjaus_opas/sairausloma_ja_korvaaja.png" alt="Sairausloman merkintä ja korvaajan vuoron lisäyspainike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tuntien_kirjaus_opas/sairausloma_ja_korvaaja.png" alt="Sairasloman merkintä ja korvaajan vuoron lisäyspainike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 ### Vuoron poisto ja toteutuneiden aikojen nollaus
 

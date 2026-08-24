@@ -88,11 +88,17 @@ https://claude.ai/code/artifact/9425afb4-b32c-4311-875d-acfea921384b
 
 ## Koko sivuston linjaukset (yksi päätös / rivi)
 
-- [ ] "venue" → pidetäänkö vai esim. "toimipaikka"? (yksi kohta jo muutettu, nyt epäyhtenäinen)
-- [ ] esimies → esihenkilö -jäänteet: tasoittumisjarjestelma_ravintola (otsikko),
+- [x] "venue" → pidetäänkö vai esim. "toimipaikka"? (yksi kohta jo muutettu, nyt epäyhtenäinen)
+      — tehty 24.8.2026: suomessa toimipaikka; en.json venues ennallaan
+- [x] esimies → esihenkilö -jäänteet: tasoittumisjarjestelma_ravintola (otsikko),
       muistiinpanot, procountor_integraatio
-- [ ] tukiosoite: tuki@ vs info@tyovuorolista.fi
-- [ ] asetussivun nimi: "Hallinta → Asetukset" vs "Hallinta → Profiili" (+ linkit
+      — tehty 24.8.2026: esihenkilö; tasoittumis-otsikko oli jo kunnossa; FAQ esihenkilönä
+- [x] tukiosoite: tuki@ vs info@tyovuorolista.fi
+      — tehty 24.8.2026: vain info@tyovuorolista.fi
+- [x] asetussivun nimi: "Hallinta → Asetukset" vs "Hallinta → Profiili" (+ linkit
       /admin/profile vs /admin/subscription)
-- [ ] termit: päivämerkinnät vs päiväkohtaiset muistiinpanot; yksityinen vs sisäinen;
+      — tehty 24.8.2026: Asetukset = /admin/profile; Tilaus = /admin/subscription
+- [x] termit: päivämerkinnät vs päiväkohtaiset muistiinpanot; yksityinen vs sisäinen;
       leimauskuvake vs leimasinkuvake; Sairasloma (UI?) vs sairausloma
+      — tehty 24.8.2026: päiväkohtainen muistiinpano, sisäinen, leimasinkuvake,
+      sairasloma (slug/kuva/SOSTES ennallaan)

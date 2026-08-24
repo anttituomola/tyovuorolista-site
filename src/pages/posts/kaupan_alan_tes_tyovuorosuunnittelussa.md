@@ -85,7 +85,7 @@ Valinta on yritystasoinen eikä sitä voi vaihtaa kesken vuoden. Sovelluksessa v
 
 ## Miten sovellus auttaa?
 
-Kun valitset venuellesi Kaupan alan TES:n, tyovuorolista.fi:n
+Kun valitset toimipaikallesi Kaupan alan TES:n, tyovuorolista.fi:n
 [TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa) valvoo näitä sääntöjä
 suunnittelun aikana ja luokittelee tunnit palkanlaskentaa varten
 (iltalisät, lauantailisät, sunnuntaityö, lisä- ja ylityöt). Työntekijöille

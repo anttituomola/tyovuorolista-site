@@ -32,7 +32,7 @@ Portaali tarjoaa tällä hetkellä neljä toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
 - **Vapaatoiveen ilmoittaminen**: toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
-- **Tuntien ilmoittaminen**: toteutuneet työajat, sairausloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
+- **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
 
 ## Esihenkilölle: näin otat Oma-portaalin käyttöön
@@ -86,7 +86,7 @@ Kun työntekijä ilmoittaa toteutuneet tuntinsa portaalista (katso työntekijän
 
 <img src="/blogPostImages/oma-portaali/tuntien-hyvaksynta.png" alt="Tuntien kirjaus -näkymän Odottaa hyväksyntää -välilehti, jossa työntekijän tunti-ilmoitus odottaa käsittelyä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytkeä sen pois työpaikan asetuksista (**Hallinta → Profiili**).
+Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytkeä sen pois työpaikan asetuksista (**Hallinta → Asetukset**).
 
 ### 6. Avoimet vuorot: suunnittele vuoro ilman tekijää
 
@@ -190,7 +190,7 @@ Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kir
 
 Oma-portaali **ei vielä korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
 
-- et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairausloman voit ilmoittaa tunti-ilmoituksella)
+- et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairasloman voit ilmoittaa tunti-ilmoituksella)
 - et voi hyväksyä tai hylätä esihenkilön ehdottamia vuoromuutoksia
 - et voi vaihtaa vuoroja työkaverin kanssa
 - et näe muiden työntekijöiden vuoroja

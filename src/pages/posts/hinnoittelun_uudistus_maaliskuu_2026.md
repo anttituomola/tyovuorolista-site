@@ -14,7 +14,7 @@ tags: ["hinnoittelu", "tilaus", "päivitykset", "kuukausilaskutus", "vuosilaskut
 
 Maksullisten pakettien kuukausihinnat nousivat sunnuntaina **29.3.2026**. Vuosilaskutuksen kokonaishinnat pysyivät samoina, ja **Mini-paketti** on edelleen maksuton. Jos tilauksesi oli tuolloin jo maksullinen, **hintasi ei muuttunut**, kunhan tilaus on pysynyt voimassa katkeamatta.
 
-<img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Profiili- ja tilausnäkymä Työvuorolistassa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Asetukset- ja tilausnäkymä Työvuorolistassa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 ## Kuukausi- ja vuosihinnat (alv 0 %)
 

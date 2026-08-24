@@ -94,7 +94,7 @@ järjestelmät läpi [omassa postauksessaan](/posts/arkipyhakorvaus_ja_vuosivapa
 
 ## Miten sovellus auttaa?
 
-Kun valitset venuellesi Kiinteistöpalvelualan TES:n,
+Kun valitset toimipaikallesi Kiinteistöpalvelualan TES:n,
 tyovuorolista.fi:n [TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)
 valvoo näitä sääntöjä suunnittelun aikana ja luokittelee tunnit
 palkanlaskentaa varten (lisätyö, ylityö 50 %/100 %, ilta- ja yölisät,

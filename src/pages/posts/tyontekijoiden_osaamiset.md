@@ -112,7 +112,7 @@ Jos viet palkka-aineiston Procountoriin, anna osaamiselle **palkkalajikoodi** Os
 ### Hyvä tietää: miten tunnit lasketaan
 
 - **Vuoron vaatimus ratkaisee, ei työntekijän osaaminen.** Tunnit kertyvät sille, joka vuoron tekee, myös silloin, jos merkitsit vuoroon varoituksesta huolimatta työntekijän, jolta osaaminen puuttuu. Rooli määrittää palkan.
-- **Sairausloma ei kerrytä osaamistunteja.** Jos vuorovastaava sairastuu, hänen tuntinsa siirtyvät normaalisti sairausajan palkkaan, mutta vuorovastaavatunteja ei kerry. Jos merkitset korvaajan *Lisää korvaajan vuoro* -toiminnolla, korvaajan vuoro perii alkuperäisen vuoron vaatimukset automaattisesti, eli vastuulisä siirtyy sille, joka vastuun oikeasti kantoi.
+- **Sairasloma ei kerrytä osaamistunteja.** Jos vuorovastaava sairastuu, hänen tuntinsa siirtyvät normaalisti sairausajan palkkaan, mutta vuorovastaavatunteja ei kerry. Jos merkitset korvaajan *Lisää korvaajan vuoro* -toiminnolla, korvaajan vuoro perii alkuperäisen vuoron vaatimukset automaattisesti, eli vastuulisä siirtyy sille, joka vastuun oikeasti kantoi.
 - **Vaatimukset kulkevat kopioiden mukana.** Kun kopioit vuoron, kopioit viime viikon listan tai käytät listapohjaa, vuorojen osaamisvaatimukset kopioituvat mukana. Kerran merkitty vuorovastaavan vuoro pysyy vuorovastaavan vuorona viikosta toiseen.
 - **Jos vuorolla on kaksi palkkaraportoitavaa vaatimusta**, tunnit kertyvät molempiin. Rivit ovat toisistaan riippumattomia lisiä työtuntien päällä, eikä niitä ole tarkoitettu laskettavaksi yhteen.
 

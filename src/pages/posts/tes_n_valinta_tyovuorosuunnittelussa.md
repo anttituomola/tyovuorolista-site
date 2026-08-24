@@ -94,7 +94,7 @@ seuraavaksi. Valinnan voi vaihtaa koska tahansa myöhemmin.
 ## Näin vaihdat valintaa myöhemmin
 
 TES-valintaa voi muuttaa kohdasta **Hallinta → Työehtosopimus**.
-Sama valinta on myös **Hallinta → Profiili** -sivulla. Muutos
+Sama valinta on myös **Hallinta → Asetukset** -sivulla. Muutos
 tallentuu heti, kun valitset vaihtoehdon:
 
 <img src="/blogPostImages/tes-valinta/asetukset-tes-valinta.png" alt="Asetukset-sivun Työehtosopimus-osio: valittuna Matkailu-, ravintola- ja vapaa-ajan palveluiden TES, alla linkki tarkempiin asetuksiin" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />

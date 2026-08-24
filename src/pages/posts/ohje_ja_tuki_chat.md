@@ -10,7 +10,7 @@ image:
 tags: ["tuki", "ohje", "chat", "käyttöliittymä", "uutuus"]
 ---
 
-Jos jokin Työvuorolistan toiminto askarruttaa, sinun ei tarvitse enää etsiä ohjetta erikseen tai pohtia, miten muotoilet vikailmoituksen. Sovelluksen oikeaan alakulmaan on tullut **Ohje ja tuki** -painike, josta avautuu chat-ikkuna. Voit kysyä suomeksi esimerkiksi *"Miten julkaisen työvuorolistan?"* tai *"Miten merkitsen sairausloman?"*. Chat vastaa ohjeartikkeleidemme pohjalta ja näyttää linkit, joista voit lukea lisää.
+Jos jokin Työvuorolistan toiminto askarruttaa, sinun ei tarvitse enää etsiä ohjetta erikseen tai pohtia, miten muotoilet vikailmoituksen. Sovelluksen oikeaan alakulmaan on tullut **Ohje ja tuki** -painike, josta avautuu chat-ikkuna. Voit kysyä suomeksi esimerkiksi *"Miten julkaisen työvuorolistan?"* tai *"Miten merkitsen sairasloman?"*. Chat vastaa ohjeartikkeleidemme pohjalta ja näyttää linkit, joista voit lukea lisää.
 
 Ominaisuus korvaa aiemman vikailmoituspainikkeen. Tarkoitus on auttaa ensisijaisesti ohjeiden kautta, mutta tarvittaessa voit edelleen välittää kysymyksen suoraan minulle sähköpostilla chat-ikkunan **Ota yhteys tukeen** -kohdasta.
 

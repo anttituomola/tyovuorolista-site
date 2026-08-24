@@ -93,7 +93,7 @@ lisää [ylityöpostauksessa](/posts/jaksotyon_lisa_ja_ylityo_sostes).
 
 ## Miten sovellus auttaa?
 
-Kun valitset venuellesi SOSTES:n, tyovuorolista.fi valvoo näitä sääntöjä
+Kun valitset toimipaikallesi SOSTES:n, tyovuorolista.fi valvoo näitä sääntöjä
 suunnittelun aikana: jaksorytmi ja luettelon pituus (3 tai 6 viikkoa)
 määritellään Työehtosopimus-sivulla, ja kalenteri varoittaa mm. jakson
 tuntien ylityksestä, yövuoroputkista, lepoajoista ja liian lyhyestä

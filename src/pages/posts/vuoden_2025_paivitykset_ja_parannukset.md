@@ -44,13 +44,13 @@ Uusi esikatselutoiminto antaa mahdollisuuden tarkistaa työntekijöille lähetet
 
 **Lue lisää:** [Sähköpostin esikatselutoiminto](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa)
 
-## Korvaajan vuoro sairauslomalle
+## Korvaajan vuoro sairaslomalle
 
 **Nopea ja helppo korvaajan vuoron lisäys**
 
-Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) on esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
+Kun merkitset vuoron sairaslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) on esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
 
-**Lue lisää:** [Korvaajan vuoron lisäys sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle)
+**Lue lisää:** [Korvaajan vuoron lisäys sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle)
 
 ## Ilmoita ongelmasta -ominaisuus
 

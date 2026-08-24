@@ -14,7 +14,7 @@ Olemme kuunnelleet palautetta asiakkailtamme, ja yksi toistuvista toiveista on o
 
 ## Miksi esikatselutoiminto on tärkeä?
 
-Aiemmin työvuorolistojen lähettäminen sähköpostilla toimi suoraan: valitsit työntekijät ja painoit "Lähetä sähköpostit". Järjestelmä loi taustalla henkilökohtaiset listat yhdistäen vuoroja eri tiimeistä, lisäten päivämerkinnät ja muotoillen kaiken sähköpostiksi, mutta et nähnyt lopputulosta ennen lähettämistä.
+Aiemmin työvuorolistojen lähettäminen sähköpostilla toimi suoraan: valitsit työntekijät ja painoit "Lähetä sähköpostit". Järjestelmä loi taustalla henkilökohtaiset listat yhdistäen vuoroja eri tiimeistä, lisäten päiväkohtaiset muistiinpanot ja muotoillen kaiken sähköpostiksi, mutta et nähnyt lopputulosta ennen lähettämistä.
 
 **Esikatselu on nyt ainoa lähetystapa**: ensimmäisessä ikkunassa ei ole suoraa Lähetä-painiketta. Näet jokaisen viestin sisällön ennen lähettämistä.
 
@@ -46,7 +46,7 @@ Esikatselumodaali jakautuu kahteen osaan:
 - Sähköpostin aihe
 - Täydellinen HTML-esikatselu sisällöstä
 - Kaikki työvuorot ajanjaksolta (myös muista tiimeistä)
-- Päivämerkinnät ja muistiinpanot
+- Päiväkohtaiset muistiinpanot
 
 <img src="/blogPostImages/sahkopostin_esikatselutoiminto_hero.png" alt="Sähköpostin esikatselumodaalin pääkuva" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 
@@ -89,8 +89,8 @@ Esikatselutoiminto näyttää sinulle **täydellisen sähköpostisisällön** se
 - Vuorojen ajat, tiimit ja tehtävät
 - V-päivät (viikkovapaat) ja X-päivät (vapaat)
 
-### Päivämerkinnät
-- Kaikki julkiset päivämerkinnät listalla
+### Päiväkohtaiset muistiinpanot
+- Kaikki julkiset päiväkohtaiset muistiinpanot listalla
 - Näkyvät samassa muodossa kuin työntekijälle (lue lisää [päiväkohtaisista muistiinpanoista](/posts/tyovuorolistan_paivakohtaiset_muistiinpanot_eli_koko_paivan_tapahtumat))
 
 <img src="/blogPostImages/sahkopostin_esikatselutoiminto_sisalto.png" alt="Sähköpostin sisällön esikatselu" width="70%" style="max-width: 600px; display: block; margin: 20px auto;" />
@@ -115,7 +115,7 @@ Tämä on erityisen hyödyllinen suurissa yrityksissä, joissa lähetetään kym
 Esikatselu on käytössä myös, kun avaat **julkaista kaikkien osastojen listat** -linkin. Tässäkin ikkunassa painike on **Esikatsele sähköpostit**, ei suora julkaisu. Kun lähetät usean tiimin listat yhtäaikaisesti, voit esikatselulla varmistaa, että:
 
 - Jokainen työntekijä saa oikeat vuorot kaikista tiimeistä
-- Päivämerkinnät ovat oikein kaikissa listoissa
+- Päiväkohtaiset muistiinpanot ovat oikein kaikissa listoissa
 - Aikataulut täsmäävät odotusten kanssa
 
 ## Vinkkejä esikatselutoiminnon käyttöön
@@ -126,10 +126,10 @@ Kiinnitä erityistä huomiota työntekijöihin, joilla on vuoroja useammassa tii
 - Tiimin nimet ovat oikein
 - Vuorojen ajat eivät mene päällekkäin
 
-### 2. Tarkasta päivämerkinnät
+### 2. Tarkasta päiväkohtaiset muistiinpanot
 Varmista, että:
-- Julkiset päivämerkinnät näkyvät
-- Yksityisiä merkintöjä ei näy työntekijöille
+- Julkiset päiväkohtaiset muistiinpanot näkyvät
+- Sisäisiä merkintöjä ei näy työntekijöille
 - Päivämäärät ovat oikein
 
 ### 3. Käytä kopiointi-ominaisuutta

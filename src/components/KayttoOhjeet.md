@@ -29,7 +29,7 @@ Esikatselumodaalissa voit:
   - Merkitse lista julkaistuksi lähetyksen yhteydessä
   - Lähetä kopiot itsellesi sähköpostiin
 
-Esikatselussa näet tarkalleen sen sisällön, jonka työntekijä saa sähköpostissaan - mukaan lukien kaikki hänen vuoronsa kaikista tiimeistä ja päivämerkinnät.
+Esikatselussa näet tarkalleen sen sisällön, jonka työntekijä saa sähköpostissaan - mukaan lukien kaikki hänen vuoronsa kaikista tiimeistä ja päiväkohtaiset muistiinpanot.
 
 ### Sähköpostin sisältö ja lähetys
 Sähköposti sisältää työntekijän henkilökohtaisen työvuorolistan, joka kokoaa kaikki hänen vuoronsa lähetettävän listan ajalta - myös muiden tiimien listoilta.

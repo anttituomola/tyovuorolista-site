@@ -35,9 +35,9 @@ Resurssit ovat liikkuvia laitteita tai ajoneuvoja, joita tarvitaan työvuorojen 
 
 ### Ominaisuuden ottaminen käyttöön
 
-Ennen kuin voit käyttää resurssien aikataulutusta, sinun täytyy ottaa se käyttöön profiilissa:
+Ennen kuin voit käyttää resurssien aikataulutusta, sinun täytyy ottaa se käyttöön Asetuksissa:
 
-1. Siirry kohtaan **Hallinta → Profiili** tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">profiiliasetukset tästä</a>
+1. Siirry kohtaan **Hallinta → Asetukset** tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">Asetukset tästä</a>
 2. Etsi asetus **"Ota käyttöön resurssien aikataulutus (autot, työkalut, jne.)"**
 3. Kytke asetus päälle
 4. Asetus tallentuu automaattisesti
@@ -187,7 +187,7 @@ Tämä auttaa työntekijöitä näkemään heti, mitä resursseja he tarvitsevat
 
 ### 1. Ota ominaisuus käyttöön
 
-Siirry **Hallinta → Profiili** ja kytke resurssien aikataulutus päälle. Tämän jälkeen näet "Resurssit" -valikon navigaatiossa.
+Siirry **Hallinta → Asetukset** ja kytke resurssien aikataulutus päälle. Tämän jälkeen näet "Resurssit" -valikon navigaatiossa.
 
 ### 2. Luo resurssit
 
@@ -259,7 +259,7 @@ Uusi resurssien aikataulutus -ominaisuus tekee autojen, työkalujen ja muiden re
 
 Järjestelmä auttaa välttämään päällekkäisiä varauksia ja varoittaa, jos resurssi on poissa käytöstä. Resurssit näkyvät myös automaattisesti sähköposteissa, jolloin työntekijät tietävät heti, mitä resursseja he tarvitsevat. Voit myös [näyttää resurssit julkaistuissa listoissa ja PDF:ssä](/posts/resurssit_julkaistuissa_tyovuorolistoissa). [Vuoron kopiointi ALT-näppäimellä](/posts/tyovuoron_kopiointi_alt_raahaus) kopioi resurssin mukana.
 
-Aloita käyttö ottamalla ominaisuus käyttöön profiilissa ja luomalla ensimmäiset resurssisi!
+Aloita käyttö ottamalla ominaisuus käyttöön Asetuksissa ja luomalla ensimmäiset resurssisi!
 
 
 

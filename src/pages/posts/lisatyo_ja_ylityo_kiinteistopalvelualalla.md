@@ -73,10 +73,10 @@ virhekohta käsin laskettaessa, ja siksi
 [sopimustuntien kirjaaminen](/posts/tyotunnit_tyosopimuksessa)
 järjestelmään kannattaa.
 
-## Loma ja sairausloma lasketaan työajaksi
+## Loma ja sairasloma lasketaan työajaksi
 
 Lisä- ja ylityölaskennassa työssäolon veroiseksi ajaksi luetaan
-vuosiloman lisäksi TES:n mukainen palkallinen sairausloma ja alle
+vuosiloman lisäksi TES:n mukainen palkallinen sairasloma ja alle
 10-vuotiaan lapsen äkillisestä sairastumisesta johtuva tilapäinen
 poissaolo (10 § 1). Toisin sanoen lomaviikon jälkeinen kiireviikko ei
 kevennä laskentaa. Lomapäivät täyttävät viikon perustunnit
@@ -91,7 +91,7 @@ läpi [tasoittumispostauksessa](/posts/tasoittumisjarjestelma_kiinteistopalvelua
 
 ## TES-apuri laskee tämän puolestasi
 
-Kun venuellasi on Kiinteistöpalvelualan TES valittuna, tyovuorolista.fi
+Kun toimipaikallasi on Kiinteistöpalvelualan TES valittuna, tyovuorolista.fi
 luokittelee tunnit automaattisesti: lisätyö aina yksinkertaisena,
 +50 %:n kaista (sisältäen korotetun lisätyön) ja +100 %:n ylityöt
 omiksi palkkaraportin riveikseen. Erittely toimii sekä kokoaikaisille

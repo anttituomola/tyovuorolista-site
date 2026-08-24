@@ -52,7 +52,7 @@ Voit nyt tehdä muistiinpanoja, jotka kattavat useamman päivän. Modaalissa on 
 
 Nyt voit määritellä muistiinpanolle, onko se julkinen vai ainoastaan sisäiseen käyttöön tarkoitettu. Tapahtuma-välilehdellä (tai muistiinpanoikkunassa) on kytkin **Julkinen (näkyy kaikille tiimin jäsenille)**.
 
-Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään. Kätevää esimiehille tarkoitettuja huomioita varten.
+Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään. Kätevää esihenkilöille tarkoitettuja huomioita varten.
 
 <img src="/blogPostImages/public_datenote.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Julkinen-kytkin tapahtumaikkunassa" />
 

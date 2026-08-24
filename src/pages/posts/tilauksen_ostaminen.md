@@ -96,4 +96,4 @@ Voit vaihtaa pakettia koska tahansa:
 4. Vahvista maksu
 5. Aloita käyttö heti
 
-Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi).
+Tarvitsetko apua? Ota yhteyttä: [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).

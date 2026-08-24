@@ -36,7 +36,7 @@ Kun peruutat tilauksen:
 ### 1. Avaa asetukset
 
 1. Kirjaudu sisään sovellukseen
-2. Siirry **HALLINTA → Asetukset**
+2. Siirry **Hallinta → Asetukset**
 
 ### 2. Klikkaa "Peruuta tilaus"
 

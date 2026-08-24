@@ -136,7 +136,7 @@ ennen kuin se on jo myöhässä.
 ### 2. Työaikakirjanpito samasta paikasta
 
 [Tuntien kirjaus](/posts/tuntien_kirjaus_opas) -näkymässä merkitset
-toteutuneet aloitus- ja lopetusajat, sairauslomat ja korvaajat.
+toteutuneet aloitus- ja lopetusajat, sairaslomat ja korvaajat.
 Suunniteltu lista ja toteutuneet tunnit pysyvät yhdessä, ja samasta
 näkymästä saat [palkkaraportin](/posts/palkkaraportti_ominaisuus).
 

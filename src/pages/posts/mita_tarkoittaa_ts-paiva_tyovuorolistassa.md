@@ -54,7 +54,7 @@ TS-päivien antamista ei kannata jättää viimeiselle jaksolle asti.
 
 Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhenteet), jossa kaikki vapaapäivätyypit on koottu yhteen, ja
 [syväluotaava opas tasoittumisjärjestelmästä](/posts/tasoittumisjarjestelma_ravintola-alalla),
-jossa käydään läpi koko järjestelmän laskutapa esimiehen ja työntekijän
+jossa käydään läpi koko järjestelmän laskutapa esihenkilön ja työntekijän
 näkökulmista.
 
 ## Pitääkö minun laskea tämä käsin?

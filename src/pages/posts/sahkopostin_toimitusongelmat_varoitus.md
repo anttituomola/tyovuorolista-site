@@ -27,7 +27,7 @@ Sama ilmoitus tulee sekä työvuorolistaviestistä että ilmoitussähköpostista
 
 <img src="/blogPostImages/sahkopostin_toimitusongelmat_varoitus/ilmoitukset-toimitusvaroitus.png" alt="Ilmoitukset-sivu: työvuorolistaviesti ei mennyt perille, osoitteessa kirjoitusvirhe" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Kello kuuluu [ilmoituksiin](/posts/ilmoitukset_ohje). Sähköposti-ilmoitus tästä on oletuksena pois; sen voi kytkeä päälle profiilin **Ilmoitusasetuksista** (*Sähköposti ei mennyt perille*). Kelloon ilmoitus tulee aina.
+Kello kuuluu [ilmoituksiin](/posts/ilmoitukset_ohje). Sähköposti-ilmoitus tästä on oletuksena pois; sen voi kytkeä päälle **Hallinta → Asetukset** -sivun **Ilmoitusasetuksista** (*Sähköposti ei mennyt perille*). Kelloon ilmoitus tulee aina.
 
 ## Julkaise-näkymä muistuttaa vielä lähettäessä
 
