@@ -65,7 +65,7 @@ MaRa-TES:n tarkat määräykset:
 - **Vuorokautinen työaika saa olla enintään 16 tuntia**, tämä on
   sopimuksen suora enimmäisraja, ei johdannainen muista säännöistä
 
-16 tunnin vuorokausiraja koskee vuorokauden kaikkia työtunteja, olipa ne
+16 tunnin vuorokausiraja koskee vuorokauden kaikkia työtunteja, olivatpa ne
 yhdessä pitkässä vuorossa tai kahdessa erillisessä vuorossa. Käytännössä
 sen saavuttaminen edellyttää myös vuorojen välisen lepoajan tiukkaa
 aikataulutusta. Katso seuraava osio.

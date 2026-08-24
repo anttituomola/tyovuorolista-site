@@ -39,8 +39,8 @@ palkkoja, mutta **ei muuttanut lisien euromääriä**, ne pysyvät
 
 Lisät kuuluvat myös kuukausipalkkaiselle: tuntipalkka saadaan
 jakamalla kuukausipalkka luvulla 159. Työntekijöiden TES ei tunne
-mahdollisuutta "leipoa" ilta- ja yölisiä kiinteänä osana
-kuukausipalkkaan, se järjestely löytyy vain esihenkilöiden
+mahdollisuutta "leipoa" ilta- ja yölisiä kiinteäksi osaksi
+kuukausipalkkaa, se järjestely löytyy vain esihenkilöiden
 sopimuksesta.
 
 ## Aattolisä: viisi päivää vuodessa

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uuden tilin luominen Työvuorolista-sovelluksessa'
 pubDate: 2025-09-30
-description: 'Työvuorolistan käyttö alkaa tilin luomisella. Prosessi on nopea ja yksinkertainen - olet valmis aloittamaan muutamassa minuutissa!'
+description: 'Työvuorolistan käyttö alkaa tilin luomisella. Prosessi on nopea ja yksinkertainen: olet valmis aloittamaan muutamassa minuutissa!'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/account-management/02-registration-page.png'
@@ -10,7 +10,7 @@ image:
 tags: ["rekisteröityminen", "tilin luominen", "aloittaminen", "käyttöönotto"]
 ---
 
-Työvuorolistan käyttö alkaa tilin luomisella. Prosessi on nopea ja yksinkertainen - olet valmis aloittamaan työvuorojen suunnitteluun muutamassa minuutissa!
+Työvuorolistan käyttö alkaa tilin luomisella. Prosessi on nopea ja yksinkertainen: olet valmis aloittamaan työvuorojen suunnittelun muutamassa minuutissa!
 
 <img src="/blogPostImages/account-management/02-registration-page.png" alt="Rekisteröintisivu Työvuorolista-sovelluksessa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -37,16 +37,16 @@ Rekisteröintilomakkeella täytät seuraavat tiedot:
 **Kirjautumistapa:**
 
 Voit valita kahdesta vaihtoehdosta:
-- **Google-kirjautuminen** - Nopea ja turvallinen tapa
-- **Sähköposti + salasana** - Perinteinen kirjautuminen
+- **Google-kirjautuminen**: nopea ja turvallinen tapa
+- **Sähköposti + salasana**: perinteinen kirjautuminen
 
 <img src="/blogPostImages/account-management/03-registration-form-filled.png" alt="Täytetty rekisteröintilomake" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 ### 3. Luo tili
 
-Kun kaikki pakolliset kentät (merkitty tähdellä *) on täytetty, klikkaa **"Rekisteröidy"** -painiketta.
+Kun kaikki pakolliset kentät (merkitty tähdellä *) on täytetty, klikkaa **"Rekisteröidy"**-painiketta.
 
-### 4. Valmista - tili luotu!
+### 4. Valmista: tili luotu!
 
 Kun viimeistelet tiliä, voit halutessasi avata kohdan **Tuo työntekijät** ja liittää olemassa olevan henkilöstölistan heti mukaan. Kun tili on luotu, sovellus:
 - ✅ Luo yrityksellesi tilin automaattisesti

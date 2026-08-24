@@ -62,7 +62,7 @@ Valitse vielä, mitkä rivit (työtunnit, lisät, poissaolot…) kuuluvat mukaan
 2. Käytä palkka-aineiston sisäänlukua
 3. Valitse juuri lataamasi CSV
 
-Tiedosto on puolipisteellä eroteltu, ilman otsikkoriviä. Juuri Procountorin virallinen erittelytietue-muoto.
+Tiedosto on puolipisteellä eroteltu, ilman otsikkoriviä: juuri Procountorin virallinen erittelytietuemuoto.
 
 ## Mitä tiedostoon tulee
 
@@ -85,10 +85,10 @@ Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkape
 
 Sama tuntidata, eri pakkaus. Tavallinen palkkaraportti on edelleen kätevä tarkistukseen. Procountor-vienti on se, jonka tilitoimisto tai palkanlaskija lukee järjestelmään.
 
-## Vinkkejä ensimmäiseen kerran jälkeen
+## Vinkkejä ensimmäisen kerran jälkeen
 
 - Pidä henkilönumerot ajan tasalla, kun Procountoriin tulee uusi palkansaaja
 - Jos jokin lisä puuttuu aineistosta, tarkista TES-apurin palkkalajikoodi ja modaalin rivivalinnat
-- Vie yksi jakso kerrallaan, sama aineisto kahdesti Procountoriin tuplaa rivit
+- Vie yksi jakso kerrallaan, sillä sama aineisto kahdesti Procountoriin tuplaa rivit
 
-Jos jokin kohtaa jumiutuu (koodit, henkilönumerot, sisäänluku), laita viestiä: **info@tyovuorolista.fi**.
+Jos jokin kohta jumiutuu (koodit, henkilönumerot, sisäänluku), laita viestiä: **info@tyovuorolista.fi**.

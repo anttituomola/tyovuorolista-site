@@ -17,15 +17,15 @@ tags: ['TES', 'kiinteistöpalveluala', 'lisätyö', 'ylityö', 'palkanlaskenta']
 **Lyhyesti:** KipaTES:ssä (Kiinteistötyönantajat ry – PAM ry,
 1.4.2025–31.3.2028, yleissitova) lisätyön ja ylityön raja on **40
 tuntia viikossa** (TES 8 § 9). Ylityöstä maksetaan päivätasolla
-ensimmäisiltä kahdelta tunnilta +50 % ja sen jälkeen +100 %;
-viikkotasolla 40 tunnin jälkeen ensimmäisiltä kahdeksalta +50 %.
+kahdelta ensimmäiseltä tunnilta +50 % ja sen jälkeen +100 %;
+viikkotasolla 40 tunnin jälkeen kahdeksalta ensimmäiseltä +50 %.
 Koska säännöllinen viikkotyöaika on 37,5 tuntia, käytännössä **37,5:stä
 48:een tuntiin muodostuu yksi 10,5 tunnin +50 %:n kaista**.
 
 ## Lisätyö vai ylityö: 40 tunnin raja
 
 **Lisätyötä** on työ, joka ylittää työntekijälle sovitun työajan mutta
-jää enimmäään 40 tuntiin viikossa. **Ylityötä** on vasta 40 tunnin
+jää enintään 40 tuntiin viikossa. **Ylityötä** on vasta 40 tunnin
 ylittävä osuus. Muistutus työaikalaista: yli 8 tunnin päivät vaativat
 työntekijän erillisen suostumuksen kutakin kertaa varten (TAL 17 §).
 
@@ -39,7 +39,7 @@ Korvaukset määräytyvät kahdella tasolla (TES 10 § 1):
 Lisäksi sopimuksessa on palvelualoille epätavallinen kohta: kun
 säännöllinen työaika on enintään 37,5 h/vk, myös **37,5–40 tunnin
 lisätyö korotetaan +50 %:lla**. Näin ollen kokoaikaisen korotettu
-+50 %:n kaista on yhtenäisenä 37,5 tunnista 48 tuntiin. Yhteensä 10,5
++50 %:n kaista ulottuu yhtenäisenä 37,5 tunnista 48 tuntiin. Yhteensä 10,5
 tuntia, josta 2,5 on korotettua lisätyötä.
 
 ## Sopimuksen oma esimerkki: 54 tunnin viikko
@@ -91,12 +91,14 @@ läpi [tasoittumispostauksessa](/posts/tasoittumisjarjestelma_kiinteistopalvelua
 
 ## TES-apuri laskee tämän puolestasi
 
-Kun venueellasi on Kiinteistöpalvelualan TES valittuna, tyovuorolista.fi
+Kun venuellasi on Kiinteistöpalvelualan TES valittuna, tyovuorolista.fi
 luokittelee tunnit automaattisesti: lisätyö aina yksinkertaisena,
 +50 %:n kaista (sisältäen korotetun lisätyön) ja +100 %:n ylityöt
 omiksi palkkaraportin riveikseen. Erittely toimii sekä kokoaikaisille
 että osa-aikaisille, kun sopimustunnit on kirjattu työntekijän tietoihin.
 
 <img src="/blogPostImages/kipa-tes/kipa-tuntien-luokittelu.png" alt="Tuntien kirjaus: kiinteistöpalvelutyöntekijän viikon tunnit eriteltynä lisätyöhön ja ylityöhön" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+---
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8 § 9 mom. ja 10 § 1 mom. (sis. 54 tunnin laskentaesimerkki); [PAM: Työelämäopas](https://www.pam.fi/tyoelamaopas) (lisätyö-osio, päivitetty 4.2.2026); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 17 §.*

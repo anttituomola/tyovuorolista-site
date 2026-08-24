@@ -10,6 +10,8 @@ image:
 tags: ["käyttöliittymä", "käyttöohjeet", "X-päivä", "V-päivä", "vapaapäivät"]
 ---
 
+tyovuorolista.fi määrittää vapaapäivän tyypin automaattisesti: työntekijän viikon ensimmäinen merkattu vapaapäivä on V-päivä ja loput saman viikon vapaat X-päiviä. Tässä ohjeessa kerrotaan, miten vapaapäivät merkataan kalenteriin ja miten tyypin voi tarvittaessa vaihtaa itse.
+
 ## Mitkä X- ja V-päivät?
 Sivuilta löytyy myös oma tekstinsä, joka vastaa pidemmin kysymykseen, [mitä ovat X-, V- ja muut lyhenteet työvuorolistassa?](/posts/tyovuorolista_lyhenteet). Lue myös [mitä V-päivä tarkoittaa](/posts/mita_tarkoittaa_v-paiva_tyovuorolistassa), [mitä X-päivä tarkoittaa](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa) ja [vuosiloman merkkaaminen](/posts/vuosiloman_merkkaaminen_tyovuorolistaan).
 

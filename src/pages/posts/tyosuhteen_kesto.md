@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työsuhteen alkupäivä ja lopetuspäivä työntekijälle'
 pubDate: 2026-06-24
-description: 'Voit nyt merkitä kesä- ja määräaikaistyöntekijöille työsuhteen keston. Kalenteri näyttää päättyneet työntekijät selkeästi, ja saat varoituksen jos vuoro osuu työsuhteen ulkopuolelle.'
+description: 'Voit nyt merkitä kesä- ja määräaikaistyöntekijöille työsuhteen keston. Kalenteri näyttää päättyneet työntekijät selkeästi, ja saat varoituksen, jos vuoro osuu työsuhteen ulkopuolelle.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyosuhteen-kesto/hero-image.png'
@@ -27,7 +27,7 @@ Päivämäärät ovat valinnaisia. Voit tyhjentää valitun päivän X-painikkee
 
 ## Työntekijät-listauksessa näet keston yhdellä silmäyksellä
 
-Työntekijät-taulukossa on uusi **Työsuhde**-sarake. Jos päivät on määritetty, näet ne muodossa *1.6.–20.6.2026*. Tyhjät kentät näkyvät viivana (. ).
+Työntekijät-taulukossa on uusi **Työsuhde**-sarake. Jos päivät on määritetty, näet ne muodossa *1.6.–20.6.2026*. Tyhjät kentät näkyvät viivana (–)..
 
 ![Työntekijät-näkymä Työsuhde-sarakkeella](/blogPostImages/tyosuhteen-kesto/workers-table-with-dates.png)
 
@@ -44,9 +44,9 @@ Kalenterin suunnittelunäkymässä työntekijät jaotellaan nykyisen listan aika
 | Työsuhde on juuri päättynyt | Työntekijä näkyy sivupalkissa harmaana, ei raahattavissa. Alla lukee esim. *Työsuhde päättynyt 20.6.2026* |
 | Työsuhde päättynyt jo aikaa sitten | Työntekijä poistuu suunnittelunäkymästä (ei häiritse uusien listojen tekoa) |
 
-Päättyneen työntekijän jälkeen on lyhyt **siirtymäaika** (7 päivää), jolloin hänet näkee vielä sivupalkissa mutta ei voi raahata kalenteriin. Tämä auttaa viimeistelemään juuri päättyneen kauden listoja.
+Työsuhteen päättymisen jälkeen on lyhyt **siirtymäaika** (7 päivää), jolloin työntekijän näkee vielä sivupalkissa mutta ei voi raahata kalenteriin. Tämä auttaa viimeistelemään juuri päättyneen kauden listoja.
 
-Jos työntekijällä on vielä vuoroja nykyisessä listassa, hän näkyy sivupalkissa silti. Vuoroja voi muokata, mutta uusia vuoroja ei voi raahata helposti vahingossa.
+Jos työntekijällä on vielä vuoroja nykyisessä listassa, hän näkyy sivupalkissa silti. Vuoroja voi muokata, mutta uusia vuoroja ei voi vahingossa raahata.
 
 ![Kalenteri, jossa päättynyt työntekijä näkyy sivupalkissa](/blogPostImages/tyosuhteen-kesto/calendar-ended-worker.png)
 

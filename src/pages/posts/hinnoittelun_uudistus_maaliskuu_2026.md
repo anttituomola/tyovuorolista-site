@@ -35,7 +35,7 @@ Vuosilaskutus pysyy euromäärältään ennallaan, joten se on selvästi edullis
 
 ## Ominaisuudet vain maksullisissa paketeissa
 
-Mini sopii kevyeseen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kaikki nämä (työntekijärajat eriävät):
+Mini sopii kevyeen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kaikki nämä (työntekijärajat eroavat):
 
 - raportit palkanlaskentaan  
 - sähköposti-ilmoitukset työntekijöille  
@@ -43,7 +43,7 @@ Mini sopii kevyeseen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kai
 - mobiiliystävällinen käyttöliittymä  
 - asiakastuki  
 
-Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti_ominaisuus)** eikä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
+Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti_ominaisuus)** eivätkä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
 
 ## Jos harkitset kuukausitilausta
 

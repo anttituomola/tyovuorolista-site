@@ -19,7 +19,7 @@ viikossa** (TES 6 §). Työnantaja voi laatia etukäteen **2–26 viikon
 tasoittumisjärjestelmän**, jonka aikana viikkotyöaika tasoittuu tähän
 keskiarvoon. Yksittäinen viikko saa silti olla enintään **48 tuntia**, ja
 kolmen viikon jaksossa saa olla enintään **9 yli 8 tunnin työvuoroa**
-(ellei pidemmistä vuoroista ole sovittu). Jakson lopussa yli menevät tunnit
+(ellei pidemmistä vuoroista ole sovittu). Jakson lopussa ylimenevät tunnit
 tilitetään **+50 %:lla** (12 § 9). Päivittäinen yli 10 h -korotus maksetaan
 kuitenkin heti.
 
@@ -64,7 +64,7 @@ kuulua toistaiseksi tai vähintään vuoden määräaikaisissa työsuhteissa
 olevat, joiden sopimustyöaika on vähintään **30 h/viikko**; alle 37,5 h
 tekeville maksetaan suhteutettua kuukausipalkkaa.
 
-Logistiikkatyöntekijöillä 27–52 vk -jaksoa koskevat omat pöytäkirjamääräykset
+Logistiikkatyöntekijöillä 27–52 vk -jaksoa koskevat omat pöytäkirjamääräykset.
 Niistä lisää
 [logistiikkapostauksessa](/posts/logistiikkatyontekijan_erityissaannot_kaupan_alalla).
 
@@ -118,5 +118,7 @@ tallennusta: paikallinen sopiminen on kaupan alalla laajaa.
 <img src="/blogPostImages/kaupan-tes/kaupan-tes-asetukset.png" alt="TES-asetukset Kaupan alan TES:llä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 6–15, 8 § 7–8, 12 § 9; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 18 § (keskimääräinen 48 h/vko).*

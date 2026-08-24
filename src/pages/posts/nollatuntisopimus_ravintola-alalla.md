@@ -37,7 +37,7 @@ MaRa-TES:ssä työnantaja ja osa-aikainen työntekijä sopivat joko
   90 h / 3 vk), tai
 - **keskimääräisestä** kolmiviikkoisjakson vähimmäistyöajasta.
 
-Kiinteän vähimmäistyöajan on toteuduttava joka jaksossa, jos
+Kiinteän vähimmäistyöajan on toteuduttava joka jaksossa: jos
 työnantaja ei tarjoa sovittuja tunteja, puuttuvat tunnit on
 korvattava. Keskimääräisen vähimmäistyöajan toteutumista taas
 **tarkastellaan kuuden kuukauden välein** (sesonkitoiminnassa enintään

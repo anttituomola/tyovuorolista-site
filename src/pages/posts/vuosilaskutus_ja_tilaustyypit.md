@@ -51,7 +51,7 @@ Molemmissa tilaustyypeissä **ei ole irtisanomisaikaa**:
 - **Aktivoituu**: Välittömästi
 - **Hyvitys**: Saat osittaisen hyvityksen edellisestä, halvemmasta paketista
 
-### Alennukset (halvempaan pakettiin)
+### Alentaminen (halvempaan pakettiin)
 - **Aktivoituu**: Nykyisen tilausjakson lopussa
 - **Hyvitys**: Ei hyvitystä
 

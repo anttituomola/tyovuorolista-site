@@ -77,4 +77,4 @@ Usean vuoron valinta nopeuttaa listan hienosäätöä:
 - **Poisto** kerralla erillisellä vahvistuksella
 - **Osittainen onnistuminen**: kelvolliset vuorot käsitellään ja ongelmalliset ohitetaan
 
-Haluatko tarkemman oppaan vuorojen luomisesta? Lue [Näin lisäät työvuoroita kalenteriin](/posts/vuorojen_lisaminen_kalenteriin). Toistuvien kaavojen luontiin sopii [Toistuvat työvuorot](/posts/toistuvat_tyovuorot).
+Haluatko tarkemman oppaan vuorojen luomisesta? Lue [Näin lisäät työvuoroja kalenteriin](/posts/vuorojen_lisaminen_kalenteriin). Toistuvien kaavojen luontiin sopii [Toistuvat työvuorot](/posts/toistuvat_tyovuorot).

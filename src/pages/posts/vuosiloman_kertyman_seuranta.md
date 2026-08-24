@@ -150,8 +150,8 @@ TES-toimipaikalla taulukko näyttää valitun lomanmääräytymisvuoden
 
 **Pidetty**-sarakkeessa lomapäivät lasketaan vuosilomalain
 arkipäivinä. Lauantai lasketaan tavallisesti lomapäiväksi. Sunnuntaita,
-pyhäpäiviä, jouluaattoa, juhannusaattoa, pääsiäislauantaita eikä
-vappua tai itsenäisyyspäivää lasketa.
+pyhäpäiviä, jouluaattoa, juhannusaattoa, pääsiäislauantaita, vappua ja
+itsenäisyyspäivää ei lasketa.
 
 Ansaittu oikeus ja pidetyt päivät koskevat tavallisesti eri
 lomanmääräytymisvuosia. Älä siis vähennä saman rivin pidettyjä päiviä

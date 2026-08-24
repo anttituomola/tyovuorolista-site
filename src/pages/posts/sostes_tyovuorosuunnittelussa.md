@@ -15,7 +15,7 @@ tags: ['TES', 'sosiaalipalveluala', 'jaksotyö', 'työvuorosuunnittelu', 'hoiva-
 ---
 
 **Lyhyesti:** Yksityisen sosiaalipalvelualan työehtosopimus eli SOSTES
-(Hyvinvointiala HALI ry – Sote ry, JHL, Talentia ja Salli,
+(Hyvinvointiala HALI ry – Sote ry, JHL, Talentia ja Salli ry,
 1.1.2026–30.4.2028, yleissitova) rakentuu ympärivuorokautisessa hoivassa
 **jaksotyön** ympärille: säännöllinen työaika on keskimäärin
 **38 tuntia 20 minuuttia viikossa eli 115 tuntia kolmessa viikossa**.
@@ -113,5 +113,7 @@ irtisanottavissa päättymään 30.4.2027. Seuraamme tilannetta ja
 päivitämme laskennan, jos määräykset muuttuvat.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Yksityisen sosiaalipalvelualan työehtosopimus 1.1.2026–30.4.2028 (Tehy, PDF)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf) 6 § (työaika), 7 § (arkipyhät) ja uudistamispöytäkirja (sopimuskausi); [HALI: yksityinen sosiaalipalveluala](https://www.hyvinvointiala.fi/tyosuhdetietoa/tyoehtosopimukset/sosiaalipalveluala/); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 7 §, 8 §, 30 §.*

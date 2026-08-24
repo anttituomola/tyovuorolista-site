@@ -110,7 +110,7 @@ TES 12 § 2 kohdan mukaan poissaoloajalta luetaan tehdyiksi työtunneiksi ne
 tunnit, jotka työvuorolistaan oli merkitty. Käytännössä tämä tarkoittaa
 kahta asiaa saldon kannalta:
 
-- **Sairausloma:** sairaspäivältä luetaan mukaan listaan merkityt tunnit.
+- **Sairausloma:** sairauspäivältä luetaan mukaan listaan merkityt tunnit.
   Jos vuorossa oli 8 tuntia, saldoon kertyy 8 tuntia, vaikka työntekijä ei
   ollut töissä.
 - **Vuosiloma:** loman ajalta luetaan 7,5 tuntia jokaiselta arkipäivältä
@@ -184,7 +184,7 @@ kesäterassi, hiihtokeskus tai tapahtumapainotteinen ravintola. Käytännön
 edellytyksiä:
 
 - koskee vain **kuukausipalkkaisia kokoaikaisia** työntekijöitä. Ei
-  osa-aikaisia, ei tuntipalkkaisia, eikä henkilöitä joilla on
+  osa-aikaisia, ei tuntipalkkaisia, eikä henkilöitä, joilla on
   [TES ei koske](/posts/tyontekijan_tes_tiedot) -valinta
 - kauden pituus ja alkujakso on päätettävä etukäteen, ei jälkikäteen
   parhaiten sopivaksi valikoiden

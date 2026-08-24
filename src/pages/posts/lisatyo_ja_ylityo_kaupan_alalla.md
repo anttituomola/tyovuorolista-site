@@ -50,7 +50,7 @@ yli 10 tunnin päivää:
 
 Jos samalla viikolla olisi ollut yksi 12 tunnin päivä, siitä olisi
 erotettu ensin 2 tuntia päiväkohtaista +50 % -työtä, ja vasta loput
-tunnit olisi verrattu viikkorajaan, samat tunnit eivät koskaan
+tunnit olisi verrattu viikkorajaan: samat tunnit eivät koskaan
 korotu kahdesti.
 
 Viikon työaikaan lasketaan myös viikon aikana annettu **vuosivapaa**
@@ -83,7 +83,7 @@ Esimerkiksi 13 tunnin päivästä: 10 h yksinkertaisena, 2 h +50 % ja
 ylimenevää tuntia olisivat +50 %.
 
 Tämän takia sovelluksessa työntekijälle valitaan työntekijäryhmä
-(myyjä / logistiikka / toimihenkilö / siivooja), sama tuntimäärä voi
+(myyjä / logistiikka / toimihenkilö / siivooja): sama tuntimäärä voi
 luokittua eri tavalla eri ryhmissä.
 
 ## Tasoittumisjaksossa lasketaan jakson lopussa

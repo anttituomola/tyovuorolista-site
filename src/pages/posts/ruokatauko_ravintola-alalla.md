@@ -33,8 +33,8 @@ virvokkeita työn lomassa.
 ## Ruokatauko: yli 6 tunnin työpäivissä
 
 Kun päivittäinen yhdenjaksoinen työaika ylittää kuusi tuntia,
-kahvitauon lisäksi on annettava **vähintään puolen tunnin lepoaika**
-Tai työrytmi huomioiden tilaisuus riittävän pitkään taukoon
+kahvitauon lisäksi on annettava **vähintään puolen tunnin lepoaika**,
+tai työrytmi huomioiden tilaisuus riittävän pitkään taukoon
 aterioimista varten ruokailuun soveltuvassa tilassa. Jälkimmäinen on
 ravintoloiden arkea: kun salia ei voi jättää tyhjilleen, syödään
 työajalla, ja silloin mitään ei vähennetä palkasta.

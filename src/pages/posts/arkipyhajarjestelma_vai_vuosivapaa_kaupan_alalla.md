@@ -29,7 +29,7 @@ osastotasoinen**, eikä sitä voi vaihtaa kesken kalenterivuoden
 | Lyhennys / ansainta | 7,5 h per lyhentävä arkipyhä (osa-aikainen: sopimus ÷ 5) | 200 h → 1 pv … 1560 h → 9 pv |
 | Kelpoisuus | Työsuhde ≥ 1 kk ennen arkipyhää (itsenäisyyspäivä poikkeus) | Ansainta alkaa vasta 6 kk työsuhteen jälkeen |
 | Antaminen | Vapaa arkipyhäviikolla ± 2 vk tai tasoittumisjaksossa | Ensisijaisesti ansaintavuonna, viimeistään seuraavan huhtikuun loppuun |
-| Korvaa TES:stä | 8 § 10–25 (VV-määräykset) |. (oletus TES:ssä) |
+| Korvaa TES:stä | 8 § 10–25 (VV-määräykset) | (oletus TES:ssä) |
 
 Molempia ei käytetä rinnakkain samassa yksikössä: arkipyhäpöytäkirjan
 kohdat 3–7 **korvaavat** vuosivapaita koskevat 8 §:n kohdat 10–25.
@@ -100,5 +100,7 @@ sesonkisuunnittelussa** mutta vaatii saldon seurantaa.
 <img src="/blogPostImages/kaupan-tes/kaupan-tes-asetukset.png" alt="TES-asetukset, joissa Kaupan alan TES valittuna" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 8 § 10–25 (vuosivapaa); työaikapöytäkirja “Arkipyhäjärjestelmä” (s. 113–117, kohdat 1–10).*

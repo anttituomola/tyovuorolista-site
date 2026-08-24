@@ -12,8 +12,10 @@ tags: ["tiimit", "julkaisu", "työvuorolista"]
 
 *Päivitetty 18.8.2026: puhelimessa listan jakaminen on **Jaa** (JPEG) ja **Lataa PDF**. Kopioi kuva ja Tulosta ovat tietokoneella.*
 
+Kun työvuorolista on valmis, voit julkaista sen työntekijöille usealla tavalla: kuvana, PDF:nä tai sähköpostilla lähetettävinä henkilökohtaisina listoina. Tämä ohje käy läpi listatyypit, julkaisuformaatit ja sähköpostilähetyksen vaiheet.
+
 ### Kaksi eri työvuorolistatyyppiä
-Työvuorolistassa on kahta eri työvuorolistatyyppiä:
+Työvuorolistassa on kaksi eri työvuorolistatyyppiä:
 1. **Tiimikohtainen työvuorolista**: tällä listalla näkyy **kaikki tiimin työntekijät**, joilla on vuoroja listalla, sekä heidän työvuoronsa. Tämä lista on saatavilla kuvana ja PDF:nä.
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_kuva_tai_pdf.png" alt="Kuva työvuorolistasta png- tai pdf-formaatissa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -43,7 +45,7 @@ Voit nyt valita työvuorolistan esitystavan kahdesta eri vaihtoehdosta:
 
 Voit vaihtaa asettelua "Julkaise"-näkymässä olevasta "Tiivis asettelu" -kytkimestä. Asetus vaikuttaa sekä kuvana että PDF:nä tallennettaviin ja printattaviin työvuorolistoihin.
 
-### Työvuorolistan lähettäminen sähköpostilla.
+### Työvuorolistan lähettäminen sähköpostilla
 
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_laheta_sahkopostilla.png" alt="Työvuorolistan lähetysmodaali" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -57,9 +59,9 @@ Voit lähettää henkilökohtaiset työvuorolistat työntekijöille sähköposti
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_notifikaatiot.png" alt="Työvuorolistan lähetysnotifikaatiot" width="50%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 ### Henkilökohtainen työvuorolista kokoaa vuorot eri tiimeistä
-Kun lähetät henkilökohtaisia työvuorolistoja sähköpostilla, kokoaa sovellus aina työvuorot listan ajalta **myös muista tiimeistä** (lue lisää [sama työntekijä useassa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa)). Näin taataan, että vaikka julkaisisit esim. "Toimisto"-tiimin työvuorolistan ajalla 1.-21.1., ja listan jollakin työntekijällä on tuon saman aikavälin "Sali"-tiimin työvuorolistassa vuoroja, nuo sali-vuorot lisätään tähän lähtettävään listaan.
+Kun lähetät henkilökohtaisia työvuorolistoja sähköpostilla, kokoaa sovellus aina työvuorot listan ajalta **myös muista tiimeistä** (lue lisää [sama työntekijä useassa tiimissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa)). Näin taataan, että vaikka julkaisisit esim. "Toimisto"-tiimin työvuorolistan ajalla 1.-21.1., ja listan jollakin työntekijällä on tuon saman aikavälin "Sali"-tiimin työvuorolistassa vuoroja, nuo sali-vuorot lisätään tähän lähetettävään listaan.
 
-Tätä ominaisuus ei ole valinnainen, koska haluamme, että työntekijällä on aina yhtenäinen ja helposti luettava työvuorolista. 
+Tämä ominaisuus ei ole valinnainen, koska haluamme, että työntekijällä on aina yhtenäinen ja helposti luettava työvuorolista. 
 >**Ole siis tarkkana, että myös muiden tiimien samanaikaiset listat ovat valmiina ainakin niiden työntekijöiden osalta, joilla on vuoroja molemmissa tiimeissä.**
 
 Modaali näyttää sinulle aina listan niistä vuoroista, joita se on lisäämässä lähetettävään listaan. Näin voit ennen lähetystä tarkistaa, että kaikki on kunnossa.
@@ -71,4 +73,4 @@ Mikäli yrityksessäsi julkaistaan kaikkien tiimien listat yhtäaikaisesti, voit
 
 Mikäli painat "**Julkaise kaikki listat**", kaikki nämä listat merkitään julkaistuiksi ja kaikille työntekijöille, joilla on näissä listoissa työvuoroja, lähetetään henkilökohtainen työvuorolista sähköpostiin. Kuten aina, tämä lista sisältää kootusti kaikki työntekijän vuorot kaikista näistä listoista.
 
-Vaikka listat merkataan julkaistuiksi, **voit palauttaa ne muokattavaksi** päävalikosta Hallinta -> Työvuorolistat
+Vaikka listat merkataan julkaistuiksi, **voit palauttaa ne muokattaviksi** päävalikosta Hallinta -> Työvuorolistat.

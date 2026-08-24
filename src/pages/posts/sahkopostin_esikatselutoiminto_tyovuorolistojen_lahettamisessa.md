@@ -14,9 +14,9 @@ Olemme kuunnelleet palautetta asiakkailtamme, ja yksi toistuvista toiveista on o
 
 ## Miksi esikatselutoiminto on tärkeä?
 
-Aiemmin työvuorolistojen lähettäminen sähköpostilla toimi suoraan: valitsit työntekijät ja painoit "Lähetä sähköpostit". Järjestelmä loi taustalla henkilökohtaiset listat yhdistäen vuoroja eri tiimeistä, lisäten päivämerkinnät ja muotoillen kaiken sähköpostiksi - mutta et nähnyt lopputulosta ennen lähettämistä.
+Aiemmin työvuorolistojen lähettäminen sähköpostilla toimi suoraan: valitsit työntekijät ja painoit "Lähetä sähköpostit". Järjestelmä loi taustalla henkilökohtaiset listat yhdistäen vuoroja eri tiimeistä, lisäten päivämerkinnät ja muotoillen kaiken sähköpostiksi, mutta et nähnyt lopputulosta ennen lähettämistä.
 
-**Uusi esikatselutoiminto ratkaisee tämän**, antaen sinulle näkyvyyden lähetettävien sähköpostien sisällöstä.
+**Uusi esikatselutoiminto ratkaisee tämän**: näet lähetettävien sähköpostien sisällön ennen lähettämistä.
 
 ## Kuinka uusi työnkulku toimii?
 
@@ -68,15 +68,15 @@ Voit helposti **siirtyä työntekijältä toiselle** klikkaamalla heidän nimiä
 Esikatselumodaalissa voit myös säätää seuraavia asetuksia ennen lähettämistä:
 
 ### PDF-liite
-- **"Liitä myös tiimin lista PDF:nä"** - lisää sähköpostiin PDF-version koko tiimin työvuorolistasta
+- **"Liitä myös tiimin lista PDF:nä"**: lisää sähköpostiin PDF-version koko tiimin työvuorolistasta
 - Hyödyllinen, kun työntekijät haluavat nähdä myös koko tiimin aikataulun
 
 ### Listan julkaiseminen
-- **"Merkitse lista julkaistuksi lähetyksen yhteydessä"** - lista merkitään automaattisesti julkaistuksi kun sähköpostit on lähetetty
-- Voit halutessaan jättää tämän pois päältä, jos haluat lähettää luonnoksia
+- **"Merkitse lista julkaistuksi lähetyksen yhteydessä"**: lista merkitään automaattisesti julkaistuksi, kun sähköpostit on lähetetty
+- Voit halutessasi jättää tämän pois päältä, jos haluat lähettää luonnoksia
 
 ### Kopiot itsellesi
-- **"Lähetä kopiot viesteistä sähköpostiini"** - saat kopion jokaisesta lähetetystä sähköpostista
+- **"Lähetä kopiot viesteistä sähköpostiini"**: saat kopion jokaisesta lähetetystä sähköpostista
 - Sähköpostiosoite esitäytetty yritysprofiilista
 - Voit muuttaa osoitteen tarvittaessa
 
@@ -143,7 +143,7 @@ Varmista, että:
 Laita **"Lähetä kopiot viesteistä sähköpostiini"** päälle ensimmäisillä kerroilla. Näin voit:
 - Varmistaa, että sähköpostit lähtevät oikein
 - Tutustua lopulliseen muotoiluun
-- Saat kopiot omaan arkistoosi lähetetyistä listoista
+- Saada kopiot omaan arkistoosi lähetetyistä listoista
 
 ### 4. Testaa eri tilanteissa
 Kokeile esikatselutoimintoa:

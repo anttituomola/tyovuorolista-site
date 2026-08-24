@@ -38,8 +38,8 @@ Ehdot ja määrä:
   työaikaa tekevällä tunnit lasketaan vuosineljänneksen toteutuneista
   tunneista jakajalla 63.
 - Keskituntiansio lasketaan vuosineljännekseltä (9 § 2).
-- Jos arkipyhänä **ollaan töissä**, maksetaan +100 % korotettu palkka
-Erillistä arkipyhäkorvausta ei tehtyjen tuntien osalta tule.
+- Jos arkipyhänä **ollaan töissä**, maksetaan +100 % korotettu palkka.
+  Erillistä arkipyhäkorvausta ei tehtyjen tuntien osalta tule.
 
 Huomattavin ero [kaupan alaan](/posts/arkipyhajarjestelma_vai_vuosivapaa_kaupan_alalla):
 KipaTES:n arkipyhä **ei lyhennä viikon työaikaa** eikä siirrä lisä- ja
@@ -71,7 +71,7 @@ vastaavia: tehdyistä tunneista kertyy vapaapäiviä porrastetusti.
 - Siirtymäsäännös: jos työsuhde alkaa 1.8.–31.12.2026, karenssi kestää
   31.3.2027 asti.
 
-Samalla käänteessä muuttuvat myös
+Samassa käänteessä muuttuvat myös
 [tasoittumisjärjestelmän säännöt](/posts/tasoittumisjarjestelma_kiinteistopalvelualalla):
 jakson enimmäispituus nousee 12 viikkoon ja peräkkäisille työpäiville
 tulee 9 päivän katto.
@@ -94,5 +94,7 @@ oikeuttavat päivät ja tunnit palkkaraportissa. Keskituntiansion
 laskenta jää palkanlaskennan ohjelmaan.
 
 <img src="/blogPostImages/kipa-tes/kipa-palkkaraportti.png" alt="Palkkaraportti: kiinteistöpalvelualan TES:n korvausrivit eriteltynä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+---
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 9 § (erityisesti 6 mom., voimassaolo- ja vuosivapaamääräykset) ja allekirjoituspöytäkirja; [Kiinteistötyönantajat ry: sovitut muutokset 2025–2028](https://kiinteistotyonantajat.fi/wp-content/uploads/2025/04/kiinteistopalvelualan-tyontekijat-palkankorotukset-ja-tekstimuutokset_2025.pdf).*

@@ -14,7 +14,7 @@ Työvuorolista tukee nyt resurssien aikataulutusta, jolloin voit liittää autot
 
 <video controls width="100%">
     <source src="/blogPostImages/resources/tyovuorolistan_resurssit.mp4" type="video/mp4">
-    Selaimesi ei tue videotägiä.
+    Selaimesi ei tue video-elementtiä.
 </video>
 
 <div style="border: 2px solid #e2e2e2; border-radius: 4px; padding: 1rem; margin: 1.5rem 0; background-color: #f9f9f9;">
@@ -35,7 +35,7 @@ Resurssit ovat liikkuvia laitteita tai ajoneuvoja, joita tarvitaan työvuorojen 
 
 Ennen kuin voit käyttää resurssien aikataulutusta, sinun täytyy ottaa se käyttöön profiilissa:
 
-1. Siirry kohtaan **Hallinta → Asetukset**, tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">profiiliasetukset tästä</a>
+1. Siirry kohtaan **Hallinta → Asetukset** tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">profiiliasetukset tästä</a>
 2. Etsi asetus **"Ota käyttöön resurssien aikataulutus (autot, työkalut, jne.)"**
 3. Kytke asetus päälle
 4. Asetus tallentuu automaattisesti
@@ -71,7 +71,7 @@ Voit muokata resurssia klikkaamalla **"Muokkaa"** -painiketta. Muokkauksessa voi
 
 ![Resurssin tiedot](/blogPostImages/resources/tyovuorolistan_resurssit_resurssin_tiedot.png)
 
-Resurssin poistaminen poistaa sen kaikista työvuoroista, mutta työvuorot säilyvät - ne vain menettävät resurssin.
+Resurssin poistaminen poistaa sen kaikista työvuoroista, mutta työvuorot säilyvät, ne vain menettävät resurssin.
 
 ## Resurssien liittäminen työvuoroihin
 
@@ -103,9 +103,9 @@ Voit asettaa työntekijöille oletusresurssin kahdella tavalla:
 - Valitse useita työntekijöitä, joille resurssi on oletuksena
 - Tallenna muutokset
 
-Kun luot uuden työvuoron työntekijälle, jolla on oletusresurssi, resurssi valitaan automaattisesti - voit silti muuttaa sitä tarvittaessa.
+Kun luot uuden työvuoron työntekijälle, jolla on oletusresurssi, resurssi valitaan automaattisesti. Voit silti muuttaa sitä tarvittaessa.
 
-Jos asetat resurssin työntekijöille resurssin modaalista, se korvaa työntekijän modaalista asetetun oletusresurssin kyseisessä yksittäisessä vuorossa..
+Jos asetat resurssin työntekijöille resurssin modaalista, se korvaa työntekijän modaalista asetetun oletusresurssin kyseisessä yksittäisessä vuorossa.
 
 ## Poissaolojaksojen hallinta
 
@@ -124,21 +124,21 @@ Jos resurssi on poissa käytöstä (esim. huollossa tai korjauksessa), voit merk
 
 Järjestelmä varoittaa, jos yrität liittää resurssin työvuoroon poissaolojakson aikana.
 
-**HUOM** Järjestelmä ei estä sinua lisäämästä katkolla olevaa resurssia työvuorolle, se ainoastaan varoittaa siitä. Mikäli olet lisännyt resurssin ennen käyttökatkon määrittelyä työvuoroille, tästä et saa varoitusta.
+**HUOM!** Järjestelmä ei estä sinua lisäämästä katkolla olevaa resurssia työvuorolle, se ainoastaan varoittaa siitä. Mikäli olet lisännyt resurssin työvuoroille ennen käyttökatkon määrittelyä, tästä et saa varoitusta.
 
 ## Konfliktien havaitseminen
 
-Järjestelmä automaattisesti havaitsee, jos resurssi on jo käytössä tai poissa käytöstä:
+Järjestelmä havaitsee automaattisesti, jos resurssi on jo käytössä tai poissa käytöstä:
 
 ### Päällekkäiset työvuorot
 
-Jos yrität liittää resurssin työvuoroon, joka päällekkäin toisen työvuoron kanssa, näet varoituksen:
+Jos yrität liittää resurssin työvuoroon, joka on päällekkäin toisen työvuoron kanssa, näet varoituksen:
 
 > "Resurssi on jo käytössä samaan aikaan. Tarkista ja poista tarvittaessa!"
 
 ![Resurssi käytössä -varoitus](/blogPostImages/resources/tyovuorolistan_resurssit_resurssi_kaytossa_varoitus.png)
 
-Varoitus ei estä työvuoron luomista - se vain varoittaa sinua mahdollisesta konfliktista.
+Varoitus ei estä työvuoron luomista, se vain varoittaa sinua mahdollisesta konfliktista.
 
 ### Poissaolojaksojen konfliktit
 
@@ -160,7 +160,7 @@ Kun liität resurssin työvuoroon, resurssin nimi näkyy kalenterinäkymässä t
 
 Resurssin nimi näkyy myös työvuoron tiedoissa, kun avaat sen suunnittelukalenterista.
 
-## Sähköpostiintegraatio
+## Sähköposti-integraatio
 
 Kun lähetät työvuorolistan sähköpostitse, resurssit näkyvät automaattisesti:
 

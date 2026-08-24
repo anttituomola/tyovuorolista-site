@@ -32,7 +32,7 @@ Lomasuunnittelunäkymään pääset käsiksi kahdella tavalla:
 Lomasuunnittelussa voit:
 - Luoda **lomatoiveita** työntekijöille
 - Merkitä **vahvistettuja lomia**
-- **Konvertoida lomatoiveita** vahvistetuiksi lomiksi
+- **Muuntaa lomatoiveita** vahvistetuiksi lomiksi
 
 ## Kalenterinäkymä
 
@@ -105,13 +105,13 @@ Järjestelmä toimii seuraavalla tavalla vuorojen ja lomien päällekkäisyyksie
 
 Lue myös [vuosiloman merkkaaminen työvuorolistaan](/posts/vuosiloman_merkkaaminen_tyovuorolistaan) -teksti, jossa kerrotaan tarkemmin lomien merkkaamisesta kalenterinäkymässä, sekä [vapaapäivien merkkaus kalenterissa](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan) ja [työvuorolistan lyhenteet](/posts/tyovuorolista_lyhenteet).
 
-## Lomapäiväyhteenveto
+## Lomaraportti
 
 Lomasuunnittelukalenterin alla on **Lomaraportti**, joka listaa valitun
 lomanmääräytymisvuoden (1.4.–31.3.) pidetyt päivät ja lomatoiveet
 työntekijöittäin. Pidetyt päivät lasketaan vuosilomalain arkipäivinä
 (lauantai mukaan, sunnuntai ja pyhät pois). TES-toimipaikalla taulukossa
-on lisäksi **Ansaittu oikeus** saman LMV:n kertymästä — älä vähennä sen
+on lisäksi **Ansaittu oikeus** saman LMV:n kertymästä. Älä vähennä sen
 rivin pidettyjä ansaitusta, ne kuuluvat pääosin edelliseen vuoteen.
 Kertymän käyttöönotto on omassa ohjeessaan:
 [vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).

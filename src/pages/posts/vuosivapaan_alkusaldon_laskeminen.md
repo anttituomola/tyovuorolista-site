@@ -123,7 +123,7 @@ porrastus.)
   *Lisää aiempi vuosi* ja anna edellisen vuoden vielä antamatta olevat päivät.
   Sovellus näyttää siirtymän erikseen omalla määräpäivällään (MaRa: seuraavan
   vuoden loppuun; Kaupan/Kipa: pääsääntöisesti seuraavan huhtikuun loppuun).
-- **Etkä tiedä tarkkoja lukuja.** Käytä *arvio päivissä* -tapaa ja pyöristä
+- **Et tiedä tarkkoja lukuja.** Käytä *arvio päivissä* -tapaa ja pyöristä
   mieluummin alaspäin. Liian pieni saldo korjaantuu uusista tunneista, liian
   suuri voi näyttää virheellisesti suuren jäljellä olevan määrän.
 

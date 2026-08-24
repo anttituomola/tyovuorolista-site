@@ -58,7 +58,7 @@ Pohja ei laske tunteja automaattisesti, se on tarkoituksella yksinkertainen piir
 Paina **Tulosta / tallenna PDF** ja valitse selaimen tulostusikkunasta:
 
 - **Tulosta**: fyysinen paperilista
-- **Tallenna PDF** / **Save as PDF**. Digitaalinen kopio jaettavaksi
+- **Tallenna PDF** / **Save as PDF**: digitaalinen kopio jaettavaksi
 
 Tulostus jakaa listan kolmeen viikkoon, jotta se mahtuu luettavasti A4-paperille.
 

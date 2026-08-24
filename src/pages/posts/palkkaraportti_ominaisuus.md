@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Palkkaraportti-ominaisuus: joustava raporttigeneraattori CSV- ja PDF-muodoissa'
 pubDate: 2025-11-24
-description: 'Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen vientiä CSV- tai PDF-muodossa valittavien sarakkeiden kanssa. Raportti generoidaan valittujen työntekijöiden ja päivämäärien perusteella.'
+description: 'Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa valittavien sarakkeiden kanssa. Raportti generoidaan valittujen työntekijöiden ja päivämäärien perusteella.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/payroll-report/tuntiraportti_pdf.png'
@@ -12,7 +12,7 @@ tags: ["palkkaraportti", "raportit", "CSV", "PDF", "vienti", "työtuntien lasken
 
 *Päivitetty 23.7.2026: palkkaraporttiin on lisätty **Procountor-muotoinen palkka-aineisto**. Katso erillinen ohje: [Näin viet palkka-aineiston Procountoriin](/posts/procountor_palkka_vienti).*
 
-Työvuorolista-sovellukseen on nyt lisätty joustava palkkaraportti-ominaisuus, joka mahdollistaa palkkatietojen vientiä CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella.
+Työvuorolista-sovellukseen on nyt lisätty joustava palkkaraportti-ominaisuus, joka mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella.
 
 ## Mitä palkkaraportti-ominaisuus tarjoaa?
 
@@ -34,11 +34,11 @@ Siirry [Tuntien kirjaus -sivulle](https://app.tyovuorolista.fi/admin/LogHours) (
 
 <img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_kirjaus_nakyma.png" alt="Tuntikirjaus-sivu työntekijöiden ja päivämäärävälin valinnalla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 
-**2. Avaa palkkaraportti-modali**
+**2. Avaa palkkaraportti-modaali**
 
 Klikkaa **"Luo palkkaraportti..."** -painiketta. Modaali avautuu valittujen työntekijöiden ja päivämäärien kanssa.
 
-<img src="/blogPostImages/payroll-report/tuntiraportti_luo_palkkaraportti_modaali.png" alt="Palkkaraportti-modali CSV- ja PDF-vaihtoehdoilla sekä sarakevalinnoilla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/payroll-report/tuntiraportti_luo_palkkaraportti_modaali.png" alt="Palkkaraportti-modaali CSV- ja PDF-vaihtoehdoilla sekä sarakevalinnoilla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 **3. Valitse raportin asetukset**
 
@@ -116,9 +116,9 @@ Maija Esimerkki | Iltalisä | 10
 
 CSV-raportti generoidaan selaimessa ja ladataan välittömästi:
 
-- **Muoto**: Välilyöntierotin (pilkku)
+- **Muoto**: Pilkkuerotin
 - **Koodaus**: UTF-8 BOM (Excel-yhteensopivuus)
-- **Erikoismerkit**: Oikein käsitelty pilkut ja lainausmerkit
+- **Erikoismerkit**: Pilkut ja lainausmerkit käsitellään oikein
 - **Otsikkorivi**: Sisältää valitut sarakkeet
 
 CSV-muoto on ihanteellinen, jos haluat:
@@ -140,7 +140,7 @@ PDF-raportti generoidaan palvelimella ja ladataan selaimessa:
 PDF-muoto on ihanteellinen, jos haluat:
 - Tulostaa raportin suoraan
 - Jakaa raportin muille osapuolille
-- Säilyttää raportti arkistossa
+- Säilyttää raportin arkistossa
 
 <img src="/blogPostImages/payroll-report/tuntiraportti_pdf.png" alt="PDF-raportin esimerkki" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 
@@ -156,7 +156,7 @@ Laskentalogiikka:
 
 ## Tuntilaskennan asetukset
 
-Palkkaraportin laskelmat perustuvat paikkakohtaisiin tuntilaskennan asetuksiin. Nämä asetukset määrittävät, miten työtunnit, lisät ja edut lasketaan, ja vaikuttavat suoraan siihen, mitä tiedot näkyvät generoiduissa raporteissa.
+Palkkaraportin laskelmat perustuvat paikkakohtaisiin tuntilaskennan asetuksiin. Nämä asetukset määrittävät, miten työtunnit, lisät ja edut lasketaan, ja vaikuttavat suoraan siihen, mitkä tiedot näkyvät generoiduissa raporteissa.
 
 ### Asetusten sijainti
 
@@ -192,7 +192,7 @@ Nämä asetukset määrittävät, milloin eri aikajaksot (päivä, ilta, yö) al
 **Aattopäivän raja-aika**
 - Oletusarvo: **15:00** tai poistettu käytöstä
 - Määrittää raja-ajan aattopäivien erityislisille
-- Aattopäivien juhlapyhien jälkeen (esim. Juhannusaatto) tämän ajan jälkeen tehdyt tunnit lasketaan **Aattolisäksi**
+- Aattopäivinä (esim. juhannusaattona) tämän ajan jälkeen tehdyt tunnit lasketaan **Aattolisäksi**
 - Voidaan poistaa käytöstä kokonaan
 
 **Vaikutus raportteihin**: Kun asetus on käytössä, raportti sisältää **Aattolisä**-rivin oikeuttaville tunneille. Kun asetus on poistettu käytöstä, erityislisärivejä ei näy raportissa.
@@ -223,7 +223,7 @@ Jos paikalle ei ole määritelty asetuksia, järjestelmä käyttää suomalaiste
 - **Aattopäivän raja-aika** → Kontrolloi, näkyykö Aattolisä raporteissa
 - **Ruokaedun kynnysarvo** → Kontrolloi, näkyykö Ruokaetu raporteissa ja mitkä vuorot oikeuttavat siihen
 
-**Tärkeää**: Asetusten muutokset astuvat voimaan välittömästi kaikille uusille laskelmille. Olemassa olevia raportteja ei päivitetä jälkikäteen - vain asetusten muutosten jälkeen generoidut uudet raportit heijastavat uusia arvoja.
+**Tärkeää**: Asetusten muutokset astuvat voimaan välittömästi kaikille uusille laskelmille. Olemassa olevia raportteja ei päivitetä jälkikäteen; vain asetusten muutosten jälkeen generoidut uudet raportit heijastavat uusia arvoja.
 
 ## Käytännön hyödyt
 
@@ -235,7 +235,7 @@ Jos paikalle ei ole määritelty asetuksia, järjestelmä käyttää suomalaiste
 
 ## Yhteenveto
 
-Uusi palkkaraportti-ominaisuus tekee palkkatietojen vientiä helpommaksi:
+Uusi palkkaraportti-ominaisuus tekee palkkatietojen viennistä helpompaa:
 
 - Valitse työntekijät ja päivämääräväli
 - Valitse CSV- tai PDF-muoto

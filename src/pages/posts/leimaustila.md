@@ -10,7 +10,7 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
 ---
 
-Työvuorolistan täyttäminen tietokoneella on ollut raahausta sivupalkista ruudukkoon, tai klikkaus joka avaa luonti-ikkunan. Molemmat toimivat edelleen. **Leimaustila** on kolmas tapa: valitset työntekijän kerran ja klikkaat kellonaikoja. Vuoro syntyy heti, pituutena työntekijän (tai tiimin) oletus.
+Työvuorolistan täyttäminen tietokoneella on ollut raahausta sivupalkista ruudukkoon, tai klikkaus, joka avaa luonti-ikkunan. Molemmat toimivat edelleen. **Leimaustila** on kolmas tapa: valitset työntekijän kerran ja klikkaat kellonaikoja. Vuoro syntyy heti, pituutena työntekijän (tai tiimin) oletus.
 
 Sama logiikka kuin raahauksessa, ilman raahausta. Viikon vuorot yhdelle ihmiselle syntyvät muutamalla klikkauksella.
 
@@ -34,7 +34,7 @@ Tila jää päälle. Klikkaa seuraavaa päivää, vaihda työntekijää sivupalk
 
 <img src="/blogPostImages/leimaustila/hero.png" alt="Leimaustila: Emma valittuna, viikon vuorot merkitty klikkaamalla" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Oletuspituus tulee työntekijän tiedoista, ja jos sitä ei ole asetettu, tiimin oletuksesta. Kellonaika on se, jota klikkasit — ruudukko napsahtaa tiimin aikaportaisiin.
+Oletuspituus tulee työntekijän tiedoista, ja jos sitä ei ole asetettu, tiimin oletuksesta. Kellonaika on se, jota klikkasit; ruudukko napsahtaa tiimin aikaportaisiin.
 
 ## Vapaa ja X samalla tavalla
 

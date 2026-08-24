@@ -17,8 +17,9 @@ tags: ['TES', 'sosiaalipalveluala', 'jaksotyö', 'vapaapäivät', 'viikkolepo', 
 **Lyhyesti:** Jaksotyössä työviikko on keskimäärin enintään
 viisipäiväinen. Kolmen viikon listalla on oltava **vähintään kuusi
 vapaapäivää** (plus arkipyhävapaat), niistä **vähintään kaksi
-peräkkäin**, ja kuuden viikon jaksolla **kaksi lauantai–sunnuntai-
-viikonloppuvapaata**. Viikkolepo on **35 tuntia kalenteriviikossa**,
+peräkkäin**, ja kuuden viikon jaksolla
+**kaksi lauantai–sunnuntai-viikonloppuvapaata**. Viikkolepo on
+**35 tuntia kalenteriviikossa**,
 vuorokausilepo 11 tuntia (jaksotyössä tarvittaessa 9), ja yövuoroja saa
 teettää peräkkäin enintään viisi.
 
@@ -38,7 +39,8 @@ ellei arkipyhävapaiden ajankohdasta ole sovittu erikseen.
 Vuorot suunnitellaan lisäksi niin, että työntekijä saa **vähintään kaksi
 peräkkäistä vapaapäivää kolmen viikon aikana**, ja tarpeettomia yhden
 päivän vapaita vältetään muutenkin. Yksittäiset ripotellut vapaapäivät
-täyttävät kirjaimen kuudesta vapaasta, mutta eivät peräkkäisyysvaatimusta.
+täyttävät kuuden vapaan vaatimuksen kirjaimellisesti, mutta eivät
+peräkkäisyysvaatimusta.
 
 ## Kaksi vapaata viikonloppua kuudessa viikossa
 
@@ -96,5 +98,7 @@ päätös jää aina esihenkilölle. Sovellus vahtii myös ne rajat, joista ei
 voi sopia: työaikalain ehdottomat vähimmäislevot.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Yksityisen sosiaalipalvelualan työehtosopimus 1.1.2026–30.4.2028 (Tehy, PDF)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf) 6 § kohdat 9 (yövuorot), 12 (vapaapäivät) ja 13 (viikkolepo) sekä 6 a § (paikallinen sopiminen); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 25 § (vuorokausilepo), 27 § (viikkolepo); [HALI: yksityinen sosiaalipalveluala](https://www.hyvinvointiala.fi/tyosuhdetietoa/tyoehtosopimukset/sosiaalipalveluala/).*

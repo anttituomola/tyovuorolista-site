@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Templates, eli mallinteiden käyttö työvuorolistan pohjana'
+title: 'Templates, eli mallineiden käyttö työvuorolistan pohjana'
 pubDate: 2024-02-22
-description: 'Mikäli työvuorolistasi toistuu usein jossain määrin samanlaisena, kannattaa uusi työvuorolista aloittaa käyttämällä mallinnetta.'
+description: 'Mikäli työvuorolistasi toistuu usein jossain määrin samanlaisena, kannattaa uusi työvuorolista aloittaa käyttämällä mallinetta.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/mallineen_kaytto.png'
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
-Mikäli työvuorolistasi toistuu usein edes jossain määrin samalaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista - julkaistu tai julkaisematon - voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan mallineena.
+Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista (julkaistu tai julkaisematon) voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan pohjana.
 
 Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana. Lue lisää [tiimien luomisesta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu).
 

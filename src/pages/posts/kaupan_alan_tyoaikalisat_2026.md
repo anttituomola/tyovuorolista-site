@@ -20,7 +20,8 @@ tags: ['TES', 'kaupan ala', 'iltalisä', 'yölisä', 'lauantailisä', 'palkanlas
 iltalisä on klo **18–24**, yölisä klo **00–06** ja lauantailisä
 arkilauantaina klo **13–24**. Summat eroavat pääkaupunkiseudun
 (Helsinki, Espoo, Kauniainen, Vantaa) ja muun Suomen välillä. Lisät ovat
-pysyneet samoina 1.5.2022 alkaen sopimuskauden loppuun (31.1.2028). Poikkeuksena logistiikan yölisä 1.10.2026.
+pysyneet samoina 1.5.2022 alkaen ja pysyvät sopimuskauden loppuun
+(31.1.2028) asti. Poikkeuksena logistiikan yölisä 1.10.2026.
 
 Sunnuntain tuplapalkasta ja aattoiltalisän peukalosäännöistä lisää:
 [Sunnuntai-, ilta- ja aattolisät kaupan alalla](/posts/sunnuntai_ja_aattolisat_kaupan_alalla).
@@ -96,5 +97,7 @@ palkkalajikoodeillaan, myös
 [Procountor-muotoon](/posts/procountor_palkka_vienti).
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 14–15 §, 17 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (työaikalisät 1.5.2022– ja logistiikan yölisä 1.10.2026); [Kaupan liitto: TES-ratkaisun sisältö](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/).*

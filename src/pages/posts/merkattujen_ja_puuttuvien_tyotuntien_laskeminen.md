@@ -9,7 +9,7 @@ image:
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorosuunnittelu", "työtunnit", "tuntien laskenta"]
 ---
-Kalenterinäkymässä kaikkien työntekijöiden nimen alla ilmestyy listalle merkattujen tuntien kokonaismäärä heti, kun merkkaat työntekijälle ensimmäisen vuoron listalle. Mikäli olet ilmoittanut työntekijän työsopimuksessa merkatun tuntimäärän sovellukselle, laskee se reaaliajassa, kuinka monta tuntia työntekijältä vielä puuttuu - tai kuinka paljon niitä on mahdollisesti liikaa.  
+Kalenterinäkymässä kaikkien työntekijöiden nimen alle ilmestyy listalle merkattujen tuntien kokonaismäärä heti, kun merkkaat työntekijälle ensimmäisen vuoron listalle. Mikäli olet ilmoittanut työntekijän työsopimuksessa merkatun tuntimäärän sovellukselle, laskee se reaaliajassa, kuinka monta tuntia työntekijältä vielä puuttuu, tai kuinka paljon niitä on mahdollisesti liikaa.  
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/app.tyovuorolista_tuntilaskuri.mp4" type="video/mp4">
@@ -18,10 +18,10 @@ Kalenterinäkymässä kaikkien työntekijöiden nimen alla ilmestyy listalle mer
 Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikkaamalla lomaa ja muuttamalla päivämääriä modaalissa.
 
 ## Miten merkkaan työntekijän tavoitetuntimäärän?
-Kaikille työntekijöille kannattaa merkata tavoitetuntimäärä, eli työsopimuksessa kirjattu työtuntimäärä per kuukausi. Täysaikaisilla tuntimäärä on 150 / kk, jos ei muuta sovittu.
+Kaikille työntekijöille kannattaa merkata tavoitetuntimäärä, eli työsopimuksessa kirjattu työtuntimäärä per kuukausi. Täysaikaisilla tuntimäärä on 150 / kk, jos ei ole muuta sovittu.
 
-1. klikkaa työntekijän nimeä kalenterin vasemmalla puolella (tai avaa työntekijä **Hallinta → Työntekijät** -sivulta, katso [työntekijöiden hallinta](/posts/tyontekijoiden_hallinta))
-2. klikkaa Muokkaa työntekijän tietoja -painiketta
+1. Klikkaa työntekijän nimeä kalenterin vasemmalla puolella (tai avaa työntekijä **Hallinta → Työntekijät** -sivulta, katso [työntekijöiden hallinta](/posts/tyontekijoiden_hallinta))
+2. Klikkaa Muokkaa työntekijän tietoja -painiketta
 3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään
 
 <strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) valitulta ajanjaksolta.

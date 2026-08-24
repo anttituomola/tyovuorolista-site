@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Näin lisäät työvuoroita kalenteriin'
+title: 'Näin lisäät työvuoroja kalenteriin'
 pubDate: 2026-05-29
 description: 'Tavat täyttää työvuorolista tietokoneella ja puhelimessa: leimaustila, raahaus, luonti-ikkuna, pikaluonti ja toistuvat vuorot.'
 author: 'Antti Tuomola'

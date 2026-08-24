@@ -28,7 +28,7 @@ Työvuoroluetteloa laadittaessa vapaiden välissä voi olla enintään
 **8 työvuoroa** (8 § 26). Työpaikkakohtaisesti sopien raja on 10 ja
 työntekijän kanssa kertaluonteisesti sopien 11 vuoroa.
 
-Huomaa että raja lasketaan **vuoroissa, ei päivissä**, jos samana
+Huomaa, että raja lasketaan **vuoroissa, ei päivissä**: jos samana
 päivänä on kaksi erillistä vuoroa, ne kuluttavat kiintiötä kaksi.
 (Vertaa [ravintola-alan seitsemän työpäivän
 sääntöön](/posts/kolmiviikkoisjakso_ravintola-alalla).)

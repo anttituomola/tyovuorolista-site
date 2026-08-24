@@ -26,7 +26,7 @@ Näkymä vaatii valitun tiimin. Jos tiimiä ei ole valittu, sovellus pyytää va
 
 Yläosassa valitset kolme asiaa:
 
-1. **Aloituspäivä** ja **Lopetuspäivä**. Ajanjakso, jolta vuorot haetaan
+1. **Aloituspäivä** ja **Lopetuspäivä**: ajanjakso, jolta vuorot haetaan
 2. **Työntekijät**: yksi tai useampi työntekijä kerrallaan
 
 Työpöydällä voit nopeuttaa valintaa pikavalintanapeilla:
@@ -80,7 +80,7 @@ Huomio: vuoro lisätään työvuorolistalle, joka kattaa valitun päivän. Jos p
 
 Taulukon alapuolella näkyy valittujen työntekijöiden **tuntiyhteenveto**. Se laskee työtunnit, lisät, sairausajan ja muut kategoriat samalla logiikalla kuin [palkkaraportti](/posts/palkkaraportti_ominaisuus).
 
-Yhteenvedon tarkkuus riippuu siitä, oletko merkinnyt työntekijöille [tavoitetuntimäärän](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) ja määrittänytkö [tuntien laskenta-asetukset](/posts/palkkaraportti_ominaisuus) oikein.
+Yhteenvedon tarkkuus riippuu siitä, oletko merkinnyt työntekijöille [tavoitetuntimäärän](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) ja määrittänyt [tuntien laskenta-asetukset](/posts/palkkaraportti_ominaisuus) oikein.
 
 <img src="/blogPostImages/tuntien_kirjaus_opas/tuntiyhteenveto.png" alt="Työntekijöiden tuntiyhteenveto kortteina" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 

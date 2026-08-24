@@ -25,7 +25,7 @@ Tämä toiminto säästää aikaa, kun haluat luoda samanlaisia vuoroja useille 
 | Toiminto | Mitä tapahtuu |
 |----------|---------------|
 | **Raahaa vuoro** | Vuoro siirtyy uuteen paikkaan (vanha poistuu) |
-| **ALT + raahaa vuoro** | Vuoro kopioidu uuteen paikkaan (alkuperäinen säilyy) |
+| **ALT + raahaa vuoro** | Vuoro kopioituu uuteen paikkaan (alkuperäinen säilyy) |
 
 ### Vaiheet
 

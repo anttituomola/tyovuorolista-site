@@ -57,7 +57,7 @@ Jos käytät [resurssien aikataulutusta](/posts/resurssien_aikataulutus_ominaisu
 1. Siirry julkaisunäkymään.
 2. Valitse tulostettava työvuorolista.
 3. Paina **Tulosta...**.
-4. Valitse haluatko tulostaa koko listan, henkilökohtaiset listat vai molemmat.
+4. Valitse, haluatko tulostaa koko listan, henkilökohtaiset listat vai molemmat.
 5. Paina valintaikkunassa **Tulosta**.
 
 Pieni muutos, mutta käytännössä tästä on paljon apua silloin, kun työvuorolistoja jaetaan paperilla. Tiimin lista pysyy tiimikohtaisena, ja henkilökohtainen lista näyttää työntekijälle hänen oman kokonaisaikataulunsa samalta ajanjaksolta.

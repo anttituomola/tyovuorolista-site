@@ -79,11 +79,11 @@ työaikapankki") toimii näin:
 Nämä menevät helposti sekaisin. Ero on tarkoituksessa:
 
 - [Tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla)
-  tasoittaa työajan vaihtelua: kiirejaksolla tehdään enemmän (max 130 h),
+  tasoittaa työajan vaihtelua: kiirejaksolla tehdään enemmän (enintään 130 h),
   hiljaisella vähemmän, ja saldo nollautuu kauden loppuun mennessä.
   Rahalla ei temppuilla.
 - Työaikapankki (vuosityöaikajärjestelmä) on **säästöväline**: tunteja ja
-  rahaeriä muutetaan pidempään säilöttyväksi vapaaksi, kausi voi olla
+  rahaeriä muutetaan pidempään säilöttäväksi vapaaksi, kausi voi olla
   vuoden pituinen ja jaksokatto korkeampi (150 h).
 
 Jos tarve on vain tasoittaa sesonkivaihtelua, tasoittumisjärjestelmä on

@@ -48,7 +48,7 @@ Uusi työntekijä liitetään automaattisesti **valittuun tiimiin**. Useaan tiim
 Jos työntekijät ovat jo Excelissä, Wordissa, PDF:ssä tai vaikka WhatsApp-viestissä, et joudu kirjoittamaan nimiä uudelleen:
 
 1. Paina **Tuo työntekijät**.
-2. Liitä lista tekstikenttään. Muoto voi olla sekava; tarvitaan etunimi, sukunimi ja sähköposti jos se on saatavilla.
+2. Liitä lista tekstikenttään. Muoto voi olla sekava; tarvitaan etunimi, sukunimi ja sähköposti, jos se on saatavilla.
 3. Paina **Jäsennä lista**. Sovellus tunnistaa rivit automaattisesti.
 4. Tarkista taulukko, korjaa tarvittaessa ja poista turhat rivit.
 5. Paina **Tuo X työntekijää**.
@@ -127,8 +127,8 @@ Julkaistun listan vuorot säilyvät, vaikka poistaisit työntekijän. Historia p
 
 ## Yhteenveto
 
-1. **Lisää yksi**: hallinta → Työntekijät → Lisää uusi työntekijä (tai kalenterin plus)
-2. **Tuo monta**, Tuo työntekijät → liitä lista → tarkista → tuo (tai jo tilin luonnissa)
+1. **Lisää yksi**: Hallinta → Työntekijät → Lisää uusi työntekijä (tai kalenterin plus)
+2. **Tuo monta**: Tuo työntekijät → liitä lista → tarkista → tuo (tai jo tilin luonnissa)
 3. **Muokkaa** tarvittaessa. Asetukset (tiimit, oletuspituus), Henkilötiedot, Työsuhde
 4. **Poista** vain pysyvään poistumiseen. Muokkaa → Vaara-alue; muista julkaisemattomien vuorojen katoaminen
 

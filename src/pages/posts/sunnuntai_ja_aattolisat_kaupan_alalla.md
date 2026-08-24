@@ -24,7 +24,7 @@ iltalisä maksetaan sunnuntaisin yksinkertaisena, paitsi marras- ja
 joulukuussa kaksinkertaisena, jos myymälä on auki klo 18 jälkeen.
 
 Ravintola-alan vastaava postaus:
-[Sunnuntailisien kahdentuminen ravintola-alalla](/posts/sunnuntailisa_ravintola-alalla)
+[Sunnuntailisien kahdentuminen ravintola-alalla](/posts/sunnuntailisa_ravintola-alalla).
 Sääntö on siellä olennaisesti eri (myös lisät tuplaantuvat), joten
 alaa vaihtavan kannattaa lukea molemmat.
 
@@ -83,7 +83,7 @@ Myyjä tekee ma–to 10–18, juhannusaattona 12–22 ja sunnuntaina 12–20. Yh
 - **Sunnuntailisä 8 h**: sunnuntain tunnit tuplapalkalla
 - **Iltalisä 6 h**: aatto-perjantain 18–22 ja sunnuntain 18–20
 - **Aattoiltalisä 4 h**: juhannusaaton 18–22, iltalisän päälle
-- **Ylityö +50 % 12,5 h**. [viikkoraja 37,5 h ylittyi](/posts/lisatyo_ja_ylityo_kaupan_alalla)
+- **Ylityö +50 % 12,5 h**: [viikkoraja 37,5 h ylittyi](/posts/lisatyo_ja_ylityo_kaupan_alalla)
 
 Sama laskelma sovelluksen tuntinäkymässä:
 

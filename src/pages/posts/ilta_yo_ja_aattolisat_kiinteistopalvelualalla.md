@@ -70,18 +70,18 @@ Niinä tehdystä työstä maksetaan **50 prosentilla korotettu palkka**
 
 "X-viikon lauantai" tarkoittaa sen maanantaista alkavan viikon
 lauantaita, jolla kyseinen pyhä sijaitsee (viikko alkaa maanantaina
-klo 00, 8 § 2). Jos pyhä osuu itsessään lauantaiksi (kuten loppiainen
+klo 00, 8 § 2). Jos pyhä osuu itse lauantaille (kuten loppiainen
 joskus osuu), päivä on pyhäpäivä ja työstä maksetaan pyhän +100 %.
 
 Kiinteistöpalveluissa katkeamaton palvelutarjonta on arkipäivää, joten
 nämä lauantait ovat usein normaaleja työpäiviä, mutta +50 %:n
-korvausvelvoite säilyy, vaikka vapaaehto poikkeaisi.
+korvausvelvoite säilyy, vaikka vapaapäiväsäännöstä poikettaisiin.
 
 ## Poikkeus: keskeytymätön kolmivuorotyö
 
 Aatto- ja lauantaikorvauksia (10 § 6) ei makseta keskeytymättömässä
 kolmivuorotyössä. Sovellus ei yritä arvailla, kumpi tilanne kyseessä
-on, se näyttää huomautuksen ja jättää tulkinnan työnantajalle.
+on, vaan näyttää huomautuksen ja jättää tulkinnan työnantajalle.
 
 ## Miten sovellus auttaa?
 
@@ -93,5 +93,7 @@ kohdilleen [Procountor-vientiä](/posts/procountor_palkka_vienti)
 varten.
 
 <img src="/blogPostImages/kipa-tes/kipa-huomautukset-paneeli.png" alt="Huomautuspaneeli: kiinteistöpalvelualan TES:n lisäsääntöjen huomautukset" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+
+---
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8 § 8 ja 11 mom. sekä 10 § 3–6 mom.; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 20 §.*

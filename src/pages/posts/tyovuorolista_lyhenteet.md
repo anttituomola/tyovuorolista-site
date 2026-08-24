@@ -10,7 +10,7 @@ image:
 tags: ["työvuorolista", "lyhenteet", "vapaapäivä", "koodit", "tunnukset"]
 ---
 
-# Työvuorolistan lyhenteet: X, V ja muut
+## Työvuorolistan lyhenteet: X, V ja muut
 Ravintola-alan työvuorolistassa vilisee kellonaikojen lisäksi erilaisia kirjaimia ja lyhenteitä. Mitä ne tarkoittavat?
 
 **V = viikkolepopäivä**
@@ -32,17 +32,17 @@ Lue tarkemmin: [mitä X-päivä tarkoittaa työvuorolistassa?](/posts/mita_tarko
 
 Lisävapaapäivä eli X-päivä on vähintään 24 tunnin mittainen tauko työstä. Toisin kuin V-päiviä, X-päiviä voidaan myös siirtää saman kolmiviikkoisjakson aikana muille viikoille: jos työntekijä tekee kolme täyttä työviikkoa, voidaan niistä tienatut 3 X-päivää sijoittaa kukin omalle viikolleen, tai vaikkapa yhdelle viikolle tarjoamaan työntekijälle pidempi vapaa.
 
-Mikäli käytössä on tasoittusmisjärjestelmä (katso TS eli tasoitusvapaa), voidaan X-päiviä siirtää maksimissaan kaksi per kolmiviikkoinen jakso tasoittumisjakson sisällä.
+Mikäli käytössä on tasoittumisjärjestelmä (katso TS eli tasoitusvapaa), voidaan X-päiviä siirtää maksimissaan kaksi per kolmiviikkoinen jakso tasoittumisjakson sisällä.
 
-Jos X-päivä annetaan samalla viikolla kun se "tienataan", kannattaa  se tietysti laittaa peräjälkeen V-päivän kanssa - kaikki muu olisi keskisormen näyttämistä työntekijälle. Jos X-pävä siirretään jollekin toiselle viikolle, se on pakko sijoittaa peräjälkeen jonkin muun vapaan kanssa.
+Jos X-päivä annetaan samalla viikolla kun se "tienataan", kannattaa se tietysti laittaa peräkkäin V-päivän kanssa: kaikki muu olisi keskisormen näyttämistä työntekijälle. Jos X-päivä siirretään jollekin toiselle viikolle, se on pakko sijoittaa peräkkäin jonkin muun vapaan kanssa.
 
 ## TS eli tasoitusvapaa
 
 Lue tarkemmin: [mitä TS-päivä tarkoittaa työvuorolistassa?](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa) ja [syväluotaava opas tasoittumisjärjestelmästä](/posts/tasoittumisjarjestelma_ravintola-alalla)
 
-Nämä koskevat vain kokoaikaisia työntekijöitä. Kuukausipalkkaisen, kokoaikaisen työntekijän tuntimääriä per työvuorolista (3 viikkoa) voidaan tasata siten, että yhden työvuorolistan keskimääräinen työaika on 112,5 tuntia (eli 5 päivää viikossa, 7.5 tuntia päivässä). Tasoitusjakso voi olla pisimillään 6 työvuorolistan, eli 18 viikon mittainen.
+Nämä koskevat vain kokoaikaisia työntekijöitä. Kuukausipalkkaisen, kokoaikaisen työntekijän tuntimääriä per työvuorolista (3 viikkoa) voidaan tasata siten, että yhden työvuorolistan keskimääräinen työaika on 112,5 tuntia (eli 5 päivää viikossa, 7,5 tuntia päivässä). Tasoitusjakso voi olla pisimmillään 6 työvuorolistan, eli 18 viikon mittainen.
 
-Yksi työvuorolista voi olla pisimillään 130 tuntia.
+Yksi työvuorolista voi olla pisimmillään 130 tuntia.
 
 Tasoitusvapaatarve syntyy siis siitä, että työvuorolista sisältää enemmän kuin 112,5 tuntia. Tasoitusvapaata voidaan antaa joko lyhentämällä työvuoroja toisessa listassa tai antamalla tasoitusvapaapäiviä.
 
@@ -52,7 +52,7 @@ Lue tarkemmin: [vuosivapaa ravintola-alalla](/posts/vuosivapaa_ravintola-alalla)
 
 Vuosivapaita kertyy sekä täysaikaisille että osa-aikaisille työntekijöille. Ne alkavat kertyä kaksi kuukautta työsuhteen alun jälkeen.
 
-Vuosivapaa on siis yksi vapaa päivä, joita kertyy tehdyistä työtunneista. Niitä voi ansaita kalenterivuodessa enintään yhdeksän päivää seuraavan taulukon mukaisesti:
+Vuosivapaa on siis yksi vapaa päivä, ja niitä kertyy tehdyistä työtunneista. Niitä voi ansaita kalenterivuodessa enintään yhdeksän päivää seuraavan taulukon mukaisesti:
 
 | Toteutuneet työtunnit | Vuosivapaiden lukumäärä |
 |-----------------------|-------------------------|
@@ -68,7 +68,7 @@ Vuosivapaa on siis yksi vapaa päivä, joita kertyy tehdyistä työtunneista. Ni
 
 Vuosivapaa voidaan antaa heti kun se on ansaittu. Viimeistään vuosivapaat tulee antaa seuraavan kalenterivuoden loppuun mennessä.
 
-Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus on 7.5 työtuntia.
+Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus on 7,5 työtuntia.
 
 ## Lisätietoa lyhenteistä ja merkkaamisesta
 

@@ -29,7 +29,7 @@ saa tuplapalkan **ja** tuplatun iltalisän (iltalisä 1,40 €/h klo 18–24,
 yölisä 2,37 €/h klo 24–06, 1.9.2025 alkaen).
 
 <div class="blogPhoneRow">
-<p>Tämä on kohta, jonka osa palkanlaskentaohjeista ja verkkoartikkeleista kertoo väärin. "sunnuntaina tuplapalkka" muistetaan, lisien kahdentuminen ei. Erehdys kertautuu joka ikinen sunnuntai-ilta, joten vuositasolla puhutaan ihan oikeasta rahasta.</p>
+<p>Tämä on kohta, jonka osa palkanlaskentaohjeista ja verkkoartikkeleista kertoo väärin. "Sunnuntaina tuplapalkka" muistetaan, lisien kahdentuminen ei. Erehdys kertautuu joka ikinen sunnuntai-ilta, joten vuositasolla puhutaan ihan oikeasta rahasta.</p>
 <img class="blogPhone" src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: sunnuntailisä 16 h ja kahdennettu iltalisä 8 h eriteltyinä" />
 </div>
 

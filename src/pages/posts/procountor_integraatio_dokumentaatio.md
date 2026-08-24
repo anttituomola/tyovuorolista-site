@@ -87,7 +87,7 @@ Excelissä ennen sisäänlukua. Tyovuorolista.fi tuottaa valmiin CSV:n.
 3. **Vienti**. *Hallinta → Tuntien kirjaus* → valitse jakso ja
    työntekijät → *Luo palkkaraportti…* → muoto
    **Procountor (palkka-aineisto)** → *Luo raportti*.
-4. **Sisäänluku**: procountorissa *Palkat → Uusi palkkalista* → lue
+4. **Sisäänluku**: Procountorissa *Palkat → Uusi palkkalista* → lue
    ladattu CSV.
 
 <img src="/blogPostImages/procountor-vienti/procountor-modaali.png" alt="tyovuorolista.fi: palkkaraportti, Procountor-muoto valittuna" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
@@ -120,8 +120,8 @@ sisäänluettavaksi.
 ### 4. Useita tiimejä / toimipisteitä
 
 Vie kerralla valitut työntekijät ja jakso. Vie mieluiten **yksi
-palkkajakso kerrallaan**, sama aineisto kahdesti Procountoriin tuplaa
-rivit.
+palkkajakso kerrallaan**, sillä sama aineisto kahdesti Procountoriin
+tuplaa rivit.
 
 ## Roolit yhteiskäytössä
 
@@ -146,5 +146,7 @@ rivit.
 - Procountorin sisäänluku:
   [help.procountor.fi. Palkka-aineisto](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin)
   · [aineiston sisäänluku yleisesti](https://help.procountor.fi/fi/articles/531566-aineiston-sisaanluku)
+
+---
 
 *Lähteet: [Palkka-aineiston sisäänluku Procountoriin (Procountor Help)](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin); tyovuorolista.fi Procountor-vienti (erittelytietue CSV).*

@@ -63,7 +63,7 @@ tasan, ei laista eikä TES:stä löydy.
 
 Sitten parempi: työsopimuslain **tasapuolisen kohtelun vaatimus**
 koskee myös työvuorosuunnittelua. Vertailukelpoisia työntekijöitä on
-kohdeltava johdonmukaisin perustein, jos listantekijä suosii
+kohdeltava johdonmukaisin perustein. Jos listantekijä suosii
 systemaattisesti itseään tai suosikkejaan pyhävuorojen jaossa ilman
 perustetta, ollaan ongelmissa. Hyväksyttäviä syitä poiketa tasajaosta
 toki on: työntekijöiden omat toiveet, osaamistarpeet ja

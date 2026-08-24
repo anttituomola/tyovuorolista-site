@@ -18,23 +18,23 @@ Mini-paketti sopii erinomaisesti tutustumiseen ja pienille yrityksille, mutta jo
 
 Mini-paketti rajoittuu 3 työntekijään. Jos tarvitset enemmän, valitse suurempi paketti:
 
-- **Normi** - Enintään 20 työntekijää (12€/kk + alv)
-- **Iso** - Enintään 50 työntekijää (42€/kk + alv)
-- **Jätti** - Enintään 100 työntekijää (120€/kk + alv)
+- **Normi**: enintään 20 työntekijää (12€/kk + alv)
+- **Iso**: enintään 50 työntekijää (42€/kk + alv)
+- **Jätti**: enintään 100 työntekijää (120€/kk + alv)
 
 Kaikki paketit sisältävät samat ominaisuudet. Ainoa ero on työntekijöiden enimmäismäärä.
 
-## Tilauksen ostaminen - näin se toimii
+## Tilauksen ostaminen: näin se toimii
 
 ### 1. Siirry asetuksiin
 
 1. Kirjaudu sisään sovellukseen
-2. Klikkaa **"HALLINTA"** -painiketta yläreunan navigaatiosta
+2. Klikkaa **"HALLINTA"**-painiketta yläreunan navigaatiosta
 3. Valitse **"Asetukset"**
 
 ### 2. Valitse sopiva paketti
 
-Asetussivulla näet kaikki saatavilla olevat paketit. Nykyinen pakettisi on merkitty **"Nykyinen"** -merkinnällä.
+Asetussivulla näet kaikki saatavilla olevat paketit. Nykyinen pakettisi on merkitty **"Nykyinen"**-merkinnällä.
 
 Valitse yrityksellesi sopiva paketti ja klikkaa **"Valitse paketti"** -painiketta.
 
@@ -62,7 +62,7 @@ Kun maksu on suoritettu:
 
 ### 5. Tarkista aktiivinen tilaus
 
-Palatessasi asetuksiin näet aktiivisen tilauksesi "Nykyinen" -merkinnällä. Voit halutessasi hallita tilaustasi tai vaihtaa pakettia.
+Palatessasi asetuksiin näet aktiivisen tilauksesi "Nykyinen"-merkinnällä. Voit halutessasi hallita tilaustasi tai vaihtaa pakettia.
 
 <img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Aktiivinen Normi-tilaus asetussivulla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -74,7 +74,7 @@ Palatessasi asetuksiin näet aktiivisen tilauksesi "Nykyinen" -merkinnällä. Vo
 - Katso [ajankohtaiset hinnat maaliskuusta 2026](/posts/hinnoittelun_uudistus_maaliskuu_2026)
 
 **Irtisanominen:**
-- Ei irtisanomisaikaa - [voit peruuttaa milloin vain](/posts/tilauksen_peruuttaminen)
+- Ei irtisanomisaikaa: [voit peruuttaa milloin vain](/posts/tilauksen_peruuttaminen)
 - Palvelu jatkuu nykyisen jakson loppuun
 
 ## Tilauksen hallinta

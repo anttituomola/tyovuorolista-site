@@ -10,7 +10,7 @@ image:
 tags: ["aloittaminen", "käyttöönotto", "onboarding", "työvuorolista", "kalenteri"]
 ---
 
-Haluatko saada ensimmäisen työvuorolistan kuntoon nopeasti? Tämä opas on tarkoitettu **uusille käyttäjille**: se kokoaa yhteen polun [tyovuorolista.fi](https://tyovuorolista.fi)-sovelluksessa tilin luomisesta ensimmäiseen julkaisunäkymään. Samat vaiheet näkyvät sovelluksessa **Aloita käyttö** -checklistalla kalenterinäkymässä, voit lukea tämän läpi kerralla ja seurata ohjetta rinnalla.
+Haluatko saada ensimmäisen työvuorolistan kuntoon nopeasti? Tämä opas on tarkoitettu **uusille käyttäjille**: se kokoaa yhteen polun [tyovuorolista.fi](https://tyovuorolista.fi)-sovelluksessa tilin luomisesta ensimmäiseen julkaisunäkymään. Samat vaiheet näkyvät sovelluksessa **Aloita käyttö** -ohjeessa kalenterinäkymässä. Voit lukea tämän läpi kerralla ja seurata ohjetta rinnalla.
 
 ## 1. Luo tili ja yritys
 
@@ -30,7 +30,7 @@ Kun lista on luotu, pääset **Suunnittele**-näkymään (`/`). Vasemmalla näet
 
 ## Uutuus: Aloita käyttö -ohje kalenterissa
 
-Uusille käyttäjille näkyy oikeaan alakulmaan **Aloita käyttö** -paneeli. Siinä on kolme vaihetta kerralla näkyvissä, etenemispalkki ja lyhyet ohjeet. Voit sulkea ohjeen (**Ohita ohjeet**) milloin tahansa, se ei palaa, ellei selaintallennusta tyhjennetä.
+Uusille käyttäjille näkyy oikeaan alakulmaan **Aloita käyttö** -paneeli. Siinä on kolme vaihetta kerralla näkyvissä, etenemispalkki ja lyhyet ohjeet. Voit sulkea ohjeen (**Ohita ohjeet**) milloin tahansa. Se ei palaa, ellei selaimen tallennustilaa tyhjennetä.
 
 Ohje näkyy vain **julkaisemattoman listan** kalenterissa. Jos yritykselläsi on jo julkaistuja listoja ja vähintään kaksi aktiivista työntekijää, ohjetta ei yleensä näytetä uudelleen.
 
@@ -89,7 +89,7 @@ Kun listalla on tarpeeksi vuoroja, kolmas vaihe avautuu. Tavoite on **tutustua J
 
 **Mitä teet:**
 
-1. Huomaa ylävalikon **Julkaise** -kohta (ohje voi korostaa sitä hetkellisesti).
+1. Huomaa ylävalikon **Julkaise**-kohta (ohje voi korostaa sitä hetkellisesti).
 2. Siirry julkaisunäkymään joko valikosta tai paneelin linkistä **Siirry julkaisuun**.
 3. Tutustu esikatseluun: kuva, PDF, sähköpostilähetys jne.
 
@@ -121,7 +121,7 @@ Työvuorolistan aloitus kolmessa lauseessa:
 
 1. **Luo tili** ja **ensimmäinen lista**.
 2. **Lisää toinen työntekijä** ja **raahaa vähintään viisi vuoroa** kalenteriin.
-3. **Avaa Julkaise-näkymä** tutustuaksesi jakamiseen. Julkaisu proper voi odottaa, kun olet valmis.
+3. **Avaa Julkaise-näkymä** tutustuaksesi jakamiseen. Varsinainen julkaisu voi odottaa, kunnes olet valmis.
 
 Sovelluksen **Aloita käyttö** -paneeli kulkee näiden vaiheiden mukana kalenterissa ja kertoo, missä kohdassa olet. Kun kaikki kolme on tehty tai ohje ohitetaan, voit keskittyä omaan aikatauluusi.
 

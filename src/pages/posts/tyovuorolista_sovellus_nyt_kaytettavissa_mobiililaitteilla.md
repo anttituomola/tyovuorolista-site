@@ -11,7 +11,7 @@ image:
 tags: ["mobiili", "käyttöliittymä", "työvuorosuunnittelu", "tuntien kirjaus"]
 ---
 
-*Päivitetty 19.8.2026: ohjevideo alla. Suunnittelunäkymä, valikko, työntekijät ja julkaisu on tehty puhelimelle uudestaan — ei kutistettu työpöytäkalenteri. Julkaisussa WhatsApp-jako on **Jaa**, PDF tulee **Lataa PDF** -painikkeesta.*
+*Päivitetty 19.8.2026: ohjevideo alla. Suunnittelunäkymä, valikko, työntekijät ja julkaisu on tehty puhelimelle uudestaan, ei kutistettu työpöytäkalenteria. Julkaisussa WhatsApp-jako on **Jaa**, PDF tulee **Lataa PDF** -painikkeesta.*
 
 <div class="blogPhoneRow">
 <div>
@@ -135,7 +135,7 @@ Toistuva kaava koko listan ajalle on edelleen **Kaikki kentät** -ikkunassa, ei 
 
 ## Tuntien kirjaus mobiilissa
 
-Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Toteutuneet ajat ovat esitäytetty suunnitelluista, muuta vain poikkeamat. Sairausloma merkitään kortista, ja korvaajan vuoron voi lisätä samasta näkymästä.
+Tuntien kirjaus näyttää vuorot kortteina. Valitse jakso ja työntekijä. Toteutuneet ajat on esitäytetty suunnitelluista, muuta vain poikkeamat. Sairausloma merkitään kortista, ja korvaajan vuoron voi lisätä samasta näkymästä.
 
 <img class="blogPhone" src="/blogPostImages/mobile-usage/22-mobile-log-hours-shift-card.png" alt="Tuntien kirjaus: Emma Virtasen vuorokortti toteumineen" />
 

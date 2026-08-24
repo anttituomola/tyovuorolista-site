@@ -29,7 +29,7 @@ jaksotyöaikaa. Työnantaja saa jakaa 112,5 tuntia kolmen viikon sisällä
 melko vapaasti, kunhan muut määräykset, kuten [vuorojen
 vähimmäis- ja enimmäispituudet sekä
 lepoajat](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla) ja
-vapaapäivät. Täyttyvät.
+vapaapäivät, täyttyvät.
 
 ## Jakson tärkeimmät säännöt
 

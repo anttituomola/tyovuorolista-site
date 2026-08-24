@@ -150,8 +150,8 @@ liittyvä painava syy. Jos julkaistu vuoro venyy, kyse on
 
 ## Alojen sääntöjen ero
 
-Alat menevät helposti sekaisin, koska kumpikin on tiukempi kuin toinen
-Mutta eri kohdassa.
+Alat menevät helposti sekaisin, koska kumpikin on tiukempi kuin
+toinen, mutta eri kohdassa.
 
 | | Kaupan ala | MaRa (ravintola-ala) |
 |---|---|---|
@@ -177,7 +177,7 @@ keskellä.
 ## Sovellus näyttää määräajan ennen kuin se ylittyy
 
 Tyovuorolista.fi näyttää julkaisun määräajan suoraan Julkaise-näkymässä
-ja laskee sen automaattisesti valitun TES:n mukaan. MaRa:n
+ja laskee sen automaattisesti valitun TES:n mukaan: MaRa:n
 kolmiviikkoisjakson tai kaupan kahden viikon säännön mukaisesti. Merkki
 muuttuu oranssiksi, kun aikaa on kolme päivää tai vähemmän, ja
 punaiseksi kun määräaika on ylittynyt:

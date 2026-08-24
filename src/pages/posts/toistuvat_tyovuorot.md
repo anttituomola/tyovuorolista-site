@@ -87,4 +87,4 @@ Toistuvat työvuorot nopeuttavat suunnittelua, kun sama kaava toistuu listan aik
 - **Esikatselu** kaikista luotavista vuoroista ennen tallennusta
 - **Osittainen onnistuminen**: kelvolliset vuorot luodaan, ongelmalliset ohitetaan
 
-Haluatko tarkemman käsikirjan kaikista tavoista lisätä vuoroja? Lue [Näin lisäät työvuoroita kalenteriin](/posts/vuorojen_lisaminen_kalenteriin).
+Haluatko tarkemman käsikirjan kaikista tavoista lisätä vuoroja? Lue [Näin lisäät työvuoroja kalenteriin](/posts/vuorojen_lisaminen_kalenteriin).

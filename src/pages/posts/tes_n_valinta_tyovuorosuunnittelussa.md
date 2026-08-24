@@ -75,7 +75,7 @@ Kaksi asiaa kannattaa tietää taustalla:
 
 Jos asia jää epäselväksi, kysy palkanlaskijaltasi tai alan
 työntekijäliitosta (esimerkiksi PAM palvelualoilla). Väärällä
-valinnalla suunnittelemat varoitukset ovat hyödyttömämpiä kuin ei
+valinnalla saadut varoitukset ovat hyödyttömämpiä kuin ei
 varoituksia ollenkaan.
 
 ## Mitä "Ei mikään näistä / en osaa sanoa" tarkoittaa?

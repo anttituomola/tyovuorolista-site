@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Näin otat TES-tuen käyttöön: opas nykyisille käyttäjille'
 pubDate: 2026-07-19
-description: 'TES-apuri (beta) sisältyy kaikkiin paketteihin. Tämä opas käy läpi käyttöönoton vaihe vaiheelta: TES-valinta, jaksorytmi, työntekijätiedot, ja miten saat ominaisuudesta eniten irti.'
+description: 'TES-apuri (beta) sisältyy kaikkiin paketteihin. Tämä opas käy läpi käyttöönoton vaihe vaiheelta: TES-valinta, jaksorytmi, työntekijätiedot ja miten saat ominaisuudesta eniten irti.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'
@@ -35,8 +35,8 @@ ovat MaRa, Kaupan ala, Kiinteistöpalveluala ja
 [SOSTES](/posts/sostes_tyovuorosuunnittelussa)), ja jaksollisissa
 sopimuksissa (MaRa, SOSTES) aseta
 [jakson](/posts/kolmiviikkoisjakso_ravintola-alalla)
-alkumaanantai. SOSTES-venue valitsee samalla työvuoroluettelon pituuden
-(3 tai 6 viikkoa). Jos valitsit TES:n jo rekisteröityessä, apuri on jo
+alkumaanantai. SOSTES-toimipaikka valitsee samalla työvuoroluettelon pituuden
+(3 tai 6 viikkoa). Jos valitsit TES:n jo rekisteröityessäsi, apuri on jo
 päällä. Vahvista vain jaksorytmi ja työntekijätiedot. Pois päältä
 valitsemalla *Ei työehtosopimusta*.
 

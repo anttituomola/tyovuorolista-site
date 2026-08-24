@@ -24,7 +24,7 @@ työaikaa tasoitetaan usean jakson yli.
 ## Mistä TS-päivä syntyy?
 
 Tasoittumisjärjestelmässä yksittäisen kolmiviikkoisjakson työaika saa olla
-tavallista pidempi. Enintään 130 tuntia normaalisti tai 136 tuntia
+tavallista pidempi: enintään 130 tuntia normaalisti tai 136 tuntia
 paikallisesti sovitussa laajennetussa mallissa, kun tavallinen jaksoraja
 olisi 112,5 tuntia. Tämä ylimenevä työaika on tasoitettava pois
 tasoittumiskauden (enintään kuuden tai yhdeksän jakson) kuluessa, joko lyhentämällä päivittäistä työaikaa tai antamalla erillisiä
@@ -36,7 +36,7 @@ Tasoittumiskauden aikana on annettava vähintään **kolme TS-päivää**
 (laajennetussa, yhdeksän jakson mallissa vähintään **viisi**), mikäli
 tuntikertymä sen sallii. Jos saldo ei riitä kolmeen vapaaseen, velvoite ei
 pakota antamaan niitä tyhjästä, mutta jos tunteja on kertynyt riittävästi,
-TS-päiviä ei kannata jättää antamatta viimeiselle jaksolle asti.
+TS-päivien antamista ei kannata jättää viimeiselle jaksolle asti.
 
 ## TS-päivän erityispiirteet
 

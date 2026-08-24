@@ -24,7 +24,7 @@ Ja koska jokaista viittä aattoa seuraa pyhäpäivä, korotus nousee
 keskiyöllä sataan prosenttiin.
 
 Lisien euromäärät ja perusteet käytiin läpi
-[ilta-, yö- ja aattolisän pikaoppaassa](/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla)
+[ilta-, yö- ja aattolisän pikaoppaassa](/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla).
 Tämä postaus menee aattoihin syvemmälle, koska juuri ne menevät
 palkanlaskennassa väärin.
 
@@ -54,7 +54,7 @@ Esimerkki: tarjoilija tekee jouluaattona vuoron klo 11–19.
 
 - **11–15**: peruspalkka normaalisti
 - **15–18**: peruspalkka +50 %
-- **18–19**: peruspalkka +50 % **ja** iltalisä +50 % eli 1,40 €/h
+- **18–19**: peruspalkka +50 % **ja** iltalisä +50 % eli 1,40 €/h:n
   sijaan 2,10 €/h
 
 Puolikkaita tunteja ei pyöristetä kummallekaan puolelle: raja on

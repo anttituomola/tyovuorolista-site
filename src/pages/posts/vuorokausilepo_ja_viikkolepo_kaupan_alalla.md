@@ -18,8 +18,8 @@ tags: ['TES', 'kaupan ala', 'vuorokausilepo', 'viikkolepo', 'työaika']
 työntekijälle on annettava vähintään **11 tunnin keskeytymätön
 vuorokausilepo** (Kaupan TES 7 § 1). Työpaikkakohtaisesti sopien lepo voi
 olla **vähintään 9 tuntia**; työntekijän kanssa kertaluonteisesti sopien
-**vähintään 7 tuntia**. **Viikkolepo** määräytyy työaikalain 27 §:n mukaan
-Lähtökohtaisesti **35 tuntia** yhdenjaksoista vapaa-aikaa viikossa.
+**vähintään 7 tuntia**. **Viikkolepo** määräytyy työaikalain 27 §:n mukaan:
+lähtökohtaisesti **35 tuntia** yhdenjaksoista vapaa-aikaa viikossa.
 
 Laajemmin lain tasolla:
 [Työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa)
@@ -49,8 +49,9 @@ on TES-rikkomus; ilman mitään sopimusta se on sekä TES- että usein
 työaikalain vastainen.
 
 Toinen tyypillinen tapaus on yövuoron ja aamuvuoron väli: yövuoro klo
-23–06 ja uusi vuoro samana päivänä klo 14 antaa 8 tuntia lepoa, se
-vaatii kertaluonteisen 7 h -sopimuksen **ja** silti vähintään 7 tuntia.
+23–06 ja uusi vuoro samana päivänä klo 14 antaa 8 tuntia lepoa: se
+vaatii kertaluonteisen 7 h -sopimuksen, **ja** levon on silti oltava
+vähintään 7 tuntia.
 
 ## Ruoka- ja kahvitauot samaan pykälään
 
@@ -76,7 +77,7 @@ puolella, jonka lepoajasta on kyse.
 Huomaa ero [vapaapäiväsääntöihin](/posts/vapaapaivat_kaupan_alalla):
 TES:n **vapaa** (vähintään 24 h, 8 § 5) on viikkolevon *lisäksi*
 annettava vapaajakso, joka merkitään listaan. Viikkolepo ja TES-vapaa
-ovat siis kaksi eri käsitettä, vaikka käytännössä ne usein limittäin.
+ovat siis kaksi eri käsitettä, vaikka käytännössä ne ovat usein limittäin.
 
 ## Yövuorot ja lepo
 
@@ -97,5 +98,7 @@ Varoitus ei estä tallennusta: kertaluonteinen 7 h -sopimus on TES:ssä
 sallittu, mutta sen pitää olla tietoinen.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 7 §, 8 § 3–5, 9 §; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 25 § (vuorokausilepo), 27 § (viikkolepo); [Työaika (tyosuojelu.fi)](https://tyosuojelu.fi/tyosuhde/tyoaika).*

@@ -57,7 +57,7 @@ PDF-pohja ei esimerkiksi:
 - lähetä henkilökohtaisia listoja työntekijöille
 - päivity automaattisesti, jos vuoroihin tulee muutoksia
 
-Silloin käytännön työ jää edelleen sinun tehtäväksesi: tarkistat tunnit käsin, huomaat virheet myöhässä ja kokoat raportteja eri paikasta.
+Silloin käytännön työ jää edelleen sinun tehtäväksesi: tarkistat tunnit käsin, huomaat virheet myöhässä ja kokoat raportteja eri paikoista.
 
 ## Mitä Työvuorolista tekee PDF:n lisäksi
 

@@ -158,7 +158,7 @@ Käytännön esimerkki liittojen omasta ohjeistuksesta: työntekijä tekee
 helatorstaiviikolla töitä maanantaista torstaihin ja on vapaalla
 perjantaista sunnuntaihin. Helatorstain työstä maksetaan normaali
 palkka, ja työntekijä saa vastineeksi pidemmän yhtenäisen vapaan.
-Poikkeus koskee vain arkipyhäjärjestelmää, jos yrityksessä on käytössä
+Poikkeus koskee vain arkipyhäjärjestelmää: jos yrityksessä on käytössä
 [vuosivapaajärjestelmä](/posts/arkipyhajarjestelma_vai_vuosivapaa_kaupan_alalla),
 tätä sopimismahdollisuutta ei ole.
 

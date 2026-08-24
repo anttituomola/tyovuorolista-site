@@ -34,12 +34,12 @@ Anna uudelle tiimillesi nimi, ja muuta tarvittaessa oletusasetuksia (lue lisää
 
 <img src="/blogPostImages/tyovuorolista_tiimit2.png" alt="tyovuorolista.fi:n modaali" width="100%">
 
-Uusi tiimi on nyt perustettu ja valittu aktiiviseksi. Ohjaudut tiimin asetukset sivulle, jossa voit vielä muuttaa asetuksia, ja ennen kaikkea <strong>valita tiimin työntekijät kaikkien työntekijöittesi joukosta</strong>.
+Uusi tiimi on nyt perustettu ja valittu aktiiviseksi. Ohjaudut Tiimin asetukset -sivulle, jossa voit vielä muuttaa asetuksia, ja ennen kaikkea <strong>valita tiimin työntekijät kaikkien työntekijöittesi joukosta</strong>.
 
 ## Miten vaihdan tiimiä sovelluksessa?
-Klikkaa <strong>oikasta yläkulmasta tiimin nimeä</strong> ja valitse avautuvasta valikosta haluamasi tiimi.
+Klikkaa <strong>oikeasta yläkulmasta tiimin nimeä</strong> ja valitse avautuvasta valikosta haluamasi tiimi.
 
 ## Voinko poistaa tiimin?
-Tiimin voi poistaa tiimin asetukset sivulta - pääset sinne joko tiimivalitsinvalikosta, tai navigaatiosta Hallinta -> Tiimin asetukset. Sivun alalaidassa on Poista tiimi -painike. 
+Tiimin voi poistaa Tiimin asetukset -sivulta. Pääset sinne joko tiimivalitsinvalikosta tai navigaatiosta Hallinta → Tiimin asetukset. Sivun alalaidassa on Poista tiimi -painike. 
 
 Huomaa, että tiimin poistaminen poistaa kaikki tiimin työvuorolistat ja työvuorot. Työntekijät eivät häviä, vaan ne ovat yhä valittavissa muihin tiimeihin. Lue lisää [työntekijöiden käytöstä eri tiimeissä](/posts/tiimit_ja_tyotekijoiden_kaytto_eri_tiimeissa).

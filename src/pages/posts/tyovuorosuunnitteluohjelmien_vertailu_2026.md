@@ -47,6 +47,8 @@ Huomionarvoinen muutos vuonna 2026: sekä Työvuorovelho että MaraPlan ovat sii
 | **HRSuunti** | ❌ | Tarjouksen kautta | Demo pyynnöstä | ❌ | ✅ toimialapainotus |
 | **Nepton** | ❌ | Tarjouksen kautta | Demo pyynnöstä | ❌ | ✅ työajanseurannan yhteydessä |
 
+---
+
 *Lähteet: kunkin ohjelman julkiset sivut 3.8.2026: [tyovuorolista.fi/hinnoittelu](https://www.tyovuorolista.fi/hinnoittelu), [otta.fi](https://www.otta.fi/tyoajanseuranta-paketit), [tuntikone.fi/hinnoittelu](https://tuntikone.fi/hinnoittelu/), [workfeed.io/fi/hinnoittelu](https://workfeed.io/fi/hinnoittelu/), [mepco.fi/tyovuorovelho](https://mepco.fi/tyovuorovelho/), [mepco.fi/maraplan-pro](https://mepco.fi/maraplan-pro/), [hrsuunti.fi](https://www.hrsuunti.fi/), [nepton.com](https://www.nepton.com/).*
 
 ## Mitä työvuorosuunnittelu maksaa? Kaksi laskuesimerkkiä

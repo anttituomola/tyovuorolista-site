@@ -11,16 +11,16 @@ tags: ["käyttöliittymä", "käyttöohjeet", "työntekijä", "työvuorolista"]
 ---
 
 ## Työntekijöiden järjestys
-Mennessäsi tyovuorolista.fi-sovelluksessa kalenterinäkymään, näet vasemmalla listattuna kaikki (joko salin tai keittiön) työntekijät. Työntekijöiden alaopuolella on <strong>"Muokkaa listaa" -painike</strong>, jota painamalla aktivoit listan muokkausmahdollisuuden. Tämän jälkeen voit <strong>raahata työntekijöitä haluamaasi järjestykseen</strong>. Tämä järjestys vaikuttaa myös [julkaistavaan työvuorolistaan](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille): ensimmäisenä kalenterinäkymässä oleva työntekijä on ensimmäisenä myös työvuorolistan kuvassa.
+Mennessäsi tyovuorolista.fi-sovelluksessa kalenterinäkymään, näet vasemmalla listattuna kaikki (joko salin tai keittiön) työntekijät. Työntekijöiden alapuolella on <strong>"Muokkaa listaa" -painike</strong>, jota painamalla aktivoit listan muokkausmahdollisuuden. Tämän jälkeen voit <strong>raahata työntekijöitä haluamaasi järjestykseen</strong>. Tämä järjestys vaikuttaa myös [julkaistavaan työvuorolistaan](/posts/tyovuorolistojen_julkaisu_ja_lahettaminen_tyontekijoille): ensimmäisenä kalenterinäkymässä oleva työntekijä on ensimmäisenä myös työvuorolistan kuvassa.
 
 ## Työntekijän piilotus
-Listallasi voi olla työntekijöitä, joita et juuri nyt tarvitse listaa suunnitellessasi, mutta en myöskään halua poistaa heitä kokonaan. Kun klikkaat "Muokkaa listaa" -painiketta, voit sen jälkeen klikata <strong>kunkin työntekijän kohdalla pientä X-kuvaketta, jolloin työntekijä piilotetaan näkymästä</strong>. Voit koska tahansa palauttaa työntekijän takaisin valitsemalla hänet "Näytä piilotettu työntekijä" -painikkeen takaa.
+Listallasi voi olla työntekijöitä, joita et juuri nyt tarvitse listaa suunnitellessasi, mutta et myöskään halua poistaa heitä kokonaan. Kun klikkaat "Muokkaa listaa" -painiketta, voit sen jälkeen klikata <strong>kunkin työntekijän kohdalla pientä X-kuvaketta, jolloin työntekijä piilotetaan näkymästä</strong>. Voit koska tahansa palauttaa työntekijän takaisin valitsemalla hänet "Näytä piilotettu työntekijä" -painikkeen takaa.
 
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/reorder_and_hide_workers.mp4" type="video/mp4">
 </video>
 
-Työntekijän piilotus ei poista häntä työvuorolistan kuvasta, mutta siellähän listataan joka tapauksessa vain työntekijät, joilla on työvuoroja kyseisessä
+Työntekijän piilotus ei poista häntä työvuorolistan kuvasta, mutta siellähän listataan joka tapauksessa vain työntekijät, joilla on työvuoroja kyseisellä listalla.
 
 ## Työvuorolistan rivien taustavärit
 Työntekijän on helpompi seurata listaa ja löytää omat vuoronsa, sillä uusimmassa päivityksessä työvuorolistalle tuotiin rivien taustavärit, jotka tulevat työntekijän taustaväristä:

@@ -20,11 +20,11 @@ Tilin poistaminen poistaa **KAIKKI** tietosi pysyvästi järjestelmästä. Tät�
 
 Kun poistat tilin, järjestelmä poistaa:
 
-- 🗑️ **Kaikki työvuorot ja työvuorolistat** - pysyvästi
-- 🗑️ **Kaikki työntekijät ja heidän tietonsa** - pysyvästi
-- 🗑️ **Kaikki tiimit ja asetukset** - pysyvästi
-- 🗑️ **Käyttäjätilisi ja yhteystietosi** - pysyvästi
-- 🗑️ **Sähköpostilistan jäsenyytesi** - pysyvästi
+- 🗑️ **Kaikki työvuorot ja työvuorolistat** (pysyvästi)
+- 🗑️ **Kaikki työntekijät ja heidän tietonsa** (pysyvästi)
+- 🗑️ **Kaikki tiimit ja asetukset** (pysyvästi)
+- 🗑️ **Käyttäjätilisi ja yhteystietosi** (pysyvästi)
+- 🗑️ **Sähköpostilistan jäsenyytesi** (pysyvästi)
 
 **Tätä toimintoa EI VOI PERUUTTAA!**
 
@@ -40,7 +40,7 @@ Harkitse tilin poistamista, jos:
 - Jos haluat aloittaa alusta, voit [luoda uuden tilin](/posts/uuden_tilin_luominen)
 - Jos haluat pitää tauon, voit peruuttaa tilauksen ja aktivoida sen uudelleen myöhemmin
 
-## Tilin poistaminen - vaihe vaiheelta
+## Tilin poistaminen: vaihe vaiheelta
 
 ### 1. Siirry asetuksiin
 
@@ -56,9 +56,9 @@ Sivun alareunassa näkyy punainen **"POISTA TILI"** -painike.
 ### 3. Lue varoitus TARKKAAN
 
 Avautuvassa varoitusikkunassa näet:
-- ⚠️ **PYSYVÄ poistaminen** - ei voi peruuttaa
-- ⚠️ **Kaikki data poistetaan** - työvuorot, työntekijät, listat, kaikki
-- ⚠️ **Välitön vaikutus** - poisto tapahtuu heti
+- ⚠️ **PYSYVÄ poistaminen**: ei voi peruuttaa
+- ⚠️ **Kaikki data poistetaan**: työvuorot, työntekijät, listat, kaikki
+- ⚠️ **Välitön vaikutus**: poisto tapahtuu heti
 
 **Lue teksti huolellisesti ennen kuin jatkat!**
 
@@ -71,7 +71,7 @@ Jos olet **täysin varma**, klikkaa punaista **"KYLLÄ, POISTA TILI PYSYVÄSTI"*
 Kun poisto on valmis:
 - ✅ Kaikki tietosi on poistettu järjestelmästä
 - 🚪 Sinut kirjataan ulos automaattisesti  
-- 🌐 Sinut ohjataan tyovuorolista.fi -markkinointisivulle
+- 🌐 Sinut ohjataan tyovuorolista.fi-markkinointisivulle
 
 <img src="/blogPostImages/account-management/13-account-deleted-redirected-to-marketing.png" alt="Ohjaus markkinointisivulle tilin poiston jälkeen" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 

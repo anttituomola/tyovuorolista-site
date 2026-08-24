@@ -18,8 +18,8 @@ tags: ['TES', 'kaupan ala', 'logistiikka', 'ylityö', 'yölisä']
 TES:ssä hänellä on **omat työaikalisäikkunat** (15 §), **oma
 vuorokausittainen ylityöporras** 10 h → +50 % ja 12 h → +100 % (12 § 7),
 ja ilta-/yölisät **lakkaavat 12 tunnin jälkeen**. 1.10.2026 logistiikan
-**yölisän sunnuntaituplaus päättyy** ja yölisä nousee 5,30 €/h
-yksinkertaisena.
+**yölisän sunnuntaituplaus päättyy** ja yölisä nousee 5,30 euroon
+tunnilta (yksinkertaisena).
 
 Sama ylityölogiikka myymälän rinnalla:
 [Lisätyö ja ylityö kaupan alalla](/posts/lisatyo_ja_ylityo_kaupan_alalla).
@@ -70,8 +70,8 @@ Euromäärät kootusti:
 ## Tasoittumisjakso jopa 52 viikkoon
 
 Logistiikkatyöntekijöitä koskeva pöytäkirja sallii sopia
-tasoittumisjaksosta toisin kuin 6 § 7:n 26 viikon katto. Enintään
-**52 viikkoa** (pöytäkirja 3 § 3). TES 6 § 8:n rajoitukset (kuka saa
+tasoittumisjaksosta 6 § 7:n 26 viikon katosta poiketen: jakso voi olla
+enintään **52 viikkoa** (pöytäkirja 3 § 3). TES 6 § 8:n rajoitukset (kuka saa
 kuulua 27–52 vk -jaksoon) **eivät koske** logistiikkaa.
 
 Perustasoinen
@@ -101,5 +101,7 @@ sovita.
 <img src="/blogPostImages/kaupan-tes/kaupan-huomautukset-paneeli.png" alt="TES-huomautukset: viikkotunnit ja vuororajat" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 § 5, 12 § 7, 15 §; ammattiryhmäpöytäkirja “Logistiikkatyöntekijät” 3 §; [Kaupan palkankorotusohje 2025–2028 (PAM)](https://www.pam.fi/wp-content/uploads/2025/03/Kaupan-palkankorotusohje-vuosille-2025-2028.pdf) (yölisä 1.10.2026).*

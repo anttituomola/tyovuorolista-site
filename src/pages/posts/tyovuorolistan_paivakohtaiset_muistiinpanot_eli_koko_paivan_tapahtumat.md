@@ -21,9 +21,9 @@ Helpoin tapa tietokoneella:
 
 <img src="/blogPostImages/kalenterin-kaytettavyys/modal-tapahtuma.png" alt="Vapaa / tapahtuma -ikkuna: Tapahtuma-välilehti" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Vaihtoehtoisesti voit edelleen **tuplaklikata aikaruudukkoa** (ei yläriviä), silloin avautuu suoraan muistiinpanoikkuna valitulla päivällä.
+Vaihtoehtoisesti voit edelleen **tuplaklikata aikaruudukkoa** (ei yläriviä), jolloin avautuu suoraan muistiinpanoikkuna valitulla päivällä.
 
-Tallenna, ja näet muistiinpanosi samoin tein kalenterissa ja tulostettavassa listassa.
+Tallenna, ja näet muistiinpanosi saman tien kalenterissa ja tulostettavassa listassa.
 
 > **Päivitys 07/2026:** Erillinen "Lisää koko päivän tapahtuma" -painike työntekijälistan yläreunasta poistettiin. Sama asia hoituu nyt **Vapaa / tapahtuma** -riviltä. Lue lisää: [Kalenteri helpommaksi isoilla tiimeillä](/posts/kalenterin_kaytettavyys_suuret_tiimit).
 
@@ -44,16 +44,16 @@ On hyvä huomata, että **mikäli poistat muistiinpanon, se poistuu kaikilta tii
 
 Voit muokata muistiinpanoa klikkaamalla sitä kalenterinäkymässä. Modaali avautuu, josta voit muokata tai poistaa muistiinpanon.
 
-### EDIT 02/04/2024: lisätty monipäiväinen muistiinpano
+### Päivitys 02/04/2024: lisätty monipäiväinen muistiinpano
 
 Voit nyt tehdä muistiinpanoja, jotka kattavat useamman päivän. Modaalissa on oma valintansa monipäiväiselle muistiinpanolle, ja voit lisäksi raahata muistiinpanot reunoista aloitus- ja lopetuspäiviä suuntaan tai toiseen.
 
-### EDIT 15/05/2024: Julkiset ja sisäiset muistiinpanot
+### Päivitys 15/05/2024: Julkiset ja sisäiset muistiinpanot
 
 Nyt voit määritellä muistiinpanolle, onko se julkinen vai ainoastaan sisäiseen käyttöön tarkoitettu. Tapahtuma-välilehdellä (tai muistiinpanoikkunassa) on kytkin **Julkinen (näkyy kaikille tiimin jäsenille)**.
 
-Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään. Kätevää esimiehille tarkoitetuille huomioille.
+Julkiset muistiinpanot näkyvät kaikissa julkaistavissa työvuorolistoissa: tulostettavassa listassa ja työntekijöille lähetettävissä sähköposteissa. Jos kytket julkisuuden pois, muistiinpano jää vain suunnittelunäkymään. Kätevää esimiehille tarkoitettuja huomioita varten.
 
 <img src="/blogPostImages/public_datenote.png" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" alt="Julkinen-kytkin tapahtumaikkunassa" />
 
-Tämä ominaisuus on kätevä esimerkiksi silloin, kun haluat merkitä muistiin sisäisiä asioita, kuten "Huom! Aleksi tuuraaja, tarvitsee vielä perehdytystä" tai "Myyntiodotus: 15 000€", jotka eivät ole tarkoitettu koko henkilöstön nähtäväksi.
+Tämä ominaisuus on kätevä esimerkiksi silloin, kun haluat merkitä muistiin sisäisiä asioita, kuten "Huom! Aleksi tuuraaja, tarvitsee vielä perehdytystä" tai "Myyntiodotus: 15 000€", joita ei ole tarkoitettu koko henkilöstön nähtäväksi.

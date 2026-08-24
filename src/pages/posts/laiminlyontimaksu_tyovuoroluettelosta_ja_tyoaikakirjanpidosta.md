@@ -5,7 +5,7 @@ pubDate: 2026-07-23
 description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Esitys on vielä lausuntokierroksella; oikeuskansleri on vaatinut täsmennyksiä.'
 reviewedDate: 2026-08-03
 infoBasis: 'Perustuu työ- ja elinkeinoministeriön lausuntokierroksella olevaan lakiluonnokseen laiminlyöntimaksusta, oikeuskanslerin lausuntoon OKV/1883/21/2026 (29.7.2026) sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; lopullinen muoto ratkeaa eduskunnan käsittelyssä.'
-ctaText: 'Pidä työaikakirjanpito kuntoon'
+ctaText: 'Pidä työaikakirjanpito kunnossa'
 ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
 image:

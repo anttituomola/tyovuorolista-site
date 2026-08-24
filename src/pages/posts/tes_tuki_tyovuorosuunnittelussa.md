@@ -72,13 +72,13 @@ minä päivänä:
 
 MaRa-katalogi tarkistaa muun muassa:
 
-- vuorokausilevon (11 h, sovittaessa 8 h. Lain ehdoton alaraja)
+- vuorokausilevon (11 h, sovittaessa 8 h eli lain ehdoton alaraja)
 - vuoron vähimmäis- ja enimmäispituuden (4 h / 10 h)
 - V- ja X-vapaapäivät sekä enintään 7 työpäivää putkeen
 - peräkkäisten yövuorojen määrän
 - joka viidennen viikonlopun vapaan
 - kolmiviikkoisjakson tuntirajat (112,5 h / 120 h)
-- työvuorolistan julkaisun määräajan (viikko ennen jakson alkua). Myöhässä julkaisusta tulee varoitus, mutta julkaisu onnistuu silti
+- työvuorolistan julkaisun määräajan (viikko ennen jakson alkua). Myöhästyneestä julkaisusta tulee varoitus, mutta julkaisu onnistuu silti
 
 ## Asetukset: valitse TES ja jaksorytmi
 

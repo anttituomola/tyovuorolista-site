@@ -62,7 +62,7 @@ MaRa-TES:ssä osa-aikaisen työajasta sovitaan jommallakummalla mallilla:
 - **Kiinteä vähimmäistyöaika** pitää toteutua *jokaisella*
 kolmiviikkoisjaksolla. Jos tunnit jäävät alle sovitun, työnantaja
 maksaa puuttuvia tunteja vastaavan korvauksen, ellei alijäämä johdu
-työntekijästä itsestä tai palkattomasta poissaolosta.
+työntekijästä itsestään tai palkattomasta poissaolosta.
 - **Keskimääräinen vähimmäistyöaika** saa vaihdella jaksoittain, kunhan
 keskiarvo toteutuu tarkastelujakson aikana. Tarkastelujakso on
 kuusi kuukautta (enintään yhdeksän kolmiviikkoisjaksoa);
@@ -88,7 +88,7 @@ kuukauden alusta.
 ## Miksi sopimustuntien kirjaus kannattaa?
 
 Sopimustuntien kirjaaminen ei ole byrokratiaa vaan suunnittelun
-peruskiveni:
+peruskivi:
 
 - Se kertoo, milloin osa-aikaisen tunnit ylittävät sopimuksen ja
 [lisätyökorvaus alkaa](/posts/lisatyo_ja_ylityo_ravintola-alalla).
@@ -107,4 +107,4 @@ TES-tuen lisä- ja ylityörajoja:
 
 ---
 
-*Lähteet: [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html), [Työaikalaki 872/2019, 30 § (Finlex)*](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872)
+*Lähteet: [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html), [Työaikalaki 872/2019, 30 § (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872)*

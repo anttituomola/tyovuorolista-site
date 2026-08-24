@@ -23,7 +23,7 @@ täsmällisiä määräyksiä (mm. enintään 8 työvuoroa vapaiden välissä ja
 työstä vapaata sunnuntaita vuodessa).
 
 Tämä on kaupan alan vastine aiemmalle
-[ravintola-alan TES-sarjallemme](/posts/kolmiviikkoisjakso_ravintola-alalla)
+[ravintola-alan TES-sarjallemme](/posts/kolmiviikkoisjakso_ravintola-alalla).
 Jos teet listoja myymälään, varastoon tai logistiikkakeskukseen, tässä
 postauksessa on kokonaiskuva ja jatko-osissa yksityiskohdat:
 

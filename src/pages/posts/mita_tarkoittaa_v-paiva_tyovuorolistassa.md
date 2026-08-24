@@ -16,7 +16,7 @@ tags: ["työvuoro", "työaikalainsäädäntö", "V-päivä", "vapaat"]
 
 V-päivä on viikkolepopäivä eli vapaapäivä. Viittä työpäivää sisältävää viikkoa kohden ansaitaan kaksi vapaapäivää: yksi V-päivä ja yksi [X-päivä](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa). Työpäiväksi rinnastetaan myös esimerkiksi toiselta viikolta siirretty X-päivä ja [TS-päivä](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa), joten pelkkä tehty työvuoro ei ole ainoa ansaintaperuste. Käytännössä kaikilla täysaikaisilla työntekijöillä tulisi olla yksi V-päivä viikossa.
 
-## Koska V-päivä tulee olla?
+## Koska V-päivän tulee olla?
 Jokaisen täyden työssäoloviikon tulee sisältää V-päivä, eli käytännössä näitä ei voi siirrellä: V-päivä annetaan sille viikolle jolla se on tienattu. Työvuorolistan teko kannattaakin aloittaa siten, että läimii ensin paikoilleen kaikkien työntekijöiden pakolliset vapaat, eli V-päivät ja mahdolliset lomat, ja lähtee rakentamaan tetristä siitä. Näistä ei voi kuitenkaan joustaa.
 
 V-päivä voi olla mikä tahansa viikon päivä, joskaan vapaapäivien välissä ei voi olla yli seitsemää työpäivää (vapaapäivän voi toki muodostaa myös [X](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa), [TS](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa), tai mikä tahansa muu ei-työpäivä).

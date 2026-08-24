@@ -12,7 +12,7 @@ tags: ["työvuorolista", "ominaisuus", "ohjeet", "työvuorot", "asetukset"]
 
 ### Vuorojen oletuspituuden hallinta
 
-Nyt voit räätälöidä uusien työvuorojen oletuspituuden kahdella eri tasolla: tiimin yhteisesti ja työntekijäkohtaisesti.
+Nyt voit räätälöidä uusien työvuorojen oletuspituuden kahdella eri tasolla: tiimikohtaisesti ja työntekijäkohtaisesti.
 
 #### Tiimikohtainen oletuspituus
 

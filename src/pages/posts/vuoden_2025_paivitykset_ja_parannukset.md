@@ -24,7 +24,7 @@ Sovellus optimoitiin täysin mobiililaitteille! Voit nyt hallita työvuoroja, ty
 
 **Joustava raporttigeneraattori CSV- ja PDF-muodoissa**
 
-Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen vientiä CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet (työntekijän nimi, sähköposti, ID, tyyppi, määrä) ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella. Raportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat ja tukee useimpia suomalaisia työtuntikategorioita ja -lisiä. CSV-muoto on Excel-yhteensopiva ja PDF-muoto sopii suoraan tulostamiseen.
+Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet (työntekijän nimi, sähköposti, ID, tyyppi, määrä) ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella. Raportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat ja tukee useimpia suomalaisia työtuntikategorioita ja -lisiä. CSV-muoto on Excel-yhteensopiva ja PDF-muoto sopii suoraan tulostamiseen.
 
 **Lue lisää:** [Palkkaraportti-ominaisuus](/posts/palkkaraportti_ominaisuus)
 
@@ -40,7 +40,7 @@ Uusi resurssien aikataulutus -ominaisuus mahdollistaa autojen, pakettiautojen, t
 
 **Mahdollisuus tarkistaa lähetettävät sähköpostit ennen lähettämistä**
 
-Uusi esikatselutoiminto antaa mahdollisuuden tarkistaa työntekijöille lähetettävät sähköpostit ennen lähettämistä. Voit nähdä täydellisen sähköpostisisällön, navigoida työntekijöiden välillä ja säätää lähetysasetuksia (PDF-liite, kopiot itsellesi, julkaiseminen). Tämä auttaa varmistamaan, että kaikki tiedot ovat oikein ennen lähettämistä.
+Uusi esikatselutoiminto antaa mahdollisuuden tarkistaa työntekijöille lähetettävät sähköpostit ennen lähettämistä. Voit nähdä koko sähköpostin sisällön, navigoida työntekijöiden välillä ja säätää lähetysasetuksia (PDF-liite, kopiot itsellesi, julkaiseminen). Tämä auttaa varmistamaan, että kaikki tiedot ovat oikein ennen lähettämistä.
 
 **Lue lisää:** [Sähköpostin esikatselutoiminto](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa)
 
@@ -48,7 +48,7 @@ Uusi esikatselutoiminto antaa mahdollisuuden tarkistaa työntekijöille lähetet
 
 **Nopea ja helppo korvaajan vuoron lisäys**
 
-Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) ovat esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
+Kun merkitset vuoron sairauslomaksi Tuntien kirjaus -näkymässä, näet heti "Lisää korvaajan vuoro" -painikkeen. Painikkeesta avautuu ikkuna, jossa kaikki tiedot (päivämäärä, ajat) on esitäytetty alkuperäisen vuoron mukaan. Voit valita korvaajan mistä tahansa tiimistä, ja korvaajan vuoro lisätään samaan kalenterinäkymään. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet.
 
 **Lue lisää:** [Korvaajan vuoron lisäys sairauslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle)
 
@@ -66,7 +66,7 @@ Uusi "Ilmoita ongelmasta" -painike näkyy jokaisen sivun oikeassa alakulmassa. K
 
 Syyskuussa julkaisimme neljä uutta ominaisuutta tilin hallintaan:
 
-**Uuden tilin luominen:** Prosessi on nopea ja yksinkertainen - voit valita Google-kirjautumisen tai perinteisen sähköposti + salasana -tavan. Tilin luomisen jälkeen saat automaattisesti Mini-paketin (ilmainen, 3 työntekijää).
+**Uuden tilin luominen:** Prosessi on nopea ja yksinkertainen: voit valita Google-kirjautumisen tai perinteisen sähköposti + salasana -tavan. Tilin luomisen jälkeen saat automaattisesti Mini-paketin (ilmainen, 3 työntekijää).
 
 **Tilauksen ostaminen:** Helppo päivittää suurempaan pakettiin (Normi, Iso tai Jätti) Stripe-maksupalvelun kautta. Tilaus aktivoituu välittömästi maksun jälkeen.
 
@@ -103,12 +103,12 @@ Vuoden 2025 jälkeen on julkaistu muun muassa:
 
 Vuonna 2025 julkaisimme yhteensä **11 uutta ominaisuutta tai päivitystä**, jotka tekevät Työvuorolistan käytöstä entistä helpompaa ja joustavampaa. Merkittävimmät uudistukset olivat:
 
-- **Mobiilituki** - sovellus nyt täysin käytettävissä älypuhelimilla ja tableteilla
-- **Palkkaraportit** - joustava raporttigeneraattori CSV- ja PDF-muodoissa
-- **Resurssien aikataulutus** - autojen ja työkalujen hallinta työvuoroissa
-- **Sähköpostin esikatselu** - mahdollisuus tarkistaa lähetettävät sähköpostit ennen lähettämistä
-- **Parannettu tilin hallinta** - helpompi tilin luominen, tilauksen ostaminen ja peruuttaminen, sekä palautteen lähetys
-- **Vuosilaskutus** - mahdollisuus maksaa laskulla vuodeksi kerrallaan
+- **Mobiilituki**: sovellus nyt täysin käytettävissä älypuhelimilla ja tableteilla
+- **Palkkaraportit**: joustava raporttigeneraattori CSV- ja PDF-muodoissa
+- **Resurssien aikataulutus**: autojen ja työkalujen hallinta työvuoroissa
+- **Sähköpostin esikatselu**: mahdollisuus tarkistaa lähetettävät sähköpostit ennen lähettämistä
+- **Parannettu tilin hallinta**: helpompi tilin luominen, tilauksen ostaminen ja peruuttaminen, sekä palautteen lähetys
+- **Vuosilaskutus**: mahdollisuus maksaa laskulla vuodeksi kerrallaan
 
 Kiitos, että olet käyttänyt Työvuorolistaa! Toivomme, että nämä päivitykset tekevät työvuorojen suunnittelusta entistä sujuvampaa. Jos sinulla on ideoita tai palautetta, [ota yhteys tukeen](/posts/ohje_ja_tuki_chat) sovelluksen chatista. Kuuntelemme mielellämme!
 

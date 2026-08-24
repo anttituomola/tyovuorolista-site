@@ -10,7 +10,7 @@ image:
 tags: ["sairausloma", "korvaaja", "tuntien kirjaus", "työvuorojen hallinta"]
 ---
 
-Kun työntekijä jää sairauslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairauslomaksi, ja painike ilmestyy heti - kaikki tiedot esitäytetään automaattisesti!
+Kun työntekijä jää sairauslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairauslomaksi, ja painike ilmestyy heti: kaikki tiedot esitäytetään automaattisesti!
 
 ## Uudet toiminnot Tuntien kirjaus -näkymässä
 
@@ -18,7 +18,7 @@ Tuntien kirjaus -näkymä on päivitetty monella uudella käytännöllisellä to
 
 ### Kaikki työntekijät näkyvillä
 
-Tuntien kirjaus näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäsenet. Tämä helpottaa:
+Tuntien kirjaus näyttää nyt kaikki työntekijät, ei vain nykyisen tiimin jäseniä. Tämä helpottaa:
 - Palkanlaskentaa, kun tarvitset yhteenvedon kaikista työntekijöistä
 - Korvaajien löytämistä muista tiimeistä
 - Yleiskuvaa kaikista työvuoroista
@@ -46,7 +46,7 @@ Korvaajan vuoro lisätään samaan kalenterinäkymään kuin alkuperäinen vuoro
 
 ### Tiimin näyttäminen
 
-Taulukossa näet nyt myös "Tiimi" -sarakkeen, joka kertoo, mihin tiimiin jokainen vuoro kuuluu. Tämä on erityisen hyödyllistä, kun näet vuoroja useammalta tiimiltä.
+Taulukossa näet nyt myös "Tiimi"-sarakkeen, joka kertoo, mihin tiimiin jokainen vuoro kuuluu. Tämä on erityisen hyödyllistä, kun näet vuoroja useammalta tiimiltä.
 
 <img src="/blogPostImages/sickleave-substitute/sickleave-subsitute (2).png" alt="Tuntien kirjaus -näkymä tiimin tiedoilla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
 

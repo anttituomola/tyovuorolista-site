@@ -10,7 +10,7 @@ image:
 tags: ["tilaus", "peruuttaminen", "irtisanominen", "laskutus"]
 ---
 
-Voit peruuttaa tilauksesi milloin tahansa ilman irtisanomisaikaa. Nykyinen tilauksesi jatkuu laskutusjakson loppuun, jonka jälkeen sovellus muuttuu automaattisesti Mini-pakettiin.
+Voit peruuttaa tilauksesi milloin tahansa ilman irtisanomisaikaa. Nykyinen tilauksesi jatkuu laskutusjakson loppuun, jonka jälkeen sovellus siirtyy automaattisesti Mini-pakettiin.
 
 <img src="/blogPostImages/account-management/10-cancel-subscription-modal.png" alt="Tilauksen peruutusvaroitus" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
@@ -31,7 +31,7 @@ Kun peruutat tilauksen:
 - ⬇️ Sovellus rajoittuu 3 työntekijään (Mini-paketti) jakson päätyttyä
 - ✅ Kaikki ominaisuudet toimivat normaalisti jakson loppuun saakka
 
-## Tilauksen peruuttaminen - vaihe vaiheelta
+## Tilauksen peruuttaminen: vaihe vaiheelta
 
 ### 1. Avaa asetukset
 
@@ -66,7 +66,7 @@ Näet vahvistusviestin:
 
 **"Peruuta tilaus" -painike katoaa** kun peruutus on tehty.
 
-**Voit jatkaa tilauksen käyttöä** jakson loppuun asti - kaikki ominaisuudet toimivat normaalisti.
+**Voit jatkaa tilauksen käyttöä** jakson loppuun asti: kaikki ominaisuudet toimivat normaalisti.
 
 **Voit aktivoida tilauksen uudelleen** koska tahansa ennen päättymispäivää valitsemalla uuden paketin.
 

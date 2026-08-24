@@ -11,7 +11,7 @@ tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
 *Päivitetty 20.8.2026: samaan Työsuhde-osioon tuli vuosiloman
-ansaintasääntö ja alkusaldo —
+ansaintasääntö ja alkusaldo, katso
 [vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
 Päivitetty 21.7.2026: työsuhteen tyyppiin tuli uusi vaihtoehto
 **TES ei koske (yrittäjä, tms.)**, jolla yrittäjä tai muu TES:n

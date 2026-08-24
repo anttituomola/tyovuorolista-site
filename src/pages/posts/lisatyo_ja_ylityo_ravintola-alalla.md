@@ -48,7 +48,7 @@ Osa-aikaisen työntekijän lisätyö alkaa jo hänen
 [työsopimukseensa kirjatusta tuntimäärästä](/posts/tyotunnit_tyosopimuksessa):
 esimerkiksi 90 h/3 vk -sopimuksella tunnit 90:stä 112,5:een ovat
 lisätyötä. Ylityökorotukset alkavat samasta 120 tunnista kuin
-kokoaikaisilla. Siksi sopimustuntien kirjaaminen järjestelmään kannattaa, ilman niitä osa-aikaisen lisätyötä ei voi laskea oikein.
+kokoaikaisilla. Siksi sopimustuntien kirjaaminen järjestelmään kannattaa: ilman niitä osa-aikaisen lisätyötä ei voi laskea oikein.
 
 Huomaa myös, että vapaapäivinä
 ([V- ja X-päivinä](/posts/x_ja_v-paivien_merkkaus_tyovuorolistaan)) tehty

@@ -35,7 +35,7 @@ taulukkopalkasta. Kesäkuun 2026 taulukoilla se tarkoittaa esimerkiksi:
 
 Eli kysymykseen "paljonko hampurilaispaikassa maksetaan?" vastaus on:
 harjoittelijana vähintään noin 9,77 €/h ja harjoitteluajan jälkeen
-vähintään 12,21 €/h, nämä ovat vähimmäispalkkoja, enemmän saa aina
+vähintään 12,21 €/h. Nämä ovat vähimmäispalkkoja, enemmän saa aina
 maksaa. Seuraava taulukkokorotus tulee 1.7.2027.
 
 Harjoitteluajasta kannattaa tietää kolme asiaa:

@@ -25,7 +25,7 @@ tulee 9 peräkkäisen työpäivän katto.
 
 ## Milloin tasoittumista tarvitaan?
 
-Ilman tasoittumisjärjestelmää jokainen viikko seisoo omallaan: 37,5
+Ilman tasoittumisjärjestelmää jokainen viikko seisoo omillaan: 37,5
 tunnin ylitys laukaisee heti korotetun palkan, kuten
 [lisä- ja ylityöpostauksessa](/posts/lisatyo_ja_ylityo_kiinteistopalvelualalla)
 kerroimme. Siivouksen ja kiinteistönhuollon vaihteleva kuorma
@@ -97,5 +97,7 @@ eritellään omaksi rivikseen. Paikallisesti sovitut pidennetyt rajat
 
 Varoitukset eivät estä tallentamista. Päätös ja vastuu tulkinnasta
 jäävät työnantajalle, kuten aina TES-tuessa.
+
+---
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8 § 1 mom. (sis. osa-aikaisen jaksoesimerkki), 10 § 1 mom. laskentaohje (sis. 197 tunnin esimerkki) ja allekirjoituspöytäkirja kohdat 5–6 (1.1.2027 muutokset); [Kiinteistötyönantajat ry: sovitut muutokset 2025–2028](https://kiinteistotyonantajat.fi/wp-content/uploads/2025/04/kiinteistopalvelualan-tyontekijat-palkankorotukset-ja-tekstimuutokset_2025.pdf).*

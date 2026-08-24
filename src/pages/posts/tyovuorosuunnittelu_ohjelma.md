@@ -14,7 +14,7 @@ tags: ["työvuorosuunnittelu", "ohjelma", "työvuorosuunnitteluohjelmistot", "il
 
 **Lyhyesti:** Työvuorolistan voi tehdä paperilla, Excelillä tai
 työvuorosuunnitteluohjelmalla. Ohjelma maksaa itsensä takaisin, jos se
-säästää edes tunnin työvoimakuluja kuukaudessa tai tunnin omaa aikaasi.
+säästää edes tunnin verran työvoimakuluja kuukaudessa tai tunnin omaa aikaasi.
 Valitse kotimainen ohjelma, joka ymmärtää suomalaista työaikalakia ja
 TES:iä, ja jonka hinnat ovat julkisesti näkyvillä. Ilmaiseksi pääsee
 alkuun [tulostettavalla pohjalla](/pohja) tai Työvuorolistan

@@ -13,7 +13,7 @@ image:
 tags: ['vuosivapaa', 'vuosiloma', 'TES', 'MaRa', 'kaupan ala', 'työajan lyhennys']
 ---
 
-**Lyhyesti:** Vuosiloma on vuosilakiin perustuva palkallinen loma.
+**Lyhyesti:** Vuosiloma on vuosilomalakiin perustuva palkallinen loma.
 Vuosivapaa on työehtosopimukseen perustuva työajan lyhennys. Sama
 työntekijä voi ansaita molempia. Vuosivapaa ei vähennä vuosilomaa eikä
 vuosiloma vuosivapaata.

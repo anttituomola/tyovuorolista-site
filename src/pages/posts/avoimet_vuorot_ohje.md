@@ -19,7 +19,7 @@ Avoimet vuorot sopivat esimerkiksi näihin tilanteisiin:
 - sairastapaus jätti aukon, ja haluat tarjota vuoroa koko tiimille yhdellä kertaa soittokierroksen sijaan
 - extravuoro, jonka voi ottaa kuka tahansa halukas
 
-> **Käytössä kaikilla maksullisilla tilauksilla.** Avoimet vuorot kuuluvat samaan pakettiin kuin [Oma-portaali](/posts/oma_portaali_ohje) eikä erillistä aktivointia tarvita. Ilmaisessa Mini-tilauksessa ominaisuus ei ole käytettävissä. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
+> **Käytössä kaikilla maksullisilla tilauksilla.** Avoimet vuorot kuuluvat samaan pakettiin kuin [Oma-portaali](/posts/oma_portaali_ohje), eikä erillistä aktivointia tarvita. Ilmaisessa Mini-tilauksessa ominaisuus ei ole käytettävissä. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
 
 ## Esihenkilölle: näin käytät avoimia vuoroja
 
@@ -38,7 +38,7 @@ Avoimelle vuorolle voi lisätä [osaamisvaatimuksen](/posts/tyontekijoiden_osaam
 
 Luotu avoin vuoro on aluksi vain sinun nähtävissäsi. Kun haluat tarjota sitä työntekijöille, julkaise se:
 
-- **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu — voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu, ja perua julkaisun samasta paikasta.
+- **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu: voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu, ja perua julkaisun samasta paikasta.
 - **Yksittäinen vuoro:** avaa avoin vuoro kalenterista ja paina **Julkaise työntekijöille**.
 
 <img src="/blogPostImages/avoimet-vuorot/julkaise-avoimet-vuorot.png" alt="Julkaise-näkymä, jossa Julkaise avoimet vuorot -painike" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
@@ -79,13 +79,13 @@ Kun työntekijöitä ilmoittautuu, näet määrän suoraan kalenterissa vuoron k
 <img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoimet-vuorot-etusivu.png" alt="Oma-portaalin etusivu, jossa Avoimia vuoroja tarjolla -painike" />
 </div>
 
-Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa. Jos vuorolla on osaamisvaatimus, jota sinulla ei ole, näet vaatimuksen mutta et voi ilmoittautua — näin tiedät, mikä osaaminen avaisi lisää vuoroja.
+Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa. Jos vuorolla on osaamisvaatimus, jota sinulla ei ole, näet vaatimuksen, mutta et voi ilmoittautua. Näin tiedät, mikä osaaminen avaisi lisää vuoroja.
 
 <img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" />
 
 ## Mitä avoimista vuoroista kannattaa tietää
 
-- **Useampi työntekijä voi ilmoittautua samaan vuoroon.** Esihenkilö valitsee aina tekijän — vuoro ei mene ensimmäiselle ilmoittautuneelle automaattisesti.
+- **Useampi työntekijä voi ilmoittautua samaan vuoroon.** Esihenkilö valitsee aina tekijän: vuoro ei mene ensimmäiselle ilmoittautuneelle automaattisesti.
 - **Ilmoitukset kulkevat molempiin suuntiin:** työntekijä saa ilmoituksen uudesta avoimesta vuorosta, ja esihenkilö saa ilmoituksen uudesta ilmoittautumisesta. Ilmoitusasetuksia voi säätää profiilissa.
 - **Julkaisun voi perua** niin kauan kuin vuoroa ei ole annettu kenellekään. Peruttu vuoro poistuu työntekijöiden näkymästä.
 - **Avoin vuoro ei vaadi julkaistua listaa.** Voit tarjota avoimia vuoroja jo luonnosvaiheessa olevalta listalta.
@@ -93,4 +93,4 @@ Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien 
 
 ## Palautetta?
 
-Jos otat avoimet vuorot käyttöön, kerro mielellään miten ne toimivat teidän arjessanne. Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
+Jos otat avoimet vuorot käyttöön, kerrothan, miten ne toimivat teidän arjessanne. Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.

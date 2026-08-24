@@ -69,11 +69,11 @@ lauantai–sunnuntai-vapaapäiväyhdistelmää** (8 § 12), ellei työntekijän
 kanssa toisin sovita tai perustellusta syystä muuta johdu. Vuosilomalle
 osuvat viikonloput lasketaan saaduiksi.
 
-Lisäksi kuusi nimettyä lauantaita ovat pääsääntöisesti vapaapäiviä
+Lisäksi kuusi nimettyä lauantaita on pääsääntöisesti vapaapäiviä
 (8 § 11): uudenvuodenpäiväviikon, loppiaisviikon, vapunpäiväviikon,
 helatorstaiviikon ja itsenäisyyspäiväviikon lauantait sekä
 pääsiäislauantai. Kiinteistöpalveluissa katkeamaton palvelutarjonta
-tekee näistä usein työpäiviä, silloin työstä maksetaan **50 %
+tekee näistä usein työpäiviä, ja silloin työstä maksetaan **50 %
 korotettu palkka**, mistä lisää
 [lisäpostauksessa](/posts/ilta_yo_ja_aattolisat_kiinteistopalvelualalla).
 
@@ -81,7 +81,7 @@ Lepoajat ovat tutut: vuorokausilepo **11 tuntia** (paikallisesti
 sovittavissa, ei koskaan alle 7 tuntia) ja viikkolepo **35 tuntia**
 kerran viikossa.
 
-## Arkipyhäkorvaus, ja sen loppu 31.12.2026
+## Arkipyhäkorvaus ja sen loppu 31.12.2026
 
 Toisin kuin kaupan alalla, kiinteistöpalvelualan arkipyhät **eivät
 lyhennä työaikaa**. Työntekijä saa niistä rahakorvauksen
@@ -117,5 +117,7 @@ mennessä). Seuraamme tilannetta ja päivitämme laskennan, jos sopimus
 muuttuu.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
 
 *Lähteet: [Kiinteistöpalvelualan työntekijöitä koskeva työehtosopimus 1.4.2025–31.3.2028 (Finlex, täysteksti)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf) 8–10 § ja allekirjoituspöytäkirja; [Kiinteistötyönantajat ry: työehtosopimukset](https://kiinteistotyonantajat.fi/edunvalvonta/tyoelamaasiat/tyoehtosopimukset/); [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/lainsaadanto/2019/872) 30 §.*

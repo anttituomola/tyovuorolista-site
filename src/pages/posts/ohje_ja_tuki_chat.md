@@ -36,7 +36,7 @@ Chat vastaa lyhyesti ja käytännönläheisesti. Vastauksen alla näkyy **Lue li
 
 <img src="/blogPostImages/ohje_ja_tuki_chat/keskustelu.png" alt="Chatissa kysymys, vastaus vaiheineen ja lähdeartikkelin linkki" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />
 
-Vastaukset perustuvat Työvuorolistan julkisiin ohjeartikkeleihin. Samaan sisältöön, jota löydät tältä sivustolta. Chat osaa esimerkiksi ohjata oikeaan paikkaan sovelluksessa (*Hallinta → Työntekijät*, *Tuntien kirjaus* jne.).
+Vastaukset perustuvat Työvuorolistan julkisiin ohjeartikkeleihin, samaan sisältöön, jonka löydät tältä sivustolta. Chat osaa esimerkiksi ohjata oikeaan paikkaan sovelluksessa (*Hallinta → Työntekijät*, *Tuntien kirjaus* jne.).
 
 ### 3. Aloita tarvittaessa uusi keskustelu
 
@@ -47,7 +47,7 @@ Jos vaihdat aihetta, paina **Uusi keskustelu** chat-ikkunan alareunasta. Aiempi 
 Jos chat ei löydä kysymykseesi sopivaa ohjetta, se tarjoaa lähetysmahdollisuuden tuelle. Voit myös ottaa yhteyttä milloin tahansa chat-ikkunan alareunasta: paina **Ota yhteys tukeen**.
 
 Voit:
-- lisätä **Lisätiedot** -kenttään tarkennuksen
+- lisätä **Lisätiedot**-kenttään tarkennuksen
 - valita **Liitä kuvakaappaus**, jos haluat näyttää mitä näet ruudulla
 - painaa **Lähetä kysymys Antille**
 
@@ -58,7 +58,7 @@ Tukipyynnössä mukana ovat keskustelun viestit, sivun osoite ja tarvittaessa ku
 ## Käytännön vinkkejä
 
 - **Kysy luonnollisella kielellä**, esimerkiksi *"Miten poistan työntekijän?"* tai *"Miten peruutan tilauksen?"*
-- **Tarkenna tarvittaessa**, jos vastaus ei osu, kysy tarkentava kysymys samassa keskustelussa
+- **Tarkenna tarvittaessa**: jos vastaus ei osu, kysy tarkentava kysymys samassa keskustelussa
 - **Hyödynnä lähdeartikkeleita**: pitkissä ohjeissa chat tiivistää, mutta linkin takaa löydät kuvat ja yksityiskohtaisemmat vaiheet
 
 ## Tärkeää tietää

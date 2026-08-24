@@ -27,7 +27,7 @@ Portaali tarjoaa tällä hetkellä neljä toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
 - **Vapaatoiveen ilmoittaminen**: toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
-- **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
+- **Tuntien ilmoittaminen**: toteutuneet työajat, sairausloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
 
 ## Esihenkilölle: näin otat Oma-portaalin käyttöön
@@ -42,7 +42,7 @@ Siirry **Julkaise**-näkymään, valitse lista ja paina **Merkitse lista julkais
 
 ### 2. Varmista, että työntekijällä on sähköpostiosoite
 
-Kutsu ja kirjautuminen toimivat vain sähköpostilla. Työntekijän sähköposti täytyy olla tallennettuna työntekijätietoihin, sama osoite, johon kutsu lähetetään.
+Kutsu ja kirjautuminen toimivat vain sähköpostilla. Työntekijän sähköpostin täytyy olla tallennettuna työntekijätietoihin, sama osoite, johon kutsu lähetetään.
 
 ### 3. Kutsu työntekijä portaaliin
 
@@ -182,7 +182,7 @@ Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kir
 
 Oma-portaali **ei vielä korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
 
-- et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairasloman voit ilmoittaa tunti-ilmoituksella)
+- et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairausloman voit ilmoittaa tunti-ilmoituksella)
 - et voi hyväksyä tai hylätä esihenkilön ehdottamia vuoromuutoksia
 - et voi vaihtaa vuoroja työkaverin kanssa
 - et näe muiden työntekijöiden vuoroja

@@ -27,7 +27,7 @@ Varoituksessa listataan ongelmaiset sähköpostiosoitteet ja niiden tila.
 
 1. **Tarkista osoitteet**: varmista, ettei työntekijän sähköpostiosoitteessa ole kirjoitusvirhettä. Voit korjata sen modaalin **Lisää sähköposti** -linkistä tai [Työntekijät](/posts/tyontekijoiden_hallinta)-sivulta.
 2. **Kysy työntekijältä**: jos osoite on oikein mutta viesti on palautunut, postilaatikko voi olla täynnä tai osoite vanhentunut.
-3. **Roskapostimerkintä**: pyydä työntekijää merkitsemään aiempi viesti luotettavaksi tai lisää lähettäjä osoitekirjaansa. Lue myös [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa), jolla voit varmistaa viestin sisällön ennen lähetystä.
+3. **Roskapostimerkintä**: pyydä työntekijää merkitsemään aiempi viesti luotettavaksi tai lisäämään lähettäjä osoitekirjaansa. Lue myös [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa), jolla voit varmistaa viestin sisällön ennen lähetystä.
 4. **Vaihtoehtoiset kanavat**: jos sähköposti ei toimi, voit jakaa listan [PDF:nä](/posts/tyovuorolista_pohja_pdf), [tulostaa henkilökohtaiset listat](/posts/henkilokohtaisten_tyovuorolistojen_tulostus) tai lähettää kuvan tiimin chatissa.
 
 ## Muut sähköpostiin liittyvät huomiot
