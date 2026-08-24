@@ -22,6 +22,8 @@ ctaHref: https://app.tyovuorolista.fi/oma
 
 *Päivitetty 23.8.2026: avoimet vuorot ovat nyt käytössä kaikilla maksullisilla tilauksilla ilman erillistä aktivointia. Katso [avointen vuorojen oma ohje](/posts/avoimet_vuorot_ohje).*
 
+*Päivitetty 24.8.2026: avoimen vuoron voi luoda myös puhelimella.*
+
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
@@ -88,11 +90,14 @@ Tunti-ilmoitus on oletuksena päällä. Jos et halua käyttää sitä, voit kytk
 
 ### 6. Avoimet vuorot: suunnittele vuoro ilman tekijää
 
-**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Tällä hetkellä avoimen vuoron voi luoda vain **klikkaamalla kalenterin aikaa**. Avautuvassa vuoromodaalissa valitse työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Avoin vuoro näkyy kalenterissa harmaana.
+**Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Tietokoneella klikkaa kalenterissa aikaa ja valitse avautuvassa vuoroikkunassa työntekijävalikosta ylin vaihtoehto **Avoin vuoro**. Puhelimella sama onnistuu päiväsuunnittelijan **+**-painikkeesta: valitse työntekijärivistä **Avoin**. Avoin vuoro näkyy kalenterissa harmaana.
 
-> Tavalliset vuorot luodaan usein raahaamalla työntekijän nimi kalenteriin. Avoimelle vuorolle ei ole vielä vastaavaa raahattavaa elementtiä, joten käytä kalenterin klikkausta.
+> Tavalliset vuorot luodaan tietokoneella usein raahaamalla työntekijän nimi kalenteriin. Avoimelle vuorolle ei ole raahattavaa elementtiä, joten käytä kalenterin klikkausta tai puhelimessa **+**-painiketta.
 
-<img src="/blogPostImages/oma-portaali/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa, työntekijävalikosta valittu Avoin vuoro" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa, työntekijävalikosta valittu Avoin vuoro" />
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-mobiili.png" alt="Mobiilin pikaluonti, jossa työntekijävalinnassa Avoin vuoro -vaihtoehto" />
+</div>
 
 Avoimet vuorot ovat aluksi vain sinun nähtävissäsi. Kun haluat tarjota niitä työntekijöille:
 

@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Uusi hinnoittelu: kuukausihinnat päivittyvät 29.3.2026'
+title: 'Uusi hinnoittelu: kuukausihinnat päivittyivät 29.3.2026'
 pubDate: 2026-03-20
-description: 'Kuukausilaskutuksen hinnat nousevat keväällä 2026. Vuosilaskutus, Mini-paketti ja nykyisten tilaajien hinnat pysyvät ennallaan. Kerromme uudet hinnat ja maksullisten pakettien ominaisuudet.'
+description: 'Kuukausilaskutuksen hinnat nousivat 29.3.2026. Vuosilaskutus, Mini-paketti ja katkeamatta jatkuvien vanhojen tilaajien hinnat pysyivät ennallaan. Tässä voimassa olevat hinnat ja maksullisten pakettien ominaisuudet.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/account-management/09-profile-with-normi-subscription.png'
@@ -10,44 +10,47 @@ image:
 tags: ["hinnoittelu", "tilaus", "päivitykset", "kuukausilaskutus", "vuosilaskutus"]
 ---
 
-Päivitämme **maksullisten pakettien kuukausihintoja** sunnuntaina **29.3.2026**. Vuosilaskutuksen kokonaishinnat pysyvät samoina, ja **Mini-paketti** on edelleen maksuton. Jos olet jo maksullinen tilaaja, **sinun hintasi ei muutu**, kunhan tilaus pysyy voimassa jatkuvasti.
+*Päivitetty 24.8.2026: uudet kuukausihinnat ovat olleet voimassa 29.3.2026 alkaen.*
+
+Maksullisten pakettien kuukausihinnat nousivat sunnuntaina **29.3.2026**. Vuosilaskutuksen kokonaishinnat pysyivät samoina, ja **Mini-paketti** on edelleen maksuton. Jos tilauksesi oli tuolloin jo maksullinen, **hintasi ei muuttunut**, kunhan tilaus on pysynyt voimassa katkeamatta.
 
 <img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Profiili- ja tilausnäkymä Työvuorolistassa" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
-## Uudet kuukausi- ja vuosihinnat (alv 0 %)
+## Kuukausi- ja vuosihinnat (alv 0 %)
 
-Hinnat ovat **tiliä kohti** (ei työntekijää kohti). Laskussa lisätään arvonlisävero.
+Hinnat ovat **tiliä kohti** (ei työntekijää kohti). Laskussa lisätään arvonlisävero. Ajantasaiset hinnat ovat myös [hinnoittelusivulla](/hinnoittelu).
 
-| Paketti | Enintään työntekijöitä | Kuukausihinta (uusi) | Vuosihinta (ennallaan) |
+| Paketti | Enintään työntekijöitä | Kuukausihinta | Vuosihinta |
 | :-- | :-: | :-: | :-: |
 | **Mini** | 3 | 0 € | 0 € |
 | **Normi** | 20 | **18 € / kk** | **144 € / vuosi** |
 | **Iso** | 50 | **60 € / kk** | **504 € / vuosi** |
 | **Jätti** | 100 | **180 € / kk** | **1440 € / vuosi** |
 
-Vuosilaskutus pysyy euromäärältään ennallaan, joten se on selvästi edullisempi kuin **uusilla kuukausihinnoilla** koko vuosi maksettaessa. Esimerkiksi Normi-paketissa 12 kuukautta × 18 € = **216 €**, kun taas vuosilaskutus on **144 €** (alv 0 %).
+Vuosilaskutus on edullisempi kuin 12 kuukautta uusilla kuukausihinnoilla: esimerkiksi Normi 12 × 18 € = **216 €**, vuosilaskutus **144 €** (alv 0 %). Vuosilaskutuksessa maksat 8 kuukauden hinnan ja saat 4 kuukautta mukaan.
 
-## Mitä ei muutu
+## Mitä ei muuttunut
 
-- **Vuosilaskutuksen eurosumma** pysyy edellä olevan taulukon mukaisena.
-- **Mini-paketti** (enintään 3 työntekijää) säilyy ilmaisena samoilla rajoilla.
-- **Nykyiset maksulliset tilaajat** jatkavat **nykyisellä hinnoittelullaan** niin kauan kuin tilaus on katkeamatta voimassa (esimerkiksi vanha kuukausihinta säilyy, jos et keskeytä tai vaihda tilauksen ehtoja siten, että uusi hinta astuu voimaan). Uudet hinnat koskevat **uusia** tilauksia ja **hintamuutoksen jälkeen** alkavia kuukausilaskutuksen tilauksia.
+- **Vuosilaskutuksen eurosumma** pysyi yllä olevan taulukon mukaisena.
+- **Mini-paketti** (enintään 3 työntekijää) säilyi ilmaisena samoilla rajoilla.
+- **Ennen 29.3.2026 alkaneet maksulliset kuukausitilaukset** jatkavat vanhalla kuukausihinnalla niin kauan kuin tilaus on katkeamatta voimassa. Uudet kuukausitilaukset hinnoitellaan taulukon mukaan. Jos keskeytät tilauksen tai vaihdat ehtoja niin, että uusi hinta astuu voimaan, vanha hinta ei palaa.
 
 ## Ominaisuudet vain maksullisissa paketeissa
 
-Mini sopii kevyeen käyttöön. **Normi-, Iso- ja Jätti**-paketeissa saat kaikki nämä (työntekijärajat eroavat):
+Mini sopii kevyeen käyttöön. Kaikissa paketeissa, myös Minissä, on TES-apuri (varoitukset, saldot ja vuosivapaa), rajattomasti listoja ja tiimejä sekä asiakastuki.
 
-- raportit palkanlaskentaan  
-- sähköposti-ilmoitukset työntekijöille  
-- rajaton määrä työvuorolistoja ja tiimejä  
-- mobiiliystävällinen käyttöliittymä  
-- asiakastuki  
+**Normi-, Iso- ja Jätti**-paketeissa saat lisäksi:
 
-Mini-paketissa eivät ole käytössä esimerkiksi **[palkkaraportit](/posts/palkkaraportti_ominaisuus)** eivätkä **työntekijöiden sähköposti-ilmoitukset**; työntekijöiden enimmäismäärä on kolme.
+- [Oma-portaalin](/posts/oma_portaali_ohje)
+- [avoimet vuorot](/posts/avoimet_vuorot_ohje)
+- [palkkaraportit](/posts/palkkaraportti_ominaisuus) TES-luokitteluineen
+- sähköposti-ilmoitukset työntekijöille
 
-## Jos harkitset kuukausitilausta
+Työntekijöiden enimmäismäärä on Mini-paketissa kolme.
 
-Kuukausihinnat nousevat 29.3.2026 alkaen. Jos harkitset **kuukausilaskutusta**, kannattaa aktivoida se **ennen tätä päivämäärää**: silloin kuukausihintasi sidotaan **voimassa olevaan** (alempaan) kuukausihintaan, ja se säilyy sinulla **niin kauan kuin tilaus jatkuu katkeamatta**. Muutospäivän jälkeen uudet kuukausitilaukset hinnoitellaan yllä olevan taulukon mukaisesti. Jos käytät palvelua pitkään, vuosilaskutus on yhä kannattava: sen euromäärä ei muutu tässä uudistuksessa.
+## Jos harkitset kuukausi- tai vuositilausta
+
+Uusi kuukausitilaus hinnoitellaan taulukon mukaan. Jos käytät palvelua pitkään, vuosilaskutus on edelleen edullisempi, ja sen euromäärä ei muuttunut tässä uudistuksessa. Kuukausi maksetaan kortilla, vuosi laskulla. Lue lisää [tilauksen ostamisesta](/posts/tilauksen_ostaminen).
 
 ## Mistä tilaat ja mistä apua
 

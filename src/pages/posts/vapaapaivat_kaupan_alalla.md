@@ -98,3 +98,7 @@ paikallisella sopimisella, ja sovelluksen tehtävä on varmistaa, että
 poikkeama on tietoinen valinta eikä vahinko.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
+
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 8 § 26–29 ja 31, 9 §; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 27 § (viikkolepo).*

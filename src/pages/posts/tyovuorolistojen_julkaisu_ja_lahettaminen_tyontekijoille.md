@@ -12,6 +12,8 @@ tags: ["tiimit", "julkaisu", "työvuorolista"]
 
 *Päivitetty 18.8.2026: puhelimessa listan jakaminen on **Jaa** (JPEG) ja **Lataa PDF**. Kopioi kuva ja Tulosta ovat tietokoneella.*
 
+*Päivitetty 24.8.2026: sähköpostit lähtevät esikatselun kautta. Ensimmäisessä ikkunassa ei ole enää suoraa Lähetä-painiketta.*
+
 Kun työvuorolista on valmis, voit julkaista sen työntekijöille usealla tavalla: kuvana, PDF:nä tai sähköpostilla lähetettävinä henkilökohtaisina listoina. Tämä ohje käy läpi listatyypit, julkaisuformaatit ja sähköpostilähetyksen vaiheet.
 
 ### Kaksi eri työvuorolistatyyppiä
@@ -50,10 +52,12 @@ Voit vaihtaa asettelua "Julkaise"-näkymässä olevasta "Tiivis asettelu" -kytki
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_laheta_sahkopostilla.png" alt="Työvuorolistan lähetysmodaali" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 Voit lähettää henkilökohtaiset työvuorolistat työntekijöille sähköpostilla seuraavasti:
-- **Julkaise** -> **Lähetä sähköpostilla...**
+- **Julkaise** → **Lähetä sähköpostilla...**
 - Avautuu modaali, jossa on listattu kaikki tiimin työntekijät, ja valittu ne, joilla on vuoroja listalla.
 - Voit valita myös työntekijöitä, joilla ei ole vuoroja listalla. Voit myös poistaa valinnan työntekijöiltä, joille et halua listaa lähettää.
-- Paina **Lähetä sähköpostit** tai **Esikatsele sähköpostit** (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)), jolloin valituille työntekijöille lähetetään sähköpostilla heidän henkilökohtaiset työvuorolistansa. [Työntekijät ilman sähköpostiosoitetta](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta) ohitetaan automaattisesti. Saat erillisen notifikaation jokaisesta lähetyksestä.
+- Paina **Esikatsele sähköpostit**. Ensimmäisessä ikkunassa ei ole suoraa Lähetä-painiketta: näet ensin jokaisen viestin ja säädät asetukset (lue lisää [sähköpostin esikatselutoiminnosta](/posts/sahkopostin_esikatselutoiminto_tyovuorolistojen_lahettamisessa) ja [vapaamuotoisesta viestistä sähköpostissa](/posts/vapaa_viesti_tyovuorolista_sahkopostiin)).
+- Esikatselussa voit liittää tiimin listan PDF:nä, lähettää kopiot itsellesi ja valita **Merkitse lista julkaistuksi lähetyksen jälkeen**. Kytkin on oletuksena pois päältä, joten voit lähettää luonnoslistan julkaisematta sitä.
+- Kun sisältö on kunnossa, paina **Lähetä kaikki sähköpostit**. [Työntekijät ilman sähköpostiosoitetta](/posts/tyontekijan_lisaaminen_ilman_sahkopostiosoitetta) ohitetaan automaattisesti. Saat erillisen notifikaation jokaisesta lähetyksestä.
 - Jos aiempi lista- tai ilmoitussähköposti on palautunut, [kello kertoo sen heti](/posts/sahkopostin_toimitusongelmat_varoitus). Sama varoitus näkyy punaisena myös tässä modaalissa, joten ehdit tarkistaa osoitteet ennen uutta lähetystä.
 
 <img src="/blogPostImages/tyovuorolistojen_julkaisu_ja_lahettaminen_notifikaatiot.png" alt="Työvuorolistan lähetysnotifikaatiot" width="50%" style="max-width: 600px; display: block; margin: 20px auto;" />
@@ -71,6 +75,6 @@ Modaali näyttää sinulle aina listan niistä vuoroista, joita se on lisäämä
 ### Kaikkien listojen yhtäaikainen julkaisu
 Mikäli yrityksessäsi julkaistaan kaikkien tiimien listat yhtäaikaisesti, voit tehdä sen helposti tästä samasta modaalista. Mikäli **muissa tiimeissä on samalle aikaikkunalle julkaisemattomia listoja**, näet tässä modaalissa uuden ikkunan avaavan linkin "Voit myös **julkaista kaikkien osastojen listat**". Tätä linkkiä klikkaamalla avautuu uusi modaali, jossa näytetään lähetettävät listat tuntimäärineen.
 
-Mikäli painat "**Julkaise kaikki listat**", kaikki nämä listat merkitään julkaistuiksi ja kaikille työntekijöille, joilla on näissä listoissa työvuoroja, lähetetään henkilökohtainen työvuorolista sähköpostiin. Kuten aina, tämä lista sisältää kootusti kaikki työntekijän vuorot kaikista näistä listoista.
+Tässäkin ikkunassa painike on **Esikatsele sähköpostit**. Esikatselussa näet kootut henkilökohtaiset listat ja voit valita, merkitäänkö listat julkaistuiksi lähetyksen jälkeen. Kun painat **Lähetä kaikki sähköpostit**, kaikille työntekijöille, joilla on näissä listoissa työvuoroja, lähtee henkilökohtainen lista. Kuten aina, tämä lista sisältää kootusti kaikki työntekijän vuorot kaikista näistä listoista.
 
-Vaikka listat merkataan julkaistuiksi, **voit palauttaa ne muokattaviksi** päävalikosta Hallinta -> Työvuorolistat.
+Jos merkitset listat julkaistuiksi, **voit palauttaa ne muokattaviksi** päävalikosta Hallinta → Työvuorolistat.

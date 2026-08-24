@@ -65,8 +65,9 @@ Muita perusmallin vaatimuksia:
   [X-päivää](/posts/mita_tarkoittaa_x-paiva_tyovuorolistassa)** muuhun
   kohtaan kautta, jolloin siirretty X-päivä annetaan yhdistettynä muuhun
   vapaaseen
-- kauden aikana tulee olla vähintään yksi peräkkäisten vapaapäivien
-  yhdistelmä viikonloppuvapaiden lisäksi
+- kauden aikana tulee olla vähintään **yksi** peräkkäisten vapaapäivien
+  yhdistelmä viikonloppuvapaiden lisäksi (laajennetussa 9 jakson
+  mallissa vaatimus on kaksi, ks. alla)
 - vapaapäivien välissä saa olla enintään seitsemän työpäivää. Sama sääntö
   kuin muuallakin TES:ssä
 
@@ -80,9 +81,10 @@ TES 30 §:n mukaisella paikallisella sopimuksella tasoittumiskautta voidaan
 pidentää **yhdeksään peräkkäiseen jaksoon** (27 viikkoa), ja yksittäisen
 jakson katto nousee **136 tuntiin**. Kauden enimmäistyöaika on tällöin
 9 × 112,5 h = **1012,5 tuntia**, ja kauden aikana on annettava vähintään
-**viisi tasoitusvapaata** kolmen sijaan. Muut säännöt (V-päivä joka viikko,
-vähintään kaksi peräkkäisten vapaapäivien yhdistelmää, enintään seitsemän
-työpäivää putkeen) pysyvät samoina.
+**viisi tasoitusvapaata** kolmen sijaan. Perusmallin yksi
+peräkkäisten vapaapäivien yhdistelmä nousee tässä mallissa
+**kahteen**. V-päivä joka viikko ja enintään seitsemän työpäivää
+putkeen pysyvät samoina.
 
 Laajennettu malli vaatii aina erillisen, perustellun paikallisen sopimuksen.
 Sitä ei voi ottaa käyttöön yksipuolisesti.

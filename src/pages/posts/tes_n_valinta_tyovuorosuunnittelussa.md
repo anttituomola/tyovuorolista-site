@@ -16,7 +16,7 @@ Valinta kysytään jo rekisteröityessä, ja se määrää, miten sovellus
 varoittaa vuorosuunnittelun virheistä ja luokittelee tunnit
 palkanlaskentaan. Jos et ole varma, valitse **"Ei mikään näistä / en osaa
 sanoa"**. Mikään ei mene rikki, ja valinnan voi tehdä tai vaihtaa
-myöhemmin asetuksista.
+myöhemmin **Hallinta → Työehtosopimus** -sivulta.
 
 ## Miksi TES:n valinnalla on väliä?
 
@@ -93,8 +93,9 @@ seuraavaksi. Valinnan voi vaihtaa koska tahansa myöhemmin.
 
 ## Näin vaihdat valintaa myöhemmin
 
-TES-valintaa voi muuttaa kohdasta **Hallinta → Asetukset →
-Työehtosopimus**. Muutos tallentuu heti, kun valitset vaihtoehdon:
+TES-valintaa voi muuttaa kohdasta **Hallinta → Työehtosopimus**.
+Sama valinta on myös **Hallinta → Profiili** -sivulla. Muutos
+tallentuu heti, kun valitset vaihtoehdon:
 
 <img src="/blogPostImages/tes-valinta/asetukset-tes-valinta.png" alt="Asetukset-sivun Työehtosopimus-osio: valittuna Matkailu-, ravintola- ja vapaa-ajan palveluiden TES, alla linkki tarkempiin asetuksiin" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
@@ -123,14 +124,12 @@ Vaihto on kevyt operaatio, mutta hyvä ymmärtää sen vaikutukset:
   säilyvät, joten palaaminen aiempaan valintaan ei vaadi tiedon
   syöttämistä uudelleen.
 
-Eri sopimusten tuki on eri kypsyysasteella: **MaRa** on pilotissa
-pisimmällä (kolmiviikkoisjaksojen täysi lisä- ja ylityölaskenta,
-vuosivapaaseuranta, tasoittuminen), **Kaupan alan TES** kattaa lisät,
-vuoro- ja leposäännöt sekä
-[alan omat työaikamallit](/posts/kaupan_alan_tes_tyovuorosuunnittelussa),
-ja **Kiinteistöpalvelualan** sekä **SOSTES:in** tuki laajenee pilotin
-edetessä. Jos huomaat, että alasi sopimuksessa puuttuu jotain, palaute
-tulee suoraan minulle ja vaikuttaa työstöjärjestykseen.
+Kaikki neljä sopimusta ovat olleet täydessä tuessa 31.7.2026 alkaen:
+[MaRa](/posts/tes_tuki_tyovuorosuunnittelussa),
+[Kaupan ala](/posts/kaupan_alan_tes_tyovuorosuunnittelussa),
+[KipaTES](/posts/kipa_tes_tyovuorosuunnittelussa) ja
+[SOSTES](/posts/sostes_tyovuorosuunnittelussa). Jos huomaat, että alasi
+sopimuksessa puuttuu jotain, palaute tulee suoraan minulle.
 
 ## Mitä TES-valinta ei tee
 
@@ -142,9 +141,10 @@ sovellus tuntee vain, jos ne on kirjattu asetuksiin. Varoitusten
 tarkoitus on, ettei mikään jää huomaamatta; päätökset jäävät aina
 sinulle.
 
-TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus
-asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat
-käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+TES-apuri sisältyy kaikkiin paketteihin. Valitse työehtosopimus
+**Hallinta → Työehtosopimus** -sivulta, niin varoitukset ja
+palkkaraportin TES-luokittelu tulevat käyttöön. Katso
+[näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 Jos alasi sopimus puuttuu valikosta, laita viestiä
 [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
 

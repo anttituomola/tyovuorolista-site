@@ -95,7 +95,8 @@ kaksi viikkoa ennen sen **ensimmäistä** viikkoa. Loppupään viikot saavat
 tässä reilusti ylimääräistä pelivaraa, mikä on yksi hyvä syy tehdä
 pidempiä listoja kerralla.
 
-Kaupan TES:ssä on kolme määräaikaa, jotka menevät helposti sekaisin:
+Kaupan TES:ssä työvuoroluettelolla on kolme määräaikaa, ja
+tasoittumisjärjestelmällä vielä omat kaksi. Ne menevät helposti sekaisin:
 
 | Asiakirja | Tiedoksi viimeistään |
 |---|---|

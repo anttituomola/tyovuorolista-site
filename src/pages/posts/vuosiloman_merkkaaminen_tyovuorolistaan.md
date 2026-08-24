@@ -31,3 +31,7 @@ Lomamerkintä vaikuttaa myös tunti- ja palkkalaskentaan: jokainen loman arkipä
 Osa-aikaisella työntekijällähän päivä voidaan vain jättää tyhjäksi. Tämä on myös hyvää riskien hallintaa: mikäli työntekijä kuitenkin päätyy hommiin päivänä, joka on suunniteltu hänelle palkattomana vapaana, on merkkaamaton päivä yritykselle normihintainen. Merkatulta vapaalta töihin kutsuminen on kalliimpaa.
 
 Täysaikaiselle työntekijälle voi yksinkertaisesti raahata [X-päiviä](/posts/tyovuorolista_lyhenteet) vapaapäiväriville.
+
+---
+
+*Lähteet: [vuosilomalaki 162/2005](https://finlex.fi/fi/lainsaadanto/2005/162), [Työsuojeluhallinto: Vuosiloma](https://tyosuojelu.fi/tyosuhde/vuosiloma), [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html)*

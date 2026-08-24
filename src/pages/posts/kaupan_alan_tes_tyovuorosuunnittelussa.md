@@ -105,3 +105,7 @@ Huomio syksyyn 2026: kaupan alan **palkkausuudistus tulee voimaan
 Päivitämme laskennan ja tämän ohjeistuksen ennen lokakuuta.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
+
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 6 §, 8 §; [Kaupan liitto: TES-ratkaisun sisältö](https://kauppa.fi/uutishuone/2025/03/05/kaupan-tyoehtosopimusratkaisun-tarkempi-sisalto-2/).*

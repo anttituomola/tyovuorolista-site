@@ -95,3 +95,7 @@ joilla on MaRa TES valittuna. Jos et ole vielä ottanut TES-tukea
 käyttöön, katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
 Lisätietoa tuen laajuudesta löydät postauksesta
 [TES-tuki työvuorosuunnittelussa](/posts/tes_tuki_tyovuorosuunnittelussa).
+
+---
+
+*Lähteet: [MaRa-TES, työaika, vapaapäivät (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html)*

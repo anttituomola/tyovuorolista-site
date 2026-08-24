@@ -61,8 +61,10 @@ silloinkin joka viikolla on oltava **vähintään 30 tunnin** yhtenäinen
 lepo.
 
 Käytännössä: jos työntekijä työskentelee maanantaista lauantaihin klo
-8–16, pisin yhtenäinen vapaa (lauantai-iltapäivästä maanantaiaamuun) jää
-32 tuntiin, se alittaa 35 tunnin pääsäännön ja edellyttää sopimista.
+8–16, kalenteriviikon pisin yhtenäinen lepo (lauantai klo 16 – maanantai
+klo 00) on **32 tuntia**. Se alittaa 35 tunnin pääsäännön ja edellyttää
+sopimista. Lepo jatkuu maanantaiaamuun asti (yhteensä 40 tuntia), mutta
+TES mittaa 35 tuntia **kunakin kalenteriviikkona**.
 
 Jos viikkolepo jää työn vuoksi pitämättä, saamatta jäänyt lepo on
 korvattava lyhentämällä työaikaa kolmen kuukauden kuluessa, tai

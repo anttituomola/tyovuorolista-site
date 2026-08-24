@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'TES-tuki työvuorosuunnittelussa: MaRa, Kaupan ala, KipaTES ja SOSTES'
 pubDate: 2026-07-14
-description: 'Työvuorolista tarkistaa työvuorosi työehtosopimusta ja työaikalakia vasten: varoitukset suunnitteluvaiheessa ja tunnit valmiiksi luokiteltuina palkanlaskentaan. TES-apuri (beta) sisältyy kaikkiin paketteihin.'
+description: 'Työvuorolista tarkistaa työvuorosi työehtosopimusta ja työaikalakia vasten: varoitukset suunnitteluvaiheessa ja tunnit valmiiksi luokiteltuina palkanlaskentaan. TES-apuri sisältyy kaikkiin paketteihin. Tuki: MaRa, Kaupan ala, KipaTES ja SOSTES.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png'
@@ -16,19 +16,23 @@ tarkistaa listan työaikalakia ja TES:n määräyksiä vasten. Samalla
 toteutuneet tunnit luokitellaan valmiiksi palkanlaskennan kategorioihin:
 lisätyöt, ylityöt ja lisät eriteltyinä.
 
-Ensimmäisenä tuki kattaa **Matkailu-, ravintola- ja vapaa-ajan palveluiden
-TES:n (MaRa)**. Mukana ovat myös Kaupan alan, Kiinteistöpalvelualan
-(KipaTES) ja Yksityisen sosiaalipalvelualan (SOSTES) sopimukset, kukin
-omilla säännöillään. Ominaisuus on beta-vaiheessa kaikissa paketeissa.
+Tuki kattaa neljä sopimusta, kukin omilla säännöillään:
+**Matkailu-, ravintola- ja vapaa-ajan palveluiden TES (MaRa)**,
+**Kaupan alan TES**, **Kiinteistöpalveluala (KipaTES)** ja
+**Yksityinen sosiaalipalveluala (SOSTES)**. Kaikki neljä ovat olleet
+täydessä tuessa 31.7.2026 alkaen. TES-apuri sisältyy kaikkiin
+paketteihin.
 
 ## Näin otat TES-apurin käyttöön
 
-TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin.
+TES-apuri sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin.
 Aktivointi on itsepalvelua:
 
-1. **Valitse työehtosopimus** Asetuksista tai
-   [Työehtosopimus-sivulta](https://app.tyovuorolista.fi/admin/tes)
-   (uusille käyttäjille valinta tarjotaan jo rekisteröityessä).
+1. **Valitse työehtosopimus** kohdasta
+   **Hallinta → Työehtosopimus**
+   ([avaa sivu](https://app.tyovuorolista.fi/admin/tes)).
+   Sama valinta on myös profiilissa; uusille käyttäjille se tarjotaan
+   jo rekisteröityessä.
 2. **Aseta jakson alkumaanantai**, jos sopimus käyttää
    kolmiviikkoisjaksoja (MaRa, SOSTES).
 3. **Täydennä työntekijöiden TES-tiedot** (työsuhteen tyyppi,
@@ -132,5 +136,9 @@ ei tunne ellei niitä ole kirjattu asetuksiin. Varoitusten tarkoitus on,
 ettei mikään jää huomaamatta, ei tehdä päätöksiä puolestasi.
 
 Jos huomaat virheen tai sinulla on toiveita tuettavista määräyksistä,
-laita viestiä (aiheeksi `TES-apuri beta`):
+laita viestiä (aiheeksi `TES-apuri`):
 [info@tyovuorolista.fi](mailto:info@tyovuorolista.fi).
+
+---
+
+*Lähteet: [MaRa-TES, työaika (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html), [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf), [Kiinteistöpalvelualan TES 1.4.2025–31.3.2028 (Finlex)](https://www.finlex.fi/api/media/collective-agreement-general-applicability-decision/678530/collectiveAgreement/Kiinteist%C3%B6palveluala2504.pdf), [Yksityisen sosiaalipalvelualan TES 1.1.2026–30.4.2028 (Tehy)](https://www.tehy.fi/system/files/mfiles/muu_dokumentti/yksityisen_sosiaalipalvelualan_tyoehtosopimus_1.1.2026-30.4.2028_id_22392.pdf), [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872)*

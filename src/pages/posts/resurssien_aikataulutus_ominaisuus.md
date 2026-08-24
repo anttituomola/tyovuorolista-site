@@ -10,6 +10,8 @@ image:
 tags: ["resurssit", "autot", "työkalut", "aikataulutus", "työvuorojen hallinta"]
 ---
 
+*Päivitetty 24.8.2026: resurssit voi näyttää myös julkaistussa tiimilistassa, kuvassa ja PDF:ssä.*
+
 Työvuorolista tukee nyt resurssien aikataulutusta, jolloin voit liittää autot, pakettiautot, työkalut ja muut laitteet työvuoroihin. Järjestelmä auttaa välttämään konflikteja ja varoittaa, jos resurssi on jo käytössä tai poissa käytöstä huollon vuoksi.
 
 <video controls width="100%">
@@ -35,7 +37,7 @@ Resurssit ovat liikkuvia laitteita tai ajoneuvoja, joita tarvitaan työvuorojen 
 
 Ennen kuin voit käyttää resurssien aikataulutusta, sinun täytyy ottaa se käyttöön profiilissa:
 
-1. Siirry kohtaan **Hallinta → Asetukset** tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">profiiliasetukset tästä</a>
+1. Siirry kohtaan **Hallinta → Profiili** tai avaa <a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">profiiliasetukset tästä</a>
 2. Etsi asetus **"Ota käyttöön resurssien aikataulutus (autot, työkalut, jne.)"**
 3. Kytke asetus päälle
 4. Asetus tallentuu automaattisesti
@@ -156,7 +158,7 @@ Kun liität resurssin työvuoroon, resurssin nimi näkyy kalenterinäkymässä t
 
 - **Koko päivän vuoroissa**: Resurssin nimi lisätään vuoron otsikon perään
 - **Aikataulutetuissa vuoroissa**: Resurssin nimi näkyy vuoron ajan ja otsikon alla
-- **Koko tiimin tulostettavassa kalenterissa**: resurssit eivät näy tässä kalenterissa helppolukuisuuden ylläpitämiseksi.
+- **Julkaistussa tiimilistassa, kuvassa ja PDF:ssä**: resurssit näkyvät, jos **Näytä resurssit listalla** on päällä Julkaise-näkymässä. Yrityksen oletus asetetaan kohdassa **Hallinta → Resurssit**. Sähköpostin PDF-liite käyttää samaa oletusta. Tarkempi ohje: [Resurssit julkaistuissa työvuorolistoissa](/posts/resurssit_julkaistuissa_tyovuorolistoissa).
 
 Resurssin nimi näkyy myös työvuoron tiedoissa, kun avaat sen suunnittelukalenterista.
 

@@ -21,8 +21,7 @@ Ravintola-alan työvuorolistassa vilisee kellonaikojen lisäksi erilaisia kirjai
 Käytännössä täysaikaisella työntekijällä tulee olla työviikossa viisi työpäivää, yksi viikkolepopäivä (V) ja yksi lisävapaapäivä (X). Tähän on kasa poikkeuksia ja joustomahdollisuuksia, mutta helpoiten laillisen työvuorolistan kasaa siten, että merkkaa viisi työpäivää sekä V- ja X-päivät.
 
 ## V eli viikkolepopäivä
-Viikkolepopäivä eli V-päivä on vähintään 30 tunnin mittainen tauko työstä. Jos edellinen työvuoro päättyy vaikkapa lauantaina klo 04 aamuyöstä
-ja sunnuntai on merkitty V-päiväksi, ei maanantain työvuoro saa alkaa ennen aamukahdeksaa, jotta 30 tunnin lepoaika tulee täyteen.
+Viikkolepopäivä eli V-päivä on vähintään 30 tunnin mittainen tauko työstä. Jos edellinen työvuoro päättyy sunnuntaina klo 02 ja sunnuntai on merkitty V-päiväksi, maanantain vuoro ei saa alkaa ennen klo 08 (02 + 30 h).
 
 Jokaisella täydellä työviikolla on oltava V-päivä, eikä niitä voi esimerkiksi siirtää seuraavalle viikolle.
 
@@ -40,9 +39,7 @@ Jos X-päivä annetaan samalla viikolla kun se "tienataan", kannattaa se tietyst
 
 Lue tarkemmin: [mitä TS-päivä tarkoittaa työvuorolistassa?](/posts/mita_tarkoittaa_ts-paiva_tyovuorolistassa) ja [syväluotaava opas tasoittumisjärjestelmästä](/posts/tasoittumisjarjestelma_ravintola-alalla)
 
-Nämä koskevat vain kokoaikaisia työntekijöitä. Kuukausipalkkaisen, kokoaikaisen työntekijän tuntimääriä per työvuorolista (3 viikkoa) voidaan tasata siten, että yhden työvuorolistan keskimääräinen työaika on 112,5 tuntia (eli 5 päivää viikossa, 7,5 tuntia päivässä). Tasoitusjakso voi olla pisimmillään 6 työvuorolistan, eli 18 viikon mittainen.
-
-Yksi työvuorolista voi olla pisimmillään 130 tuntia.
+Nämä koskevat vain kokoaikaisia työntekijöitä. Kuukausipalkkaisen, kokoaikaisen työntekijän tuntimääriä per työvuorolista (3 viikkoa) voidaan tasata siten, että yhden työvuorolistan keskimääräinen työaika on 112,5 tuntia (eli 5 päivää viikossa, 7,5 tuntia päivässä). Tasoitusjakso voi olla pisimmillään 6 työvuorolistan eli 18 viikon mittainen, ja yksi lista enintään 130 tuntia. Paikallisesti sovitussa laajennetussa mallissa kausi voi olla 9 jaksoa (27 viikkoa) ja yksittäinen lista enintään 136 tuntia.
 
 Tasoitusvapaatarve syntyy siis siitä, että työvuorolista sisältää enemmän kuin 112,5 tuntia. Tasoitusvapaata voidaan antaa joko lyhentämällä työvuoroja toisessa listassa tai antamalla tasoitusvapaapäiviä.
 
@@ -81,3 +78,7 @@ Vuosivapaapäivä kestää vähintään 24 tuntia, ja sen laskennallinen pituus 
 - [Työvuoron pituus ja lepoajat ravintola-alalla](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla)
 - [Lepoaika työvuorojen välissä: 11 tunnin pääsääntö](/posts/lepoaika_tyovuorojen_valissa)
 - [Työvuorosuunnitteluohjelma: vaihtoehdot ja valintaopas](/posts/tyovuorosuunnittelu_ohjelma)
+
+---
+
+*Lähteet: [MaRa-TES, työaika, vapaapäivät, tasoittumisjärjestelmä ja vuosivapaajärjestelmä (tes.mara.fi)](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-tyontekijoiden-tyoehtosopimus/tyoaika.html)*

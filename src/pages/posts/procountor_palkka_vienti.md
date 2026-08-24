@@ -70,7 +70,7 @@ Jokainen rivi on yksi palkkalaji yhdelle henkilölle, esimerkiksi:
 
 - työtunnit
 - ilta- / yö- / sunnuntailisät
-- TES-tulkitut lisätyöt ja päivätyökorvaukset (kun TES-apuri on käytössä ja jakso on tasoittumisjakson mukainen)
+- TES-tulkitut lisätyöt, ylityöt (+50 % / +100 %) ja V/X/VV-päivätyökorvaukset (kun TES-apuri on käytössä; lisä- ja ylityö edellyttävät, että jakso on tasoittumisjakson mukainen)
 
 Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkaperustetta.
 

@@ -36,8 +36,11 @@ esimerkiksi miten ja missä ajassa tarjoukseen vastataan.
 Muistutus muuten: myös työaikalain 30 § suojaa vaihtelevaa työaikaa
 tekevää. Ennen listan laatimista työntekijälle on varattava tilaisuus
 ilmoittaa, missä määrin ja millä edellytyksillä hän voi ottaa vastaan
-sopimustunnit ylittäviä vuoroja, ja ilmoitukselle on annettava
-määräaika, joka on viimeistään viikkoa ennen listan laatimista.
+sopimustunnit ylittäviä vuoroja. Ilmoituksen määräaika **ei saa olla
+aikaisemmin kuin viikkoa ennen** listan laatimista: työnantaja ei voi
+vaatia sitovaa vastausta viikkoa kauempaa etukäteen. (Tämä on eri asia
+kuin itse listan tiedoksianto, joka on viimeistään viikkoa ennen
+jakson alkua.)
 
 ## Avoimet vuorot: tarjoa koko tiimille kerralla
 

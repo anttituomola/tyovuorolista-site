@@ -108,3 +108,7 @@ tallentamista. Paikallinen sopiminen on kaupan alalla laajaa, ja
 sovellus jättää tulkinnan sinulle.
 
 TES-apuri (beta) sisältyy kaikkiin paketteihin. Valitse työehtosopimus asetuksista, niin varoitukset ja palkkaraportin TES-luokittelu tulevat käyttöön. Katso [näin otat TES-tuen käyttöön](/posts/nain_otat_tes-tuen_kayttoon).
+
+---
+
+*Lähteet: [Kaupan työehtosopimus 1.2.2025–31.1.2028 (PAM)](https://www.pam.fi/wp-content/uploads/2023/03/Kaupan_TES_korjattu15092025_PAM.pdf) 12 §; [Työaikalaki 872/2019 (Finlex)](https://www.finlex.fi/fi/laki/ajantasa/2019/20190872) 5 § (40 h/vko) ja 17 § (ylityö).*

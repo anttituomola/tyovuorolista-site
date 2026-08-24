@@ -16,29 +16,22 @@ Olemme kuunnelleet palautetta asiakkailtamme, ja yksi toistuvista toiveista on o
 
 Aiemmin työvuorolistojen lähettäminen sähköpostilla toimi suoraan: valitsit työntekijät ja painoit "Lähetä sähköpostit". Järjestelmä loi taustalla henkilökohtaiset listat yhdistäen vuoroja eri tiimeistä, lisäten päivämerkinnät ja muotoillen kaiken sähköpostiksi, mutta et nähnyt lopputulosta ennen lähettämistä.
 
-**Uusi esikatselutoiminto ratkaisee tämän**: näet lähetettävien sähköpostien sisällön ennen lähettämistä.
+**Esikatselu on nyt ainoa lähetystapa**: ensimmäisessä ikkunassa ei ole suoraa Lähetä-painiketta. Näet jokaisen viestin sisällön ennen lähettämistä.
 
-## Kuinka uusi työnkulku toimii?
+## Kuinka työnkulku toimii?
 
-### Vanha tapa (suora lähetys):
 1. **Julkaise** → **Lähetä sähköpostilla...**
 2. Valitse työntekijät
-3. Paina **Lähetä sähköpostit**
-4. Sähköpostit lähtevät heti (ei mahdollisuutta tarkistaa sisältöä)
-
-### Uusi tapa (esikatselun kanssa):
-1. **Julkaise** → **Lähetä sähköpostilla...**
-2. Valitse työntekijät
-3. Paina **Esikatsele sähköpostit** 🆕
-4. **Tarkista jokaisen työntekijän sähköposti erikseen** 🆕
-5. **Säädä lähetysasetuksia** 🆕  
+3. Paina **Esikatsele sähköpostit**
+4. Tarkista jokaisen työntekijän sähköposti erikseen
+5. Säädä lähetysasetuksia (PDF, kopiot, julkaisu)
 6. Paina **Lähetä kaikki sähköpostit**
 
 ## Esikatselutoiminnon käyttö käytännössä
 
 ### 1. Työntekijöiden valinta ja esikatselun aloitus
 
-Työntekijöiden valintamodaalissa on nyt uusi painike:
+Työntekijöiden valintamodaalissa ainoa jatko on:
 - **Esikatsele sähköpostit**: avaa esikatselunäkymä
 
 ### 2. Esikatselunäkymä
@@ -72,8 +65,8 @@ Esikatselumodaalissa voit myös säätää seuraavia asetuksia ennen lähettämi
 - Hyödyllinen, kun työntekijät haluavat nähdä myös koko tiimin aikataulun
 
 ### Listan julkaiseminen
-- **"Merkitse lista julkaistuksi lähetyksen yhteydessä"**: lista merkitään automaattisesti julkaistuksi, kun sähköpostit on lähetetty
-- Voit halutessasi jättää tämän pois päältä, jos haluat lähettää luonnoksia
+- **"Merkitse lista julkaistuksi lähetyksen jälkeen"**: lista merkitään automaattisesti julkaistuksi, kun sähköpostit on lähetetty
+- Kytkin on oletuksena pois päältä, joten voit lähettää luonnoslistan julkaisematta sitä
 
 ### Kopiot itsellesi
 - **"Lähetä kopiot viesteistä sähköpostiini"**: saat kopion jokaisesta lähetetystä sähköpostista
@@ -117,9 +110,9 @@ Uusi **lähetysprosessin seuranta** näyttää sinulle reaaliaikaisesti:
 
 Tämä on erityisen hyödyllinen suurissa yrityksissä, joissa lähetetään kymmeniä sähköposteja kerralla.
 
-## Toiminto myös "Julkaise kaikki listat" -ominaisuudessa
+## Toiminto myös kaikkien osastojen listoissa
 
-Esikatselutoiminto on käytössä myös **"Julkaise kaikki listat ajalle X-Y"** -toiminnossa. Kun julkaiset usean tiimin listat yhtäaikaisesti, voit esikatselulla varmistaa, että:
+Esikatselu on käytössä myös, kun avaat **julkaista kaikkien osastojen listat** -linkin. Tässäkin ikkunassa painike on **Esikatsele sähköpostit**, ei suora julkaisu. Kun lähetät usean tiimin listat yhtäaikaisesti, voit esikatselulla varmistaa, että:
 
 - Jokainen työntekijä saa oikeat vuorot kaikista tiimeistä
 - Päivämerkinnät ovat oikein kaikissa listoissa

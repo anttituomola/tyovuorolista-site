@@ -2,9 +2,9 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi laiminlyöntimaksu työvuoroluettelosta ja työaikakirjanpidosta'
 pubDate: 2026-07-23
-description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Esitys on vielä lausuntokierroksella; oikeuskansleri on vaatinut täsmennyksiä.'
-reviewedDate: 2026-08-03
-infoBasis: 'Perustuu työ- ja elinkeinoministeriön lausuntokierroksella olevaan lakiluonnokseen laiminlyöntimaksusta, oikeuskanslerin lausuntoon OKV/1883/21/2026 (29.7.2026) sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; lopullinen muoto ratkeaa eduskunnan käsittelyssä.'
+description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Lausuntokierros päättyi 21.8.2026; esitys ei ole vielä laki.'
+reviewedDate: 2026-08-24
+infoBasis: 'Perustuu työ- ja elinkeinoministeriön lakiluonnokseen laiminlyöntimaksusta (lausuntokierros 6.7.–21.8.2026), oikeuskanslerin lausuntoon OKV/1883/21/2026 (29.7.2026) sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; hallituksen esitys on tarkoitus antaa syyskuussa 2026.'
 ctaText: 'Pidä työaikakirjanpito kunnossa'
 ctaHref: '/ominaisuudet/tuntien-kirjaus'
 author: 'Antti Tuomola'
@@ -14,19 +14,19 @@ image:
 tags: ['työaikalaki', 'työvuorolista', 'työaikakirjanpito', 'lainsäädäntö', 'työsuojelu']
 ---
 
-**Lyhyesti:** Työ- ja elinkeinoministeriö on lähettänyt lausuntokierrokselle
-lakiluonnoksen, jolla työnantajalle voitaisiin määrätä **hallinnollinen
+**Lyhyesti:** Työ- ja elinkeinoministeriö valmisteli lakiluonnoksen,
+jolla työnantajalle voitaisiin määrätä **hallinnollinen
 laiminlyöntimaksu**, jos työvuoroluetteloa, työaikakirjanpitoa tai
 vuosilomakirjanpitoa laiminlyödään tahallaan tai huolimattomuudesta.
 Maksu voisi olla enintään **10 000 euroa**; useammasta yhtäaikaisesta
 laiminlyönnistä yhteensä enintään **15 000 euroa**. Esitys ei ole vielä
-laki: lausuntokierros on käynnissä 21.8.2026 asti, ja hallituksen esitys
-on tarkoitus viedä eduskuntaan syyskuussa 2026.
+laki. Lausuntokierros päättyi **21.8.2026**, ja hallituksen esitys on
+tarkoitus antaa eduskunnalle syyskuussa 2026.
 
-> **Päivitys 29.7.2026:** Oikeuskansleri on vaatinut esitysluonnokseen
-> täsmennyksiä muun muassa poikkeustilanteista, työnantajan kuulemisesta
-> ja hallinnollisen maksun suhteesta rikosprosessiin. Esitys on edelleen
-> lausuntovaiheessa, eikä ehdotettu sääntely ole voimassa.
+> **Päivitys 24.8.2026:** Lausuntokierros on päättynyt. Oikeuskansleri
+> vaati 29.7.2026 täsmennyksiä muun muassa poikkeustilanteista,
+> työnantajan kuulemisesta ja hallinnollisen maksun suhteesta
+> rikosprosessiin. Ehdotettu sääntely ei ole voimassa.
 
 ## Mitä on suunnitteilla?
 
@@ -80,8 +80,9 @@ esitys jättää viranomaiselle tulkinnanvaraa. Lisäksi järjestö huomauttaa,
 että järjestäytymättömät ja järjestäytyneet työnantajat voivat
 työvuoroluettelon osalta päätyä eri asemaan.
 
-Eli: suunta on selvä, yksityiskohdat elävät vielä lausuntokierroksen
-ajan. Kannattaa seurata, mitä eduskuntaan lopulta menee.
+Eli: suunta on selvä, yksityiskohdat elävät vielä, kunnes hallituksen
+esitys annetaan ja eduskunta käsittelee sen. Kannattaa seurata, mitä
+eduskuntaan lopulta menee.
 
 ## Oikeuskansleri vaatii täsmennyksiä
 
@@ -99,7 +100,7 @@ kohtiin:
 - vähäisten laiminlyöntien käsittely
 - muutoksenhaku sekä lain vaikutusten seuranta
 
-Lausuntokierros jatkuu 21.8.2026 asti. Hallituksen esitys on tarkoitus
+Lausuntokierros päättyi 21.8.2026. Hallituksen esitys on tarkoitus
 antaa syyskuussa.
 
 ## Mitä voit tehdä jo nyt?

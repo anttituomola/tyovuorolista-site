@@ -25,40 +25,57 @@ https://claude.ai/code/artifact/9425afb4-b32c-4311-875d-acfea921384b
 
 ## Tarkista faktat (TES/laki auki, sitten korjaus)
 
-- [ ] osa-aikaisen: "viimeistään viikkoa ennen" — TAL 30 § 3 mom sanoo
+- [x] osa-aikaisen: "viimeistään viikkoa ennen" — TAL 30 § 3 mom sanoo
       **aikaisintaan**; nykyinen muoto kääntää työntekijän suojan ympäri
-- [ ] `tasoittumisjarjestelma_ravintola-alalla.md` — "vähintään yksi" vs
+      — tehty 24.8.2026: määräaika ei saa olla aikaisemmin kuin viikkoa ennen listan tekoa
+- [x] `tasoittumisjarjestelma_ravintola-alalla.md` — "vähintään yksi" vs
       "vähintään kaksi" peräkkäisten vapaapäivien yhdistelmää, kumpi?
-- [ ] `vuosivapaan_alkusaldon_laskeminen.md` — esimerkki "1050 h ≠ 1200 h ('5 pv')"
+      — tarkistettu: molemmat oikein (6 jaksoa = 1, paikallinen 9 jaksoa = 2); tekstiä selvennetty
+- [x] `vuosivapaan_alkusaldon_laskeminen.md` — esimerkki "1050 h ≠ 1200 h ('5 pv')"
       vastoin omaa taulukkoa (1200 h = 6 pv); toiseksi luvuksi esim. 1150 h
-- [ ] `tyovuorolista_lyhenteet.md` — 30 h -esimerkin laskenta ei täsmää; puuttuu
+      — tehty 24.8.2026: 1050 h ≠ 1150 h
+- [x] `tyovuorolista_lyhenteet.md` — 30 h -esimerkin laskenta ei täsmää; puuttuu
       laajennettu 9 jakson / 136 h malli (vrt. mita_tarkoittaa_ts-paiva)
-- [ ] `vapaapaivat_ja_viikkolepo_jaksotyossa.md` — suluissa kuvattu väli on 40 h,
+      — tehty 24.8.2026: su 02 → ma 08; lisätty 9 jaksoa / 136 h
+- [x] `vapaapaivat_ja_viikkolepo_jaksotyossa.md` — suluissa kuvattu väli on 40 h,
       teksti sanoo 32 h (32 h pätee kalenteriviikon sisällä)
-- [ ] `procountor_palkka_vienti.md` — "päivätyökorvaukset" lienee "ylityökorvaukset"
-- [ ] `tyovuorolistan_julkaiseminen.md` — "kolme määräaikaa" mutta taulukossa 5 riviä
+      — tehty 24.8.2026: 32 h = la 16–ma 00; 40 h = la 16–ma 08
+- [x] `procountor_palkka_vienti.md` — "päivätyökorvaukset" lienee "ylityökorvaukset"
+      — tarkistettu: V/X/VV-päivätyökorvaus on tuotteen termi; lisätty puuttuvat ylityöt
+- [x] `tyovuorolistan_julkaiseminen.md` — "kolme määräaikaa" mutta taulukossa 5 riviä
+      — tehty 24.8.2026: 3 luettelolle + 2 tasoittumisjärjestelmälle
 - [ ] Loput pienemmät faktaepäilyt raportissa (osio 02, yht. 18 kpl)
 
 ## Päivitä vanhentuneet
 
-- [ ] `hinnoittelun_uudistus_maaliskuu_2026.md` — yhä futuurissa 29.3.2026:sta
-- [ ] `laiminlyontimaksu_...md` — lausuntokierros päättyi 21.8.2026, teksti preesensissä
-- [ ] `tes_n_valinta` + `tes_tuki` — pilottipuheet; kaikki 4 TES:iä täydessä tuessa 31.7.2026 alk.
-- [ ] `tyovuorolistojen_julkaisu_ja_lahettaminen` — sähköpostien lähetyslogiikka
+- [x] `hinnoittelun_uudistus_maaliskuu_2026.md` — yhä futuurissa 29.3.2026:sta
+      — tehty 24.8.2026: preteriti, voimassa olevat hinnat, vanha CTA pois
+- [x] `laiminlyontimaksu_...md` — lausuntokierros päättyi 21.8.2026, teksti preesensissä
+      — tehty 24.8.2026: kierros päättynyt, HE yhä syyskuussa, ei vielä laki
+- [x] `tes_n_valinta` + `tes_tuki` — pilottipuheet; kaikki 4 TES:iä täydessä tuessa 31.7.2026 alk.
+      — tehty 24.8.2026: täysi tuki neljälle, Hallinta → Työehtosopimus
+- [x] `tyovuorolistojen_julkaisu_ja_lahettaminen` — sähköpostien lähetyslogiikka
       ristiriidassa esikatselu-postauksen kanssa; "Merkitse julkaistuksi" -toggle puuttuu
-- [ ] `merkattujen_ja_puuttuvien...md` — "per 3 viikon lista" (listat 1–4 vk 05/2026 alk.)
+      — tehty 24.8.2026: vain Esikatsele → Lähetä kaikki; toggle oletuksena pois
+- [x] `merkattujen_ja_puuttuvien...md` — "per 3 viikon lista" (listat 1–4 vk 05/2026 alk.)
       + irrallinen lomalause (copy-paste-jäänne)
-- [ ] `resurssien_aikataulutus` — näkyvyysväitteet vanhentuneet vs. resurssit_julkaistuissa
-- [ ] `oma_portaali_ohje.md` — avoimen vuoron luonti onnistuu nykyään myös mobiilissa
+      — tehty 24.8.2026: 1–4 vk + sopimustuntien yksiköt, lomalause pois
+- [x] `resurssien_aikataulutus` — näkyvyysväitteet vanhentuneet vs. resurssit_julkaistuissa
+      — tehty 24.8.2026: Näytä resurssit listalla + Hallinta → Resurssit
+- [x] `oma_portaali_ohje.md` — avoimen vuoron luonti onnistuu nykyään myös mobiilissa
+      — tehty 24.8.2026: + / Avoin, samat kuvat kuin avoimet_vuorot_ohje
 - [ ] **1.10.2026 jälkeen:** päivitä kaupan yölisä-osiot (kaupan_alan_tes,
       kaupan_alan_tyoaikalisat_2026, logistiikka) — "syksyllä 2026" -kehykset vanhenevat
 
 ## Lisää lähteet (Lähteet-footer puuttuu, kopioi sisarpostauksesta)
 
-- [ ] kaupan_alan_tes, lisatyo_ja_ylityo_kaupan, sunnuntai_ja_aattolisat_kaupan,
+- [x] kaupan_alan_tes, lisatyo_ja_ylityo_kaupan, sunnuntai_ja_aattolisat_kaupan,
       vapaapaivat_kaupan
-- [ ] tes_tuki, tyovuorolista_lyhenteet, v_ja_x_paivien_automaattikorjaus
-- [ ] vuosiloman_merkkaaminen
+      — tehty 24.8.2026: PAM TES PDF + sisarpostauksista tutut pykälät
+- [x] tes_tuki, tyovuorolista_lyhenteet, v_ja_x_paivien_automaattikorjaus
+      — tehty 24.8.2026: neljä TES:iä + TAL / MaRa työaika
+- [x] vuosiloman_merkkaaminen
+      — tehty 24.8.2026: vuosilomalaki + tyosuojelu.fi + MaRa (7,5 h)
 
 ## SEO-päätökset
 

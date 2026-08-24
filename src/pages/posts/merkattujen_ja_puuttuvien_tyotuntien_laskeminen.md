@@ -15,13 +15,11 @@ Kalenterinäkymässä kaikkien työntekijöiden nimen alle ilmestyy listalle mer
   <source src="/blogPostImages/app.tyovuorolista_tuntilaskuri.mp4" type="video/mp4">
 </video>
 
-Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikkaamalla lomaa ja muuttamalla päivämääriä modaalissa.
-
 ## Miten merkkaan työntekijän tavoitetuntimäärän?
-Kaikille työntekijöille kannattaa merkata tavoitetuntimäärä, eli työsopimuksessa kirjattu työtuntimäärä per kuukausi. Täysaikaisilla tuntimäärä on 150 / kk, jos ei ole muuta sovittu.
+Kaikille työntekijöille kannattaa merkitä työsopimuksen tuntimäärä. Täysaikaisilla se on usein 150 h / kk, jos ei ole muuta sovittu. Kenttään voit kirjata tunnit [kuukaudessa, viikossa tai kolmen viikon jaksossa](/posts/tyotunnit_tyosopimuksessa).
 
 1. Klikkaa työntekijän nimeä kalenterin vasemmalla puolella (tai avaa työntekijä **Hallinta → Työntekijät** -sivulta, katso [työntekijöiden hallinta](/posts/tyontekijoiden_hallinta))
 2. Klikkaa Muokkaa työntekijän tietoja -painiketta
-3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään
+3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään ja valitse yksikkö
 
-<strong>Muista merkata työntekijän tuntimäärä per kuukausi.</strong> Sovellus laskee sen perusteella tarvittavan tuntimäärän per 3 viikon lista. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) valitulta ajanjaksolta.
+Sovellus skaalaa tavoitteen avoinna olevan listan pituuteen. Lista voi olla [1–4 viikkoa](/posts/listan_pituuden_valinta), joten sama sopimusluku näyttää oikean tavoitteen sekä lyhyellä että pitkällä listalla. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) valitulta ajanjaksolta.

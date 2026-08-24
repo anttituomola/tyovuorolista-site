@@ -80,7 +80,7 @@ aiemmasta järjestelmästä. Syötät:
 - **Käyttämättömät oikeustunnit (h)**: vielä antamatta oleva vuosivapaa
   tunteina
 
-Tarkat tunnit pitävät kertymäportaikon oikeassa kohdassa: 1050 h ≠ 1200 h,
+Tarkat tunnit pitävät kertymäportaikon oikeassa kohdassa: 1050 h ≠ 1150 h,
 vaikka molemmat näyttäisivät "5 päivää ansaittuna", koska kuudes päivä täyttyy
 vasta 1200 tunnissa.
 
