@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Button from '../components/common/Button.astro'
+import OmaPortalEntry from '../components/common/OmaPortalEntry.astro'
 import dayjs from 'dayjs'
 import { isPublishedPubDate } from '../utils/blogPosts'
 import { getMarkdownForPath, markdownResponse } from '../utils/siteMarkdown.ts'
@@ -137,6 +138,7 @@ const breadcrumbJsonLd = {
                 )}
             </aside>
         )}
+        {frontmatter.showOmaPortalEntry && <OmaPortalEntry variant="card" />}
         <slot />
         <nav class="postHubLinks" aria-label="Aiheeseen liittyvät sivut">
             <a href="/ominaisuudet">Kaikki ominaisuudet</a>
@@ -189,6 +191,19 @@ const breadcrumbJsonLd = {
     .blogHeroMedia {
         justify-self: center;
         width: 100%;
+    }
+
+    .blogWrapper :global(.tyov-portalEntry) {
+        margin-top: 0.5rem;
+    }
+
+    .blogWrapper :global(.tyov-portalEntry img) {
+        margin-top: 0;
+    }
+
+    .blogWrapper :global(.tyov-portalEntry__title) {
+        margin-top: 0;
+        clear: none;
     }
 
     .blogWrapper :global(h2) {

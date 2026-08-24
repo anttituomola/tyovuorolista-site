@@ -1,657 +1,660 @@
 {
-  "nav": {
-    "features": "Funktioner",
-    "resources": "Resurser",
-    "blog": "Blogg (FI)",
-    "pricing": "Prissättning",
-    "contact": "Kontakt",
-    "login": "Logga in",
-    "register": "Registrera dig",
-    "openMenu": "Öppna menyn",
-    "logoSubtitle": "Finsk skiftplanering för småföretag"
-  },
-  "cookieConsent": {
-    "message": "Vi använder cookies för besöksstatistik och marknadsföring.",
-    "learnMore": "Läs mer",
-    "accept": "Acceptera",
-    "decline": "Endast nödvändiga"
-  },
-  "footer": {
-    "copyright": "Työvuorolista | tyovuorolista.fi",
-    "links": {
-      "features": "Funktioner",
-      "resources": "Resurser",
-      "about": "Om oss",
-      "blog": "Blogg (FI)",
-      "contact": "Kontakt",
-      "pricing": "Prissättning",
-      "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy",
-      "privacy": "Integritetspolicy"
+    "nav": {
+        "features": "Funktioner",
+        "resources": "Resurser",
+        "blog": "Blogg (FI)",
+        "pricing": "Prissättning",
+        "contact": "Kontakt",
+        "login": "Logga in",
+        "register": "Registrera dig",
+        "openMenu": "Öppna menyn",
+        "logoSubtitle": "Finsk skiftplanering för småföretag"
     },
-    "industrySolutions": "Branschspecifika lösningar",
-    "industries": {
-      "restaurants": "Restauranger och kaféer",
-      "retail": "Handel",
-      "care": "Vårdhem och serviceboende",
-      "taxi": "Taxibolag och transport",
-      "cleaning": "Städning och fastighetstjänster",
-      "hotels": "Hotell och värdshus",
-      "events": "Evenemang och säsongsarbete"
-    }
-  },
-  "hero": {
-    "title": "Arbetsscheman för småföretag snabbt och enkelt",
-    "tagline": "Allt du behöver för skiftplanering i en app: TES-hjälpare, anställdportal, e-postpublicering och lönerapporter.",
-    "subtitle": "Första schemat klart och hos medarbetarna på under fem minuter.",
-    "tryDemo": "Prova demo",
-    "or": "ELLER"
-  },
-  "tesHighlight": {
-    "eyebrow": "TES-hjälpare (beta)",
-    "title": "Kollektivavtal med i planeringen",
-    "lead": "Varningar medan du planerar.",
-    "bullet1": "Varningar under planering: vilotider, skiftlängd, periodtimmar",
-    "bullet2": "Timmar klara för lönekategorier: tillägg, övertid, söndagstillägg",
-    "bullet3": "MaRa, handeln, fastighetsservice och SOSTES: fyra avtal redo",
-    "boundary": "Varningar, saldon och årsledighetsuppföljning i alla paket, även gratis Mini. Lönerapport med TES-klassificering ingår i betalda paket.",
-    "secondaryCta": "Läs mer om TES-hjälparen"
-  },
-  "demoVideo": {
-    "title": "Att skapa arbetsscheman kan också vara enkelt",
-    "description": "Skift läggs till i schemat genom att dra anställda till rätt plats. Publicering sker med ett knapptryck, som skickar schemat till alla anställda via e-post.",
-    "step1": "Registrera dig",
-    "step2": "Skapa arbetsschema",
-    "step3": "Publicera"
-  },
-  "platformStats": {
-    "eyebrow": "Används nu",
-    "title": "Työvuorolista i siffror",
-    "activeCompanies": "företag planerar skift varje månad",
-    "shiftsPerWeek": "arbetspass planeras varje vecka",
-    "workersManaged": "anställda hanteras i plattformen",
-    "totalShifts": "planerade skift totalt"
-  },
-  "customerStory": {
-    "title": "Vad kunderna säger",
-    "testimonials": [
-      {
-        "quote": "Att skapa arbetsscheman har varit riktigt enkelt. Anställda berömmer också schemanas utseende!",
-        "author": "Laura Dahlman",
-        "company": "Ravintola Apaja, Tampere"
-      },
-      {
-        "quote": "Riktigt tydligt och användarvänligt paket för planering och distribution av restaurangskift.",
-        "quote2": "Om du fortfarande pysslar med skift i Excel eller på papper, och inte vill betala en förmögenhet för tunga ekonomistyrsprogrampaket, är det nu definitivt dags att prova Työvuorolista. Varm rekommendation.",
-        "author": "Rami Käkönen",
-        "company": "Ravintola Askaisten Holvi, Askainen"
-      },
-      {
-        "quote": "Att göra arbetsscheman har blivit riktigt enkelt, verkligen - ingen onödig klickning! Schemana blir klara snabbt och de skickas till varje anställds e-post. Om hjälp har behövts har stöd och råd alltid varit snabbt tillgängliga!",
-        "author": "Anita Lindov",
-        "company": "Velj. Kitola Oy, Nousiainen"
-      }
-    ]
-  },
-  "register": {
-    "step1": {
-      "title": "Registrera dig",
-      "description": "Du kan registrera dig med antingen e-post eller ditt Google-konto. Inledningsvis behöver vi bara en e-postadress, ingen annan information.",
-      "steps": [
-        {
-          "title": "Snabb registrering",
-          "description": "du kan registrera dig med e-post eller Google-konto."
-        },
-        {
-          "title": "Inget kreditkort",
-          "description": "du kan prova gratis med upp till tre anställda."
-        },
-        {
-          "title": "Enkel första konfiguration",
-          "description": "lägg bara till dig själv som anställd och kom igång!"
-        }
-      ]
+    "cookieConsent": {
+        "message": "Vi använder cookies för besöksstatistik och marknadsföring.",
+        "learnMore": "Läs mer",
+        "accept": "Acceptera",
+        "decline": "Endast nödvändiga"
     },
-    "step2": {
-      "title": "Planera",
-      "description": "Att lägga till team och anställda tar några minuter. Du kan börja skapa ditt första arbetsschema direkt.",
-      "steps": [
-        {
-          "title": "Ingen onödig datainmatning",
-          "description": "appen frågar bara efter nödvändig information, i praktiken namn och e-post. Inget annat."
+    "footer": {
+        "copyright": "Työvuorolista | tyovuorolista.fi",
+        "links": {
+            "features": "Funktioner",
+            "resources": "Resurser",
+            "about": "Om oss",
+            "blog": "Blogg (FI)",
+            "contact": "Kontakt",
+            "pricing": "Prissättning",
+            "terms": "Användarvillkor, integritetspolicy och återbetalningspolicy",
+            "privacy": "Integritetspolicy"
         },
-        {
-          "title": "Ingen onödig klickning",
-          "description": "skift läggs till i kalendern genom att dra anställda till rätt plats. Skiftets längd och plats kan också justeras genom att dra."
-        },
-        {
-          "title": "Nödvändig ytterligare information",
-          "description": "du kan enkelt lägga till kommentarer till skift, t.ex. \"butikschef\"."
+        "industrySolutions": "Branschspecifika lösningar",
+        "industries": {
+            "restaurants": "Restauranger och kaféer",
+            "retail": "Handel",
+            "care": "Vårdhem och serviceboende",
+            "taxi": "Taxibolag och transport",
+            "cleaning": "Städning och fastighetstjänster",
+            "hotels": "Hotell och värdshus",
+            "events": "Evenemang och säsongsarbete"
         }
-      ]
     },
-    "step3": {
-      "title": "Godkänn",
-      "description": "Dela skiftplanen enkelt och snabbt med anställda i din föredragna kanal och be om feedback innan publicering.",
-      "steps": [
-        {
-          "title": "Kopiera bild av arbetsschema",
-          "description": "du kan enkelt klistra in den i ett WhatsApp-meddelande."
-        },
-        {
-          "title": "Spara bild av arbetsschema",
-          "description": "du kan enkelt bifoga den som e-postbilaga."
-        }
-      ]
+    "hero": {
+        "title": "Arbetsscheman för småföretag snabbt och enkelt",
+        "tagline": "Allt du behöver för skiftplanering i en app: TES-hjälpare, anställdportal, e-postpublicering och lönerapporter.",
+        "subtitle": "Första schemat klart och hos medarbetarna på under fem minuter.",
+        "tryDemo": "Prova demo",
+        "or": "ELLER"
     },
-    "step4": {
-      "title": "Publicera",
-      "description": "Publicera arbetsschemat med ett klick och skicka det automatiskt till anställda via e-post.",
-      "steps": [
-        {
-          "title": "Automatiserad sändning",
-          "description": "när du publicerar schemat skickas det automatiskt till alla anställda i schemat."
-        },
-        {
-          "title": "Personligt schema",
-          "description": "varje anställd får ett personligt schema över sina egna skift."
-        }
-      ]
+    "tesHighlight": {
+        "eyebrow": "TES-hjälpare (beta)",
+        "title": "Kollektivavtal med i planeringen",
+        "lead": "Varningar medan du planerar.",
+        "bullet1": "Varningar under planering: vilotider, skiftlängd, periodtimmar",
+        "bullet2": "Timmar klara för lönekategorier: tillägg, övertid, söndagstillägg",
+        "bullet3": "MaRa, handeln, fastighetsservice och SOSTES: fyra avtal redo",
+        "boundary": "Varningar, saldon och årsledighetsuppföljning i alla paket, även gratis Mini. Lönerapport med TES-klassificering ingår i betalda paket.",
+        "secondaryCta": "Läs mer om TES-hjälparen"
     },
-    "step5": {
-      "title": "Obegränsat antal team",
-      "description": "Varje team har sina egna scheman och inställningar, men du kan dela anställda mellan team.",
-      "steps": [
-        {
-          "title": "Egna inställningar",
-          "description": "varje team kan ha sina egna standardtider och skiftlängder."
-        },
-        {
-          "title": "Dela anställda",
-          "description": "anställda kan vara i flera team, vilket underlättar skiftplanering för företag med flera platser."
-        },
-        {
-          "title": "Publicera scheman",
-          "description": "du kan publicera scheman per team eller alla på en gång."
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "Vanliga frågor",
-    "questions": {
-      "cost": {
-        "question": "Hur mycket kostar detta?",
-        "answer": "Prissättningen baseras på antalet anställda. Du kan välja månads- eller årsdebitering:",
-        "tiers": [
-          "max. 3 anställda: 0 € / månad eller 0 € / år",
-          "max. 20 anställda: 18 € / månad eller 144 € / år",
-          "max. 50 anställda: 60 € / månad eller 504 € / år",
-          "max. 100 anställda: 180 € / månad eller 1440 € / år"
-        ],
-        "yearlyNote": "Årsdebitering är billigare: du betalar för 8 månader och får 4 månader inkluderade (t.ex. Normi 18 € / månad eller 144 € / år).",
-        "vat": "Moms läggs till alla priser."
-      },
-      "trial": {
-        "question": "Kan jag prova utan att betala?",
-        "answer": "Självklart! Att köra med mindre än fyra anställda är alltid gratis!"
-      },
-      "commitment": {
-        "question": "Hur länge måste jag binda mig?",
-        "answer": "Du kan välja månads- eller årsdebitering och när som helst avbryta din prenumeration. Inga långa bindningstider. Till exempel kan en sommarrestaurang betala för användning under sommaren och avbryta prenumerationen för vintern."
-      },
-      "start": {
-        "question": "När kan jag börja?",
-        "answer": "Registrering och första konfiguration tar cirka 3 minuter. Du kan publicera ditt första arbetsschema om cirka 15 minuter."
-      },
-      "creator": {
-        "question": "Vem har gjort detta?",
-        "answer": "Jag är Antti Tuomola. Jag har över 15 års erfarenhet inom restaurangbranschen som anställd, chef och entreprenör. Jag har arbetat i stadsdelsbarer och Michelin-restauranger, drivit herrgårdsrestauranger och matvagnar. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland med Excel, ibland med programsvara byggd för ändamålet. Jag har aldrig varit helt nöjd med dem. Därför detta."
-      },
-      "difficulty": {
-        "question": "Är detta svårt att använda?",
-        "answer": "Hela appen är byggd med tanken att skapa arbetsscheman ska vara så enkelt som möjligt. Gränssnittet är grafiskt, och skift läggs till genom att dra anställdas namn till rätt plats."
-      },
-      "publish": {
-        "question": "Hur fungerar publicering av scheman?",
-        "answer": "När schemat är redo att publiceras trycker du bara på knappen Publicera, som skickar ett e-postmeddelande till alla anställda i schemat (och andra vid behov) med den anställdes personliga arbetsschema. Du kan också kopiera en bild eller PDF och publicera den hur du vill."
-      },
-      "difference": {
-        "question": "Hur skiljer sig detta från MaraPlan / Planier / HR-planer / etc.?",
-        "answer": "Työvuorolista skiljer sig från andra branschaktörer på dessa sätt:",
-        "points": [
-          "Priserna är offentligt synliga: vi försöker inte pressa ut maximalt pris från ditt företag, utan publicerar alla priser öppet.",
-          "Du kan börja använda Työvuorolista nu, på fem minuter. Publicera ett schema på 15 minuter. Inga kontaktförfrågningar, offerter, demoer, motofferter och annat tidsfördriv.",
-          "Työvuorolista är så enkelt att du inte behöver utbildning för att använda det. Om du vill kan vi gå igenom dess användning tillsammans, men jag litar också på att du kan använda detta utan handhållning.",
-          "Lätt anställdupplevelse: anställda får sitt personliga schema via e-post eller utskrift. Ingen obligatorisk enterprise-app för anställda — vi fokuserar på att skapa scheman, publicera och registrera timmar."
+    "demoVideo": {
+        "title": "Att skapa arbetsscheman kan också vara enkelt",
+        "description": "Skift läggs till i schemat genom att dra anställda till rätt plats. Publicering sker med ett knapptryck, som skickar schemat till alla anställda via e-post.",
+        "step1": "Registrera dig",
+        "step2": "Skapa arbetsschema",
+        "step3": "Publicera"
+    },
+    "platformStats": {
+        "eyebrow": "Används nu",
+        "title": "Työvuorolista i siffror",
+        "activeCompanies": "företag planerar skift varje månad",
+        "shiftsPerWeek": "arbetspass planeras varje vecka",
+        "workersManaged": "anställda hanteras i plattformen",
+        "totalShifts": "planerade skift totalt"
+    },
+    "customerStory": {
+        "title": "Vad kunderna säger",
+        "testimonials": [
+            {
+                "quote": "Att skapa arbetsscheman har varit riktigt enkelt. Anställda berömmer också schemanas utseende!",
+                "author": "Laura Dahlman",
+                "company": "Ravintola Apaja, Tampere"
+            },
+            {
+                "quote": "Riktigt tydligt och användarvänligt paket för planering och distribution av restaurangskift.",
+                "quote2": "Om du fortfarande pysslar med skift i Excel eller på papper, och inte vill betala en förmögenhet för tunga ekonomistyrsprogrampaket, är det nu definitivt dags att prova Työvuorolista. Varm rekommendation.",
+                "author": "Rami Käkönen",
+                "company": "Ravintola Askaisten Holvi, Askainen"
+            },
+            {
+                "quote": "Att göra arbetsscheman har blivit riktigt enkelt, verkligen - ingen onödig klickning! Schemana blir klara snabbt och de skickas till varje anställds e-post. Om hjälp har behövts har stöd och råd alltid varit snabbt tillgängliga!",
+                "author": "Anita Lindov",
+                "company": "Velj. Kitola Oy, Nousiainen"
+            }
         ]
-      },
-      "tesCost": {
-        "question": "Vad kostar TES-hjälparen?",
-        "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
-      },
-      "tesSupported": {
-        "question": "Vilka kollektivavtal stöds?",
-        "answer": "MaRa, handeln (Kaupan ala), fastighetsservice (KipaTES) och SOSTES. Behöver du ett annat avtal? Berätta (önskelistan styr utvecklingen): info@tyovuorolista.fi."
-      }
-    }
-  },
-  "contactForm": {
-    "title": "Jag vill fråga mer!",
-    "description": "Ring eller skicka ett WhatsApp-meddelande — jag svarar snabbt.",
-    "emailPlaceholder": "Din e-postadress",
-    "phonePlaceholder": "Ditt telefonnummer",
-    "or": "eller",
-    "submit": "Skicka",
-    "success": "Tack! Jag kontaktar dig snart!",
-    "error": "Formulärinlämning misslyckades. Försök igen.",
-    "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen.",
-    "errorTurnstile": "Verifieringen misslyckades. Försök igen.",
-    "errorValidation": "Kontrollera uppgifterna du angav.",
-    "callAntti": "Ring",
-    "whatsappAntti": "Skicka WhatsApp-meddelande",
-    "whatsappPrefill": "Hej Antti! Jag vill gärna höra mer om Työvuorolista.",
-    "emailMe": "Mejla mig",
-    "callMe": "Ring mig",
-    "callbackHint": "Eller lämna dina uppgifter så återkommer jag:"
-  },
-  "mobileDemo": {
-    "title": "Hantera skift även på mobilen",
-    "description": "Som planerare kan du använda Työvuorolista fullt ut i telefon eller surfplatta: skiftplanering, personalhantering, timregistrering och publicering.",
-    "features": [
-      "Dagsvy och snabbskapande i telefonen",
-      "Hantera anställda",
-      "Registrera arbetade timmar",
-      "Publicering, dela och PDF"
-    ],
-    "employeeNote": "Anställda behöver inte installera några appar. De får sitt schema via en webbportal och e-post.",
-    "moreInfo": "I telefonen är planeringen en dagsvy: veckorad, skiftkort och snabbskapande via plusknappen. Navigeringen sker via menyn.",
-    "readMore": "Läs mer om mobil"
-  },
-  "blogPosts": {
-    "title": "Senaste artiklar om enklare skiftplanering",
-    "viewAll": "Visa alla artiklar",
-    "published": "Publicerad",
-    "tags": "Nyckelord:",
-    "blogPageTitle": "Artiklar om skiftplanering"
-  },
-  "featureHighlights": {
-    "title": "Alla viktiga funktioner på ett ställe",
-    "subtitle": "Skiftplanering, publicering och rapportering utan onödig komplexitet.",
-    "viewAll": "Se alla funktioner"
-  },
-  "howItWorks": {
-    "title": "Så kommer du igång",
-    "step1": {
-      "title": "Registrera dig",
-      "description": "Börja gratis med upp till tre anställda. Registreringen tar en minut."
     },
-    "step2": {
-      "title": "Planera",
-      "description": "Dra anställda till kalendern. Använd mallar och återkommande skift för att spara tid."
+    "register": {
+        "step1": {
+            "title": "Registrera dig",
+            "description": "Du kan registrera dig med antingen e-post eller ditt Google-konto. Inledningsvis behöver vi bara en e-postadress, ingen annan information.",
+            "steps": [
+                {
+                    "title": "Snabb registrering",
+                    "description": "du kan registrera dig med e-post eller Google-konto."
+                },
+                {
+                    "title": "Inget kreditkort",
+                    "description": "du kan prova gratis med upp till tre anställda."
+                },
+                {
+                    "title": "Enkel första konfiguration",
+                    "description": "lägg bara till dig själv som anställd och kom igång!"
+                }
+            ]
+        },
+        "step2": {
+            "title": "Planera",
+            "description": "Att lägga till team och anställda tar några minuter. Du kan börja skapa ditt första arbetsschema direkt.",
+            "steps": [
+                {
+                    "title": "Ingen onödig datainmatning",
+                    "description": "appen frågar bara efter nödvändig information, i praktiken namn och e-post. Inget annat."
+                },
+                {
+                    "title": "Ingen onödig klickning",
+                    "description": "skift läggs till i kalendern genom att dra anställda till rätt plats. Skiftets längd och plats kan också justeras genom att dra."
+                },
+                {
+                    "title": "Nödvändig ytterligare information",
+                    "description": "du kan enkelt lägga till kommentarer till skift, t.ex. \"butikschef\"."
+                }
+            ]
+        },
+        "step3": {
+            "title": "Godkänn",
+            "description": "Dela skiftplanen enkelt och snabbt med anställda i din föredragna kanal och be om feedback innan publicering.",
+            "steps": [
+                {
+                    "title": "Kopiera bild av arbetsschema",
+                    "description": "du kan enkelt klistra in den i ett WhatsApp-meddelande."
+                },
+                {
+                    "title": "Spara bild av arbetsschema",
+                    "description": "du kan enkelt bifoga den som e-postbilaga."
+                }
+            ]
+        },
+        "step4": {
+            "title": "Publicera",
+            "description": "Publicera arbetsschemat med ett klick och skicka det automatiskt till anställda via e-post.",
+            "steps": [
+                {
+                    "title": "Automatiserad sändning",
+                    "description": "när du publicerar schemat skickas det automatiskt till alla anställda i schemat."
+                },
+                {
+                    "title": "Personligt schema",
+                    "description": "varje anställd får ett personligt schema över sina egna skift."
+                }
+            ]
+        },
+        "step5": {
+            "title": "Obegränsat antal team",
+            "description": "Varje team har sina egna scheman och inställningar, men du kan dela anställda mellan team.",
+            "steps": [
+                {
+                    "title": "Egna inställningar",
+                    "description": "varje team kan ha sina egna standardtider och skiftlängder."
+                },
+                {
+                    "title": "Dela anställda",
+                    "description": "anställda kan vara i flera team, vilket underlättar skiftplanering för företag med flera platser."
+                },
+                {
+                    "title": "Publicera scheman",
+                    "description": "du kan publicera scheman per team eller alla på en gång."
+                }
+            ]
+        }
     },
-    "step3": {
-      "title": "Publicera",
-      "description": "Skicka personliga scheman via e-post med ett klick."
+    "faq": {
+        "title": "Vanliga frågor",
+        "questions": {
+            "cost": {
+                "question": "Hur mycket kostar detta?",
+                "answer": "Prissättningen baseras på antalet anställda. Du kan välja månads- eller årsdebitering:",
+                "tiers": [
+                    "max. 3 anställda: 0 € / månad eller 0 € / år",
+                    "max. 20 anställda: 18 € / månad eller 144 € / år",
+                    "max. 50 anställda: 60 € / månad eller 504 € / år",
+                    "max. 100 anställda: 180 € / månad eller 1440 € / år"
+                ],
+                "yearlyNote": "Årsdebitering är billigare: du betalar för 8 månader och får 4 månader inkluderade (t.ex. Normi 18 € / månad eller 144 € / år).",
+                "vat": "Moms läggs till alla priser."
+            },
+            "trial": {
+                "question": "Kan jag prova utan att betala?",
+                "answer": "Självklart! Att köra med mindre än fyra anställda är alltid gratis!"
+            },
+            "commitment": {
+                "question": "Hur länge måste jag binda mig?",
+                "answer": "Du kan välja månads- eller årsdebitering och när som helst avbryta din prenumeration. Inga långa bindningstider. Till exempel kan en sommarrestaurang betala för användning under sommaren och avbryta prenumerationen för vintern."
+            },
+            "start": {
+                "question": "När kan jag börja?",
+                "answer": "Registrering och första konfiguration tar cirka 3 minuter. Du kan publicera ditt första arbetsschema om cirka 15 minuter."
+            },
+            "creator": {
+                "question": "Vem har gjort detta?",
+                "answer": "Jag är Antti Tuomola. Jag har över 15 års erfarenhet inom restaurangbranschen som anställd, chef och entreprenör. Jag har arbetat i stadsdelsbarer och Michelin-restauranger, drivit herrgårdsrestauranger och matvagnar. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland med Excel, ibland med programsvara byggd för ändamålet. Jag har aldrig varit helt nöjd med dem. Därför detta."
+            },
+            "difficulty": {
+                "question": "Är detta svårt att använda?",
+                "answer": "Hela appen är byggd med tanken att skapa arbetsscheman ska vara så enkelt som möjligt. Gränssnittet är grafiskt, och skift läggs till genom att dra anställdas namn till rätt plats."
+            },
+            "publish": {
+                "question": "Hur fungerar publicering av scheman?",
+                "answer": "När schemat är redo att publiceras trycker du bara på knappen Publicera, som skickar ett e-postmeddelande till alla anställda i schemat (och andra vid behov) med den anställdes personliga arbetsschema. Du kan också kopiera en bild eller PDF och publicera den hur du vill."
+            },
+            "difference": {
+                "question": "Hur skiljer sig detta från MaraPlan / Planier / HR-planer / etc.?",
+                "answer": "Työvuorolista skiljer sig från andra branschaktörer på dessa sätt:",
+                "points": [
+                    "Priserna är offentligt synliga: vi försöker inte pressa ut maximalt pris från ditt företag, utan publicerar alla priser öppet.",
+                    "Du kan börja använda Työvuorolista nu, på fem minuter. Publicera ett schema på 15 minuter. Inga kontaktförfrågningar, offerter, demoer, motofferter och annat tidsfördriv.",
+                    "Työvuorolista är så enkelt att du inte behöver utbildning för att använda det. Om du vill kan vi gå igenom dess användning tillsammans, men jag litar också på att du kan använda detta utan handhållning.",
+                    "Lätt anställdupplevelse: anställda får sitt personliga schema via e-post eller utskrift. Ingen obligatorisk enterprise-app för anställda — vi fokuserar på att skapa scheman, publicera och registrera timmar."
+                ]
+            },
+            "tesCost": {
+                "question": "Vad kostar TES-hjälparen?",
+                "answer": "TES-hjälparen (beta) ingår i alla paket, även gratis Mini. Varningar, saldon och årsledighetsuppföljning utan extra kostnad. Lönerapport med TES-klassificering ingår i betalda paket."
+            },
+            "tesSupported": {
+                "question": "Vilka kollektivavtal stöds?",
+                "answer": "MaRa, handeln (Kaupan ala), fastighetsservice (KipaTES) och SOSTES. Behöver du ett annat avtal? Berätta (önskelistan styr utvecklingen): info@tyovuorolista.fi."
+            }
+        }
     },
-    "featuresLink": "Utforska alla funktioner"
-  },
-  "contactCta": {
-    "title": "Vill du veta mer?",
-    "description": "Vi hör av oss snabbt — lämna ett meddelande på kontaktsidan.",
-    "button": "Gå till kontakt"
-  },
-  "features": {
-    "readMore": "Läs mer",
-    "blogLanguageNote": "Sidan på finska",
-    "betaBadge": "Ny",
-    "categories": {
-      "planning": "Planering",
-      "publishing": "Publicering",
-      "workers": "För anställda",
-      "reporting": "Timmar och rapportering",
-      "teams": "Team"
+    "contactForm": {
+        "title": "Jag vill fråga mer!",
+        "description": "Ring eller skicka ett WhatsApp-meddelande — jag svarar snabbt.",
+        "descriptionDesktop": "Skicka e-post eller ett WhatsApp-meddelande — jag svarar snabbt.",
+        "emailPlaceholder": "Din e-postadress",
+        "phonePlaceholder": "Ditt telefonnummer",
+        "or": "eller",
+        "submit": "Skicka",
+        "success": "Tack! Jag kontaktar dig snart!",
+        "error": "Formulärinlämning misslyckades. Försök igen.",
+        "errorNetwork": "Formulärinlämning misslyckades. Kontrollera din internetanslutning och försök igen.",
+        "errorTurnstile": "Verifieringen misslyckades. Försök igen.",
+        "errorValidation": "Kontrollera uppgifterna du angav.",
+        "callAntti": "Ring",
+        "emailAntti": "Skicka e-post",
+        "emailSubject": "Fråga om Työvuorolista",
+        "whatsappAntti": "Skicka WhatsApp-meddelande",
+        "whatsappPrefill": "Hej Antti! Jag vill gärna höra mer om Työvuorolista.",
+        "emailMe": "Mejla mig",
+        "callMe": "Ring mig",
+        "callbackHint": "Eller lämna dina uppgifter så återkommer jag:"
     },
-    "categoryDescriptions": {
-      "planning": "Bygg schemat genom att dra — återkommande skift, mallar och flerval sköter rutinarbetet.",
-      "publishing": "När schemat är klart får varje anställd sitt personliga schema per e-post med ett klick.",
-      "workers": "Anställda ser sina skift, rapporterar sina timmar och tar lediga skift i sin egen portal.",
-      "reporting": "Faktiska timmar loggas i appen och exporteras till lönehanteringen som en färdig rapport.",
-      "teams": "Matsal, kök, två verksamhetsställen? Varje team har sina egna scheman, och anställda kan delas mellan team."
+    "mobileDemo": {
+        "title": "Hantera skift även på mobilen",
+        "description": "Som planerare kan du använda Työvuorolista fullt ut i telefon eller surfplatta: skiftplanering, personalhantering, timregistrering och publicering.",
+        "features": [
+            "Dagsvy och snabbskapande i telefonen",
+            "Hantera anställda",
+            "Registrera arbetade timmar",
+            "Publicering, dela och PDF"
+        ],
+        "employeeNote": "Anställda behöver inte installera några appar. De får sitt schema via en webbportal och e-post.",
+        "moreInfo": "I telefonen är planeringen en dagsvy: veckorad, skiftkort och snabbskapande via plusknappen. Navigeringen sker via menyn.",
+        "readMore": "Läs mer om mobil"
     },
-    "items": {
-      "tes-apuri": {
-        "title": "Kollektivavtalsassistent",
-        "shortDescription": "Appen kontrollerar dina skift mot kollektivavtalet och arbetstidslagen medan du planerar."
-      },
-      "oma-portaali": {
-        "title": "Personalportal",
-        "shortDescription": "Anställda ser sina skift, önskar ledigt och rapporterar timmar på telefonen."
-      },
-      "avoimet-vuorot": {
-        "title": "Lediga skift",
-        "shortDescription": "Publicera ett skift utan person — anställda anmäler sig och du väljer."
-      },
-      "recurring-shifts": {
-        "title": "Återkommande skift",
-        "shortDescription": "Skapa återkommande skift en gång och kopiera dem över veckor."
-      },
-      "templates": {
-        "title": "Mallar",
-        "shortDescription": "Spara färdiga veckor som mallar och återanvänd dem."
-      },
-      "multi-select": {
-        "title": "Flerval",
-        "shortDescription": "Välj och redigera flera skift samtidigt."
-      },
-      "resource-scheduling": {
-        "title": "Resursplanering",
-        "shortDescription": "Planera resurser som fordon eller lokaler vid sidan av skift."
-      },
-      "day-notes": {
-        "title": "Dagsanteckningar",
-        "shortDescription": "Markera hela dagens händelser och anteckningar i kalendern."
-      },
-      "email-publish": {
-        "title": "Publicering via e-post",
-        "shortDescription": "Skicka personliga skiftlistor till anställda automatiskt."
-      },
-      "email-preview": {
-        "title": "Förhandsgranskning av e-post",
-        "shortDescription": "Granska meddelandet innan du skickar."
-      },
-      "personal-print": {
-        "title": "Personliga utskrifter",
-        "shortDescription": "Skriv ut eller dela enskilda anställdas scheman."
-      },
-      "vacation-planning": {
-        "title": "Semesterplanering",
-        "shortDescription": "Hantera semester och semesteransökningar i schemat."
-      },
-      "hours-recording": {
-        "title": "Timregistrering",
-        "shortDescription": "Registrera faktiska timmar och jämför med planen."
-      },
-      "payroll-report": {
-        "title": "Lönerapport",
-        "shortDescription": "Exportera timmar till löneräkning från en färdig rapport."
-      },
-      "teams": {
-        "title": "Team och delade anställda",
-        "shortDescription": "Hantera flera team och dela anställda mellan dem."
-      },
-      "mobile-manager": {
-        "title": "Mobil för planerare",
-        "shortDescription": "Dagsvy, snabbskapande och publicering direkt i telefonen."
-      }
-    }
-  },
-  "resources": {
-    "readMore": "Öppna",
-    "blogLanguageNote": "Artikel på finska",
-    "sections": {
-      "templates": "Mallar och utskrivbara scheman",
-      "guides": "Guider",
-      "reference": "Lagstiftning och praxis"
+    "blogPosts": {
+        "title": "Senaste artiklar om enklare skiftplanering",
+        "viewAll": "Visa alla artiklar",
+        "published": "Publicerad",
+        "tags": "Nyckelord:",
+        "blogPageTitle": "Artiklar om skiftplanering"
     },
-    "items": {
-      "pohja-tool": {
-        "title": "Arbetsschema-mall i webbläsaren",
-        "shortDescription": "Fyll i ett treveckors schema i webbläsaren och skriv ut."
-      },
-      "pohja-printable": {
-        "title": "Utskrivbar mall",
-        "shortDescription": "Förformaterad mall för utskrift av schema."
-      },
-      "pohja-oo": {
-        "title": "OpenOffice-mall",
-        "shortDescription": "Ladda ner en gratis kalkylbladsmall för OpenOffice."
-      },
-      "pohja-pdf": {
-        "title": "PDF-mall från appen",
-        "shortDescription": "Skapa och dela ett PDF-arbetsschema direkt från tjänsten."
-      },
-      "getting-started": {
-        "title": "Kom igång",
-        "shortDescription": "Steg-för-steg-guide till ditt första schema."
-      },
-      "hours-guide": {
-        "title": "Guide för timregistrering",
-        "shortDescription": "Så registrerar du faktiska arbetade timmar."
-      },
-      "scheduling-software": {
-        "title": "Program för skiftplanering",
-        "shortDescription": "Allmän guide till skiftplanering och val av program."
-      },
-      "shift-length-and-rest": {
-        "title": "Skiftlängd och vilotider inom restaurang",
-        "shortDescription": "Kortaste och längsta skift, dygnsvila och pauser."
-      },
-      "shift-abbreviations": {
-        "title": "Förkortningar i arbetsschemat",
-        "shortDescription": "Vad X, V, TS och VV betyder i schemat."
-      },
-      "v-day-meaning": {
-        "title": "Vad betyder V-dag?",
-        "shortDescription": "Betydelse och användning av V-dagar i schemat."
-      },
-      "x-v-marking": {
-        "title": "Markering av X- och V-dagar",
-        "shortDescription": "Så markerar du lediga dagar i kalendern."
-      },
-      "annual-leave-marking": {
-        "title": "Markering av årlig semester",
-        "shortDescription": "Årlig semester och obetalda lediga dagar i schemat."
-      },
-      "tracked-missing-hours": {
-        "title": "Registrerade och saknade timmar",
-        "shortDescription": "Hur appen räknar utförda och saknade timmar."
-      }
-    }
-  },
-  "pages": {
+    "featureHighlights": {
+        "title": "Alla viktiga funktioner på ett ställe",
+        "subtitle": "Skiftplanering, publicering och rapportering utan onödig komplexitet.",
+        "viewAll": "Se alla funktioner"
+    },
+    "howItWorks": {
+        "title": "Så kommer du igång",
+        "step1": {
+            "title": "Registrera dig",
+            "description": "Börja gratis med upp till tre anställda. Registreringen tar en minut."
+        },
+        "step2": {
+            "title": "Planera",
+            "description": "Dra anställda till kalendern. Använd mallar och återkommande skift för att spara tid."
+        },
+        "step3": {
+            "title": "Publicera",
+            "description": "Skicka personliga scheman via e-post med ett klick."
+        },
+        "featuresLink": "Utforska alla funktioner"
+    },
+    "contactCta": {
+        "title": "Vill du veta mer?",
+        "description": "Vi hör av oss snabbt — lämna ett meddelande på kontaktsidan.",
+        "button": "Gå till kontakt"
+    },
     "features": {
-      "title": "Funktioner",
-      "eyebrow": "Funktioner",
-      "heroTitle": "Allt du faktiskt behöver för att göra ett arbetsschema",
-      "subtitle": "Planera skift genom att dra, publicera per e-post och exportera timmar till lönehanteringen. Inget tungt enterprise-system — bara verktygen ett småföretag använder varje vecka.",
-      "heroImageAlt": "Arbetsschemats kalendervy med en veckas färgkodade skift per anställd",
-      "cta": "Prova gratis",
-      "ctaSecondary": "Se priser",
-      "ctaNote": "Gratis med upp till tre anställda. Inget kreditkort.",
-      "detailCtaTitle": "Prova själv — schemat klart på en kvart",
-      "detailCtaText": "Registreringen tar en minut, och användning med upp till tre anställda är gratis.",
-      "readGuide": "Läs guiden på bloggen",
-      "relatedTitle": "Se även dessa funktioner",
-      "backToFeatures": "Alla funktioner"
+        "readMore": "Läs mer",
+        "blogLanguageNote": "Sidan på finska",
+        "betaBadge": "Ny",
+        "categories": {
+            "planning": "Planering",
+            "publishing": "Publicering",
+            "workers": "För anställda",
+            "reporting": "Timmar och rapportering",
+            "teams": "Team"
+        },
+        "categoryDescriptions": {
+            "planning": "Bygg schemat genom att dra — återkommande skift, mallar och flerval sköter rutinarbetet.",
+            "publishing": "När schemat är klart får varje anställd sitt personliga schema per e-post med ett klick.",
+            "workers": "Anställda ser sina skift, rapporterar sina timmar och tar lediga skift i sin egen portal.",
+            "reporting": "Faktiska timmar loggas i appen och exporteras till lönehanteringen som en färdig rapport.",
+            "teams": "Matsal, kök, två verksamhetsställen? Varje team har sina egna scheman, och anställda kan delas mellan team."
+        },
+        "items": {
+            "tes-apuri": {
+                "title": "Kollektivavtalsassistent",
+                "shortDescription": "Appen kontrollerar dina skift mot kollektivavtalet och arbetstidslagen medan du planerar."
+            },
+            "oma-portaali": {
+                "title": "Personalportal",
+                "shortDescription": "Anställda ser sina skift, önskar ledigt och rapporterar timmar på telefonen."
+            },
+            "avoimet-vuorot": {
+                "title": "Lediga skift",
+                "shortDescription": "Publicera ett skift utan person — anställda anmäler sig och du väljer."
+            },
+            "recurring-shifts": {
+                "title": "Återkommande skift",
+                "shortDescription": "Skapa återkommande skift en gång och kopiera dem över veckor."
+            },
+            "templates": {
+                "title": "Mallar",
+                "shortDescription": "Spara färdiga veckor som mallar och återanvänd dem."
+            },
+            "multi-select": {
+                "title": "Flerval",
+                "shortDescription": "Välj och redigera flera skift samtidigt."
+            },
+            "resource-scheduling": {
+                "title": "Resursplanering",
+                "shortDescription": "Planera resurser som fordon eller lokaler vid sidan av skift."
+            },
+            "day-notes": {
+                "title": "Dagsanteckningar",
+                "shortDescription": "Markera hela dagens händelser och anteckningar i kalendern."
+            },
+            "email-publish": {
+                "title": "Publicering via e-post",
+                "shortDescription": "Skicka personliga skiftlistor till anställda automatiskt."
+            },
+            "email-preview": {
+                "title": "Förhandsgranskning av e-post",
+                "shortDescription": "Granska meddelandet innan du skickar."
+            },
+            "personal-print": {
+                "title": "Personliga utskrifter",
+                "shortDescription": "Skriv ut eller dela enskilda anställdas scheman."
+            },
+            "vacation-planning": {
+                "title": "Semesterplanering",
+                "shortDescription": "Hantera semester och semesteransökningar i schemat."
+            },
+            "hours-recording": {
+                "title": "Timregistrering",
+                "shortDescription": "Registrera faktiska timmar och jämför med planen."
+            },
+            "payroll-report": {
+                "title": "Lönerapport",
+                "shortDescription": "Exportera timmar till löneräkning från en färdig rapport."
+            },
+            "teams": {
+                "title": "Team och delade anställda",
+                "shortDescription": "Hantera flera team och dela anställda mellan dem."
+            },
+            "mobile-manager": {
+                "title": "Mobil för planerare",
+                "shortDescription": "Dagsvy, snabbskapande och publicering direkt i telefonen."
+            }
+        }
     },
     "resources": {
-      "title": "Resurser",
-      "subtitle": "Mallar, guider och användbara artiklar för skiftplanering.",
-      "cta": "Prova gratis"
-    },
-    "pricing": {
-      "title": "Prissättning per konto",
-      "subtitle": "Välj paketet som passar ditt konto. Priset gäller hela kontot, inte enskilda anställda, och med ett konto kan du hantera flera verksamhetsställen.",
-      "priceNote": "Priset är per konto, inte per anställd.",
-      "taxNote": "Moms läggs till på fakturan.",
-      "toggleLabel": "Välj debiteringssätt",
-      "monthlyLabel": "Månadsbetalning",
-      "yearlyLabel": "Årsdebitering",
-      "monthlyPeriod": "/ månad",
-      "yearlyPeriod": "/ år",
-      "monthlyMessage": "Byt till årsdebitering och spara upp till 4 månader jämfört med månadspriset.",
-      "yearlyBadge": "4 månader gratis",
-      "featureUnavailable": "Ingår inte",
-      "tiers": {
-        "tier1": {
-          "title": "Mini",
-          "limit": "Upp till 3 anställda",
-          "monthlyPrice": "0 €",
-          "yearlyPrice": "0 €",
-          "pricingUnit": "Per konto",
-          "features": [
-            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            { "text": "Personalportal: skift, ledighetsönskemål och timrapporter", "included": false },
-            { "text": "Lediga skift", "included": false },
-            { "text": "Lönerapport med TES-klassificering", "included": false },
-            { "text": "E-postnotiser till anställda", "included": false },
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
-            "Mobilvänligt gränssnitt",
-            "Kundsupport"
-          ]
+        "readMore": "Öppna",
+        "blogLanguageNote": "Artikel på finska",
+        "sections": {
+            "templates": "Mallar och utskrivbara scheman",
+            "guides": "Guider",
+            "reference": "Lagstiftning och praxis"
         },
-        "tier2": {
-          "title": "Normi",
-          "limit": "Upp till 20 anställda",
-          "monthlyPrice": "18 €",
-          "yearlyPrice": "144 €",
-          "pricingUnit": "Per konto",
-          "yearlySavings": "Spara 72 € per år med årsdebitering.",
-          "features": [
-            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Personalportal: skift, ledighetsönskemål och timrapporter",
-            "Lediga skift",
-            "Lönerapport med TES-klassificering",
-            "E-postnotiser till anställda",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
-            "Mobilvänligt gränssnitt",
-            "Kundsupport"
-          ]
-        },
-        "tier3": {
-          "title": "Iso",
-          "limit": "Upp till 50 anställda",
-          "monthlyPrice": "60 €",
-          "yearlyPrice": "504 €",
-          "pricingUnit": "Per konto",
-          "yearlySavings": "Spara 216 € per år med årsdebitering.",
-          "features": [
-            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Personalportal: skift, ledighetsönskemål och timrapporter",
-            "Lediga skift",
-            "Lönerapport med TES-klassificering",
-            "E-postnotiser till anställda",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
-            "Mobilvänligt gränssnitt",
-            "Kundsupport"
-          ]
-        },
-        "tier4": {
-          "title": "Jätti",
-          "limit": "Upp till 100 anställda",
-          "monthlyPrice": "180 €",
-          "yearlyPrice": "1440 €",
-          "pricingUnit": "Per konto",
-          "yearlySavings": "Spara 720 € per år med årsdebitering.",
-          "features": [
-            "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
-            "Personalportal: skift, ledighetsönskemål och timrapporter",
-            "Lediga skift",
-            "Lönerapport med TES-klassificering",
-            "E-postnotiser till anställda",
-            "Obegränsat antal arbetsscheman",
-            "Obegränsat antal team",
-            "Mobilvänligt gränssnitt",
-            "Kundsupport"
-          ]
-        }
-      }
-    },
-    "about": {
-      "metaTitle": "Om oss | tyovuorolista.fi",
-      "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen.",
-      "title": "Om oss",
-      "subtitle": "Två personer bakom tyovuorolista.fi.",
-      "company": "Työvuorolista är ett arbetsschemaprogram från Tammerfors för restauranger, kaféer, hotell, handel och andra skiftbaserade småföretag. Produktsajten är tyovuorolista.fi och appen finns på app.tyovuorolista.fi. Tjänsten tillhandahålls av True Solutions Oy (FO-nummer 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tammerfors, Finland. Kontakt: info@tyovuorolista.fi, +358 45 679 8818.",
-      "photoPlaceholder": "Bild kommer snart",
-      "people": [
-        {
-          "id": "antti",
-          "name": "Antti Tuomola",
-          "role": "Grundare, produkt",
-          "initials": "AT",
-          "photo": "/about/antti-tuomola.webp",
-          "photoAlt": "Antti Tuomola",
-          "paragraphs": [
-            "Jag är Antti Tuomola. Jag har över 15 års erfarenhet från restaurangbranschen som anställd, chef och företagare. Jag har jobbat i kvarterskrogar och Michelin-restauranger, drivit herrgårdsrestauranger och food truck. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland i Excel, ibland med särskilda program. Jag har aldrig varit helt nöjd. Därför tyovuorolista.fi.",
-            "Nu jobbar jag som mjukvaruutvecklare på ett stort finskt IT-konsultbolag, bland annat för ministerier och andra stora kunder. Jag bygger tyovuorolista.fi på True Solutions Oy tillsammans med Eemeli.",
-            "Jag bor i Tammerfors. Man kan ringa eller skriva till mig."
-          ],
-          "links": [
-            {
-              "label": "anttituomola.fi",
-              "href": "https://anttituomola.fi"
+        "items": {
+            "pohja-tool": {
+                "title": "Arbetsschema-mall i webbläsaren",
+                "shortDescription": "Fyll i ett treveckors schema i webbläsaren och skriv ut."
             },
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/antti-tuomola/"
+            "pohja-printable": {
+                "title": "Utskrivbar mall",
+                "shortDescription": "Förformaterad mall för utskrift av schema."
             },
-            {
-              "label": "+358 45 679 8818",
-              "href": "tel:+358456798818"
+            "pohja-oo": {
+                "title": "OpenOffice-mall",
+                "shortDescription": "Ladda ner en gratis kalkylbladsmall för OpenOffice."
+            },
+            "pohja-pdf": {
+                "title": "PDF-mall från appen",
+                "shortDescription": "Skapa och dela ett PDF-arbetsschema direkt från tjänsten."
+            },
+            "getting-started": {
+                "title": "Kom igång",
+                "shortDescription": "Steg-för-steg-guide till ditt första schema."
+            },
+            "hours-guide": {
+                "title": "Guide för timregistrering",
+                "shortDescription": "Så registrerar du faktiska arbetade timmar."
+            },
+            "scheduling-software": {
+                "title": "Program för skiftplanering",
+                "shortDescription": "Allmän guide till skiftplanering och val av program."
+            },
+            "shift-length-and-rest": {
+                "title": "Skiftlängd och vilotider inom restaurang",
+                "shortDescription": "Kortaste och längsta skift, dygnsvila och pauser."
+            },
+            "shift-abbreviations": {
+                "title": "Förkortningar i arbetsschemat",
+                "shortDescription": "Vad X, V, TS och VV betyder i schemat."
+            },
+            "v-day-meaning": {
+                "title": "Vad betyder V-dag?",
+                "shortDescription": "Betydelse och användning av V-dagar i schemat."
+            },
+            "x-v-marking": {
+                "title": "Markering av X- och V-dagar",
+                "shortDescription": "Så markerar du lediga dagar i kalendern."
+            },
+            "annual-leave-marking": {
+                "title": "Markering av årlig semester",
+                "shortDescription": "Årlig semester och obetalda lediga dagar i schemat."
+            },
+            "tracked-missing-hours": {
+                "title": "Registrerade och saknade timmar",
+                "shortDescription": "Hur appen räknar utförda och saknade timmar."
             }
-          ]
-        },
-        {
-          "id": "eemeli",
-          "name": "Eemeli Raninen",
-          "role": "Grundare, kunder",
-          "initials": "ER",
-          "photo": "/about/eemeli-raninen.webp",
-          "photoAlt": "Eemeli Raninen",
-          "paragraphs": [
-            "Jag är Eemeli Raninen, den andra grundaren av tyovuorolista.fi, och jag sköter kunder och försäljning. Jag började jobba för Antti på Jollas herrgård 2021, och efter några omvägar grundade vi True Solutions Oy 2024.",
-            "Samtidigt studerar jag International Management och CEMS vid Aalto-universitetets handelshögskola. Vid sidan av Työvuorolista har jag tidigare arbetat med kommunikation och marknadsföring, bland annat på visitsauna.com och Aalto-universitetet.",
-            "Just nu arbetar jag på hållbarhetsavdelningen på ett internationellt kemiföretag i Tyskland."
-          ],
-          "links": [
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/eemeli-raninen/"
-            },
-            {
-              "label": "+358 45 126 4460",
-              "href": "tel:+358451264460"
-            }
-          ]
         }
-      ]
     },
-    "contact": {
-      "title": "Tyovuorolista.fi kontaktinformation",
-      "company": "True Solutions Oy / tyovuorolista.fi",
-      "businessId": "Organisationsnummer: 3431534-2",
-      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
-      "sales": "Försäljning:",
-      "info": "info@tyovuorolista.fi"
+    "pages": {
+        "features": {
+            "title": "Funktioner",
+            "eyebrow": "Funktioner",
+            "heroTitle": "Allt du faktiskt behöver för att göra ett arbetsschema",
+            "subtitle": "Planera skift genom att dra, publicera per e-post och exportera timmar till lönehanteringen. Inget tungt enterprise-system — bara verktygen ett småföretag använder varje vecka.",
+            "heroImageAlt": "Arbetsschemats kalendervy med en veckas färgkodade skift per anställd",
+            "cta": "Prova gratis",
+            "ctaSecondary": "Se priser",
+            "ctaNote": "Gratis med upp till tre anställda. Inget kreditkort.",
+            "detailCtaTitle": "Prova själv — schemat klart på en kvart",
+            "detailCtaText": "Registreringen tar en minut, och användning med upp till tre anställda är gratis.",
+            "readGuide": "Läs guiden på bloggen",
+            "relatedTitle": "Se även dessa funktioner",
+            "backToFeatures": "Alla funktioner"
+        },
+        "resources": {
+            "title": "Resurser",
+            "subtitle": "Mallar, guider och användbara artiklar för skiftplanering.",
+            "cta": "Prova gratis"
+        },
+        "pricing": {
+            "title": "Prissättning per konto",
+            "subtitle": "Välj paketet som passar ditt konto. Priset gäller hela kontot, inte enskilda anställda, och med ett konto kan du hantera flera verksamhetsställen.",
+            "priceNote": "Priset är per konto, inte per anställd.",
+            "taxNote": "Moms läggs till på fakturan.",
+            "toggleLabel": "Välj debiteringssätt",
+            "monthlyLabel": "Månadsbetalning",
+            "yearlyLabel": "Årsdebitering",
+            "monthlyPeriod": "/ månad",
+            "yearlyPeriod": "/ år",
+            "monthlyMessage": "Byt till årsdebitering och spara upp till 4 månader jämfört med månadspriset.",
+            "yearlyBadge": "4 månader gratis",
+            "featureUnavailable": "Ingår inte",
+            "tiers": {
+                "tier1": {
+                    "title": "Mini",
+                    "limit": "Upp till 3 anställda",
+                    "monthlyPrice": "0 €",
+                    "yearlyPrice": "0 €",
+                    "pricingUnit": "Per konto",
+                    "features": [
+                        "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
+                        { "text": "Personalportal: skift, ledighetsönskemål och timrapporter", "included": false },
+                        { "text": "Lediga skift", "included": false },
+                        { "text": "Lönerapport med TES-klassificering", "included": false },
+                        { "text": "E-postnotiser till anställda", "included": false },
+                        "Obegränsat antal arbetsscheman",
+                        "Obegränsat antal team",
+                        "Mobilvänligt gränssnitt",
+                        "Kundsupport"
+                    ]
+                },
+                "tier2": {
+                    "title": "Normi",
+                    "limit": "Upp till 20 anställda",
+                    "monthlyPrice": "18 €",
+                    "yearlyPrice": "144 €",
+                    "pricingUnit": "Per konto",
+                    "yearlySavings": "Spara 72 € per år med årsdebitering.",
+                    "features": [
+                        "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
+                        "Personalportal: skift, ledighetsönskemål och timrapporter",
+                        "Lediga skift",
+                        "Lönerapport med TES-klassificering",
+                        "E-postnotiser till anställda",
+                        "Obegränsat antal arbetsscheman",
+                        "Obegränsat antal team",
+                        "Mobilvänligt gränssnitt",
+                        "Kundsupport"
+                    ]
+                },
+                "tier3": {
+                    "title": "Iso",
+                    "limit": "Upp till 50 anställda",
+                    "monthlyPrice": "60 €",
+                    "yearlyPrice": "504 €",
+                    "pricingUnit": "Per konto",
+                    "yearlySavings": "Spara 216 € per år med årsdebitering.",
+                    "features": [
+                        "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
+                        "Personalportal: skift, ledighetsönskemål och timrapporter",
+                        "Lediga skift",
+                        "Lönerapport med TES-klassificering",
+                        "E-postnotiser till anställda",
+                        "Obegränsat antal arbetsscheman",
+                        "Obegränsat antal team",
+                        "Mobilvänligt gränssnitt",
+                        "Kundsupport"
+                    ]
+                },
+                "tier4": {
+                    "title": "Jätti",
+                    "limit": "Upp till 100 anställda",
+                    "monthlyPrice": "180 €",
+                    "yearlyPrice": "1440 €",
+                    "pricingUnit": "Per konto",
+                    "yearlySavings": "Spara 720 € per år med årsdebitering.",
+                    "features": [
+                        "TES-hjälpare (beta): varningar, saldon och årsledighetsuppföljning",
+                        "Personalportal: skift, ledighetsönskemål och timrapporter",
+                        "Lediga skift",
+                        "Lönerapport med TES-klassificering",
+                        "E-postnotiser till anställda",
+                        "Obegränsat antal arbetsscheman",
+                        "Obegränsat antal team",
+                        "Mobilvänligt gränssnitt",
+                        "Kundsupport"
+                    ]
+                }
+            }
+        },
+        "about": {
+            "metaTitle": "Om oss | tyovuorolista.fi",
+            "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen.",
+            "title": "Om oss",
+            "subtitle": "Två personer bakom tyovuorolista.fi.",
+            "company": "Työvuorolista är ett arbetsschemaprogram från Tammerfors för restauranger, kaféer, hotell, handel och andra skiftbaserade småföretag. Produktsajten är tyovuorolista.fi och appen finns på app.tyovuorolista.fi. Tjänsten tillhandahålls av True Solutions Oy (FO-nummer 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tammerfors, Finland. Kontakt: info@tyovuorolista.fi, +358 45 679 8818.",
+            "photoPlaceholder": "Bild kommer snart",
+            "people": [
+                {
+                    "id": "antti",
+                    "name": "Antti Tuomola",
+                    "role": "Grundare, produkt",
+                    "initials": "AT",
+                    "photo": "/about/antti-tuomola.webp",
+                    "photoAlt": "Antti Tuomola",
+                    "paragraphs": [
+                        "Jag är Antti Tuomola. Jag har över 15 års erfarenhet från restaurangbranschen som anställd, chef och företagare. Jag har jobbat i kvarterskrogar och Michelin-restauranger, drivit herrgårdsrestauranger och food truck. Vad jag än har gjort har jag alltid gjort arbetsscheman. Ibland i Excel, ibland med särskilda program. Jag har aldrig varit helt nöjd. Därför tyovuorolista.fi.",
+                        "Nu jobbar jag som mjukvaruutvecklare på ett stort finskt IT-konsultbolag, bland annat för ministerier och andra stora kunder. Jag bygger tyovuorolista.fi på True Solutions Oy tillsammans med Eemeli.",
+                        "Jag bor i Tammerfors. Man kan ringa eller skriva till mig."
+                    ],
+                    "links": [
+                        {
+                            "label": "anttituomola.fi",
+                            "href": "https://anttituomola.fi"
+                        },
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/antti-tuomola/"
+                        },
+                        {
+                            "label": "+358 45 679 8818",
+                            "href": "tel:+358456798818"
+                        }
+                    ]
+                },
+                {
+                    "id": "eemeli",
+                    "name": "Eemeli Raninen",
+                    "role": "Grundare, kunder",
+                    "initials": "ER",
+                    "photo": "/about/eemeli-raninen.webp",
+                    "photoAlt": "Eemeli Raninen",
+                    "paragraphs": [
+                        "Jag är Eemeli Raninen, den andra grundaren av tyovuorolista.fi, och jag sköter kunder och försäljning. Jag började jobba för Antti på Jollas herrgård 2021, och efter några omvägar grundade vi True Solutions Oy 2024.",
+                        "Samtidigt studerar jag International Management och CEMS vid Aalto-universitetets handelshögskola. Vid sidan av Työvuorolista har jag tidigare arbetat med kommunikation och marknadsföring, bland annat på visitsauna.com och Aalto-universitetet.",
+                        "Just nu arbetar jag på hållbarhetsavdelningen på ett internationellt kemiföretag i Tyskland."
+                    ],
+                    "links": [
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/eemeli-raninen/"
+                        },
+                        {
+                            "label": "+358 45 126 4460",
+                            "href": "tel:+358451264460"
+                        }
+                    ]
+                }
+            ]
+        },
+        "contact": {
+            "title": "Tyovuorolista.fi kontaktinformation",
+            "company": "True Solutions Oy / tyovuorolista.fi",
+            "businessId": "Organisationsnummer: 3431534-2",
+            "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+            "sales": "Försäljning:",
+            "info": "info@tyovuorolista.fi"
+        },
+        "terms": {
+            "title": "Användarvillkor, integritetspolicy och återbetalningspolicy"
+        }
     },
-    "terms": {
-      "title": "Användarvillkor, integritetspolicy och återbetalningspolicy"
+    "common": {
+        "tryFree": "Prova Työvuorolista gratis"
+    },
+    "notAvailable": {
+        "title": "Innehåll inte tillgängligt",
+        "heading": "Detta innehåll är ännu inte översatt",
+        "description": "Tyvärr är denna sida ännu inte tillgänglig på svenska. Du kan gå tillbaka till startsidan eller byta språk.",
+        "backToHome": "Tillbaka till startsidan"
+    },
+    "notFound": {
+        "title": "Sidan hittades inte - 404",
+        "heading": "Sidan hittades inte",
+        "description": "Tyvärr kunde sidan du letar efter inte hittas. Den kan ha flyttats eller tagits bort.",
+        "backToHome": "Tillbaka till startsidan",
+        "usefulLinks": "Användbara länkar",
+        "sitemap": "Webbplatskarta",
+        "llms": "llms.txt (index för agenter)",
+        "agentInstructions": "Agentinstruktioner",
+        "about": "Om oss",
+        "contact": "Kontakt",
+        "privacy": "Integritetspolicy"
     }
-  },
-  "common": {
-    "tryFree": "Prova Työvuorolista gratis"
-  },
-  "notAvailable": {
-    "title": "Innehåll inte tillgängligt",
-    "heading": "Detta innehåll är ännu inte översatt",
-    "description": "Tyvärr är denna sida ännu inte tillgänglig på svenska. Du kan gå tillbaka till startsidan eller byta språk.",
-    "backToHome": "Tillbaka till startsidan"
-  },
-  "notFound": {
-    "title": "Sidan hittades inte - 404",
-    "heading": "Sidan hittades inte",
-    "description": "Tyvärr kunde sidan du letar efter inte hittas. Den kan ha flyttats eller tagits bort.",
-    "backToHome": "Tillbaka till startsidan",
-    "usefulLinks": "Användbara länkar",
-    "sitemap": "Webbplatskarta",
-    "llms": "llms.txt (index för agenter)",
-    "agentInstructions": "Agentinstruktioner",
-    "about": "Om oss",
-    "contact": "Kontakt",
-    "privacy": "Integritetspolicy"
-  }
 }

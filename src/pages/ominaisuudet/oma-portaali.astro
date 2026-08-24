@@ -1,11 +1,12 @@
 ---
 import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+import OmaPortalEntry from '../../components/common/OmaPortalEntry.astro'
 ---
 
 <FeatureDetail
     featureId="oma-portaali"
-    metaTitle="Oma-portaali työntekijöille | Työvuorolista"
-    metaDescription="Työntekijän oma näkymä: omat vuorot, vapaatoiveet ja toteutuneiden tuntien ilmoittaminen suoraan puhelimesta. Ei asennettavaa sovellusta."
+    metaTitle="Oma-portaali | Työvuorolista"
+    metaDescription="Oma-portaali on työntekijän näkymä omiin vuoroihin, vapaatoiveisiin ja tunteihin. Kirjaudu osoitteessa app.tyovuorolista.fi/oma."
     title="Oma-portaali: työntekijän vuorot, toiveet ja tunnit yhdessä paikassa"
     lead="Oma-portaali on työntekijän oma näkymä selaimessa: omat vuorot aina ajan tasalla, vapaatoiveen jättäminen ja toteutuneiden tuntien ilmoittaminen puhelimella, ilman asennettavaa sovellusta."
     heroImage="/blogPostImages/oma-portaali/tyontekija-vuorot.png"
@@ -47,4 +48,6 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
         },
     ]}
     related={['avoimet-vuorot', 'hours-recording', 'email-publish']}
-/>
+>
+    <OmaPortalEntry slot="afterHero" />
+</FeatureDetail>

@@ -70,6 +70,7 @@ const relatedIds =
 ---
 
 <Layout title={metaTitle} description={metaDescription}>
+    <slot name="head" slot="head" />
     <article class="tyov-featureDetail">
         <section class="tyov-featureDetail__hero">
             <div class="tyov-featureDetail__heroInner">
@@ -87,19 +88,25 @@ const relatedIds =
                             <span>{betaNote}</span>
                         </p>
                     )}
-                    <div class="tyov-featureDetail__ctaRow">
-                        <Button
-                            variant="primary"
-                            text={t('pages.features.cta', locale)}
-                            locale={locale}
-                        />
-                        <a href="/hinnoittelu" class="tyov-featureDetail__secondaryLink">
-                            {t('pages.features.ctaSecondary', locale)}
-                        </a>
-                    </div>
-                    <p class="tyov-featureDetail__ctaNote">
-                        {t('pages.features.ctaNote', locale)}
-                    </p>
+                    {Astro.slots.has('heroCta') ? (
+                        <slot name="heroCta" />
+                    ) : (
+                        <>
+                            <div class="tyov-featureDetail__ctaRow">
+                                <Button
+                                    variant="primary"
+                                    text={t('pages.features.cta', locale)}
+                                    locale={locale}
+                                />
+                                <a href="/hinnoittelu" class="tyov-featureDetail__secondaryLink">
+                                    {t('pages.features.ctaSecondary', locale)}
+                                </a>
+                            </div>
+                            <p class="tyov-featureDetail__ctaNote">
+                                {t('pages.features.ctaNote', locale)}
+                            </p>
+                        </>
+                    )}
                 </div>
                 <div
                     class:list={[
@@ -127,6 +134,8 @@ const relatedIds =
                 </div>
             </div>
         </section>
+
+        <slot name="afterHero" />
 
         {benefits.length > 0 && (
             <section class="tyov-featureDetail__benefits">
@@ -194,6 +203,8 @@ const relatedIds =
             </section>
         ))}
 
+        <slot name="beforeCta" />
+
         <section class="tyov-featureDetail__ctaBand">
             <div class="tyov-featureDetail__inner tyov-featureDetail__ctaBandInner">
                 <h2 class="tyov-featureDetail__ctaTitle">
@@ -213,6 +224,7 @@ const relatedIds =
                             {t('pages.features.readGuide', locale)}
                         </a>
                     )}
+                    <slot name="ctaExtra" />
                 </div>
             </div>
         </section>

@@ -5,6 +5,9 @@ const title = translations.title ?? 'Haluan kysyä lisää!'
 const description =
 	translations.description ??
 	'Soita tai lähetä WhatsApp-viesti, vastaan nopeasti.'
+const descriptionDesktop =
+	translations.descriptionDesktop ??
+	'Lähetä sähköposti tai WhatsApp-viesti, vastaan nopeasti.'
 const emailPlaceholder = translations.emailPlaceholder ?? 'Sähköpostiosoitteesi'
 const phonePlaceholder = translations.phonePlaceholder ?? 'Puhelinnumerosi'
 const submitLabel = translations.submit ?? 'Lähetä'
@@ -15,6 +18,9 @@ const errorTurnstileMessage = translations.errorTurnstile ?? ''
 const errorValidationMessage =
 	translations.errorValidation ?? 'Tarkista syöttämäsi tiedot.'
 const callLabel = translations.callAntti ?? 'Soita'
+const emailLabel = translations.emailAntti ?? 'Lähetä sähköposti'
+const emailSubject =
+	translations.emailSubject ?? 'Kysymys Työvuorolistasta'
 const whatsappLabel = translations.whatsappAntti ?? 'Lähetä WhatsApp-viesti'
 const whatsappPrefill =
 	translations.whatsappPrefill ??
@@ -26,7 +32,9 @@ const callbackHint =
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? ''
 
 const ANTTI_PHONE_TEL = '+358456798818'
+const ANTTI_EMAIL = 'info@tyovuorolista.fi'
 const ANTTI_WHATSAPP_NUMBER = '358456798818'
+const mailtoUrl = `mailto:${ANTTI_EMAIL}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(whatsappPrefill)}`
 const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappPrefill)}`
 ---
 
@@ -34,11 +42,15 @@ const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComp
   <div class="contact-form__panel">
     <div data-contact-form-panel>
       <h2 class="contact-form__title">{title}</h2>
-      <p class="contact-form__description">{description}</p>
+      <p class="contact-form__description contact-form__description--mobile">{description}</p>
+      <p class="contact-form__description contact-form__description--desktop">{descriptionDesktop}</p>
 
       <div class="contact-form__primary">
-        <a class="contact-form__primary-btn" href={`tel:${ANTTI_PHONE_TEL}`}>
+        <a class="contact-form__primary-btn contact-form__primary-btn--call" href={`tel:${ANTTI_PHONE_TEL}`}>
           {callLabel}
+        </a>
+        <a class="contact-form__primary-btn contact-form__primary-btn--email" href={mailtoUrl}>
+          {emailLabel}
         </a>
         <a
           class="contact-form__primary-btn"
@@ -378,6 +390,26 @@ const whatsappUrl = `https://wa.me/${ANTTI_WHATSAPP_NUMBER}?text=${encodeURIComp
   .contact-form__primary-btn:hover {
     background-color: var(--harmaa);
     color: #fff;
+  }
+
+  .contact-form__description--desktop,
+  .contact-form__primary-btn--email {
+    display: none;
+  }
+
+  @media (min-width: 769px) {
+    .contact-form__description--mobile,
+    .contact-form__primary-btn--call {
+      display: none;
+    }
+
+    .contact-form__description--desktop {
+      display: block;
+    }
+
+    .contact-form__primary-btn--email {
+      display: inline-flex;
+    }
   }
 
   .contact-form__callback {

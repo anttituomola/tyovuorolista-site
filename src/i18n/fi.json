@@ -1,662 +1,665 @@
 {
-  "nav": {
-    "features": "Ominaisuudet",
-    "resources": "Resurssit",
-    "blog": "Blogi",
-    "pricing": "Hinnoittelu",
-    "contact": "Yhteystiedot",
-    "login": "Kirjaudu",
-    "register": "Rekisteröidy",
-    "openMenu": "Avaa valikko",
-    "logoSubtitle": "Suomalainen työvuorosuunnittelu pk-yrityksille"
-  },
-  "cookieConsent": {
-    "message": "Käytämme evästeitä kävijämäärien mittaamiseen ja markkinointiin.",
-    "learnMore": "Lisätietoja",
-    "accept": "Hyväksy",
-    "decline": "Vain välttämättömät"
-  },
-  "footer": {
-    "copyright": "Työvuorolista | tyovuorolista.fi",
-    "links": {
-      "features": "Ominaisuudet",
-      "resources": "Resurssit",
-      "about": "Meistä",
-      "blog": "Blogi",
-      "contact": "Yhteystiedot",
-      "pricing": "Hinnoittelut",
-      "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt",
-      "privacy": "Tietosuojaseloste"
+    "nav": {
+        "features": "Ominaisuudet",
+        "resources": "Resurssit",
+        "blog": "Blogi",
+        "pricing": "Hinnoittelu",
+        "contact": "Yhteystiedot",
+        "login": "Kirjaudu",
+        "register": "Rekisteröidy",
+        "openMenu": "Avaa valikko",
+        "logoSubtitle": "Suomalainen työvuorosuunnittelu pk-yrityksille"
     },
-    "industrySolutions": "Toimialakohtaiset ratkaisut",
-    "industries": {
-      "restaurants": "Ravintolat ja kahvilat",
-      "retail": "Kaupan ala",
-      "care": "Hoivakodit ja palveluasuminen",
-      "taxi": "Taksiyritykset ja kuljetus",
-      "cleaning": "Siivous- ja kiinteistöpalvelut",
-      "hotels": "Hotellit ja majatalot",
-      "events": "Tapahtumat ja sesonkityö"
-    }
-  },
-  "hero": {
-    "title": "Pk-yrityksen työvuorolista nopeasti ja helposti",
-    "tagline": "Kaikki vuorosuunnitteluun tarvittava yhdessä sovelluksessa: TES-apuri, työntekijäportaali, sähköpostijulkaisu ja palkkaraportit.",
-    "subtitle": "Ensimmäinen lista valmiina ja työntekijöillä alle viidessä minuutissa.",
-    "tryDemo": "Kokeile demoa",
-    "or": "TAI"
-  },
-  "tesHighlight": {
-    "eyebrow": "TES-apuri (beta)",
-    "title": "Työehtosopimus mukana suunnittelussa",
-    "lead": "Sovellus varoittaa TES- ja työaikarikkomuksista jo listaa tehdessä.",
-    "bullet1": "Varoitukset suunnitellessa: lepoajat, vuoron pituudet, jakson tunnit",
-    "bullet2": "Tunnit valmiiksi palkkakategorioihin: lisät, ylityöt, sunnuntailisät",
-    "bullet3": "MaRa, Kaupan ala, KipaTES ja SOSTES: neljä sopimusta valmiina",
-    "boundary": "Varoitukset, saldonäkymät ja vuosivapaaseuranta kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin. Palkkaraportti TES-luokitteluineen on maksullisissa paketteissa.",
-    "secondaryCta": "Tutustu TES-apuriin"
-  },
-  "demoVideo": {
-    "title": "Työvuorolistan teko voi olla myös helppoa",
-    "description": "Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin kaikille työntekijöille lähetetään lista sähköpostilla.",
-    "step1": "Rekisteröidy",
-    "step2": "Tee työvuorolista",
-    "step3": "Julkaise"
-  },
-  "platformStats": {
-    "eyebrow": "Käytössä nyt",
-    "title": "Työvuorolista numeroina",
-    "activeCompanies": "yritystä suunnittelee vuoroja kuukausittain",
-    "shiftsPerWeek": "työvuoroa suunnitellaan viikottain",
-    "workersManaged": "työntekijän listat",
-    "totalShifts": "suunniteltua vuoroa"
-  },
-  "customerStory": {
-    "title": "Mitä asiakkaat sanovat",
-    "testimonials": [
-      {
-        "quote": "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!",
-        "author": "Laura Dahlman",
-        "company": "Ravintola Apaja, Tampere"
-      },
-      {
-        "quote": "Todella selkeä ja helppokäyttöinen paketti ravintolan työvuorojen suunnitteluun ja jakeluun.",
-        "quote2": "Jos vielä räpläät työvuoroja Excelillä tai ruutupaperilla, etkä halua maksaa kassikaupalla raskaista taloushallinnan ohjelmistopaketeista, niin nyt viimeistään kannattaa kokeilla Työvuorolistaa. Lämmin suositus.",
-        "author": "Rami Käkönen",
-        "company": "Ravintola Askaisten Holvi, Askainen"
-      },
-      {
-        "quote": "Työvuorolistojen tekemisestä on tullut todella helppo, tosiaan - ei mitään turhaa näpyttelyä! Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin. Jos apua on tarvittu, niin tuki ja neuvo on aina ollut nopeasti saatavilla!",
-        "author": "Anita Lindov",
-        "company": "Velj. Kitola Oy, Nousiainen"
-      }
-    ]
-  },
-  "register": {
-    "step1": {
-      "title": "Rekisteröidy",
-      "description": "Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen, emme muita tietoja.",
-      "steps": [
-        {
-          "title": "Nopea rekisteröityminen",
-          "description": "voit rekisteröityä sähköpostilla tai Google-tilillä."
-        },
-        {
-          "title": "Ei luottokorttia",
-          "description": "voit kokeilla ilmaiseksi kolmella työntekijällä."
-        },
-        {
-          "title": "Helpot alkuasetukset",
-          "description": "lisää vaikka vain itsesi työntekijäksi ja aloita!"
-        }
-      ]
+    "cookieConsent": {
+        "message": "Käytämme evästeitä kävijämäärien mittaamiseen ja markkinointiin.",
+        "learnMore": "Lisätietoja",
+        "accept": "Hyväksy",
+        "decline": "Vain välttämättömät"
     },
-    "step2": {
-      "title": "Suunnittele",
-      "description": "Tiimien ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi.",
-      "steps": [
-        {
-          "title": "Ei turhaa tietojen syöttöä",
-          "description": "sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta."
+    "footer": {
+        "copyright": "Työvuorolista | tyovuorolista.fi",
+        "links": {
+            "features": "Ominaisuudet",
+            "resources": "Resurssit",
+            "about": "Meistä",
+            "blog": "Blogi",
+            "contact": "Yhteystiedot",
+            "pricing": "Hinnoittelut",
+            "terms": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt",
+            "privacy": "Tietosuojaseloste"
         },
-        {
-          "title": "Ei turhaa näpyttelyä",
-          "description": "työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla."
-        },
-        {
-          "title": "Tarvittavat lisätiedot",
-          "description": "työvuoroihin voi helposti lisätä kommentteja, esim. \"myymälävastaava\"."
+        "industrySolutions": "Toimialakohtaiset ratkaisut",
+        "industries": {
+            "restaurants": "Ravintolat ja kahvilat",
+            "retail": "Kaupan ala",
+            "care": "Hoivakodit ja palveluasuminen",
+            "taxi": "Taksiyritykset ja kuljetus",
+            "cleaning": "Siivous- ja kiinteistöpalvelut",
+            "hotels": "Hotellit ja majatalot",
+            "events": "Tapahtumat ja sesonkityö"
         }
-      ]
     },
-    "step3": {
-      "title": "Hyväksytä",
-      "description": "Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua.",
-      "steps": [
-        {
-          "title": "Kopioi kuva työvuorolistasta",
-          "description": "voit liittää sen helposti vaikka whatsapp-viestiin."
-        },
-        {
-          "title": "Tallenna kuva työvuorolistasta",
-          "description": "voit liittää sen helposti sähköpostin liitetiedostoksi."
-        }
-      ]
+    "hero": {
+        "title": "Pk-yrityksen työvuorolista nopeasti ja helposti",
+        "tagline": "Kaikki vuorosuunnitteluun tarvittava yhdessä sovelluksessa: TES-apuri, työntekijäportaali, sähköpostijulkaisu ja palkkaraportit.",
+        "subtitle": "Ensimmäinen lista valmiina ja työntekijöillä alle viidessä minuutissa.",
+        "tryDemo": "Kokeile demoa",
+        "or": "TAI"
     },
-    "step4": {
-      "title": "Julkaise",
-      "description": "Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla.",
-      "steps": [
-        {
-          "title": "Automatisoitu lähetys",
-          "description": "kun julkaiset listan, se lähetetään automaattisesti kaikille työntekijöille, jotka ovat listalla."
-        },
-        {
-          "title": "Henkilökohtainen lista",
-          "description": "jokaiselle työntekijälle lähtee personoitu lista heidän omista työvuoroistaan."
-        }
-      ]
+    "tesHighlight": {
+        "eyebrow": "TES-apuri (beta)",
+        "title": "Työehtosopimus mukana suunnittelussa",
+        "lead": "Sovellus varoittaa TES- ja työaikarikkomuksista jo listaa tehdessä.",
+        "bullet1": "Varoitukset suunnitellessa: lepoajat, vuoron pituudet, jakson tunnit",
+        "bullet2": "Tunnit valmiiksi palkkakategorioihin: lisät, ylityöt, sunnuntailisät",
+        "bullet3": "MaRa, Kaupan ala, KipaTES ja SOSTES: neljä sopimusta valmiina",
+        "boundary": "Varoitukset, saldonäkymät ja vuosivapaaseuranta kuuluvat kaikkiin paketteihin, myös ilmaiseen Miniin. Palkkaraportti TES-luokitteluineen on maksullisissa paketteissa.",
+        "secondaryCta": "Tutustu TES-apuriin"
     },
-    "step5": {
-      "title": "Rajaton määrä tiimejä",
-      "description": "Jokaisella tiimillä on omat listansa ja asetuksensa, mutta voit jakaa työntekijöitä tiimien kesken.",
-      "steps": [
-        {
-          "title": "Omat asetukset",
-          "description": "joka tiimissä voi olla omat oletusajat ja vuoron pituudet."
-        },
-        {
-          "title": "Työntekijöiden jako",
-          "description": "työntekijät voivat olla useammassa tiimissä, mikä helpottaa monipaikkaisen yrityksen työvuorosuunnittelua."
-        },
-        {
-          "title": "Listojen julkaisu",
-          "description": "voit julkaista listoja tiimeittäin tai kaikki kerralla."
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "Usein kysytyt kysymykset",
-    "questions": {
-      "cost": {
-        "question": "Kuinka paljon tämä maksaa?",
-        "answer": "Hinnoittelu menee työntekijöiden määrän mukaan. Voit valita kuukausi- tai vuosilaskutuksen:",
-        "tiers": [
-          "maks. 3 työntekijää: 0 € / kk tai 0 € / vuosi",
-          "maks. 20 työntekijää: 18 € / kk tai 144 € / vuosi",
-          "maks. 50 työntekijää: 60 € / kk tai 504 € / vuosi",
-          "maks. 100 työntekijää: 180 € / kk tai 1440 € / vuosi"
-        ],
-        "yearlyNote": "Vuosilaskutus on edullisempi: maksat käytännössä 8 kuukauden hinnan ja saat 4 kuukautta mukaan (esim. Normi 18 € / kk tai 144 € / vuosi).",
-        "vat": "Kaikkiin hintoihin lisätään alv."
-      },
-      "trial": {
-        "question": "Voinko kokeilla maksamatta?",
-        "answer": "Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!"
-      },
-      "commitment": {
-        "question": "Kuinka pitkäksi aikaa pitää sitoutua?",
-        "answer": "Voit valita kuukausi- tai vuosilaskutuksen, ja voit koska tahansa lopettaa tilauksen. Ei pitkiä sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
-      },
-      "start": {
-        "question": "Koska voin aloittaa?",
-        "answer": "Rekisteröintiin ja alkuasetuksiin menee noin 3 minuuttia. Voit julkaista ensimmäisen työvuorolistasi vaikkapa vartin kuluttua."
-      },
-      "creator": {
-        "question": "Kuka tämä on tehnyt?",
-        "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
-      },
-      "difficulty": {
-        "question": "Onko tätä vaikea käyttää?",
-        "answer": "Koko sovellus on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorojen lisääminen tehdään raahaamalla työntekijän nimi oikeaan kohtaan."
-      },
-      "publish": {
-        "question": "Miten listojen julkaisu tapahtuu?",
-        "answer": "Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulostaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla."
-      },
-      "difference": {
-        "question": "Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?",
-        "answer": "Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:",
-        "points": [
-          "Hinnat ovat julkisesti näkyvillä: me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.",
-          "Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa. Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.",
-          "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
-          "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille. Keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
+    "demoVideo": {
+        "title": "Työvuorolistan teko voi olla myös helppoa",
+        "description": "Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin kaikille työntekijöille lähetetään lista sähköpostilla.",
+        "step1": "Rekisteröidy",
+        "step2": "Tee työvuorolista",
+        "step3": "Julkaise"
+    },
+    "platformStats": {
+        "eyebrow": "Käytössä nyt",
+        "title": "Työvuorolista numeroina",
+        "activeCompanies": "yritystä suunnittelee vuoroja kuukausittain",
+        "shiftsPerWeek": "työvuoroa suunnitellaan viikottain",
+        "workersManaged": "työntekijän listat",
+        "totalShifts": "suunniteltua vuoroa"
+    },
+    "customerStory": {
+        "title": "Mitä asiakkaat sanovat",
+        "testimonials": [
+            {
+                "quote": "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!",
+                "author": "Laura Dahlman",
+                "company": "Ravintola Apaja, Tampere"
+            },
+            {
+                "quote": "Todella selkeä ja helppokäyttöinen paketti ravintolan työvuorojen suunnitteluun ja jakeluun.",
+                "quote2": "Jos vielä räpläät työvuoroja Excelillä tai ruutupaperilla, etkä halua maksaa kassikaupalla raskaista taloushallinnan ohjelmistopaketeista, niin nyt viimeistään kannattaa kokeilla Työvuorolistaa. Lämmin suositus.",
+                "author": "Rami Käkönen",
+                "company": "Ravintola Askaisten Holvi, Askainen"
+            },
+            {
+                "quote": "Työvuorolistojen tekemisestä on tullut todella helppo, tosiaan - ei mitään turhaa näpyttelyä! Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin. Jos apua on tarvittu, niin tuki ja neuvo on aina ollut nopeasti saatavilla!",
+                "author": "Anita Lindov",
+                "company": "Velj. Kitola Oy, Nousiainen"
+            }
         ]
-      },
-      "tesCost": {
-        "question": "Mitä TES-apuri maksaa?",
-        "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ovat käytössä ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
-      },
-      "tesSupported": {
-        "question": "Mitkä työehtosopimukset ovat tuettuina?",
-        "answer": "Valmiina ovat MaRa, Kaupan alan TES, Kiinteistöpalvelualan TES (KipaTES) ja SOSTES. Jos tarvitset muuta sopimusta, kerro siitä (toivelista ohjaa kehitystä): info@tyovuorolista.fi."
-      }
-    }
-  },
-  "contactForm": {
-    "title": "Haluan kysyä lisää!",
-    "description": "Soita tai lähetä WhatsApp-viesti, vastaan nopeasti.",
-    "emailPlaceholder": "Sähköpostiosoitteesi",
-    "phonePlaceholder": "Puhelinnumerosi",
-    "or": "tai",
-    "submit": "Lähetä",
-    "success": "Kiitos! Olen sinuun yhteydessä pikaisesti!",
-    "error": "Lomakkeen lähetys epäonnistui. Yritä uudelleen.",
-    "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.",
-    "errorTurnstile": "Vahvistus epäonnistui. Yritä uudelleen.",
-    "errorValidation": "Tarkista syöttämäsi tiedot.",
-    "callAntti": "Soita",
-    "whatsappAntti": "Lähetä WhatsApp-viesti",
-    "whatsappPrefill": "Hei Antti! Haluaisin kuulla lisää Työvuorolistasta.",
-    "emailMe": "Sähköposti",
-    "callMe": "Soitto",
-    "callbackHint": "Tai jätä yhteystietosi, niin otan yhteyttä:"
-  },
-  "mobileDemo": {
-    "title": "Hallitse vuoroja myös mobiilissa",
-    "description": "Suunnittelijana voit käyttää Työvuorolistaa täysimittaisesti älypuhelimessa ja tabletilla: vuorojen suunnittelu, työntekijöiden hallinta, tuntien kirjaus ja listojen julkaisu.",
-    "features": [
-      "Päivänäkymä ja pikaluonti puhelimessa",
-      "Työntekijöiden hallinta",
-      "Toteutuneiden tuntien kirjaus",
-      "Julkaisu, Jaa ja PDF"
-    ],
-    "employeeNote": "Työntekijöiden ei tarvitse asentaa sovelluksia. He saavat oman listansa omasta web-portaalista sekä sähköpostitse.",
-    "moreInfo": "Puhelimessa suunnittelu on päivänäkymä: viikonauha, vuorokortit ja plus-painikkeen pikaluonti. Navigointi kulkee valikon kautta.",
-    "readMore": "Lue lisää mobiilista"
-  },
-  "blogPosts": {
-    "title": "Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta",
-    "viewAll": "Katso kaikki tekstit",
-    "published": "Julkaistu",
-    "tags": "Avainsanat:",
-    "blogPageTitle": "Tekstejä työvuorosuunnittelusta",
-    "hubIntro": "Etsitkö tiettyä ominaisuutta tai mallipohjaa? Aloita ",
-    "hubFeaturesLink": "ominaisuudet-sivulta",
-    "hubIntroMiddle": " tai ",
-    "hubResourcesLink": "resurssit-sivulta",
-    "hubIntroEnd": "."
-  },
-  "featureHighlights": {
-    "title": "Kaikki tärkeimmät ominaisuudet yhdessä paikassa",
-    "subtitle": "Työvuorosuunnittelu, julkaisu ja raportointi ilman turhaa monimutkaisuutta.",
-    "viewAll": "Katso kaikki ominaisuudet"
-  },
-  "howItWorks": {
-    "title": "Näin pääset alkuun",
-    "step1": {
-      "title": "Rekisteröidy",
-      "description": "Aloita ilmaiseksi kolmella työntekijällä. Rekisteröityminen vie minuutin."
     },
-    "step2": {
-      "title": "Suunnittele",
-      "description": "Raahaa työntekijät kalenteriin. Käytä mallipohjia ja toistuvia vuoroja säästääksesi aikaa."
+    "register": {
+        "step1": {
+            "title": "Rekisteröidy",
+            "description": "Voit rekisteröityä joko sähköpostilla tai Google-tililläsi. Tarvitsemme alkuun vain sähköpostiosoitteen, emme muita tietoja.",
+            "steps": [
+                {
+                    "title": "Nopea rekisteröityminen",
+                    "description": "voit rekisteröityä sähköpostilla tai Google-tilillä."
+                },
+                {
+                    "title": "Ei luottokorttia",
+                    "description": "voit kokeilla ilmaiseksi kolmella työntekijällä."
+                },
+                {
+                    "title": "Helpot alkuasetukset",
+                    "description": "lisää vaikka vain itsesi työntekijäksi ja aloita!"
+                }
+            ]
+        },
+        "step2": {
+            "title": "Suunnittele",
+            "description": "Tiimien ja työntekijöiden lisääminen vie muutaman minuutin. Pääset heti tekemään ensimmäistä työvuorolistaasi.",
+            "steps": [
+                {
+                    "title": "Ei turhaa tietojen syöttöä",
+                    "description": "sovellus kysyy vain tarvittavat tiedot, eli käytännössä nimen ja sähköpostin. Ei muuta."
+                },
+                {
+                    "title": "Ei turhaa näpyttelyä",
+                    "description": "työvuorot lisätään kalenteriin raahaamalla tekijä oikeaan kohtaan. Vuorojen pituutta ja sijaintia voi myös säätää raahaamalla."
+                },
+                {
+                    "title": "Tarvittavat lisätiedot",
+                    "description": "työvuoroihin voi helposti lisätä kommentteja, esim. \"myymälävastaava\"."
+                }
+            ]
+        },
+        "step3": {
+            "title": "Hyväksytä",
+            "description": "Jaa työvuorosuunnitelma vaivattomasti ja nopeasti haluamassasi kanavassa työntekijöiden kanssa ja pyydä kommentit ennen julkaisua.",
+            "steps": [
+                {
+                    "title": "Kopioi kuva työvuorolistasta",
+                    "description": "voit liittää sen helposti vaikka whatsapp-viestiin."
+                },
+                {
+                    "title": "Tallenna kuva työvuorolistasta",
+                    "description": "voit liittää sen helposti sähköpostin liitetiedostoksi."
+                }
+            ]
+        },
+        "step4": {
+            "title": "Julkaise",
+            "description": "Julkaise työvuorolista yhdellä klikkauksella ja lähetä se automaattisesti työntekijöille sähköpostilla.",
+            "steps": [
+                {
+                    "title": "Automatisoitu lähetys",
+                    "description": "kun julkaiset listan, se lähetetään automaattisesti kaikille työntekijöille, jotka ovat listalla."
+                },
+                {
+                    "title": "Henkilökohtainen lista",
+                    "description": "jokaiselle työntekijälle lähtee personoitu lista heidän omista työvuoroistaan."
+                }
+            ]
+        },
+        "step5": {
+            "title": "Rajaton määrä tiimejä",
+            "description": "Jokaisella tiimillä on omat listansa ja asetuksensa, mutta voit jakaa työntekijöitä tiimien kesken.",
+            "steps": [
+                {
+                    "title": "Omat asetukset",
+                    "description": "joka tiimissä voi olla omat oletusajat ja vuoron pituudet."
+                },
+                {
+                    "title": "Työntekijöiden jako",
+                    "description": "työntekijät voivat olla useammassa tiimissä, mikä helpottaa monipaikkaisen yrityksen työvuorosuunnittelua."
+                },
+                {
+                    "title": "Listojen julkaisu",
+                    "description": "voit julkaista listoja tiimeittäin tai kaikki kerralla."
+                }
+            ]
+        }
     },
-    "step3": {
-      "title": "Julkaise",
-      "description": "Lähetä henkilökohtaiset listat sähköpostilla yhdellä napilla."
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "questions": {
+            "cost": {
+                "question": "Kuinka paljon tämä maksaa?",
+                "answer": "Hinnoittelu menee työntekijöiden määrän mukaan. Voit valita kuukausi- tai vuosilaskutuksen:",
+                "tiers": [
+                    "maks. 3 työntekijää: 0 € / kk tai 0 € / vuosi",
+                    "maks. 20 työntekijää: 18 € / kk tai 144 € / vuosi",
+                    "maks. 50 työntekijää: 60 € / kk tai 504 € / vuosi",
+                    "maks. 100 työntekijää: 180 € / kk tai 1440 € / vuosi"
+                ],
+                "yearlyNote": "Vuosilaskutus on edullisempi: maksat käytännössä 8 kuukauden hinnan ja saat 4 kuukautta mukaan (esim. Normi 18 € / kk tai 144 € / vuosi).",
+                "vat": "Kaikkiin hintoihin lisätään alv."
+            },
+            "trial": {
+                "question": "Voinko kokeilla maksamatta?",
+                "answer": "Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!"
+            },
+            "commitment": {
+                "question": "Kuinka pitkäksi aikaa pitää sitoutua?",
+                "answer": "Voit valita kuukausi- tai vuosilaskutuksen, ja voit koska tahansa lopettaa tilauksen. Ei pitkiä sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
+            },
+            "start": {
+                "question": "Koska voin aloittaa?",
+                "answer": "Rekisteröintiin ja alkuasetuksiin menee noin 3 minuuttia. Voit julkaista ensimmäisen työvuorolistasi vaikkapa vartin kuluttua."
+            },
+            "creator": {
+                "question": "Kuka tämä on tehnyt?",
+                "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
+            },
+            "difficulty": {
+                "question": "Onko tätä vaikea käyttää?",
+                "answer": "Koko sovellus on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorojen lisääminen tehdään raahaamalla työntekijän nimi oikeaan kohtaan."
+            },
+            "publish": {
+                "question": "Miten listojen julkaisu tapahtuu?",
+                "answer": "Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulostaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla."
+            },
+            "difference": {
+                "question": "Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?",
+                "answer": "Työvuorolista eroaa muista alan toimijoista mm. näillä tavoilla:",
+                "points": [
+                    "Hinnat ovat julkisesti näkyvillä: me emme pyri kynyttämään yritykseltäsi maksimaalista hintaa, vaan julkaisemme kaikki hinnat avoimesti.",
+                    "Voit ottaa Työvuorolistan käyttöön nyt, viidessä minuutissa. Julkaista listan vartissa. Ei yhteydenottopyyntöjä, tarjouksia, demoja, vastatarjouksia ja muuta ajanhukkaa.",
+                    "Työvuorolista on niin yksinkertainen, että et tarvitse sen käyttöön koulutusta. Jos haluat, voimme käydä sen käytön yhdessä läpi, mutta minä myös luotan siihen, että osaat käyttää tätä ilman kädestäpitoa.",
+                    "Kevyt työntekijäkokemus: työntekijät saavat oman vuorolistansa sähköpostilla tai tulosteena. Ei pakollista enterprise-sovellusta työntekijöille. Keskitymme työvuorolistan tekoon, julkaisuun ja tuntien kirjaukseen."
+                ]
+            },
+            "tesCost": {
+                "question": "Mitä TES-apuri maksaa?",
+                "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ovat käytössä ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
+            },
+            "tesSupported": {
+                "question": "Mitkä työehtosopimukset ovat tuettuina?",
+                "answer": "Valmiina ovat MaRa, Kaupan alan TES, Kiinteistöpalvelualan TES (KipaTES) ja SOSTES. Jos tarvitset muuta sopimusta, kerro siitä (toivelista ohjaa kehitystä): info@tyovuorolista.fi."
+            }
+        }
     },
-    "featuresLink": "Tutustu kaikkiin ominaisuuksiin"
-  },
-  "contactCta": {
-    "title": "Haluatko kysyä lisää?",
-    "description": "Olemme sinuun yhteydessä nopeasti. Jätä viesti yhteystiedot-sivulla.",
-    "button": "Siirry yhteystietoihin"
-  },
-  "features": {
-    "readMore": "Lue lisää",
-    "blogLanguageNote": "Sivu suomeksi",
-    "betaBadge": "Uusi",
-    "categories": {
-      "planning": "Suunnittelu",
-      "publishing": "Julkaisu",
-      "workers": "Työntekijöille",
-      "reporting": "Tunnit ja raportointi",
-      "teams": "Tiimit"
+    "contactForm": {
+        "title": "Haluan kysyä lisää!",
+        "description": "Soita tai lähetä WhatsApp-viesti, vastaan nopeasti.",
+        "descriptionDesktop": "Lähetä sähköposti tai WhatsApp-viesti, vastaan nopeasti.",
+        "emailPlaceholder": "Sähköpostiosoitteesi",
+        "phonePlaceholder": "Puhelinnumerosi",
+        "or": "tai",
+        "submit": "Lähetä",
+        "success": "Kiitos! Olen sinuun yhteydessä pikaisesti!",
+        "error": "Lomakkeen lähetys epäonnistui. Yritä uudelleen.",
+        "errorNetwork": "Lomakkeen lähetys epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.",
+        "errorTurnstile": "Vahvistus epäonnistui. Yritä uudelleen.",
+        "errorValidation": "Tarkista syöttämäsi tiedot.",
+        "callAntti": "Soita",
+        "emailAntti": "Lähetä sähköposti",
+        "emailSubject": "Kysymys Työvuorolistasta",
+        "whatsappAntti": "Lähetä WhatsApp-viesti",
+        "whatsappPrefill": "Hei Antti! Haluaisin kuulla lisää Työvuorolistasta.",
+        "emailMe": "Sähköposti",
+        "callMe": "Soitto",
+        "callbackHint": "Tai jätä yhteystietosi, niin otan yhteyttä:"
     },
-    "categoryDescriptions": {
-      "planning": "Työvuorolista syntyy raahaamalla, ja toistuvat vuorot, mallipohjat ja monivalinta hoitavat rutiinit puolestasi.",
-      "publishing": "Kun lista on valmis, jokainen työntekijä saa oman listansa sähköpostiin yhdellä napin painalluksella.",
-      "workers": "Työntekijä näkee vuoronsa, ilmoittaa tuntinsa ja nappaa avoimia vuoroja omasta portaalistaan.",
-      "reporting": "Toteutuneet tunnit kirjataan sovellukseen ja siirtyvät valmiina raporttina palkanlaskentaan.",
-      "teams": "Sali, keittiö, kaksi toimipistettä? Jokaisella tiimillä on omat listansa, ja työntekijöitä voi jakaa tiimien kesken."
+    "mobileDemo": {
+        "title": "Hallitse vuoroja myös mobiilissa",
+        "description": "Suunnittelijana voit käyttää Työvuorolistaa täysimittaisesti älypuhelimessa ja tabletilla: vuorojen suunnittelu, työntekijöiden hallinta, tuntien kirjaus ja listojen julkaisu.",
+        "features": [
+            "Päivänäkymä ja pikaluonti puhelimessa",
+            "Työntekijöiden hallinta",
+            "Toteutuneiden tuntien kirjaus",
+            "Julkaisu, Jaa ja PDF"
+        ],
+        "employeeNote": "Työntekijöiden ei tarvitse asentaa sovelluksia. He saavat oman listansa omasta web-portaalista sekä sähköpostitse.",
+        "moreInfo": "Puhelimessa suunnittelu on päivänäkymä: viikonauha, vuorokortit ja plus-painikkeen pikaluonti. Navigointi kulkee valikon kautta.",
+        "readMore": "Lue lisää mobiilista"
     },
-    "items": {
-      "tes-apuri": {
-        "title": "TES-apuri",
-        "shortDescription": "Sovellus tarkistaa vuorot työehtosopimusta ja työaikalakia vasten jo suunnitteluvaiheessa."
-      },
-      "oma-portaali": {
-        "title": "Oma-portaali",
-        "shortDescription": "Työntekijän oma näkymä: vuorot, vapaatoiveet ja tunti-ilmoitukset puhelimella."
-      },
-      "avoimet-vuorot": {
-        "title": "Avoimet vuorot",
-        "shortDescription": "Julkaise vuoro ilman tekijää. Työntekijät ilmoittautuvat ja sinä valitset."
-      },
-      "recurring-shifts": {
-        "title": "Toistuvat työvuorot",
-        "shortDescription": "Luo toistuvia vuoroja kerran ja kopioi ne usealle viikolle."
-      },
-      "templates": {
-        "title": "Mallipohjat",
-        "shortDescription": "Tallenna valmiit viikot pohjaksi ja käytä niitä uudelleen."
-      },
-      "multi-select": {
-        "title": "Monivalinta",
-        "shortDescription": "Valitse ja muokkaa useita vuoroja kerralla."
-      },
-      "resource-scheduling": {
-        "title": "Resurssien aikataulutus",
-        "shortDescription": "Aikatauluta resursseja, kuten ajoneuvoja tai tiloja, vuorojen rinnalle."
-      },
-      "day-notes": {
-        "title": "Päiväkohtaiset muistiinpanot",
-        "shortDescription": "Merkitse koko päivän tapahtumat ja huomiot kalenteriin."
-      },
-      "email-publish": {
-        "title": "Julkaisu sähköpostilla",
-        "shortDescription": "Lähetä henkilökohtaiset vuorolistat työntekijöille automaattisesti."
-      },
-      "email-preview": {
-        "title": "Sähköpostin esikatselu",
-        "shortDescription": "Tarkista viesti ennen lähetystä."
-      },
-      "personal-print": {
-        "title": "Henkilökohtaiset tulosteet",
-        "shortDescription": "Tulosta tai jaa yksittäisten työntekijöiden listoja."
-      },
-      "vacation-planning": {
-        "title": "Lomasuunnittelu",
-        "shortDescription": "Hallitse lomia ja lomapyyntöjä vuorolistassa."
-      },
-      "hours-recording": {
-        "title": "Tuntien kirjaus",
-        "shortDescription": "Kirjaa toteutuneet tunnit ja vertaa suunnitelmaan."
-      },
-      "payroll-report": {
-        "title": "Palkkaraportti",
-        "shortDescription": "Vie tunnit palkanlaskentaan valmiista raportista."
-      },
-      "teams": {
-        "title": "Tiimit ja jaetut työntekijät",
-        "shortDescription": "Hallitse useita tiimejä ja jaa työntekijöitä niiden välillä."
-      },
-      "mobile-manager": {
-        "title": "Mobiili suunnittelijalle",
-        "shortDescription": "Päivänäkymä, pikaluonti ja julkaisu suoraan puhelimesta."
-      }
-    }
-  },
-  "resources": {
-    "readMore": "Avaa",
-    "blogLanguageNote": "Artikkeli suomeksi",
-    "sections": {
-      "templates": "Mallipohjat ja tulostettavat listat",
-      "guides": "Oppaat",
-      "reference": "Lainsäädäntö ja käytännöt"
+    "blogPosts": {
+        "title": "Uusimmat tekstit astetta helpommasta työvuorosuunnittelusta",
+        "viewAll": "Katso kaikki tekstit",
+        "published": "Julkaistu",
+        "tags": "Avainsanat:",
+        "blogPageTitle": "Tekstejä työvuorosuunnittelusta",
+        "hubIntro": "Etsitkö tiettyä ominaisuutta tai mallipohjaa? Aloita ",
+        "hubFeaturesLink": "ominaisuudet-sivulta",
+        "hubIntroMiddle": " tai ",
+        "hubResourcesLink": "resurssit-sivulta",
+        "hubIntroEnd": "."
     },
-    "items": {
-      "pohja-tool": {
-        "title": "Työvuorolista-pohja selaimessa",
-        "shortDescription": "Täytä kolmen viikon työvuorolista suoraan selaimessa ja tulosta."
-      },
-      "pohja-printable": {
-        "title": "Tulostettava pohja",
-        "shortDescription": "Valmiiksi muotoiltu pohja tulostettavaksi listaksi."
-      },
-      "pohja-oo": {
-        "title": "OpenOffice-pohja",
-        "shortDescription": "Lataa ilmainen taulukkopohja OpenOfficelle."
-      },
-      "pohja-pdf": {
-        "title": "PDF-pohja sovelluksesta",
-        "shortDescription": "Luo ja jaa PDF-työvuorolista suoraan palvelusta."
-      },
-      "getting-started": {
+    "featureHighlights": {
+        "title": "Kaikki tärkeimmät ominaisuudet yhdessä paikassa",
+        "subtitle": "Työvuorosuunnittelu, julkaisu ja raportointi ilman turhaa monimutkaisuutta.",
+        "viewAll": "Katso kaikki ominaisuudet"
+    },
+    "howItWorks": {
         "title": "Näin pääset alkuun",
-        "shortDescription": "Vaiheittainen opas ensimmäisen listan tekoon."
-      },
-      "hours-guide": {
-        "title": "Tuntien kirjaus -opas",
-        "shortDescription": "Ohje toteutuneiden tuntien kirjaamiseen."
-      },
-      "scheduling-software": {
-        "title": "Työvuorosuunnitteluohjelma",
-        "shortDescription": "Yleisopas työvuorosuunnitteluun ja ohjelmavalintaan."
-      },
-      "shift-length-and-rest": {
-        "title": "Työvuoron pituus ja lepoajat ravintola-alalla",
-        "shortDescription": "Minimi- ja maksimipituus, vuorokausilepo ja tauot."
-      },
-      "shift-abbreviations": {
-        "title": "Työvuorolistan lyhenteet",
-        "shortDescription": "Mitä X, V, TS ja VV tarkoittavat listassa?"
-      },
-      "v-day-meaning": {
-        "title": "Mitä tarkoittaa V-päivä?",
-        "shortDescription": "V-päivän merkitys ja käyttö työvuorolistassa."
-      },
-      "x-v-marking": {
-        "title": "X- ja V-päivien merkintä",
-        "shortDescription": "Miten vapaapäivät merkitään kalenterissa."
-      },
-      "annual-leave-marking": {
-        "title": "Vuosiloman merkintä",
-        "shortDescription": "Vuosilomat ja palkattomat vapaat listaan."
-      },
-      "tracked-missing-hours": {
-        "title": "Merkatut ja puuttuvat tunnit",
-        "shortDescription": "Miten sovellus laskee toteutuneet ja puuttuvat tunnit."
-      }
-    }
-  },
-  "pages": {
+        "step1": {
+            "title": "Rekisteröidy",
+            "description": "Aloita ilmaiseksi kolmella työntekijällä. Rekisteröityminen vie minuutin."
+        },
+        "step2": {
+            "title": "Suunnittele",
+            "description": "Raahaa työntekijät kalenteriin. Käytä mallipohjia ja toistuvia vuoroja säästääksesi aikaa."
+        },
+        "step3": {
+            "title": "Julkaise",
+            "description": "Lähetä henkilökohtaiset listat sähköpostilla yhdellä napilla."
+        },
+        "featuresLink": "Tutustu kaikkiin ominaisuuksiin"
+    },
+    "contactCta": {
+        "title": "Haluatko kysyä lisää?",
+        "description": "Olemme sinuun yhteydessä nopeasti. Jätä viesti yhteystiedot-sivulla.",
+        "button": "Siirry yhteystietoihin"
+    },
     "features": {
-      "title": "Ominaisuudet",
-      "eyebrow": "Ominaisuudet",
-      "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
-      "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Työkalut, joita pk-yritys käyttää joka viikko.",
-      "heroImageAlt": "Työvuorolistan kalenterinäkymä, jossa viikon työvuorot väreittäin työntekijöille",
-      "cta": "Kokeile ilmaiseksi",
-      "ctaSecondary": "Katso hinnoittelu",
-      "ctaNote": "Ilmainen kolmella työntekijällä. Ei luottokorttia.",
-      "detailCtaTitle": "Kokeile itse: lista valmiina vartissa",
-      "detailCtaText": "Rekisteröityminen vie minuutin, eikä alle neljän työntekijän käyttö maksa mitään.",
-      "readGuide": "Lue käyttöohje blogista",
-      "relatedTitle": "Katso myös nämä ominaisuudet",
-      "backToFeatures": "Kaikki ominaisuudet"
+        "readMore": "Lue lisää",
+        "blogLanguageNote": "Sivu suomeksi",
+        "betaBadge": "Uusi",
+        "categories": {
+            "planning": "Suunnittelu",
+            "publishing": "Julkaisu",
+            "workers": "Työntekijöille",
+            "reporting": "Tunnit ja raportointi",
+            "teams": "Tiimit"
+        },
+        "categoryDescriptions": {
+            "planning": "Työvuorolista syntyy raahaamalla, ja toistuvat vuorot, mallipohjat ja monivalinta hoitavat rutiinit puolestasi.",
+            "publishing": "Kun lista on valmis, jokainen työntekijä saa oman listansa sähköpostiin yhdellä napin painalluksella.",
+            "workers": "Työntekijä näkee vuoronsa, ilmoittaa tuntinsa ja nappaa avoimia vuoroja omasta portaalistaan.",
+            "reporting": "Toteutuneet tunnit kirjataan sovellukseen ja siirtyvät valmiina raporttina palkanlaskentaan.",
+            "teams": "Sali, keittiö, kaksi toimipistettä? Jokaisella tiimillä on omat listansa, ja työntekijöitä voi jakaa tiimien kesken."
+        },
+        "items": {
+            "tes-apuri": {
+                "title": "TES-apuri",
+                "shortDescription": "Sovellus tarkistaa vuorot työehtosopimusta ja työaikalakia vasten jo suunnitteluvaiheessa."
+            },
+            "oma-portaali": {
+                "title": "Oma-portaali",
+                "shortDescription": "Työntekijän oma näkymä: vuorot, vapaatoiveet ja tunti-ilmoitukset puhelimella."
+            },
+            "avoimet-vuorot": {
+                "title": "Avoimet vuorot",
+                "shortDescription": "Julkaise vuoro ilman tekijää. Työntekijät ilmoittautuvat ja sinä valitset."
+            },
+            "recurring-shifts": {
+                "title": "Toistuvat työvuorot",
+                "shortDescription": "Luo toistuvia vuoroja kerran ja kopioi ne usealle viikolle."
+            },
+            "templates": {
+                "title": "Mallipohjat",
+                "shortDescription": "Tallenna valmiit viikot pohjaksi ja käytä niitä uudelleen."
+            },
+            "multi-select": {
+                "title": "Monivalinta",
+                "shortDescription": "Valitse ja muokkaa useita vuoroja kerralla."
+            },
+            "resource-scheduling": {
+                "title": "Resurssien aikataulutus",
+                "shortDescription": "Aikatauluta resursseja, kuten ajoneuvoja tai tiloja, vuorojen rinnalle."
+            },
+            "day-notes": {
+                "title": "Päiväkohtaiset muistiinpanot",
+                "shortDescription": "Merkitse koko päivän tapahtumat ja huomiot kalenteriin."
+            },
+            "email-publish": {
+                "title": "Julkaisu sähköpostilla",
+                "shortDescription": "Lähetä henkilökohtaiset vuorolistat työntekijöille automaattisesti."
+            },
+            "email-preview": {
+                "title": "Sähköpostin esikatselu",
+                "shortDescription": "Tarkista viesti ennen lähetystä."
+            },
+            "personal-print": {
+                "title": "Henkilökohtaiset tulosteet",
+                "shortDescription": "Tulosta tai jaa yksittäisten työntekijöiden listoja."
+            },
+            "vacation-planning": {
+                "title": "Lomasuunnittelu",
+                "shortDescription": "Hallitse lomia ja lomapyyntöjä vuorolistassa."
+            },
+            "hours-recording": {
+                "title": "Tuntien kirjaus",
+                "shortDescription": "Kirjaa toteutuneet tunnit ja vertaa suunnitelmaan."
+            },
+            "payroll-report": {
+                "title": "Palkkaraportti",
+                "shortDescription": "Vie tunnit palkanlaskentaan valmiista raportista."
+            },
+            "teams": {
+                "title": "Tiimit ja jaetut työntekijät",
+                "shortDescription": "Hallitse useita tiimejä ja jaa työntekijöitä niiden välillä."
+            },
+            "mobile-manager": {
+                "title": "Mobiili suunnittelijalle",
+                "shortDescription": "Päivänäkymä, pikaluonti ja julkaisu suoraan puhelimesta."
+            }
+        }
     },
     "resources": {
-      "title": "Resurssit",
-      "subtitle": "Mallipohjat, oppaat ja hyödylliset artikkelit työvuorosuunnitteluun.",
-      "cta": "Kokeile ilmaiseksi"
-    },
-    "pricing": {
-      "title": "Hinnoittelu per tili",
-      "subtitle": "Valitse tilillesi sopiva paketti. Hinta koskee koko tiliä, ei yksittäisiä työntekijöitä, ja samalla tilillä voit hallita useita toimipisteitä.",
-      "priceNote": "Hinta on per tili, ei per työntekijä.",
-      "taxNote": "Laskuun lisätään alv.",
-      "toggleLabel": "Valitse laskutustapa",
-      "monthlyLabel": "Kuukausimaksu",
-      "yearlyLabel": "Vuosilaskutus",
-      "monthlyPeriod": "/ kk",
-      "yearlyPeriod": "/ vuosi",
-      "monthlyMessage": "Vaihda vuosilaskutukseen ja säästä jopa 4 kuukautta verrattuna kuukausihintaan.",
-      "yearlyBadge": "4 kk ilmaiseksi",
-      "featureUnavailable": "Ei sisälly",
-      "tiers": {
-        "tier1": {
-          "title": "Mini",
-          "limit": "Enintään 3 työntekijää",
-          "monthlyPrice": "0 €",
-          "yearlyPrice": "0 €",
-          "pricingUnit": "Per tili",
-          "features": [
-            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            { "text": "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset", "included": false },
-            { "text": "Avoimet vuorot", "included": false },
-            { "text": "Palkkaraportti TES-luokitteluineen", "included": false },
-            { "text": "Sähköposti-ilmoitukset työntekijöille", "included": false },
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
-            "Mobiiliystävällinen käyttöliittymä",
-            "Asiakastuki"
-          ]
+        "readMore": "Avaa",
+        "blogLanguageNote": "Artikkeli suomeksi",
+        "sections": {
+            "templates": "Mallipohjat ja tulostettavat listat",
+            "guides": "Oppaat",
+            "reference": "Lainsäädäntö ja käytännöt"
         },
-        "tier2": {
-          "title": "Normi",
-          "limit": "Enintään 20 työntekijää",
-          "monthlyPrice": "18 €",
-          "yearlyPrice": "144 €",
-          "pricingUnit": "Per tili",
-          "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
-          "features": [
-            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
-            "Avoimet vuorot",
-            "Palkkaraportti TES-luokitteluineen",
-            "Sähköposti-ilmoitukset työntekijöille",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
-            "Mobiiliystävällinen käyttöliittymä",
-            "Asiakastuki"
-          ]
-        },
-        "tier3": {
-          "title": "Iso",
-          "limit": "Enintään 50 työntekijää",
-          "monthlyPrice": "60 €",
-          "yearlyPrice": "504 €",
-          "pricingUnit": "Per tili",
-          "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
-          "features": [
-            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
-            "Avoimet vuorot",
-            "Palkkaraportti TES-luokitteluineen",
-            "Sähköposti-ilmoitukset työntekijöille",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
-            "Mobiiliystävällinen käyttöliittymä",
-            "Asiakastuki"
-          ]
-        },
-        "tier4": {
-          "title": "Jätti",
-          "limit": "Enintään 100 työntekijää",
-          "monthlyPrice": "180 €",
-          "yearlyPrice": "1440 €",
-          "pricingUnit": "Per tili",
-          "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
-          "features": [
-            "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-            "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
-            "Avoimet vuorot",
-            "Palkkaraportti TES-luokitteluineen",
-            "Sähköposti-ilmoitukset työntekijöille",
-            "Rajaton määrä työvuorolistoja",
-            "Rajaton määrä tiimejä",
-            "Mobiiliystävällinen käyttöliittymä",
-            "Asiakastuki"
-          ]
-        }
-      }
-    },
-    "about": {
-      "metaTitle": "Meistä | tyovuorolista.fi",
-      "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen.",
-      "title": "Meistä",
-      "subtitle": "Kaksi ihmistä tyovuorolista.fi:n takana.",
-      "company": "Työvuorolista on tamperelainen työvuorosuunnitteluohjelma ravintoloille, kahviloille, hotelleille, kaupoille ja muille vuorotyötä tekeville pk-yrityksille. Tuote on osoitteessa tyovuorolista.fi, sovellus osoitteessa app.tyovuorolista.fi. Palvelun tarjoaa True Solutions Oy (Y-tunnus 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere. Yhteys: info@tyovuorolista.fi, +358 45 679 8818.",
-      "photoPlaceholder": "Kuva tulossa",
-      "people": [
-        {
-          "id": "antti",
-          "name": "Antti Tuomola",
-          "role": "Perustaja, tuotekehitys",
-          "initials": "AT",
-          "photo": "/about/antti-tuomola.webp",
-          "photoAlt": "Antti Tuomola",
-          "paragraphs": [
-            "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä Excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tyovuorolista.fi.",
-            "Nykyisin teen ohjelmistokehitystä isossa suomalaisessa IT-konsulttitalossa, työskentelen mm. ministeriöille ja muille isoille asiakkuuksille. Rakennan tyovuorolista.fi:tä True Solutions Oy:ssä Eemelin kanssa.",
-            "Asun Tampereella. Minulle voi soittaa tai laittaa viestiä."
-          ],
-          "links": [
-            {
-              "label": "anttituomola.fi",
-              "href": "https://anttituomola.fi"
+        "items": {
+            "pohja-tool": {
+                "title": "Työvuorolista-pohja selaimessa",
+                "shortDescription": "Täytä kolmen viikon työvuorolista suoraan selaimessa ja tulosta."
             },
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/antti-tuomola/"
+            "pohja-printable": {
+                "title": "Tulostettava pohja",
+                "shortDescription": "Valmiiksi muotoiltu pohja tulostettavaksi listaksi."
             },
-            {
-              "label": "+358 45 679 8818",
-              "href": "tel:+358456798818"
+            "pohja-oo": {
+                "title": "OpenOffice-pohja",
+                "shortDescription": "Lataa ilmainen taulukkopohja OpenOfficelle."
+            },
+            "pohja-pdf": {
+                "title": "PDF-pohja sovelluksesta",
+                "shortDescription": "Luo ja jaa PDF-työvuorolista suoraan palvelusta."
+            },
+            "getting-started": {
+                "title": "Näin pääset alkuun",
+                "shortDescription": "Vaiheittainen opas ensimmäisen listan tekoon."
+            },
+            "hours-guide": {
+                "title": "Tuntien kirjaus -opas",
+                "shortDescription": "Ohje toteutuneiden tuntien kirjaamiseen."
+            },
+            "scheduling-software": {
+                "title": "Työvuorosuunnitteluohjelma",
+                "shortDescription": "Yleisopas työvuorosuunnitteluun ja ohjelmavalintaan."
+            },
+            "shift-length-and-rest": {
+                "title": "Työvuoron pituus ja lepoajat ravintola-alalla",
+                "shortDescription": "Minimi- ja maksimipituus, vuorokausilepo ja tauot."
+            },
+            "shift-abbreviations": {
+                "title": "Työvuorolistan lyhenteet",
+                "shortDescription": "Mitä X, V, TS ja VV tarkoittavat listassa?"
+            },
+            "v-day-meaning": {
+                "title": "Mitä tarkoittaa V-päivä?",
+                "shortDescription": "V-päivän merkitys ja käyttö työvuorolistassa."
+            },
+            "x-v-marking": {
+                "title": "X- ja V-päivien merkintä",
+                "shortDescription": "Miten vapaapäivät merkitään kalenterissa."
+            },
+            "annual-leave-marking": {
+                "title": "Vuosiloman merkintä",
+                "shortDescription": "Vuosilomat ja palkattomat vapaat listaan."
+            },
+            "tracked-missing-hours": {
+                "title": "Merkatut ja puuttuvat tunnit",
+                "shortDescription": "Miten sovellus laskee toteutuneet ja puuttuvat tunnit."
             }
-          ]
-        },
-        {
-          "id": "eemeli",
-          "name": "Eemeli Raninen",
-          "role": "Perustaja, asiakkuudet",
-          "initials": "ER",
-          "photo": "/about/eemeli-raninen.webp",
-          "photoAlt": "Eemeli Raninen",
-          "paragraphs": [
-            "Olen Eemeli Raninen, tyovuorolista.fi:n toinen perustaja, ja hoidan asiakkuuksia ja myyntiä. Aloitin Antilla töissä Jollaksen Kartanossa 2021, josta muutaman mutkan kautta päädyimme perustamaan True Solutions Oy:n 2024.",
-            "Samalla opiskelen Aalto-yliopiston kauppakorkeakoulussa International Management- ja CEMS-ohjelmissa. Tyovuorolistan ohella olen aiemmin työskennellyt viestinnän ja markkinoinnin parissa muun muassa visitsauna.comissa ja Aalto-yliopistossa.",
-            "Tällä hetkellä työskentelen kansainvälisen kemianteollisuuden yrityksen vastuullisuusosastolla Saksassa."
-          ],
-          "links": [
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/eemeli-raninen/"
-            },
-            {
-              "label": "+358 45 126 4460",
-              "href": "tel:+358451264460"
-            }
-          ]
         }
-      ]
     },
-    "contact": {
-      "title": "Tyovuorolista.fi yhteystiedot",
-      "company": "True Solutions Oy / tyovuorolista.fi",
-      "businessId": "Y-tunnus: 3431534-2",
-      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
-      "sales": "Myynti:",
-      "info": "info@tyovuorolista.fi"
+    "pages": {
+        "features": {
+            "title": "Ominaisuudet",
+            "eyebrow": "Ominaisuudet",
+            "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
+            "subtitle": "Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja vie tunnit palkanlaskentaan. Työkalut, joita pk-yritys käyttää joka viikko.",
+            "heroImageAlt": "Työvuorolistan kalenterinäkymä, jossa viikon työvuorot väreittäin työntekijöille",
+            "cta": "Kokeile ilmaiseksi",
+            "ctaSecondary": "Katso hinnoittelu",
+            "ctaNote": "Ilmainen kolmella työntekijällä. Ei luottokorttia.",
+            "detailCtaTitle": "Kokeile itse: lista valmiina vartissa",
+            "detailCtaText": "Rekisteröityminen vie minuutin, eikä alle neljän työntekijän käyttö maksa mitään.",
+            "readGuide": "Lue käyttöohje blogista",
+            "relatedTitle": "Katso myös nämä ominaisuudet",
+            "backToFeatures": "Kaikki ominaisuudet"
+        },
+        "resources": {
+            "title": "Resurssit",
+            "subtitle": "Mallipohjat, oppaat ja hyödylliset artikkelit työvuorosuunnitteluun.",
+            "cta": "Kokeile ilmaiseksi"
+        },
+        "pricing": {
+            "title": "Hinnoittelu per tili",
+            "subtitle": "Valitse tilillesi sopiva paketti. Hinta koskee koko tiliä, ei yksittäisiä työntekijöitä, ja samalla tilillä voit hallita useita toimipisteitä.",
+            "priceNote": "Hinta on per tili, ei per työntekijä.",
+            "taxNote": "Laskuun lisätään alv.",
+            "toggleLabel": "Valitse laskutustapa",
+            "monthlyLabel": "Kuukausimaksu",
+            "yearlyLabel": "Vuosilaskutus",
+            "monthlyPeriod": "/ kk",
+            "yearlyPeriod": "/ vuosi",
+            "monthlyMessage": "Vaihda vuosilaskutukseen ja säästä jopa 4 kuukautta verrattuna kuukausihintaan.",
+            "yearlyBadge": "4 kk ilmaiseksi",
+            "featureUnavailable": "Ei sisälly",
+            "tiers": {
+                "tier1": {
+                    "title": "Mini",
+                    "limit": "Enintään 3 työntekijää",
+                    "monthlyPrice": "0 €",
+                    "yearlyPrice": "0 €",
+                    "pricingUnit": "Per tili",
+                    "features": [
+                        "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
+                        { "text": "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset", "included": false },
+                        { "text": "Avoimet vuorot", "included": false },
+                        { "text": "Palkkaraportti TES-luokitteluineen", "included": false },
+                        { "text": "Sähköposti-ilmoitukset työntekijöille", "included": false },
+                        "Rajaton määrä työvuorolistoja",
+                        "Rajaton määrä tiimejä",
+                        "Mobiiliystävällinen käyttöliittymä",
+                        "Asiakastuki"
+                    ]
+                },
+                "tier2": {
+                    "title": "Normi",
+                    "limit": "Enintään 20 työntekijää",
+                    "monthlyPrice": "18 €",
+                    "yearlyPrice": "144 €",
+                    "pricingUnit": "Per tili",
+                    "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
+                    "features": [
+                        "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
+                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Avoimet vuorot",
+                        "Palkkaraportti TES-luokitteluineen",
+                        "Sähköposti-ilmoitukset työntekijöille",
+                        "Rajaton määrä työvuorolistoja",
+                        "Rajaton määrä tiimejä",
+                        "Mobiiliystävällinen käyttöliittymä",
+                        "Asiakastuki"
+                    ]
+                },
+                "tier3": {
+                    "title": "Iso",
+                    "limit": "Enintään 50 työntekijää",
+                    "monthlyPrice": "60 €",
+                    "yearlyPrice": "504 €",
+                    "pricingUnit": "Per tili",
+                    "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
+                    "features": [
+                        "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
+                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Avoimet vuorot",
+                        "Palkkaraportti TES-luokitteluineen",
+                        "Sähköposti-ilmoitukset työntekijöille",
+                        "Rajaton määrä työvuorolistoja",
+                        "Rajaton määrä tiimejä",
+                        "Mobiiliystävällinen käyttöliittymä",
+                        "Asiakastuki"
+                    ]
+                },
+                "tier4": {
+                    "title": "Jätti",
+                    "limit": "Enintään 100 työntekijää",
+                    "monthlyPrice": "180 €",
+                    "yearlyPrice": "1440 €",
+                    "pricingUnit": "Per tili",
+                    "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
+                    "features": [
+                        "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
+                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Avoimet vuorot",
+                        "Palkkaraportti TES-luokitteluineen",
+                        "Sähköposti-ilmoitukset työntekijöille",
+                        "Rajaton määrä työvuorolistoja",
+                        "Rajaton määrä tiimejä",
+                        "Mobiiliystävällinen käyttöliittymä",
+                        "Asiakastuki"
+                    ]
+                }
+            }
+        },
+        "about": {
+            "metaTitle": "Meistä | tyovuorolista.fi",
+            "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen.",
+            "title": "Meistä",
+            "subtitle": "Kaksi ihmistä tyovuorolista.fi:n takana.",
+            "company": "Työvuorolista on tamperelainen työvuorosuunnitteluohjelma ravintoloille, kahviloille, hotelleille, kaupoille ja muille vuorotyötä tekeville pk-yrityksille. Tuote on osoitteessa tyovuorolista.fi, sovellus osoitteessa app.tyovuorolista.fi. Palvelun tarjoaa True Solutions Oy (Y-tunnus 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere. Yhteys: info@tyovuorolista.fi, +358 45 679 8818.",
+            "photoPlaceholder": "Kuva tulossa",
+            "people": [
+                {
+                    "id": "antti",
+                    "name": "Antti Tuomola",
+                    "role": "Perustaja, tuotekehitys",
+                    "initials": "AT",
+                    "photo": "/about/antti-tuomola.webp",
+                    "photoAlt": "Antti Tuomola",
+                    "paragraphs": [
+                        "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esimiehenä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä Excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tyovuorolista.fi.",
+                        "Nykyisin teen ohjelmistokehitystä isossa suomalaisessa IT-konsulttitalossa, työskentelen mm. ministeriöille ja muille isoille asiakkuuksille. Rakennan tyovuorolista.fi:tä True Solutions Oy:ssä Eemelin kanssa.",
+                        "Asun Tampereella. Minulle voi soittaa tai laittaa viestiä."
+                    ],
+                    "links": [
+                        {
+                            "label": "anttituomola.fi",
+                            "href": "https://anttituomola.fi"
+                        },
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/antti-tuomola/"
+                        },
+                        {
+                            "label": "+358 45 679 8818",
+                            "href": "tel:+358456798818"
+                        }
+                    ]
+                },
+                {
+                    "id": "eemeli",
+                    "name": "Eemeli Raninen",
+                    "role": "Perustaja, asiakkuudet",
+                    "initials": "ER",
+                    "photo": "/about/eemeli-raninen.webp",
+                    "photoAlt": "Eemeli Raninen",
+                    "paragraphs": [
+                        "Olen Eemeli Raninen, tyovuorolista.fi:n toinen perustaja, ja hoidan asiakkuuksia ja myyntiä. Aloitin Antilla töissä Jollaksen Kartanossa 2021, josta muutaman mutkan kautta päädyimme perustamaan True Solutions Oy:n 2024.",
+                        "Samalla opiskelen Aalto-yliopiston kauppakorkeakoulussa International Management- ja CEMS-ohjelmissa. Tyovuorolistan ohella olen aiemmin työskennellyt viestinnän ja markkinoinnin parissa muun muassa visitsauna.comissa ja Aalto-yliopistossa.",
+                        "Tällä hetkellä työskentelen kansainvälisen kemianteollisuuden yrityksen vastuullisuusosastolla Saksassa."
+                    ],
+                    "links": [
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/eemeli-raninen/"
+                        },
+                        {
+                            "label": "+358 45 126 4460",
+                            "href": "tel:+358451264460"
+                        }
+                    ]
+                }
+            ]
+        },
+        "contact": {
+            "title": "Tyovuorolista.fi yhteystiedot",
+            "company": "True Solutions Oy / tyovuorolista.fi",
+            "businessId": "Y-tunnus: 3431534-2",
+            "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+            "sales": "Myynti:",
+            "info": "info@tyovuorolista.fi"
+        },
+        "terms": {
+            "title": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
+        }
     },
-    "terms": {
-      "title": "Käyttöehdot, tietosuojaseloste ja hyvityskäytännöt"
+    "common": {
+        "tryFree": "Kokeile Työvuorolistaa ilmaiseksi"
+    },
+    "notAvailable": {
+        "title": "Sisältö ei saatavilla",
+        "heading": "Tätä sisältöä ei ole vielä käännetty",
+        "description": "Valitettavasti tämä sivu ei ole vielä saatavilla suomeksi. Voit palata etusivulle tai vaihtaa kieltä.",
+        "backToHome": "Palaa etusivulle"
+    },
+    "notFound": {
+        "title": "Sivua ei löydy - 404",
+        "heading": "Sivua ei löydy",
+        "description": "Valitettavasti etsimääsi sivua ei löytynyt. Sivu on saattanut siirtyä tai poistua.",
+        "backToHome": "Palaa etusivulle",
+        "usefulLinks": "Hyödyllisiä linkkejä",
+        "sitemap": "Sivukartta",
+        "llms": "llms.txt (sisällysluettelo agenteille)",
+        "agentInstructions": "Agent-ohjeet",
+        "about": "Meistä",
+        "contact": "Yhteystiedot",
+        "privacy": "Tietosuojaseloste"
     }
-  },
-  "common": {
-    "tryFree": "Kokeile Työvuorolistaa ilmaiseksi"
-  },
-  "notAvailable": {
-    "title": "Sisältö ei saatavilla",
-    "heading": "Tätä sisältöä ei ole vielä käännetty",
-    "description": "Valitettavasti tämä sivu ei ole vielä saatavilla suomeksi. Voit palata etusivulle tai vaihtaa kieltä.",
-    "backToHome": "Palaa etusivulle"
-  },
-  "notFound": {
-    "title": "Sivua ei löydy - 404",
-    "heading": "Sivua ei löydy",
-    "description": "Valitettavasti etsimääsi sivua ei löytynyt. Sivu on saattanut siirtyä tai poistua.",
-    "backToHome": "Palaa etusivulle",
-    "usefulLinks": "Hyödyllisiä linkkejä",
-    "sitemap": "Sivukartta",
-    "llms": "llms.txt (sisällysluettelo agenteille)",
-    "agentInstructions": "Agent-ohjeet",
-    "about": "Meistä",
-    "contact": "Yhteystiedot",
-    "privacy": "Tietosuojaseloste"
-  }
 }

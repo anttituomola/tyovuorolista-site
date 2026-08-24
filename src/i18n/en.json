@@ -1,657 +1,660 @@
 {
-  "nav": {
-    "features": "Features",
-    "resources": "Resources",
-    "blog": "Blog (FI)",
-    "pricing": "Pricing",
-    "contact": "Contact",
-    "login": "Log in",
-    "register": "Sign up",
-    "openMenu": "Open menu",
-    "logoSubtitle": "Finnish shift planning for small businesses"
-  },
-  "cookieConsent": {
-    "message": "We use cookies to measure traffic and for marketing.",
-    "learnMore": "Learn more",
-    "accept": "Accept",
-    "decline": "Essential only"
-  },
-  "footer": {
-    "copyright": "Työvuorolista | tyovuorolista.fi",
-    "links": {
-      "features": "Features",
-      "resources": "Resources",
-      "about": "About us",
-      "blog": "Blog (FI)",
-      "contact": "Contact",
-      "pricing": "Pricing",
-      "terms": "Terms of use, privacy policy and refund policy",
-      "privacy": "Privacy policy"
+    "nav": {
+        "features": "Features",
+        "resources": "Resources",
+        "blog": "Blog (FI)",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "login": "Log in",
+        "register": "Sign up",
+        "openMenu": "Open menu",
+        "logoSubtitle": "Finnish shift planning for small businesses"
     },
-    "industrySolutions": "Industry-specific solutions",
-    "industries": {
-      "restaurants": "Restaurants and cafés",
-      "retail": "Retail",
-      "care": "Care homes and assisted living",
-      "taxi": "Taxi companies and transport",
-      "cleaning": "Cleaning and property services",
-      "hotels": "Hotels and inns",
-      "events": "Events and seasonal work"
-    }
-  },
-  "hero": {
-    "title": "Shift schedule for small businesses quickly and easily",
-    "tagline": "Everything you need for shift planning in one app: TES helper, employee portal, email publishing and payroll reports.",
-    "subtitle": "First schedule ready and with your team in under five minutes.",
-    "tryDemo": "Try demo",
-    "or": "OR"
-  },
-  "tesHighlight": {
-    "eyebrow": "TES helper (beta)",
-    "title": "Finnish collective agreements built in",
-    "lead": "Warnings while you plan.",
-    "bullet1": "Warnings while planning: rest periods, shift length, period hours",
-    "bullet2": "Hours ready for payroll categories: premiums, overtime, Sunday pay",
-    "bullet3": "MaRa, retail, property services and SOSTES: four agreements ready",
-    "boundary": "Warnings, balance views and annual leave tracking in every plan, including free Mini. Payroll report with TES classification is in paid plans.",
-    "secondaryCta": "Learn about TES helper"
-  },
-  "demoVideo": {
-    "title": "Creating shift schedules can be easy too",
-    "description": "Shifts are added to the schedule by dragging employees to the right place. Publishing happens with a button press, sending the schedule to all employees by email.",
-    "step1": "Sign up",
-    "step2": "Create shift schedule",
-    "step3": "Publish"
-  },
-  "platformStats": {
-    "eyebrow": "In use today",
-    "title": "Työvuorolista in numbers",
-    "activeCompanies": "businesses plan shifts every month",
-    "shiftsPerWeek": "work shifts planned every week",
-    "workersManaged": "workers managed on the platform",
-    "totalShifts": "shifts planned in total"
-  },
-  "customerStory": {
-    "title": "What customers say",
-    "testimonials": [
-      {
-        "quote": "Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!",
-        "author": "Laura Dahlman",
-        "company": "Ravintola Apaja, Tampere"
-      },
-      {
-        "quote": "Really clear and user-friendly package for planning and distributing restaurant shifts.",
-        "quote2": "If you're still fiddling with shifts in Excel or on paper, and don't want to pay a fortune for heavy financial management software packages, now is definitely the time to try Työvuorolista. Warm recommendation.",
-        "author": "Rami Käkönen",
-        "company": "Ravintola Askaisten Holvi, Askainen"
-      },
-      {
-        "quote": "Making shift schedules has become really easy, really - no unnecessary clicking! The schedules are ready quickly and they're sent to each employee's email. If help has been needed, support and advice have always been quickly available!",
-        "author": "Anita Lindov",
-        "company": "Velj. Kitola Oy, Nousiainen"
-      }
-    ]
-  },
-  "register": {
-    "step1": {
-      "title": "Sign up",
-      "description": "You can sign up with either email or your Google account. Initially we only need an email address, no other information.",
-      "steps": [
-        {
-          "title": "Quick sign-up",
-          "description": "you can sign up with email or Google account."
-        },
-        {
-          "title": "No credit card",
-          "description": "you can try for free with up to three employees."
-        },
-        {
-          "title": "Easy initial setup",
-          "description": "just add yourself as an employee and get started!"
-        }
-      ]
+    "cookieConsent": {
+        "message": "We use cookies to measure traffic and for marketing.",
+        "learnMore": "Learn more",
+        "accept": "Accept",
+        "decline": "Essential only"
     },
-    "step2": {
-      "title": "Plan",
-      "description": "Adding teams and employees takes a few minutes. You can start creating your first shift schedule right away.",
-      "steps": [
-        {
-          "title": "No unnecessary data entry",
-          "description": "the app only asks for necessary information, essentially name and email. Nothing else."
+    "footer": {
+        "copyright": "Työvuorolista | tyovuorolista.fi",
+        "links": {
+            "features": "Features",
+            "resources": "Resources",
+            "about": "About us",
+            "blog": "Blog (FI)",
+            "contact": "Contact",
+            "pricing": "Pricing",
+            "terms": "Terms of use, privacy policy and refund policy",
+            "privacy": "Privacy policy"
         },
-        {
-          "title": "No unnecessary clicking",
-          "description": "shifts are added to the calendar by dragging employees to the right place. Shift length and location can also be adjusted by dragging."
-        },
-        {
-          "title": "Necessary additional information",
-          "description": "you can easily add comments to shifts, e.g. \"store manager\"."
+        "industrySolutions": "Industry-specific solutions",
+        "industries": {
+            "restaurants": "Restaurants and cafés",
+            "retail": "Retail",
+            "care": "Care homes and assisted living",
+            "taxi": "Taxi companies and transport",
+            "cleaning": "Cleaning and property services",
+            "hotels": "Hotels and inns",
+            "events": "Events and seasonal work"
         }
-      ]
     },
-    "step3": {
-      "title": "Approve",
-      "description": "Share the shift plan effortlessly and quickly with employees in your preferred channel and request feedback before publishing.",
-      "steps": [
-        {
-          "title": "Copy image of shift schedule",
-          "description": "you can easily paste it into a WhatsApp message."
-        },
-        {
-          "title": "Save image of shift schedule",
-          "description": "you can easily attach it as an email attachment."
-        }
-      ]
+    "hero": {
+        "title": "Shift schedule for small businesses quickly and easily",
+        "tagline": "Everything you need for shift planning in one app: TES helper, employee portal, email publishing and payroll reports.",
+        "subtitle": "First schedule ready and with your team in under five minutes.",
+        "tryDemo": "Try demo",
+        "or": "OR"
     },
-    "step4": {
-      "title": "Publish",
-      "description": "Publish the shift schedule with one click and send it automatically to employees by email.",
-      "steps": [
-        {
-          "title": "Automated sending",
-          "description": "when you publish the schedule, it is automatically sent to all employees on the schedule."
-        },
-        {
-          "title": "Personal schedule",
-          "description": "each employee receives a personalized schedule of their own shifts."
-        }
-      ]
+    "tesHighlight": {
+        "eyebrow": "TES helper (beta)",
+        "title": "Finnish collective agreements built in",
+        "lead": "Warnings while you plan.",
+        "bullet1": "Warnings while planning: rest periods, shift length, period hours",
+        "bullet2": "Hours ready for payroll categories: premiums, overtime, Sunday pay",
+        "bullet3": "MaRa, retail, property services and SOSTES: four agreements ready",
+        "boundary": "Warnings, balance views and annual leave tracking in every plan, including free Mini. Payroll report with TES classification is in paid plans.",
+        "secondaryCta": "Learn about TES helper"
     },
-    "step5": {
-      "title": "Unlimited number of teams",
-      "description": "Each team has its own schedules and settings, but you can share employees between teams.",
-      "steps": [
-        {
-          "title": "Own settings",
-          "description": "each team can have its own default times and shift lengths."
-        },
-        {
-          "title": "Sharing employees",
-          "description": "employees can be in multiple teams, which facilitates shift planning for multi-location businesses."
-        },
-        {
-          "title": "Publishing schedules",
-          "description": "you can publish schedules by team or all at once."
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "Frequently asked questions",
-    "questions": {
-      "cost": {
-        "question": "How much does this cost?",
-        "answer": "Pricing is based on the number of employees. You can choose monthly or yearly billing:",
-        "tiers": [
-          "max. 3 employees: €0 / month or €0 / year",
-          "max. 20 employees: €18 / month or €144 / year",
-          "max. 50 employees: €60 / month or €504 / year",
-          "max. 100 employees: €180 / month or €1440 / year"
-        ],
-        "yearlyNote": "Yearly billing is cheaper: you pay for 8 months and get 4 months included (e.g. Normi €18 / month or €144 / year).",
-        "vat": "VAT is added to all prices."
-      },
-      "trial": {
-        "question": "Can I try without paying?",
-        "answer": "Of course! Running with less than four employees is always free!"
-      },
-      "commitment": {
-        "question": "How long do I need to commit?",
-        "answer": "You can choose monthly or yearly billing and cancel your subscription at any time. No long commitment periods. For example, a summer restaurant can pay for use during the summer and cancel the subscription for winter."
-      },
-      "start": {
-        "question": "When can I start?",
-        "answer": "Registration and initial setup takes about 3 minutes. You can publish your first shift schedule in about 15 minutes."
-      },
-      "creator": {
-        "question": "Who made this?",
-        "answer": "I'm Antti Tuomola. I have over 15 years of experience in the restaurant industry as an employee, manager and entrepreneur. I've worked in neighborhood bars and Michelin restaurants, run manor restaurants and food trucks. Whatever I've done, I've always made shift schedules. Sometimes with Excel, sometimes with purpose-built software. I've never been completely satisfied with them. Hence this."
-      },
-      "difficulty": {
-        "question": "Is this difficult to use?",
-        "answer": "The entire app is built with the idea that creating shift schedules should be as easy as possible. The interface is graphical, and shifts are added by dragging employee names to the right place."
-      },
-      "publish": {
-        "question": "How does publishing schedules work?",
-        "answer": "When the schedule is ready to publish, you just press the Publish button, which sends an email to all employees on the schedule (and others if needed) with the employee's personal shift schedule. You can also copy an image or PDF and publish it however you want."
-      },
-      "difference": {
-        "question": "How does this differ from MaraPlan / Planier / HR plans / etc.?",
-        "answer": "Työvuorolista differs from other industry players in these ways:",
-        "points": [
-          "Prices are publicly visible: we don't try to squeeze the maximum price from your company, but publish all prices openly.",
-          "You can start using Työvuorolista now, in five minutes. Publish a schedule in 15 minutes. No contact requests, quotes, demos, counter-quotes and other time-wasting.",
-          "Työvuorolista is so simple that you don't need training to use it. If you want, we can go through its use together, but I also trust that you can use this without hand-holding.",
-          "Lightweight employee experience: employees receive their personal schedule by email or print. No mandatory enterprise app for employees — we focus on creating schedules, publishing and recording hours."
+    "demoVideo": {
+        "title": "Creating shift schedules can be easy too",
+        "description": "Shifts are added to the schedule by dragging employees to the right place. Publishing happens with a button press, sending the schedule to all employees by email.",
+        "step1": "Sign up",
+        "step2": "Create shift schedule",
+        "step3": "Publish"
+    },
+    "platformStats": {
+        "eyebrow": "In use today",
+        "title": "Työvuorolista in numbers",
+        "activeCompanies": "businesses plan shifts every month",
+        "shiftsPerWeek": "work shifts planned every week",
+        "workersManaged": "workers managed on the platform",
+        "totalShifts": "shifts planned in total"
+    },
+    "customerStory": {
+        "title": "What customers say",
+        "testimonials": [
+            {
+                "quote": "Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!",
+                "author": "Laura Dahlman",
+                "company": "Ravintola Apaja, Tampere"
+            },
+            {
+                "quote": "Really clear and user-friendly package for planning and distributing restaurant shifts.",
+                "quote2": "If you're still fiddling with shifts in Excel or on paper, and don't want to pay a fortune for heavy financial management software packages, now is definitely the time to try Työvuorolista. Warm recommendation.",
+                "author": "Rami Käkönen",
+                "company": "Ravintola Askaisten Holvi, Askainen"
+            },
+            {
+                "quote": "Making shift schedules has become really easy, really - no unnecessary clicking! The schedules are ready quickly and they're sent to each employee's email. If help has been needed, support and advice have always been quickly available!",
+                "author": "Anita Lindov",
+                "company": "Velj. Kitola Oy, Nousiainen"
+            }
         ]
-      },
-      "tesCost": {
-        "question": "What does TES helper cost?",
-        "answer": "TES helper (beta) is included in every plan, including free Mini. Warnings, balance views and annual leave tracking are free. Payroll report with TES classification is in paid plans."
-      },
-      "tesSupported": {
-        "question": "Which collective agreements are supported?",
-        "answer": "MaRa, retail (Kaupan ala), property services (KipaTES) and SOSTES. Need another agreement? Tell us (wishlist drives development): info@tyovuorolista.fi."
-      }
-    }
-  },
-  "contactForm": {
-    "title": "I want to ask more!",
-    "description": "Call or send a WhatsApp message — I'll reply quickly.",
-    "emailPlaceholder": "Your email address",
-    "phonePlaceholder": "Your phone number",
-    "or": "or",
-    "submit": "Send",
-    "success": "Thank you! I'll contact you shortly!",
-    "error": "Form submission failed. Please try again.",
-    "errorNetwork": "Form submission failed. Check your internet connection and try again.",
-    "errorTurnstile": "Verification failed. Please try again.",
-    "errorValidation": "Please check the details you entered.",
-    "callAntti": "Call",
-    "whatsappAntti": "Send a WhatsApp message",
-    "whatsappPrefill": "Hi Antti! I'd like to learn more about Työvuorolista.",
-    "emailMe": "Email me",
-    "callMe": "Call me",
-    "callbackHint": "Or leave your details and I'll get back to you:"
-  },
-  "mobileDemo": {
-    "title": "Manage shifts on mobile too",
-    "description": "As a planner, you can use Työvuorolista fully on your phone or tablet: shift planning, employee management, hour logging and publishing schedules.",
-    "features": [
-      "Day view and quick create on your phone",
-      "Managing employees",
-      "Recording hours worked",
-      "Publishing, share and PDF"
-    ],
-    "employeeNote": "Employees don't need to install any apps. They get their schedule from a web portal and by email.",
-    "moreInfo": "On your phone, planning is a day view: a week strip, shift cards and a plus-button quick create. Navigation is in the menu.",
-    "readMore": "Read more about mobile"
-  },
-  "blogPosts": {
-    "title": "Latest articles on easier shift planning",
-    "viewAll": "View all articles",
-    "published": "Published",
-    "tags": "Keywords:",
-    "blogPageTitle": "Articles on shift planning"
-  },
-  "featureHighlights": {
-    "title": "All key features in one place",
-    "subtitle": "Shift planning, publishing and reporting without unnecessary complexity.",
-    "viewAll": "View all features"
-  },
-  "howItWorks": {
-    "title": "How to get started",
-    "step1": {
-      "title": "Sign up",
-      "description": "Start free with up to three employees. Registration takes a minute."
     },
-    "step2": {
-      "title": "Plan",
-      "description": "Drag employees into the calendar. Use templates and recurring shifts to save time."
+    "register": {
+        "step1": {
+            "title": "Sign up",
+            "description": "You can sign up with either email or your Google account. Initially we only need an email address, no other information.",
+            "steps": [
+                {
+                    "title": "Quick sign-up",
+                    "description": "you can sign up with email or Google account."
+                },
+                {
+                    "title": "No credit card",
+                    "description": "you can try for free with up to three employees."
+                },
+                {
+                    "title": "Easy initial setup",
+                    "description": "just add yourself as an employee and get started!"
+                }
+            ]
+        },
+        "step2": {
+            "title": "Plan",
+            "description": "Adding teams and employees takes a few minutes. You can start creating your first shift schedule right away.",
+            "steps": [
+                {
+                    "title": "No unnecessary data entry",
+                    "description": "the app only asks for necessary information, essentially name and email. Nothing else."
+                },
+                {
+                    "title": "No unnecessary clicking",
+                    "description": "shifts are added to the calendar by dragging employees to the right place. Shift length and location can also be adjusted by dragging."
+                },
+                {
+                    "title": "Necessary additional information",
+                    "description": "you can easily add comments to shifts, e.g. \"store manager\"."
+                }
+            ]
+        },
+        "step3": {
+            "title": "Approve",
+            "description": "Share the shift plan effortlessly and quickly with employees in your preferred channel and request feedback before publishing.",
+            "steps": [
+                {
+                    "title": "Copy image of shift schedule",
+                    "description": "you can easily paste it into a WhatsApp message."
+                },
+                {
+                    "title": "Save image of shift schedule",
+                    "description": "you can easily attach it as an email attachment."
+                }
+            ]
+        },
+        "step4": {
+            "title": "Publish",
+            "description": "Publish the shift schedule with one click and send it automatically to employees by email.",
+            "steps": [
+                {
+                    "title": "Automated sending",
+                    "description": "when you publish the schedule, it is automatically sent to all employees on the schedule."
+                },
+                {
+                    "title": "Personal schedule",
+                    "description": "each employee receives a personalized schedule of their own shifts."
+                }
+            ]
+        },
+        "step5": {
+            "title": "Unlimited number of teams",
+            "description": "Each team has its own schedules and settings, but you can share employees between teams.",
+            "steps": [
+                {
+                    "title": "Own settings",
+                    "description": "each team can have its own default times and shift lengths."
+                },
+                {
+                    "title": "Sharing employees",
+                    "description": "employees can be in multiple teams, which facilitates shift planning for multi-location businesses."
+                },
+                {
+                    "title": "Publishing schedules",
+                    "description": "you can publish schedules by team or all at once."
+                }
+            ]
+        }
     },
-    "step3": {
-      "title": "Publish",
-      "description": "Send personal schedules by email with one click."
+    "faq": {
+        "title": "Frequently asked questions",
+        "questions": {
+            "cost": {
+                "question": "How much does this cost?",
+                "answer": "Pricing is based on the number of employees. You can choose monthly or yearly billing:",
+                "tiers": [
+                    "max. 3 employees: €0 / month or €0 / year",
+                    "max. 20 employees: €18 / month or €144 / year",
+                    "max. 50 employees: €60 / month or €504 / year",
+                    "max. 100 employees: €180 / month or €1440 / year"
+                ],
+                "yearlyNote": "Yearly billing is cheaper: you pay for 8 months and get 4 months included (e.g. Normi €18 / month or €144 / year).",
+                "vat": "VAT is added to all prices."
+            },
+            "trial": {
+                "question": "Can I try without paying?",
+                "answer": "Of course! Running with less than four employees is always free!"
+            },
+            "commitment": {
+                "question": "How long do I need to commit?",
+                "answer": "You can choose monthly or yearly billing and cancel your subscription at any time. No long commitment periods. For example, a summer restaurant can pay for use during the summer and cancel the subscription for winter."
+            },
+            "start": {
+                "question": "When can I start?",
+                "answer": "Registration and initial setup takes about 3 minutes. You can publish your first shift schedule in about 15 minutes."
+            },
+            "creator": {
+                "question": "Who made this?",
+                "answer": "I'm Antti Tuomola. I have over 15 years of experience in the restaurant industry as an employee, manager and entrepreneur. I've worked in neighborhood bars and Michelin restaurants, run manor restaurants and food trucks. Whatever I've done, I've always made shift schedules. Sometimes with Excel, sometimes with purpose-built software. I've never been completely satisfied with them. Hence this."
+            },
+            "difficulty": {
+                "question": "Is this difficult to use?",
+                "answer": "The entire app is built with the idea that creating shift schedules should be as easy as possible. The interface is graphical, and shifts are added by dragging employee names to the right place."
+            },
+            "publish": {
+                "question": "How does publishing schedules work?",
+                "answer": "When the schedule is ready to publish, you just press the Publish button, which sends an email to all employees on the schedule (and others if needed) with the employee's personal shift schedule. You can also copy an image or PDF and publish it however you want."
+            },
+            "difference": {
+                "question": "How does this differ from MaraPlan / Planier / HR plans / etc.?",
+                "answer": "Työvuorolista differs from other industry players in these ways:",
+                "points": [
+                    "Prices are publicly visible: we don't try to squeeze the maximum price from your company, but publish all prices openly.",
+                    "You can start using Työvuorolista now, in five minutes. Publish a schedule in 15 minutes. No contact requests, quotes, demos, counter-quotes and other time-wasting.",
+                    "Työvuorolista is so simple that you don't need training to use it. If you want, we can go through its use together, but I also trust that you can use this without hand-holding.",
+                    "Lightweight employee experience: employees receive their personal schedule by email or print. No mandatory enterprise app for employees — we focus on creating schedules, publishing and recording hours."
+                ]
+            },
+            "tesCost": {
+                "question": "What does TES helper cost?",
+                "answer": "TES helper (beta) is included in every plan, including free Mini. Warnings, balance views and annual leave tracking are free. Payroll report with TES classification is in paid plans."
+            },
+            "tesSupported": {
+                "question": "Which collective agreements are supported?",
+                "answer": "MaRa, retail (Kaupan ala), property services (KipaTES) and SOSTES. Need another agreement? Tell us (wishlist drives development): info@tyovuorolista.fi."
+            }
+        }
     },
-    "featuresLink": "Explore all features"
-  },
-  "contactCta": {
-    "title": "Want to know more?",
-    "description": "We'll get back to you quickly — leave a message on the contact page.",
-    "button": "Go to contact"
-  },
-  "features": {
-    "readMore": "Read more",
-    "blogLanguageNote": "Page in Finnish",
-    "betaBadge": "New",
-    "categories": {
-      "planning": "Planning",
-      "publishing": "Publishing",
-      "workers": "For employees",
-      "reporting": "Hours and reporting",
-      "teams": "Teams"
+    "contactForm": {
+        "title": "I want to ask more!",
+        "description": "Call or send a WhatsApp message — I'll reply quickly.",
+        "descriptionDesktop": "Send an email or a WhatsApp message — I'll reply quickly.",
+        "emailPlaceholder": "Your email address",
+        "phonePlaceholder": "Your phone number",
+        "or": "or",
+        "submit": "Send",
+        "success": "Thank you! I'll contact you shortly!",
+        "error": "Form submission failed. Please try again.",
+        "errorNetwork": "Form submission failed. Check your internet connection and try again.",
+        "errorTurnstile": "Verification failed. Please try again.",
+        "errorValidation": "Please check the details you entered.",
+        "callAntti": "Call",
+        "emailAntti": "Send an email",
+        "emailSubject": "Question about Työvuorolista",
+        "whatsappAntti": "Send a WhatsApp message",
+        "whatsappPrefill": "Hi Antti! I'd like to learn more about Työvuorolista.",
+        "emailMe": "Email me",
+        "callMe": "Call me",
+        "callbackHint": "Or leave your details and I'll get back to you:"
     },
-    "categoryDescriptions": {
-      "planning": "Build the schedule by dragging — recurring shifts, templates and multi-select handle the routine work.",
-      "publishing": "When the schedule is ready, every employee gets their personal schedule by email with one click.",
-      "workers": "Employees see their shifts, report their hours and claim open shifts in their own portal.",
-      "reporting": "Actual hours are logged in the app and exported to payroll as a ready-made report.",
-      "teams": "Front of house, kitchen, two locations? Every team has its own schedules, and workers can be shared between teams."
+    "mobileDemo": {
+        "title": "Manage shifts on mobile too",
+        "description": "As a planner, you can use Työvuorolista fully on your phone or tablet: shift planning, employee management, hour logging and publishing schedules.",
+        "features": [
+            "Day view and quick create on your phone",
+            "Managing employees",
+            "Recording hours worked",
+            "Publishing, share and PDF"
+        ],
+        "employeeNote": "Employees don't need to install any apps. They get their schedule from a web portal and by email.",
+        "moreInfo": "On your phone, planning is a day view: a week strip, shift cards and a plus-button quick create. Navigation is in the menu.",
+        "readMore": "Read more about mobile"
     },
-    "items": {
-      "tes-apuri": {
-        "title": "Collective agreement assistant",
-        "shortDescription": "The app checks your shifts against the collective agreement and working time law while you plan."
-      },
-      "oma-portaali": {
-        "title": "Employee portal",
-        "shortDescription": "Employees see their shifts, request time off and report hours on their phone."
-      },
-      "avoimet-vuorot": {
-        "title": "Open shifts",
-        "shortDescription": "Publish a shift without an assignee — employees sign up and you choose."
-      },
-      "recurring-shifts": {
-        "title": "Recurring shifts",
-        "shortDescription": "Create recurring shifts once and copy them across weeks."
-      },
-      "templates": {
-        "title": "Templates",
-        "shortDescription": "Save ready-made weeks as templates and reuse them."
-      },
-      "multi-select": {
-        "title": "Multi-select",
-        "shortDescription": "Select and edit multiple shifts at once."
-      },
-      "resource-scheduling": {
-        "title": "Resource scheduling",
-        "shortDescription": "Schedule resources such as vehicles or rooms alongside shifts."
-      },
-      "day-notes": {
-        "title": "Day notes",
-        "shortDescription": "Mark whole-day events and notes on the calendar."
-      },
-      "email-publish": {
-        "title": "Email publishing",
-        "shortDescription": "Send personal shift lists to employees automatically."
-      },
-      "email-preview": {
-        "title": "Email preview",
-        "shortDescription": "Review the message before sending."
-      },
-      "personal-print": {
-        "title": "Personal printouts",
-        "shortDescription": "Print or share individual employee schedules."
-      },
-      "vacation-planning": {
-        "title": "Vacation planning",
-        "shortDescription": "Manage vacations and vacation requests in the schedule."
-      },
-      "hours-recording": {
-        "title": "Hours recording",
-        "shortDescription": "Log actual hours and compare to the plan."
-      },
-      "payroll-report": {
-        "title": "Payroll report",
-        "shortDescription": "Export hours to payroll from a ready-made report."
-      },
-      "teams": {
-        "title": "Teams and shared workers",
-        "shortDescription": "Manage multiple teams and share employees between them."
-      },
-      "mobile-manager": {
-        "title": "Mobile for planners",
-        "shortDescription": "Day view, quick create and publishing from your phone."
-      }
-    }
-  },
-  "resources": {
-    "readMore": "Open",
-    "blogLanguageNote": "Article in Finnish",
-    "sections": {
-      "templates": "Templates and printable schedules",
-      "guides": "Guides",
-      "reference": "Legislation and practices"
+    "blogPosts": {
+        "title": "Latest articles on easier shift planning",
+        "viewAll": "View all articles",
+        "published": "Published",
+        "tags": "Keywords:",
+        "blogPageTitle": "Articles on shift planning"
     },
-    "items": {
-      "pohja-tool": {
-        "title": "Shift roster template in browser",
-        "shortDescription": "Fill in a three-week schedule in the browser and print."
-      },
-      "pohja-printable": {
-        "title": "Printable template",
-        "shortDescription": "Pre-formatted template for printing a schedule."
-      },
-      "pohja-oo": {
-        "title": "OpenOffice template",
-        "shortDescription": "Download a free spreadsheet template for OpenOffice."
-      },
-      "pohja-pdf": {
-        "title": "PDF template from the app",
-        "shortDescription": "Create and share a PDF shift schedule from the service."
-      },
-      "getting-started": {
-        "title": "Getting started",
-        "shortDescription": "Step-by-step guide to creating your first schedule."
-      },
-      "hours-guide": {
-        "title": "Hours recording guide",
-        "shortDescription": "How to record actual hours worked."
-      },
-      "scheduling-software": {
-        "title": "Shift planning software",
-        "shortDescription": "General guide to shift planning and choosing software."
-      },
-      "shift-length-and-rest": {
-        "title": "Shift length and rest periods in restaurants",
-        "shortDescription": "Minimum and maximum shift length, daily rest and breaks."
-      },
-      "shift-abbreviations": {
-        "title": "Shift schedule abbreviations",
-        "shortDescription": "What X, V, TS and VV mean on the roster."
-      },
-      "v-day-meaning": {
-        "title": "What does V-day mean?",
-        "shortDescription": "Meaning and use of V-days on shift schedules."
-      },
-      "x-v-marking": {
-        "title": "Marking X and V days",
-        "shortDescription": "How to mark days off in the calendar."
-      },
-      "annual-leave-marking": {
-        "title": "Marking annual leave",
-        "shortDescription": "Annual leave and unpaid days off on the schedule."
-      },
-      "tracked-missing-hours": {
-        "title": "Tracked and missing hours",
-        "shortDescription": "How the app counts logged and missing hours."
-      }
-    }
-  },
-  "pages": {
+    "featureHighlights": {
+        "title": "All key features in one place",
+        "subtitle": "Shift planning, publishing and reporting without unnecessary complexity.",
+        "viewAll": "View all features"
+    },
+    "howItWorks": {
+        "title": "How to get started",
+        "step1": {
+            "title": "Sign up",
+            "description": "Start free with up to three employees. Registration takes a minute."
+        },
+        "step2": {
+            "title": "Plan",
+            "description": "Drag employees into the calendar. Use templates and recurring shifts to save time."
+        },
+        "step3": {
+            "title": "Publish",
+            "description": "Send personal schedules by email with one click."
+        },
+        "featuresLink": "Explore all features"
+    },
+    "contactCta": {
+        "title": "Want to know more?",
+        "description": "We'll get back to you quickly — leave a message on the contact page.",
+        "button": "Go to contact"
+    },
     "features": {
-      "title": "Features",
-      "eyebrow": "Features",
-      "heroTitle": "Everything you actually need to build a shift schedule",
-      "subtitle": "Plan shifts by dragging, publish by email and export hours to payroll. No heavy enterprise system — just the tools a small business uses every week.",
-      "heroImageAlt": "Shift schedule calendar view with a week of color-coded shifts per employee",
-      "cta": "Try for free",
-      "ctaSecondary": "See pricing",
-      "ctaNote": "Free for up to three employees. No credit card.",
-      "detailCtaTitle": "Try it yourself — schedule ready in 15 minutes",
-      "detailCtaText": "Registration takes a minute, and use with up to three employees is free.",
-      "readGuide": "Read the guide on the blog",
-      "relatedTitle": "See also these features",
-      "backToFeatures": "All features"
+        "readMore": "Read more",
+        "blogLanguageNote": "Page in Finnish",
+        "betaBadge": "New",
+        "categories": {
+            "planning": "Planning",
+            "publishing": "Publishing",
+            "workers": "For employees",
+            "reporting": "Hours and reporting",
+            "teams": "Teams"
+        },
+        "categoryDescriptions": {
+            "planning": "Build the schedule by dragging — recurring shifts, templates and multi-select handle the routine work.",
+            "publishing": "When the schedule is ready, every employee gets their personal schedule by email with one click.",
+            "workers": "Employees see their shifts, report their hours and claim open shifts in their own portal.",
+            "reporting": "Actual hours are logged in the app and exported to payroll as a ready-made report.",
+            "teams": "Front of house, kitchen, two locations? Every team has its own schedules, and workers can be shared between teams."
+        },
+        "items": {
+            "tes-apuri": {
+                "title": "Collective agreement assistant",
+                "shortDescription": "The app checks your shifts against the collective agreement and working time law while you plan."
+            },
+            "oma-portaali": {
+                "title": "Employee portal",
+                "shortDescription": "Employees see their shifts, request time off and report hours on their phone."
+            },
+            "avoimet-vuorot": {
+                "title": "Open shifts",
+                "shortDescription": "Publish a shift without an assignee — employees sign up and you choose."
+            },
+            "recurring-shifts": {
+                "title": "Recurring shifts",
+                "shortDescription": "Create recurring shifts once and copy them across weeks."
+            },
+            "templates": {
+                "title": "Templates",
+                "shortDescription": "Save ready-made weeks as templates and reuse them."
+            },
+            "multi-select": {
+                "title": "Multi-select",
+                "shortDescription": "Select and edit multiple shifts at once."
+            },
+            "resource-scheduling": {
+                "title": "Resource scheduling",
+                "shortDescription": "Schedule resources such as vehicles or rooms alongside shifts."
+            },
+            "day-notes": {
+                "title": "Day notes",
+                "shortDescription": "Mark whole-day events and notes on the calendar."
+            },
+            "email-publish": {
+                "title": "Email publishing",
+                "shortDescription": "Send personal shift lists to employees automatically."
+            },
+            "email-preview": {
+                "title": "Email preview",
+                "shortDescription": "Review the message before sending."
+            },
+            "personal-print": {
+                "title": "Personal printouts",
+                "shortDescription": "Print or share individual employee schedules."
+            },
+            "vacation-planning": {
+                "title": "Vacation planning",
+                "shortDescription": "Manage vacations and vacation requests in the schedule."
+            },
+            "hours-recording": {
+                "title": "Hours recording",
+                "shortDescription": "Log actual hours and compare to the plan."
+            },
+            "payroll-report": {
+                "title": "Payroll report",
+                "shortDescription": "Export hours to payroll from a ready-made report."
+            },
+            "teams": {
+                "title": "Teams and shared workers",
+                "shortDescription": "Manage multiple teams and share employees between them."
+            },
+            "mobile-manager": {
+                "title": "Mobile for planners",
+                "shortDescription": "Day view, quick create and publishing from your phone."
+            }
+        }
     },
     "resources": {
-      "title": "Resources",
-      "subtitle": "Templates, guides and useful articles for shift planning.",
-      "cta": "Try for free"
-    },
-    "pricing": {
-      "title": "Pricing per account",
-      "subtitle": "Choose the plan that fits your account. Pricing applies to the whole account, not to individual workers, and a single account can manage multiple venues.",
-      "priceNote": "Pricing is per account, not per worker.",
-      "taxNote": "VAT is added to invoices.",
-      "toggleLabel": "Choose billing mode",
-      "monthlyLabel": "Monthly",
-      "yearlyLabel": "Yearly",
-      "monthlyPeriod": "/ month",
-      "yearlyPeriod": "/ year",
-      "monthlyMessage": "Switch to yearly billing and save up to 4 months compared with monthly pricing.",
-      "yearlyBadge": "4 months free",
-      "featureUnavailable": "Not included",
-      "tiers": {
-        "tier1": {
-          "title": "Mini",
-          "limit": "Up to 3 employees",
-          "monthlyPrice": "€0",
-          "yearlyPrice": "€0",
-          "pricingUnit": "Per account",
-          "features": [
-            "TES helper (beta): warnings, balances and annual leave tracking",
-            { "text": "Employee portal: shifts, time-off requests and hour reports", "included": false },
-            { "text": "Open shifts", "included": false },
-            { "text": "Payroll report with TES classification", "included": false },
-            { "text": "Email notifications for workers", "included": false },
-            "Unlimited shift schedules",
-            "Unlimited teams",
-            "Mobile-friendly interface",
-            "Customer support"
-          ]
+        "readMore": "Open",
+        "blogLanguageNote": "Article in Finnish",
+        "sections": {
+            "templates": "Templates and printable schedules",
+            "guides": "Guides",
+            "reference": "Legislation and practices"
         },
-        "tier2": {
-          "title": "Normi",
-          "limit": "Up to 20 employees",
-          "monthlyPrice": "€18",
-          "yearlyPrice": "€144",
-          "pricingUnit": "Per account",
-          "yearlySavings": "Save €72 per year with yearly billing.",
-          "features": [
-            "TES helper (beta): warnings, balances and annual leave tracking",
-            "Employee portal: shifts, time-off requests and hour reports",
-            "Open shifts",
-            "Payroll report with TES classification",
-            "Email notifications for workers",
-            "Unlimited shift schedules",
-            "Unlimited teams",
-            "Mobile-friendly interface",
-            "Customer support"
-          ]
-        },
-        "tier3": {
-          "title": "Iso",
-          "limit": "Up to 50 employees",
-          "monthlyPrice": "€60",
-          "yearlyPrice": "€504",
-          "pricingUnit": "Per account",
-          "yearlySavings": "Save €216 per year with yearly billing.",
-          "features": [
-            "TES helper (beta): warnings, balances and annual leave tracking",
-            "Employee portal: shifts, time-off requests and hour reports",
-            "Open shifts",
-            "Payroll report with TES classification",
-            "Email notifications for workers",
-            "Unlimited shift schedules",
-            "Unlimited teams",
-            "Mobile-friendly interface",
-            "Customer support"
-          ]
-        },
-        "tier4": {
-          "title": "Jätti",
-          "limit": "Up to 100 employees",
-          "monthlyPrice": "€180",
-          "yearlyPrice": "€1440",
-          "pricingUnit": "Per account",
-          "yearlySavings": "Save €720 per year with yearly billing.",
-          "features": [
-            "TES helper (beta): warnings, balances and annual leave tracking",
-            "Employee portal: shifts, time-off requests and hour reports",
-            "Open shifts",
-            "Payroll report with TES classification",
-            "Email notifications for workers",
-            "Unlimited shift schedules",
-            "Unlimited teams",
-            "Mobile-friendly interface",
-            "Customer support"
-          ]
-        }
-      }
-    },
-    "about": {
-      "metaTitle": "About us | tyovuorolista.fi",
-      "metaDescription": "The people behind tyovuorolista.fi: Antti Tuomola and Eemeli Raninen.",
-      "title": "About us",
-      "subtitle": "Two people behind tyovuorolista.fi.",
-      "company": "Työvuorolista is a Tampere shift scheduling app for restaurants, cafés, hotels, retail and other shift-based small businesses. The product site is tyovuorolista.fi and the app is at app.tyovuorolista.fi. The service is provided by True Solutions Oy (Finnish business ID 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere, Finland. Contact: info@tyovuorolista.fi, +358 45 679 8818.",
-      "photoPlaceholder": "Photo coming soon",
-      "people": [
-        {
-          "id": "antti",
-          "name": "Antti Tuomola",
-          "role": "Founder, product",
-          "initials": "AT",
-          "photo": "/about/antti-tuomola.webp",
-          "photoAlt": "Antti Tuomola",
-          "paragraphs": [
-            "I'm Antti Tuomola. I have over 15 years of experience in restaurants as an employee, manager and entrepreneur. I've worked in neighbourhood bars and Michelin restaurants, run manor restaurants and a food truck. Whatever I was doing, I was always making shift lists. Sometimes in Excel, sometimes with dedicated software. I was never fully happy with any of them. That's why tyovuorolista.fi.",
-            "These days I work as a software developer in a large Finnish IT consultancy, including for ministries and other large clients. I build tyovuorolista.fi at True Solutions Oy with Eemeli.",
-            "I live in Tampere. You can call or message me."
-          ],
-          "links": [
-            {
-              "label": "anttituomola.fi",
-              "href": "https://anttituomola.fi"
+        "items": {
+            "pohja-tool": {
+                "title": "Shift roster template in browser",
+                "shortDescription": "Fill in a three-week schedule in the browser and print."
             },
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/antti-tuomola/"
+            "pohja-printable": {
+                "title": "Printable template",
+                "shortDescription": "Pre-formatted template for printing a schedule."
             },
-            {
-              "label": "+358 45 679 8818",
-              "href": "tel:+358456798818"
+            "pohja-oo": {
+                "title": "OpenOffice template",
+                "shortDescription": "Download a free spreadsheet template for OpenOffice."
+            },
+            "pohja-pdf": {
+                "title": "PDF template from the app",
+                "shortDescription": "Create and share a PDF shift schedule from the service."
+            },
+            "getting-started": {
+                "title": "Getting started",
+                "shortDescription": "Step-by-step guide to creating your first schedule."
+            },
+            "hours-guide": {
+                "title": "Hours recording guide",
+                "shortDescription": "How to record actual hours worked."
+            },
+            "scheduling-software": {
+                "title": "Shift planning software",
+                "shortDescription": "General guide to shift planning and choosing software."
+            },
+            "shift-length-and-rest": {
+                "title": "Shift length and rest periods in restaurants",
+                "shortDescription": "Minimum and maximum shift length, daily rest and breaks."
+            },
+            "shift-abbreviations": {
+                "title": "Shift schedule abbreviations",
+                "shortDescription": "What X, V, TS and VV mean on the roster."
+            },
+            "v-day-meaning": {
+                "title": "What does V-day mean?",
+                "shortDescription": "Meaning and use of V-days on shift schedules."
+            },
+            "x-v-marking": {
+                "title": "Marking X and V days",
+                "shortDescription": "How to mark days off in the calendar."
+            },
+            "annual-leave-marking": {
+                "title": "Marking annual leave",
+                "shortDescription": "Annual leave and unpaid days off on the schedule."
+            },
+            "tracked-missing-hours": {
+                "title": "Tracked and missing hours",
+                "shortDescription": "How the app counts logged and missing hours."
             }
-          ]
-        },
-        {
-          "id": "eemeli",
-          "name": "Eemeli Raninen",
-          "role": "Founder, customers",
-          "initials": "ER",
-          "photo": "/about/eemeli-raninen.webp",
-          "photoAlt": "Eemeli Raninen",
-          "paragraphs": [
-            "I'm Eemeli Raninen, the other founder of tyovuorolista.fi, and I handle customers and sales. I started working for Antti at Jollas Manor in 2021, and after a few twists we founded True Solutions Oy in 2024.",
-            "I'm also studying International Management and CEMS at Aalto University School of Business. Alongside Työvuorolista I've previously worked in communications and marketing, including at visitsauna.com and Aalto University.",
-            "Currently I work in the sustainability department of an international chemical industry company in Germany."
-          ],
-          "links": [
-            {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/eemeli-raninen/"
-            },
-            {
-              "label": "+358 45 126 4460",
-              "href": "tel:+358451264460"
-            }
-          ]
         }
-      ]
     },
-    "contact": {
-      "title": "Tyovuorolista.fi contact information",
-      "company": "True Solutions Oy / tyovuorolista.fi",
-      "businessId": "Business ID: 3431534-2",
-      "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
-      "sales": "Sales:",
-      "info": "info@tyovuorolista.fi"
+    "pages": {
+        "features": {
+            "title": "Features",
+            "eyebrow": "Features",
+            "heroTitle": "Everything you actually need to build a shift schedule",
+            "subtitle": "Plan shifts by dragging, publish by email and export hours to payroll. No heavy enterprise system — just the tools a small business uses every week.",
+            "heroImageAlt": "Shift schedule calendar view with a week of color-coded shifts per employee",
+            "cta": "Try for free",
+            "ctaSecondary": "See pricing",
+            "ctaNote": "Free for up to three employees. No credit card.",
+            "detailCtaTitle": "Try it yourself — schedule ready in 15 minutes",
+            "detailCtaText": "Registration takes a minute, and use with up to three employees is free.",
+            "readGuide": "Read the guide on the blog",
+            "relatedTitle": "See also these features",
+            "backToFeatures": "All features"
+        },
+        "resources": {
+            "title": "Resources",
+            "subtitle": "Templates, guides and useful articles for shift planning.",
+            "cta": "Try for free"
+        },
+        "pricing": {
+            "title": "Pricing per account",
+            "subtitle": "Choose the plan that fits your account. Pricing applies to the whole account, not to individual workers, and a single account can manage multiple venues.",
+            "priceNote": "Pricing is per account, not per worker.",
+            "taxNote": "VAT is added to invoices.",
+            "toggleLabel": "Choose billing mode",
+            "monthlyLabel": "Monthly",
+            "yearlyLabel": "Yearly",
+            "monthlyPeriod": "/ month",
+            "yearlyPeriod": "/ year",
+            "monthlyMessage": "Switch to yearly billing and save up to 4 months compared with monthly pricing.",
+            "yearlyBadge": "4 months free",
+            "featureUnavailable": "Not included",
+            "tiers": {
+                "tier1": {
+                    "title": "Mini",
+                    "limit": "Up to 3 employees",
+                    "monthlyPrice": "€0",
+                    "yearlyPrice": "€0",
+                    "pricingUnit": "Per account",
+                    "features": [
+                        "TES helper (beta): warnings, balances and annual leave tracking",
+                        { "text": "Employee portal: shifts, time-off requests and hour reports", "included": false },
+                        { "text": "Open shifts", "included": false },
+                        { "text": "Payroll report with TES classification", "included": false },
+                        { "text": "Email notifications for workers", "included": false },
+                        "Unlimited shift schedules",
+                        "Unlimited teams",
+                        "Mobile-friendly interface",
+                        "Customer support"
+                    ]
+                },
+                "tier2": {
+                    "title": "Normi",
+                    "limit": "Up to 20 employees",
+                    "monthlyPrice": "€18",
+                    "yearlyPrice": "€144",
+                    "pricingUnit": "Per account",
+                    "yearlySavings": "Save €72 per year with yearly billing.",
+                    "features": [
+                        "TES helper (beta): warnings, balances and annual leave tracking",
+                        "Employee portal: shifts, time-off requests and hour reports",
+                        "Open shifts",
+                        "Payroll report with TES classification",
+                        "Email notifications for workers",
+                        "Unlimited shift schedules",
+                        "Unlimited teams",
+                        "Mobile-friendly interface",
+                        "Customer support"
+                    ]
+                },
+                "tier3": {
+                    "title": "Iso",
+                    "limit": "Up to 50 employees",
+                    "monthlyPrice": "€60",
+                    "yearlyPrice": "€504",
+                    "pricingUnit": "Per account",
+                    "yearlySavings": "Save €216 per year with yearly billing.",
+                    "features": [
+                        "TES helper (beta): warnings, balances and annual leave tracking",
+                        "Employee portal: shifts, time-off requests and hour reports",
+                        "Open shifts",
+                        "Payroll report with TES classification",
+                        "Email notifications for workers",
+                        "Unlimited shift schedules",
+                        "Unlimited teams",
+                        "Mobile-friendly interface",
+                        "Customer support"
+                    ]
+                },
+                "tier4": {
+                    "title": "Jätti",
+                    "limit": "Up to 100 employees",
+                    "monthlyPrice": "€180",
+                    "yearlyPrice": "€1440",
+                    "pricingUnit": "Per account",
+                    "yearlySavings": "Save €720 per year with yearly billing.",
+                    "features": [
+                        "TES helper (beta): warnings, balances and annual leave tracking",
+                        "Employee portal: shifts, time-off requests and hour reports",
+                        "Open shifts",
+                        "Payroll report with TES classification",
+                        "Email notifications for workers",
+                        "Unlimited shift schedules",
+                        "Unlimited teams",
+                        "Mobile-friendly interface",
+                        "Customer support"
+                    ]
+                }
+            }
+        },
+        "about": {
+            "metaTitle": "About us | tyovuorolista.fi",
+            "metaDescription": "The people behind tyovuorolista.fi: Antti Tuomola and Eemeli Raninen.",
+            "title": "About us",
+            "subtitle": "Two people behind tyovuorolista.fi.",
+            "company": "Työvuorolista is a Tampere shift scheduling app for restaurants, cafés, hotels, retail and other shift-based small businesses. The product site is tyovuorolista.fi and the app is at app.tyovuorolista.fi. The service is provided by True Solutions Oy (Finnish business ID 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere, Finland. Contact: info@tyovuorolista.fi, +358 45 679 8818.",
+            "photoPlaceholder": "Photo coming soon",
+            "people": [
+                {
+                    "id": "antti",
+                    "name": "Antti Tuomola",
+                    "role": "Founder, product",
+                    "initials": "AT",
+                    "photo": "/about/antti-tuomola.webp",
+                    "photoAlt": "Antti Tuomola",
+                    "paragraphs": [
+                        "I'm Antti Tuomola. I have over 15 years of experience in restaurants as an employee, manager and entrepreneur. I've worked in neighbourhood bars and Michelin restaurants, run manor restaurants and a food truck. Whatever I was doing, I was always making shift lists. Sometimes in Excel, sometimes with dedicated software. I was never fully happy with any of them. That's why tyovuorolista.fi.",
+                        "These days I work as a software developer in a large Finnish IT consultancy, including for ministries and other large clients. I build tyovuorolista.fi at True Solutions Oy with Eemeli.",
+                        "I live in Tampere. You can call or message me."
+                    ],
+                    "links": [
+                        {
+                            "label": "anttituomola.fi",
+                            "href": "https://anttituomola.fi"
+                        },
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/antti-tuomola/"
+                        },
+                        {
+                            "label": "+358 45 679 8818",
+                            "href": "tel:+358456798818"
+                        }
+                    ]
+                },
+                {
+                    "id": "eemeli",
+                    "name": "Eemeli Raninen",
+                    "role": "Founder, customers",
+                    "initials": "ER",
+                    "photo": "/about/eemeli-raninen.webp",
+                    "photoAlt": "Eemeli Raninen",
+                    "paragraphs": [
+                        "I'm Eemeli Raninen, the other founder of tyovuorolista.fi, and I handle customers and sales. I started working for Antti at Jollas Manor in 2021, and after a few twists we founded True Solutions Oy in 2024.",
+                        "I'm also studying International Management and CEMS at Aalto University School of Business. Alongside Työvuorolista I've previously worked in communications and marketing, including at visitsauna.com and Aalto University.",
+                        "Currently I work in the sustainability department of an international chemical industry company in Germany."
+                    ],
+                    "links": [
+                        {
+                            "label": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/eemeli-raninen/"
+                        },
+                        {
+                            "label": "+358 45 126 4460",
+                            "href": "tel:+358451264460"
+                        }
+                    ]
+                }
+            ]
+        },
+        "contact": {
+            "title": "Tyovuorolista.fi contact information",
+            "company": "True Solutions Oy / tyovuorolista.fi",
+            "businessId": "Business ID: 3431534-2",
+            "address": "Juhannuskylänkatu 1 B 6, 33100 Tampere",
+            "sales": "Sales:",
+            "info": "info@tyovuorolista.fi"
+        },
+        "terms": {
+            "title": "Terms of use, privacy policy and refund policy"
+        }
     },
-    "terms": {
-      "title": "Terms of use, privacy policy and refund policy"
+    "common": {
+        "tryFree": "Try Työvuorolista for free"
+    },
+    "notAvailable": {
+        "title": "Content not available",
+        "heading": "This content is not yet translated",
+        "description": "Unfortunately this page is not yet available in English. You can return to the home page or switch language.",
+        "backToHome": "Back to home page"
+    },
+    "notFound": {
+        "title": "Page not found - 404",
+        "heading": "Page not found",
+        "description": "Sorry, the page you're looking for could not be found. It may have been moved or deleted.",
+        "backToHome": "Back to home page",
+        "usefulLinks": "Useful links",
+        "sitemap": "Sitemap",
+        "llms": "llms.txt (index for agents)",
+        "agentInstructions": "Agent instructions",
+        "about": "About us",
+        "contact": "Contact",
+        "privacy": "Privacy policy"
     }
-  },
-  "common": {
-    "tryFree": "Try Työvuorolista for free"
-  },
-  "notAvailable": {
-    "title": "Content not available",
-    "heading": "This content is not yet translated",
-    "description": "Unfortunately this page is not yet available in English. You can return to the home page or switch language.",
-    "backToHome": "Back to home page"
-  },
-  "notFound": {
-    "title": "Page not found - 404",
-    "heading": "Page not found",
-    "description": "Sorry, the page you're looking for could not be found. It may have been moved or deleted.",
-    "backToHome": "Back to home page",
-    "usefulLinks": "Useful links",
-    "sitemap": "Sitemap",
-    "llms": "llms.txt (index for agents)",
-    "agentInstructions": "Agent instructions",
-    "about": "About us",
-    "contact": "Contact",
-    "privacy": "Privacy policy"
-  }
 }

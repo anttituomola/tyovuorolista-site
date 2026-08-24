@@ -1,0 +1,19 @@
+---
+import Button from './Button.astro'
+
+export const OMA_PORTAL_HREF = 'https://app.tyovuorolista.fi/oma'
+export const OMA_PORTAL_HOST_PATH = 'app.tyovuorolista.fi/oma'
+
+const { variant = 'band' } = Astro.props as {
+	variant?: 'band' | 'card'
+}
+---
+
+<section class:list={['tyov-portalEntry', `tyov-portalEntry--${variant}`]}>
+	<div class="tyov-portalEntry__inner">
+		<a class="tyov-portalEntry__url" href={OMA_PORTAL_HREF}>
+			{OMA_PORTAL_HOST_PATH}
+		</a>
+		<Button variant="primary" text="Kirjaudu" href={OMA_PORTAL_HREF} />
+	</div>
+</section>

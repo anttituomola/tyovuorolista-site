@@ -1,0 +1,131 @@
+/* Worker portal entry — feature page + blog */
+
+.tyov-portalEntry--band {
+    box-sizing: border-box;
+    width: auto;
+    margin-inline: calc(50% - 50vw);
+    padding-inline: max(1.25rem, calc(50vw - 50%));
+    padding-block: 2rem;
+    background: #1e4d8c;
+}
+
+.tyov-portalEntry--card {
+    margin: 1.5rem 0 2rem;
+    padding: 1.75rem 1.25rem;
+    background: #1e4d8c;
+    border-radius: 12px;
+}
+
+.tyov-portalEntry__inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.tyov-portalEntry--card .tyov-portalEntry__inner {
+    padding: 0;
+}
+
+.tyov-portalEntry__eyebrow {
+    margin: 0 0 0.45rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #9fd8ef;
+}
+
+.tyov-portalEntry__title {
+    margin: 0 0 0.65rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.tyov-portalEntry__text {
+    margin: 0 auto 1.1rem;
+    max-width: 540px;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.tyov-portalEntry__url {
+    display: block;
+    margin: 0 0 1.35rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: clamp(1.45rem, 5vw, 2.35rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    word-break: break-word;
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
+
+.tyov-portalEntry__url:hover {
+    color: #cfeeff;
+}
+
+.tyov-portalEntry .tyov-btn--primary,
+.tyov-portalEntry .tyov-btn--primary:link,
+.tyov-portalEntry .tyov-btn--primary:visited {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #1e4d8c;
+    font-weight: 700;
+}
+
+.tyov-portalEntry .tyov-btn--primary:hover {
+    filter: none;
+    background-color: #e8f4fb;
+    border-color: #e8f4fb;
+    color: #1e4d8c;
+}
+
+.tyov-portalEntry__note {
+    margin: 1rem 0 0;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.tyov-featureFaq {
+    padding-block: 3rem;
+}
+
+.tyov-featureFaq__list {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.tyov-featureFaq__item {
+    margin: 0 0 1.4rem;
+}
+
+.tyov-featureFaq__item:last-child {
+    margin-bottom: 0;
+}
+
+.tyov-featureFaq__question {
+    margin: 0 0 0.4rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--tummanvihrea);
+}
+
+.tyov-featureFaq__answer {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--harmaa);
+}
+
+.tyov-featureFaq__answer a {
+    color: var(--brand-primary);
+    font-weight: 700;
+}

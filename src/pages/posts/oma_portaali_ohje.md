@@ -2,13 +2,16 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Oma-portaali: työntekijän oma näkymä vuoroihin'
 pubDate: 2026-07-01
-description: 'Ohje Oma-portaalin käyttöön: työntekijä näkee omat julkaistut vuoronsa, ilmoittaa vapaatoiveen ja toteutuneet tunnit sekä ilmoittautuu avoimiin vuoroihin.'
+description: 'Kirjaudu Oma-portaaliin (omaportaali) osoitteessa app.tyovuorolista.fi/oma. Ohje: omat vuorot, vapaatoive, tunti-ilmoitus ja avoimet vuorot.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
     alt: 'Oma-portaalin näkymä, jossa työntekijä näkee omat vuoronsa kalenterissa.'
     layout: phone
 tags: ["päivitykset", "työntekijät", "julkaisu", "tuntien kirjaus"]
+showOmaPortalEntry: true
+ctaText: Kirjaudu
+ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
 *Päivitetty 11.7.2026: lisätty tuntien ilmoittaminen (tunti-ilmoitus) ja avoimet vuorot.*
@@ -174,7 +177,7 @@ Kun tarjolla on **avoimia vuoroja**, näet etusivulla painikkeen **Avoimia vuoro
 
 ### Myöhemmät kirjautumiset
 
-Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, voit pyytää uuden kirjautumislinkin osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu). Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi.
+Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, pyydä uusi kirjautumislinkki samalta sivulta. Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi. Kirjautumissivu on myös osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu).
 
 <img class="blogPhone" src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" />
 
