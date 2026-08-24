@@ -105,7 +105,7 @@ HRSuunti on kotimainen, erityisesti ravintola-, hoiva- ja apteekkialalle suunnat
 
 ### Excel ja Teams Shifts
 
-Ilmaisia, ja moni pärjää niillä pitkään. Teimme itsekin [ilmaisen Excel/PDF-työvuorolistapohjan](/posts/tyovuorolista_pohja_pdf). Rajat tulevat vastaan, kun listoja pitää muokata kesken jakson, työntekijöiden pitää nähdä vuoronsa puhelimesta, tunnit pitää saada palkanlaskentaan tai TES vaatii lisien ja lepoaikojen seurantaa. Työaikalain vaatima työvuoroluettelo pitää silti laatia ja säilyttää. Pelkkä Teams-näkymä ei sitä korvaa.
+Ilmaisia, ja moni pärjää niillä pitkään. Teimme itsekin [ilmaisen tulostettavan työvuorolistapohjan](/pohja). Rajat tulevat vastaan, kun listoja pitää muokata kesken jakson, työntekijöiden pitää nähdä vuoronsa puhelimesta, tunnit pitää saada palkanlaskentaan tai TES vaatii lisien ja lepoaikojen seurantaa. Työaikalain vaatima työvuoroluettelo pitää silti laatia ja säilyttää. Pelkkä Teams-näkymä ei sitä korvaa.
 
 ## Milloin jokin muu kuin Tyovuorolista.fi on parempi valinta?
 

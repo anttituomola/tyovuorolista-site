@@ -10,68 +10,67 @@ image:
 tags: ["tilaus", "paketti", "hinnoittelu", "maksaminen", "Stripe"]
 ---
 
-Mini-paketti sopii erinomaisesti tutustumiseen ja pienille yrityksille, mutta jos työntekijöitä on enemmän kuin 3, tarvitset laajemman paketin. Tilauksen ostaminen on nopeaa ja helppoa!
+*Päivitetty 24.8.2026: hinnat, pakettien erot ja laskutustavat vastaavat nykyistä tilaus-sivua. Ajantasaiset hinnat ovat aina [hinnoittelusivulla](/hinnoittelu).*
 
-<img src="/blogPostImages/account-management/05-profile-page-mini-plan.png" alt="Profiilisivu Mini-paketilla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+Mini-paketti sopii tutustumiseen ja pienille yrityksille. Jos työntekijöitä on enemmän kuin kolme, tarvitset maksullisen paketin. Tilauksen ostaminen on nopeaa.
 
 ## Miksi päivittää tilaus?
 
-Mini-paketti rajoittuu 3 työntekijään. Jos tarvitset enemmän, valitse suurempi paketti:
+Mini-paketti rajoittuu 3 työntekijään. Maksullisissa paketeissa työntekijäraja nousee, ja saat lisäksi ominaisuudet joita Minissä ei ole.
 
-- **Normi**: enintään 20 työntekijää (12€/kk + alv)
-- **Iso**: enintään 50 työntekijää (42€/kk + alv)
-- **Jätti**: enintään 100 työntekijää (120€/kk + alv)
+Nykyiset hinnat (alv 0 %, laskussa lisätään arvonlisävero):
 
-Kaikki paketit sisältävät samat ominaisuudet. Ainoa ero on työntekijöiden enimmäismäärä.
+- **Normi**: enintään 20 työntekijää — **18 €/kk** tai **144 €/vuosi**
+- **Iso**: enintään 50 työntekijää — **60 €/kk** tai **504 €/vuosi**
+- **Jätti**: enintään 100 työntekijää — **180 €/kk** tai **1440 €/vuosi**
+
+Vuosilaskutuksessa maksat 8 kuukauden hinnan ja saat 4 kuukautta mukaan.
+
+Kaikissa paketeissa, myös Minissä, on **TES-apuri** (varoitukset, saldot ja vuosivapaaseuranta), rajattomasti listoja ja tiimejä sekä asiakastuki. **Normi-, Iso- ja Jätti**-paketeissa saat lisäksi [Oma-portaalin](/posts/oma_portaali_ohje), [avoimet vuorot](/posts/avoimet_vuorot_ohje), [palkkaraportin](/posts/palkkaraportti_ominaisuus) TES-luokitteluineen ja sähköposti-ilmoitukset työntekijöille. Työntekijäraja on ainoa ero maksullisten pakettien välillä.
 
 ## Tilauksen ostaminen: näin se toimii
 
-### 1. Siirry asetuksiin
+### 1. Siirry tilaus-sivulle
 
 1. Kirjaudu sisään sovellukseen
-2. Klikkaa **"HALLINTA"**-painiketta yläreunan navigaatiosta
-3. Valitse **"Asetukset"**
+2. Avaa yläreunan navigaatiosta **Hallinta**
+3. Valitse **Tilaus**
 
-### 2. Valitse sopiva paketti
+### 2. Valitse laskutustapa ja paketti
 
-Asetussivulla näet kaikki saatavilla olevat paketit. Nykyinen pakettisi on merkitty **"Nykyinen"**-merkinnällä.
+Tilaus-sivulla valitset ensin, maksatko **kuukausittain kortilla** vai **vuosittain laskulla**. Nykyinen pakettisi on merkitty **"Nykyinen"**-merkinnällä.
 
 Valitse yrityksellesi sopiva paketti ja klikkaa **"Valitse paketti"** -painiketta.
 
-### 3. Maksa Stripe-kassalla
+### 3. Maksa valitsemallasi tavalla
 
-Sinut ohjataan turvalliseen Stripe-maksupalveluun. Täytä maksutiedot:
+**Kuukausilaskutus** hoituu Stripe-kassalla kortilla. Täytä kortin numero, vanhentumispäivä, CVC ja kortinhaltijan nimi.
 
-- **Kortin numero**: Korttisi numero
-- **Vanhentumispäivä**: Kortin voimassaoloaika (kk/vv)
-- **CVC**: Kortin turvakoodi (3 numeroa)
-- **Kortinhaltijan nimi**: Nimesi
-
-<img src="/blogPostImages/account-management/06-stripe-checkout-page.png" alt="Stripe-maksusivu" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/account-management/06-stripe-checkout-page.png" alt="Stripe-maksusivu kuukausitilaukselle" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 <img src="/blogPostImages/account-management/07-stripe-payment-form-filled.png" alt="Täytetty maksukortti Stripessä" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
-### 4. Maksu onnistui!
+**Vuosilaskutus** ei mene kortilta. Täytät laskutustiedot, ja lasku tulee **e-laskuna tai sähköpostilla**. Lue lisää [vuosilaskutuksesta ja tilaustyypeistä](/posts/vuosilaskutus_ja_tilaustyypit).
 
-Kun maksu on suoritettu:
-- ✅ Näet "Kiitos tilauksesta!" -vahvistusviestin
-- ✅ Tilaus aktivoituu välittömästi
-- ✅ Voit nyt lisätä enemmän työntekijöitä
+### 4. Tilaus aktivoituu heti
 
-<img src="/blogPostImages/account-management/08-payment-success.png" alt="Maksu onnistui -sivu" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+Kun maksu tai tilaus on vahvistettu:
+- Tilaus aktivoituu välittömästi
+- Voit lisätä enemmän työntekijöitä
+- Maksulliset ominaisuudet avautuvat heti
 
 ### 5. Tarkista aktiivinen tilaus
 
-Palatessasi asetuksiin näet aktiivisen tilauksesi "Nykyinen"-merkinnällä. Voit halutessasi hallita tilaustasi tai vaihtaa pakettia.
+Palatessasi tilaus-sivulle näet aktiivisen tilauksesi **"Nykyinen"**-merkinnällä. Voit hallita tilausta tai vaihtaa pakettia samasta näkymästä.
 
-<img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Aktiivinen Normi-tilaus asetussivulla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/account-management/09-profile-with-normi-subscription.png" alt="Aktiivinen Normi-tilaus tilaus-sivulla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
 
 ## Maksutiedot
 
 **Laskutustapa:**
-- Kuukausittainen tai vuosittainen veloitus kortilta
-- Vuosilaskutus myös laskulla (lue lisää [vuosilaskutuksesta ja tilaustyypeistä](/posts/vuosilaskutus_ja_tilaustyypit))
-- Katso [ajankohtaiset hinnat maaliskuusta 2026](/posts/hinnoittelun_uudistus_maaliskuu_2026)
+- Kuukausittain: vain kortilla (Stripe)
+- Vuosittain: vain laskulla (e-lasku tai sähköposti)
+- Ajantasaiset hinnat: [hinnoittelusivu](/hinnoittelu)
 
 **Irtisanominen:**
 - Ei irtisanomisaikaa: [voit peruuttaa milloin vain](/posts/tilauksen_peruuttaminen)
@@ -91,10 +90,10 @@ Voit vaihtaa pakettia koska tahansa:
 
 ## Yhteenveto
 
-Tilauksen ostaminen on helppoa:
-1. Siirry asetuksiin
-2. Valitse paketti
-3. Maksa Stripessä
-4. Aloita käyttö välittömästi
+1. Avaa **Hallinta → Tilaus**
+2. Valitse kuukausi (kortti) tai vuosi (lasku)
+3. Valitse paketti
+4. Vahvista maksu
+5. Aloita käyttö heti
 
-Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi). Maksullisissa paketeissa saat myös [palkkaraportit](/posts/palkkaraportti_ominaisuus). Katso [ajankohtaiset hinnat](/posts/hinnoittelun_uudistus_maaliskuu_2026).
+Tarvitsetko apua? Ota yhteyttä: [tuki@tyovuorolista.fi](mailto:tuki@tyovuorolista.fi).

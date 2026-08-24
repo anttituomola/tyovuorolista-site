@@ -13,12 +13,15 @@ https://claude.ai/code/artifact/9425afb4-b32c-4311-875d-acfea921384b
 - [x] `sahkopostin_toimitusongelmat_varoitus.md` — kuvakansio puuttuu kokonaan
       (`public/blogPostImages/sahkopostin_toimitusongelmat_varoitus/`), hero rikki
       — tehty 24.8.2026: kello + ilmoitukset + julkaisumodaali, kuvat pipelineasta
-- [ ] `osa-aikaisen_sopimustunnit_ja_lisatyon_tarjoaminen.md` — kaksi tyhjää
+- [x] `osa-aikaisen_sopimustunnit_ja_lisatyon_tarjoaminen.md` — kaksi tyhjää
       kuvapaikkaa, postaus päättyy kesken kaksoispisteeseen
-- [ ] `tilauksen_ostaminen.md` — vanhat hinnat 12/42/120 €/kk (nyk. 18/60/180),
+      — tehty 24.8.2026: avoimet-vuorot + sopimustunnit -kuvat, beta-väite poistettu
+- [x] `tilauksen_ostaminen.md` — vanhat hinnat 12/42/120 €/kk (nyk. 18/60/180),
       "kaikki paketit samat ominaisuudet" ei pidä paikkaansa, vuosilaskutus ei mene kortilta
-- [ ] excel_vs + vertailu_2026: 4 linkkiä lupaa "ilmainen Excel/PDF-pohja ilman
+      — tehty 24.8.2026: 18/60/180 + vuosi, Mini vs maksulliset, lasku vs kortti, Hallinta → Tilaus
+- [x] excel_vs + vertailu_2026: 4 linkkiä lupaa "ilmainen Excel/PDF-pohja ilman
       rekisteröitymistä" mutta osoittaa postaukseen jossa ei ole pohjaa → osoita `/pohja`
+      — tehty 24.8.2026: neljä linkkiä → `/pohja`
 
 ## Tarkista faktat (TES/laki auki, sitten korjaus)
 

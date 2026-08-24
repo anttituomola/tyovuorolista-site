@@ -49,11 +49,15 @@ ilmoittautuvat siihen itse. Useampi voi ilmoittautua samaan vuoroon, ja
 sinä valitset tekijän. Lisätyö on näin tarjottu osa-aikaisille reilusti
 ja dokumentoituna, ilman soittokierrosta.
 
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoin-vuoro-luonti.png" alt="Vuoron luonti kalenterissa: työntekijävalikosta valittu Avoin vuoro" />
+<img class="blogPhone" src="/blogPostImages/avoimet-vuorot/avoimet-vuorot-tyontekija.png" alt="Avoin vuoro Oma-portaalissa, jossa työntekijä voi ilmoittautua" />
+</div>
 
-
-Avoimet vuorot on beta-ominaisuus, joka aktivoidaan erikseen. Laita
-viesti ([info@tyovuorolista.fi](mailto:info@tyovuorolista.fi)), niin laitan sen päälle. Lue lisää
-[Oma-portaalin ohjeesta](/posts/oma_portaali_ohje).
+Avoimet vuorot kuuluvat maksullisiin paketteihin yhdessä
+[Oma-portaalin](/posts/oma_portaali_ohje) kanssa. Erillistä aktivointia
+ei tarvita. Mini-tilauksessa ominaisuus ei ole käytössä. Lue lisää
+[avoimien vuorojen ohjeesta](/posts/avoimet_vuorot_ohje).
 
 ## Kiinteä vai keskimääräinen vähimmäistyöaika?
 
@@ -103,7 +107,13 @@ kenttään: [tuntia kuukaudessa, viikossa tai kolmiviikkoisjaksossa](/posts/tyot
 Sama luku ohjaa kalenterin tuntitavoitetta ("tunteja jäljellä") ja
 TES-tuen lisä- ja ylityörajoja:
 
+<img src="/blogPostImages/tyotunnit-tyosopimuksessa/tyontekijat-sopimustunnit.png" alt="Työntekijät-taulukko, jossa Sopimustunnit-sarakkeessa näkyy osa-aikaisten tuntimäärät (90h/3vk, 150h/kk)" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
+Työntekijät-taulukossa näet koko henkilöstön sopimustunnit yhdellä
+silmäyksellä. Osa-aikaisella TES-tuki käyttää samaa lukua
+lisätyörajan laskentaan: esimerkiksi MaRa:ssa 90 h/3 vk -sopimuksella
+tunnit 90:stä ylöspäin ovat
+[lisätyötä](/posts/lisatyo_ja_ylityo_ravintola-alalla).
 
 ---
 

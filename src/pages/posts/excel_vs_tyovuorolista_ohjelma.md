@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Excel vs työvuorolista-ohjelma: milloin taulukko riittää ja milloin ei?'
 pubDate: 2026-08-03
 reviewedDate: 2026-08-03
-description: 'Rehellinen vertailu: milloin työvuorolistan tekeminen Excelissä on ihan hyvä ratkaisu, mitä se oikeasti maksaa ja missä kohtaa työvuorolista-ohjelma alkaa säästää aikaa ja hermoja. Mukana ilmainen Excel/PDF-pohja.'
+description: 'Rehellinen vertailu: milloin työvuorolistan tekeminen Excelissä on ihan hyvä ratkaisu, mitä se oikeasti maksaa ja missä kohtaa työvuorolista-ohjelma alkaa säästää aikaa ja hermoja. Mukana ilmainen tulostettava pohja.'
 infoBasis: 'Perustuu voimassa olevaan työaikalakiin (872/2019, erityisesti 30 ja 32 §) sekä kokemuksiimme pienyrityksistä, jotka ovat siirtyneet Excelistä ohjelmaan. Kirjoittajan oma ohjelma Tyovuorolista.fi on yksi vertailtavista vaihtoehdoista. Kerromme myös, milloin Excel on parempi valinta.'
 ctaText: 'Kokeile ilmaiseksi, ei luottokorttia'
 ctaHref: 'https://app.tyovuorolista.fi/register'
@@ -18,7 +18,7 @@ Suurin osa Suomen pienyrityksistä tekee työvuorolistansa Excelissä, Google Sh
 
 ## Milloin Excel riittää oikein hyvin
 
-Pysy Excelissä (tai ota [ilmainen pohjamme](/posts/tyovuorolista_pohja_pdf)), jos useimmat näistä pätevät:
+Pysy Excelissä (tai ota [ilmainen pohjamme](/pohja)), jos useimmat näistä pätevät:
 
 - Työntekijöitä on **alle viisi** ja vuorot toistuvat viikosta toiseen lähes samanlaisina.
 - Lista **ei juuri muutu** julkaisun jälkeen, ei sairauspoissaolojen paikkailua eikä vuoronvaihtoja kesken jakson.
@@ -60,7 +60,7 @@ Jos kulutat listojen pyörittämiseen 1–2 tuntia viikossa ja työtuntisi arvo 
 
 ## Rehellinen suositus
 
-- **Alle 4 työntekijää:** et tarvitse edes maksullista ohjelmaa. Tyovuorolista.fi:n Mini-paketti on pysyvästi ilmainen 3 työntekijään asti (TES-tulkintoineen), ja jos haluat pysyä taulukossa, [ilmainen Excel/PDF-pohjamme](/posts/tyovuorolista_pohja_pdf) on vapaasti käytettävissä ilman rekisteröitymistä.
+- **Alle 4 työntekijää:** et tarvitse edes maksullista ohjelmaa. Tyovuorolista.fi:n Mini-paketti on pysyvästi ilmainen 3 työntekijään asti (TES-tulkintoineen), ja jos haluat pysyä taulukossa, [ilmainen tulostettava pohjamme](/pohja) on vapaasti käytettävissä ilman rekisteröitymistä.
 - **5–20 työntekijää, vuorot elävät, TES seurattavana:** tässä kohtaa ohjelma alkaa maksaa itsensä takaisin ajassa, virheissä ja mielenrauhassa. Kokeile ensin ilmaiseksi ja katso, katoaako sunnuntai-illan listastressi.
 - **Microsoft 365 -talo, jolle riittää vuorojen jakaminen:** myös Teams Shifts ratkaisee jakeluongelman ilmaiseksi, mutta ei TES-tulkintaa, palkka-aineistoa eikä työaikakirjanpitoa. Jos ne eivät ole sinulle ongelmia, sekin on kelpo valinta.
 
@@ -76,7 +76,7 @@ On, kunhan se täyttää työaikalain vaatimukset ja työaikakirjanpito hoidetaa
 Kun listan pyörittäminen vie yli tunnin viikossa, muutoksia tulee kesken jakson, työntekijät kysyvät vuorojaan viestillä tai TES-lisien laskenta alkaa mennä käsityöksi. Nyrkkisääntö: jos lista stressaa sunnuntaisin, työkalu on väärä.
 
 **Mistä saa ilmaisen työvuorolistapohjan?**
-[Täältä. Excel- ja PDF-pohja ilman rekisteröitymistä](/posts/tyovuorolista_pohja_pdf). Se on aidosti ilmainen; toivomme toki, että muistat meidät, kun pohja alkaa käydä pieneksi.
+[Täältä. Täytä pohja selaimessa, tulosta tai tallenna PDF, ilman rekisteröitymistä](/pohja). Se on aidosti ilmainen; toivomme toki, että muistat meidät, kun pohja alkaa käydä pieneksi.
 
 ---
 
