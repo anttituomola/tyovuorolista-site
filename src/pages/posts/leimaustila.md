@@ -10,6 +10,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
 ---
 
+*Päivitetty 29.8.2026: leimaustilassa avoin luonnosvuoro saa valitun työntekijän heti. Ohje: [pikavalinta](/posts/pikavalinta).*
+
 Työvuorolistan täyttäminen tietokoneella on ollut raahausta sivupalkista ruudukkoon, tai klikkaus, joka avaa luonti-ikkunan. Molemmat toimivat edelleen. **Leimaustila** on kolmas tapa: valitset työntekijän kerran ja klikkaat kellonaikoja. Vuoro syntyy heti, pituutena työntekijän (tai tiimin) oletus.
 
 Sama logiikka kuin raahauksessa, ilman raahausta. Viikon vuorot yhdelle ihmiselle syntyvät muutamalla klikkauksella.
@@ -46,7 +48,7 @@ Päiväkohtaisen tapahtuman (muistiinpanon) lisääminen ei onnistu leimaustilan
 
 - Vuoroja voi leimata vain **julkaisemattomalle** listalle. Julkaistussa kalenterissa leimasinkuvaketta ei ole.
 - Jos klikkaat päällekkäin saman työntekijän olemassa olevan vuoron kanssa, vuoroa ei luoda. Näet ilmoituksen ja voit klikata toiseen kohtaan.
-- Olemassa olevan vuoron voi edelleen avata klikkaamalla. Raahaus toimii kuten ennen.
+- Olemassa olevan vuoron voi edelleen avata klikkaamalla. Poikkeus: avoin luonnosvuoro saa valitun työntekijän heti — sama anto kuin [pikavalinnassa](/posts/pikavalinta). Raahaus toimii kuten ennen.
 - Toistuvuus, muistiinpanot, resurssi ja muut kentät ovat luonti-ikkunassa. Avaa se klikkaamalla ruudukkoa ilman leimaustilaa.
 
 Muut tavat: [näin lisäät työvuoroja kalenteriin](/posts/vuorojen_lisaminen_kalenteriin). Kopiointi: [ALT + raahaus](/posts/tyovuoron_kopiointi_alt_raahaus).

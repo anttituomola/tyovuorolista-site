@@ -12,6 +12,8 @@ tags: ["työvuorolista", "ohjeet", "työvuorot", "kalenteri", "aloittaminen"]
 
 *Päivitetty 18.8.2026: tietokoneella voit täyttää vuorot myös leimaustilalla (valitse työntekijä, klikkaa ruudukkoa). Puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
 
+*Päivitetty 29.8.2026: jos lista toistuu muodoltaan, kopioi malline avoimiksi vuoroiksi ja anna tekijä [pikavalinnasta](/posts/pikavalinta).*
+
 Työvuorolistan täyttäminen tapahtuu **Suunnittele**-näkymässä. Tietokoneella vasemmalla on työntekijät, keskellä kalenteri valitulle listalle. Puhelimessa näet yhden päivän kortteina. Kun lista on vielä julkaisematon, voit lisätä vuoroja vapaasti. Julkaisun jälkeen muokkaus on lukittu.
 
 Tässä oppaassa tietokoneen tavat: **leimaustila**, **raahaus**, **klikkaus** ja **toistuvuus**. Puhelimessa käytät plus-painikkeen pikaluontia. Valitse tapa tilanteen mukaan; voit yhdistellä niitä saman listan aikana.
@@ -23,6 +25,7 @@ Tässä oppaassa tietokoneen tavat: **leimaustila**, **raahaus**, **klikkaus** j
 | Tapa | Parhaiten kun… | Laitteet |
 |------|----------------|----------|
 | **Leimaustila** | Täytät yhden työntekijän viikon oletuspituudella | Tietokone |
+| **Malline avoimina vuoroina** | Runko kopioituu, tekijän annat klikkaamalla | Tietokone |
 | **Raahaa työntekijä** | Tiedät heti kenen ja mihin aikaan | Tietokone |
 | **Klikkaa kalenteria** | Haluat tarkat ajat luonti-ikkunassa | Tietokone |
 | **Plus-painike (pikaluonti)** | Nopea vuoron tai vapaan lisäys | Mobiili |
@@ -37,6 +40,8 @@ Lisäksi voit **kopioida** olemassa olevan vuoron Alt/Option + raahauksella. Lue
 Nopein tapa täyttää yhden työntekijän viikko oletuspituudella: laita leimaustila päälle sivupalkin leimasinkuvakkeesta, valitse työntekijä ja klikkaa kellonaikoja. Vuoro syntyy heti, ilman raahausta tai luonti-ikkunaa. Vapaa/X merkitään klikkaamalla **Vapaa / tapahtuma** -riviä.
 
 Koko ohje: [Leimaustila](/posts/leimaustila).
+
+Jos lista toistuu muodoltaan mutta tekijät vaihtuvat, kopioi malline avoimiksi vuoroiksi ja anna tekijä klikkaamalla. Koko ohje: [Pikavalinta](/posts/pikavalinta).
 
 ---
 

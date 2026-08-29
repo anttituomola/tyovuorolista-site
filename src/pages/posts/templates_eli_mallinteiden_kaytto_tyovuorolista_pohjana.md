@@ -9,6 +9,8 @@ image:
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
+*Päivitetty 29.8.2026: mallineen voi kopioida myös ilman työntekijöitä, avoimiksi vuoroiksi. Ohje: [pikavalinta](/posts/pikavalinta).*
+
 Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista (julkaistu tai julkaisematon) voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan pohjana.
 
 Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana. Lue lisää [tiimien luomisesta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu).
@@ -25,6 +27,7 @@ Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolista
 
 1. Valitse päävalikosta **Uusi lista**
 2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta))
+3. Jos runko toistuu mutta tekijät vaihtuvat, rastita **Kopioi vuorot ilman työntekijöitä (avoimiksi vuoroiksi)**. Vuorot tulevat harmaiksi luonnoksiksi, ja tekijän antaa [pikavalinnasta](/posts/pikavalinta).
 
 ### Ohjevideo
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>

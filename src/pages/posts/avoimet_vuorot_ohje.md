@@ -11,6 +11,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'työntekijät', 'ohjeet']
 ---
 
+*Päivitetty 29.8.2026: avointa luonnosta voi käyttää myös suunnittelun paikkamerkkinä. Malline kopioidaan ilman tekijöitä ja tekijä annetaan [pikavalinnasta](/posts/pikavalinta). Julkaisu työntekijöille haettavaksi on edelleen erillinen toimenpide.*
+
 **Avoin vuoro** on työvuoro, jolle ei ole vielä valittu tekijää. Sinä suunnittelet vuoron, julkaiset sen työntekijöille, ja halukkaat **ilmoittautuvat** siihen Oma-portaalissa. Lopuksi valitset ilmoittautuneista sopivimman, ja vuoro siirtyy hänen nimiinsä.
 
 Avoimet vuorot sopivat esimerkiksi näihin tilanteisiin:
@@ -36,7 +38,7 @@ Avoimelle vuorolle voi lisätä [osaamisvaatimuksen](/posts/tyontekijoiden_osaam
 
 ### 2. Julkaise avoimet vuorot työntekijöille
 
-Luotu avoin vuoro on aluksi vain sinun nähtävissäsi. Kun haluat tarjota sitä työntekijöille, julkaise se:
+Luotu avoin vuoro on aluksi vain sinun nähtävissäsi. Voit antaa sen suoraan [pikavalinnasta](/posts/pikavalinta) tai pitää sen paikkamerkkinä, kunnes tiedät tekijän. Kun haluat tarjota sitä työntekijöille haettavaksi, julkaise se:
 
 - **Koko listan avoimet vuorot kerralla:** Julkaise-näkymässä on painike **Julkaise avoimet vuorot**. Tämä on eri asia kuin listan julkaisu: voit tarjota avoimia vuoroja jo ennen kuin lista on julkaistu, ja perua julkaisun samasta paikasta.
 - **Yksittäinen vuoro:** avaa avoin vuoro kalenterista ja paina **Julkaise työntekijöille**.
