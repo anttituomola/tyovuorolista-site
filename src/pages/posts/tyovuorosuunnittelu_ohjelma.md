@@ -83,6 +83,8 @@ suunnittelun aikana esimerkiksi:
   tuntia)](/posts/lepoaika_tyovuorojen_valissa)
 - täyttyvätkö jakson tunnit ja vapaapäivät ([TES-tuki tekee tämän
   automaattisesti](/posts/tes_tuki_tyovuorosuunnittelussa))
+- miten tunnit ja vuorot jakautuvat työntekijöiden kesken
+  ([tasapuolinen työvuorosuunnittelu](/posts/tasapuolinen_tyovuorosuunnittelu))
 
 Muut kriteerit, joita kannattaa vaatia:
 

@@ -122,7 +122,9 @@ tarjottu.
 ## Tasapuolisuus todistetaan numeroilla
 
 Keskustelu vuorojen reiluudesta muuttuu mututuntumasta faktaksi vasta,
-kun tunnit näkyvät työntekijöittäin. Sovelluksen Hallinta-näkymä laskee
+kun tunnit näkyvät työntekijöittäin. Excelissä tämä on käsityötä, mutta
+[työvuorosuunnitteluohjelma](/posts/tyovuorosuunnittelu_ohjelma) tekee
+sen automaattisesti. Sovelluksen Hallinta-näkymä laskee
 jokaisen työntekijän jakson työtunnit, lisät ja vapaat valmiiksi:
 
 <img src="/blogPostImages/tes-tuki/tes-jakson-tunnit.png" alt="Hallintanäkymä, jossa kolmen työntekijän jakson työtunnit, lisät ja vuosivapaat näkyvät omissa korteissaan" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />

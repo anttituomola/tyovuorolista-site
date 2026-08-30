@@ -24,6 +24,8 @@ ctaHref: https://app.tyovuorolista.fi/oma
 
 *Päivitetty 24.8.2026: avoimen vuoron voi luoda myös puhelimella.*
 
+*Päivitetty 30.8.2026: työntekijä ei voi enää jättää vapaatoivetta päiville, jotka kuuluvat jo julkaistuun työvuorolistaan.*
+
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
@@ -63,7 +65,7 @@ Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaess
 
 ### 4. Vapaatoiveet kalenterissa
 
-Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin, se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen.
+Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin, se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen. Työntekijä voi jättää toiveen vain päiville, jotka **eivät** kuulu jo julkaistuun työvuorolistaan.
 
 <img src="/blogPostImages/oma-portaali/vapaatoive-kalenteri.png" alt="Kalenteri, jossa työntekijän vapaatoive näkyy suunnittelumerkintänä" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -144,7 +146,7 @@ Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](h
 - Voit lisätä valinnaisen lyhyen muistiinpanon (esim. *"Häät viikonloppuna"*).
 - Vapaatoive **ei korvaa** lomaa eikä lomatoivetta, eikä se poista julkaistuja vuoroja.
 - Vapaatoive **ei näy** omien vuorojen aikajanalla, se on erillisellä sivulla.
-- Et voi ilmoittaa vapaatoivetta päivälle, jolla sinulla on jo **julkaistu työvuoro**.
+- Et voi ilmoittaa vapaatoivetta päivälle, joka kuuluu jo **julkaistuun työvuorolistaan**. Silloin lista on lukittu, ja muutos menee esihenkilön kautta.
 
 Esihenkilö näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä** sen. Hyväksytyt päivät ilmestyvät työvuorolistaan V- ja X-merkintöinä; hylätty toive poistuu Oma-portaalin vapaatoivesivulta. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
 
