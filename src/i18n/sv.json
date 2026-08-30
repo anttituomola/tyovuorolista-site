@@ -413,6 +413,10 @@
                 "title": "PDF-mall från appen",
                 "shortDescription": "Skapa och dela ett PDF-arbetsschema direkt från tjänsten."
             },
+            "tyoajanseuranta-xlsx": {
+                "title": "Excel-mall för tidsuppföljning",
+                "shortDescription": "Gratis timlista som räknar timmar, raster och nattskift automatiskt."
+            },
             "getting-started": {
                 "title": "Kom igång",
                 "shortDescription": "Steg-för-steg-guide till ditt första schema."

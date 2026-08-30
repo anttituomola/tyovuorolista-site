@@ -12,7 +12,7 @@ tags: ["tuntien kirjaus", "työtunnit", "palkkaraportti", "sairasloma", "hallint
 
 Kun työvuorolista on suunniteltu ja julkaistu, seuraava askel on usein toteutuneiden tuntien kirjaaminen. **Tuntien kirjaus** -näkymässä näet valitsemiesi työntekijöiden vuorot valitulla ajanjaksolla, voit merkitä toteutuneet aloitus- ja lopetusajat, käsitellä sairaslomat ja luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) suoraan samasta näkymästä.
 
-Tämä opas kattaa työpöytäversion peruskäytön. Mobiilissa sama näkymä toimii, mutta taulukko esitetään korttilistana.
+Tämä opas kattaa työpöytäversion peruskäytön. Mobiilissa sama näkymä toimii, mutta taulukko esitetään korttilistana. Jos kirjaat tunteja vielä taulukolla, katso myös [ilmainen työajanseurannan Excel-pohja](/posts/tyoajanseuranta_excel_pohja).
 
 ## Näkymään pääsy
 

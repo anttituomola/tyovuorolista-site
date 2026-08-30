@@ -220,6 +220,12 @@ export const resources: ResourceItem[] = [
     blogSlug: '/posts/tyovuorolista_pohja_pdf',
   },
   {
+    id: 'tyoajanseuranta-xlsx',
+    section: 'templates',
+    type: 'template',
+    blogSlug: '/posts/tyoajanseuranta_excel_pohja',
+  },
+  {
     id: 'getting-started',
     section: 'guides',
     type: 'guide',
@@ -299,6 +305,7 @@ export const resourceImages: Record<string, string> = {
   'pohja-printable': '/blogPostImages/pohja-tulostettava/pohja-esimerkki.png',
   'pohja-oo': '/blogPostImages/tyovuorolista_pohja.png',
   'pohja-pdf': '/blogPostImages/tyovuorolista_pohja_pdf/publish-view.png',
+  'tyoajanseuranta-xlsx': '/blogPostImages/tyoajanseuranta-pohja/tuntilista-pohja.png',
   'getting-started': '/blogPostImages/aloitus_opas/aloitus-checklist.png',
   'hours-guide': '/blogPostImages/tuntien_kirjaus_opas/yleiskuva.png',
   'scheduling-software': '/blogPostImages/tyovuorolista_hero.png',

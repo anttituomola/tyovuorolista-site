@@ -413,6 +413,10 @@
                 "title": "PDF template from the app",
                 "shortDescription": "Create and share a PDF shift schedule from the service."
             },
+            "tyoajanseuranta-xlsx": {
+                "title": "Time-tracking Excel template",
+                "shortDescription": "Free timesheet that calculates hours, breaks and night shifts automatically."
+            },
             "getting-started": {
                 "title": "Getting started",
                 "shortDescription": "Step-by-step guide to creating your first schedule."

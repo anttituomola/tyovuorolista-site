@@ -418,6 +418,10 @@
                 "title": "PDF-pohja sovelluksesta",
                 "shortDescription": "Luo ja jaa PDF-työvuorolista suoraan palvelusta."
             },
+            "tyoajanseuranta-xlsx": {
+                "title": "Työajanseurannan Excel-pohja",
+                "shortDescription": "Ilmainen tuntilista, joka laskee tunnit, tauot ja yövuorot automaattisesti."
+            },
             "getting-started": {
                 "title": "Näin pääset alkuun",
                 "shortDescription": "Vaiheittainen opas ensimmäisen listan tekoon."
