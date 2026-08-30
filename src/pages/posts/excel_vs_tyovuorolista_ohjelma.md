@@ -36,7 +36,7 @@ Nämä viisi asiaa toistuvat lähes jokaisessa tarinassa, jonka kuulemme Excelis
 2. **Muutokset kesken jakson.** Työaikalain 30 §:n mukaan julkaistua työvuoroluetteloa saa muuttaa vain työntekijän suostumuksella tai töiden järjestelyihin liittyvästä painavasta syystä, ja muutoksesta pitää saada tieto perille. Excelissä tämä tarkoittaa uutta tiedostoa ja uutta viestiketjua joka kerta.
 3. **TES-säännöt.** Iltalisät, sunnuntaityö, arkipyhät, lepoajat, jaksotyön ylityörajat. Taulukko ei varoita, kun lista rikkoo työehtosopimusta. Virheet huomataan palkanmaksussa tai luottamusmiehen yhteydenotossa.
 4. **Tuntien siirto palkanlaskentaan.** Suunnitellut vuorot ovat taulukossa, mutta toteutuneet tunnit lisineen naputellaan käsin palkanlaskijalle tai tilitoimistolle. Sama data syötetään kahdesti, ja välissä syntyy virheitä.
-5. **Työaikakirjanpito.** Työaikalain 32 § velvoittaa pitämään kirjaa toteutuneista työajoista, ylitöistä ja lisistä. Excel-listassa on yleensä vain suunnitelma. Kirjanpito toteumista jää tekemättä. Tämä ei ole muodollisuus: valmisteilla on jopa [10 000 euron laiminlyöntimaksu työvuoroluettelon ja työaikakirjanpidon puutteista](/posts/laiminlyontimaksu_tyovuoroluettelosta_ja_tyoaikakirjanpidosta).
+5. **Työaikakirjanpito.** Työaikalain 32 § velvoittaa pitämään kirjaa toteutuneista työajoista, ylitöistä ja lisistä. Excel-listassa on yleensä vain suunnitelma. Kirjanpito toteumista jää tekemättä; siihen pääsee alkuun [ilmaisella työajanseurannan pohjalla](/posts/tyoajanseuranta_excel_pohja). Tämä ei ole muodollisuus: valmisteilla on jopa [10 000 euron laiminlyöntimaksu työvuoroluettelon ja työaikakirjanpidon puutteista](/posts/laiminlyontimaksu_tyovuoroluettelosta_ja_tyoaikakirjanpidosta).
 
 ## Mitä Excel oikeasti maksaa
 

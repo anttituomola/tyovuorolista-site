@@ -56,7 +56,9 @@ Kolme asiaa, jotka jo nyt kuuluvat työnantajan velvollisuuksiin:
    ajanjakson alkua; TES voi olla tiukempi, esim. MaRa ja kaupan ala).
 2. **Työaikakirjanpito:** toteutuneet työajat, ylityöt ja lisät pitää
    olla kirjattuina niin, että niitä voi tarvittaessa näyttää
-   viranomaiselle ja työntekijälle.
+   viranomaiselle ja työntekijälle. Jos kirjanpitoa ei vielä ole,
+   pääset alkuun [ilmaisella työajanseurannan
+   Excel-pohjalla](/posts/tyoajanseuranta_excel_pohja).
 3. **Vuosilomakirjanpito:** lomat on merkittävä ja pidettävä
    ajan tasalla.
 

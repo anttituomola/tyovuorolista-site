@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työajanseuranta Excelissä: lataa ilmainen tuntilistapohja'
-pubDate: 2026-08-30
+pubDate: 2026-08-31
 description: 'Lataa ilmainen työajanseurannan Excel-pohja: tuntilista, joka laskee tunnit, tauot ja yövuorot automaattisesti ja vertaa toteumaa sopimustunteihin. Lisäksi: mitä työaikalaki vaatii työaikakirjanpidolta.'
 reviewedDate: 2026-08-30
 infoBasis: 'Pohja tehty ja testattu elokuussa 2026 (Excel ja LibreOffice). Lakiviittaukset perustuvat työaikalakiin 872/2019 (30 § työvuoroluettelo ja 32 § työaikakirjanpito).'
