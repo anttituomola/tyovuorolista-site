@@ -27,6 +27,7 @@ const carePath = getLocalizedPath('/hoivakodit-ja-palveluasuminen', locale as 'f
     <h3>{t('footer.copyright', locale as 'fi' | 'en' | 'sv')} | {currentYear}</h3>
     <div class='footerLinks'>
         <p><a href={featuresPath}>{t('footer.links.features', locale as 'fi' | 'en' | 'sv')}</a></p>
+        {locale === 'fi' && <p><a href="/tyovuorosuunnittelu-ohjelma">Työvuorosuunnitteluohjelma</a></p>}
         <p><a href={resourcesPath}>{t('footer.links.resources', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={aboutPath}>{t('footer.links.about', locale as 'fi' | 'en' | 'sv')}</a></p>
         <p><a href={blogPath}>{t('footer.links.blog', locale as 'fi' | 'en' | 'sv')}</a></p>

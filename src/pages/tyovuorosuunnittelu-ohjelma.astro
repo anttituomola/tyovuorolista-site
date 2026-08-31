@@ -1,0 +1,411 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+
+const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+        {
+            '@type': 'Question',
+            name: 'Mikä on paras työvuorosuunnitteluohjelma pienelle yritykselle?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Paras ohjelma pienelle yritykselle tuntee suomalaisen työaikalain ja työehtosopimukset, näyttää hinnat julkisesti ja on käytössä ilman demopuheluita. Tyovuorolista.fi täyttää kaikki kolme: TES-apuri kuuluu kaikkiin paketteihin ja tilin voi luoda verkossa viidessä minuutissa.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Onko olemassa ilmaista työvuorosuunnitteluohjelmaa?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'On. Tyovuorolista.fi:n Mini-paketti on ilmainen enintään kolmen työntekijän listoille ilman aikarajaa. Lisäksi tulostettavan työvuorolistapohjan voi täyttää selaimessa ilman rekisteröitymistä.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Paljonko työvuorosuunnitteluohjelma maksaa?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Tyovuorolista.fi maksaa 0 € (enintään 3 työntekijää), 18 €/kk (20 työntekijää), 60 €/kk (50 työntekijää) tai 180 €/kk (100 työntekijää). Moni kilpailija hinnoittelee työntekijäkohtaisesti, jolloin 15 hengen tiimin lista maksaa helposti yli 100 €/kk.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Miten pääsen alkuun?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Luo tili verkossa, lisää työntekijät ja raahaa vuorot kalenteriin. Ensimmäinen lista on julkaistu työntekijöille noin viidessä minuutissa. Demopuheluita tai tarjouspyyntöjä ei tarvita.'
+            }
+        }
+    ]
+}
+---
+
+<Layout
+    title="Työvuorosuunnitteluohjelma pk-yritykselle | tyovuorolista.fi"
+    description="Kotimainen työvuorosuunnitteluohjelma: TES-apuri, julkaisu sähköpostilla ja tuntien kirjaus. Ilmainen 3 työntekijälle, isommille alkaen 18 €/kk. Kokeile heti!"
+    ogTitle="Työvuorosuunnitteluohjelma pk-yritykselle"
+    ogDescription="Suunnittele vuorot raahaamalla, julkaise sähköpostilla ja anna TES-apurin vahtia lepoaikoja ja lisiä. Julkiset hinnat, käyttöön viidessä minuutissa."
+    ogUrl="https://tyovuorolista.fi/tyovuorosuunnittelu-ohjelma"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(faqJsonLd)} />
+    <div class="landing-wrapper">
+        <div class="hero-section">
+            <h1>Työvuorosuunnitteluohjelma pk-yritykselle</h1>
+            <p class="hero-subtitle">Tyovuorolista.fi on kotimainen työvuorosuunnitteluohjelma ravintoloille, myymälöille, hoivakodeille ja muille pk-yrityksille. Vuorot suunnitellaan raahaamalla kalenteriin, ja valmis lista lähtee työntekijöille sähköpostilla yhdellä napilla.</p>
+            <p class="hero-cta"><em>Ensimmäinen lista valmiina ja työntekijöillä alle viidessä minuutissa.</em></p>
+
+            <div class="video-container">
+                <video controls preload="metadata" poster="/blogPostImages/tes-apuri-demo-poster.png">
+                    <source src="/blogPostImages/tes-apuri-demo.webm" type="video/webm" />
+                    <source src="/blogPostImages/tes-apuri-demo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="problem-solution">
+                <h2>Miksi ohjelma Excelin tai paperin sijaan?</h2>
+                <ul>
+                    <li>Excelissä suurin osa ajasta kuluu taulukon vääntämiseen. Ohjelmassa aika menee itse suunnitteluun, ja tuntien laskenta hoituu automaattisesti. Pidempi vertailu: <a href="/posts/excel_vs_tyovuorolista_ohjelma">Excel vs. työvuorolistaohjelma</a>.</li>
+                    <li>Työaikalaki vaatii työvuoroluettelon viikoksi kerrallaan, ja moni TES kiristää aikatauluja. Ohjelma muistaa <a href="/posts/tyovuorolistan_julkaiseminen">julkaisun määräajat</a> puolestasi.</li>
+                    <li>Toteutuneet tunnit kirjataan samaan järjestelmään, josta saat <a href="/posts/palkkaraportti_ominaisuus">palkkaraportin</a> suoraan palkanlaskentaan.</li>
+                </ul>
+            </div>
+
+            <div class="key-features">
+                <h2>Avainominaisuudet</h2>
+                <ul>
+                    <li>Drag-and-drop-kalenteri ja mallipohjat toistuville viikoille.</li>
+                    <li>Julkaisu sähköpostilla tai PDF:nä parilla klikkauksella.</li>
+                    <li>TES-apuri (beta) kaikissa paketeissa: varoitukset lepoajoista, ylitöistä ja lisistä.</li>
+                    <li>Tuntien kirjaus ja palkkaraportti palkanlaskentaan.</li>
+                    <li>Oma-portaali: työntekijä näkee vuoronsa, jättää vapaatoiveet ja ilmoittaa tunnit.</li>
+                    <li>Toimii selaimessa ja puhelimella, ei asennuksia.</li>
+                </ul>
+            </div>
+
+            <div class="tes-section">
+                <h2>TES-apuri erottaa kotimaisen ohjelman ulkomaisesta</h2>
+                <p>Työvuorosuunnittelun säännöt tulevat työaikalaista ja alasi työehtosopimuksesta. Ulkomainen ohjelma ei niitä tunne. Tyovuorolista.fi:n TES-apuri (beta) tarkistaa listan suunnittelun aikana: vuorokausi- ja viikkolepo, vuorojen pituudet, jakson tunnit sekä sunnuntai-, ilta- ja aattolisät. Tuettuina ovat MaRa, Kaupan ala, SOSTES ja KiPa. Apuri varoittaa mutta ei koskaan estä, koska arki on arkea.</p>
+                <p>Lue lisää:</p>
+                <ul class="tes-links">
+                    <li><a href="/posts/tes_tuki_tyovuorosuunnittelussa">TES-tuki työvuorosuunnittelussa</a></li>
+                    <li><a href="/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa">Työaikalain perusteet työvuorosuunnittelussa</a></li>
+                    <li><a href="/posts/tasapuolinen_tyovuorosuunnittelu">Tasapuolinen työvuorosuunnittelu</a></li>
+                    <li><a href="/posts/tyovuorosuunnittelu_ohjelma">Valintaopas: hinnat ja vaihtoehdot 2026</a></li>
+                    <li><a href="/posts/tyovuorosuunnitteluohjelmien_vertailu_2026">Työvuorosuunnitteluohjelmien vertailu 2026</a></li>
+                </ul>
+                <div class="tes-section__media">
+                    <img src="/blogPostImages/kaupan-tes/kaupan-varoitukset-kalenterissa.png" alt="Työvuorosuunnitteluohjelman kalenterinäkymä TES-varoituksella" loading="lazy" width="1200" height="675" />
+                </div>
+            </div>
+
+            <div class="free-options">
+                <h2>Ilmainen työvuorosuunnittelu: kolme tapaa aloittaa</h2>
+                <ul>
+                    <li><a href="/pohja">Tulostettava pohja selaimessa</a>: täytä nimet ja vuorot, tulosta tai tallenna PDF. Ei rekisteröitymistä.</li>
+                    <li><a href="/posts/tyovuorolista_pohja">Ilmainen taulukkopohja</a>: laskee tunnit automaattisesti, vaatii hieman säätöä.</li>
+                    <li>Mini-paketti: ohjelman käyttö on ilmaista enintään kolmen työntekijän listoille, ilman aikarajaa.</li>
+                </ul>
+            </div>
+
+            <div class="industries">
+                <h2>Ratkaisut eri aloille</h2>
+                <ul class="tes-links">
+                    <li><a href="/ravintolat-ja-kahvilat">Ravintolat ja kahvilat</a>: kolmiviikkoisjaksot ja MaRa-TES:n vuororajat</li>
+                    <li><a href="/kaupan-ala">Kaupan ala</a>: tasoittumisjärjestelmä ja kahden viikon julkaisusääntö</li>
+                    <li><a href="/hoivakodit-ja-palveluasuminen">Hoivakodit ja palveluasuminen</a>: jaksotyö ja SOSTES:n vapaapäiväsäännöt</li>
+                    <li><a href="/siivous-ja-kiinteistopalvelut">Siivous- ja kiinteistöpalvelut</a>: useat kohteet ja vaihtelevat tunnit</li>
+                    <li><a href="/taksiyritykset-ja-kuljetus">Taksiyritykset ja kuljetus</a>: ajo- ja lepoaikojen yhteensovitus</li>
+                    <li><a href="/tapahtumat-ja-sesonkityo">Tapahtumat ja sesonkityö</a>: nopeasti vaihtuvat miehitykset</li>
+                </ul>
+            </div>
+
+            <div class="testimonial">
+                <h2>Asiakkaiden kokemuksia</h2>
+                <blockquote>
+                    "Työvuorolistojen tekemisestä on tullut todella helppo… Listat tulee valmiiksi nopeasti ja ne lähetetään jokaisen työntekijän sähköpostiin."
+                    <cite>– <strong>Anita Lindov, Velj. Kitola Oy</strong></cite>
+                </blockquote>
+            </div>
+
+            <div class="pricing">
+                <h2>Julkinen hinnoittelu, ei demopuheluita</h2>
+                <div class="pricing-tiers">
+                    <div class="tier">
+                        <h3>0 €</h3>
+                        <p>3 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>18 €</h3>
+                        <p>20 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>60 €</h3>
+                        <p>50 työntekijää</p>
+                    </div>
+                    <div class="tier">
+                        <h3>180 €</h3>
+                        <p>100 työntekijää (+ alv)</p>
+                    </div>
+                </div>
+                <p class="pricing-note">Hinta on tilikohtainen, ei työntekijäkohtainen. Katso <a href="/hinnoittelu">ajankohtaiset hinnat ja paketit</a>.</p>
+            </div>
+
+            <div class="faq">
+                <h2>Usein kysytyt kysymykset</h2>
+                <h3>Mikä on paras työvuorosuunnitteluohjelma pienelle yritykselle?</h3>
+                <p>Paras ohjelma pienelle yritykselle tuntee suomalaisen työaikalain ja työehtosopimukset, näyttää hinnat julkisesti ja on käytössä ilman demopuheluita. Tyovuorolista.fi täyttää kaikki kolme: TES-apuri kuuluu kaikkiin paketteihin ja tilin voi luoda verkossa viidessä minuutissa. Pidempi <a href="/posts/tyovuorosuunnittelu_ohjelma">valintaopas</a> käy kriteerit läpi tarkemmin.</p>
+                <h3>Onko olemassa ilmaista työvuorosuunnitteluohjelmaa?</h3>
+                <p>On. Mini-paketti on ilmainen enintään kolmen työntekijän listoille ilman aikarajaa. Lisäksi <a href="/pohja">tulostettavan pohjan</a> voi täyttää selaimessa ilman rekisteröitymistä.</p>
+                <h3>Paljonko työvuorosuunnitteluohjelma maksaa?</h3>
+                <p>Tyovuorolista.fi maksaa 0, 18, 60 tai 180 €/kk tilin koon mukaan. Moni kilpailija hinnoittelee työntekijäkohtaisesti, jolloin 15 hengen tiimin lista maksaa helposti yli 100 €/kk. Hintoja voi verrata <a href="/posts/tyovuorosuunnitteluohjelmien_vertailu_2026">vertailussa</a>.</p>
+                <h3>Miten pääsen alkuun?</h3>
+                <p><a href="/posts/uuden_tilin_luominen">Luo tili verkossa</a>, lisää työntekijät ja raahaa vuorot kalenteriin. Ensimmäinen lista on julkaistu työntekijöille noin viidessä minuutissa.</p>
+            </div>
+
+            <div class="cta-section">
+                <Button
+                    text="Kokeile Työvuorolistaa ilmaiseksi"
+                    variant="primary"
+                    href="https://app.tyovuorolista.fi/register"
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .landing-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-base);
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-bottom: 1px solid var(--vaaleanharmaa);
+        margin-bottom: var(--space-4xl);
+    }
+
+    h1 {
+        font-size: var(--text-4xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-xl);
+        font-weight: 600;
+    }
+
+    .hero-subtitle {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin-bottom: var(--space-lg);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-cta {
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-4xl);
+    }
+
+    .video-container {
+        margin: 0 auto;
+        max-width: 800px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4xl);
+    }
+
+    h2 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-lg);
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: var(--space-sm) 0;
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        position: relative;
+        padding-left: var(--space-lg);
+    }
+
+    li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--tummanvihrea);
+        font-weight: bold;
+    }
+
+    .tes-links li::before {
+        content: "→";
+    }
+
+    a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .testimonial {
+        background-color: var(--vaaleanharmaa);
+        padding: var(--space-4xl);
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    blockquote {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+        font-style: italic;
+    }
+
+    cite {
+        display: block;
+        margin-top: var(--space-lg);
+        font-size: var(--text-base);
+        color: var(--tummanvihrea);
+        font-style: normal;
+    }
+
+    .pricing-tiers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-lg);
+    }
+
+    .tier {
+        background-color: white;
+        border: 1px solid var(--vaaleanharmaa);
+        border-radius: 8px;
+        padding: var(--space-xl);
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .tier:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .tier h3 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin: 0 0 var(--space-sm) 0;
+        font-weight: 600;
+    }
+
+    .tier p {
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .pricing-note {
+        margin-top: var(--space-lg);
+        font-size: var(--text-base);
+        color: var(--harmaa);
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    .tes-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .tes-section p,
+    .free-options p,
+    .faq p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0;
+    }
+
+    .tes-section__media {
+        margin-top: var(--space-base);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .tes-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .faq h3 {
+        font-size: var(--text-lg);
+        color: var(--tummanvihrea);
+        margin: var(--space-xl) 0 var(--space-sm) 0;
+        font-weight: 600;
+    }
+
+    .faq p {
+        margin-bottom: var(--space-base);
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: var(--text-3xl);
+        }
+
+        .hero-subtitle {
+            font-size: var(--text-base);
+        }
+
+        .video-container {
+            max-width: 100%;
+        }
+
+        .content-section {
+            gap: var(--space-2xl);
+        }
+
+        .testimonial {
+            padding: var(--space-2xl);
+        }
+
+        .pricing-tiers {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

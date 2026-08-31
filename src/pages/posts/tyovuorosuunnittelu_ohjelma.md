@@ -18,7 +18,8 @@ säästää edes tunnin verran työvoimakuluja kuukaudessa tai tunnin omaa aikaa
 Valitse kotimainen ohjelma, joka ymmärtää suomalaista työaikalakia ja
 TES:iä, ja jonka hinnat ovat julkisesti näkyvillä. Ilmaiseksi pääsee
 alkuun [tulostettavalla pohjalla](/pohja) tai Työvuorolistan
-Mini-paketilla (enintään 3 työntekijää).
+Mini-paketilla (enintään 3 työntekijää). Katso myös tiivis esittely:
+[työvuorosuunnitteluohjelma pk-yritykselle](/tyovuorosuunnittelu-ohjelma).
 
 Työvuorolistan tekeminen ei ole vapaaehtoista: työaikalain mukaan
 jokaiselle työpaikalle on laadittava työvuoroluettelo vähintään viikoksi

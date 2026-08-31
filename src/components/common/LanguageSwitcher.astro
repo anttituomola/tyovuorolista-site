@@ -15,7 +15,7 @@ const current = languages.find((lang) => lang.code === locale) ?? languages[0]
 
 // Note: '/ominaisuudet/' with trailing slash matches only the Finnish-only
 // feature subpages — the parent '/ominaisuudet' has en/sv versions.
-const finnishOnlyPaths = ['/posts/', '/blogitekstit', '/ominaisuudet/', '/pohja', '/register', '/404']
+const finnishOnlyPaths = ['/posts/', '/blogitekstit', '/ominaisuudet/', '/pohja', '/register', '/404', '/tyovuorosuunnittelu-ohjelma']
 
 const isFinnishOnlyContent = (path: string) => {
   return finnishOnlyPaths.some((p) => path.startsWith(p) || path === p)
