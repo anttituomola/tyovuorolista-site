@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Työvuorolista, pohja: paras (ilmainen) pohja ravintolan työvuorolistalle'
+title: 'Työvuorolista pohja Exceliin ja OpenOfficeen: paras ilmainen taulukkopohja'
 pubDate: 2022-07-11
-description: 'Olen eläessäni nähnyt tasan yhden hyvän ilmaispohjan ravintolan työvuorolistalle, ja se on tämä.'
+description: 'Paras ilmainen taulukkopohja työvuorolistalle: laskee tunnit ja vapaat automaattisesti. Ohjeet käyttöön OpenOfficessa ja Excelissä, plus helpompi vaihtoehto suoraan selaimessa.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_pohja.png'
@@ -40,6 +40,17 @@ Asetukset-välilehden vasemmassa ylälaidassa on "Aloitus pvm" -kohta. Laita sii
 
 ### Valmista tuli!
 Tämän jälkeen voit alkaa läimiä työvuoroja paikoilleen. Taulukko laskee automaattisesti työntekijöiden työtunnit, vapaat ja sen sellaiset.
+
+## Työvuorosuunnittelu Excelissä
+
+Sama pohja toimii myös Excel-käyttäjälle: .ods-tiedoston voi avata
+Excelissä ja LibreOfficessa. Jos haluat rakentaa oman taulukon tyhjästä,
+punnitse ensin kokonaistyömäärä: [Excel vs.
+työvuorolistaohjelma](/posts/excel_vs_tyovuorolista_ohjelma) käy läpi,
+mihin taulukko riittää ja missä se alkaa maksaa aikaa. Toteutuneiden
+tuntien kirjaamiseen on erillinen [työajanseurannan
+Excel-pohja](/posts/tyoajanseuranta_excel_pohja), ja tulostettavan
+listan saat heti selaimesta: [työvuorolista pohja](/pohja).
 
 ## Haluatko helpomman tavan?
 Tyovuorolista.fi-palvelu tarjoaa selaimessa toimivan työvuorolistan teon, jossa työntekijöitä raahataan kalenteriin halutulle kohdalle. Työvuorojen pituuksia voi säädellä yhtä lailla raahaamalla, työvuoroon voi liittää kommentteja, ja työntekijöiden työvuorot voi jakaa heille [sähköpostitse tai PDF:nä](/posts/tyovuorolista_pohja_pdf) tai vaikkapa WhatsAppilla.

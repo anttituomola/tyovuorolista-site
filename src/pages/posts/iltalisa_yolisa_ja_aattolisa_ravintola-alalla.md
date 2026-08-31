@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Iltalisä, yölisä ja aattolisä ravintola-alalla: pikaopas'
+title: 'Iltalisä, yölisä ja aattolisä ravintola-alalla 2026: euromäärät'
 pubDate: 2026-07-22
-description: 'MaRa-TES:n iltalisä on 1,40 €/h klo 18–24 ja yölisä 2,37 €/h klo 24–06. Joka päivä, myös lauantaina. Aattoina klo 15 jälkeen palkka ja iltalisä maksetaan 50 % korotettuna, sunnuntaisin ja pyhinä lisät tuplaantuvat.'
+description: 'Iltalisä ravintola-alalla on 1,40 €/h (klo 18–24) ja yölisä 2,37 €/h (klo 24–06) vuonna 2026, joka päivä myös lauantaina. Aattoina klo 15 jälkeen palkka ja iltalisä +50 %, sunnuntaisin ja pyhinä lisät tuplana.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimukseen (matkailu-, ravintola- ja vapaa-ajan palveluita koskeva työntekijöiden työehtosopimus); lisien euromäärät 1.9.2025 alkaen. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Laske ilta-, yö- ja aattolisät automaattisesti'

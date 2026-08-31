@@ -89,6 +89,15 @@ käytännössä [V- ja X-päivät](/posts/tyovuorolista_lyhenteet), kaupan
 alalla ja jaksotyössä omat vapaapäiväjärjestelmänsä. Lain kokonaiskuva:
 [työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa).
 
+## Entä tauot työvuoron aikana?
+
+Vuorokausilepo koskee vuorojen väliä, ei vuoron sisäisiä taukoja. Niistä
+säätää työaikalain 24 §: jos vuorokautinen työaika on yli kuusi tuntia,
+työntekijälle on annettava **vähintään tunnin tauko**, josta voidaan
+sopia lyhyemmin, kuitenkin **vähintään 30 minuuttia**. Moni TES tarkentaa
+tätä omilla säännöillään: ravintola-alan käytäntö on käyty läpi
+[ruokataukopostauksessa](/posts/ruokatauko_ravintola-alalla).
+
 ## Sovellus laskee lepoajat puolestasi
 
 Tyovuorolista.fi:n [TES-tuki](/posts/tes_tuki_tyovuorosuunnittelussa)

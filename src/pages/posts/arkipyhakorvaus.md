@@ -116,6 +116,12 @@ lyhentää mutta juhannusaatto ei, SOSTES:ssa ja KipaTES:ssä taas
 juhannusaatto on arkipyhälistalla. Tarkista siis aina oman TES:n
 luettelo, älä naapurialan.
 
+Pyhien ja aattojen lisien euromäärät on koottu omiin oppaisiinsa:
+[kaupan alan työaikalisät 2026](/posts/kaupan_alan_tyoaikalisat_2026),
+[ravintola-alan ilta-, yö- ja aattolisät](/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla)
+ja koko kaupan sopimuksen kokonaiskuva:
+[kaupan alan TES työvuorosuunnittelussa](/posts/kaupan_alan_tes_tyovuorosuunnittelussa).
+
 Julkisella sektorilla (KVTES/HYVTES) ja teollisuudessa on omat
 järjestelmänsä, joita tämä kirjoitus ei kata: kunta-alalla arkipyhäviikon
 työaika lyhenee ja teollisuudessa maksetaan erillisiä
