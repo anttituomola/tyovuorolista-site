@@ -10,11 +10,20 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
 ---
 
+*Päivitetty 31.8.2026: ohjevideo.*
+
 Joillain työpaikoilla lista toistuu muodoltaan: samat avaus- ja iltavuorot, joskus samoilla muistiinpanoilla, mutta tekijät vaihtuvat listasta toiseen. Aiemmin malline kopioi myös työntekijät, ja nimet piti vaihtaa yksi kerrallaan.
 
 Nyt voit kopioida mallineen **avoimiksi vuoroiksi** ja antaa tekijän klikkaamalla. Klikkaus avaa pikavalinnan vuoron kohdalle.
 
 Pikavalinta on tietokoneen kalenterissa. Puhelimessa avoimen vuoron tekijä valitaan edelleen vuoroikkunasta.
+
+Videossa: uusi lista mallineesta ilman työntekijöitä, avoimet luonnokset kalenterissa ja tekijän anto.
+
+<video controls preload="metadata" poster="/blogPostImages/pikavalinta/pikavalinta-demo-poster.png" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+  <source src="/blogPostImages/pikavalinta/pikavalinta-demo.webm" type="video/webm" />
+  <source src="/blogPostImages/pikavalinta/pikavalinta-demo.mp4" type="video/mp4" />
+</video>
 
 <img src="/blogPostImages/pikavalinta/hero.png" alt="Pikavalinta auki torstain avausvuorossa: työntekijät ja jäljellä olevat tunnit" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 

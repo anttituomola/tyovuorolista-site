@@ -9,7 +9,8 @@ image:
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
-*Päivitetty 29.8.2026: mallineen voi kopioida myös ilman työntekijöitä, avoimiksi vuoroiksi. Ohje: [pikavalinta](/posts/pikavalinta).*
+*Päivitetty 31.8.2026: ohjevideo mallineesta avoimiksi vuoroiksi.*
+*Päivitetty 29.8.2026: mallineen voi kopioida myös ilman työntekijöitä. Ohje: [pikavalinta](/posts/pikavalinta).*
 
 Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista (julkaistu tai julkaisematon) voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan pohjana.
 
@@ -29,7 +30,14 @@ Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolista
 2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta))
 3. Jos runko toistuu mutta tekijät vaihtuvat, rastita **Kopioi vuorot ilman työntekijöitä (avoimiksi vuoroiksi)**. Vuorot tulevat harmaiksi luonnoksiksi, ja tekijän antaa [pikavalinnasta](/posts/pikavalinta).
 
-### Ohjevideo
+Videossa: malline avoimiksi vuoroiksi ja tekijän anto kalenterissa.
+
+<video controls preload="metadata" poster="/blogPostImages/pikavalinta/pikavalinta-demo-poster.png" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+  <source src="/blogPostImages/pikavalinta/pikavalinta-demo.webm" type="video/webm" />
+  <source src="/blogPostImages/pikavalinta/pikavalinta-demo.mp4" type="video/mp4" />
+</video>
+
+### Ohjevideo: mallineen tallennus
 <video controls autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="100%" poster='/blogPostImages/tyovuorolista_hero.png'>
   <source src="/blogPostImages/mallineen_kaytto.mp4" type="video/mp4">
 </video>
