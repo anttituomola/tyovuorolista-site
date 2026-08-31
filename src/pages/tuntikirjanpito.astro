@@ -1,0 +1,286 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+
+const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+        {
+            '@type': 'Question',
+            name: 'Onko tuntikirjanpito pakollinen?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'On. Työaikalain 32 §:n mukaan työnantajan on pidettävä työaikakirjanpitoa: tehdyt tunnit ja niistä maksetut korvaukset kirjataan työntekijöittäin. Velvollisuus koskee myös kuukausipalkkaisia. Puutteista voi seurata laiminlyöntimaksu.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Kelpaako Excel tuntikirjanpitoon?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Kelpaa. Laki ei määrää kirjanpidon muotoa, joten paperi, Excel tai sovellus käyvät kaikki, kunhan tunnit ja korvaukset kirjataan työntekijöittäin ja kirjanpito säilytetään vähintään kanneajan päättymiseen asti. Tältä sivulta saat ilmaisen Excel-pohjan.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Mikä ero on työvuoroluettelolla ja työaikakirjanpidolla?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Työvuoroluettelo on etukäteen tehtävä suunnitelma tulevista vuoroista, ja se on annettava työntekijöille tiedoksi viimeistään viikkoa ennen jakson alkua. Työaikakirjanpito taas kirjaa jälkikäteen toteutuneet tunnit ja korvaukset. Molemmat ovat työnantajalle pakollisia.'
+            }
+        },
+        {
+            '@type': 'Question',
+            name: 'Mitä sähköinen tuntikirjanpito maksaa?',
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Tyovuorolista.fi:ssä tuntien kirjaus ja palkkaraportti sisältyvät kaikkiin paketteihin. Käyttö on ilmaista enintään kolmen työntekijän listoille, isommille tileille hinta on 18–180 €/kk tilin koon mukaan, ei työntekijäkohtaisia maksuja.'
+            }
+        }
+    ]
+}
+---
+
+<Layout
+    title="Tuntikirjanpito: ilmainen pohja ja sähköinen kirjaus | tyovuorolista.fi"
+    description="Tuntikirjanpito on työnantajan lakisääteinen velvollisuus. Lataa ilmainen Excel-tuntilista tai kirjaa tunnit sähköisesti: leimaus, oma-portaali ja TES-lisät laskeva palkkaraportti."
+    ogTitle="Tuntikirjanpito: ilmainen pohja ja sähköinen kirjaus"
+    ogDescription="Lataa ilmainen työajanseurannan Excel-pohja tai hoida tuntikirjanpito sähköisesti samassa paikassa työvuorolistan kanssa."
+    ogUrl="https://tyovuorolista.fi/tuntikirjanpito"
+    ogImage="https://tyovuorolista.fi/assets/metaImage.png"
+>
+    <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(faqJsonLd)} />
+    <div class="landing-wrapper">
+        <div class="hero-section">
+            <h1>Tuntikirjanpito kuntoon: ilmainen pohja tai sähköinen kirjaus</h1>
+            <p class="hero-subtitle">Tehtyjen työtuntien kirjaaminen on työnantajan lakisääteinen velvollisuus (työaikalaki 32 §). Hoida se joko ilmaisella Excel-pohjalla tai suoraan samassa sovelluksessa, jossa työvuorolistakin tehdään.</p>
+
+            <div class="download-box">
+                <strong><a href="/lataukset/tyoajanseuranta_pohja.xlsx">Lataa ilmainen tuntilistapohja (.xlsx)</a></strong>
+                <p>Ei sähköpostia, ei makroja. Toimii Excelissä, LibreOfficessa ja Google Sheetsissä.</p>
+            </div>
+
+            <div class="hero-media">
+                <img src="/blogPostImages/tyoajanseuranta-pohja/tuntilista-pohja.png" alt="Excel-tuntilistapohja, jossa vuorojen ajat, tauot ja automaattisesti lasketut tunnit" width="1200" height="675" />
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="law-section">
+                <h2>Mitä laki vaatii tuntikirjanpidolta?</h2>
+                <p>Työaikalain 32 §:n mukaan työnantajan on pidettävä <strong>työaikakirjanpitoa</strong>: tehdyt työtunnit ja niistä suoritetut korvaukset kirjataan työntekijöittäin, ja kirjanpito säilytetään vähintään kanneajan päättymiseen asti. Velvollisuus koskee myös kuukausipalkkaisia. Puutteellisesta kirjanpidosta voi seurata <a href="/posts/laiminlyontimaksu_tyovuoroluettelosta_ja_tyoaikakirjanpidosta">laiminlyöntimaksu</a>, ja riitatilanteessa kirjanpidon puuttuminen kääntyy helposti työnantajaa vastaan.</p>
+                <p>Tuntikirjanpito ja työvuoroluettelo ovat kaksi eri dokumenttia: luettelo on <a href="/posts/tyovuorolistan_julkaiseminen">etukäteen julkaistava suunnitelma</a>, kirjanpito jälkikäteen kirjattu toteuma. Muoto on vapaa, joten paperi, Excel ja sovellus kelpaavat kaikki.</p>
+            </div>
+
+            <div class="template-section">
+                <h2>Ilmainen Excel-pohja tuntikirjanpitoon</h2>
+                <ul>
+                    <li>Laskee päivän tunnit tauko vähennettynä, myös yön yli menevät vuorot.</li>
+                    <li>Täyttää päivämäärät ja viikonpäivät automaattisesti, kun syötät vuoden ja kuukauden.</li>
+                    <li>Summaa kuukauden ja vertaa toteumaa sopimustunteihin.</li>
+                    <li>Merkintäsarake sairauslomille, vuosilomille ja arkipyhille.</li>
+                </ul>
+                <p>Käyttöohjeet ja pohjan rajoitukset on käyty läpi tarkemmin postauksessa <a href="/posts/tyoajanseuranta_excel_pohja">työajanseuranta Excelissä</a>. Vuorojen suunnitteluun tarkoitettu pohja löytyy erikseen: <a href="/pohja">tulostettava työvuorolistapohja</a>.</p>
+            </div>
+
+            <div class="app-section">
+                <h2>Sähköinen tuntikirjanpito samassa paikassa kuin työvuorolista</h2>
+                <p>Excel riittää parille työntekijälle. Isommalla porukalla tunnit syötetään käsin moneen kertaan ja TES-lisät lasketaan laskimella. Tyovuorolista.fi:ssä suunnitellut vuorot ovat valmiina tuntikirjauksen pohjana, joten kirjaat vain poikkeamat:</p>
+                <ul>
+                    <li><a href="/posts/tuntien_kirjaus_opas">Tuntien kirjaus</a>: toteutuneet tunnit merkitään suoraan suunniteltujen vuorojen päälle.</li>
+                    <li><a href="/posts/leimaustila">Leimaustila</a>: työntekijät leimaavat vuoron alun ja lopun työpaikan yhteisellä laitteella.</li>
+                    <li><a href="/posts/oma_portaali_ohje">Oma-portaali</a>: työntekijä ilmoittaa tuntinsa omalla puhelimellaan.</li>
+                    <li><a href="/posts/palkkaraportti_ominaisuus">Palkkaraportti</a>: tunnit ja TES:n mukaiset lisät eriteltyinä valmiiksi palkanlaskentaan.</li>
+                </ul>
+                <div class="app-section__media">
+                    <img src="/blogPostImages/tuntien_kirjaus_opas/yleiskuva.png" alt="Tuntien kirjaus -näkymä, jossa toteutuneet tunnit merkitään suunniteltujen vuorojen päälle" loading="lazy" width="1200" height="675" />
+                </div>
+                <p>Käyttö on ilmaista enintään kolmen työntekijän listoille, isommille tileille <a href="/hinnoittelu">18–180 €/kk tilin koon mukaan</a>. Pidempi vertailu: <a href="/posts/excel_vs_tyovuorolista_ohjelma">Excel vs. työvuorolistaohjelma</a>.</p>
+            </div>
+
+            <div class="faq">
+                <h2>Usein kysytyt kysymykset</h2>
+                <h3>Onko tuntikirjanpito pakollinen?</h3>
+                <p>On. Työaikalain 32 §:n mukaan työnantajan on pidettävä työaikakirjanpitoa: tehdyt tunnit ja niistä maksetut korvaukset kirjataan työntekijöittäin. Velvollisuus koskee myös kuukausipalkkaisia.</p>
+                <h3>Kelpaako Excel tuntikirjanpitoon?</h3>
+                <p>Kelpaa. Laki ei määrää kirjanpidon muotoa, kunhan tunnit ja korvaukset kirjataan työntekijöittäin ja kirjanpito säilytetään vähintään kanneajan päättymiseen asti.</p>
+                <h3>Mikä ero on työvuoroluettelolla ja työaikakirjanpidolla?</h3>
+                <p>Työvuoroluettelo on etukäteen tehtävä suunnitelma tulevista vuoroista. Työaikakirjanpito kirjaa jälkikäteen toteutuneet tunnit ja korvaukset. Molemmat ovat pakollisia.</p>
+                <h3>Mitä sähköinen tuntikirjanpito maksaa?</h3>
+                <p>Tuntien kirjaus ja palkkaraportti sisältyvät kaikkiin tyovuorolista.fi:n paketteihin. Enintään kolmen työntekijän listoille käyttö on ilmaista.</p>
+            </div>
+
+            <div class="cta-section">
+                <Button
+                    text="Kokeile sähköistä tuntikirjausta ilmaiseksi"
+                    variant="primary"
+                    href="https://app.tyovuorolista.fi/register"
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .landing-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: var(--space-base);
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-bottom: 1px solid var(--vaaleanharmaa);
+        margin-bottom: var(--space-4xl);
+    }
+
+    h1 {
+        font-size: var(--text-4xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-xl);
+        font-weight: 600;
+    }
+
+    .hero-subtitle {
+        font-size: var(--text-lg);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin-bottom: var(--space-xl);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .download-box {
+        background: rgba(45, 58, 53, 0.06);
+        border-left: 4px solid var(--tummanvihrea);
+        border-radius: 0 4px 4px 0;
+        padding: var(--space-lg) var(--space-xl);
+        max-width: 600px;
+        margin: 0 auto var(--space-2xl) auto;
+        text-align: left;
+    }
+
+    .download-box strong a {
+        font-size: var(--text-lg);
+    }
+
+    .download-box p {
+        margin-top: var(--space-xs);
+        font-size: var(--text-sm);
+        color: var(--harmaa);
+    }
+
+    .hero-media {
+        margin: 0 auto;
+        max-width: 800px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .hero-media img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .content-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4xl);
+    }
+
+    h2 {
+        font-size: var(--text-2xl);
+        color: var(--tummanvihrea);
+        margin-bottom: var(--space-lg);
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: var(--space-sm) 0;
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        position: relative;
+        padding-left: var(--space-lg);
+    }
+
+    li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--tummanvihrea);
+        font-weight: bold;
+    }
+
+    a {
+        color: var(--tummanvihrea);
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .law-section p,
+    .template-section p,
+    .app-section p,
+    .faq p {
+        font-size: var(--text-base);
+        line-height: 1.6;
+        color: var(--harmaa);
+        margin: 0 0 var(--space-base) 0;
+    }
+
+    .app-section__media {
+        margin: var(--space-base) 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        overflow: hidden;
+        max-width: 900px;
+    }
+
+    .app-section__media img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .faq h3 {
+        font-size: var(--text-lg);
+        color: var(--tummanvihrea);
+        margin: var(--space-xl) 0 var(--space-sm) 0;
+        font-weight: 600;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: var(--space-4xl) 0;
+        border-top: 1px solid var(--vaaleanharmaa);
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: var(--text-3xl);
+        }
+
+        .hero-subtitle {
+            font-size: var(--text-base);
+        }
+
+        .hero-media {
+            max-width: 100%;
+        }
+
+        .content-section {
+            gap: var(--space-2xl);
+        }
+    }
+</style>

@@ -75,7 +75,9 @@ Huomaa ero kahden lakisääteisen dokumentin välillä:
 
 Tämän sivun pohja on jälkimmäistä varten. Jos etsit pohjaa vuorojen
 **suunnitteluun**, katso [tulostettava työvuorolistapohja](/pohja) tai
-[työvuorolistan taulukkopohja](/posts/tyovuorolista_pohja).
+[työvuorolistan taulukkopohja](/posts/tyovuorolista_pohja). Tiivis
+yleiskuva velvollisuudesta ja vaihtoehdoista:
+[tuntikirjanpito](/tuntikirjanpito).
 
 Pohja kattaa tunnit, mutta korvausten erittely jää käsityöksi:
 esimerkiksi [sunnuntailisät](/posts/sunnuntailisa_ravintola-alalla) ja

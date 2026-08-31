@@ -85,7 +85,7 @@ Suomalainen, työvuorosuunnittelu edellä rakennettu itsepalveluohjelma alle 100
 
 ### Finago Työvuorovelho ja MaraPlan Pro
 
-Molemmat kuuluvat nykyään Accountor-konsernin Mepcoon. Työvuorovelho on pitkän linjan työvuorosuunnitteluohjelma, MaraPlan Pro erityisesti majoitus- ja ravitsemisalan sekä kaupan ketjuille (Finagon mukaan ~3 000 asiakastoimipaikkaa). Vahvuutena TES-osaaminen ja tilitoimistokytkökset; käyttöönotto tapahtuu myynnin ja projektin kautta, eikä hinnastoa julkaista. Sopii hyvin, jos haluat ohjatun käyttöönoton ja talon, joka hoitaa myös palkkahallinnon järjestelmät.
+Molemmat kuuluvat nykyään Accountor-konsernin Mepcoon. Työvuorovelho on pitkän linjan työvuorosuunnitteluohjelma, MaraPlan Pro erityisesti majoitus- ja ravitsemisalan sekä kaupan ketjuille (Finagon mukaan ~3 000 asiakastoimipaikkaa). Vahvuutena TES-osaaminen ja tilitoimistokytkökset; käyttöönotto tapahtuu myynnin ja projektin kautta, eikä hinnastoa julkaista. Sopii hyvin, jos haluat ohjatun käyttöönoton ja talon, joka hoitaa myös palkkahallinnon järjestelmät. Tarkempi rinnakkainvertailu ja vaihtajan muistilista: [Työvuorovelho-vaihtoehto pienelle yritykselle](/posts/tyovuorovelho_vaihtoehto).
 
 ### Otta
 
