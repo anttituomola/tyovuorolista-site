@@ -21,6 +21,9 @@ sen tilalle tulee **vuosivapaa**, jota kertyy tehdyistä tunneista
 portaittain **200 tunnista yhden päivän vapaaseen, enintään 9 päivään
 vuodessa**.
 
+Miten muut alat hoitavat saman asian ja mitkä päivät ylipäätään ovat
+arkipyhiä: [arkipyhäkorvaus ja arkipyhät 2026–2027](/posts/arkipyhakorvaus).
+
 ## Arkipyhäkorvaus 2026 loppuun: rahaa, ei aikaa
 
 Tuntipalkkainen työntekijä saa korvauksen arkipyhältä, joka **olisi

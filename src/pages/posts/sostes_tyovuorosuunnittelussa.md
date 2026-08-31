@@ -90,6 +90,8 @@ työntekijällä, jonka työsuhde kestää vähintään kaksi viikkoa.
 
 Arkipyhälyhennys vaikuttaa suoraan myös lisä- ja ylityörajoihin, mistä
 lisää [ylityöpostauksessa](/posts/jaksotyon_lisa_ja_ylityo_sostes).
+Muiden alojen mallit ja arkipyhäkalenteri 2026–2027:
+[arkipyhäkorvaus ja arkipyhät](/posts/arkipyhakorvaus).
 
 ## Miten sovellus auttaa?
 

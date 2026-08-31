@@ -21,6 +21,9 @@ tehdyistä tunneista, max 9 pv/v). Valinta on **yritys- tai
 osastotasoinen**, eikä sitä voi vaihtaa kesken kalenterivuoden
 (työaikapöytäkirja “Arkipyhäjärjestelmä” 1. kohta).
 
+Yleiskuva kaikkien palvelualojen arkipyhämalleista ja arkipyhäkalenteri
+2026–2027: [arkipyhäkorvaus ja arkipyhät](/posts/arkipyhakorvaus).
+
 ## Kaksi järjestelmää, yksi valinta
 
 | | Arkipyhäjärjestelmä | Vuosivapaajärjestelmä |

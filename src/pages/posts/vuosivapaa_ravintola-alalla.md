@@ -24,6 +24,8 @@ kalenterivuoden loppuun mennessä.
 
 Vuosivapaa ei ole sama asia kuin vuosiloma. Katso tiivis vertailu:
 [Vuosivapaa vai vuosiloma: mikä ero?](/posts/vuosivapaa_vs_vuosiloma).
+Muiden alojen arkipyhämallit ja arkipyhäkalenteri:
+[arkipyhäkorvaus ja arkipyhät 2026–2027](/posts/arkipyhakorvaus).
 
 ## Miten vuosivapaa kertyy?
 
