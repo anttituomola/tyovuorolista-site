@@ -16,6 +16,11 @@ const futureBlogPostPathnames = getFutureBlogPostPathnames(
 // https://astro.build/config
 export default defineConfig({
   output: "server",
+  build: {
+    // Inline all CSS into the HTML: removes 4 render-blocking requests that
+    // PSI flags as the largest remaining LCP/FCP cost (~600 ms on mobile).
+    inlineStylesheets: "always"
+  },
   adapter: vercel({
     // Vercel Image Optimization: edge-cached and persists across deployments,
     // unlike the default /_image function whose cache purges on every deploy.

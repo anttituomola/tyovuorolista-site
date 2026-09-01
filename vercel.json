@@ -1,5 +1,16 @@
 {
   "regions": ["arn1"],
+  "headers": [
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/posts/ty%C3%B6vuorosuunnittelu_ohjelma",
