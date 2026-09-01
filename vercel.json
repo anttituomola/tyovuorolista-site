@@ -1,4 +1,5 @@
 {
+  "regions": ["arn1"],
   "redirects": [
     {
       "source": "/posts/ty%C3%B6vuorosuunnittelu_ohjelma",

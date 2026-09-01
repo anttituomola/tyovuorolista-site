@@ -16,7 +16,15 @@ const futureBlogPostPathnames = getFutureBlogPostPathnames(
 // https://astro.build/config
 export default defineConfig({
   output: "server",
-  adapter: vercel(),
+  adapter: vercel({
+    // Vercel Image Optimization: edge-cached and persists across deployments,
+    // unlike the default /_image function whose cache purges on every deploy.
+    imageService: true,
+    imagesConfig: {
+      sizes: [80, 160, 320, 600, 750, 1080, 1920],
+      domains: []
+    }
+  }),
   site: 'https://www.tyovuorolista.fi/',
   // Aligns with Layout.astro canonical URLs (no trailing slash); avoids duplicate /path vs /path/.
   trailingSlash: 'never',
