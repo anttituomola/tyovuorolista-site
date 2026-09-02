@@ -10,13 +10,12 @@ image:
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 20.8.2026: samaan Työsuhde-osioon tuli vuosiloman
-ansaintasääntö ja alkusaldo, katso
-[vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
-Päivitetty 21.7.2026: työsuhteen tyyppiin tuli uusi vaihtoehto
-**TES ei koske (yrittäjä, tms.)**, jolla yrittäjä tai muu TES:n
-ulkopuolinen henkilö jätetään TES-hälytysten ja tasoittumislaskennan
-ulkopuolelle.*
+*Päivitetty 2.9.2026: sopimuspalkkaisen esihenkilön ilta- ja yölisät
+voi jättää pois viennistä erillisellä kytkimellä, katso
+[sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa). Se ei ole sama
+kuin TES ei koske. (20.8.: vuosiloman ansaintasääntö ja alkusaldo,
+[kertymän seuranta](/posts/vuosiloman_kertyman_seuranta). 21.7.:
+**TES ei koske (yrittäjä, tms.)**.)*
 
 **Lyhyesti:** [TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa) laskenta
 tarvitsee jokaiselta työntekijältä **työsuhteen tyypin**
@@ -55,7 +54,9 @@ ylityörajat lasketaan eri tavalla:
   Heille ei näytetä TES-hälytyksiä kalenterissa, eikä heitä oteta mukaan
   [tasoittumisjärjestelmän](/posts/tasoittumisjarjestelma_ravintola-alalla)
   saldoihin tai TES-ylityöluokitteluun. Valinta riittää tarkistuslistalle;
-  sopimustunteja ei tarvita.
+  sopimustunteja ei tarvita. Sopimuspalkkainen esihenkilö ei kuulu tähän:
+  hän on TES:n piirissä, ja ilta- ja yölisät jätetään pois viennistä
+  [omalla kytkimellään](/posts/sopimuspalkka_ilta_ja_yolisa).
 
 <img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tyyppi-valikko.png" alt="Työntekijän muokkaus: Työsuhteen tyyppi (TES) -valikko auki, vaihtoehtoina Ei valittu, Kokoaikainen, Osa-aikainen ja TES ei koske (yrittäjä, tms.)" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 

@@ -10,7 +10,7 @@ image:
 tags: ["palkkaraportti", "raportit", "CSV", "PDF", "vienti", "työtuntien laskenta"]
 ---
 
-*Päivitetty 23.7.2026: palkkaraporttiin on lisätty **Procountor-muotoinen palkka-aineisto**. Katso erillinen ohje: [Näin viet palkka-aineiston Procountoriin](/posts/procountor_palkka_vienti).*
+*Päivitetty 2.9.2026: työntekijälle voi merkitä, että [ilta- ja yölisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa). Silloin ne rivit jäävät pois viennistä. (23.7.: palkkaraporttiin tuli [Procountor-muotoinen palkka-aineisto](/posts/procountor_palkka_vienti).)*
 
 Työvuorolista-sovellukseen on nyt lisätty joustava palkkaraportti-ominaisuus, joka mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella.
 

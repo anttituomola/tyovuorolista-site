@@ -10,7 +10,7 @@ image:
 tags: ["työntekijät", "hallinta", "onboarding", "työsopimus", "päivitykset"]
 ---
 
-*Päivitetty 31.7.2026: työntekijän muokkaus on jaettu osioihin (Asetukset, Henkilötiedot, Työsuhde). Tiimit voi asettaa suoraan muokkauksessa, ja poisto on Vaara-alueella.*
+*Päivitetty 2.9.2026: Työsuhde-osioon tuli kytkin [Lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa). (31.7.: muokkaus on jaettu osioihin, tiimit voi asettaa muokkauksessa, poisto on Vaara-alueella.)*
 
 Työntekijät ovat työvuorosuunnittelun perusta. Tässä oppaassa käydään läpi **kaikki tavat lisätä työntekijöitä**, mitä kannattaa tietää nimistä ja sähköposteista, sekä miten muokkaat ja poistat työntekijöitä turvallisesti.
 
@@ -85,7 +85,7 @@ Klikkaa työntekijän riviä **Työntekijät**- tai **Suunnittele**-näkymässä
 
 1. **Asetukset** (auki oletuksena). Tiimit, oletustyövuoron pituus, osaamiset, oletusresurssi ja taustaväri
 2. **Henkilötiedot**: etu- ja sukunimi, sähköposti
-3. **Työsuhde**: työsuhteen päivät, sopimustunnit, henkilönumero ja TES-kentät (kun TES on käytössä)
+3. **Työsuhde**: työsuhteen päivät, sopimustunnit, henkilönumero, [sopimuspalkan lisät](/posts/sopimuspalkka_ilta_ja_yolisa) ja TES-kentät (kun TES on käytössä)
 
 <img src="/blogPostImages/tyontekijoiden_hallinta/muokkaa_asetukset.png" alt="Muokkaa työntekijää: Asetukset-osio auki, tiimit ja oletustyövuoron pituus" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
