@@ -17,14 +17,14 @@ Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **sä
 Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana. Lue lisää [tiimien luomisesta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu).
 
 ## Näin tallennat uuden mallineen
-<img src="/blogPostImages/mallineen_kaytto.png" style="width: 100%;" />
+<img src="/blogPostImages/mallineen_kaytto.png" alt="Hallinta-valikon Työvuorolistat-näkymä, jossa Luo malline -kuvake on listan päivämäärien vieressä" style="width: 100%;" />
 
 1. Mene päävalikosta **Hallinta -> Työvuorolistat**
 2. Klikkaa työvuorolistan päivämäärien vieressä olevaa **Luo malline -kuvaketta**
 3. Anna mallineelle **nimi**, esim. "varaston peruslista"
 
 ## Näin käytät tallentamaasi mallinetta
-<img src="/blogPostImages/mallineen_kaytto_2.png" style="width: 100%;" />
+<img src="/blogPostImages/mallineen_kaytto_2.png" alt="Uuden työvuorolistan luonti tallennetun mallineen pohjalta" style="width: 100%;" />
 
 1. Valitse päävalikosta **Uusi lista**
 2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta))

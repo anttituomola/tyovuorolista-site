@@ -10,7 +10,7 @@ image:
 tags: ["työvuorolista", "ominaisuus", "ohjeet", "työvuorot", "pikatoiminnot"]
 ---
 
-### Kopioi työvuoro nopeasti ALT-näppäimellä
+## Kopioi työvuoro nopeasti ALT-näppäimellä
 
 Nyt voit kopioida olemassa olevan työvuoron nopeasti uudelle päivälle tai ajankohdalle pitämällä **ALT-näppäintä** (tai Macillä **Option-näppäintä**) pohjassa samalla kun raahaat vuoron kalenterissa.
 

@@ -10,11 +10,11 @@ image:
 tags: ["työvuorolista", "ominaisuus", "ohjeet", "työvuorot", "asetukset"]
 ---
 
-### Vuorojen oletuspituuden hallinta
+## Vuorojen oletuspituuden hallinta
 
 Nyt voit räätälöidä uusien työvuorojen oletuspituuden kahdella eri tasolla: tiimikohtaisesti ja työntekijäkohtaisesti.
 
-#### Tiimikohtainen oletuspituus
+### Tiimikohtainen oletuspituus
 
 Tiimin asetuksissa voit määritellä kaikille tiimin työvuoroille oletuspituuden. Tämä on se pituus, joka työvuorolla on oletuksena, kun raahat sen kalenteriin. Oletuspituus vaikuttaa kaikkiin tiimin työntekijöihin, joille ei ole määritelty henkilökohtaista oletuspituutta.
 
@@ -22,7 +22,7 @@ Tiimin asetuksissa voit määritellä kaikille tiimin työvuoroille oletuspituud
 
 Löydät tämän asetuksen tiimin asetuksista kohdasta "Hallinta" -> "Tiimin asetukset" -> "Työvuoron oletuspituus". Lue lisää [tiimien hallinnasta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) ja [4 tunnin minimipituudesta](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).
 
-#### Työntekijäkohtainen oletuspituus
+### Työntekijäkohtainen oletuspituus
 
 Voit myös määritellä jokaiselle työntekijälle henkilökohtaisen oletuspituuden työvuoroille. Tämä asetus ohittaa tiimin yhteisen asetuksen.
 
@@ -37,7 +37,7 @@ Voit asettaa työntekijäkohtaisen oletuspituuden joko:
 - Työntekijää lisätessä kohdassa "Oletustyövuoron pituus"
 - Muokkaamalla työntekijän tietoja: kalenterissa tai Työntekijät-sivulla → **Muokkaa** → **Asetukset** → "Oletustyövuoron pituus"
 
-### Aikaportaat
+## Aikaportaat
 
 Uusi aikaportaat-ominaisuus antaa sinun määritellä, kuinka pieniä aikayksiköitä käytetään työvuorojen muokkaamisessa.
 
@@ -49,7 +49,7 @@ Aikaportaat auttavat pitämään työvuorolistan siistinä ja johdonmukaisena. S
 
 Löydät aikaportaat-asetuksen tiimin asetuksista kohdasta "Tiimin asetukset" -> "Aikaportaat".
 
-### Tiivistetysti
+## Tiivistetysti
 
 - **Tiimikohtainen oletuspituus**: Määrittele koko tiimille yhteinen oletuspituus uusille työvuoroille
 - **Työntekijäkohtainen oletuspituus**: Anna yksittäisille työntekijöille oma oletuspituus, joka ohittaa tiimin asetuksen

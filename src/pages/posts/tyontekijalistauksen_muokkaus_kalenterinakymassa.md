@@ -24,4 +24,4 @@ Työntekijän piilotus ei poista häntä työvuorolistan kuvasta, mutta sielläh
 
 ## Työvuorolistan rivien taustavärit
 Työntekijän on helpompi seurata listaa ja löytää omat vuoronsa, sillä uusimmassa päivityksessä työvuorolistalle tuotiin rivien taustavärit, jotka tulevat työntekijän taustaväristä:
-<img src="/blogPostImages/tyovuorolistan_taustavarit.png" style="width: 100%;" />
+<img src="/blogPostImages/tyovuorolistan_taustavarit.png" alt="Työvuorolista, jossa rivien taustavärit seuraavat työntekijän omaa väriä" style="width: 100%;" />

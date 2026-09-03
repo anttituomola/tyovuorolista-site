@@ -5,7 +5,10 @@ import { getLocaleFromAstro, t } from '../utils/translations'
 const locale = getLocaleFromAstro(Astro)
 ---
 
-<Layout>
+<Layout
+    title={`${t('pages.terms.title', locale)} | tyovuorolista.fi`}
+    description="Tyovuorolista.fi:n käyttöehdot, tietosuojaseloste ja hyvityskäytännöt yhdellä sivulla."
+>
     <div class='terms-container'>
         <h1>{t('pages.terms.title', locale)}</h1>
 

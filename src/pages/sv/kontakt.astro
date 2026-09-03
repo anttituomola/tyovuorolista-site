@@ -10,7 +10,10 @@ const contactFormTranslations = getTranslationObject('contactForm', locale)
 const contactPage = getTranslationObject('pages.contact', locale)
 ---
 
-<Layout>
+<Layout
+    title={contactPage?.title}
+    description="Kontakta utvecklaren av tyovuorolista.fi: e-post, kontaktformulär och support för schemaläggningsappen."
+>
     <main class="contact-page">
         <Contact
           locale={locale}
