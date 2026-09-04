@@ -145,7 +145,7 @@ const breadcrumbJsonLd = {
             <span aria-hidden="true">·</span>
             <a href="/resurssit">Resurssit ja mallipohjat</a>
         </nav>
-        <div style="margin: 4rem auto 2rem auto">
+        <div class="postCta">
             <Button
                 text={ctaText}
                 variant="primary"
@@ -407,6 +407,12 @@ const breadcrumbJsonLd = {
         border: 1px solid rgba(52, 52, 52, 0.1);
         padding: 0.65rem 0.85rem;
         vertical-align: middle;
+    }
+
+    .postCta {
+        display: flex;
+        justify-content: center;
+        margin: 4rem 0 2rem;
     }
 
     .postHubLinks {

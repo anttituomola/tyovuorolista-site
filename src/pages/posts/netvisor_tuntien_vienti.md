@@ -10,6 +10,8 @@ image:
 tags: ['palkkaraportti', 'Netvisor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
+*Päivitetty 4.9.2026: ennen ensimmäistä testiä integraatio pitää hakea Netvisorissa käyttöoikeusavaimella. Avaimen saat meiltä.*
+
 Jos palkanlaskenta pyörii Netvisorissa, tuntien siirtäminen käsin on turhaa työtä. tyovuorolista.fi lähettää **työtunnit ja lisät suoraan Netvisoriin** rajapintaa pitkin: ei CSV-tiedostoja, ei sisäänlukua. Tunnit ilmestyvät Netvisorin Työajan kirjaukseen ja nousevat sieltä automaattisesti palkanlaskentaan.
 
 Tämä ohje käy asetukset läpi kerran, ja sen jälkeen viennin kuukausirutiinina.
@@ -23,23 +25,31 @@ Tämä ohje käy asetukset läpi kerran, ja sen jälkeen viennin kuukausirutiini
 
 <img src="/blogPostImages/netvisor-vienti/asetukset-palkanlaskenta.png" alt="Asetusten Palkanlaskenta-osio, palkkaohjelmaksi valittu Netvisor" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-### 2. Luo rajapintatunnukset Netvisorissa ja kytke ne
+### 2. Salli integraatio Netvisorissa
+
+Integraatio ei ole vielä Netvisorin Marketplacessa, joten se haetaan räätälöitynä. Siihen tarvitaan käyttöoikeusavain. Laita viesti **info@tyovuorolista.fi**, niin lähetän sen.
+
+1. Avaa Netvisorissa **Yritysvalikko → Rajapintaresurssien käyttöoikeudet**
+2. Valitse **Räätälöidyt integraatiot** ja syötä avain
+3. Salli tyovuorolista.fi:lle palkansaajat, kirjauslajit ja työajan tuonti
+
+Ilman tätä Testaa yhteys ja vienti kaatuvat. Virheviesti kertoo puuttuvan resurssin.
+
+### 3. Luo rajapintatunnukset Netvisorissa ja kytke ne
 
 Vienti tehdään **sinun omilla Netvisor-rajapintatunnuksillasi**. Ne luodaan Netvisorissa minuutissa:
 
 1. Kirjaudu Netvisoriin ja avaa **Yritysvalikko → Ohjelmistorajapintatunnukset**
-2. Paina **Luo uusi rajapintatunnus** — uusi tunnus ilmestyy listan ensimmäiseksi
+2. Paina **Luo uusi rajapintatunnus**. Uusi tunnus ilmestyy listan ensimmäiseksi
 3. Kopioi rivin **käyttäjätunniste** ja **avain**
 
 Syötä sitten tyovuorolista.fi:n Palkanlaskenta-osiossa **y-tunnus, käyttäjätunniste ja avain**, ja paina **Tallenna**. Avainta ei näytetä tallennuksen jälkeen uudelleen, ja se säilytetään salattuna.
 
-Paina lopuksi **Testaa yhteys**. Testi hakee Netvisorin palkansaajat ja näyttää samalla, ketkä työntekijöistäsi täsmäävät niihin henkilönumerolla — ja keneltä numero puuttuu.
+Paina lopuksi **Testaa yhteys**. Testi hakee Netvisorin palkansaajat ja näyttää samalla, ketkä työntekijöistäsi täsmäävät niihin henkilönumerolla, ja keneltä numero puuttuu.
 
 <img src="/blogPostImages/netvisor-vienti/testaa-yhteys.png" alt="Testaa yhteys -tulos: palkansaajat ja työntekijöiden täsmäytys" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Jos testi kertoo, ettei integraatiolla ole oikeutta resurssiin, salli se Netvisorissa kohdassa **Yritysvalikko → Rajapintaresurssien käyttöoikeudet**. Virheviesti kertoo aina, mikä resurssi puuttuu.
-
-### 3. Henkilönumero jokaiselle työntekijälle
+### 4. Henkilönumero jokaiselle työntekijälle
 
 Netvisor tunnistaa tunnit **palkansaajan numerolla**. Sama numero asetetaan molempiin päihin:
 
@@ -48,7 +58,7 @@ Netvisor tunnistaa tunnit **palkansaajan numerolla**. Sama numero asetetaan mole
 
 Ilman numeroa työntekijä ohitetaan viennissä, ja näet siitä ilmoituksen tuloksissa.
 
-### 4. Numeroi kirjauslajit ja kohdista ne
+### 5. Numeroi kirjauslajit ja kohdista ne
 
 Netvisorissa tunnit kohdistuvat **kirjauslajeihin** niiden numerolla. Numero asetetaan Netvisorissa kohdassa **Palkat → Palkanlaskennan asetukset → Kirjauslajit** klikkaamalla kirjauslajin nimeä.
 
