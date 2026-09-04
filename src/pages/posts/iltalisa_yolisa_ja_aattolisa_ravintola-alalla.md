@@ -15,7 +15,7 @@ image:
 tags: ['TES', 'MaRa', 'iltalisä', 'yölisä', 'aattolisä', 'palkanlaskenta', 'ravintola-ala']
 ---
 
-*Päivitetty 2.9.2026: esihenkilön sopimuspalkassa ilta- ja yölisät voi jättää pois palkka-aineistosta. Katso [sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa).*
+*Päivitetty 4.9.2026: esihenkilön sopimuspalkassa TES 21 §:n lisät voi jättää pois palkka-aineistosta. Katso [sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa).*
 
 **Lyhyesti:** MaRa-TES:ssä maksetaan **iltalisää 1,40 €/h klo 18–24** ja
 **yölisää 2,37 €/h klo 24–06** tehdystä työstä. Viikonpäivästä
@@ -79,7 +79,7 @@ viidestä aattopäivästä.
 ## TES-apuri erittelee lisätunnit automaattisesti
 
 <div class="blogPhoneRow">
-<p><a href="/posts/tes_tuki_tyovuorosuunnittelussa">Tyovuorolista.fi:n TES-tuki</a> seuraa tätäkin säädöstä puolestasi: iltalisä- ja yölisätunnit, aattotunnit sekä sunnuntain kahdennetut lisät lasketaan toteutuneista vuoroista ja eritellään omiksi riveikseen <a href="/posts/palkkaraportti_ominaisuus">palkkaraporttiin</a>, esimerkiksi "Iltavuorolisä", "Iltalisä su/pyhä (2×)" ja "Juhannusaattolisä". Sinun ei tarvitse muistaa, kumpi sääntö koskee juhannusaattoa ja kumpi juhannuspäivää. Jos ilta- ja yölisät on sovittu sisältyväksi esihenkilön kuukausipalkkaan, rivit voi jättää pois viennistä: <a href="/posts/sopimuspalkka_ilta_ja_yolisa">sopimuspalkka</a>.</p>
+<p><a href="/posts/tes_tuki_tyovuorosuunnittelussa">Tyovuorolista.fi:n TES-tuki</a> seuraa tätäkin säädöstä puolestasi: iltalisä- ja yölisätunnit, aattotunnit sekä sunnuntain kahdennetut lisät lasketaan toteutuneista vuoroista ja eritellään omiksi riveikseen <a href="/posts/palkkaraportti_ominaisuus">palkkaraporttiin</a>, esimerkiksi "Iltavuorolisä", "Iltalisä su/pyhä (2×)" ja "Juhannusaattolisä". Sinun ei tarvitse muistaa, kumpi sääntö koskee juhannusaattoa ja kumpi juhannuspäivää. Jos esihenkilön kanssa on sovittu TES 21 §:n mukaisesta kiinteästä kuukausikorvauksesta, rivit voi jättää pois viennistä: <a href="/posts/sopimuspalkka_ilta_ja_yolisa">sopimuspalkka</a>.</p>
 <img class="blogPhone" src="/blogPostImages/tes-tuki/vuosivapaa-ja-sunnuntailisat.png" alt="Työntekijäkortti: iltalisä- ja sunnuntailisätunnit eriteltyinä omiksi riveikseen" />
 </div>
 

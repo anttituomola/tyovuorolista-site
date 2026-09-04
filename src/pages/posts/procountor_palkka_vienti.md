@@ -10,7 +10,7 @@ image:
 tags: ['palkkaraportti', 'Procountor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
-*Päivitetty 2.9.2026: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), ilta- ja yölisärivit jäävät pois myös Procountor-aineistosta. (31.7.: henkilönumero löytyy Työsuhde-osiosta.)*
+*Päivitetty 4.9.2026: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois myös Procountor-aineistosta. (2.9.: kytkin tuli käyttöön. 31.7.: henkilönumero löytyy Työsuhde-osiosta.)*
 
 Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. tyovuorolista.fi:stä saat **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
 

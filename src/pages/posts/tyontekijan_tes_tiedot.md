@@ -10,10 +10,11 @@ image:
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 2.9.2026: sopimuspalkkaisen esihenkilön ilta- ja yölisät
+*Päivitetty 4.9.2026: sopimuspalkkaisen esihenkilön TES 21 §:n lisät
 voi jättää pois viennistä erillisellä kytkimellä, katso
 [sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa). Se ei ole sama
-kuin TES ei koske. (20.8.: vuosiloman ansaintasääntö ja alkusaldo,
+kuin TES ei koske. (2.9.: kytkin tuli käyttöön. 20.8.: vuosiloman
+ansaintasääntö ja alkusaldo,
 [kertymän seuranta](/posts/vuosiloman_kertyman_seuranta). 21.7.:
 **TES ei koske (yrittäjä, tms.)**.)*
 
@@ -55,7 +56,7 @@ ylityörajat lasketaan eri tavalla:
   [tasoittumisjärjestelmän](/posts/tasoittumisjarjestelma_ravintola-alalla)
   saldoihin tai TES-ylityöluokitteluun. Valinta riittää tarkistuslistalle;
   sopimustunteja ei tarvita. Sopimuspalkkainen esihenkilö ei kuulu tähän:
-  hän on TES:n piirissä, ja ilta- ja yölisät jätetään pois viennistä
+  hän on TES:n piirissä, ja TES 21 §:n lisät jätetään pois viennistä
   [omalla kytkimellään](/posts/sopimuspalkka_ilta_ja_yolisa).
 
 <img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tyyppi-valikko.png" alt="Työntekijän muokkaus: Työsuhteen tyyppi (TES) -valikko auki, vaihtoehtoina Ei valittu, Kokoaikainen, Osa-aikainen ja TES ei koske (yrittäjä, tms.)" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
