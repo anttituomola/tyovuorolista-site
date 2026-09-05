@@ -10,12 +10,13 @@ image:
 tags: ['palkkaraportti', 'Procountor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
-*Päivitetty 4.9.2026: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois myös Procountor-aineistosta. (2.9.: kytkin tuli käyttöön. 31.7.: henkilönumero löytyy Työsuhde-osiosta.)*
+*Päivitetty 5.9.2026: tyovuorolista.fi on listattu Finago Procountor Storeen. (4.9.: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois myös Procountor-aineistosta. 2.9.: kytkin tuli käyttöön. 31.7.: henkilönumero löytyy Työsuhde-osiosta.)*
 
 Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. tyovuorolista.fi:stä saat **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
 
 Tämä ohje käy läpi asetukset kerran, ja sen jälkeen viennin kuukausirutiinina. Tekninen integraatiokuvaus (tiedostomuoto, kentät, käyttötapaukset):
 [tyovuorolista.fi ↔ Procountor: integraation dokumentaatio](/posts/procountor_integraatio_dokumentaatio).
+Palvelu on myös saatavilla [Finago Procountor Storessa](https://procountor.fi/store/tuotteet/tyovuorolista-fi/).
 
 ## Mitä tarvitset ennen ensimmäistä vientiä
 

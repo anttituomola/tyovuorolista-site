@@ -10,9 +10,10 @@ image:
 tags: ['Procountor', 'integraatio', 'palkka-aineisto', 'dokumentaatio', 'CSV']
 ---
 
-Tämä sivu on **integraation dokumentaatio** Finago Procountor Store
--hakemusta ja käyttöönottoa varten: tekninen yhteensopivuus,
-käyttöönotto tyovuorolista.fi:ssä sekä yleisimmät käyttötapaukset.
+Tämä sivu on **integraation dokumentaatio** tyovuorolista.fi:n ja Finago
+Procountorin yhteensopivuudelle: tekninen rakenne, käyttöönotto
+tyovuorolista.fi:ssä sekä yleisimmät käyttötapaukset. tyovuorolista.fi
+on listattu [Finago Procountor Storeen](https://procountor.fi/store/tuotteet/tyovuorolista-fi/).
 
 Käyttäjäystävällinen askel-askeleelta -ohje (kuvineen):
 [Näin viet palkka-aineiston Procountoriin](/posts/procountor_palkka_vienti).
@@ -146,7 +147,9 @@ tuplaa rivit.
 - Procountorin sisäänluku:
   [help.procountor.fi. Palkka-aineisto](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin)
   · [aineiston sisäänluku yleisesti](https://help.procountor.fi/fi/articles/531566-aineiston-sisaanluku)
+- Store-listaus:
+  [tyovuorolista.fi Finago Procountor Storessa](https://procountor.fi/store/tuotteet/tyovuorolista-fi/)
 
 ---
 
-*Lähteet: [Palkka-aineiston sisäänluku Procountoriin (Procountor Help)](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin); tyovuorolista.fi Procountor-vienti (erittelytietue CSV).*
+*Lähteet: [Palkka-aineiston sisäänluku Procountoriin (Procountor Help)](https://help.procountor.fi/fi/articles/531549-palkka-aineiston-sisaanluku-procountoriin); [tyovuorolista.fi Finago Procountor Storessa](https://procountor.fi/store/tuotteet/tyovuorolista-fi/); tyovuorolista.fi Procountor-vienti (erittelytietue CSV).*
