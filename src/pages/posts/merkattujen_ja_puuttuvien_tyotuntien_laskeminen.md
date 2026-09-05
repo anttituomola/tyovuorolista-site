@@ -22,4 +22,8 @@ Kaikille työntekijöille kannattaa merkitä työsopimuksen tuntimäärä. Täys
 2. Klikkaa Muokkaa työntekijän tietoja -painiketta
 3. Lisää tuntimäärä Työtunnit työsopimuksessa -kenttään ja valitse yksikkö
 
+## Vuosivapaa ja vuosiloma pienentävät tavoitetta
+
+Listalle merkitty [vuosivapaapäivä (VV)](/posts/vuosivapaa_ravintola-alalla) pienentää tavoitetta 7,5 tuntia (MaRa-TES 11 §), ja jokainen [vuosiloman](/posts/vuosiloman_merkkaaminen_tyovuorolistaan) arkipäivä (ma–pe) viidesosan viikkotunneista eli kokoaikaisella 7,5 tuntia (MaRa-TES 27 §). Esimerkki: 112,5 tunnin kolmiviikkoisjaksolla, jolle osuu yksi VV-päivä, tavoite on 105 tuntia. Jos vuoroja on suunniteltu 106 tuntia, sovellus näyttää tunnit täynnä eikä 6,5 tuntia vajaaksi. Vapaat eivät lisäänny työtunteihin, vaan pienentävät tavoitetta, jolloin [lisä- ja ylityölaskenta](/posts/lisatyo_ja_ylityo_ravintola-alalla) pysyy oikeana.
+
 Sovellus skaalaa tavoitteen avoinna olevan listan pituuteen. Lista voi olla [1–4 viikkoa](/posts/listan_pituuden_valinta), joten sama sopimusluku näyttää oikean tavoitteen sekä lyhyellä että pitkällä listalla. Kun tunnit on merkitty, voit luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) valitulta ajanjaksolta.

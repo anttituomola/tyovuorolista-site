@@ -25,7 +25,7 @@ Voit muuttaa loman pituutta raahaamalla sitä alku- tai loppureunasta, tai klikk
 
 Voit myös käyttää sovelluksen [lomasuunnittelu-ominaisuutta](/posts/lomasuunnittelu) helpottamaan lomien hallintaa ja suunnittelua.
 
-Lomamerkintä vaikuttaa myös tunti- ja palkkalaskentaan: jokainen loman arkipäivä (ma-pe) lyhentää [kolmiviikkoisjakson enimmäistyöaikaa](/posts/kolmiviikkoisjakso_ravintola-alalla) 7,5 tunnilla TES:n mukaisesti, ja [tasoittumisjärjestelmää](/posts/tasoittumisjarjestelma_ravintola-alalla) käytettäessä lomapäivät luetaan vastaavasti tuntisaldoon. Siksi lomat kannattaa aina merkitä listaan, vaikka ne olisi sovittu muutenkin.
+Lomamerkintä vaikuttaa myös tunti- ja palkkalaskentaan: jokainen loman arkipäivä (ma-pe) lyhentää [kolmiviikkoisjakson enimmäistyöaikaa](/posts/kolmiviikkoisjakso_ravintola-alalla) 7,5 tunnilla TES:n mukaisesti, ja [tasoittumisjärjestelmää](/posts/tasoittumisjarjestelma_ravintola-alalla) käytettäessä lomapäivät luetaan vastaavasti tuntisaldoon. Myös kalenterin työntekijäkortin tuntitavoite ("h jäljellä") pienenee saman verran, osa-aikaisella suhteessa sopimustunteihin. Siksi lomat kannattaa aina merkitä listaan, vaikka ne olisi sovittu muutenkin.
 
 ## Entä palkattomat vapaat, jotka eivät ole vuosilomaa?
 Osa-aikaisella työntekijällähän päivä voidaan vain jättää tyhjäksi. Tämä on myös hyvää riskien hallintaa: mikäli työntekijä kuitenkin päätyy hommiin päivänä, joka on suunniteltu hänelle palkattomana vapaana, on merkkaamaton päivä yritykselle normihintainen. Merkatulta vapaalta töihin kutsuminen on kalliimpaa.

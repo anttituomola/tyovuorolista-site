@@ -45,6 +45,16 @@ listalle suunnitellut tunnit ja paljonko sopimustunteihin on vielä
 matkaa ("58 h jäljellä"). Näin näet suunnitellessa heti, kuka on
 vajaalla ja kenellä tunnit ovat täynnä.
 
+Listalle merkityt vapaat pienentävät tavoitetta: jokainen
+[vuosivapaapäivä (VV)](/posts/vuosivapaa_ravintola-alalla) vähentää sitä
+7,5 tuntia (MaRa-TES 11 §) ja jokainen
+[vuosiloman](/posts/vuosiloman_merkkaaminen_tyovuorolistaan) arkipäivä
+(ma–pe) viidesosan viikkotunneista, kokoaikaisella 7,5 tuntia (MaRa-TES
+27 §). Jos 112,5 tunnin jaksolle osuu yksi VV-päivä, tavoite on 105
+tuntia, ja "h jäljellä" kertoo suoraan, riittävätkö suunnitellut tunnit.
+Vapaat eivät kasvata työtunteja, joten lisä- ja ylityölaskenta pysyy
+oikeana.
+
 **2. Työntekijät-taulukon Sopimustunnit-sarake.** Tuntimäärä näkyy
 taulukossa yksikköineen, esimerkiksi 150h/kk, 30h/vko tai 90h/3vk,
 joten koko henkilöstön sopimustilanne on yhdellä silmäyksellä selvillä:

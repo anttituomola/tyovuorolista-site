@@ -45,7 +45,7 @@ Klikkaa avointa luonnosta. Pikavalinta avautuu vuoron kohdalle:
 
 - päivä, kellonajat ja muistiinpano, jos sellainen on
 - työntekijät samassa järjestyksessä kuin sivupalkissa
-- jäljellä olevat tunnit listalla, jos sopimustunnit on asetettu (ylitys punaisella)
+- jäljellä olevat tunnit listalla, jos sopimustunnit on asetettu (VV-päivät ja vuosiloma pienentävät tavoitetta, ylitys punaisella)
 - **Muokkaa vuoroa…**, jos tarvitset aikoja, osaamista tai muita kenttiä
 
 Päällekkäisen vuoron omaava työntekijä ei näy listassa. Jos ketään vapaata ei ole, näet siitä tiedon. Klikkaus antaa vuoron heti, ilman erillistä vahvistusta. Jos anto ei onnistu, näet virheen ja voit kokeilla toista.

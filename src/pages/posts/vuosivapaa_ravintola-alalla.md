@@ -50,7 +50,9 @@ tapaan kuin [V- ja X-vapaapäivät](/posts/x_ja_v-paivien_merkkaus_tyovuorolista
 Listalle merkitty vuosivapaapäivä **lyhentää jakson säännöllistä
 työaikaa 7,5 tunnilla**, eli jos jaksossa on yksi VV-päivä,
 [lisätyöraja](/posts/lisatyo_ja_ylityo_ravintola-alalla) on 112,5 tunnin
-sijaan 105 tuntia. Tämäkin unohtuu käsin laskiessa helposti.
+sijaan 105 tuntia. Kalenterin työntekijäkortin tuntitavoite ("h
+jäljellä") laskee saman verran, joten näet suunnitellessa suoraan,
+riittävätkö tunnit. Tämäkin unohtuu käsin laskiessa helposti.
 
 Tyovuorolista.fi seuraa jokaisen työntekijän saldoa automaattisesti ja
 erottaa toisistaan kuluvan vuoden kertymän, käytettävissä olevan oikeuden
