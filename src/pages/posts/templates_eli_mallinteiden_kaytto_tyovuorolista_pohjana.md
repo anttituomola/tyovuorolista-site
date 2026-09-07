@@ -9,10 +9,11 @@ image:
     alt: 'tyovuorolista.fi:n kalenterinäkymä.'
 tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
+*Päivitetty 7.9.2026: uuden listan voi aloittaa kopioimalla vuorot aiemmasta listasta. Nimettyä mallinetta ei tarvita.*
 *Päivitetty 31.8.2026: ohjevideo mallineesta avoimiksi vuoroiksi.*
 *Päivitetty 29.8.2026: mallineen voi kopioida myös ilman työntekijöitä. Ohje: [pikavalinta](/posts/pikavalinta).*
 
-Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Mikä tahansa työvuorolista (julkaistu tai julkaisematon) voidaan merkata mallineeksi, jota voi sitten käyttää uuden listan pohjana.
+Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Voit kopioida vuorot suoraan aiemmasta listasta. Jos sama runko toistuu usein, merkitse lista mallineeksi, niin se löytyy valikosta nimellä.
 
 Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolistan pohjana. Lue lisää [tiimien luomisesta](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu).
 
@@ -23,12 +24,12 @@ Voit käyttää ainoastaan saman tiimin/osaston mallinetta tiimin työvuorolista
 2. Klikkaa työvuorolistan päivämäärien vieressä olevaa **Luo malline -kuvaketta**
 3. Anna mallineelle **nimi**, esim. "varaston peruslista"
 
-## Näin käytät tallentamaasi mallinetta
-<img src="/blogPostImages/mallineen_kaytto_2.png" alt="Uuden työvuorolistan luonti tallennetun mallineen pohjalta" style="width: 100%;" />
+## Näin kopioit vuorot uuteen listaan
+<img src="/blogPostImages/mallineen_kaytto_2.png" alt="Uusi lista -ikkuna: Kopioi vuorot aiemmasta listasta auki" style="width: 100%;" />
 
 1. Valitse päävalikosta **Uusi lista**
-2. Valitse haluamasi malline **pudotusvalikosta** (voit myös valita [listan pituuden 1–4 viikkoa](/posts/listan_pituuden_valinta))
-3. Jos runko toistuu mutta tekijät vaihtuvat, rastita **Kopioi vuorot ilman työntekijöitä (avoimiksi vuoroiksi)**. Vuorot tulevat harmaiksi luonnoksiksi, ja tekijän antaa [pikavalinnasta](/posts/pikavalinta).
+2. Valitse [listan pituus 1–4 viikkoa](/posts/listan_pituuden_valinta) ja aloituspäivä
+3. Avaa **Kopioi vuorot aiemmasta listasta**. Valitse tallennettu malline tai aiempi lista. Oletuksena vuorot kopioituvat **Avoimina vuoroina**. Jos haluat nimet mukaan, valitse **Työntekijöineen**. Tekijän avoimeen vuoroon antaa [pikavalinta](/posts/pikavalinta).
 
 Videossa: malline avoimiksi vuoroiksi ja tekijän anto kalenterissa.
 

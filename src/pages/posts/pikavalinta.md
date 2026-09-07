@@ -10,15 +10,16 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
 ---
 
+*Päivitetty 7.9.2026: uusi lista kopioidaan **Kopioi vuorot aiemmasta listasta**. **Avoimina vuoroina** on oletus.*
 *Päivitetty 31.8.2026: ohjevideo.*
 
-Joillain työpaikoilla lista toistuu muodoltaan: samat avaus- ja iltavuorot, joskus samoilla muistiinpanoilla, mutta tekijät vaihtuvat listasta toiseen. Aiemmin malline kopioi myös työntekijät, ja nimet piti vaihtaa yksi kerrallaan.
+Joillain työpaikoilla lista toistuu muodoltaan: samat avaus- ja iltavuorot, joskus samoilla muistiinpanoilla, mutta tekijät vaihtuvat listasta toiseen. Aiemmin kopiointi toi nimet mukana, ja ne piti vaihtaa yksi kerrallaan.
 
-Nyt voit kopioida mallineen **avoimiksi vuoroiksi** ja antaa tekijän klikkaamalla. Klikkaus avaa pikavalinnan vuoron kohdalle.
+Nyt voit kopioida aiemman listan **avoimina vuoroina** ja antaa tekijän klikkaamalla. Klikkaus avaa pikavalinnan vuoron kohdalle.
 
 Pikavalinta on tietokoneen kalenterissa. Puhelimessa avoimen vuoron tekijä valitaan edelleen vuoroikkunasta.
 
-Videossa: uusi lista mallineesta ilman työntekijöitä, avoimet luonnokset kalenterissa ja tekijän anto.
+Videossa: avoimet luonnokset kalenterissa ja tekijän anto. Uusi lista -ikkuna on videossa vanhempi. Kopiointi on nyt **Kopioi vuorot aiemmasta listasta**.
 
 <video controls preload="metadata" poster="/blogPostImages/pikavalinta/pikavalinta-demo-poster.png" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
   <source src="/blogPostImages/pikavalinta/pikavalinta-demo.webm" type="video/webm" />
@@ -27,13 +28,13 @@ Videossa: uusi lista mallineesta ilman työntekijöitä, avoimet luonnokset kale
 
 <img src="/blogPostImages/pikavalinta/hero.png" alt="Pikavalinta auki torstain avausvuorossa: työntekijät ja jäljellä olevat tunnit" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-## 1. Kopioi malline ilman työntekijöitä
+## 1. Kopioi vuorot aiemmasta listasta
 
-Tee uusi lista kuten ennen: **+ Uusi lista**, valitse pituus ja aloituspäivä, sitten malline. Mallinevalinnan alle ilmestyy valinta **Kopioi vuorot ilman työntekijöitä (avoimiksi vuoroiksi)**.
+Tee uusi lista kuten ennen: **+ Uusi lista**, valitse pituus ja aloituspäivä. Avaa **Kopioi vuorot aiemmasta listasta**. Sovellus ehdottaa edellistä julkaistua listaa. Tallennetut mallineet ovat samassa valikossa. Kopiointitapa on oletuksena **Avoimina vuoroina**.
 
-<img src="/blogPostImages/pikavalinta/malline-checkbox.png" alt="Uusi lista -ikkuna, malline valittuna ja Kopioi vuorot ilman työntekijöitä -valinta päällä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/pikavalinta/malline-checkbox.png" alt="Uusi lista -ikkuna: Kopioi vuorot aiemmasta listasta auki, Avoimina vuoroina valittuna" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Kun valinta on päällä, kloonatut vuorot tulevat harmaiksi avoimiksi vuoroiksi. Ajat, muistiinpanot ja osaamisvaatimukset kopioituvat. Tekijät, vapaat ja poissaolot eivät. Valinta on oletuksena pois päältä. Tavallinen malline toimii kuten ennen.
+Kloonatut vuorot tulevat harmaiksi avoimiksi vuoroiksi. Ajat, muistiinpanot ja osaamisvaatimukset kopioituvat. Tekijät, vapaat ja poissaolot eivät. Jos haluat nimet mukaan, valitse **Työntekijöineen**.
 
 Avoin luonnos näkyy kalenterissa harmaana **Avoin vuoro** -tiilenä. Se näkyy vain sinulle. Julkaisu työntekijöille haettavaksi on eri asia, ja se tehdään edelleen erikseen [avointen vuorojen ohjeen](/posts/avoimet_vuorot_ohje) mukaan.
 
@@ -62,6 +63,6 @@ Jos [leimaustila](/posts/leimaustila) on päällä ja työntekijä valittuna, kl
 
 - Pikavalinta toimii tietokoneella, myös julkaistulla listalla: avoimen luonnoksen voi antaa, ja saaja saa ilmoituksen.
 - Vapautettu avoin vuoro (se, jonka työntekijät näkevät Oma-portaalissa) avaa edelleen vuoroikkunan. Ilmoittautumiset käsitellään siellä.
-- Mallineen vapaat ja muut kokopäivämerkinnät eivät kopioidu, kun kopioit vuorot avoimiksi. Ne lisätään listalle erikseen.
+- Vapaat ja muut kokopäivämerkinnät eivät kopioidu, kun kopioit vuorot avoimina. Ne lisätään listalle erikseen.
 
 Vanha ohje mallineen tallentamiseen: [mallineiden käyttö](/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana). Muut tavat täyttää kalenteri: [näin lisäät työvuoroja](/posts/vuorojen_lisaminen_kalenteriin).
