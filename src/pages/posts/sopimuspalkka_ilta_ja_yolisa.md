@@ -12,9 +12,9 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'palkkaraportti', 'palkanlaskenta', 'TES', 'MaRa']
 ---
 
-*Päivitetty 4.9.2026: kytkin pudottaa MaRa esihenkilöiden TES 21 §:n listan (lisätyö, ylityö, sunnuntai, aatto, ilta- ja yölisä), ei vain ilta- ja yölisiä. V-, X- ja vuosivapaapäivän korvaukset jäävät aineistoon.*
+*Päivitetty 7.9.2026: merkitse sopimuspalkka / ei lisiä kytkimellä **Lisät sisältyvät sopimuspalkkaan**. (4.9.: kytkin pudottaa MaRa esihenkilöiden TES 21 §:n listan, ei vain ilta- ja yölisiä. V-, X- ja vuosivapaapäivän korvaukset jäävät aineistoon.)*
 
-Osa esihenkilöistä on **sopimuspalkalla**: kuukausipalkka ja sen päälle kiinteä kuukausikorvaus lisille. [MaRa esihenkilöiden TES 21 §](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-esihenkiloiden-tyoehtosopimus/palkka.html) sallii sopia, että nämä korvataan erillisenä kiinteänä kuukausikorvauksena:
+Osa esihenkilöistä on **sopimuspalkalla** (arjessa myös: sopimuspalkka / ei lisiä): kuukausipalkka ja sen päälle kiinteä kuukausikorvaus lisille. [MaRa esihenkilöiden TES 21 §](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-esihenkiloiden-tyoehtosopimus/palkka.html) sallii sopia, että nämä korvataan erillisenä kiinteänä kuukausikorvauksena:
 
 - lisätyökorvaus
 - ylityökorvaus

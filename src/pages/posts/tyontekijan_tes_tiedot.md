@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työntekijän TES-tiedot: työsuhteen tyyppi, työntekijäryhmä ja tarkistuslista'
 pubDate: 2026-07-20
-description: 'TES-laskenta tarvitsee jokaiselta työntekijältä työsuhteen tyypin ja osa-aikaisilta sopimustunnit. Kaupan alalla lisäksi työntekijäryhmän. Yrittäjälle ja muille TES:n ulkopuolisille on oma vaihtoehto.'
+description: 'TES-laskenta tarvitsee jokaiselta työntekijältä työsuhteen tyypin ja osa-aikaisilta sopimustunnit. Kaupan alalla lisäksi työntekijäryhmän. Sopimuspalkka / ei lisiä merkitään omalla kytkimellä, ei TES ei koske -valinnalla.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tes-kentat.png'
@@ -10,10 +10,10 @@ image:
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 4.9.2026: sopimuspalkkaisen esihenkilön TES 21 §:n lisät
-voi jättää pois viennistä erillisellä kytkimellä, katso
-[sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa). Se ei ole sama
-kuin TES ei koske. (2.9.: kytkin tuli käyttöön. 20.8.: vuosiloman
+*Päivitetty 7.9.2026: sopimuspalkka / ei lisiä merkitään kytkimellä
+**Lisät sisältyvät sopimuspalkkaan**, ei valinnalla TES ei koske.
+(4.9.: kytkin pudottaa TES 21 §:n lisät viennistä. 2.9.: kytkin tuli
+käyttöön. 20.8.: vuosiloman
 ansaintasääntö ja alkusaldo,
 [kertymän seuranta](/posts/vuosiloman_kertyman_seuranta). 21.7.:
 **TES ei koske (yrittäjä, tms.)**.)*
@@ -23,7 +23,9 @@ tarvitsee jokaiselta työntekijältä **työsuhteen tyypin**
 (kokoaikainen / osa-aikainen / TES ei koske) ja osa-aikaisilta
 [sopimustunnit](/posts/tyotunnit_tyosopimuksessa). Kaupan alan
 toimipaikoilla valitaan lisäksi **työntekijäryhmä** (esimerkiksi myyjä
-tai logistiikkatyöntekijä). Kentät löytyvät työntekijän tiedoista, ja
+tai logistiikkatyöntekijä). Jos palkka on sopimuspalkka eikä lisiä
+makseta erikseen, merkitse se kytkimellä **Lisät sisältyvät
+sopimuspalkkaan**. Kentät löytyvät työntekijän tiedoista, ja
 **Hallinta → Työehtosopimus** -sivun tarkistuslista näyttää yhdellä
 silmäyksellä, keneltä tietoja vielä puuttuu.
 
@@ -55,9 +57,8 @@ ylityörajat lasketaan eri tavalla:
   Heille ei näytetä TES-hälytyksiä kalenterissa, eikä heitä oteta mukaan
   [tasoittumisjärjestelmän](/posts/tasoittumisjarjestelma_ravintola-alalla)
   saldoihin tai TES-ylityöluokitteluun. Valinta riittää tarkistuslistalle;
-  sopimustunteja ei tarvita. Sopimuspalkkainen esihenkilö ei kuulu tähän:
-  hän on TES:n piirissä, ja TES 21 §:n lisät jätetään pois viennistä
-  [omalla kytkimellään](/posts/sopimuspalkka_ilta_ja_yolisa).
+  sopimustunteja ei tarvita. Sopimuspalkka / ei lisiä ei kuulu tähän:
+  katso alempana.
 
 <img src="/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tyyppi-valikko.png" alt="Työntekijän muokkaus: Työsuhteen tyyppi (TES) -valikko auki, vaihtoehtoina Ei valittu, Kokoaikainen, Osa-aikainen ja TES ei koske (yrittäjä, tms.)" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
@@ -67,6 +68,34 @@ Työsuhteen tyyppi vaikuttaa myös siihen, ketä
 [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla)
 koskee: se on MaRa:ssa vain kuukausipalkkaisten kokoaikaisten
 järjestelmä. Osa-aikaiset ja TES:n ulkopuoliset jäävät sen ulkopuolelle.
+
+## Sopimuspalkka / ei lisiä
+
+Jos työntekijä on TES:n piirissä, mutta palkka on **sopimuspalkka**
+eikä lisiä makseta erikseen, älä valitse **TES ei koske**. Se on vain
+henkilöille, joihin työehtosopimus ei sovellu.
+
+Merkitse näin:
+
+1. Avaa **Hallinta → Työntekijät**
+2. Klikkaa työntekijää ja valitse **Muokkaa**
+3. Avaa **Työsuhde**
+4. Laita päälle **Lisät sisältyvät sopimuspalkkaan**
+5. Tallenna
+
+Työsuhteen tyyppi jää **kokoaikaiseksi** tai **osa-aikaiseksi** kuten
+sopimuksessa. Sama kytkin on uuden työntekijän lisäyslomakkeessa
+**Lisäasetuksissa**. Se näkyy myös ilman TES-valintaa, koska kyse on
+palkka-aineiston asetuksesta.
+
+<img src="/blogPostImages/sopimuspalkka/hero.png" alt="Työntekijän muokkaus: Työsuhde-osiossa kytkin Lisät sisältyvät sopimuspalkkaan päällä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
+Kytkin jättää lisätyön, ylityön, sunnuntain, aaton sekä ilta- ja
+yölisät pois [palkkaraportista](/posts/palkkaraportti_ominaisuus) ja
+viennistä. Tunnit näkyvät edelleen tuntinäkymissä, ja TES-hälytykset
+pysyvät. Mitkä rivit pudotetaan ja mitkä jäävät (esimerkiksi V-, X- ja
+vuosivapaapäivän korvaukset), on kerrottu oppaassa
+[sopimuspalkka](/posts/sopimuspalkka_ilta_ja_yolisa).
 
 ## Työntekijäryhmä (Kaupan alan TES)
 
@@ -113,6 +142,8 @@ ohjeessa [vuosiloman kertymän seuranta](/posts/vuosiloman_kertyman_seuranta).
 
 1. **Täytä TES-tiedot heti**, kun lisäät työntekijän: työsuhteen tyyppi
    ja osa-aikaisilta sopimustunnit. Yrittäjälle valitse **TES ei koske**.
+   Sopimuspalkka / ei lisiä merkitään kytkimellä **Lisät sisältyvät
+   sopimuspalkkaan**.
 2. **Vilkaise tarkistuslista** uuden työntekijän jälkeen ja ennen
    jakson [palkkaraporttia](/posts/palkkaraportti_ominaisuus).
 3. **Päivitä työsuhteen tyypin muutokset** (esimerkiksi osa-aikaisesta
