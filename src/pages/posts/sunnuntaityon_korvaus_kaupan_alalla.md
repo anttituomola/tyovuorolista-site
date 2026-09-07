@@ -92,7 +92,7 @@ Tämä on eri sääntö kuin
 
 ## Esimerkki: myyjän sunnuntaivuoro
 
-Myyjä (muu Suomi, tuntipalkka 13,00 €) tekee sunnuntaina klo 12–20.
+Myyjä (muu Suomi, tuntipalkka 13,00 €, vrt. [taulukkopalkat 2026](/posts/kaupan_alan_tes_palkkataulukko_2026)) tekee sunnuntaina klo 12–20.
 
 | Erä | Laskenta | Summa |
 |---|---|---|

@@ -31,6 +31,8 @@ postauksessa on kokonaiskuva ja jatko-osissa yksityiskohdat:
 - [Sunnuntai-, ilta- ja aattolisät kaupan alalla](/posts/sunnuntai_ja_aattolisat_kaupan_alalla)
 - [Vapaapäivät kaupan alalla](/posts/vapaapaivat_kaupan_alalla)
 
+Palkoista erikseen: [Kaupan alan TES palkkataulukko 2026](/posts/kaupan_alan_tes_palkkataulukko_2026) kertoo palkkaryhmät, vuosiportaat ja tuntipalkat.
+
 ## Viikkotyöaika 37,5 tuntia: jaksolla tai ilman
 
 Toisin kuin ravintola-alan kolmiviikkoisjaksossa, kaupan alalla

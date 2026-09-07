@@ -25,6 +25,8 @@ yksinkertaisella palkalla korvattavaa lisätyötä.
 Sama aihe ravintola-alan säännöillä:
 [Lisätyö ja ylityö ravintola-alalla](/posts/lisatyo_ja_ylityo_ravintola-alalla).
 
+Korotusprosentit lasketaan tuntipalkasta, joka on kuukausipalkka jaettuna 160:llä. Taulukkopalkat löytyvät postauksesta [Kaupan alan TES palkkataulukko 2026](/posts/kaupan_alan_tes_palkkataulukko_2026).
+
 ## Käsitteet: lisätyö, ylityö ja korotettu palkka
 
 Kaupan TES käyttää kolmea käsitettä (12 §):

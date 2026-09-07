@@ -5,7 +5,7 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
 <FeatureDetail
     featureId="payroll-report"
     metaTitle="Palkkaraportti palkanlaskentaan | Työvuorolista"
-    metaDescription="Vie toteutuneet tunnit palkanlaskentaan valmiina raporttina: CSV, PDF tai Procountor-muoto. Tunnit suoraan työvuorolistasta."
+    metaDescription="Vie toteutuneet tunnit palkanlaskentaan valmiina raporttina: CSV, PDF, Procountor-tiedosto tai suora Netvisor-vienti. Tunnit suoraan työvuorolistasta."
     title="Palkkaraportti: tunnit palkanlaskentaan ilman käsityötä"
     lead="Palkanlaskennan pahin vaihe on tuntien kokoaminen. Työvuorolistassa raportti syntyy kirjatuista tunneista yhdellä napilla, valmiissa muodossa tilitoimistolle tai palkkaohjelmaan."
     heroImage="/featureImages/palkkaraportti.png"
@@ -18,8 +18,8 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
         },
         {
             icon: 'ic:baseline-file-download',
-            title: 'CSV, PDF tai Procountor',
-            text: 'Lataa raportti muodossa, jota tilitoimistosi tai palkkaohjelmasi ymmärtää. Palkkalajikoodit voi määritellä omiin tarpeisiin.',
+            title: 'CSV, PDF, Procountor tai Netvisor',
+            text: 'Lataa raportti muodossa, jota tilitoimistosi tai palkkaohjelmasi ymmärtää, tai lähetä tunnit suoraan Netvisoriin. Palkkalajikoodit voi määritellä omiin tarpeisiin.',
         },
         {
             icon: 'ic:baseline-verified-user',
@@ -33,6 +33,14 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
             paragraphs: [
                 'Koska vuorot, toteumat ja raportti elävät samassa järjestelmässä, lukuja ei siirrellä käsin mihinkään väliin. Se mitä listalle kirjattiin, päätyy raporttiin. Virheiden määrä putoaa oleellisesti.',
                 'Kuukausi, jakso tai oma aikaväli: valitset raportin rajat itse, ja sovellus poimii tunnit valitulta ajalta.',
+            ],
+        },
+        {
+            title: 'Integraatiot palkkaohjelmiin',
+            paragraphs: [
+                'Procountor: lataa palkkaraportti Procountorin tuontimuodossa ja vie tiedosto palkanlaskentaan. Palkkalajikoodit määritellään kerran asetuksissa.',
+                'Netvisor: kytke rajapintatunnukset kerran, minkä jälkeen TES-tulkitut tunnit ja lisät lähtevät Netvisoriin yhdellä napilla ilman tiedostoja.',
+                'Muihin palkkaohjelmiin tunnit viedään CSV-muodossa. Uusia suoria integraatioita julkaistaan sitä mukaa, kun ne valmistuvat.',
             ],
         },
     ]}

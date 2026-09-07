@@ -16,7 +16,7 @@ tags: ['TES', 'kaupan ala', 'iltalisä', 'yölisä', 'lauantailisä', 'palkanlas
 ---
 
 **Lyhyesti:** Kaupan alan työaikalisät ovat **euromääräisiä tuntilisiä**
-(palkkaliite kohta 12), eivät prosentteja taulukkopalkasta. Myyjillä
+(palkkaliite kohta 12), eivät prosentteja [taulukkopalkasta](/posts/kaupan_alan_tes_palkkataulukko_2026). Myyjillä
 iltalisä on klo **18–24**, yölisä klo **00–06** ja lauantailisä
 arkilauantaina klo **13–24**. Summat eroavat pääkaupunkiseudun
 (Helsinki, Espoo, Kauniainen, Vantaa) ja muun Suomen välillä. Lisät ovat

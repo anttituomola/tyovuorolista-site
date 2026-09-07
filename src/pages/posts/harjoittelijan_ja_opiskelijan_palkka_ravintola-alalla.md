@@ -23,6 +23,8 @@ harjoittelu on laillista vain oppilaitoksen koulutussopimuksella tai
 TE-palvelujen työkokeiluna, muuten kyse on työsuhteesta ja
 TES-palkka kuuluu maksaa.
 
+Kaupan alan vastaavat säännöt (koululainen 70 %, 1. vuoden työntekijä 85 %) ovat postauksessa [Kaupan alan TES palkkataulukko 2026](/posts/kaupan_alan_tes_palkkataulukko_2026).
+
 ## Harjoittelijan palkka: 80 % puoli vuotta, sitten täysi
 
 Harjoittelijan palkka on 80 % kyseisen työtehtävän 0–2 vuoden
