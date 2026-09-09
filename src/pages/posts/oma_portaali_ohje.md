@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Oma-portaali: työntekijän oma näkymä vuoroihin'
 pubDate: 2026-07-01
-description: 'Kirjaudu Oma-portaaliin (omaportaali) osoitteessa app.tyovuorolista.fi/oma. Ohje: omat vuorot, vapaatoive, tunti-ilmoitus ja avoimet vuorot.'
+description: 'Kirjaudu Oma-portaaliin (omaportaali) osoitteessa app.tyovuorolista.fi/oma. Ohje: omat vuorot, toiveet, tunti-ilmoitus ja avoimet vuorot.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
@@ -26,6 +26,8 @@ ctaHref: https://app.tyovuorolista.fi/oma
 
 *Päivitetty 30.8.2026: työntekijä ei voi enää jättää vapaatoivetta päiville, jotka kuuluvat jo julkaistuun työvuorolistaan.*
 
+*Päivitetty 9.9.2026: työntekijä voi ilmoittaa myös lomatoiveen. Vapaatoive ja lomatoive ovat samassa Toiveet-välilehdessä.*
+
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
@@ -33,8 +35,8 @@ ctaHref: https://app.tyovuorolista.fi/oma
 Portaali tarjoaa tällä hetkellä neljä toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
-- **Vapaatoiveen ilmoittaminen**: toive vapaasta ajasta ilman palkkaa (ei lomatoivetta)
-- **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta *(uusi)*
+- **Toiveet**: vapaatoive (vapaa ilman palkkaa) ja lomatoive (palkallinen vuosiloma)
+- **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
 
 ## Esihenkilölle: näin otat Oma-portaalin käyttöön
@@ -63,7 +65,7 @@ Työntekijä saa sähköpostiin henkilökohtaisen linkin, jolla hän kirjautuu e
 
 Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaessa lähettää linkin uudelleen (**Lähetä linkki uudelleen**).
 
-### 4. Vapaatoiveet kalenterissa
+### 4. Toiveet kalenterissa
 
 Kun työntekijä ilmoittaa vapaatoiveen, se näkyy sinulle **kalenterissa** suunnittelua varten. Vapaatoive **ei** tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin, se on erillinen merkintä, josta näet toiveen ennen kuin teet päätöksen. Työntekijä voi jättää toiveen vain päiville, joiden työvuorolistat **eivät** ole vielä julkaistu. Jos työntekijä kuuluu useaan tiimiin, toiveen voi jättää niin kauan kuin jollain tiimillä on vielä julkaisematon lista samalle ajalle.
 
@@ -77,6 +79,8 @@ Avaa vapaatoive kalenterista nähdäksesi tarkemmat tiedot ja käsitelläksesi s
 <img src="/blogPostImages/oma-portaali/vapaatoive-hyvaksynta.png" alt="Vapaatoiveen tiedot kalenterissa: Hyväksy vapaatoive ja Hylkää -painikkeet" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 Hyväksyntä estetään, jos työntekijällä on jo työvuoro vapaatoivepäivänä. Voit silti merkitä vuoron manuaalisesti tarvittaessa. Järjestelmä varoittaa päällekkäisyydestä.
+
+Lomatoive näkyy samassa kalenterissa ja [lomasuunnittelussa](/posts/lomasuunnittelu). Avaa se ja paina **Hyväksy lomatoive**. Toive muuttuu vuosilomaksi (VL) ja näkyy sen jälkeen julkaistavissa listoissa. Poisto hylkää toiveen, ja työntekijä saa siitä ilmoituksen. Hyväksyntä estetään, jos loma-ajalla on jo työvuoroja.
 
 ### 5. Työntekijöiden tunti-ilmoitusten hyväksyntä
 
@@ -138,17 +142,25 @@ Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenp�
 <img class="blogPhone" src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Oma-portaali mobiilinäkymässä: kalenteri ja vuorolista" />
 </div>
 
-### Ilmoita vapaatoive
+### Ilmoita toive
 
-Oma-portaalin etusivulta tai osoitteesta [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) voit ilmoittaa **vapaatoiveen**. Toiveen vapaasta ajasta **ilman palkkaa**.
+**Toiveet**-välilehdellä osoitteessa [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) valitset **Vapaatoive** tai **Lomatoive**.
+
+**Vapaatoive** on toive vapaasta ajasta ilman palkkaa. **Lomatoive** on toive palkallisesta vuosilomasta. Esihenkilö hyväksyy lomatoiveen kalenterissa, jolloin se merkitään vuosilomaksi.
 
 - Voit valita yhden päivän tai päivävälin (alku- ja loppupäivä).
 - Voit lisätä valinnaisen lyhyen muistiinpanon (esim. *"Häät viikonloppuna"*).
-- Vapaatoive **ei korvaa** lomaa eikä lomatoivetta, eikä se poista julkaistuja vuoroja.
-- Vapaatoive **ei näy** omien vuorojen aikajanalla, se on erillisellä sivulla.
-- Et voi ilmoittaa vapaatoivetta päivälle, jonka työvuorolistat on jo **julkaistu**. Silloin lista on lukittu, ja muutos menee esihenkilön kautta. Jos kuulut useaan tiimiin, toiveen voi jättää niin kauan kuin jollain tiimilläsi on vielä julkaisematon lista samalle ajalle.
+- Toive **ei poista** julkaistuja vuoroja.
+- Toive **ei näy** omien vuorojen aikajanalla, se on Toiveet-sivulla.
+- Et voi jättää toivetta päivälle, jonka työvuorolistat on jo **julkaistu**. Silloin lista on lukittu, ja muutos menee esihenkilön kautta. Jos kuulut useaan tiimiin, toiveen voi jättää niin kauan kuin jollain tiimilläsi on vielä julkaisematon lista samalle ajalle.
+- Esihenkilön merkitsemää lomatoivetta voi vain katsella. Omaa lomatoivettasi voit muokata ja poistaa.
 
-Esihenkilö näkee vapaatoiveesi kalenterissa ja voi **hyväksyä** tai **hylätä** sen. Hyväksytyt päivät ilmestyvät työvuorolistaan V- ja X-merkintöinä; hylätty toive poistuu Oma-portaalin vapaatoivesivulta. Vapaatoive ei tule mukaan julkaistuun työvuorolistaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
+Esihenkilö näkee toiveesi kalenterissa. Hyväksytty vapaatoive ilmestyy listaan V- ja X-merkintöinä. Hyväksytty lomatoive muuttuu vuosilomaksi. Hylätty toive poistuu Toiveet-sivulta. Toive ei tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
+
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-vapaatoive.png" alt="Oma-portaalin Toiveet: vapaatoive valittuna" />
+<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-lomatoive.png" alt="Oma-portaalin Toiveet: lomatoive valittuna" />
+</div>
 
 ### Ilmoita toteutuneet tunnit *(uusi)*
 
@@ -192,7 +204,6 @@ Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kir
 
 Oma-portaali **ei vielä korvaa** sähköpostitse lähetettyä työvuorolistaa eikä tarjoa kaikkia suunniteltuja toimintoja:
 
-- et voi ilmoittaa **lomatoivetta** portaalista (vapaatoive on eri asia; sairasloman voit ilmoittaa tunti-ilmoituksella)
 - et voi hyväksyä tai hylätä esihenkilön ehdottamia vuoromuutoksia
 - et voi vaihtaa vuoroja työkaverin kanssa
 - et näe muiden työntekijöiden vuoroja
@@ -202,4 +213,4 @@ Näitä ja muita työntekijän toimintoja suunnitellaan seuraaviin versioihin.
 
 ## Palautetta?
 
-Jos käytät Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, toimivatko vapaatoive, tunti-ilmoitus ja avoimiin vuoroihin ilmoittautuminen? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.
+Jos käytät Oma-portaalia, kerro mielellään, toimiiko kaikki odotetusti: näkyvätkö oikeat vuorot, toimivatko toiveet, tunti-ilmoitus ja avoimiin vuoroihin ilmoittautuminen? Viesti tulee suoraan minulle: **info@tyovuorolista.fi**.

@@ -112,7 +112,7 @@ tarkoita, että kaikki toiveet pitäisi toteuttaa. Riittää, että jokainen
 toive käsitellään samalla tavalla ja päätös perustellaan.
 
 Tyovuorolista.fi:ssä työntekijä ilmoittaa
-[vapaatoiveen Oma-portaalissa](/posts/oma_portaali_ohje), ja esihenkilö
+[vapaatoiveen tai lomatoiveen Oma-portaalissa](/posts/oma_portaali_ohje), ja esihenkilö
 hyväksyy tai hylkää sen suoraan kalenterista. Lisätunnit voi puolestaan
 laittaa tarjolle [avoimina vuoroina](/posts/avoimet_vuorot_ohje):
 vuoro julkaistaan kaikille sopiville työntekijöille, ja halukkaat

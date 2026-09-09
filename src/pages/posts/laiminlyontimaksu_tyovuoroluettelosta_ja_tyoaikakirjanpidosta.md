@@ -146,9 +146,10 @@ näkymästä saat [palkkaraportin](/posts/palkkaraportti_ominaisuus).
 
 ### 3. Vuosilomat listalla näkyviin
 
-[Lomasuunnittelussa](/posts/lomasuunnittelu) työntekijä voi jättää
-lomatoiveen, ja sinä hyväksyt sen suoraan kalenteriin. Loma näkyy
-listalla eikä huku erilliseen taulukkoon.
+[Oma-portaalissa](/posts/oma_portaali_ohje) työntekijä voi jättää
+lomatoiveen, ja sinä hyväksyt sen [lomasuunnittelussa](/posts/lomasuunnittelu)
+tai suunnittelukalenterista. Loma näkyy listalla eikä huku erilliseen
+taulukkoon.
 
 ### 4. Työntekijä näkee oman listansa
 

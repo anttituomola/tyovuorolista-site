@@ -333,7 +333,7 @@
             },
             "oma-portaali": {
                 "title": "Oma-portaali",
-                "shortDescription": "Työntekijän oma näkymä: vuorot, vapaatoiveet ja tunti-ilmoitukset puhelimella."
+                "shortDescription": "Työntekijän oma näkymä: vuorot, toiveet ja tunti-ilmoitukset puhelimella."
             },
             "avoimet-vuorot": {
                 "title": "Avoimet vuorot",
@@ -503,7 +503,7 @@
                     "pricingUnit": "Per tili",
                     "features": [
                         "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-                        { "text": "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset", "included": false },
+                        { "text": "Oma-portaali: vuorot, toiveet ja tunti-ilmoitukset", "included": false },
                         { "text": "Avoimet vuorot", "included": false },
                         { "text": "Palkkaraportti TES-luokitteluineen", "included": false },
                         { "text": "Sähköposti-ilmoitukset työntekijöille", "included": false },
@@ -522,7 +522,7 @@
                     "yearlySavings": "Säästä 72 € vuodessa vuosilaskutuksella.",
                     "features": [
                         "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Oma-portaali: vuorot, toiveet ja tunti-ilmoitukset",
                         "Avoimet vuorot",
                         "Palkkaraportti TES-luokitteluineen",
                         "Sähköposti-ilmoitukset työntekijöille",
@@ -541,7 +541,7 @@
                     "yearlySavings": "Säästä 216 € vuodessa vuosilaskutuksella.",
                     "features": [
                         "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Oma-portaali: vuorot, toiveet ja tunti-ilmoitukset",
                         "Avoimet vuorot",
                         "Palkkaraportti TES-luokitteluineen",
                         "Sähköposti-ilmoitukset työntekijöille",
@@ -560,7 +560,7 @@
                     "yearlySavings": "Säästä 720 € vuodessa vuosilaskutuksella.",
                     "features": [
                         "TES-apuri (beta): varoitukset, saldot ja vuosivapaaseuranta",
-                        "Oma-portaali: vuorot, vapaatoiveet ja tunti-ilmoitukset",
+                        "Oma-portaali: vuorot, toiveet ja tunti-ilmoitukset",
                         "Avoimet vuorot",
                         "Palkkaraportti TES-luokitteluineen",
                         "Sähköposti-ilmoitukset työntekijöille",

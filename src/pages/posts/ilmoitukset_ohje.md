@@ -20,7 +20,7 @@ Kelloon ilmestyy merkki, kun:
 
 - työntekijä **ilmoittautuu avoimeen vuoroon** tai peruu ilmoittautumisensa
 - työntekijä **ilmoittaa sairastumisesta** tai toteutumattomasta vuorosta
-- työntekijä lähettää **tuntiraportin** tai **vapaatoiveen**
+- työntekijä lähettää **tuntiraportin**, **vapaatoiveen** tai **lomatoiveen**
 - työntekijä aktivoi Oma-portaalin
 - työntekijälle lähetetty **sähköposti ei mene perille**: huomaat virheellisen osoitteen heti, et vasta kun joku jäi ilman listaa ([ohje](/posts/sahkopostin_toimitusongelmat_varoitus))
 - työvuorolista on **julkaisematta** lähellä jakson alkua tai julkaistulla listalla on **täyttämättömiä vuoroja** (muistutus kerran, uudestaan vasta kun edellinen on luettu)
@@ -38,7 +38,7 @@ Sama kello on työntekijöillä [Oma-portaalissa](/posts/oma_portaali_ohje). Ty�
 - **uusi työvuorolista julkaistaan**
 - hänen julkaistua vuoroaan **muutetaan**, se **perutaan** tai hänelle **lisätään uusi vuoro**
 - **avoin vuoro** tulee tarjolle
-- hänen ilmoittautumisensa, vapaatoiveensa tai tuntiraporttinsa **hyväksytään tai hylätään**
+- hänen ilmoittautumisensa, vapaatoiveensa, lomatoiveensa tai tuntiraporttinsa **hyväksytään tai hylätään**
 
 <img src="/blogPostImages/ilmoitukset/kello-tyontekija.png" alt="Työntekijän ilmoituskello Oma-portaalissa" width="100%" style="max-width: 500px; display: block; margin: 20px auto;" />
 
