@@ -26,6 +26,8 @@ ctaHref: https://app.tyovuorolista.fi/oma
 
 *Päivitetty 30.8.2026: työntekijä ei voi enää jättää vapaatoivetta päiville, jotka kuuluvat jo julkaistuun työvuorolistaan.*
 
+*Päivitetty 10.9.2026: jos toimipaikalla on [palkaton ruokatauko](/posts/palkaton_ruokatauko) päällä, tuntiraportti näyttää nettotunnit ja rivin Ruokatauot.*
+
 *Päivitetty 9.9.2026: työntekijä voi ilmoittaa myös lomatoiveen. Vapaatoive ja lomatoive ovat samassa Toiveet-välilehdessä.*
 
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
@@ -172,7 +174,7 @@ Esihenkilö näkee toiveesi kalenterissa. Hyväksytty vapaatoive ilmestyy listaa
 <li><strong>Sairasloma</strong>: jos vuoro jäi väliin sairauden takia</li>
 <li><strong>Vuoro ei toteutunut</strong>: jos vuoro peruuntui kokonaan</li>
 </ul>
-<p>Ilmoitus jää tilaan <strong>Odottaa hyväksyntää</strong>, kunnes esihenkilö käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita.</p>
+<p>Ilmoitus jää tilaan <strong>Odottaa hyväksyntää</strong>, kunnes esihenkilö käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita. Jos toimipaikalla on <a href="/posts/palkaton_ruokatauko">palkaton ruokatauko</a> päällä, suunnitellut tunnit ovat netto ja lomakkeella näkyy rivi Ruokatauot.</p>
 </div>
 <img class="blogPhone" src="/blogPostImages/oma-portaali/tunti-ilmoitus.png" alt="Vuoron tiedot Oma-portaalissa: tunti-ilmoituslomake, jossa toteutuneet ajat" />
 </div>

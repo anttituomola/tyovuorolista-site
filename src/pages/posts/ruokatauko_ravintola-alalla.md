@@ -13,6 +13,8 @@ image:
 tags: ['TES', 'MaRa', 'ruokatauko', 'tauot', 'työaikalaki', 'ravintola-ala']
 ---
 
+*Päivitetty 10.9.2026: palkattoman ruokatauon voi nyt vähentää tunneista [automaattisesti](/posts/palkaton_ruokatauko). Asetus on oletuksena pois, koska MaRa-arjessa ruokailu tapahtuu usein työajalla.*
+
 **Lyhyesti:** MaRa-TES:ssä **yli 4 tunnin** työvuoroon kuuluu vähintään
 yksi **palkallinen kahvitauko**. Kun yhdenjaksoinen työaika ylittää
 **6 tuntia**, työntekijälle on lisäksi annettava **vähintään 30
@@ -76,13 +78,15 @@ ajankohdat. Palkanlaskennan kannalta olennaista on, käytetäänkö
 palkatonta lepoaikaa: kahdeksan tunnin läsnäolo, josta vähennetään
 palkaton 30 minuuttia, on 7,5 palkallista tuntia.
 
-Tyovuorolista.fi laskee vuoron tunnit alkamisajasta päättymisaikaan
-eikä vähennä taukoja automaattisesti. MaRa-arjessa ruokailu tapahtuu
-tyypillisesti työajalla, jolloin vähennettävää ei ole. Jos
-työpaikallasi on käytössä aito palkaton ruokatauko, merkitse vuoron
-ajat palkallisen työajan mukaan, niin
+Tyovuorolista.fi laskee vuoron tunnit alkamisajasta päättymisaikaan.
+Palkattoman ruokatauon voi vähentää automaattisesti
+[toimipaikan tuntilaskenta-asetuksella](/posts/palkaton_ruokatauko).
+Oletuksena vähennys on pois, koska MaRa-arjessa ruokailu tapahtuu
+tyypillisesti työajalla. Jos tauko on palkaton (työntekijä saa
+poistua työpaikalta), ota asetus käyttöön, niin
 [tuntilaskenta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen)
-ja [palkkaraportti](/posts/palkkaraportti_ominaisuus) pysyvät oikeina.
+ja [palkkaraportti](/posts/palkkaraportti_ominaisuus) näyttävät
+nettotunnit.
 
 Huomaa, että tämä postaus käsittelee vuoron **sisäisiä** taukoja. Vuorojen **väliin** jäävästä lepoajasta (11 h / 8 h) kerron
 [pituus- ja lepoaikapostauksessa](/posts/tyovuoron_pituus_ja_lepoajat_ravintola-alalla).

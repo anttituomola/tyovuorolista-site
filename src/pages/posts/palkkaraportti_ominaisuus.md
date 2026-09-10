@@ -10,7 +10,7 @@ image:
 tags: ["palkkaraportti", "raportit", "CSV", "PDF", "vienti", "työtuntien laskenta"]
 ---
 
-*Päivitetty 4.9.2026: työntekijälle voi merkitä, että [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa). Silloin TES 21 §:n lisärivit (lisätyö, ylityö, sunnuntai, aatto, ilta ja yö) jäävät pois viennistä. (2.9.: kytkin tuli käyttöön. 23.7.: palkkaraporttiin tuli [Procountor-muotoinen palkka-aineisto](/posts/procountor_palkka_vienti).)*
+*Päivitetty 10.9.2026: jos [palkaton ruokatauko](/posts/palkaton_ruokatauko) on päällä, raporttiin voi tulla tietorivi Vähennetyt ruokatauot. Työtunnit ovat nettona. (4.9.: työntekijälle voi merkitä, että [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa). Silloin TES 21 §:n lisärivit jäävät pois viennistä. 2.9.: kytkin tuli käyttöön. 23.7.: palkkaraporttiin tuli [Procountor-muotoinen palkka-aineisto](/posts/procountor_palkka_vienti).)*
 
 Työvuorolista-sovellukseen on nyt lisätty joustava palkkaraportti-ominaisuus, joka mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella.
 
