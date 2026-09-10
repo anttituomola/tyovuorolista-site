@@ -94,13 +94,12 @@ seuraavaksi. Valinnan voi vaihtaa koska tahansa myöhemmin.
 ## Näin vaihdat valintaa myöhemmin
 
 TES-valintaa voi muuttaa kohdasta **Hallinta → Työehtosopimus**.
-Sama valinta on myös **Hallinta → Asetukset** -sivulla. Muutos
-tallentuu heti, kun valitset vaihtoehdon:
+Asetukset-sivulla näkyy nykyinen valinta ja linkki samalle sivulle.
+Muutos tallennetaan Työehtosopimus-sivulta:
 
-<img src="/blogPostImages/tes-valinta/asetukset-tes-valinta.png" alt="Asetukset-sivun Työehtosopimus-osio: valittuna Matkailu-, ravintola- ja vapaa-ajan palveluiden TES, alla linkki tarkempiin asetuksiin" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tes-valinta/asetukset-tes-valinta.png" alt="Asetukset-sivun Työehtosopimus-osio: valittuna Matkailu-, ravintola- ja vapaa-ajan palveluiden TES, alla linkki Työehtosopimus-sivulle" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Kun TES on valittuna, samasta kohdasta aukeaa linkki **Hallinta →
-Työehtosopimus** -sivulle, jossa tehdään tarkemmat asetukset:
+Siellä tehdään tarkemmat asetukset:
 [jaksorytmin alkumaanantai](/posts/nain_otat_tes-tuen_kayttoon) (MaRa),
 [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla),
 paikalliset sopimukset perusteluineen ja palkkalajikoodien mappaus.

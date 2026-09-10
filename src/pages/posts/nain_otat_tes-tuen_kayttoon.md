@@ -29,8 +29,8 @@ kokonaisen jakson tuntierittelyä verrataan omaan palkanlaskentaan.
 ## Vaihe 1: Valitse TES ja jaksorytmi
 
 Avaa **Hallinta →**
-<a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>
-(tai Asetukset → työehtosopimusvalinta). Valitse sopimuksesi (tuettuina
+<a href="https://app.tyovuorolista.fi/admin/tes" target="_blank" rel="noopener noreferrer">Työehtosopimus</a>.
+Valitse sopimuksesi (tuettuina
 ovat MaRa, Kaupan ala, Kiinteistöpalveluala ja
 [SOSTES](/posts/sostes_tyovuorosuunnittelussa)), ja jaksollisissa
 sopimuksissa (MaRa, SOSTES) aseta
