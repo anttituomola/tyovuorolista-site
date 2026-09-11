@@ -54,6 +54,18 @@ describe('trust anchor page copy', () => {
       assert.ok(text.length >= 500, `${locale} privacy was ${text.length} chars`)
     }
   })
+
+  it('states how Google Sign-In data is used (en/fi/sv)', () => {
+    const en = privacyPlainText('en')
+    const fi = privacyPlainText('fi')
+    const sv = privacyPlainText('sv')
+    assert.match(en, /Google Sign-In/)
+    assert.match(en, /name and email address/)
+    assert.match(fi, /Google-kirjautuminen/)
+    assert.match(fi, /nimesi ja sähköpostiosoitteesi/)
+    assert.match(sv, /Inloggning med Google/)
+    assert.match(sv, /namn och din e-postadress/)
+  })
 })
 
 describe('agent instruction / when-to-use', () => {

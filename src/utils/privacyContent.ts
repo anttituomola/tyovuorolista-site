@@ -29,6 +29,12 @@ const fi: PrivacyPageContent = {
       ]
     },
     {
+      heading: 'Google-kirjautuminen',
+      paragraphs: [
+        'Voit luoda tilin tai kirjautua Google-tilillä. Google luovuttaa meille nimesi ja sähköpostiosoitteesi, jotta voimme luoda ja tunnistaa tyovuorolista.fi-tilisi. Käytämme näitä tietoja vain kirjautumiseen ja tilin hallintaan. Emme myy Google-tilin tietoja, emme käytä niitä mainontaan emmekä jaa niitä muille sovelluksille. Voit katkaista Google-yhteyden poistamalla tilin sovelluksesta tai lähettämällä viestin osoitteeseen info@tyovuorolista.fi.'
+      ]
+    },
+    {
       heading: 'Miksi käsittelemme tietoja ja millä perusteella',
       paragraphs: [
         'Käsittelemme tietoja palvelun tuottamiseksi (työvuorolistojen suunnittelu, julkaisu sähköpostilla, tuntikirjaus ja palkkaraportit), laskutukseen, asiakastukeen ja palvelun turvalliseen ylläpitoon. Oikeusperuste on sopimuksen täyttäminen sekä oikeutettu etu palvelun kehittämiseen ja tukeen. Maksutiedot käsittelee Stripe; me emme tallenna täydellisiä korttitietoja.'
@@ -37,7 +43,7 @@ const fi: PrivacyPageContent = {
     {
       heading: 'Säilytys, suojaus ja luovutukset',
       paragraphs: [
-        'Tiedot säilytetään Supabasen tietokannassa, joka on suojattu rivitason turvatoimilla (row-level security). Emme myy henkilötietoja. Tietoja luovutetaan vain palvelun tuottamiseen tarvittaville käsittelijöille (esimerkiksi tietokanta, sähköpostitoimitus ja Stripe-maksut) sekä lain edellyttämissä tilanteissa.',
+        'Tiedot säilytetään Supabasen tietokannassa, joka on suojattu rivitason turvatoimilla (row-level security). Emme myy henkilötietoja. Tietoja luovutetaan vain palvelun tuottamiseen tarvittaville käsittelijöille (esimerkiksi tietokanta, sähköpostitoimitus, Stripe-maksut ja Google, jos kirjaudut Google-tilillä) sekä lain edellyttämissä tilanteissa.',
         'Säilytämme tilin tiedot niin kauan kuin tili on käytössä ja sen jälkeen niin kauan kuin kirjanpito, takuuajat tai oikeudelliset velvoitteet sitä edellyttävät. Evästeitä käytetään kävijämäärien mittaamiseen ja markkinointiin vain suostumuksen jälkeen; välttämättömät evästeet pitävät sivuston toimivana.'
       ]
     },
@@ -66,6 +72,12 @@ const en: PrivacyPageContent = {
       ]
     },
     {
+      heading: 'Google Sign-In',
+      paragraphs: [
+        'You can create an account or log in with Google. Google then shares your name and email address with us so we can create and authenticate your tyovuorolista.fi account. We use this only for login and account administration. We do not sell Google account data, do not use it for advertising, and do not share it with other apps. You can disconnect Google by deleting your account in the app or by emailing info@tyovuorolista.fi.'
+      ]
+    },
+    {
       heading: 'Why we process data and on what basis',
       paragraphs: [
         'We process data to provide the service (planning shift lists, publishing by email, hour tracking and payroll reports), for billing, customer support and secure operation. The legal basis is performance of a contract and legitimate interest in support and product improvement. Payment details are processed by Stripe; we do not store full card numbers.'
@@ -74,7 +86,7 @@ const en: PrivacyPageContent = {
     {
       heading: 'Storage, security and sharing',
       paragraphs: [
-        'Data is stored in a Supabase database protected with row-level security. We do not sell personal data. We share data only with processors needed to run the service (database, email delivery and Stripe payments) and where the law requires it.',
+        'Data is stored in a Supabase database protected with row-level security. We do not sell personal data. We share data only with processors needed to run the service (database, email delivery, Stripe payments and Google if you sign in with Google) and where the law requires it.',
         'We keep account data while the account is active and afterwards as long as bookkeeping, warranty periods or legal obligations require. Cookies for traffic measurement and marketing load only after consent; essential cookies keep the site working.'
       ]
     },
@@ -103,6 +115,12 @@ const sv: PrivacyPageContent = {
       ]
     },
     {
+      heading: 'Inloggning med Google',
+      paragraphs: [
+        'Du kan skapa ett konto eller logga in med Google. Google lämnar då ut ditt namn och din e-postadress så att vi kan skapa och autentisera ditt tyovuorolista.fi-konto. Vi använder uppgifterna bara för inloggning och kontohantering. Vi säljer inte Google-kontouppgifter, använder dem inte för reklam och delar dem inte med andra appar. Du kan koppla bort Google genom att radera kontot i appen eller mejla info@tyovuorolista.fi.'
+      ]
+    },
+    {
       heading: 'Varför vi behandlar uppgifter och på vilken grund',
       paragraphs: [
         'Vi behandlar uppgifter för att tillhandahålla tjänsten (planera scheman, publicera via e-post, timregistrering och lönerapporter), för fakturering, kundsupport och säker drift. Rättslig grund är avtalets fullgörande och berättigat intresse av support och produktförbättring. Betalningsuppgifter behandlas av Stripe; vi lagrar inte fullständiga kortnummer.'
@@ -111,7 +129,7 @@ const sv: PrivacyPageContent = {
     {
       heading: 'Lagring, skydd och utlämnande',
       paragraphs: [
-        'Uppgifterna lagras i en Supabase-databas skyddad med row-level security. Vi säljer inte personuppgifter. Vi lämnar bara ut uppgifter till behandlare som behövs för tjänsten (databas, e-postleverans och Stripe-betalningar) och när lagen kräver det.',
+        'Uppgifterna lagras i en Supabase-databas skyddad med row-level security. Vi säljer inte personuppgifter. Vi lämnar bara ut uppgifter till behandlare som behövs för tjänsten (databas, e-postleverans, Stripe-betalningar och Google om du loggar in med Google) och när lagen kräver det.',
         'Vi behåller kontouppgifter så länge kontot är aktivt och därefter så länge bokföring, garantitider eller rättsliga skyldigheter kräver. Cookies för mätning och marknadsföring laddas först efter samtycke; nödvändiga cookies håller sajten fungerande.'
       ]
     },
