@@ -188,7 +188,7 @@
                     "max. 50 employees: €60 / month or €504 / year",
                     "max. 100 employees: €180 / month or €1440 / year"
                 ],
-                "yearlyNote": "Yearly billing is cheaper: you pay for 8 months and get 4 months included (e.g. Normi €18 / month or €144 / year).",
+                "yearlyNote": "Yearly billing is cheaper: the annual price equals 8 months of monthly billing (e.g. Normi €18 / month or €144 / year, 8 × €18 = €144).",
                 "vat": "VAT is added to all prices."
             },
             "trial": {
@@ -486,8 +486,8 @@
             "yearlyLabel": "Yearly",
             "monthlyPeriod": "/ month",
             "yearlyPeriod": "/ year",
-            "monthlyMessage": "Switch to yearly billing and save up to 4 months compared with monthly pricing.",
-            "yearlyBadge": "4 months free",
+            "monthlyMessage": "Switch to yearly billing — save 33% compared with monthly pricing.",
+            "yearlyBadge": "−33% vs monthly",
             "featureUnavailable": "Not included",
             "tiers": {
                 "tier1": {
