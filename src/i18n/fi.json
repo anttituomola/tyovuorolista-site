@@ -188,7 +188,7 @@
                     "maks. 50 työntekijää: 60 € / kk tai 504 € / vuosi",
                     "maks. 100 työntekijää: 180 € / kk tai 1440 € / vuosi"
                 ],
-                "yearlyNote": "Vuosilaskutus on edullisempi: maksat käytännössä 8 kuukauden hinnan ja saat 4 kuukautta mukaan (esim. Normi 18 € / kk tai 144 € / vuosi).",
+                "yearlyNote": "Vuosilaskutus on edullisempi: vuosihinta vastaa 8 kuukauden kuukausimaksua (esim. Normi 18 € / kk tai 144 € / vuosi, 8 × 18 € = 144 €).",
                 "vat": "Kaikkiin hintoihin lisätään alv."
             },
             "trial": {
@@ -491,8 +491,8 @@
             "yearlyLabel": "Vuosilaskutus",
             "monthlyPeriod": "/ kk",
             "yearlyPeriod": "/ vuosi",
-            "monthlyMessage": "Vaihda vuosilaskutukseen ja säästä jopa 4 kuukautta verrattuna kuukausihintaan.",
-            "yearlyBadge": "4 kk ilmaiseksi",
+            "monthlyMessage": "Vaihda vuosilaskutukseen — säästä 33 % verrattuna kuukausihintaan.",
+            "yearlyBadge": "−33 % vs kuukausi",
             "featureUnavailable": "Ei sisälly",
             "tiers": {
                 "tier1": {

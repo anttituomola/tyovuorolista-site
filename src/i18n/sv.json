@@ -188,7 +188,7 @@
                     "max. 50 anställda: 60 € / månad eller 504 € / år",
                     "max. 100 anställda: 180 € / månad eller 1440 € / år"
                 ],
-                "yearlyNote": "Årsdebitering är billigare: du betalar för 8 månader och får 4 månader inkluderade (t.ex. Normi 18 € / månad eller 144 € / år).",
+                "yearlyNote": "Årsdebitering är billigare: årspriset motsvarar 8 månaders månadsbetalning (t.ex. Normi 18 € / månad eller 144 € / år, 8 × 18 € = 144 €).",
                 "vat": "Moms läggs till alla priser."
             },
             "trial": {
@@ -486,8 +486,8 @@
             "yearlyLabel": "Årsdebitering",
             "monthlyPeriod": "/ månad",
             "yearlyPeriod": "/ år",
-            "monthlyMessage": "Byt till årsdebitering och spara upp till 4 månader jämfört med månadspriset.",
-            "yearlyBadge": "4 månader gratis",
+            "monthlyMessage": "Byt till årsdebitering — spara 33 % jämfört med månadspriset.",
+            "yearlyBadge": "−33 % vs månad",
             "featureUnavailable": "Ingår inte",
             "tiers": {
                 "tier1": {

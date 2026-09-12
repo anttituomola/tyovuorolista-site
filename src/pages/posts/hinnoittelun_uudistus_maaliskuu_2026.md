@@ -27,7 +27,7 @@ Hinnat ovat **tiliä kohti** (ei työntekijää kohti). Laskussa lisätään arv
 | **Iso** | 50 | **60 € / kk** | **504 € / vuosi** |
 | **Jätti** | 100 | **180 € / kk** | **1440 € / vuosi** |
 
-Vuosilaskutus on edullisempi kuin 12 kuukautta uusilla kuukausihinnoilla: esimerkiksi Normi 12 × 18 € = **216 €**, vuosilaskutus **144 €** (alv 0 %). Vuosilaskutuksessa maksat 8 kuukauden hinnan ja saat 4 kuukautta mukaan.
+Vuosilaskutus on edullisempi kuin 12 kuukautta uusilla kuukausihinnoilla: esimerkiksi Normi 12 × 18 € = **216 €**, vuosilaskutus **144 €** (alv 0 %) — vuosihinta vastaa 8 kuukauden kuukausimaksua.
 
 ## Mitä ei muuttunut
 

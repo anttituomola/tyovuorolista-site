@@ -24,7 +24,7 @@ Nykyiset hinnat (alv 0 %, laskussa lisätään arvonlisävero):
 - **Iso**: enintään 50 työntekijää — **60 €/kk** tai **504 €/vuosi**
 - **Jätti**: enintään 100 työntekijää — **180 €/kk** tai **1440 €/vuosi**
 
-Vuosilaskutuksessa maksat 8 kuukauden hinnan ja saat 4 kuukautta mukaan.
+Vuosilaskutuksessa vuosihinta vastaa 8 kuukauden kuukausimaksua (esim. Normi 144 € = 8 × 18 €).
 
 Kaikissa paketeissa, myös Minissä, on **TES-apuri** (varoitukset, saldot ja vuosivapaaseuranta), rajattomasti listoja ja tiimejä sekä asiakastuki. **Normi-, Iso- ja Jätti**-paketeissa saat lisäksi [Oma-portaalin](/posts/oma_portaali_ohje), [avoimet vuorot](/posts/avoimet_vuorot_ohje), [palkkaraportin](/posts/palkkaraportti_ominaisuus) TES-luokitteluineen ja sähköposti-ilmoitukset työntekijöille. Työntekijäraja on ainoa ero maksullisten pakettien välillä.
 
