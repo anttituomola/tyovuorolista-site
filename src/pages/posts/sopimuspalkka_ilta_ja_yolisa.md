@@ -31,7 +31,7 @@ Siksi lisiin oikeuttavat tunnit pitää yhä nähdä, vaikka niitä ei viedä pa
 
 Asetus on työntekijäkohtainen: **Lisät sisältyvät sopimuspalkkaan**. Kun se on päällä:
 
-- **Palkka-CSV, PDF, Procountor, Netvisor ja raporttiesikatselu** jättävät pois lisätyön, ylityön (50 % ja 100 %), sunnuntailisän, aattolisän, ilta- ja yölisän sekä sunnuntain kahdennetut ilta- ja yölisät.
+- **Palkka-CSV, PDF, Procountor, Netvisor, Fivaldi ja raporttiesikatselu** jättävät pois lisätyön, ylityön (50 % ja 100 %), sunnuntailisän, aattolisän, ilta- ja yölisän sekä sunnuntain kahdennetut ilta- ja yölisät.
 - **V-, X- ja vuosivapaapäivän korvaukset** viedään. TES kieltää sisällyttämästä niitä kiinteään kuukausikorvaukseen.
 - **Tuntinäkymät** eivät muutu. Tunnit näkyvät kuten ennenkin, jotta korvauksen riittävyys voidaan osoittaa.
 - **TES-valvonta, ylityöt ja tasoittuminen** eivät muutu. Työntekijä on edelleen TES:n piirissä.
