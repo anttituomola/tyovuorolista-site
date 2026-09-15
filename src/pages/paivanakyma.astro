@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Button from '../components/common/Button.astro'
+
+const pageUrl = 'https://www.tyovuorolista.fi/paivanakyma'
+const posterUrl = 'https://www.tyovuorolista.fi/videos/paivanakyma-poster.jpg'
+---
+
+<Layout
+    title="Päivänäkymä | Tyovuorolista.fi"
+    description="Kaikkien tiimien vuorot valitulta päivältä. Näe yhdellä silmäyksellä, kuka on töissä missäkin."
+    ogTitle="Päivänäkymä"
+    ogDescription="Kaikkien tiimien vuorot valitulta päivältä."
+    ogUrl={pageUrl}
+    ogImage={posterUrl}
+    noindex={true}
+>
+    <main class="video-page">
+        <h1>Päivänäkymä</h1>
+        <p class="lead">
+            Kaikkien tiimien vuorot valitulta päivältä. Näet yhdellä silmäyksellä,
+            kuka on töissä missäkin.
+        </p>
+        <div class="video-frame">
+            <video
+                controls
+                playsinline
+                preload="metadata"
+                poster="/videos/paivanakyma-poster.jpg"
+                width="1708"
+                height="1020"
+            >
+                <source src="/videos/paivanakyma.mp4" type="video/mp4" />
+                Selaimesi ei tue video-elementtiä.
+            </video>
+        </div>
+        <div class="cta">
+            <Button
+                text="Kokeile ilmaiseksi"
+                variant="primary"
+                href="https://app.tyovuorolista.fi/register"
+            />
+        </div>
+    </main>
+</Layout>
+
+<style>
+    .video-page {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: var(--space-3xl) var(--space-base) var(--space-4xl);
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: var(--space-lg);
+    }
+
+    .lead {
+        max-width: 40rem;
+        margin: 0 auto var(--space-2xl);
+        font-size: var(--text-lg);
+        line-height: 1.6;
+    }
+
+    .video-frame {
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        background: #000;
+    }
+
+    .video-frame video {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .cta {
+        margin-top: var(--space-2xl);
+    }
+</style>

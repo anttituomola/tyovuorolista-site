@@ -49,6 +49,7 @@ export default defineConfig({
         '/sv/not-available',
         '/kayttoohjeet',
         '/register',
+        '/paivanakyma',
         '/api/',
         '/_image',
         // Merged posts — URLs 301 to hub pages, keep out of sitemap
