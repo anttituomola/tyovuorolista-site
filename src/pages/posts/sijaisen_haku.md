@@ -2,57 +2,71 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sijaisen haku, kun joku sairastuu julkaistulta listalta'
 pubDate: 2026-09-16
-description: 'Klikkaa julkaistua työvuoroa, merkitse poissaolo ja etsi sijainen. Sovellus luo peittovuoron heti ja kysyy sopivilta työntekijöiltä Oma-portaalissa.'
+description: 'Klikkaa julkaistua työvuoroa, merkitse poissaolo ja etsi sijainen. Sovellus luo avoimen vuoron ja kysyy valituilta työntekijöiltä Oma-portaalissa.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sijaisen-haku/etsi-sijainen.png'
-    alt: 'Etsi sijainen -paneeli: sopivat työntekijät, pudotetut ehdokkaat ja Kysy kaikilta sopivilta.'
+    alt: 'Etsi sijainen -paneeli: sopivat työntekijät, Ei sopivia -kohta ja Kysy kaikilta sopivilta.'
     layout: narrow
 tags: ['päivitykset', 'uudet ominaisuudet', 'poissaolo', 'ohjeet']
 ---
 
 *Päivitetty 16.9.2026.*
 
-Kun lista on jo julkaistu ja joku jää pois vuorostaan, et vaihda vuoron tyyppiä Poissaoloksi. Klikkaat vuoroa kalenterissa ja merkitset poissaolon siinä. Jos rastaat **Etsi vuoroon sijainen**, sovellus luo heti harmaan peittovuoron samoilla ajoilla ja avaa listan sopivista sijaisista.
+Lista on julkaistu. Sofia soittaa aamulla, että hän on sairaana eikä pääse iltavuoroon. Näin merkitset poissaolon ja etsit vuoroon sijaisen.
 
-Etukäteen tiedossa olevan jakson (sairausloma, perhevapaa) merkitset edelleen tyypillä Poissaolo, ks. [Poissaolon merkitseminen](/posts/poissaolon_merkitseminen). Menneen vuoron sairasmerkintä on [Tuntien kirjaus](/posts/tuntien_kirjaus_opas) -näkymässä.
+Ohje koskee julkaistun listan vuoroja, jotka alkavat tänään tai myöhemmin. Menneet vuorot, ks. ohjeen loppu. Etukäteen tiedossa oleva poissaolo, ks. [Poissaolon merkitseminen](/posts/poissaolon_merkitseminen).
 
-## 1. Merkitse poissaolo julkaistulta vuorolta
+## Esihenkilölle
 
-Klikkaa tänään tai tulevaisuudessa olevaa julkaistua työvuoroa. Valikosta löytyy **Merkitse poissaolo…**.
+### 1. Merkitse poissaolo
+
+Klikkaa Sofian vuoroa kalenterissa. Valitse **Merkitse poissaolo…**.
 
 <img src="/blogPostImages/poissaolon-merkitseminen/merkitse-poissaolo-valikko.png" alt="Julkaistun vuoron valikko: Merkitse poissaolo… ja Peruuta." width="100%" style="max-width: 360px; display: block; margin: 20px auto;" />
 
-Valitse **Sairastui** tai **Muu este**. **Etsi vuoroon sijainen** on valmiiksi rastittu. **Merkitse** tallentaa poissaolon ja avaa sijaislistan.
+Valitse syy: **Sairastui** tai **Muu este**. Ruutu **Etsi vuoroon sijainen** on valmiiksi valittu. Paina **Merkitse**.
 
-<img src="/blogPostImages/poissaolon-merkitseminen/poissaolo-dialogi.png" alt="Poissaolon vahvistus: Sairastui, Muu este ja rasti Etsi vuoroon sijainen." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/poissaolon-merkitseminen/poissaolo-dialogi.png" alt="Poissaolon vahvistus: Sairastui, Muu este ja ruutu Etsi vuoroon sijainen." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
 
-Alkuperäinen vuoro jää poissaoloksi. Kalenteriin ilmestyy harmaa, raidallinen avoin vuoro samoilla kelloajoilla. Sitä ei tarjota koko tiimille avoimena vuorona, vaan vain niille, joilta kysyt.
+Sofian vuoro jää kalenteriin poissaolona. Sen päälle tulee harmaa raidallinen avoin vuoro samoille kelloajoille. Sen näkevät vain ne työntekijät, joilta kysyt.
 
-<img src="/blogPostImages/sijaisen-haku/peittovuoro-kalenteri.png" alt="Kalenteri, jossa Sofian iltavuoron päälle on tullut harmaa raidallinen avoin peittovuoro." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/sijaisen-haku/peittovuoro-kalenteri.png" alt="Kalenteri, jossa Sofian iltavuoron päälle on tullut harmaa raidallinen avoin vuoro." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-## 2. Valitse keneltä kysytään
+### 2. Kysy sijaista
 
-**Etsi sijainen** -paneeli järjestää sopivat työntekijät. TES-varoitus, vapaatoive ja jäljellä olevat tunnit näkyvät riveillä. **Anna vuoro** antaa vuoron suoraan, ilman että työntekijän tarvitsee ilmoittautua.
+**Etsi sijainen** avautuu heti. Siinä ovat työntekijät, jotka voivat ottaa vuoron. Rivillä näkyvät jäljellä olevat tunnit sekä mahdollinen TES-varoitus tai vapaatoive.
 
-Jos joku ei sovi, hän ei katoa: **Ei sopivia** avaa syyn, esimerkiksi päällekkäisen vuoron.
+Ne, jotka eivät voi ottaa vuoroa, ovat kohdassa **Ei sopivia**. Avaa se, niin näet syyn, esimerkiksi toisen vuoron samana päivänä.
 
-<img src="/blogPostImages/sijaisen-haku/etsi-sijainen.png" alt="Etsi sijainen -paneeli: Emma ja Jussi sopivina, Aino pudotettu koska vuoro 16–22 tänään." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/sijaisen-haku/etsi-sijainen.png" alt="Etsi sijainen -paneeli: Emma ja Jussi sopivina, Aino kohdassa Ei sopivia, koska hänellä on vuoro 16–22 samana päivänä." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
 
-**Kysy kaikilta sopivilta** lähettää kyselyn kaikille, joita ei ole vielä kysytty. **Kysy valituilta** lähettää vain rastituille.
+Sinulla on kolme tapaa:
 
-Kun sijainen on nimetty, alkuperäisellä vuorolla ei enää tarjota Etsi sijainen -painiketta.
+- **Kysy kaikilta sopivilta** lähettää kyselyn kaikille listan työntekijöille.
+- **Kysy valituilta** lähettää kyselyn vain niille, jotka valitsit ruudusta.
+- **Anna vuoro** antaa vuoron heti yhdelle työntekijälle. Käytä tätä, kun olet jo sopinut asiasta puhelimessa.
 
-## 3. Työntekijä näkee kyselyn Omassa
+Voit etsiä sijaista myös myöhemmin: klikkaa vuoroa ja valitse **Etsi sijainen**.
 
-Kysytyt työntekijät saavat Oma-portaaliin avoimen vuoron, johon voi ilmoittautua. He eivät näe, kenen vuoron peitto on kyseessä, eikä poissaolija näe peittovuoroa ollenkaan.
+### 3. Täytä vuoro
+
+Kun työntekijä ilmoittautuu Oma-portaalissa, saat ilmoituksen. Hyväksy ilmoittautuminen samoin kuin [avoimissa vuoroissa](/posts/avoimet_vuorot_ohje), niin vuoro on täytetty. Voit myös antaa vuoron suoraan painikkeella **Anna vuoro**.
+
+Kun vuoro on täytetty, muut kysytyt saavat ilmoituksen "Sijaista ei enää tarvita". Sovellus ei julkaise mitään automaattisesti.
+
+Jos merkitsit poissaolon vahingossa, klikkaa vuoroa ja valitse **Peru poissaolomerkintä**.
+
+## Työntekijälle
+
+Kysytty työntekijä saa ilmoituksen "Pääsisitkö töihin?". Vuoro näkyy Oma-portaalissa kohdassa Avoimet vuorot. Siellä hän painaa **Ilmoittaudu vuoroon**. Esihenkilö vahvistaa.
 
 <div class="blogPhoneRow">
 <img class="blogPhone" src="/blogPostImages/sijaisen-haku/oma-sijaiskysely.png" alt="Oma-portaalin Avoimet vuorot: torstain 16–22 vuoro ja Ilmoittaudu vuoroon." />
 </div>
 
-Ilmoittautuminen odottaa sinun hyväksyntääsi, samaan tapaan kuin [avoimissa vuoroissa](/posts/avoimet_vuorot_ohje). Voit myös antaa vuoron suoraan sille, joka vastaa puhelimeen.
+Työntekijä ei näe, kenen vuoro on kyseessä. Poissaolija ei näe avointa vuoroa. Muut näkevät listalla vain merkinnän **Poissa**. Poissaolon syy jää esihenkilölle ja palkanlaskentaan.
 
 ## Menneet vuorot
 
-Eilisen ja sitä vanhemmat vuorot merkitään [Tuntien kirjaus](/posts/tuntien_kirjaus_opas) -näkymässä **Sairaana?**-ruudulla. Korvaajan vuoron voi lisätä samasta rivistä, ks. [korvaajan vuoro sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle).
+Eilisen tai sitä vanhemman vuoron merkitset Toteuma ja palkat -näkymässä rastilla **Sairaana**, ks. [Tuntien kirjaus](/posts/tuntien_kirjaus_opas). Korvaajan vuoron voit lisätä samalta riviltä, ks. [korvaajan vuoro sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle).
