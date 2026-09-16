@@ -10,6 +10,8 @@ image:
 tags: ["tuntien kirjaus", "työtunnit", "palkkaraportti", "sairasloma", "hallinta"]
 ---
 
+*Päivitetty 16.9.2026: tänään tai tulevaisuudessa olevan julkaistun vuoron poissaolo merkitään kalenterista, ks. [sijaisen haku](/posts/sijaisen_haku).*
+
 Kun työvuorolista on suunniteltu ja julkaistu, seuraava askel on usein toteutuneiden tuntien kirjaaminen. **Tuntien kirjaus** -näkymässä näet valitsemiesi työntekijöiden vuorot valitulla ajanjaksolla, voit merkitä toteutuneet aloitus- ja lopetusajat, käsitellä sairaslomat ja luoda [palkkaraportin](/posts/palkkaraportti_ominaisuus) suoraan samasta näkymästä.
 
 Tämä opas kattaa työpöytäversion peruskäytön. Mobiilissa sama näkymä toimii, mutta taulukko esitetään korttilistana. Jos kirjaat tunteja vielä taulukolla, katso myös [ilmainen työajanseurannan Excel-pohja](/posts/tyoajanseuranta_excel_pohja).
@@ -57,7 +59,7 @@ Muutokset tallentuvat automaattisesti, kun poistut kentästä. Tuntien laskenta 
 
 ### Sairasloma ja korvaajan vuoro
 
-Merkitse vuoro sairaslomaksi valitsemalla **Sairaana?** -ruutu. Sen jälkeen voit lisätä korvaajan vuoron suoraan samasta rivistä. Painike avaa **Lisää vuoro** -modaalin esitäytettynä alkuperäisen vuoron tiedoilla.
+Tänään tai tulevaisuudessa olevan julkaistun vuoron merkitset kalenterista, ks. [sijaisen haku](/posts/sijaisen_haku). Menneen vuoron merkitset sairaslomaksi valitsemalla **Sairaana?** -ruutu. Sen jälkeen voit lisätä korvaajan vuoron suoraan samasta rivistä. Painike avaa **Lisää vuoro** -modaalin esitäytettynä alkuperäisen vuoron tiedoilla.
 
 Lue tarkemmin [korvaajan vuoron lisäämisestä sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle).
 

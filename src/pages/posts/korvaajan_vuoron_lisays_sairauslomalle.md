@@ -10,7 +10,9 @@ image:
 tags: ["sairasloma", "korvaaja", "tuntien kirjaus", "työvuorojen hallinta"]
 ---
 
-Kun työntekijä jää sairaslomalle, korvaajan vuoro on nyt helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vain vuoro sairaslomaksi, ja painike ilmestyy heti: kaikki tiedot esitäytetään automaattisesti!
+*Päivitetty 16.9.2026: tänään tai tulevaisuudessa olevan julkaistun vuoron poissaolo merkitään kalenterista, ks. [Sijaisen haku](/posts/sijaisen_haku). Etukäteen tiedossa oleva jakso merkitään tyypillä Poissaolo, ks. [Poissaolon merkitseminen](/posts/poissaolon_merkitseminen). Tämä ohje koskee Tuntien kirjaus -näkymän korvaajaa menneelle sairasvuorolle.*
+
+Kun työntekijä on ollut sairaana jo toteutuneella vuorolla, korvaajan vuoro on helppo lisätä suoraan [Tuntien kirjaus -näkymästä](/posts/tuntien_kirjaus_opas). Merkitse vuoro sairaslomaksi, ja painike ilmestyy heti: kaikki tiedot esitäytetään automaattisesti.
 
 ## Uudet toiminnot Tuntien kirjaus -näkymässä
 

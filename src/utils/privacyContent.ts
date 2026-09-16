@@ -25,6 +25,7 @@ const fi: PrivacyPageContent = {
       heading: 'Mitä henkilötietoja keräämme',
       paragraphs: [
         'Keräämme yrityksen nimen, käyttäjän sähköpostiosoitteen ja tarvittaessa puhelinnumeron sekä työntekijöiden nimet ja sähköpostiosoitteet. Keräämme myös työvuorojen tiedot, kuten päivämäärät, kellonajat, tauot ja työntekijöiden nimet, jotta vuorolistat voidaan suunnitella ja julkaista.',
+        'Poissaolon syy (esimerkiksi sairaus, perhevapaa tai opintovapaa) tallennetaan vain esihenkilön ja palkanlaskennan käyttöön. Julkaistulla tiimin listalla, PDF:ssä ja muiden työntekijöiden näkymissä poissaolo näkyy muodossa "Poissa", ilman syytä.',
         'Jos otat meihin yhteyttä lomakkeella, sähköpostilla, puhelimella tai WhatsAppilla, käsittelemme yhteydenoton sisällön ja yhteystietosi vastataksemme. Jos käytät sovelluksen AI-tukichatia, keskustelun sisältö tallennetaan tukipalvelua, ongelmien selvittämistä ja palvelun kehittämistä varten. Jos lähetät keskustelun tuelle, sisältö ja mahdollinen kuvakaappaus toimitetaan asiakastukeen sähköpostitse.'
       ]
     },
@@ -68,6 +69,7 @@ const en: PrivacyPageContent = {
       heading: 'What personal data we collect',
       paragraphs: [
         'We collect the company name, the user’s email address and, when needed, a phone number, as well as employee names and email addresses. We also collect shift data such as dates, times, breaks and employee names so that schedules can be planned and published.',
+        'The reason for an absence (for example illness, family leave or study leave) is stored only for supervisors and payroll. On the published team roster, PDF and other workers’ views the absence is shown as "Poissa" (Away), without the reason.',
         'If you contact us via the form, email, phone or WhatsApp, we process the message content and your contact details to reply. If you use the in-app AI support chat, the conversation is stored to provide support, investigate issues and improve the service. If you send a conversation to support, the content and any screenshot are delivered to customer support by email.'
       ]
     },
@@ -111,6 +113,7 @@ const sv: PrivacyPageContent = {
       heading: 'Vilka personuppgifter vi samlar in',
       paragraphs: [
         'Vi samlar in företagsnamn, användarens e-postadress och vid behov telefonnummer samt anställdas namn och e-postadresser. Vi samlar också in skiftdata såsom datum, tider, raster och namn så att scheman kan planeras och publiceras.',
+        'Orsaken till en frånvaro (till exempel sjukdom, familjeledighet eller studieledighet) lagras bara för chefer och löneadministration. På det publicerade teamets schema, PDF och andra anställdas vyer visas frånvaron som "Poissa" (Frånvarande), utan orsak.',
         'Om du kontaktar oss via formulär, e-post, telefon eller WhatsApp behandlar vi meddelandet och dina kontaktuppgifter för att svara. Om du använder AI-supportchatten i appen lagras samtalet för support, felsökning och produktutveckling. Om du skickar samtalet till support levereras innehållet och eventuell skärmdump till kundtjänst via e-post.'
       ]
     },
