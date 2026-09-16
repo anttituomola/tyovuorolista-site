@@ -120,7 +120,7 @@ Palvelusaikaan lasketaan (13 § 2):
   vastaa työssä vaadittavaa kokemusta. Tämä kannattaa todeta jo
   työsopimusta tehtäessä (13 § 3).
 
-**Ammatillinen tutkinto** oikaisee portaita: tehtävään liittyvän
+**Ammatillinen tutkinto** nostaa suoraan ylemmälle portaalle: tehtävään liittyvän
 ammatillisen tutkinnon (esimerkiksi merkonomi) suorittanut on heti
 **4. vuoden työntekijä** (13 § 5). Jos tutkinto on suoritettu vasta sen
 jälkeen, kun kokemusta oli jo yli kolme vuotta, se ei nosta porrasta
@@ -128,8 +128,8 @@ enempää.
 
 Kun työntekijän porras vaihtuu kesken sopimuskauden, palkka nostetaan
 uuden portaan taulukkopalkkaan siitä päivästä, kun palvelusvuosi tulee
-täyteen. Tämä on työnantajan velvollisuus, ei työntekijän pyydettävä
-asia.
+täyteen. Tämä on työnantajan velvollisuus. Työntekijän ei tarvitse
+pyytää sitä.
 
 ## Koululainen ja 1. vuoden työntekijä
 
@@ -219,7 +219,7 @@ linkit löytyvät lähteistä.
 Taulukkopalkka kertoo, mitä yksi tunti maksaa. Palkanlaskenta tarvitsee
 lisäksi tiedon siitä, montako tuntia oli tavallista työtä, montako
 lauantailisän tai iltalisän piirissä, montako sunnuntaina ja montako oli
-lisätyötä. Työvuorolistan TES-apuri luokittelee toteutuneet tunnit näihin
+lisätyötä. Tyovuorolista.fi:n TES-apuri luokittelee toteutuneet tunnit näihin
 kategorioihin, ja [palkkaraportti](/ominaisuudet/palkkaraportti) vie ne
 palkanlaskijalle tai tilitoimistolle rivi riviltä, tai suoraan
 palkkaohjelmaan (esimerkiksi [Procountor](/posts/procountor_palkka_vienti)

@@ -12,7 +12,7 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'palkkaraportti', 'palkanlaskenta', 'TES', 'MaRa']
 ---
 
-*Päivitetty 7.9.2026: merkitse sopimuspalkka / ei lisiä kytkimellä **Lisät sisältyvät sopimuspalkkaan**. (4.9.: kytkin pudottaa MaRa esihenkilöiden TES 21 §:n listan, ei vain ilta- ja yölisiä. V-, X- ja vuosivapaapäivän korvaukset jäävät aineistoon.)*
+*Päivitetty 7.9.2026: merkitse sopimuspalkka / ei lisiä kytkimellä **Lisät sisältyvät sopimuspalkkaan**. (4.9.: kytkin jättää pois kaikki MaRa esihenkilöiden TES 21 §:n mukaiset lisät, aiemmin tekstissä mainittiin vain ilta- ja yölisät. V-, X- ja vuosivapaapäivän korvaukset jäävät aineistoon.)*
 
 Osa esihenkilöistä on **sopimuspalkalla** (arjessa myös: sopimuspalkka / ei lisiä): kuukausipalkka ja sen päälle kiinteä kuukausikorvaus lisille. [MaRa esihenkilöiden TES 21 §](https://tes.mara.fi/matkailu-ravintola-ja-vapaa-ajan-palveluita-koskeva-esihenkiloiden-tyoehtosopimus/palkka.html) sallii sopia, että nämä korvataan erillisenä kiinteänä kuukausikorvauksena:
 
@@ -38,7 +38,7 @@ Asetus on työntekijäkohtainen: **Lisät sisältyvät sopimuspalkkaan**. Kun se
 
 <img src="/blogPostImages/sopimuspalkka/hero.png" alt="Työntekijän muokkaus: Työsuhde-osiossa kytkin Lisät sisältyvät sopimuspalkkaan päällä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Lauantailisä, tasoitusvapaa ja sairausajan palkka käyttäytyvät ennallaan. Luvanhaltijan edustajan lisällä ei ole omaa palkkariviä sovelluksessa.
+Lauantailisä, tasoitusvapaa ja sairausajan palkka pysyvät ennallaan. Luvanhaltijan edustajan lisällä ei ole omaa palkkariviä sovelluksessa.
 
 Kytkin ei ole sama asia kuin **TES ei koske**. Sopimuspalkkainen esihenkilö on TES:n piirissä. Häneltä vain jätetään 21 §:n lisät pois palkka-aineistosta, koska ne on jo sovittu kiinteään kuukausikorvaukseen.
 
@@ -56,7 +56,7 @@ Kytkin näkyy kaikilla työpaikoilla, TES-valinnasta riippumatta. Lisät voi jä
 
 ## Tunnit näkyvät edelleen sovelluksessa
 
-Alla tuntikortti työntekijältä, jolla kytkin on päällä. Iltalisätunnit ovat tallella. Niitä ei vain viedä palkka-aineistoon.
+Alla tuntikortti työntekijältä, jolla kytkin on päällä. Iltalisätunnit ovat tallella. Niitä ei viedä palkka-aineistoon.
 
 <img src="/blogPostImages/sopimuspalkka/tuntikortti.png" alt="Laura Koskisen tuntikortti: 24 tuntia työtä ja 16 tuntia iltalisää" width="100%" style="max-width: 400px; display: block; margin: 20px auto;" />
 
@@ -64,9 +64,9 @@ Sovellus ei vertaa lisien euromäärää kiinteään kuukausikorvaukseen. Raport
 
 ## Kenelle tämä on tarkoitettu
 
-Tyypillinen tapaus on ravintolan esihenkilö, jonka kanssa on sovittu TES 21 §:n mukaisesta kiinteästä kuukausikorvauksesta. Silloin palkanlaskija ei halua nähdä maksettavan näköisiä lisärivejä.
+Tyypillinen tapaus on ravintolan esihenkilö, jonka kanssa on sovittu TES 21 §:n mukaisesta kiinteästä kuukausikorvauksesta. Silloin palkanlaskija ei halua aineistoon lisärivejä, jotka näyttävät maksettavilta.
 
-Kaupan TES sallii esimiehille myös lauantailisän sopimisen kiinteäksi. Tämä versio ei pudota lauantailisää. Jos tarvitset sen, laita viestiä: **info@tyovuorolista.fi**.
+Kaupan TES sallii esihenkilöille myös lauantailisän sopimisen kiinteäksi. Kytkin ei jätä lauantailisää pois. Jos tarvitset sen, laita viestiä: **info@tyovuorolista.fi**.
 
 Lisää aiheesta: [ilta-, yö- ja aattolisät ravintola-alalla](/posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla), [palkkaraportti](/posts/palkkaraportti_ominaisuus) ja [Procountor-vienti](/posts/procountor_palkka_vienti).
 

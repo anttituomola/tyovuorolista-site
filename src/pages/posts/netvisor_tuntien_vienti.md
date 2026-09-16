@@ -14,7 +14,7 @@ tags: ['palkkaraportti', 'Netvisor', 'vienti', 'palkanlaskenta', 'integraatio']
 
 Jos palkanlaskenta pyörii Netvisorissa, tuntien siirtäminen käsin on turhaa työtä. tyovuorolista.fi lähettää **työtunnit ja lisät suoraan Netvisoriin** rajapintaa pitkin: ei CSV-tiedostoja, ei sisäänlukua. Tunnit ilmestyvät Netvisorin Työajan kirjaukseen ja nousevat sieltä automaattisesti palkanlaskentaan.
 
-Tämä ohje käy asetukset läpi kerran, ja sen jälkeen viennin kuukausirutiinina.
+Tässä ohjeessa asetukset käydään läpi kerran. Sen jälkeen ohje kertoo, miten vienti tehdään joka kuukausi.
 
 ## Mitä tarvitset ennen ensimmäistä vientiä
 
@@ -33,7 +33,7 @@ Integraatio ei ole vielä Netvisorin Marketplacessa, joten se haetaan räätäl�
 2. Valitse **Räätälöidyt integraatiot** ja syötä avain
 3. Salli tyovuorolista.fi:lle palkansaajat, kirjauslajit ja työajan tuonti
 
-Ilman tätä Testaa yhteys ja vienti kaatuvat. Virheviesti kertoo puuttuvan resurssin.
+Ilman tätä Testaa yhteys ja vienti epäonnistuvat. Virheviesti kertoo puuttuvan resurssin.
 
 ### 3. Luo rajapintatunnukset Netvisorissa ja kytke ne
 
@@ -51,7 +51,7 @@ Paina lopuksi **Testaa yhteys**. Testi hakee Netvisorin palkansaajat ja näyttä
 
 ### 4. Henkilönumero jokaiselle työntekijälle
 
-Netvisor tunnistaa tunnit **palkansaajan numerolla**. Sama numero asetetaan molempiin päihin:
+Netvisor tunnistaa tunnit **palkansaajan numerolla**. Sama numero asetetaan molempiin järjestelmiin:
 
 - Netvisorissa: palkansaajalistaus → avaa palkansaaja → **Palkansaajan numero**
 - tyovuorolista.fi:ssä: **Hallinta → Työntekijät** → avaa työntekijä → **Muokkaa** → **Työsuhde**-osio → **Henkilönumero (palkanlaskenta)**
@@ -65,11 +65,11 @@ Netvisorissa tunnit kohdistuvat **kirjauslajeihin** niiden numerolla. Numero ase
 Kohdistus tehdään tyovuorolista.fi:n puolella:
 
 1. Avaa **Asetukset → TES-apuri** → **Palkkalajikoodit**
-2. Valitse jokaiselle riville (työtunnit, iltalisä, sunnuntailisä…) vastaava Netvisorin kirjauslaji — valintalista hakee kirjauslajit suoraan Netvisoristasi
+2. Valitse jokaiselle riville (työtunnit, iltalisä, sunnuntailisä…) vastaava Netvisorin kirjauslaji. Valintalista hakee kirjauslajit suoraan Netvisoristasi
 
 <img src="/blogPostImages/netvisor-vienti/palkkalajikoodit-netvisor.png" alt="Palkkalajikoodit-näkymä, Netvisor-kirjauslajin valinta valintalistasta" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Ilman kohdistusta rivi jätetään viennistä pois, ja näet sen tuloksissa syyn kanssa.
+Ilman kohdistusta rivi jätetään viennistä pois. Rivi ja syy näkyvät viennin tuloksissa.
 
 ## Vienti kuukausirutiinina
 
@@ -97,15 +97,15 @@ Jokainen vienti lähettää päiväkohtaiset rivit:
 
 Kaksi poikkeusta:
 
-- **Jakson lisä- ja ylityökorotukset** eivät siirry automaattisesti vielä — ne lasketaan koko palkkajaksosta, ja näet määrät palkkaraportista käsin kirjattavaksi.
+- **Jakson lisä- ja ylityökorotukset** eivät vielä siirry automaattisesti. Ne lasketaan koko palkkajaksosta, ja näet määrät palkkaraportista. Kirjaa ne Netvisoriin käsin.
 - Jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), lisärivit jäävät pois myös Netvisor-viennistä.
 
 ## Voinko lähettää saman jakson uudelleen?
 
-Voit. Vienti **korvaa** saman päivän aiemmat rivit, kunhan ne ovat Netvisorissa tilassa *avoin* tai *kuitattu* — eli korjattu lista on turvallista lähettää uudestaan. Jos päivän tunnit on jo *hyväksytty* tai *maksettu*, Netvisor ei anna korvata niitä, ja vienti kertoo tämän tuloksissa päiväkohtaisesti.
+Voit. Vienti **korvaa** saman päivän aiemmat rivit, kunhan ne ovat Netvisorissa tilassa *avoin* tai *kuitattu*. Korjatun listan voi siis lähettää turvallisesti uudestaan. Jos päivän tunnit on jo *hyväksytty* tai *maksettu*, Netvisor ei anna korvata niitä, ja vienti kertoo tämän tuloksissa päiväkohtaisesti.
 
 ## Ero Procountor-vientiin
 
-Procountor-vienti tuottaa CSV-tiedoston, joka luetaan sisään käsin. Netvisor-vienti ei tuota tiedostoa lainkaan: tunnit siirtyvät suoraan rajapintaa pitkin ja odottavat palkanlaskijaa Netvisorissa. Sama tuntidata, yksi askel vähemmän.
+Procountor-vienti tuottaa CSV-tiedoston, joka luetaan sisään käsin. Netvisor-vienti ei tuota tiedostoa lainkaan: tunnit siirtyvät suoraan rajapintaa pitkin ja odottavat palkanlaskijaa Netvisorissa. Samat tunnit, yksi työvaihe vähemmän.
 
 Jos jokin kohta jumiutuu (tunnukset, kirjauslajit, henkilönumerot), laita viestiä: **info@tyovuorolista.fi**.

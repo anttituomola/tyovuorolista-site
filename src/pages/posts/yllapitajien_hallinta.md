@@ -30,7 +30,7 @@ Paina **Kutsu**. Vahvistus kertoo, kenelle kutsu menee ja mitä oikeuksia se ant
 
 <img src="/blogPostImages/yllapitajien_hallinta/kutsu-vahvistus.png" alt="Vahvistus: työntekijä kutsutaan ylläpitäjäksi täysin oikeuksin" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Olemassa olevan työntekijän ylentäminen ei kasvata työntekijämäärää, eikä se esty tilausrajaan. Vuorot, tuntikirjaukset ja lomakertymät pysyvät ennallaan.
+Kun nykyinen työntekijä tehdään ylläpitäjäksi, työntekijämäärä ei kasva eikä tilauksen raja tule vastaan. Vuorot, tuntikirjaukset ja lomakertymät pysyvät ennallaan.
 
 ### 2. Kutsu uusi henkilö
 
@@ -38,7 +38,7 @@ Jos kutsuttavaa ei ole vielä työntekijöissä, vaihda **Kutsu uusi henkilö** 
 
 <img src="/blogPostImages/yllapitajien_hallinta/kutsu-uusi-henkilo.png" alt="Uuden henkilön kutsu: etunimi, sukunimi ja sähköposti" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Uusi henkilö lisätään samalla työntekijälistalle (ilman tiimiä) ja hän vie yhden paikan tilauksesta. Jos Mini-paketin tai muun tilauksen raja on täynnä, kutsu estyy ja näet kehotteen päivittää tilaus. Tiimin voit asettaa myöhemmin [työntekijöiden hallinnasta](/posts/tyontekijoiden_hallinta).
+Uusi henkilö lisätään samalla työntekijälistalle (ilman tiimiä) ja hän vie yhden paikan tilauksesta. Jos Mini-paketin tai muun tilauksen raja on täynnä, kutsu ei onnistu ja sovellus pyytää päivittämään tilauksen. Tiimin voit asettaa myöhemmin [työntekijöiden hallinnasta](/posts/tyontekijoiden_hallinta).
 
 <img src="/blogPostImages/yllapitajien_hallinta/kutsu-uusi-henkilo-vahvistus.png" alt="Vahvistus uuden henkilön kutsulle: lisätään myös työntekijälistalle" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
@@ -48,9 +48,9 @@ Tarkista osoite vahvistuksesta ennen lähettämistä. Väärään osoitteeseen m
 
 Kutsuttu saa sähköpostin osoitteesta info@tyovuorolista.fi. Viestissä lukee kuka kutsui ja mihin toimipaikkaan, ja mukana on henkilökohtainen kirjautumislinkki. Linkkiä ei pidä välittää eteenpäin.
 
-Linkin avaaminen vie suoraan hallintapaneeliin. Jos linkki on vanhentunut, sama osoite toimii **Unohtuiko salasana** -polulla tai Google-kirjautumisella.
+Linkin avaaminen vie suoraan hallintapaneeliin. Jos linkki on vanhentunut, sama osoite toimii **Unohtuiko salasana** -toiminnolla tai Google-kirjautumisella.
 
-Jos henkilöllä on jo Työvuorolista-tili (toinen toimipaikka tai vanha tili), uutta tunnusta ei luoda. Sama kirjautuminen liittyy tähän toimipaikkaan, ja hän voi käyttää molempia.
+Jos henkilöllä on jo Tyovuorolista.fi-tili (toinen toimipaikka tai vanha tili), uutta tunnusta ei luoda. Sama kirjautuminen liittyy tähän toimipaikkaan, ja hän voi käyttää molempia.
 
 Kutsuttu ylläpitäjä, joka tekee myös vuoroja, näkee omat vuoronsa edelleen [Oma-portaalissa](/posts/oma_portaali_ohje) osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Kirjautuminen vie oletuksena hallintapaneeliin.
 
@@ -64,11 +64,11 @@ Poisto irrottaa vain ylläpitäjäoikeudet. Työntekijärivi, vuorot ja tuntikir
 
 <img src="/blogPostImages/yllapitajien_hallinta/poista-yllapitaja.png" alt="Varoitus: ylläpitäjäoikeudet poistetaan, työntekijärivi säilyy" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Käänteinen pätee myös: työntekijän poisto tai passivointi **ei** poista ylläpitäjäoikeuksia. Jos henkilö on ylläpitäjä, työntekijän poisto-ikkuna varoittaa siitä. Oikeudet otetaan pois tästä samasta Ylläpitäjät-osiosta.
+Sama pätee toisin päin: työntekijän poisto tai passivointi **ei** poista ylläpitäjäoikeuksia. Jos henkilö on ylläpitäjä, työntekijän poisto-ikkuna varoittaa siitä. Oikeudet otetaan pois tästä samasta Ylläpitäjät-osiosta.
 
 ## Mitä kannattaa tietää
 
-**Työntekijäpaikat.** Hinta määräytyy työntekijämäärästä, ylläpitäjien määrä ei nosta hintaa erikseen. Uusi henkilö vie kuitenkin yhden työntekijäpaikan, koska jokainen ylläpitäjä on myös työntekijä. Nykyisen työntekijän ylentäminen ei vie lisäpaikkaa. Hinnat: [hinnoittelu](/hinnoittelu).
+**Työntekijäpaikat.** Hinta määräytyy työntekijämäärästä, ylläpitäjien määrä ei nosta hintaa erikseen. Uusi henkilö vie kuitenkin yhden työntekijäpaikan, koska jokainen ylläpitäjä on myös työntekijä. Kun nykyinen työntekijä tehdään ylläpitäjäksi, lisäpaikkaa ei tarvita. Hinnat: [hinnoittelu](/hinnoittelu).
 
 **Laskutus.** Kutsuttu pääsee myös tilaukseen, eli hän voi esimerkiksi perua tilauksen. Vahvistusteksti kertoo tämän tarkoituksella. Rajoitetumpia rooleja (vain katselu, ei laskutusta) ei vielä ole.
 

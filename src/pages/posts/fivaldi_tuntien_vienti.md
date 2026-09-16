@@ -12,11 +12,11 @@ tags: ['palkkaraportti', 'Fivaldi', 'vienti', 'palkanlaskenta', 'integraatio']
 
 Työtunnit ja lisät voi lähettää Fivaldiin suoraan tyovuorolista.fi:stä. Rivit odottavat Fivaldissa Tietojen tuontia. Palkanlaskija noutaa ne palkkalaskelmalle samaan tapaan kuin ennenkin.
 
-Tämä ohje käy asetukset läpi kerran. Sen jälkeen vienti on kuukausirutiini. Käyttöönotto vaatii Fivaldin pääkäyttäjän oikeudet. Usein tilitoimisto hoitaa Fivaldi-puolen. Esihenkilö hoitaa tyovuorolista.fi-puolen.
+Tässä ohjeessa asetukset käydään läpi kerran. Sen jälkeen vienti on joka kuukausi sama rutiini. Käyttöönotto vaatii Fivaldin pääkäyttäjän oikeudet. Usein tilitoimisto hoitaa Fivaldi-puolen. Esihenkilö hoitaa tyovuorolista.fi-puolen.
 
 ## Mitä tarvitset ennen ensimmäistä vientiä
 
-### 1. Aktivoi integraatio Fivaldissa
+### 1. Ota integraatio käyttöön Fivaldissa
 
 Tilitoimiston pääkäyttäjä antaa tyovuorolista.fi:lle oikeuden yritykseen Fivaldissa:
 
@@ -43,13 +43,13 @@ Jos haku ei löydä yritystä, Fivaldin Kumppanikäyttäjät-oikeus (kohta 1) ei
 
 <img src="/blogPostImages/fivaldi-vienti/asetukset-palkanlaskenta.png" alt="Asetusten Palkanlaskenta-osio, palkkaohjelmaksi valittu Fivaldi ja yritys yhdistettynä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Paina lopuksi **Testaa yhteys**. Testi näyttää, ketkä työntekijöistäsi löytyvät Fivaldista samalla nimellä. Henkilönumeron pitää silti olla sama molemmissa päissä. Väärä numero paljastuu vasta viennissä.
+Paina lopuksi **Testaa yhteys**. Testi näyttää, ketkä työntekijöistäsi löytyvät Fivaldista samalla nimellä. Henkilönumeron pitää silti olla sama molemmissa järjestelmissä. Väärä numero paljastuu vasta viennissä.
 
 <img src="/blogPostImages/fivaldi-vienti/testaa-yhteys.png" alt="Testaa yhteys -tulos: työntekijät ja Fivaldin palkansaajat nimellä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
 ### 3. Yhdistä työntekijät henkilönumerolla
 
-Fivaldi tunnistaa rivit palkansaajan **ulkoisen järjestelmän tunnuksella**. Sama arvo asetetaan molempiin päihin.
+Fivaldi tunnistaa rivit palkansaajan **ulkoisen järjestelmän tunnuksella**. Sama arvo asetetaan molempiin järjestelmiin.
 
 **tyovuorolista.fi:ssä:** **Hallinta → Työntekijät** → avaa työntekijä → **Muokkaa** → **Työsuhde**-osio → **Henkilönumero (palkanlaskenta)**.
 
@@ -74,7 +74,7 @@ Fivaldissa tunnukset löytyvät kohdasta **Palkat → Asetukset → Palkkalajit*
 
 <img src="/blogPostImages/fivaldi-vienti/palkkalajikoodit-fivaldi.png" alt="Palkkalajikoodit-näkymä, Fivaldi-tunnuksen syöttö Iltavuorolisä-riville" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Ilman tunnusta rivi jää viennistä pois. Näet sen tuloksissa syyn kanssa. Koodeille ei ole valmiita oletuksia. tyovuorolista.fi lähettää vain tunnit ja kappaleet. Hinnat tulevat Fivaldista.
+Ilman tunnusta rivi jää viennistä pois. Rivi ja syy näkyvät viennin tuloksissa. Koodeille ei ole valmiita oletuksia. tyovuorolista.fi lähettää vain tunnit ja kappaleet. Hinnat tulevat Fivaldista.
 
 ## Vienti kuukausirutiinina
 
@@ -118,7 +118,7 @@ Muutama poikkeus:
 
 ## Voinko lähettää saman jakson uudelleen?
 
-Voit, mutta Fivaldin tuonti **lisää** rivit eikä korvaa niitä. Jos tunnit muuttuivat viennin jälkeen, tyovuorolista.fi näyttää työntekijän kohdalla aiemman viennin ja pyytää vahvistamaan **Lähetä korjauksena**. Poista vanhat tuodut rivit Fivaldin palkkalaskelmalta ennen uutta Tietojen tuontia. Muuten palkat tuplaantuvat.
+Voit, mutta Fivaldin tuonti **lisää** rivit eikä korvaa niitä. Jos tunnit muuttuivat viennin jälkeen, tyovuorolista.fi näyttää työntekijän kohdalla aiemman viennin ja pyytää vahvistamaan **Lähetä korjauksena**. Poista vanhat tuodut rivit Fivaldin palkkalaskelmalta ennen uutta Tietojen tuontia. Muuten rivit tulevat palkkaan kahteen kertaan.
 
 ## Tavallisimmat virheet
 

@@ -24,7 +24,7 @@ joten tunnit ja vuorotyypit kannattaa laskea työntekijöittäin näkyviin.
 
 ## Mitä laki sanoo tasapuolisuudesta?
 
-Työvuorosuunnittelua raamittaa kolme säädöstasoa:
+Työvuorosuunnittelua ohjaa kolme lakia:
 
 - **Työsopimuslain 2 luvun 2 §**: työnantajan on kohdeltava
   työntekijöitä tasapuolisesti, ellei poikkeamiselle ole työntekijän
@@ -65,7 +65,7 @@ syntyy useimmiten läpinäkyvyyden puutteesta, ei itse vuoroista.
 
 ## Reilun listan pelisäännöt
 
-Toimiva perusresepti, jonka voi ottaa käyttöön ensi listasta alkaen:
+Viisi sääntöä, jotka voi ottaa käyttöön ensi listasta alkaen:
 
 1. **Kierrätä ikävät ja halutut vuorot.** Viikonloput, illat ja
    juhlapyhät kiertävät kaikilla, jotka niitä sopimuksensa mukaan
@@ -98,7 +98,7 @@ näihin:
   ja pitkien työrupeamien jälkeen kunnon vapaajakso.
 - **Yhtenäiset vapaat**: mieluummin kaksi peräkkäistä vapaapäivää kuin
   yksittäisiä päiviä siellä täällä.
-- **Vaikutusmahdollisuus omiin työaikoihin**: TTL:n mukaan yksi
+- **Vaikutusmahdollisuus omiin työaikoihin**: Työterveyslaitoksen mukaan yksi
   tärkeimmistä hyvinvointia tukevista asioista vuorotyössä.
 
 Ergonominen lista on usein myös tasapuolinen lista: kun kierto on

@@ -21,7 +21,7 @@ Palkaton ruokatauko on laillinen vain, jos työntekijä saa tauon aikana vapaast
 
 Säännön tausta on [ruokataukopostauksessa](/posts/ruokatauko_ravintola-alalla). Tämä postaus kertoo, miten asetus toimii sovelluksessa.
 
-## Esimiehelle: mistä kytket päälle
+## Esihenkilölle: näin otat vähennyksen käyttöön
 
 1. Avaa **Asetukset**
 2. Siirry osioon **Tuntien laskenta**
@@ -31,15 +31,15 @@ Säännön tausta on [ruokataukopostauksessa](/posts/ruokatauko_ravintola-alalla
 
 <img src="/blogPostImages/palkaton_ruokatauko/hero.png" alt="Tuntien laskenta: palkaton ruokatauko päällä, 30 minuuttia kun vuoro on yli 6 tuntia, voimassa 1.10.2026 alkaen" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Kun kytket päälle, voimaantulopäiväksi täyttyy seuraavan kuukauden 1. päivä. Jo viedyt palkkajaksot eivät muutu. Kentän voi tyhjentää, jos vähennys on voimassa heti.
+Kun kytket vähennyksen päälle, voimaantulopäiväksi ehdotetaan seuraavan kuukauden 1. päivää. Jo viedyt palkkajaksot eivät muutu. Kentän voi tyhjentää, jos vähennys on voimassa heti.
 
 **Tauon pituus** on 15–60 minuuttia, viiden minuutin askelin. Tyypillinen arvo on 30 minuuttia. **Kun vuoro on yli** on oletuksena 6 tuntia. Tasan kuuden tunnin vuorosta ei vähennetä mitään. Ruokaetu lasketaan vuoroista, jotka ovat vähintään kuusi tuntia. Ruokatauko vähennetään vain, kun vuoro on sitä pidempi.
 
-Jos työpaikalla on valittu työehtosopimus, ohjeessa näkyy sen mukainen ehdotus, esimerkiksi Kaupan alalla yli 7 tuntia. Voit silti asettaa oman arvon.
+Jos työpaikalle on valittu työehtosopimus, kentän ohjetekstissä näkyy sen mukainen ehdotus, esimerkiksi Kaupan alalla yli 7 tuntia. Voit silti asettaa oman arvon.
 
 Tauko vähennetään aina vuoron keskeltä. Kahdeksan tunnin vuorosta 10–18, jossa tauko on 30 minuuttia, palkallista jää 7,5 tuntia. Keskikohta on 14.00, joten vähennys osuu välille 13.45–14.15.
 
-Jos sama vuoro menee päivästä iltaan tai yöhön, vähennys osuu niihin tunteihin, jotka osuvat keskikohdan ikkunaan. Esimerkiksi vuorosta 14–22, jossa iltalisä alkaa kello 18, 30 minuutin tauko vähennetään väliltä 17.45–18.15. Päivätunneista lähtee vartti ja iltalisästä vartti. Jos koko ikkuna jää yhteen jaksoon, vähennys otetaan vain siitä. Yölisä vähenee samalla tavalla, jos keskikohta osuu yön puolelle.
+Jos sama vuoro jatkuu päivästä iltaan tai yöhön, vähennys osuu niihin tunteihin, jotka ovat vuoron keskikohdan ympärillä. Esimerkiksi vuorosta 14–22, jossa iltalisä alkaa kello 18, 30 minuutin tauko vähennetään väliltä 17.45–18.15. Päivätunneista lähtee vartti ja iltalisästä vartti. Jos koko tauko osuu yhteen jaksoon, vähennys otetaan vain siitä. Yölisä vähenee samalla tavalla, jos keskikohta osuu yön puolelle.
 
 Sama vähennys tehdään sairauslomavuorosta. Sairausajan palkka seuraa sitä työaikaa, joka olisi tehty.
 
@@ -47,7 +47,7 @@ Vähennys vaikuttaa lisä- ja ylityörajoihin. 30 min × 15 vuoroa on 7,5 h kolm
 
 ## Työntekijä, joka ei voi poistua
 
-Ero on usein roolikohtainen. Joissain paikoissa keittiö pääsee poistumaan työpaikalta, mutta salissa työskentelevä joutuu jäämään paikalle. Silloin merkitset niille työntekijöille, jotka eivät voi poistua, kytkimen **Ruokatauko on työaikaa (ei vähennetä)**.
+Ero on usein tehtäväkohtainen. Joissain paikoissa keittiö pääsee poistumaan työpaikalta, mutta salissa työskentelevä joutuu jäämään paikalle. Silloin laitat niille työntekijöille, jotka eivät voi poistua, päälle kytkimen **Ruokatauko on työaikaa (ei vähennetä)**.
 
 <img src="/blogPostImages/palkaton_ruokatauko/tyontekija-kytkin.png" alt="Työntekijän muokkaus, Työsuhde-osio: kytkin Ruokatauko on työaikaa päällä" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 

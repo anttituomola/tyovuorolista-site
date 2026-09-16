@@ -14,8 +14,8 @@ image:
 tags: ['vertailu', 'työvuorovelho', 'vaihtoehto', 'työvuorosuunnittelu', 'hinnoittelu']
 ---
 
-**Lyhyesti:** Finago Työvuorovelho on pitkän linjan työvuorosuunnittelu-
-ohjelma, jota Finagon mukaan käyttää yli 1 500 yritystä. Se on
+**Lyhyesti:** Finago Työvuorovelho on pitkän linjan
+työvuorosuunnitteluohjelma, jota Finagon mukaan käyttää yli 1 500 yritystä. Se on
 myyntivetoinen: hinnasto ei ole julkinen, ja käyttöön pääsee demon ja
 tarjouksen kautta. Jos haluat mieluummin **julkisen hinnan, ilmaisen
 aloituksen ja itsepalvelun**, vaihtoehtoja ovat mm. Tyovuorolista.fi
@@ -62,8 +62,8 @@ sen sisartuote Maraplan on todennäköisesti sinulle oikea, jos:
   hoitavan koko ketjun palkkahallintoon asti
 - organisaatiosi on iso tai monitoimipaikkainen, ja tarvitset
   automaattista vuorosuunnittelua lisäpalveluna
-- yritykselläsi on tilitoimisto- tai konsernikytkös Finagon
-  ekosysteemiin
+- yritykselläsi on tilitoimiston tai konsernin kautta kytkös Finagon
+  tuotteisiin
 
 ## Milloin kannattaa katsoa vaihtoehtoja?
 
