@@ -375,6 +375,10 @@
                 "title": "Lomasuunnittelu",
                 "shortDescription": "Hallitse lomia ja lomapyyntöjä vuorolistassa."
             },
+            "sijaisen-haku": {
+                "title": "Sijaisen haku",
+                "shortDescription": "Merkitse poissaolo julkaistulta listalta ja etsi vuoroon sijainen."
+            },
             "hours-recording": {
                 "title": "Tuntien kirjaus",
                 "shortDescription": "Kirjaa toteutuneet tunnit ja vertaa suunnitelmaan."

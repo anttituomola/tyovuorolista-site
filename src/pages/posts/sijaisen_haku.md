@@ -11,11 +11,18 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'poissaolo', 'ohjeet']
 ---
 
-*Päivitetty 16.9.2026.*
+*Päivitetty 17.9.2026: ohjevideo sijaisen hausta. Ominaisuussivu: [Sijaisen haku](/ominaisuudet/sijaisen-haku).*
 
 Lista on julkaistu. Sofia soittaa aamulla, että hän on sairaana eikä pääse iltavuoroon. Näin merkitset poissaolon ja etsit vuoroon sijaisen.
 
 Ohje koskee julkaistun listan vuoroja, jotka alkavat tänään tai myöhemmin. Menneet vuorot, ks. ohjeen loppu. Etukäteen tiedossa oleva poissaolo, ks. [Poissaolon merkitseminen](/posts/poissaolon_merkitseminen).
+
+Videossa merkitään poissaolo, kysytään sijaista valituilta ja hyväksytään ilmoittautuminen Oma-portaalissa.
+
+<video controls playsinline preload="metadata" poster="/videos/sijaisen-haku-poster.jpg" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+  <source src="/videos/sijaisen-haku.mp4" type="video/mp4">
+  Selaimesi ei tue video-elementtiä.
+</video>
 
 ## Esihenkilölle
 

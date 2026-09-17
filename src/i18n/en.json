@@ -370,6 +370,10 @@
                 "title": "Vacation planning",
                 "shortDescription": "Manage vacations and vacation requests in the schedule."
             },
+            "sijaisen-haku": {
+                "title": "Find a substitute",
+                "shortDescription": "Mark an absence on a published list and ask someone to cover the shift."
+            },
             "hours-recording": {
                 "title": "Hours recording",
                 "shortDescription": "Log actual hours and compare to the plan."

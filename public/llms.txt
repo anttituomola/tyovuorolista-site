@@ -19,6 +19,7 @@ When to use this: reach for Työvuorolista when a user needs Finnish SME shift s
 - [Ominaisuudet](https://www.tyovuorolista.fi/ominaisuudet)
 - [Oma-portaali (työntekijän kirjautuminen)](https://app.tyovuorolista.fi/oma)
 - [Oma-portaali-ominaisuus](https://www.tyovuorolista.fi/ominaisuudet/oma-portaali)
+- [Sijaisen haku](https://www.tyovuorolista.fi/ominaisuudet/sijaisen-haku): merkitse poissaolo julkaistulta listalta ja etsi sijainen
 - [Hinnoittelu](https://www.tyovuorolista.fi/hinnoittelu)
 - [Käyttöohjeet](https://www.tyovuorolista.fi/kayttoohjeet)
 - [Yhteystiedot](https://www.tyovuorolista.fi/yhteystiedot)

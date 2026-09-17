@@ -326,6 +326,15 @@
   background: #000;
 }
 
+.tyov-screenshotFrame--plain {
+  padding-top: 0;
+}
+
+.tyov-screenshotFrame--plain::before,
+.tyov-screenshotFrame--plain::after {
+  content: none;
+}
+
 /* Features landing hero */
 .tyov-featuresHero {
   box-sizing: border-box;
@@ -462,6 +471,20 @@
   grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
   gap: 3rem;
   align-items: center;
+}
+
+.tyov-featureDetail__heroInner--stack {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.tyov-featureDetail__heroInner--stack .tyov-featureDetail__heroCopy {
+  max-width: 40rem;
+}
+
+.tyov-featureDetail__heroInner--stack .tyov-screenshotFrame--video video {
+  aspect-ratio: auto;
 }
 
 .tyov-featureDetail__breadcrumb {

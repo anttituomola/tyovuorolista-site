@@ -1,0 +1,72 @@
+---
+import FeatureDetail from '../../components/pages/FeatureDetail.astro'
+---
+
+<FeatureDetail
+    featureId="sijaisen-haku"
+    metaTitle="Sijaisen haku sairaslomalle | Työvuorolista"
+    metaDescription="Kun joku sairastuu julkaistulta listalta, merkitse poissaolo ja etsi sijainen. Sovellus kysyy valituilta työntekijöiltä Oma-portaalissa."
+    title="Sijaisen haku: kun joku sairastuu julkaistulta listalta"
+    lead="Lista on jo julkaistu ja Sofia soittaa aamulla, ettei pääse vuoroon. Klikkaa vuoroa, merkitse poissaolo ja kysy sijaista. Halukkaat ilmoittautuvat Oma-portaalissa, ja sinä valitset."
+    heroImage="/blogPostImages/sijaisen-haku/peittovuoro-kalenteri.png"
+    heroImageAlt="Kalenteri, jossa sairasvuoron päälle on tullut harmaa raidallinen avoin vuoro sijaiskyselylle"
+    heroLayout="stack"
+    heroVideo="/videos/sijaisen-haku"
+    heroVideoPoster="/videos/sijaisen-haku-poster.jpg"
+    heroVideoFormats={['mp4']}
+    benefits={[
+        {
+            icon: 'ic:baseline-sick',
+            title: 'Poissaolo ja sijaiskysely samasta vuorosta',
+            text: 'Klikkaa julkaistua vuoroa ja valitse Merkitse poissaolo. Syy jää sinulle ja palkanlaskentaan. Tiimin listalla lukee vain Poissa.',
+        },
+        {
+            icon: 'ic:baseline-group-add',
+            title: 'Sovellus näyttää, kuka voi tuurata',
+            text: 'Etsi sijainen -paneelissa ovat työntekijät, jotka voivat ottaa vuoron. Jäljellä olevat tunnit ja TES-varoitus näkyvät rivillä. Ei sopivia -kohdasta näet syyn, esimerkiksi toisen vuoron samana päivänä.',
+        },
+        {
+            icon: 'ic:baseline-notifications',
+            title: 'Kysely Omaan, hyväksyntä sinulle',
+            text: 'Kysy valituilta tai kaikilta sopivilta. Työntekijä näkee vuoron Avoimet vuorot -kohdassa ja ilmoittautuu. Sinä hyväksyt, muut saavat tiedon automaattisesti.',
+        },
+    ]}
+    sections={[
+        {
+            title: 'Merkitse poissaolo kalenterista',
+            paragraphs: [
+                'Ohje koskee julkaistun listan vuoroja, jotka alkavat tänään tai myöhemmin. Klikkaa vuoroa, valitse Merkitse poissaolo ja syy: Sairastui tai Muu este. Ruutu Etsi vuoroon sijainen on valmiiksi valittu.',
+                'Alkuperäinen vuoro jää poissaolona kalenteriin. Sen päälle tulee harmaa raidallinen avoin vuoro samoille kelloajoille. Sen näkevät vain ne, joilta kysyt.',
+            ],
+            image: '/blogPostImages/poissaolon-merkitseminen/poissaolo-dialogi.png',
+            imageAlt: 'Poissaolon vahvistus: Sairastui, Muu este ja ruutu Etsi vuoroon sijainen',
+        },
+        {
+            title: 'Kysy sijaista tai anna vuoro suoraan',
+            paragraphs: [
+                'Etsi sijainen avautuu heti. Voit kysyä kaikilta sopivilta, valituilta, tai antaa vuoron heti yhdelle, jos olette jo sopineet puhelimessa.',
+                'Sijaisen voi etsiä myös myöhemmin: klikkaa vuoroa ja valitse Etsi sijainen.',
+            ],
+            image: '/blogPostImages/sijaisen-haku/etsi-sijainen.png',
+            imageAlt: 'Etsi sijainen -paneeli: sopivat työntekijät, Ei sopivia ja Kysy kaikilta sopivilta',
+        },
+        {
+            title: 'Työntekijä ilmoittautuu Oma-portaalissa',
+            paragraphs: [
+                'Kysytty työntekijä saa ilmoituksen "Pääsisitkö töihin?". Vuoro näkyy Oma-portaalissa kohdassa Avoimet vuorot, ilman poissaolijan nimeä. Ilmoittautumisen jälkeen esihenkilö hyväksyy.',
+                'Kun vuoro on täytetty, muut kysytyt saavat ilmoituksen "Sijaista ei enää tarvita". Lista ja tuntikirjanpito pysyvät ajan tasalla.',
+            ],
+            image: '/blogPostImages/sijaisen-haku/oma-sijaiskysely.png',
+            imageAlt: 'Oma-portaalin Avoimet vuorot: tarjolla oleva vuoro ja Ilmoittaudu vuoroon',
+            layout: 'phone',
+        },
+        {
+            title: 'Menneet vuorot merkitään toteumasta',
+            paragraphs: [
+                'Eilisen tai sitä vanhemman vuoron merkitset Toteuma ja palkat -näkymässä rastilla Sairaana. Korvaajan vuoron voit lisätä samalta riviltä, esitäytettynä alkuperäisen vuoron ajoilla.',
+                'Etukäteen tiedossa oleva jakso merkitään vuoron tyypillä Poissaolo jo listaa tehdessä.',
+            ],
+        },
+    ]}
+    related={['avoimet-vuorot', 'oma-portaali', 'hours-recording']}
+/>

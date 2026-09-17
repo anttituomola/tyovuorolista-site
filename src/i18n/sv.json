@@ -370,6 +370,10 @@
                 "title": "Semesterplanering",
                 "shortDescription": "Hantera semester och semesteransökningar i schemat."
             },
+            "sijaisen-haku": {
+                "title": "Vikariesökning",
+                "shortDescription": "Markera frånvaro på en publicerad lista och sök vikarie till skiftet."
+            },
             "hours-recording": {
                 "title": "Timregistrering",
                 "shortDescription": "Registrera faktiska timmar och jämför med planen."

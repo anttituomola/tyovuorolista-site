@@ -33,6 +33,7 @@ const {
   heroLayout = 'wide',
   heroVideo,
   heroVideoPoster,
+  heroVideoFormats = ['webm', 'mp4'],
   betaNote,
   benefits = [],
   sections = [],
@@ -45,9 +46,10 @@ const {
   lead: string
   heroImage: string
   heroImageAlt: string
-  heroLayout?: 'wide' | 'phone'
+  heroLayout?: 'wide' | 'phone' | 'stack'
   heroVideo?: string
   heroVideoPoster?: string
+  heroVideoFormats?: Array<'webm' | 'mp4'>
   betaNote?: string
   benefits?: FeatureBenefit[]
   sections?: FeatureSection[]
@@ -69,11 +71,24 @@ const relatedIds =
     .map((f) => f.id)
 ---
 
-<Layout title={metaTitle} description={metaDescription}>
+<Layout
+    title={metaTitle}
+    description={metaDescription}
+    ogImage={
+        heroVideoPoster
+            ? `https://www.tyovuorolista.fi${heroVideoPoster}`
+            : undefined
+    }
+>
     <slot name="head" slot="head" />
     <article class="tyov-featureDetail">
         <section class="tyov-featureDetail__hero">
-            <div class="tyov-featureDetail__heroInner">
+            <div
+                class:list={[
+                    'tyov-featureDetail__heroInner',
+                    heroLayout === 'stack' && 'tyov-featureDetail__heroInner--stack',
+                ]}
+            >
                 <div class="tyov-featureDetail__heroCopy">
                     <nav class="tyov-featureDetail__breadcrumb" aria-label="Murupolku">
                         <a href="/ominaisuudet">{t('pages.features.backToFeatures', locale)}</a>
@@ -115,15 +130,26 @@ const relatedIds =
                     ]}
                 >
                     {heroVideo ? (
-                        <div class="tyov-screenshotFrame tyov-screenshotFrame--video">
+                        <div
+                            class:list={[
+                                'tyov-screenshotFrame',
+                                'tyov-screenshotFrame--video',
+                                heroLayout === 'stack' && 'tyov-screenshotFrame--plain',
+                            ]}
+                        >
                             <video
                                 controls
+                                playsinline
                                 preload="metadata"
                                 poster={heroVideoPoster}
                                 width="100%"
                             >
-                                <source src={`${heroVideo}.webm`} type="video/webm" />
-                                <source src={`${heroVideo}.mp4`} type="video/mp4" />
+                                {heroVideoFormats.includes('webm') && (
+                                    <source src={`${heroVideo}.webm`} type="video/webm" />
+                                )}
+                                {heroVideoFormats.includes('mp4') && (
+                                    <source src={`${heroVideo}.mp4`} type="video/mp4" />
+                                )}
                             </video>
                         </div>
                     ) : (
