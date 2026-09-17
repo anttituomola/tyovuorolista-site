@@ -84,6 +84,7 @@ export const features: FeatureItem[] = [
     category: 'planning',
     pageSlug: 'sijaisen-haku',
     blogSlug: '/posts/sijaisen_haku',
+    highlight: true,
     isNew: true,
   },
   {
