@@ -77,4 +77,4 @@ Mikäli yrityksessäsi julkaistaan kaikkien tiimien listat yhtäaikaisesti, voit
 
 Tässäkin ikkunassa painike on **Esikatsele sähköpostit**. Esikatselussa näet kootut henkilökohtaiset listat ja voit valita, merkitäänkö listat julkaistuiksi lähetyksen jälkeen. Kun painat **Lähetä kaikki sähköpostit**, kaikille työntekijöille, joilla on näissä listoissa työvuoroja, lähtee henkilökohtainen lista. Kuten aina, tämä lista sisältää kootusti kaikki työntekijän vuorot kaikista näistä listoista.
 
-Jos merkitset listat julkaistuiksi, **voit palauttaa ne muokattaviksi** päävalikosta Hallinta → Työvuorolistat.
+Jos merkitset listat julkaistuiksi, **voit palauttaa ne muokattaviksi** päävalikosta Hallinta → Työvuorolistat. Näin teet muutoksen ja mitä työntekijä siitä näkee: [Julkaistun työvuorolistan muuttaminen](/posts/julkaistun_listan_muokkaaminen).

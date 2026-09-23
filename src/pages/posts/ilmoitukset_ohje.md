@@ -50,7 +50,7 @@ Koska julkaisu lähettää ilmoituksia, **Merkitse lista julkaistuksi** kysyy en
 
 <img src="/blogPostImages/ilmoitukset/julkaisu-vahvistus.png" alt="Julkaisun vahvistusikkuna, joka kertoo keitä ilmoitus koskee" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Julkaistu lista on lukittu muokkauksilta. Jos listaa pitää muuttaa, palauta se ensin luonnokseksi, tee muutokset ja julkaise uudelleen. Kun julkaiset listan uudelleen, jokainen työntekijä saa vuorokohtaiset ilmoitukset juuri häntä koskevista muutoksista: mikä vuoro siirtyi, mikä peruttiin ja mitä tuli lisää. Turhia ilmoituksia ei synny: jos lisäät ja poistat saman vuoron luonnosvaiheessa, työntekijä ei kuule siitä lainkaan, ja saman vuoron monesta muokkauksesta ilmoitetaan vain lopputulos.
+Julkaistu lista on lukittu muokkauksilta. Jos listaa pitää muuttaa, palauta se ensin luonnokseksi, tee muutokset ja julkaise uudelleen. Kun julkaiset listan uudelleen, jokainen työntekijä saa vuorokohtaiset ilmoitukset juuri häntä koskevista muutoksista: mikä vuoro siirtyi, mikä peruttiin ja mitä tuli lisää. Turhia ilmoituksia ei synny: jos lisäät ja poistat saman vuoron luonnosvaiheessa, työntekijä ei kuule siitä lainkaan, ja saman vuoron monesta muokkauksesta ilmoitetaan vain lopputulos. Vaiheet ja kuvat: [Julkaistun työvuorolistan muuttaminen](/posts/julkaistun_listan_muokkaaminen).
 
 ## Sähköposti-ilmoitukset: jokainen valitsee itse
 
