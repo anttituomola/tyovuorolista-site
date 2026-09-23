@@ -10,7 +10,9 @@ image:
 tags: ['palkkaraportti', 'Procountor', 'vienti', 'palkanlaskenta', 'integraatio']
 ---
 
-*Päivitetty 5.9.2026: tyovuorolista.fi on listattu Finago Procountor Storeen. (4.9.: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois myös Procountor-aineistosta. 2.9.: kytkin tuli käyttöön. 31.7.: henkilönumero löytyy Työsuhde-osiosta.)*
+*Päivitetty 5.9.2026: tyovuorolista.fi on listattu Finago Procountor Storeen.*
+
+*Päivitetty 4.9.2026: jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois myös Procountor-aineistosta.*
 
 Jos palkanlaskenta pyörii Procountorissa, tuntien siirtäminen käsin Exceliin on turhaa työtä. tyovuorolista.fi:stä saat **Procountor-muotoisen palkka-aineiston**: CSV, jonka voit lukea suoraan sisään Procountoriin (*Palkat → Uusi palkkalista*).
 
@@ -73,7 +75,7 @@ Jokainen rivi on yksi palkkalaji yhdelle henkilölle, esimerkiksi:
 - ilta- / yö- / sunnuntailisät
 - TES-tulkitut lisätyöt, ylityöt (+50 % / +100 %) ja V/X/VV-päivätyökorvaukset (kun TES-apuri on käytössä; lisä- ja ylityö edellyttävät, että jakso on tasoittumisjakson mukainen)
 
-Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkaperustetta.
+Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkaperustetta. Jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois tästäkin aineistosta.
 
 ## Ero tavalliseen CSV-/PDF-raporttiin
 

@@ -10,15 +10,9 @@ image:
 tags: ['TES', 'MaRa', 'käyttöönotto', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 20.8.2026: TES-toimipaikalla voi seurata myös
-[vuosiloman kertymää](/posts/vuosiloman_kertyman_seuranta) (ansaintasääntö
-ja alkusaldo työntekijän tiedoista). Päivitetty 6.8.2026: TES-apuri (beta)
-on itsepalveluna kaikissa paketeissa. Erillistä aktivointipyyntöä ei
-tarvita. Päivitetty 31.7.2026: kaikki neljä työehtosopimusta ovat nyt
-täydessä tuessa, myös
-[SOSTES eli yksityinen sosiaalipalveluala](/posts/sostes_tyovuorosuunnittelussa).
-Päivitetty 27.7.2026: palkkalajikoodien yksityiskohdat siirretty
-[Procountor-vientiohjeeseen](/posts/procountor_palkka_vienti).*
+*Päivitetty 20.8.2026: TES-toimipaikalla voi seurata myös [vuosiloman kertymää](/posts/vuosiloman_kertyman_seuranta) (ansaintasääntö ja alkusaldo työntekijän tiedoista).*
+
+*Päivitetty 6.8.2026: TES-apuri (beta) on itsepalveluna kaikissa paketeissa. Erillistä aktivointipyyntöä ei tarvita.*
 
 **Lyhyesti:** [TES-apurin](/posts/tes_tuki_tyovuorosuunnittelussa)
 käyttöönotto vie nykyiseltä käyttäjältä noin vartin: valitse

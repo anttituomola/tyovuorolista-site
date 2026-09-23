@@ -10,8 +10,8 @@ image:
 tags: ["työvuorolista", "käyttöohjeet", "malline", "template"]
 ---
 *Päivitetty 7.9.2026: uuden listan voi aloittaa kopioimalla vuorot aiemmasta listasta. Nimettyä mallinetta ei tarvita.*
+
 *Päivitetty 31.8.2026: ohjevideo mallineesta avoimiksi vuoroiksi.*
-*Päivitetty 29.8.2026: mallineen voi kopioida myös ilman työntekijöitä. Ohje: [pikavalinta](/posts/pikavalinta).*
 
 Mikäli työvuorolistasi toistuu usein edes jossain määrin samanlaisena, **säästät paljon aikaa käyttämällä vanhaa listaa uuden työvuorolistan pohjana**. Voit kopioida vuorot suoraan aiemmasta listasta. Jos sama runko toistuu usein, merkitse lista mallineeksi, niin se löytyy valikosta nimellä.
 

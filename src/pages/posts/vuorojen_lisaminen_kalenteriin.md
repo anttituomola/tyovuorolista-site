@@ -10,10 +10,9 @@ image:
 tags: ["työvuorolista", "ohjeet", "työvuorot", "kalenteri", "aloittaminen"]
 ---
 
-*Päivitetty 18.8.2026: tietokoneella voit täyttää vuorot myös leimaustilalla (valitse työntekijä, klikkaa ruudukkoa). Puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
-
 *Päivitetty 7.9.2026: jos lista toistuu muodoltaan, kopioi vuorot aiemmasta listasta avoimina ja anna tekijä [pikavalinnasta](/posts/pikavalinta).*
-*Päivitetty 29.8.2026: jos lista toistuu muodoltaan, kopioi malline avoimiksi vuoroiksi ja anna tekijä [pikavalinnasta](/posts/pikavalinta).*
+
+*Päivitetty 18.8.2026: tietokoneella voit täyttää vuorot myös leimaustilalla (valitse työntekijä, klikkaa ruudukkoa). Puhelimessa vuorot luodaan plus-painikkeen pikaluonnista, ei napauttamalla kalenteriruudukkoa.*
 
 Työvuorolistan täyttäminen tapahtuu **Suunnittele**-näkymässä. Tietokoneella vasemmalla on työntekijät, keskellä kalenteri valitulle listalle. Puhelimessa näet yhden päivän kortteina. Kun lista on vielä julkaisematon, voit lisätä vuoroja vapaasti. Julkaisun jälkeen muokkaus on lukittu.
 

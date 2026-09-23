@@ -10,13 +10,9 @@ image:
 tags: ['TES', 'työntekijät', 'opas', 'uudet ominaisuudet']
 ---
 
-*Päivitetty 7.9.2026: sopimuspalkka / ei lisiä merkitään kytkimellä
-**Lisät sisältyvät sopimuspalkkaan**, ei valinnalla TES ei koske.
-(4.9.: kytkin pudottaa TES 21 §:n lisät viennistä. 2.9.: kytkin tuli
-käyttöön. 20.8.: vuosiloman
-ansaintasääntö ja alkusaldo,
-[kertymän seuranta](/posts/vuosiloman_kertyman_seuranta). 21.7.:
-**TES ei koske (yrittäjä, tms.)**.)*
+*Päivitetty 7.9.2026: sopimuspalkka / ei lisiä merkitään kytkimellä **Lisät sisältyvät sopimuspalkkaan**, ei valinnalla TES ei koske.*
+
+*Päivitetty 4.9.2026: kytkin pudottaa TES 21 §:n lisät viennistä.*
 
 **Lyhyesti:** [TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa) laskenta
 tarvitsee jokaiselta työntekijältä **työsuhteen tyypin**

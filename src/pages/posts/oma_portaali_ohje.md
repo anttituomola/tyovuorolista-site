@@ -14,23 +14,9 @@ ctaText: Kirjaudu
 ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
-*Päivitetty 11.7.2026: lisätty tuntien ilmoittaminen (tunti-ilmoitus) ja avoimet vuorot.*
-
-*Päivitetty 31.7.2026: Oma-portaali ei ole enää beta, erillistä aktivointia ei tarvita, vaan ominaisuus on heti käytettävissä kaikilla maksullisilla tilauksilla.*
-
-*Päivitetty 1.8.2026: vapaatoiveen voi nyt hyväksyä tai hylätä suoraan kalenterista. Hyväksyntä merkitsee V- ja X-päivät automaattisesti.*
-
-*Päivitetty 23.8.2026: avoimet vuorot ovat nyt käytössä kaikilla maksullisilla tilauksilla ilman erillistä aktivointia. Katso [avointen vuorojen oma ohje](/posts/avoimet_vuorot_ohje).*
-
-*Päivitetty 24.8.2026: avoimen vuoron voi luoda myös puhelimella.*
-
-*Päivitetty 30.8.2026: työntekijä ei voi enää jättää vapaatoivetta päiville, jotka kuuluvat jo julkaistuun työvuorolistaan.*
+*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
 
 *Päivitetty 10.9.2026: jos toimipaikalla on [palkaton ruokatauko](/posts/palkaton_ruokatauko) päällä, tuntiraportti näyttää nettotunnit ja rivin Ruokatauot.*
-
-*Päivitetty 9.9.2026: työntekijä voi ilmoittaa myös lomatoiveen. Vapaatoive ja lomatoive ovat samassa Toiveet-välilehdessä.*
-
-*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
 
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
