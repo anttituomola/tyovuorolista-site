@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Oma-portaali: työntekijän oma näkymä vuoroihin'
 pubDate: 2026-07-01
-description: 'Kirjaudu Oma-portaaliin (omaportaali) osoitteessa app.tyovuorolista.fi/oma. Ohje: omat vuorot, toiveet, tunti-ilmoitus ja avoimet vuorot.'
+description: 'Kirjaudu Oma-portaaliin (omaportaali) osoitteessa app.tyovuorolista.fi/oma. Ohje: omat vuorot, toiveet, tunti-ilmoitus, avoimet vuorot ja koko tiimin lista.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/oma-portaali/tyontekija-vuorot.png'
@@ -30,16 +30,19 @@ ctaHref: https://app.tyovuorolista.fi/oma
 
 *Päivitetty 9.9.2026: työntekijä voi ilmoittaa myös lomatoiveen. Vapaatoive ja lomatoive ovat samassa Toiveet-välilehdessä.*
 
+*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
+
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
 
-Portaali tarjoaa tällä hetkellä neljä toimintoa:
+Portaali tarjoaa tällä hetkellä viisi toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
 - **Toiveet**: vapaatoive (vapaa ilman palkkaa) ja lomatoive (palkallinen vuosiloma)
 - **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
+- **Koko tiimin lista**: julkaistu lista omalta tiimiltä, jos esihenkilö on kytkenyt sen päälle asetuksista
 
 ## Esihenkilölle: näin otat Oma-portaalin käyttöön
 
@@ -120,6 +123,14 @@ Ilmoittautumiset näet avaamalla vuoron kalenterista. **Hyväksy** antaa vuoron 
 
 > Avoimet vuorot ovat käytössä kaikilla maksullisilla tilauksilla ilman erillistä aktivointia. Tarkempi ohje kuvineen: [Avoimet vuorot](/posts/avoimet_vuorot_ohje).
 
+### 7. Koko tiimin lista työntekijöille
+
+Oletuksena työntekijä näkee portaalissa vain omat vuoronsa. Jos haluat näyttää myös työkavereiden vuorot, avaa **Hallinta → Asetukset** ja kytke päälle **Näytä työntekijöille koko tiimin työvuorolista Oma-portaalissa**.
+
+Työntekijä näkee omien tiimiensä julkaistut listat samassa muodossa kuin julkaisulistan. Näkymässä on etunimi ja sukunimen alkukirjain. Vuoron muistiinpanot näkyvät. Poissaolo näkyy sanana Poissa, syytä ei näytetä. Luonnoslistat eivät näy. Mukana ovat kuluva ja tulevat listat sekä kaksi edellistä julkaistua listaa tiimiä kohden.
+
+<img src="/blogPostImages/oma-portaali/tiimilista-asetus.png" alt="Asetukset: kytkin Näytä työntekijöille koko tiimin työvuorolista Oma-portaalissa" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
+
 ## Työntekijälle: näin käytät Oma-portaalia
 
 ### Ensimmäinen kirjautuminen
@@ -196,6 +207,21 @@ Kun tarjolla on **avoimia vuoroja**, näet etusivulla painikkeen **Avoimia vuoro
 <img class="blogPhone" src="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" />
 </div>
 
+### Koko tiimin lista
+
+Jos esihenkilösi on kytkenyt tiimilistan päälle, etusivulla on painike **Koko tiimin lista**. Sama sivu on osoitteessa [app.tyovuorolista.fi/oma/tiimi](https://app.tyovuorolista.fi/oma/tiimi).
+
+Näet tiimisi julkaistun listan. Oma rivisi on ylimpänä ja merkitty sinä. Puhelimella voit vaihtaa viikkonäkymän ja päivälistan välillä. Avoimeen vuoroon, johon voit ilmoittautua, tulee linkki **Ilmoittaudu**. Se vie avoimiin vuoroihin.
+
+Poissaolevan työkaverin kohdalla lukee Poissa. Syytä et näe.
+
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-etusivu.png" alt="Oma-portaalin etusivu, jossa painike Koko tiimin lista" />
+
+<div class="blogPhonePair">
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-viikko.png" alt="Koko tiimin lista viikkonäkymässä: oma rivi ylimpänä, työkavereiden vuorot ja Poissa" />
+<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-paiva.png" alt="Koko tiimin lista päivänäkymässä: vuoron kellonajat ja muistiinpano" />
+</div>
+
 ### Myöhemmät kirjautumiset
 
 Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, pyydä uusi kirjautumislinkki samalta sivulta. Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi. Kirjautumissivu on myös osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu).
@@ -208,7 +234,6 @@ Oma-portaali **ei vielä korvaa** sähköpostitse lähetettyä työvuorolistaa e
 
 - et voi hyväksyä tai hylätä esihenkilön ehdottamia vuoromuutoksia
 - et voi vaihtaa vuoroja työkaverin kanssa
-- et näe muiden työntekijöiden vuoroja
 - et näe luonnoslistojen vuoroja (poikkeuksena avoin vuoro, joka on annettu sinulle ilmoittautumisen kautta)
 
 Näitä ja muita työntekijän toimintoja suunnitellaan seuraaviin versioihin.
