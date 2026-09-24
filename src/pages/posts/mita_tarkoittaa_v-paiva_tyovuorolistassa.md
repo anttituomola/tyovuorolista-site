@@ -33,7 +33,7 @@ Lue myös [työvuorolistan lyhenteet: X, V, TS ja VV](/posts/tyovuorolista_lyhen
 </video>
 
 ## Pitääkö minun muistaa tämä kaikki?
-Ei. tyovuorolista.fi laskee automaattisesti kunkin listan V-päivät, estää tupla-V:t, laskee ympäröivien vuorojen väliset tunnit ja tekee kaiken muunkin sinulle helpoksi.
+Ei. Tyovuorolista.fi laskee automaattisesti kunkin listan V-päivät, estää tupla-V:t, huomauttaa, jos täydeltä työviikolta puuttuu V-merkintä, ja ehdottaa puuttuvien V- ja X-päivien sijoittelua. Tuntimäärän (vähintään 30 h vuoron lopusta seuraavan vuoron alkuun) täyttymisen tarkistat toistaiseksi itse.
 
 ---
 
