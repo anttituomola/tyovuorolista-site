@@ -4,7 +4,7 @@ import type { ImageMetadata } from 'astro'
 import dayjs from 'dayjs'
 import { publicImageSize } from '../../utils/imageSize'
 
-const { title, pubDate, image, description, tags } = Astro.props.post.frontmatter
+const { title, pubDate, updatedDate, image, description, tags } = Astro.props.post.frontmatter
 const { url } = Astro.props.post
 const { url: imageUrl, alt } = image || { url: '', alt: '' };
 const HeadingTag = Astro.props.headingLevel || 'h3'
@@ -53,7 +53,9 @@ const publicSize = optimizedImage ? {} : publicImageSize(imageUrl)
             <HeadingTag class="cardTitle">{title}</HeadingTag>
             <p>{description}</p>
             <p class="metadata">
-                Julkaistu {dayjs(pubDate).format('DD.MM.YYYY')}
+                {updatedDate
+                    ? `Päivitetty ${dayjs(updatedDate).format('DD.MM.YYYY')}`
+                    : `Julkaistu ${dayjs(pubDate).format('DD.MM.YYYY')}`}
             </p>
             <p class="tags">
                 Avainsanat: {tags.map((tag: string, index: number) => {

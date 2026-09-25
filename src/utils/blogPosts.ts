@@ -8,18 +8,21 @@ export type BlogPostModule = {
   frontmatter: {
     title: string
     pubDate: string | Date
+    /** When set, the index sorts and labels the card by this date. */
+    updatedDate?: string | Date
     description?: string
     image?: { url: string; alt?: string }
     tags?: string[]
   }
 }
 
+function listingTime(post: BlogPostModule): number {
+  const date = post.frontmatter.updatedDate || post.frontmatter.pubDate
+  return new Date(date).getTime()
+}
+
 export function sortBlogPostsByDate(posts: BlogPostModule[]): BlogPostModule[] {
-  return [...posts].sort(
-    (a, b) =>
-      new Date(b.frontmatter.pubDate).getTime() -
-      new Date(a.frontmatter.pubDate).getTime()
-  )
+  return [...posts].sort((a, b) => listingTime(b) - listingTime(a))
 }
 
 /** Posts whose pubDate is today or earlier (Europe/Helsinki), newest first. */
