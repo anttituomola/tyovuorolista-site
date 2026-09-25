@@ -97,8 +97,9 @@ työntekijäkohtaista liittymissopimusta.
 2. Sovi saldon seurannasta: työnantajan on pidettävä
    työntekijäkohtaista kirjanpitoa pankkiin siirretyistä eristä ja
    niiden perusteista, työaikalain työaikakirjanpidon lisäksi.
-3. Muista vapaan pitämisvelvoite: vähintään kaksi viikkoa vuodessa,
-   kuuden kuukauden sisällä työntekijän vaatimuksesta.
+3. Jos käytössä on työaikalain 14 §:n pankki (ei MaRa-vuosityöaika), muista
+   vapaan vähimmäismäärä: vähintään kaksi viikkoa kalenterivuodessa, ja
+   työntekijän vaatiessa kuuden kuukauden sisällä.
 
 Tyovuorolista.fi tukee tällä hetkellä MaRa-TES:n
 [tasoittumisjärjestelmää](/posts/tasoittumisjarjestelma_ravintola-alalla)
