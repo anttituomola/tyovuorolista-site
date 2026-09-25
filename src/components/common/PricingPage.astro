@@ -31,12 +31,13 @@ const tiers = [
             <span class="noticeDivider" aria-hidden="true"></span>
             <span>{pricing?.taxNote}</span>
         </p>
-        <div class="billingToggle" role="tablist" aria-label={pricing?.toggleLabel}>
+        <div class="billingToggle" role="group" aria-label={pricing?.toggleLabel}>
             <button
                 type="button"
                 class="billingToggleButton"
                 data-billing-target="monthly"
                 data-active="false"
+                aria-pressed="false"
             >
                 {pricing?.monthlyLabel}
             </button>
@@ -45,6 +46,7 @@ const tiers = [
                 class="billingToggleButton"
                 data-billing-target="yearly"
                 data-active="true"
+                aria-pressed="true"
             >
                 {pricing?.yearlyLabel}
             </button>
@@ -118,10 +120,9 @@ const tiers = [
             pricingRoot.dataset.billing = billingMode
 
             toggleButtons.forEach(button => {
-                button.setAttribute(
-                    'data-active',
-                    String(button.dataset.billingTarget === billingMode)
-                )
+                const active = String(button.dataset.billingTarget === billingMode)
+                button.setAttribute('data-active', active)
+                button.setAttribute('aria-pressed', active)
             })
         }
 
@@ -386,7 +387,7 @@ const tiers = [
     }
 
     .featureList li.featureExcluded {
-        color: rgba(74, 93, 88, 0.45);
+        color: #667571;
     }
 
     .featureList li.featureExcluded s {

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorosuunnitteluohjelma: hinnat, ilmaiset vaihtoehdot ja valintaopas 2026'
+metaTitle: 'Työvuorosuunnitteluohjelma: hinnat ja valintaopas 2026'
 pubDate: 2022-07-07
-description: 'Mikä työvuorosuunnitteluohjelma sopii pienelle yritykselle? Vertailussa Excel, ilmaiset pohjat ja kotimaiset ohjelmistot. Hinnat, TES-tuki ja valintakriteerit ravintolaan, kauppaan, hoivaan ja siivousalalle.'
+description: 'Mikä työvuorosuunnitteluohjelma sopii pienelle yritykselle? Excel, ilmaiset pohjat ja kotimaiset ohjelmat: hinnat, TES-tuki ja valintakriteerit.'
 reviewedDate: 2026-08-10
 infoBasis: 'Hinnat ja ohjelmistovaihtoehdot tarkistettu elokuussa 2026. Lakiviittaukset perustuvat työaikalakiin 872/2019 (30 §) ja alakohtaisiin työehtosopimuksiin.'
 author: 'Antti Tuomola'

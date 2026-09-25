@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työntekijöiden hallinta: lisääminen, tuonti, muokkaus ja poisto'
+metaTitle: 'Työntekijöiden hallinta: lisääminen, tuonti ja muokkaus'
 pubDate: 2026-07-25
 description: 'Kaikki tavat lisätä työntekijöitä: yksi kerrallaan, liitä lista (tuonti) ja tuonti tilin luonnissa. Lisäksi muokkaus, poisto ja tilauksen työntekijäraja.'
 author: 'Antti Tuomola'
@@ -113,7 +114,7 @@ Ennen vahvistusta sovellus varoittaa:
 
 > Olet poistamassa työntekijää. Tämä poistaa myös kaikki hänen julkaisemattomat työvuoronsa.
 
-| | Julkaisemattomat listat | Julkaistut listat |
+| Mitä tapahtuu | Julkaisemattomat listat | Julkaistut listat |
 |---|------------------------|-------------------|
 | Työntekijän vuorot | **Poistetaan** | **Säilyvät** (historiadata) |
 | Työntekijä itse | Poistuu pysyvästi | – |

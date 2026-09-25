@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tasoittumisjärjestelmä kaupan alalla'
 pubDate: 2026-07-28
-description: 'Kaupan TES:n 2–26 viikon tasoittumisjakso pitää keskimääräisen viikkotyöajan 37,5 tunnissa. Yksittäinen viikko max 48 h, max 9 yli 8 h vuoroa / 3 vk, ja jakson lopussa +50 % -tilitus (12 § 9).'
+description: 'Kaupan TES:n 2–26 viikon tasoittumisjakso pitää viikkotyöajan keskimäärin 37,5 tunnissa. Viikko enintään 48 h, ylitys tilitetään jakson lopussa +50 %.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu kaupan työehtosopimukseen 1.2.2025–31.1.2028 (6 §, 8 §, 12 § 9) ja työaikalakiin (872/2019) 18 §. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Seuraa tasoittumisjakson tunteja'

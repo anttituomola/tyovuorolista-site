@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Jaksotyön lisä- ja ylityö yksityisellä sosiaalipalvelualalla'
 pubDate: 2026-08-06
-description: 'Miten SOSTES:n jaksotyön ylityö lasketaan: kynnys seuraa työvuoroluetteloa, korotus 18 h +50 % ja loput +100 % per kolme viikkoa, ja arkipyhät sekä poissaolot alentavat rajaa.'
+description: 'Näin SOSTES:n jaksotyön lisä- ja ylityö lasketaan: kynnys seuraa työvuoroluetteloa, 18 h +50 % ja loput +100 %. Arkipyhät ja poissaolot alentavat rajaa.'
 reviewedDate: 2026-07-30
 infoBasis: 'Perustuu yksityisen sosiaalipalvelualan työehtosopimukseen (HALI ry – Sote ry, JHL, Talentia ja Salli ry, 1.1.2026–30.4.2028, yleissitova) 7–9 §:iin ja palkkasopimuksen G-taulukoihin 1.8.2025, sekä työaikalakiin 872/2019. Koskee jaksotyötä; yleis- ja toimistotyöajan ylityösäännöt poikkeavat.'
 ctaText: 'Laske jaksotyön ylityöt automaattisesti'
@@ -34,7 +34,7 @@ Jaksotyön ylityö ei vertaudu kiinteään tuntimäärään vaan **listaan
 merkittyyn säännölliseen työaikaan** (TES 9 § 4). Työehtosopimuksen oma
 esimerkki kuuden viikon luettelosta havainnollistaa tämän:
 
-| | Suunniteltu | Toteutunut | Ylityötä |
+| Jakso | Suunniteltu | Toteutunut | Ylityötä |
 |---|---|---|---|
 | 1. kolmiviikkoisjakso | 120 h | 140 h | 20 h → **18 h +50 %, 2 h +100 %** |
 | 2. kolmiviikkoisjakso | 110 h | 115 h | 5 h → **5 h +50 %** |

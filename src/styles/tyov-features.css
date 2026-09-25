@@ -268,7 +268,7 @@
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--tummanvihrea, #2d3a35);
   white-space: nowrap;
 }
 

@@ -1,9 +1,10 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Excel vs työvuorolista-ohjelma: milloin taulukko riittää ja milloin ei?'
+metaTitle: 'Excel vs työvuorolista-ohjelma: milloin taulukko riittää?'
 pubDate: 2026-08-03
 reviewedDate: 2026-08-03
-description: 'Rehellinen vertailu: milloin työvuorolistan tekeminen Excelissä on ihan hyvä ratkaisu, mitä se oikeasti maksaa ja missä kohtaa työvuorolista-ohjelma alkaa säästää aikaa ja hermoja. Mukana ilmainen tulostettava pohja.'
+description: 'Rehellinen vertailu: milloin työvuorolista Excelissä riittää, mitä se maksaa ja milloin työvuorolista-ohjelma säästää aikaa. Mukana ilmainen pohja.'
 infoBasis: 'Perustuu voimassa olevaan työaikalakiin (872/2019, erityisesti 30 ja 32 §) sekä kokemuksiimme pienyrityksistä, jotka ovat siirtyneet Excelistä ohjelmaan. Kirjoittajan oma ohjelma Tyovuorolista.fi on yksi vertailtavista vaihtoehdoista. Kerromme myös, milloin Excel on parempi valinta.'
 ctaText: 'Kokeile ilmaiseksi, ei luottokorttia'
 ctaHref: 'https://app.tyovuorolista.fi/register'
@@ -48,7 +49,7 @@ Jos kulutat listojen pyörittämiseen 1–2 tuntia viikossa ja työtuntisi arvo 
 
 ## Excel vs ohjelma: rinnakkain
 
-| | Excel / Sheets | Työvuorolista-ohjelma |
+| Vertailukohta | Excel / Sheets | Työvuorolista-ohjelma |
 | :-- | :-- | :-- |
 | Listan teko | Käsin joka jaksolle | Mallipohjat ja toistuvat vuorot |
 | Jakelu työntekijöille | Liite tai kuva viestiin, versiot hajoavat | Julkaisu sähköpostiin ja työntekijän omaan portaaliin, aina ajantasainen |

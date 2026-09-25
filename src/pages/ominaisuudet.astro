@@ -7,6 +7,6 @@ const locale = getLocaleFromAstro(Astro)
 const page = getTranslationObject('pages.features', locale)
 ---
 
-<Layout title={page?.title} description={page?.subtitle}>
+<Layout title={page?.metaTitle ?? page?.title} description={page?.metaDescription ?? page?.subtitle}>
     <FeaturesPage locale={locale} />
 </Layout>

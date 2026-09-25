@@ -7,8 +7,14 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 import { getFutureBlogPostPathnames } from './src/utils/blogPublishDate.mjs';
+import {
+  publicImageSizesVitePlugin,
+  rehypePublicImageSizes,
+  remarkHeroImageSize
+} from './src/utils/publicImageSizes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const publicDir = path.join(__dirname, 'public');
 const futureBlogPostPathnames = getFutureBlogPostPathnames(
   path.join(__dirname, 'src/pages/posts')
 );
@@ -16,6 +22,14 @@ const futureBlogPostPathnames = getFutureBlogPostPathnames(
 // https://astro.build/config
 export default defineConfig({
   output: "server",
+  // Explicit width/height for images served from public/ (prevents CLS)
+  markdown: {
+    remarkPlugins: [[remarkHeroImageSize, { publicDir }]],
+    rehypePlugins: [[rehypePublicImageSizes, { publicDir }]]
+  },
+  vite: {
+    plugins: [publicImageSizesVitePlugin(publicDir)]
+  },
   build: {
     // Inline all CSS into the HTML: removes 4 render-blocking requests that
     // PSI flags as the largest remaining LCP/FCP cost (~600 ms on mobile).

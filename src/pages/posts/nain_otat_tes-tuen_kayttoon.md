@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Näin otat TES-tuen käyttöön: opas nykyisille käyttäjille'
 pubDate: 2026-07-19
-description: 'TES-apuri (beta) sisältyy kaikkiin paketteihin. Tämä opas käy läpi käyttöönoton vaihe vaiheelta: TES-valinta, jaksorytmi, työntekijätiedot ja miten saat ominaisuudesta eniten irti.'
+description: 'TES-apuri (beta) sisältyy kaikkiin paketteihin. Opas käy läpi TES-tuen käyttöönoton vaihe vaiheelta: TES-valinta, jaksorytmi ja työntekijätiedot.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-asetukset.png'

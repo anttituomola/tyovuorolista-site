@@ -9,6 +9,9 @@ import logo from '../assets/logo.png'
 import '@fontsource/work-sans/400.css'
 import '@fontsource/work-sans/500.css'
 import '@fontsource/work-sans/600.css'
+import workSans400 from '@fontsource/work-sans/files/work-sans-latin-400-normal.woff2?url'
+import workSans500 from '@fontsource/work-sans/files/work-sans-latin-500-normal.woff2?url'
+import workSans600 from '@fontsource/work-sans/files/work-sans-latin-600-normal.woff2?url'
 import '../styles/tyov-features.css'
 import '../styles/tyov-portal-entry.css'
 import '../styles/tyov-button.css'
@@ -33,10 +36,10 @@ const {
 } = Astro.props
 
 const defaultTitle = locale === 'fi' 
-  ? "tyovuorolista.fi: pk-yrityksen työvuorolista nopeasti ja helposti"
+  ? "Työvuorolista pk-yritykselle helposti | tyovuorolista.fi"
   : locale === 'en'
-  ? "tyovuorolista.fi: Shift schedule for small businesses quickly and easily"
-  : "tyovuorolista.fi: Arbetsscheman för småföretag snabbt och enkelt"
+  ? "Shift scheduling for small businesses | tyovuorolista.fi"
+  : "Arbetsschema för småföretag enkelt | tyovuorolista.fi"
 
 const defaultDescription = locale === 'fi'
   ? "Pk-yrityksen työvuorolistan suunnittelu ja julkaisu eri tiimeille helposti ja nopeasti. Ilmainen TES-apuri kaikissa paketeissa. Ota heti käyttöön viidessä minuutissa!"
@@ -92,8 +95,11 @@ const webSiteJsonLd = buildWebSiteJsonLd(siteUrl)
 <html lang={langMap[locale] || 'fi'}>
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content={finalDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Fonts are referenced from inlined CSS, so the browser finds them late; preloading avoids the swap-induced layout shift -->
+        <link rel="preload" as="font" type="font/woff2" href={workSans400} crossorigin />
+        <link rel="preload" as="font" type="font/woff2" href={workSans500} crossorigin />
+        <link rel="preload" as="font" type="font/woff2" href={workSans600} crossorigin />
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link rel="sitemap" href="/sitemap-index.xml">
         <link rel="sitemap" href="/sitemap-0.xml">

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuosivapaan alkusaldo: näin asetat sen käyttöönotossa'
 pubDate: 2026-07-23
-description: 'Kun otat TES-tuen käyttöön toimipaikassa, jossa työntekijöillä on jo työhistoriaa, vuosivapaa-saldot asetetaan ohjatulla syötöllä: aloita nollasta, anna arvio päivissä tai syötä tarkat tunnit. Näin teet sen oikein.'
+description: 'Kun otat TES-tuen käyttöön ja työntekijöillä on jo työhistoriaa, aseta vuosivapaan alkusaldo: aloita nollasta, anna arvio päivinä tai syötä tarkat tunnit.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/vuosivapaa-ohjattu-syotto.png'

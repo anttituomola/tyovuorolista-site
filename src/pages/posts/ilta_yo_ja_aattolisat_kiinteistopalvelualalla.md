@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ilta-, yö-, sunnuntai- ja aattolisät kiinteistöpalvelualalla'
 pubDate: 2026-08-12
-description: 'KipaTES:n lisät: iltalisä 0,73 €/h klo 18–23, yölisä 1,36 €/h klo 23–06, sunnuntai +100 %, juhannus- ja jouluaatto +100 % koko päivältä ja kuusi nimettyä lauantaita +50 %. Kaikki yhdessä taulukossa.'
+description: 'KipaTES:n lisät: iltalisä 0,73 €/h klo 18–23, yölisä 1,36 €/h klo 23–06, sunnuntai +100 % sekä juhannus- ja jouluaatto +100 %. Kaikki yhdessä taulukossa.'
 reviewedDate: 2026-08-06
 infoBasis: 'Perustuu kiinteistöpalvelualan työntekijöitä koskevaan työehtosopimukseen (Kiinteistötyönantajat ry – PAM ry, 1.4.2025–31.3.2028, yleissitova), erityisesti 8 § 8 ja 11 mom. sekä 10 § 3–6 mom. määräyksiin. Koskee kiinteistöpalvelualan TES:n piirissä olevia työntekijöitä; keskeytymättömässä kolmivuorotyössä osa korvauksista poikkeaa.'
 ctaText: 'Luokittele lisät automaattisesti'

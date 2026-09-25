@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työaikapankki: mitä se on ja miten se otetaan käyttöön?'
 pubDate: 2026-07-26
-description: 'Työaikapankki on sopimukseen perustuva järjestelmä, jossa työtunteja ja rahaeriä muutetaan myöhemmin pidettäväksi vapaaksi. Työaikalain 14 § antaa sille raamit. Ravintola-alalla vastaava järjestelmä on MaRa-TES:n vuosityöaikajärjestelmä.'
+description: 'Työaikapankissa tunteja ja rahaeriä säästetään myöhemmin pidettäväksi vapaaksi. Työaikalain 14 § antaa raamit, MaRa-TES:ssä vastine on vuosityöaika.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu työaikalakiin (872/2019, 14 §) ja MaRa-työehtosopimuksen vuosityöaikajärjestelmään. Ravintola-alaa koskevat kohdat koskevat MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Hallitse työaikapankin tunnit ja vapaat'

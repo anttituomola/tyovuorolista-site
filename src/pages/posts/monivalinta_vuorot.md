@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Usean vuoron valinta: siirrä tai poista vuoroja kerralla'
 pubDate: 2026-05-31
-description: 'Voit nyt valita useita työvuoroja Ctrl- tai Cmd-klikkauksella ja siirtää tai poistaa ne kerralla. Siirto tunteina tai päivinä, automaattinen päällekkäisyystarkistus ja osittainen onnistuminen kuten toistuvissa vuoroissa.'
+description: 'Valitse useita työvuoroja Ctrl/Cmd-klikkauksella ja siirrä tai poista ne kerralla. Siirto tunteina tai päivinä ja automaattinen päällekkäisyystarkistus.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/monivalinta_vuorot/kalenteri-valinta.png'

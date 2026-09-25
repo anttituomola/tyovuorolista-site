@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Puuttuvat V- ja X-päivät yhdellä klikkauksella'
 pubDate: 2026-08-07
-description: 'TES-huomautukset-paneeli korjaa nyt MaRa TES:n puuttuvat V- ja X-vapaapäivät automaattisesti: yksi klikkaus lisää merkinnät tyhjille päiville muokattavan listan sisällä.'
+description: 'TES-huomautukset-paneeli korjaa MaRa TES:n puuttuvat V- ja X-vapaapäivät: yksi klikkaus lisää merkinnät tyhjille päiville muokattavalla listalla.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-korjaa-automaattisesti/tes-huomautukset-korjaa-painike.png'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuoron pituus ja lepoajat ravintola-alalla'
 pubDate: 2026-07-28
-description: 'MaRa-TES:n säännöt yhdessä paikassa: työvuoron minimipituus 4 h ja maksimipituus 10 h, vuorokauden enimmäistyöaika 16 h, vuorojen välinen lepoaika 11 h (sovittaessa vähintään 8 h) sekä ruoka- ja kahvitauot.'
+description: 'MaRa-TES: työvuoro vähintään 4 h ja enintään 10 h, vuorokauden enimmäistyöaika 16 h, vuorojen välinen lepoaika 11 h (sopien 8 h) sekä ruoka- ja kahvitauot.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (tes.mara.fi, työvuoron pituus ja lepoajat) ja työaikalakiin (872/2019, 24–25 §). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Tarkista vuorojen pituudet ja lepoajat automaattisesti'

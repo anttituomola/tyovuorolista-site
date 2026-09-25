@@ -12,7 +12,7 @@
     },
     "cookieConsent": {
         "message": "Käytämme evästeitä kävijämäärien mittaamiseen ja markkinointiin.",
-        "learnMore": "Lisätietoja",
+        "learnMore": "Lue käyttöehdot ja tietosuoja",
         "accept": "Hyväksy",
         "decline": "Vain välttämättömät"
     },
@@ -466,6 +466,7 @@
     },
     "pages": {
         "features": {
+            "metaTitle": "Työvuorosuunnittelun ominaisuudet | tyovuorolista.fi",
             "title": "Ominaisuudet",
             "eyebrow": "Ominaisuudet",
             "heroTitle": "Kaikki mitä työvuorolistan tekoon oikeasti tarvitset",
@@ -481,6 +482,8 @@
             "backToFeatures": "Kaikki ominaisuudet"
         },
         "resources": {
+            "metaTitle": "Työvuorosuunnittelun oppaat ja pohjat | tyovuorolista.fi",
+            "metaDescription": "Ilmaiset työvuorolistapohjat, tulostettavat listat, työajanseurannan Excel-pohja sekä oppaat työvuorosuunnitteluun, työaikalakiin ja TES-asioihin.",
             "title": "Resurssit",
             "subtitle": "Mallipohjat, oppaat ja hyödylliset artikkelit työvuorosuunnitteluun.",
             "cta": "Kokeile ilmaiseksi"
@@ -578,7 +581,7 @@
         },
         "about": {
             "metaTitle": "Meistä | tyovuorolista.fi",
-            "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen.",
+            "metaDescription": "tyovuorolista.fi:n tekijät: Antti Tuomola ja Eemeli Raninen. Tamperelainen työvuorosuunnitteluohjelma ravintoloille, kaupoille ja muille pk-yrityksille.",
             "title": "Meistä",
             "subtitle": "Kaksi ihmistä tyovuorolista.fi:n takana.",
             "company": "Työvuorolista on tamperelainen työvuorosuunnitteluohjelma ravintoloille, kahviloille, hotelleille, kaupoille ja muille vuorotyötä tekeville pk-yrityksille. Tuote on osoitteessa tyovuorolista.fi, sovellus osoitteessa app.tyovuorolista.fi. Palvelun tarjoaa True Solutions Oy (Y-tunnus 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere. Yhteys: info@tyovuorolista.fi, +358 45 679 8818.",

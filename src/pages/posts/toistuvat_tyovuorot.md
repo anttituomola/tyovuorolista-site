@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Toistuvat työvuorot: luo sama vuoro kerralla usealle päivälle'
+metaTitle: 'Toistuvat työvuorot: luo sama vuoro usealle päivälle'
 pubDate: 2026-05-31
-description: 'Voit nyt toistaa työvuoron listan loppuun asti valitulla kaavalla: arkipäivät, viikoittain, joka toinen viikko tai mukautettu väli. Esikatselu näyttää kaikki luotavat vuorot ennen tallennusta.'
+description: 'Toista työvuoro listan loppuun kaavalla: arkipäivät, viikoittain, joka toinen viikko tai mukautettu väli. Esikatselu näyttää vuorot ennen tallennusta.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/toistuvat_tyovuorot/vuoron-luonti-modaali.png'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Korvaajan vuoron lisäys sairaslomalle'
 pubDate: 2025-11-01
-description: 'Uusi toiminto tekee korvaajan vuoron lisäämisen nopeaksi ja helpoksi, kun merkitset vuoron sairaslomaksi. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät.'
+description: 'Kun merkitset vuoron sairaslomaksi, voit lisätä korvaajan vuoron saman tien. Lisäksi Tuntien kirjaus -näkymä näyttää nyt kaikki työntekijät.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sickleave-substitute/sickleave-subsitute (1).png'

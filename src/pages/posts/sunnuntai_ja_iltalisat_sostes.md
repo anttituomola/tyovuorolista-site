@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntai-, lauantai-, ilta- ja yölisät sosiaalipalvelualalla'
+metaTitle: 'Sunnuntai-, ilta- ja yölisät sosiaalipalvelualalla (SOSTES)'
 pubDate: 2026-08-07
-description: 'SOSTES:n työaikalisät prosentteina: sunnuntaityö +100 % (myös aattoina ja pääsiäislauantaina), lauantai 25 %, ilta 15 % ja jaksotyön yölisä 40 %, ja miksi lauantai-ilta klo 20 jälkeen maksaa tuplasti.'
+description: 'SOSTES:n lisät: sunnuntaityö +100 % myös aattoina, lauantai 25 %, ilta 15 % ja jaksotyön yölisä 40 %. Miksi lauantai-ilta klo 20 jälkeen maksaa tuplasti?'
 reviewedDate: 2026-07-30
 infoBasis: 'Perustuu yksityisen sosiaalipalvelualan työehtosopimukseen (HALI ry – Sote ry, JHL, Talentia ja Salli ry, 1.1.2026–30.4.2028, yleissitova) 11–14 §:iin ja palkkasopimuksen G-taulukoihin 1.8.2025. Yölisän prosentti koskee jaksotyötä; muissa työaikamuodoissa se on 30 %.'
 ctaText: 'Vie työaikalisät suoraan palkanlaskentaan'

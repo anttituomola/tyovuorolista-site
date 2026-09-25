@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Kaupan alan TES palkka 2026: palkkataulukko 1.8.2026, palkkaryhmät ja tuntipalkat'
+metaTitle: 'Kaupan alan TES palkka 2026: palkkataulukko ja tuntipalkat'
 pubDate: 2026-09-07
-description: 'Kaupan alan taulukkopalkat 1.8.2026 alkaen: myyjän palkkaryhmä B 2101–2502 €/kk eli 13,13–15,64 €/h muualla Suomessa, PKS korkeampi. Palkkaryhmät A–D, vuosiportaat 2/4/6/9, koululainen 70 %, 1. vuoden työntekijä 85 %, osa-aikaisen kaava, korotus 1.5.2027 +2,4 % ja palkkausuudistus 1.10.2026.'
+description: 'Kaupan alan TES palkkataulukko 1.8.2026: myyjän palkkaryhmä B 2101–2502 €/kk eli 13,13–15,64 €/h muualla Suomessa. Palkkaryhmät A–D ja tuntipalkat.'
 reviewedDate: 2026-09-07
 infoBasis: 'Perustuu kaupan työehtosopimukseen 1.2.2025–31.1.2028 (PAM ja Kaupan liitto) 13 § ja palkkaliitteeseen sekä Kaupan palkankorotusohjeeseen vuosille 2025–2028 (päivitetty 17.3.2025). Taulukkopalkat ovat 1.8.2026–30.4.2027 voimassa olevat vähimmäispalkat. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; esihenkilöillä on omat sopimuksensa.'
 ctaText: 'Vie tunnit ja lisät palkanlaskentaan valmiiksi luokiteltuina'
@@ -140,7 +141,7 @@ pyytää sitä.
 
 Euroina 1.8.2026 alkaen, palkkaryhmä B:
 
-| | Muu Suomi | PKS |
+| Työntekijä | Muu Suomi | PKS |
 |---|---|---|
 | Koululainen 70 % | 1470,70 €/kk, 9,19 €/h | 1529,50 €/kk, 9,56 €/h |
 | 1. vuoden työntekijä 85 % | 1785,85 €/kk, 11,16 €/h | 1857,25 €/kk, 11,61 €/h |

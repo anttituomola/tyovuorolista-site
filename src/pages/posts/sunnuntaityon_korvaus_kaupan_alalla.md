@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntaityön korvaus kaupan alalla: tuplapalkka, ei sunnuntailisää'
+metaTitle: 'Sunnuntaityön korvaus kaupan alalla: tuplapalkka'
 pubDate: 2026-08-04
-description: 'Kaupan alalla ei makseta euromääräistä sunnuntailisää vaan kaksinkertaista palkkaa (TES 10 § 3). Työaikalisät eivät kuulu korvauksen laskentapohjaan, ja työtuomioistuimen tuoreen lausunnon mukaan korvausta ei voi maksaa muuna kuin rahana.'
+description: 'Kaupan alalla sunnuntaityöstä maksetaan kaksinkertainen palkka (TES 10 § 3). Työtuomioistuimen mukaan korvausta ei voi maksaa muuna kuin rahana.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu kaupan työehtosopimukseen 1.2.2025–31.1.2028 (10 §, 14–15 §), työtuomioistuimen lausuntoon TT 2026:10 (22.4.2026) ja työaikalakiin (872/2019) 17 § ja 40 §. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Erittele sunnuntaityön korvaus palkkaraportissa'

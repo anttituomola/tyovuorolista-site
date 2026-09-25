@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Arkipyhäkorvaus vaihtuu vuosivapaaksi kiinteistöpalvelualalla 1.1.2027'
+metaTitle: 'Arkipyhäkorvaus vuosivapaaksi kiinteistöpalvelualalla 2027'
 pubDate: 2026-08-13
-description: 'KipaTES:n arkipyhäkorvaus on rahakorvaus, ei työajan lyhennys, ja se päättyy 31.12.2026. Vuoden 2027 alusta tehdyistä tunneista kertyy vuosivapaata: 200 tuntia → 1 päivä, 1560 tuntia → 9 päivää.'
+description: 'KipaTES:n arkipyhäkorvaus on rahakorvaus, joka päättyy 31.12.2026. Vuoden 2027 alusta tehdyistä tunneista kertyy vuosivapaata: 200 tuntia → 1 päivä.'
 reviewedDate: 2026-08-06
 infoBasis: 'Perustuu kiinteistöpalvelualan työntekijöitä koskevaan työehtosopimukseen (Kiinteistötyönantajat ry – PAM ry, 1.4.2025–31.3.2028, yleissitova), erityisesti 9 § 6 mom. määräyksiin ja allekirjoituspöytäkirjan vuosivapaajärjestelmään. Koskee kiinteistöpalvelualan TES:n piirissä olevia työntekijöitä.'
 ctaText: 'Pysy ajan tasalla TES-muutoksista'

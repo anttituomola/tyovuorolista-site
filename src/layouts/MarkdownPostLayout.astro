@@ -87,8 +87,9 @@ const breadcrumbJsonLd = {
 ---
 
 <Layout
-    title={frontmatter.title}
+    title={frontmatter.metaTitle || frontmatter.title}
     description={frontmatter.description}
+    ogTitle={frontmatter.title}
     ogImage={frontmatter.image ? new URL(frontmatter.image.url, siteUrl).href : undefined}
 >
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(blogPostingJsonLd)} />
@@ -118,13 +119,24 @@ const breadcrumbJsonLd = {
                             class="blogPhone"
                             src={frontmatter.image.url}
                             alt={frontmatter.image.alt}
+                            width={frontmatter.image.width}
+                            height={frontmatter.image.height}
+                            fetchpriority="high"
                         />
                     </div>
                 )}
             </header>
         ) : (
             <>
-                {frontmatter.image && <img src={frontmatter.image.url} alt={frontmatter.image.alt} />}
+                {frontmatter.image && (
+                    <img
+                        src={frontmatter.image.url}
+                        alt={frontmatter.image.alt}
+                        width={frontmatter.image.width}
+                        height={frontmatter.image.height}
+                        fetchpriority="high"
+                    />
+                )}
                 <h1>{frontmatter.title}</h1>
                 <p class="metadata">Kirjoittanut {frontmatter.author}<br />
                 Julkaistu {dayjs(frontmatter.pubDate).format('DD.MM.YYYY')}</p>

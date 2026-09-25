@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi hinnoittelu: kuukausihinnat päivittyivät 29.3.2026'
 pubDate: 2026-03-20
-description: 'Kuukausilaskutuksen hinnat nousivat 29.3.2026. Vuosilaskutus, Mini-paketti ja katkeamatta jatkuvien vanhojen tilaajien hinnat pysyivät ennallaan. Tässä voimassa olevat hinnat ja maksullisten pakettien ominaisuudet.'
+description: 'Kuukausihinnat nousivat 29.3.2026. Vuosilaskutuksen, Mini-paketin ja jatkuvien vanhojen tilaajien hinnat pysyivät ennallaan. Katso nykyiset hinnat.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/account-management/09-profile-with-normi-subscription.png'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolistan poistaminen'
 pubDate: 2026-06-24
-description: 'Voit poistaa luonnoslistan kokonaan Työvuorolistat-sivulta. Julkaistu lista pitää ensin palauttaa muokattavaksi. Poisto poistaa kaikki listan työvuorot pysyvästi.'
+description: 'Poista luonnoslista Työvuorolistat-sivulta. Julkaistu lista pitää ensin palauttaa muokattavaksi. Poisto poistaa kaikki listan työvuorot pysyvästi.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/listan-poistaminen/hero-image.png'

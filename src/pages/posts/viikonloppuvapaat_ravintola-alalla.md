@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Viikonloppuvapaat ravintola-alalla: joka viides viikonloppu kuuluu antaa vapaaksi'
+metaTitle: 'Viikonloppuvapaat ravintola-alalla: joka viides viikonloppu'
 pubDate: 2026-07-24
-description: 'MaRa-TES:ssä on nimenomainen sääntö: vähintään joka viides viikonloppu on järjestettävä vapaaksi peräkkäisinä vapaapäivinä. Pyhävuorojen tasajakoa laki ei sen sijaan vaadi, mutta tasapuolinen kohtelu edellyttää johdonmukaisia perusteita.'
+description: 'MaRa-TES:n mukaan joka viides viikonloppu on vapaa. Pyhävuorojen tasajakoa laki ei vaadi, mutta tasapuolinen kohtelu edellyttää johdonmukaisia perusteita.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (8 §, sopimuskausi 1.4.2025 alkaen), työaikalakiin (872/2019) ja työsopimuslakiin (55/2001). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Suunnittele viikonloppuvapaat työvuorolistalla'

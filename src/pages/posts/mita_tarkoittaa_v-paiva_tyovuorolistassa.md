@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mitä tarkoittaa V-päivä työvuorolistassa?'
 pubDate: 2023-10-08
-description: 'Mikä on V-päivä, milloin se pitää olla, ja kuinka usein?'
+description: 'V-päivä on viikkolepopäivä: yksi jokaisella täydellä työviikolla, vähintään 30 tunnin lepo eikä siirtoa toiselle viikolle. Säännöt MaRa TES:n mukaan.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (vapaapäivät, tes.mara.fi). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Jätä vapaapäivien laskenta TES-apurille'

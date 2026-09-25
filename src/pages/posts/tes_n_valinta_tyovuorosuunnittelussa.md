@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'TES:n valinta työvuorosuunnittelussa, mitä "Ei mikään näistä" tarkoittaa?'
+metaTitle: 'TES:n valinta työvuorosuunnittelussa: "Ei mikään näistä"'
 pubDate: 2026-07-20
-description: 'Työehtosopimuksen valinta ohjaa tyovuorolista.fi:n TES-varoituksia ja palkkaraporttien tuntikategorioita. Tämä opas kertoo, mistä valinta tehdään, mitä "Ei mikään näistä" tarkoittaa ja mitä valinnan vaihtaminen vaikuttaa.'
+description: 'TES:n valinta ohjaa tyovuorolista.fi:n TES-varoituksia ja palkkaraportin tuntikategorioita. Mistä valinta tehdään ja mitä "Ei mikään näistä" tarkoittaa?'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-valinta/rekisteroityminen-tes-valinta.png'

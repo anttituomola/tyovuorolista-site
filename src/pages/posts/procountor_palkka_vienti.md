@@ -79,7 +79,7 @@ Yksikköhinta jätetään tyhjäksi: Procountor käyttää palkansaajan palkkape
 
 ## Ero tavalliseen CSV-/PDF-raporttiin
 
-| | CSV / PDF | Procountor |
+| Ominaisuus | CSV / PDF | Procountor |
 | --- | --- | --- |
 | Käyttö | Excel, tuloste, kirjanpitäjän luettava raportti | Suora sisäänluku Procountoriin |
 | Tunniste | Nimi / sisäinen ID | Henkilönumero |

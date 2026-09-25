@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työsuhteen alkupäivä ja lopetuspäivä työntekijälle'
 pubDate: 2026-06-24
-description: 'Voit nyt merkitä kesä- ja määräaikaistyöntekijöille työsuhteen keston. Kalenteri näyttää päättyneet työntekijät selkeästi, ja saat varoituksen, jos vuoro osuu työsuhteen ulkopuolelle.'
+description: 'Merkitse kesä- ja määräaikaisille työsuhteen alku- ja lopetuspäivä. Kalenteri näyttää päättyneet työsuhteet ja varoittaa vuorosta niiden ulkopuolella.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyosuhteen-kesto/hero-image.png'

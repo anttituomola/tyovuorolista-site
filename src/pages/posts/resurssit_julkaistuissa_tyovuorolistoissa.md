@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Resurssit saa nyt mukaan julkaistuihin työvuorolistoihin'
 pubDate: 2026-05-11
-description: 'Voit nyt näyttää työvuoroihin liitetyt resurssit myös julkaistavissa työvuorolistoissa, kuvissa ja PDF-liitteissä. Asetuksen voi määrittää oletukseksi resurssien hallinnasta ja säätää listakohtaisesti julkaisunäkymässä.'
+description: 'Työvuoroihin liitetyt resurssit näkyvät myös julkaistuissa työvuorolistoissa, kuvissa ja PDF-liitteissä. Valitse oletus tai säädä listakohtaisesti.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/resources/tyovuorolistan_resurssit_lisaa_resurssi.png'

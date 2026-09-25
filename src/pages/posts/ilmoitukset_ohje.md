@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ilmoitukset: kello kertoo, kun jotain tapahtuu'
 pubDate: 2026-08-02
-description: 'Ohje Työvuorolistan ilmoituksiin: esihenkilö näkee ilmoittautumiset, sairastumiset ja tuntiraportit heti, työntekijä näkee listan julkaisun ja vuorojen muutokset Oma-portaalissa. Sähköposti-ilmoitukset otetaan käyttöön omista asetuksista.'
+description: 'Työvuorolistan ilmoitukset: esihenkilö näkee ilmoittautumiset, sairastumiset ja tuntiraportit, työntekijä julkaisut ja vuoromuutokset Oma-portaalissa.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/ilmoitukset/kello-admin.png'

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorovelho-vaihtoehto pienelle yritykselle: julkiset hinnat ja itsepalvelu'
+metaTitle: 'Työvuorovelho-vaihtoehto pienyritykselle: julkiset hinnat'
 pubDate: 2026-09-01
-description: 'Etsitkö vaihtoehtoa Finago Työvuorovelholle? Vertailu itsepalveluohjelmiin: julkiset hinnat, ilmainen aloitus ja TES-tuki ilman tarjousprosessia. Tiedot julkisista lähteistä, tarkistettu 31.8.2026.'
+description: 'Etsitkö vaihtoehtoa Finago Työvuorovelholle? Vertailussa itsepalveluohjelmat: julkiset hinnat, ilmainen aloitus ja TES-tuki ilman tarjousprosessia.'
 reviewedDate: 2026-08-31
 infoBasis: 'Työvuorovelhoa koskevat tiedot on kerätty Finagon julkisilta sivuilta (mepco.fi/tyovuorovelho) 31.8.2026, ja lähteet on linkitetty tekstiin. Emme ole käyttäneet Työvuorovelhoa, emmekä arvioi sen käyttökokemusta. Kirjoittaja on kilpailevan Tyovuorolista.fi:n tekijä.'
 ctaText: 'Kokeile vaihtoehtoa ilmaiseksi'
@@ -83,7 +84,7 @@ Vaihtoehtoa etsitään yleensä kolmesta syystä:
 
 ## Tyovuorolista.fi vaihtoehtona: todennettavat erot
 
-| | Finago Työvuorovelho | Tyovuorolista.fi |
+| Ominaisuus | Finago Työvuorovelho | Tyovuorolista.fi |
 |---|---|---|
 | Julkinen hinnasto | Ei (tarjouksen kautta) | [Kyllä](/hinnoittelu): 0–180 €/kk tiliä kohti |
 | Ilmainen käyttö | Demo pyynnöstä | Pysyvästi ilmainen ≤ 3 työntekijää |

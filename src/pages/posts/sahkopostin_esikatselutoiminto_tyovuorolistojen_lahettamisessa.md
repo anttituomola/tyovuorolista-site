@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sähköpostin esikatselutoiminto työvuorolistojen lähettämisessä'
+metaTitle: 'Sähköpostin esikatselu työvuorolistojen lähettämisessä'
 pubDate: 2025-08-20
-description: 'Uusi esikatselutoiminto antaa sinulle mahdollisuuden tarkistaa työntekijöille lähetettävät sähköpostit ennen lähettämistä. Varmista, että kaikki tiedot ovat oikein!'
+description: 'Esikatselutoiminnolla tarkistat työntekijöille lähetettävät sähköpostit ennen työvuorolistojen lähettämistä ja varmistat, että kaikki tiedot ovat oikein.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/sahkopostin_esikatselutoiminto_hero.png'

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Avoimet vuorot: julkaise vuoro ilman tekijää ja anna työntekijöiden ilmoittautua'
+metaTitle: 'Avoimet vuorot: anna työntekijöiden ilmoittautua vuoroon'
 pubDate: 2026-08-23
-description: 'Ohje avointen vuorojen käyttöön: esihenkilö luo vuoron ilman tekijää ja julkaisee sen, työntekijät ilmoittautuvat Oma-portaalissa ja esihenkilö valitsee tekijän.'
+description: 'Avoimet vuorot: esihenkilö luo ja julkaisee vuoron ilman tekijää, työntekijät ilmoittautuvat Oma-portaalissa ja esihenkilö valitsee vuorolle tekijän.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/avoimet-vuorot/avoimet-vuorot-tyontekija.png'

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Lisätyö ja ylityö kiinteistöpalvelualalla: 40 tunnin raja ratkaisee'
+metaTitle: 'Lisätyö ja ylityö kiinteistöpalvelualalla: 40 tunnin raja'
 pubDate: 2026-08-10
-description: 'KipaTES:ssä lisätyö ulottuu 40 tuntiin asti ja ylityö alkaa sen jälkeen: päivässä 2 ensimmäistä tuntia +50 %, viikossa 8 ensimmäistä +50 %. Koska viikkotyöaika on 37,5 h, +50 %:n kaista on käytännössä 10,5 tuntia.'
+description: 'KipaTES:ssä lisätyö ulottuu 40 tuntiin ja ylityö alkaa sen jälkeen: päivässä 2 ensimmäistä tuntia ja viikossa 8 ensimmäistä tuntia maksetaan +50 %.'
 reviewedDate: 2026-08-06
 infoBasis: 'Perustuu kiinteistöpalvelualan työntekijöitä koskevaan työehtosopimukseen (Kiinteistötyönantajat ry – PAM ry, 1.4.2025–31.3.2028, yleissitova), erityisesti 8 § 9 mom. ja 10 § 1 mom. määräyksiin, sekä PAM:n Työelämäoppaan lisätyötulkintaan. Koskee kiinteistöpalvelualan TES:n piirissä olevia työntekijöitä; tasoittumisjärjestelmässä säännöt poikkeavat.'
 ctaText: 'Tarkista lisä- ja ylityötunnit viikoittain'

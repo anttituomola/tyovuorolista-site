@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'TES-tuki työvuorosuunnittelussa: MaRa, Kaupan ala, KipaTES ja SOSTES'
+metaTitle: 'TES-tuki vuorosuunnittelussa: MaRa, Kauppa, KipaTES, SOSTES'
 pubDate: 2026-07-14
-description: 'Työvuorolista tarkistaa työvuorosi työehtosopimusta ja työaikalakia vasten: varoitukset suunnitteluvaiheessa ja tunnit valmiiksi luokiteltuina palkanlaskentaan. TES-apuri sisältyy kaikkiin paketteihin. Tuki: MaRa, Kaupan ala, KipaTES ja SOSTES.'
+description: 'TES-tuki tarkistaa vuorot TES:ää ja työaikalakia vasten ja luokittelee tunnit palkanlaskentaan. Kaikissa paketeissa: MaRa, Kaupan ala, KipaTES ja SOSTES.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tes-tuki/tes-varoitus-kalenterissa.png'

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tasapuolinen työvuorosuunnittelu: näin teet reilun työvuorolistan'
+metaTitle: 'Tasapuolinen työvuorosuunnittelu: näin teet reilun listan'
 pubDate: 2026-08-31
-description: 'Mikä tekee työvuorolistasta reilun tai epäreilun? Tasapuolinen työvuorosuunnittelu käytännössä: viikonloppujen kierto, tuntien jako, toiveiden käsittely ja Työterveyslaitoksen ergonomiset suositukset.'
+description: 'Mikä tekee työvuorolistasta reilun? Tasapuolinen työvuorosuunnittelu: viikonloppujen kierto, tuntien jako, toiveet ja Työterveyslaitoksen suositukset.'
 reviewedDate: 2026-08-30
 infoBasis: 'Perustuu työsopimuslakiin 55/2001 (2 luvun 2 ja 5 §), työaikalakiin 872/2019 sekä Työterveyslaitoksen työvuorosuunnittelusuosituksiin. Tarkistettu elokuussa 2026.'
 ctaText: 'Näe tuntijakauma automaattisesti'

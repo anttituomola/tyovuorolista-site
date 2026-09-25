@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mitä eroa on lisätyöllä ja ylityöllä ravintola-alalla?'
 pubDate: 2026-07-15
-description: 'MaRa-TES:ssä kolmiviikkoisjakson tunnit 112,5–120 ovat lisätyötä yksinkertaisella tuntipalkalla. Ylityö alkaa vasta 120 tunnista: ensimmäiset 18 tuntia +50 % ja loput +100 %. Moni verkkolähde kertoo tämän väärin.'
+description: 'MaRa-TES:ssä kolmiviikkoisjakson tunnit 112,5–120 ovat lisätyötä. Ylityö alkaa 120 tunnista: 18 ensimmäistä tuntia +50 % ja loput +100 %.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaika- ja palkkamääräyksiin (tes.mara.fi), mukaan lukien 27 § vuosiloman työaikavaikutuksesta. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Tarkista lisä- ja ylityötunnit jaksoittain'

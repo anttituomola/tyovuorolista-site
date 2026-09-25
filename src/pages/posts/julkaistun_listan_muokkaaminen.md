@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Julkaistun työvuorolistan muuttaminen'
 pubDate: 2026-09-23
-description: 'Julkaistu lista on lukittu. Palauta se muokattavaksi, tee muutokset ja julkaise uudelleen. Työntekijä näkee vuorokohtaisen ilmoituksen ja päivittyneen vuoron Oma-portaalissa.'
+description: 'Julkaistu työvuorolista on lukittu. Palauta se muokattavaksi, tee muutokset ja julkaise uudelleen. Työntekijä saa ilmoituksen Oma-portaaliin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/julkaistun-listan-muokkaaminen/valikko.png'

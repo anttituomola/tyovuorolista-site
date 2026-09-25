@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Arkipyhäkorvaus ja arkipyhät 2026–2027: kuka saa palkallisen vapaan?'
+metaTitle: 'Arkipyhäkorvaus ja arkipyhät 2026–2027: kuka saa vapaan?'
 pubDate: 2026-08-31
-description: 'Laissa ei ole yleistä arkipyhäkorvausta: vain itsenäisyyspäivä on lakisääteinen palkallinen vapaa. Loput ratkaisee TES. Arkipyhäkalenteri 2026–2027 ja neljän TES:n mallit: lyhennys, vuosivapaa, rahakorvaus tai ei mitään.'
+description: 'Laissa ei ole yleistä arkipyhäkorvausta: vain itsenäisyyspäivä on lakisääteinen palkallinen vapaa. Arkipyhät 2026–2027 ja neljän TES:n mallit.'
 reviewedDate: 2026-08-31
 infoBasis: 'Perustuu työaikalakiin 872/2019 (20 §), lakiin itsenäisyyspäivän viettämisestä yleisenä juhla- ja vapaapäivänä (388/1937) sekä MaRa-, Kaupan alan, SOSTES- ja KipaTES-sopimusten arkipyhä- ja vuosivapaamääräyksiin, jotka on tarkistettu elokuussa 2026. Muut sopimusalat (mm. KVTES, teollisuus, rakennusala) poikkeavat näistä.'
 ctaText: 'Laske arkipyhien vaikutus automaattisesti'
@@ -98,7 +99,7 @@ vasta pyhän alkaessa keskiyöllä, mistä tarkemmin
 Sama arkipyhä käsitellään eri sopimusaloilla täysin eri tavalla.
 Palvelualojen neljä yleistä mallia:
 
-| | Malli | Kokoaikaisen mitoitus | Kelpoisuus |
+| TES | Malli | Kokoaikaisen mitoitus | Kelpoisuus |
 |---|---|---|---|
 | [Kaupan ala](/posts/arkipyhajarjestelma_vai_vuosivapaa_kaupan_alalla) | Työajan lyhennys arkipyhäviikolla (tai vuosivapaa, yrityksen valinta) | 7,5 h / lyhentävä pyhä | työsuhde ≥ 1 kk |
 | [Ravintola-ala (MaRa)](/posts/vuosivapaa_ravintola-alalla) | Ei arkipyhälyhennyksiä: vuosivapaa kertyy tunneista | 1 vapaa / 200 h, max 9/v | kertymä alkaa 2 kk jälkeen |

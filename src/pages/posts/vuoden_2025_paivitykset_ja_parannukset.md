@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vuoden 2025 päivitykset ja parannukset Työvuorolistassa'
 pubDate: 2025-12-18
-description: 'Vuonna 2025 julkaisimme yhteensä 11 uutta ominaisuutta ja parannusta, jotka tekevät työvuorojen suunnittelusta entistä helpompaa ja joustavampaa. Mobiilituki, palkkaraportit, resurssien aikataulutus ja paljon muuta!'
+description: 'Vuonna 2025 julkaisimme 11 uutta ominaisuutta ja parannusta Työvuorolistaan, kuten mobiilituen, palkkaraportit ja resurssien aikataulutuksen.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_hero.png'

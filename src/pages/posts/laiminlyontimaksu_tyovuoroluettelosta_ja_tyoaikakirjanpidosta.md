@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi laiminlyöntimaksu työvuoroluettelosta ja työaikakirjanpidosta'
+metaTitle: 'Laiminlyöntimaksu: työvuoroluettelo ja työaikakirjanpito'
 pubDate: 2026-07-23
-description: 'TEM:n lakiluonnos toisi työnantajalle jopa 10 000 euron (useasta laiminlyönnistä 15 000 euron) hallinnollisen maksun, jos työvuoroluetteloa, työaikakirjanpitoa tai vuosilomakirjanpitoa laiminlyödään. Lausuntokierros päättyi 21.8.2026; esitys ei ole vielä laki.'
+description: 'TEM:n lakiluonnos toisi jopa 10 000 euron laiminlyöntimaksun, jos työvuoroluettelo tai työaikakirjanpito laiminlyödään. Esitys ei ole vielä laki.'
 reviewedDate: 2026-08-24
 infoBasis: 'Perustuu työ- ja elinkeinoministeriön lakiluonnokseen laiminlyöntimaksusta (lausuntokierros 6.7.–21.8.2026), oikeuskanslerin lausuntoon OKV/1883/21/2026 (29.7.2026) sekä voimassa olevaan työaikalakiin (872/2019). Esitys ei ole vielä laki; hallituksen esitys on tarkoitus antaa syyskuussa 2026.'
 ctaText: 'Pidä työaikakirjanpito kunnossa'

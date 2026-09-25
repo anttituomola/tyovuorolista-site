@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työaikalain perusteet työvuorosuunnittelussa'
 pubDate: 2026-07-25
-description: 'Työaikalaki pätee jokaisella työpaikalla, myös silloin kun alalla on työehtosopimus. Lista tiedoksi viimeistään viikkoa ennen, vuorokausilepo 11 tuntia, viikkolepo 35 tuntia ja enimmäistyöaika 48 tuntia viikossa.'
+description: 'Työaikalaki pätee myös TES-aloilla: lista tiedoksi viimeistään viikkoa ennen, vuorokausilepo 11 h, viikkolepo 35 h ja enimmäistyöaika 48 h viikossa.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu työaikalakiin (872/2019) sekä MaRa-työehtosopimuksen työaikamääräyksiin. Työaikalaki koskee kaikkia työpaikkoja; muut sopimusalat voivat poiketa MaRa:n TES-esimerkeistä.'
 ctaText: 'Luo työaikalain mukainen työvuorolista'

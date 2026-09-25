@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Lepoaika työvuorojen välissä: 11 tunnin pääsääntö ja poikkeukset'
+metaTitle: 'Lepoaika työvuorojen välissä: 11 tunnin pääsääntö'
 pubDate: 2026-08-10
-description: 'Kuinka monta tuntia työvuorojen välissä pitää olla? Työaikalain pääsääntö on 11 tunnin vuorokausilepo. Jaksotyössä 9 tuntia, tilapäisesti sopien vähintään 7, ja TES voi poiketa: MaRa 8 h, kaupan ala 9/7 h. Lisäksi viikkolepo 35 tuntia.'
+description: 'Kuinka monta tuntia työvuorojen välissä pitää olla? Pääsääntö on 11 tunnin lepoaika, jaksotyössä 9 tuntia. TES voi poiketa: MaRa 8 h, kaupan ala 9/7 h.'
 reviewedDate: 2026-08-10
 infoBasis: 'Perustuu työaikalakiin 872/2019 (25 § vuorokausilepo ja 27 § viikkolepo) sekä MaRa-, kaupan alan ja yksityisen sosiaalipalvelualan työehtosopimusten lepoaikamääräyksiin. TES-poikkeukset ovat esimerkkejä; tarkista aina oman sopimusalasi määräykset.'
 ctaText: 'Tarkista lepoajat automaattisesti'

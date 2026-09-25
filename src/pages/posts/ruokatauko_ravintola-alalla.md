@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ruokatauko ravintola-alalla: milloin, kuinka pitkä ja maksetaanko?'
+metaTitle: 'Ruokatauko ravintola-alalla: kuinka pitkä ja maksetaanko?'
 pubDate: 2026-07-23
-description: 'MaRa-TES:ssä yli 4 tunnin vuoroon kuuluu palkallinen kahvitauko ja yli 6 tunnin työpäivään lisäksi 30 minuutin lepoaika, tai tilaisuus ruokailla työn lomassa. Palkaton tauko on laillinen vain, jos työpaikalta saa oikeasti poistua.'
+description: 'MaRa-TES:ssä yli 6 tunnin työpäivään kuuluu 30 min ruokatauko tai ruokailu työn lomassa. Palkaton tauko on laillinen vain, jos työpaikalta saa poistua.'
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (7 §) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Suunnittele vuorot ja tauot TES:n mukaan'
 ctaHref: '/ominaisuudet/tes-apuri'

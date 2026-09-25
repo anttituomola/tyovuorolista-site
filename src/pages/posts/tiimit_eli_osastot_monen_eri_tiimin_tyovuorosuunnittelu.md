@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tiimit-ominaisuus: monen eri tiimin tai osaston työvuorosuunnittelu'
+metaTitle: 'Tiimit: monen tiimin tai osaston työvuorosuunnittelu'
 pubDate: 2024-01-24
 description: 'tyovuorolista.fi:ssa voit pyörittää samaa henkilökuntaa useassa tiimissä'
 author: 'Antti Tuomola'

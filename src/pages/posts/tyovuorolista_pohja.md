@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolista pohja Exceliin ja OpenOfficeen: paras ilmainen taulukkopohja'
+metaTitle: 'Työvuorolista pohja Exceliin: paras ilmainen taulukkopohja'
 pubDate: 2022-07-11
-description: 'Paras ilmainen taulukkopohja työvuorolistalle: laskee tunnit ja vapaat automaattisesti. Ohjeet käyttöön OpenOfficessa ja Excelissä, plus helpompi vaihtoehto suoraan selaimessa.'
+description: 'Ilmainen työvuorolista pohja Exceliin ja OpenOfficeen laskee tunnit ja vapaat automaattisesti. Käyttöohjeet ja helpompi vaihtoehto suoraan selaimessa.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_pohja.png'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'SOSTES työvuorosuunnittelussa: jaksotyö hoiva-alalla'
 pubDate: 2026-08-05
-description: 'Mitä yksityisen sosiaalipalvelualan TES vaatii työvuorolistalta: jaksotyön 115 tuntia / 3 viikkoa, lista kokonaisina kalenteriviikkoina, julkaisu viikkoa ennen ja työvuorojen pituusrajat.'
+description: 'Mitä SOSTES vaatii työvuorolistalta: jaksotyön 115 h / 3 viikkoa, lista kokonaisina kalenteriviikkoina, julkaisu viikkoa ennen ja vuorojen pituusrajat.'
 reviewedDate: 2026-07-30
 infoBasis: 'Perustuu yksityisen sosiaalipalvelualan työehtosopimukseen (Hyvinvointiala HALI ry – Sote ry, JHL, Talentia ja Salli ry, 1.1.2026–30.4.2028, yleissitova), erityisesti 6 §:n työaikamääräyksiin, sekä työaikalakiin 872/2019. Koskee jaksotyötä tekeviä työntekijöitä; yleistyöajassa ja toimistotyöajassa osa säännöistä poikkeaa.'
 ctaText: 'Luo SOSTES:n mukainen työvuorolista'

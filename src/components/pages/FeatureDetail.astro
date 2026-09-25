@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components'
 import Layout from '../../layouts/Layout.astro'
 import Button from '../common/Button.astro'
 import FeatureCard from '../common/FeatureCard.astro'
+import { publicImageSize } from '../../utils/imageSize'
 import { features } from '../../data/siteContent'
 import { t } from '../../utils/translations'
 
@@ -69,6 +70,8 @@ const relatedIds =
     .filter((f) => f.id !== featureId && f.category === feature?.category)
     .slice(0, 3)
     .map((f) => f.id)
+// Poster size reserves the video box before metadata loads (prevents CLS)
+const heroVideoSize = publicImageSize(heroVideoPoster)
 ---
 
 <Layout
@@ -142,7 +145,10 @@ const relatedIds =
                                 playsinline
                                 preload="metadata"
                                 poster={heroVideoPoster}
-                                width="100%"
+                                {...heroVideoSize}
+                                style={heroVideoSize.width
+                                    ? `aspect-ratio: ${heroVideoSize.width} / ${heroVideoSize.height}`
+                                    : undefined}
                             >
                                 {heroVideoFormats.includes('webm') && (
                                     <source src={`${heroVideo}.webm`} type="video/webm" />
@@ -154,7 +160,13 @@ const relatedIds =
                         </div>
                     ) : (
                         <div class="tyov-screenshotFrame">
-                            <img src={heroImage} alt={heroImageAlt} loading="eager" />
+                            <img
+                                src={heroImage}
+                                alt={heroImageAlt}
+                                {...publicImageSize(heroImage)}
+                                loading="eager"
+                                fetchpriority="high"
+                            />
                         </div>
                     )}
                 </div>
@@ -220,6 +232,7 @@ const relatedIds =
                                 <img
                                     src={section.image}
                                     alt={section.imageAlt ?? ''}
+                                    {...publicImageSize(section.image)}
                                     loading="lazy"
                                 />
                             </div>

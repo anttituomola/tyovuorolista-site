@@ -1,9 +1,10 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorosuunnitteluohjelmien vertailu 2026: hinnat, ilmaiset vaihtoehdot ja TES-tuki'
+metaTitle: 'Työvuorosuunnitteluohjelmien vertailu 2026: hinnat, TES-tuki'
 pubDate: 2026-08-03
 reviewedDate: 2026-08-03
-description: 'Rehellinen vertailu suomalaisista työvuorosuunnitteluohjelmista 2026: julkiset hinnat, ilmaiset paketit, TES-tulkinta ja kenelle mikäkin ohjelma sopii. Tiedot julkisista lähteistä, tarkistettu 3.8.2026.'
+description: 'Työvuorosuunnitteluohjelmien vertailu 2026: julkiset hinnat, ilmaiset paketit, TES-tulkinta ja kenelle mikäkin sopii. Tarkistettu 3.8.2026.'
 infoBasis: 'Kaikki hinnat ja tiedot on kerätty vertailtujen ohjelmistojen julkisilta verkkosivuilta 3.8.2026, ja lähteet on linkitetty tekstiin. Vertailun on laatinut Tyovuorolista.fi:n tekijä. Olemme yksi vertailun ohjelmista. Virheilmoitukset ja korjauspyynnöt: info@tyovuorolista.fi.'
 ctaText: 'Katso julkiset hintamme'
 ctaHref: '/hinnoittelu'

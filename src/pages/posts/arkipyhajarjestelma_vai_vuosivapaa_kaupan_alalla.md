@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Arkipyhäjärjestelmä vai vuosivapaajärjestelmä kaupan alalla?'
 pubDate: 2026-07-31
-description: 'Kaupan TES:ssä yritys valitsee arkipyhä- tai vuosivapaajärjestelmän, ei kesken vuoden. 7,5 h viikkolyhennys vs. VV-portaikko (200 h → 1 pv). Päätöksenteko-opas yrittäjälle.'
+description: 'Kaupan alan yritys valitsee arkipyhä- tai vuosivapaajärjestelmän, jota ei vaihdeta kesken vuoden. 7,5 h viikkolyhennys vai VV-portaikko? Opas yrittäjälle.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (8 § 10–25, vuosivapaa) ja työaikapöytäkirjaan ”Arkipyhäjärjestelmä” (kohdat 1–10). Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Luo kaupan alan työvuorolista'
@@ -26,7 +26,7 @@ Yleiskuva kaikkien palvelualojen arkipyhämalleista ja arkipyhäkalenteri
 
 ## Kaksi järjestelmää, yksi valinta
 
-| | Arkipyhäjärjestelmä | Vuosivapaajärjestelmä |
+| Ominaisuus | Arkipyhäjärjestelmä | Vuosivapaajärjestelmä |
 |---|---|---|
 | Perusajatus | Arkipyhä lyhentää kyseisen viikon/jakson tuntimäärää | Vapaat ansaitaan tuntiportailla kalenterivuoden aikana |
 | Lyhennys / ansainta | 7,5 h per lyhentävä arkipyhä (osa-aikainen: sopimus ÷ 5) | 200 h → 1 pv … 1560 h → 9 pv |

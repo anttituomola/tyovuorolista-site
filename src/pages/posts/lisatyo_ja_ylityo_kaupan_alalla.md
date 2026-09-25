@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Lisätyö ja ylityö kaupan alalla'
 pubDate: 2026-07-22
-description: 'Kaupan TES: korotettu palkka +50 % yli 10 tunnin päivästä tai yli 37,5 tunnin viikosta, logistiikassa +100 % yli 12 tunnin päivästä. Osa-aikaisen lisätyö on oma lukunsa.'
+description: 'Ylityö kaupan TES:ssä: +50 % yli 10 h päivästä tai 37,5 h viikosta, logistiikassa +100 % yli 12 h päivästä. Osa-aikaisen lisätyö on oma lukunsa.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu kaupan alan työehtosopimuksen 12 §:n määräyksiin lisä- ja ylityöstä sekä työaikalain 40 tunnin viikkorajaan. Koskee kaupan alan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Tarkista lisä- ja ylityötunnit työntekijäkohtaisesti'

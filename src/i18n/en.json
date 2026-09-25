@@ -12,7 +12,7 @@
     },
     "cookieConsent": {
         "message": "We use cookies to measure traffic and for marketing.",
-        "learnMore": "Learn more",
+        "learnMore": "Read the terms and privacy policy",
         "accept": "Accept",
         "decline": "Essential only"
     },
@@ -461,6 +461,8 @@
     },
     "pages": {
         "features": {
+            "metaTitle": "Shift planning features | tyovuorolista.fi",
+            "metaDescription": "Plan shifts by dragging, publish them by email and export worked hours to payroll. The tools a small business uses every week.",
             "title": "Features",
             "eyebrow": "Features",
             "heroTitle": "Everything you actually need to build a shift schedule",
@@ -476,6 +478,8 @@
             "backToFeatures": "All features"
         },
         "resources": {
+            "metaTitle": "Shift planning resources and guides | tyovuorolista.fi",
+            "metaDescription": "Free shift schedule templates, printable lists, an Excel timesheet and guides to shift planning, labour law and collective agreements in Finland.",
             "title": "Resources",
             "subtitle": "Templates, guides and useful articles for shift planning.",
             "cta": "Try for free"
@@ -573,7 +577,7 @@
         },
         "about": {
             "metaTitle": "About us | tyovuorolista.fi",
-            "metaDescription": "The people behind tyovuorolista.fi: Antti Tuomola and Eemeli Raninen.",
+            "metaDescription": "The people behind tyovuorolista.fi: Antti Tuomola and Eemeli Raninen. Shift scheduling software for small businesses, made in Tampere, Finland.",
             "title": "About us",
             "subtitle": "Two people behind tyovuorolista.fi.",
             "company": "Työvuorolista is a Tampere shift scheduling app for restaurants, cafés, hotels, retail and other shift-based small businesses. The product site is tyovuorolista.fi and the app is at app.tyovuorolista.fi. The service is provided by True Solutions Oy (Finnish business ID 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tampere, Finland. Contact: info@tyovuorolista.fi, +358 45 679 8818.",

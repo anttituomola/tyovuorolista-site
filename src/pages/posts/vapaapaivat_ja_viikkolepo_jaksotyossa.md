@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Vapaapäivät ja viikkolepo jaksotyössä (SOSTES)'
 pubDate: 2026-08-08
-description: 'SOSTES:n vapaapäiväsäännöt työvuorolistalle: kuusi vapaapäivää kolmessa viikossa, kaksi peräkkäistä, kaksi vapaata viikonloppua kuudessa viikossa, 35 tunnin viikkolepo ja yövuoroputken rajat.'
+description: 'SOSTES:n vapaapäivät: kuusi vapaata kolmessa viikossa, kaksi peräkkäin, kaksi vapaata viikonloppua kuudessa viikossa, 35 h viikkolepo ja yövuororajat.'
 reviewedDate: 2026-07-30
 infoBasis: 'Perustuu yksityisen sosiaalipalvelualan työehtosopimukseen (HALI ry – Sote ry, JHL, Talentia ja Salli ry, 1.1.2026–30.4.2028, yleissitova) 6 §:n kohtiin 9–13 sekä työaikalakiin 872/2019 (25 §, 27 §). Koskee jaksotyötä tekeviä työntekijöitä.'
 ctaText: 'Suunnittele vapaapäivät sääntöjen mukaan'

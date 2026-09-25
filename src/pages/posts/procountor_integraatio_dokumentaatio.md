@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'tyovuorolista.fi ↔ Finago Procountor: integraation dokumentaatio'
+metaTitle: 'Finago Procountor -integraatio: dokumentaatio'
 pubDate: 2026-07-24
-description: 'Tekninen kuvaus palkka-aineiston CSV-viennistä: erittelytietueen muoto, kentät, käyttöönotto ja tyypilliset käyttötapaukset. Linkki myös Procountorin omaan sisäänlukuohjeeseen.'
+description: 'Finago Procountor -integraation tekninen kuvaus: palkka-aineiston CSV-vienti, erittelytietueen kentät, käyttöönotto ja linkki Procountorin ohjeeseen.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/procountor-vienti/hero.png'
@@ -23,7 +24,7 @@ Procountorin oma ohje aineiston sisäänluvusta:
 
 ## Integraation tyyppi
 
-| | |
+| Tieto | Kuvaus |
 |---|---|
 | **Malli** | Tiedostopohjainen *siirtotiedosto* (ei reaaliaikainen API) |
 | **Suunta** | tyovuorolista.fi → Finago Procountor |

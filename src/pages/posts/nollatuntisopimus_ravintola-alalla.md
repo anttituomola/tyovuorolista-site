@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Nollatuntisopimus ravintola-alalla: oikeudet ja velvollisuudet'
+metaTitle: 'Nollatuntisopimus ravintola-alalla: oikeudet ja velvoitteet'
 pubDate: 2026-07-25
-description: 'MaRa-TES ei salli puhdasta nollatuntisopimusta: osa-aikaiselle on aina sovittava vähimmäistyöaika kolmiviikkoisjaksolle. Jos toteutuneet tunnit ylittävät sovitun jatkuvasti, työaika on korjattava vastaamaan todellisuutta.'
+description: 'MaRa-TES ei salli puhdasta nollatuntisopimusta: osa-aikaiselle sovitaan vähimmäistyöaika. Jos tunnit ylittävät sovitun jatkuvasti, työaika on korjattava.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimukseen (sopimuskausi 2025–2028), työsopimuslakiin (55/2001) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia osa-aikaisia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Vertaa sopimus- ja toteutuneita tunteja'

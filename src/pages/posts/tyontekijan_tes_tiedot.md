@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työntekijän TES-tiedot: työsuhteen tyyppi, työntekijäryhmä ja tarkistuslista'
+metaTitle: 'Työntekijän TES-tiedot: työsuhteen tyyppi ja työntekijäryhmä'
 pubDate: 2026-07-20
-description: 'TES-laskenta tarvitsee jokaiselta työntekijältä työsuhteen tyypin ja osa-aikaisilta sopimustunnit. Kaupan alalla lisäksi työntekijäryhmän. Sopimuspalkka / ei lisiä merkitään omalla kytkimellä, ei TES ei koske -valinnalla.'
+description: 'TES-laskenta tarvitsee jokaiselta työntekijältä työsuhteen tyypin, osa-aikaisilta sopimustunnit ja kaupan alalla työntekijäryhmän. Katso tarkistuslista.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyontekijan-tes-tiedot/tyosuhde-tes-kentat.png'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tasoittumisjärjestelmä ravintola-alalla: syväluotaava opas'
 pubDate: 2026-07-20
-description: 'MaRa-TES:n tasoittumisjärjestelmässä 112,5 tunnin jaksoraja joustaa enintään 130 tuntiin kuuden jakson ajalta, kunhan saldo tasoittuu kauden loppuun mennessä. Käymme läpi säännöt, laskutavan ja molempien osapuolten oikeudet.'
+description: 'MaRa-TES:n tasoittumisjärjestelmässä 112,5 tunnin jaksoraja joustaa enintään 130 tuntiin, kun saldo tasoittuu kauden loppuun mennessä. Näin se lasketaan.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen 12 §:ään (tasoittumisjärjestelmä) ja 30 §:ään (paikallinen sopiminen) sekä työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia kuukausipalkkaisia kokoaikaisia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Seuraa tasoittumisjakson saldoa automaattisesti'

@@ -48,10 +48,16 @@ const heroImage = await getImage({
         gap: var(--space-lg);
     }
     .heroImage {
+        width: min(600px, 100%);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         border-radius: 8px;
         overflow: hidden;
         margin: var(--space-base) 0;
+    }
+    .heroImage img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
     h1 {
         font-size: var(--text-5xl);
@@ -98,9 +104,8 @@ const heroImage = await getImage({
             font-size: var(--text-xl);
             max-width: 90%;
         }
-        .heroImage img {
+        .heroImage {
             width: 90%;
-            height: auto;
         }
         .buttons {
             flex-direction: column;

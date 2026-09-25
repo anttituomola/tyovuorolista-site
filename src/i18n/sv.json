@@ -12,7 +12,7 @@
     },
     "cookieConsent": {
         "message": "Vi använder cookies för besöksstatistik och marknadsföring.",
-        "learnMore": "Läs mer",
+        "learnMore": "Läs villkoren och integritetspolicyn",
         "accept": "Acceptera",
         "decline": "Endast nödvändiga"
     },
@@ -461,6 +461,8 @@
     },
     "pages": {
         "features": {
+            "metaTitle": "Funktioner för skiftplanering | tyovuorolista.fi",
+            "metaDescription": "Planera skift genom att dra, publicera per e-post och exportera timmar till lönehanteringen. Verktygen ett småföretag använder varje vecka.",
             "title": "Funktioner",
             "eyebrow": "Funktioner",
             "heroTitle": "Allt du faktiskt behöver för att göra ett arbetsschema",
@@ -476,6 +478,8 @@
             "backToFeatures": "Alla funktioner"
         },
         "resources": {
+            "metaTitle": "Guider och mallar för skiftplanering | tyovuorolista.fi",
+            "metaDescription": "Gratis mallar för arbetsscheman, utskrivbara listor, en tidrapport i Excel och guider om skiftplanering, arbetstidslag och kollektivavtal i Finland.",
             "title": "Resurser",
             "subtitle": "Mallar, guider och användbara artiklar för skiftplanering.",
             "cta": "Prova gratis"
@@ -573,7 +577,7 @@
         },
         "about": {
             "metaTitle": "Om oss | tyovuorolista.fi",
-            "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen.",
+            "metaDescription": "Personerna bakom tyovuorolista.fi: Antti Tuomola och Eemeli Raninen. Ett arbetsschemaprogram för småföretag från Tammerfors.",
             "title": "Om oss",
             "subtitle": "Två personer bakom tyovuorolista.fi.",
             "company": "Työvuorolista är ett arbetsschemaprogram från Tammerfors för restauranger, kaféer, hotell, handel och andra skiftbaserade småföretag. Produktsajten är tyovuorolista.fi och appen finns på app.tyovuorolista.fi. Tjänsten tillhandahålls av True Solutions Oy (FO-nummer 3431534-2), Juhannuskylänkatu 1 B 6, 33100 Tammerfors, Finland. Kontakt: info@tyovuorolista.fi, +358 45 679 8818.",

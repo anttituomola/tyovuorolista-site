@@ -5,3 +5,8 @@ declare namespace App {
     prefersMarkdown: boolean
   }
 }
+
+declare module 'virtual:public-image-sizes' {
+  const sizes: Record<string, [number, number]>
+  export default sizes
+}

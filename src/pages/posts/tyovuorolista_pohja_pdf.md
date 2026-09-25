@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolista pohja PDF: tee valmis lista ja lähetä se sähköpostilla'
+metaTitle: 'Työvuorolista pohja PDF: tee lista ja lähetä sähköpostilla'
 pubDate: 2026-04-04
-description: 'Etsitkö työvuorolista pohjaa PDF-muodossa? Työvuorolistassa teet listan selaimessa valmiiksi, tallennat sen siistinä PDF:nä ja voit lähettää työntekijöille myös sähköpostilla.'
+description: 'Etsitkö työvuorolista pohjaa PDF-muodossa? Tee lista selaimessa, tallenna se siistinä PDF:nä ja lähetä työntekijöille myös sähköpostilla.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_pohja_pdf/publish-view.png'

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Palkkaraportti-ominaisuus: joustava raporttigeneraattori CSV- ja PDF-muodoissa'
+metaTitle: 'Palkkaraportti-ominaisuus: raportit CSV- ja PDF-muodossa'
 pubDate: 2025-11-24
-description: 'Uusi palkkaraportti-ominaisuus mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa valittavien sarakkeiden kanssa. Raportti generoidaan valittujen työntekijöiden ja päivämäärien perusteella.'
+description: 'Palkkaraportti vie palkkatiedot CSV- tai PDF-muodossa valitsemillasi sarakkeilla. Raportti luodaan valittujen työntekijöiden ja päivämäärien perusteella.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/payroll-report/tuntiraportti_pdf.png'

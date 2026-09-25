@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Kiinteistöpalvelualan TES työvuorosuunnittelussa'
 pubDate: 2026-08-09
-description: 'Mitä kiinteistöpalvelualan työehtosopimus (KipaTES) vaatii työvuorolistalta: 37,5 tunnin viikko, lista tiedoksi viikkoa ennen, 14 lauantai–sunnuntai-vapaata ja arkipyhäkorvauksen vaihtuminen vuosivapaaksi 2027.'
+description: 'Mitä kiinteistöpalvelualan TES vaatii työvuorolistalta: 37,5 tunnin viikko, lista viikkoa ennen, 14 viikonloppuvapaata ja vuosivapaa vuodesta 2027.'
 reviewedDate: 2026-08-06
 infoBasis: 'Perustuu kiinteistöpalvelualan työntekijöitä koskevaan työehtosopimukseen (Kiinteistötyönantajat ry – PAM ry, 1.4.2025–31.3.2028, yleissitova), erityisesti 8–10 §:n määräyksiin. Koskee kiinteistöpalvelualan TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Luo kiinteistöpalvelualan TES:n mukainen työvuorolista'

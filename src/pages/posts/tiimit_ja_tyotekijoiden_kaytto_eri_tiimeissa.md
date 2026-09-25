@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tiimit-ominaisuus: sama työntekijä monessa eri tiimissä?'
 pubDate: 2024-01-24
-description: 'Työntekijä voi olla yhden tai useamman tiimin jäsen.'
+description: 'Sama työntekijä voi kuulua useaan tiimiin ilman erillistä luontia. Näin liität työntekijät tiimeihin, ja sovellus estää tuplavaraukset tiimien välillä.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/tyovuorolista_tiimit4.png'

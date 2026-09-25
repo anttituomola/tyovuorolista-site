@@ -33,7 +33,7 @@ if (locale === 'fi') {
             {t('blogPosts.hubIntroEnd', locale)}
         </p>
         <div class="blogitekstit">
-            {sortedPosts.map((post) => <BlogPostCard post={post} headingLevel="h2" />)}
+            {sortedPosts.map((post, i) => <BlogPostCard post={post} headingLevel="h2" eager={i < 3} />)}
         </div>
     </div>
 </Layout>

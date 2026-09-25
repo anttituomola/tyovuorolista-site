@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sopimuspalkka: lisät pois palkka-aineistosta'
 pubDate: 2026-09-02
 reviewedDate: 2026-09-04
-description: 'Esihenkilön kiinteä kuukausikorvaus voi kattaa lisätyön, ylityön, sunnuntain, aaton sekä ilta- ja yölisät. Ne jäävät pois viennistä. V-, X- ja vuosivapaapäivän korvaukset viedään. Tunnit näkyvät tuntinäkymissä.'
+description: 'Esihenkilön sopimuspalkka voi kattaa lisä- ja ylityön, sunnuntain, aaton sekä ilta- ja yölisät. Ne jäävät pois palkka-aineistosta, mutta tunnit näkyvät.'
 author: 'Antti Tuomola'
 infoBasis: 'Perustuu MaRa esihenkilöiden työehtosopimuksen 21 §:ään (palkan lisien maksaminen erillisenä kuukausikorvauksena). Työntekijöiden MaRa-TES:ssä ei ole vastaavaa pykälää. Kytkin on raportointiasetus: se ei ota kantaa siihen, onko järjestely TES:n mukainen kyseisellä sopimusalalla.'
 image:

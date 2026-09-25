@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työtunnit työsopimuksessa: yksi kenttä, joka ohjaa tuntitavoitetta ja TES-laskentaa'
+metaTitle: 'Työtunnit työsopimuksessa: tuntitavoite ja TES-laskenta'
 pubDate: 2026-07-14
-description: 'Työntekijän sopimustunnit kirjataan nyt yhteen kenttään, jonka yksikön voit valita: tuntia kuukaudessa, viikossa tai kolmen viikon jaksossa. Sama luku ohjaa kalenterin tuntitavoitetta ja TES-tuen lisä- ja ylityörajoja.'
+description: 'Työsopimuksen tunnit yhteen kenttään: kuukaudessa, viikossa tai kolmen viikon jaksossa. Sama luku ohjaa tuntitavoitetta ja TES:n lisä- ja ylityörajoja.'
 reviewedDate: 2026-07-28
 infoBasis: 'Ensisijaisesti sovellusohje. Mainitut TES-luvut (jakson enimmäistyöaika 112,5 h ja lisä-/ylityöraja 120 h kolmessa viikossa) perustuvat MaRa-työehtosopimuksen työaikamääräyksiin (12 §) ja palkkamääräyksiin (18 §), ks. Lähteet. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Kirjaa sopimustunnit ja seuraa tavoitetta'

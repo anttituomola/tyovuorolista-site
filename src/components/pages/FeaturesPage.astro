@@ -1,5 +1,6 @@
 ---
 import FeatureCard from '../common/FeatureCard.astro'
+import { publicImageSize } from '../../utils/imageSize'
 import Button from '../common/Button.astro'
 import {
   features,
@@ -49,7 +50,9 @@ const featuresByCategory = featureCategories.reduce(
                     <img
                         src="/featureImages/kalenteri-hero.png"
                         alt={page?.heroImageAlt}
+                        {...publicImageSize('/featureImages/kalenteri-hero.png')}
                         loading="eager"
+                        fetchpriority="high"
                     />
                 </div>
             </div>

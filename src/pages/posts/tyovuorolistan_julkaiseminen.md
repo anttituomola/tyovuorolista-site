@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolistan julkaiseminen: määräajat ravintola- ja kaupan alalla'
+metaTitle: 'Työvuorolistan julkaiseminen: MaRa- ja kaupan alan määräajat'
 pubDate: 2026-07-28
-description: 'Työaikalaki vaatii työvuoroluettelon tiedoksi viimeistään viikkoa ennen jakson alkua. MaRa-TES tiukentaa muutossäännön ja kaupan TES määräajan: 2 viikkoa ennen työviikkoa, tasoittumisjaksossa 3 viikkoa, paikallisesti sopien 1 viikko.'
+description: 'Työvuorolistan julkaiseminen: työaikalain mukaan viikkoa ennen, kaupan TES:ssä 2 viikkoa (tasoittumisjaksossa 3). MaRa-TES tiukentaa muutossääntöä.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu työaikalakiin (872/2019, 30 §), MaRa-työehtosopimukseen (tes.mara.fi) sekä kaupan alan työehtosopimukseen 1.2.2025–31.1.2028 (6 § 11–16, 8 § 1 ja 25 §). Määräykset koskevat kunkin TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Julkaise lista ajoissa työntekijöille'
@@ -154,7 +155,7 @@ liittyvä painava syy. Jos julkaistu vuoro venyy, kyse on
 Alat menevät helposti sekaisin, koska kumpikin on tiukempi kuin
 toinen, mutta eri kohdassa.
 
-| | Kaupan ala | MaRa (ravintola-ala) |
+| Asia | Kaupan ala | MaRa (ravintola-ala) |
 |---|---|---|
 | Julkaisu | 2 viikkoa ennen työviikkoa | viikko ennen kolmiviikkoisjaksoa |
 | Muutos julkaisun jälkeen | suostumus **tai** painava syy | vain molempien suostumuksella |

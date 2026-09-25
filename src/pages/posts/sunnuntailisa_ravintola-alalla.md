@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Sunnuntailisä ravintola-alalla, myös iltalisä tuplaantuu'
 pubDate: 2026-07-18
-description: 'MaRa-TES:ssä sunnuntaityöstä maksetaan peruspalkka 100 % korotettuna, ja sama korotus koskee myös ilta- ja yölisiä. Moni lähde kertoo vain tuplapalkasta ja unohtaa lisien kahdentumisen.'
+description: 'MaRa-TES:ssä sunnuntaityön peruspalkka korotetaan 100 %, ja sama korotus koskee ilta- ja yölisiä. Moni lähde kertoo tuplapalkasta mutta unohtaa lisät.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen palkkamääräyksiin (tes.mara.fi). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Laske sunnuntailisät automaattisesti'

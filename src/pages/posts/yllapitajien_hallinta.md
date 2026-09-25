@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Ylläpitäjät: kutsu toinen henkilö luomaan ja hyväksymään vuorolistoja'
+metaTitle: 'Ylläpitäjät: kutsu toinen henkilö hyväksymään vuorolistoja'
 pubDate: 2026-09-01
 description: 'Voit nyt kutsua toisen ylläpitäjän itse asetuksista. Hän saa samat oikeudet kuin sinä: listojen luonnin ja julkaisun, työntekijät ja tilauksen.'
 author: 'Antti Tuomola'

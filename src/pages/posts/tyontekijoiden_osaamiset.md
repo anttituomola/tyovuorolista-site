@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Osaamiset: pätevyydet työntekijöille, vaatimukset vuoroille ja tunnit palkkaraporttiin'
+metaTitle: 'Osaamiset: työntekijöiden pätevyydet ja vuorojen vaatimukset'
 pubDate: 2026-07-29
-description: 'Uusi osaamiset-toiminto: määrittele työpaikan osaamiset (esim. vuorovastaava tai hygieniapassi), liitä ne työntekijöihin ja vuoroihin, ja saa vastuuvuorojen tunnit automaattisesti palkkaraporttiin.'
+description: 'Määrittele osaamiset kuten vuorovastaava tai hygieniapassi, liitä ne työntekijöihin ja vuoroihin ja saa vastuuvuorojen tunnit palkkaraporttiin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/osaamiset/osaamiset-asetukset.png'

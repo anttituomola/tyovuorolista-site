@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolista pohja: tulosta ilmainen 3 viikon lista heti selaimessa'
+metaTitle: 'Tulostettava työvuorolista pohja: ilmainen 3 viikon lista'
 pubDate: 2026-05-27
 description: 'Tarvitset työvuorolistan heti? Täytä ilmainen 3 viikon pohja selaimessa, lisää nimet ja vuorot, ja tulosta tai tallenna PDF. Ei rekisteröitymistä.'
 author: 'Antti Tuomola'

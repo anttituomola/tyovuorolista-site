@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mikä on kolmiviikkoisjakso ravintola-alalla?'
 pubDate: 2026-07-14
-description: 'MaRa-TES:ssä työaikaa ei lasketa viikoittain vaan kolmen viikon jaksoissa: enintään 112,5 tuntia jaksossa, ja jakso alkaa aina maanantaina. Tästä jaksosta lasketaan myös lisä- ja ylityöt.'
+description: 'Kolmiviikkoisjakso on MaRa-TES:n työajan laskentajakso: enintään 112,5 tuntia, alkaa aina maanantaina, ja siitä lasketaan myös lisä- ja ylityöt.'
 reviewedDate: 2026-07-28
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (tes.mara.fi) ja työaikalakiin (872/2019). Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Luo kolmiviikkoisjakson työvuorolista'

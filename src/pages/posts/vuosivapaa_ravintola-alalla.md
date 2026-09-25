@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mikä on vuosivapaa ravintola-alalla?'
 pubDate: 2026-07-17
-description: 'MaRa-TES:ssä ei ole arkipyhälyhennyksiä. Niiden sijaan työntekijä ansaitsee vuosivapaita: yhden vapaapäivän jokaista 200 toteutunutta työtuntia kohti, enintään 9 päivää vuodessa.'
+description: 'MaRa-TES:ssä arkipyhälyhennysten tilalla ansaitaan vuosivapaita: yksi vapaapäivä jokaista 200 tehtyä työtuntia kohti, enintään 9 päivää vuodessa.'
 reviewedDate: 2026-08-20
 infoBasis: 'Perustuu MaRa-työehtosopimuksen työaikamääräyksiin (tes.mara.fi), joissa vuosivapaajärjestelmä on määritelty. Koskee MaRa TES:n piirissä olevia työntekijöitä; muut sopimusalat voivat poiketa.'
 ctaText: 'Seuraa vuosivapaakertymää automaattisesti'

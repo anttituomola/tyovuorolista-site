@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työvuorolista-sovellus nyt käytettävissä mobiililaitteilla'
 pubDate: 2025-10-02
-description: 'Suunnittele työvuorot puhelimessa uudessa päivänäkymässä: viikonauha, vuorokortit, pikaluonti ja julkaisu. Hallitse työntekijöitä ja kirjaa tunteja suoraan älypuhelimesta.'
+description: 'Työvuorolista-sovellus mobiilissa: viikonauha, vuorokortit, pikaluonti ja julkaisu päivänäkymässä. Hallitse työntekijöitä ja kirjaa tunteja puhelimella.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/mobile-usage/19-mobile-calendar-with-shift.png'

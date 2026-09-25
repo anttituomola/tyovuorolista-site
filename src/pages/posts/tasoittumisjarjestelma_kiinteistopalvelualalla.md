@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Tasoittumisjärjestelmä kiinteistöpalvelualalla: 8 viikon jakso ja 10 tunnin päiväkynnys'
+metaTitle: 'Tasoittumisjärjestelmä kiinteistöpalvelualalla (KipaTES)'
 pubDate: 2026-08-11
-description: 'KipaTES:n keskimääräisessä viikkotyöajassa jakso on enintään 8 viikkoa (1.1.2027 alkaen 12). Ylityömekaniikka muuttuu: yli 10 tunnin päivät korvataan suoraan +100 % ja loput tilitetään jakson lopussa.'
+description: 'KipaTES:n tasoittumisjakso on enintään 8 viikkoa (1.1.2027 alkaen 12). Yli 10 tunnin päivät korvataan heti +100 %, loput tilitetään jakson lopussa.'
 reviewedDate: 2026-08-06
 infoBasis: 'Perustuu kiinteistöpalvelualan työntekijöitä koskevaan työehtosopimukseen (Kiinteistötyönantajat ry – PAM ry, 1.4.2025–31.3.2028, yleissitova), erityisesti 8 § 1 mom. ja 10 § 1 mom. laskentaohjeeseen, sekä allekirjoituspöytäkirjan 1.1.2027 muutoksiin. Koskee keskimääräistä viikkotyöaikaa käyttäviä työpaikkoja.'
 ctaText: 'Suunnittele tasoittumisjakso tyovuorolista.fi:ssä'
@@ -39,7 +40,7 @@ ja yksittäinen viikko enintään **45 tuntia** ilman työntekijän
 suostumusta. Paikallisesti sopien (TES 18 §) rajat nousevat **10
 tuntiin ja 50 tuntiin** ja jakso voi pitentyä jopa **26 viikkoon**.
 
-| | Perussääntö | Paikallisesti sopien |
+| Sääntö | Perussääntö | Paikallisesti sopien |
 | --- | --- | --- |
 | Jakson pituus | max 8 vk | max 26 vk |
 | Päivä | max 9 h | max 10 h |

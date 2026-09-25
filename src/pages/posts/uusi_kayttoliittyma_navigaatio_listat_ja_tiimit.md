@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Uusi käyttöliittymä: navigaatio, listat ja tiimit selkeytyivät'
+metaTitle: 'Uusi käyttöliittymä: navigaatio, listat ja tiimit'
 pubDate: 2026-03-09
-description: 'Työvuorolistan käyttöliittymä uudistui erityisesti päänavigaatiossa, listoissa ja tiimeissä. Uusi rakenne helpottaa siirtymistä eri näkymien välillä ja tekee hallinnasta aiempaa selkeämpää.'
+description: 'Työvuorolistan käyttöliittymä uudistui päänavigaation, listojen ja tiimien osalta. Siirtyminen näkymien välillä helpottui ja hallinta selkeytyi.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/new-ui-refresh/nav-overview.png'
