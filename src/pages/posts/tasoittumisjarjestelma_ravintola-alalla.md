@@ -14,7 +14,7 @@ image:
 tags: ['TES', 'MaRa', 'tasoittumisjärjestelmä', 'työaika', 'ravintola-ala']
 ---
 
-
+*Päivitetty 25.9.2026: Samasta MaRa-asetuksesta valitset myös vuosityöaikajärjestelmän, jos teillä on siitä paikallinen sopimus. Katso [työaikapankki](/posts/tyoaikapankki).*
 
 **Lyhyesti:** Tasoittumisjärjestelmä (MaRa-TES 12 §) antaa kuukausipalkkaisen
 kokoaikaisen työntekijän työajan joustaa jaksoittain enemmän kuin
@@ -219,9 +219,11 @@ maksamista kauden loppuun.
 
 ## Näin Tyovuorolista.fi tukee tasoittumisjärjestelmää
 
-[TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa) asetuksista löytyy oma
-kytkin tasoittumisjärjestelmälle sen jälkeen, kun toimipaikalle on valittu
-MaRa-TES ja kolmiviikkoisjakson alkumaanantai:
+[TES-tuen](/posts/tes_tuki_tyovuorosuunnittelussa) asetuksista valitset
+tasoittumisjärjestelmän sen jälkeen, kun toimipaikalle on valittu MaRa-TES
+ja kolmiviikkoisjakson alkumaanantai. Samasta kohdasta voit valita myös
+[vuosityöaikajärjestelmän](/posts/tyoaikapankki), jos teillä on siitä
+paikallinen sopimus:
 
 <img src="/blogPostImages/tes-tuki/tes-asetukset.png" alt="TES-asetukset: tasoittumisjärjestelmän kytkin, kauden pituus jaksoina ja kauden alkujakso" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
