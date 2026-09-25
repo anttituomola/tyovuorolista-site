@@ -134,8 +134,8 @@ Maraplanilta siirtyneiden asiakkaidemme syyt toistuvat:
 | Ominaisuus | Finago Maraplan | Tyovuorolista.fi |
 |---|---|---|
 | Julkinen hinnasto | Ei (tarjouksen kautta) | [Kyllä](/hinnoittelu): 0–180 €/kk tiliä kohti |
-| Käyttöönottomaksu | 335 € perushinta (kampanjassa 0 € 31.10.2026 asti) | Ei ole |
-| Ilmainen käyttö | Demo pyynnöstä | Pysyvästi ilmainen ≤ 3 työntekijää |
+| Käyttöönottomaksu | 335 € perushinta (kampanjassa 0 € 31.10.2026 asti) | 0 € |
+| Ilmainen käyttö | Demo pyynnöstä | Alle neljälle työntekijälle |
 | Aloitus | Demo ja sopimus | [Rekisteröidy itse](https://app.tyovuorolista.fi/register) |
 | Valmiit TES-määritykset | MaRaVa, kaupan ala, hiihtokeskus, ohjelmapalvelu, leipomot, huoltoasemat, optikot | [MaRa, Kaupan ala, KipaTES, SOSTES](/posts/tes_tuki_tyovuorosuunnittelussa), kaikissa paketeissa |
 | Vuosivapaat ja tasoittuminen | Kyllä | Kyllä: [vuosivapaat](/posts/vuosivapaa_ravintola-alalla), [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla), [työaikapankki](/posts/tyoaikapankki) |
