@@ -97,9 +97,10 @@ työntekijäkohtaista liittymissopimusta.
 2. Sovi saldon seurannasta: työnantajan on pidettävä
    työntekijäkohtaista kirjanpitoa pankkiin siirretyistä eristä ja
    niiden perusteista, työaikalain työaikakirjanpidon lisäksi.
-3. Jos käytössä on työaikalain 14 §:n pankki (ei MaRa-vuosityöaika), muista
-   vapaan vähimmäismäärä: vähintään kaksi viikkoa kalenterivuodessa, ja
-   työntekijän vaatiessa kuuden kuukauden sisällä.
+3. Jos käytössä on työaikalain 14 §:n pankki eikä MaRa-TES:n
+   vuosityöaikajärjestelmä, muista vapaan vähimmäismäärä: vähintään kaksi
+   viikkoa kalenterivuodessa, ja työntekijän vaatiessa seuraavan kuuden
+   kuukauden aikana.
 
 Tyovuorolista.fi tukee tällä hetkellä MaRa-TES:n
 [tasoittumisjärjestelmää](/posts/tasoittumisjarjestelma_ravintola-alalla)
