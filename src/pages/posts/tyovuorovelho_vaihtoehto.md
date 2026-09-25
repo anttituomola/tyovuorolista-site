@@ -58,7 +58,8 @@ yrityksille ja toisille ei.
 Rehellisyys ennen kaikkea, joten aloitetaan tästä. Työvuorovelho tai
 sen sisartuote Maraplan on todennäköisesti sinulle oikea, jos:
 
-- haluat **ohjatun käyttöönoton projektina** koulutuksineen
+- organisaatiossasi on **yli 100 työntekijää** (meidän hinnastomme
+  kattaa enintään 100 työntekijää)
 - palkanlaskentasi pyörii jo **Mepcossa** tai haluat saman talon
   hoitavan koko ketjun palkkahallintoon asti
 - organisaatiosi on iso tai monitoimipaikkainen, ja tarvitset
@@ -74,13 +75,12 @@ Vaihtoehtoa etsitään yleensä kolmesta syystä:
    tarjousprosessi on hidas tapa saada yksi luku. Itsepalveluohjelmien
    hinnat ovat julkisia: esimerkiksi meillä koko hinnasto on
    [yhdellä sivulla](/hinnoittelu).
-2. **Yrityksesi on pieni.** Käyttöönottoprojekti ja myyntivetoinen malli
-   on mitoitettu isommille. Alle 100 työntekijän yritys saa
-   itsepalveluohjelmasta saman perustyön (listat, julkaisu, tunnit,
-   palkkaraportti) murto-osalla vaivasta.
-3. **Haluat kokeilla ennen ostamista omilla vuoroillasi.** Demon sijaan
-   itsepalveluohjelmaan voi rekisteröityä ja tehdä oman oikean listan
-   samana päivänä.
+2. **Hinta ei kasva toimipaikkojen mukana.** Meillä hinta on tiliä
+   kohti, ja samalla tilillä hallitset useita toimipaikkoja ja
+   rajattoman määrän listoja.
+3. **Haluat valita itse, miten aloitat.** Voit rekisteröityä ja tehdä
+   oman oikean listan samana päivänä, tai ottaa ohjatun käyttöönoton
+   koulutuksineen.
 
 ## Tyovuorolista.fi vaihtoehtona: todennettavat erot
 
@@ -88,12 +88,12 @@ Vaihtoehtoa etsitään yleensä kolmesta syystä:
 |---|---|---|
 | Julkinen hinnasto | Ei (tarjouksen kautta) | [Kyllä](/hinnoittelu): 0–180 €/kk tiliä kohti |
 | Ilmainen käyttö | Demo pyynnöstä | Pysyvästi ilmainen ≤ 3 työntekijää |
-| Aloitus | Myyntiprosessin kautta | [Rekisteröidy itse](https://app.tyovuorolista.fi/register), lista valmis minuuteissa |
+| Aloitus | Myyntiprosessin kautta | [Rekisteröidy itse](https://app.tyovuorolista.fi/register), lista valmis minuuteissa, tai ohjattu käyttöönotto koulutuksineen |
 | Hinnoittelumalli | Ei julkista tietoa | Kiinteä tilihinta, ei työntekijäkohtaisia maksuja |
 | TES-tuki | Osana käyttöönottoa | MaRa, Kaupan ala, SOSTES ja KipaTES [kaikissa paketeissa](/posts/tes_tuki_tyovuorosuunnittelussa) |
 | Työntekijän mobiilikäyttö | Kyllä (mobiilisovellus) | Kyllä ([Oma-portaali](/posts/oma_portaali_ohje) selaimessa) |
 | Palkanlaskentaan | Suoraan Mepcoon | [Palkkaraportti](/posts/palkkaraportti_ominaisuus) ja [Procountor-vienti](/posts/procountor_palkka_vienti) |
-| Kokoluokka | Finagon mukaan myös suurille (100 000+ työntekijän vuorot) | Alle 100 työntekijän yritykset |
+| Kokoluokka | Finagon mukaan myös suurille (100 000+ työntekijän vuorot) | Pienet ja keskisuuret yritykset, myös usean toimipaikan, enintään 100 työntekijää |
 
 Työvuorovelhon tiedot: [mepco.fi/tyovuorovelho](https://mepco.fi/tyovuorovelho/),
 31.8.2026. Muut itsepalveluvaihtoehdot (Otta, Tuntikone, Workfeed)
@@ -132,10 +132,11 @@ hinnat 10 työntekijän yritykselle ovat 18–40 €/kk, laskuesimerkit
 [vertailussa](/posts/tyovuorosuunnitteluohjelmien_vertailu_2026).
 
 **Mikä on paras Työvuorovelho-vaihtoehto?**
-Riippuu koosta ja tarpeesta: alle 100 työntekijän yritykselle, joka
-haluaa julkisen hinnan ja TES-tuen, Tyovuorolista.fi on suora
-vaihtoehto. Jos tärkeintä on kellokortti ja leimaus, katso Otta tai
-Tuntikone. Ison ketjun kannattaa vertailla myyntivetoisia järjestelmiä
+Riippuu koosta ja tarpeesta: pienelle tai keskisuurelle yritykselle
+(myös usean toimipaikan), joka haluaa julkisen hinnan ja TES-tuen,
+Tyovuorolista.fi on suora vaihtoehto. Jos tärkeintä on leimaus sisään
+ja ulos kellokortilla, katso Otta tai Tuntikone. Yli 100 työntekijän
+organisaation kannattaa vertailla myyntivetoisia järjestelmiä
 keskenään.
 
 **Voinko kokeilla vaihtoehtoa ilmaiseksi?**

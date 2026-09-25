@@ -82,11 +82,11 @@ Alle 4 työntekijän tiimille sekä Tyovuorolista.fi:n Mini (pysyvästi 0 €) e
 
 ### Tyovuorolista.fi: meidän ohjelmamme
 
-Suomalainen, työvuorosuunnittelu edellä rakennettu itsepalveluohjelma alle 100 työntekijän yrityksille. Julkiset hinnat: ilmainen 3 työntekijälle, maksulliset 18–180 €/kk tiliä kohti ([hinnasto](https://www.tyovuorolista.fi/hinnoittelu)). Ei käyttöönottoprojektia eikä aloitusmaksua. Ensimmäisen listan tekee minuuteissa. **TES-tulkinta (MaRa, Kaupan ala, KipaTES ja SOSTES) sisältyy kaikkiin paketteihin, myös ilmaiseen**. Tietääksemme ainoana Suomessa. Lisäksi työntekijäportaali, palkkaraportit ja Procountor-palkka-aineiston vienti.
+Suomalainen, työvuorosuunnittelu edellä rakennettu ohjelma pienille ja keskisuurille yrityksille, myös usean toimipaikan (enintään 100 työntekijää). Julkiset hinnat: ilmainen 3 työntekijälle, maksulliset 18–180 €/kk tiliä kohti ([hinnasto](https://www.tyovuorolista.fi/hinnoittelu)). Ei aloitusmaksua. Ensimmäisen listan tekee itse minuuteissa, tai voit ottaa ohjatun käyttöönoton koulutuksineen. **TES-tulkinta (MaRa, Kaupan ala, KipaTES ja SOSTES) sisältyy kaikkiin paketteihin, myös ilmaiseen**. Tietääksemme ainoana Suomessa. Lisäksi työntekijäportaali, palkkaraportit ja Procountor-palkka-aineiston vienti.
 
 ### Finago Työvuorovelho ja MaraPlan Pro
 
-Molemmat kuuluvat nykyään Accountor-konsernin Mepcoon. Työvuorovelho on pitkän linjan työvuorosuunnitteluohjelma, MaraPlan Pro erityisesti majoitus- ja ravitsemisalan sekä kaupan ketjuille (Finagon mukaan ~3 000 asiakastoimipaikkaa). Vahvuutena TES-osaaminen ja tilitoimistokytkökset; käyttöönotto tapahtuu myynnin ja projektin kautta, eikä hinnastoa julkaista. Sopii hyvin, jos haluat ohjatun käyttöönoton ja talon, joka hoitaa myös palkkahallinnon järjestelmät. Tarkempi rinnakkainvertailu ja vaihtajan muistilista: [Työvuorovelho-vaihtoehto pienelle yritykselle](/posts/tyovuorovelho_vaihtoehto).
+Molemmat kuuluvat nykyään Accountor-konsernin Mepcoon. Työvuorovelho on pitkän linjan työvuorosuunnitteluohjelma, MaraPlan Pro erityisesti majoitus- ja ravitsemisalan sekä kaupan ketjuille (Finagon mukaan ~3 000 asiakastoimipaikkaa). Vahvuutena TES-osaaminen ja tilitoimistokytkökset; käyttöönotto tapahtuu myynnin ja projektin kautta, eikä hinnastoa julkaista. Sopii hyvin, jos haluat ohjatun käyttöönoton ja talon, joka hoitaa myös palkkahallinnon järjestelmät. Tarkemmat rinnakkainvertailut ja vaihtajan muistilistat: [Työvuorovelho-vaihtoehto pienelle yritykselle](/posts/tyovuorovelho_vaihtoehto) ja [Maraplan-vaihtoehto ravintolalle ja kaupalle](/posts/maraplan_vaihtoehto).
 
 ### Otta
 
@@ -113,14 +113,14 @@ Ilmaisia, ja moni pärjää niillä pitkään. Teimme itsekin [ilmaisen tulostet
 Rehellisyys ennen kaikkea. Älä valitse meitä, jos:
 
 - **Tärkein tarpeesi on kellokortti ja leimaus.** Otta, Tuntikone ja Nepton on rakennettu työajanseuranta edellä; meillä toteutuneet tunnit kirjataan ja hyväksytään, mutta leimauspäätettä meillä ei ole.
-- **Olet monen toimipaikan ketju, jossa on satoja työntekijöitä.** MaraPlan Pro, Quinyx, Numeron ja Titania ovat sitä kokoluokkaa varten. Me olemme parhaimmillamme alle 100 työntekijän yrityksissä.
+- **Olet monen toimipaikan ketju, jossa on satoja työntekijöitä.** MaraPlan Pro, Quinyx, Numeron ja Titania ovat sitä kokoluokkaa varten. Meidän hinnastomme kattaa enintään 100 työntekijää.
 - **Haluat automaattisen, algoritmin ehdottaman vuorosuunnittelun.** Workfeedin Pro-taso lupaa tämän; meillä listat tehdään itse (mallipohjien ja toistuvien vuorojen avulla).
 - **Haluat, että toimittaja hoitaa käyttöönoton projektina koulutuksineen.** Myyntivetoiset toimijat tekevät juuri tätä. Itsepalvelu ei ole kaikille se oikea malli.
 
 ## Usein kysytyt kysymykset
 
 **Mikä on paras työvuorosuunnitteluohjelma pienelle yritykselle 2026?**
-Riippuu tarpeesta: jos haluat julkisen hinnan, itsepalvelun ja TES-tulkinnan, vertaa Tyovuorolista.fi:tä (kiinteä 0–18 €/kk alle 20 työntekijän yrityksille) ja käyttäjäpohjaisesti hinnoiteltuja Ottaa, Tuntikonetta ja Workfeediä. Jos haluat ohjatun käyttöönoton, pyydä tarjous Työvuorovelhosta tai HRSuunnista.
+Riippuu tarpeesta: jos haluat julkisen hinnan, itsepalvelun ja TES-tulkinnan, vertaa Tyovuorolista.fi:tä (kiinteä 0–18 €/kk alle 20 työntekijän yrityksille) ja käyttäjäpohjaisesti hinnoiteltuja Ottaa, Tuntikonetta ja Workfeediä. Ohjatun käyttöönoton saa meiltä sekä myyntivetoisista järjestelmistä, kuten Työvuorovelhosta ja HRSuunnista.
 
 **Onko olemassa ilmaista työvuorosuunnitteluohjelmaa?**
 On: Tyovuorolista.fi on pysyvästi ilmainen enintään 3 työntekijän tiimeille (sisältäen TES-tulkinnan), ja Workfeedin Starter on ilmainen 500 vuoroon asti. Excel- ja PDF-pohjat ovat ilmaisia, mutta työläitä ylläpitää.
