@@ -19,8 +19,7 @@ tags: ['vertailu', 'maraplan', 'vaihtoehto', 'työvuorosuunnittelu', 'hinnoittel
 majoitus- ja ravitsemisalalle, kaupan alalle ja leipomoille tehty
 työvuorosuunnitteluohjelma, jota Finagon mukaan käytetään noin 3 000
 toimipaikassa. Kuukausihintaa ei julkaista: hinta selviää demon ja
-tarjouksen kautta, ja perushintainen käyttöönotto maksaa 335 € (tällä
-hetkellä kampanjassa 0 €, kun sopimus tehdään 31.10.2026 mennessä). Jos
+tarjouksen kautta, ja perushintainen käyttöönotto maksaa 335 €. Jos
 haluat tietää hinnan etukäteen ja aloittaa itse, Tyovuorolista.fi maksaa
 **0–180 €/kk tiliä kohti**, ja MaRa- ja Kaupan alan TES-tuki sisältyy
 kaikkiin paketteihin. Kaikki vaihtoehdot hintoineen:
@@ -104,14 +103,12 @@ tarjousta pyytäessäsi ainakin nämä:
 Aloitetaan tästä, koska Maraplan sopii monelle paremmin kuin meidän
 ohjelmamme. Se on todennäköisesti oikea valinta, jos:
 
-- olet **suuri ketju**, jolla on kymmeniä toimipaikkoja tai yli 100
-  työntekijää (meidän hinnastomme kattaa enintään 100 työntekijää)
+- olet **monen toimipaikan ketju**, ja haluat ohjatun käyttöönoton
+  koulutuksineen
 - noudatat TES:ää, jota me emme tue: esimerkiksi **hiihtokeskusalan,
   ohjelmapalvelualan, leipomoiden, huolto- ja liikenneasemien tai
   optikoiden** sopimusta
-- haluat, että työntekijät **leimaavat sisään ja ulos** kellokortilla
-  reaaliajassa (meillä työntekijä kirjaa toteutuneen työajan
-  Oma-portaalissa ja esihenkilö hyväksyy sen)
+- tarvitset **kellokortin** eli leimauksen samaan järjestelmään
 - haluat **automaattisen vuorosuunnittelun**, jota meillä ei ole: meillä
   listat tehdään itse [mallipohjien](/posts/templates_eli_mallinteiden_kaytto_tyovuorolista_pohjana) ja [toistuvien vuorojen](/posts/toistuvat_tyovuorot)
   avulla
@@ -124,15 +121,13 @@ Maraplanilta siirtyneiden asiakkaidemme syyt toistuvat:
 
 1. **Haluat tietää kokonaishinnan etukäteen.** Meillä koko hinnasto on
    [yhdellä sivulla](/hinnoittelu), eikä käyttöönottomaksua ole.
-2. **Hinta ei kasva toimipaikkojen mukana.** Meillä hinta on tiliä
-   kohti, ja samalla tilillä hallitset useita toimipaikkoja ja rajattoman
-   määrän listoja. Moni asiakkaamme pyörittää yhdellä tilillä usean
-   toimipisteen ravintolaa tai liikettä.
-3. **Haluat valita itse, miten aloitat.** Voit
-   [rekisteröityä](https://app.tyovuorolista.fi/register) ja tehdä
-   ensimmäisen oikean listan samana päivänä, tai ottaa ohjatun
-   käyttöönoton koulutuksineen, jolloin käymme listat, TES-asetukset ja
-   palkkaviennin läpi yhdessä.
+2. **Yrityksesi on pieni.** Yhden tai kahden toimipaikan ravintola,
+   kahvila tai liike tarvitsee listat, julkaisun, tunnit ja
+   palkka-aineiston. Käyttöönottoprojekti ja myyntivetoinen malli on
+   mitoitettu isommille.
+3. **Haluat kokeilla omilla vuoroillasi ennen päätöstä.** Demon sijaan
+   voit [rekisteröityä](https://app.tyovuorolista.fi/register) ja tehdä
+   ensimmäisen oikean listan samana päivänä.
 
 ## Maraplan ja Tyovuorolista.fi rinnakkain
 
@@ -141,14 +136,14 @@ Maraplanilta siirtyneiden asiakkaidemme syyt toistuvat:
 | Julkinen hinnasto | Ei (tarjouksen kautta) | [Kyllä](/hinnoittelu): 0–180 €/kk tiliä kohti |
 | Käyttöönottomaksu | 335 € perushinta (kampanjassa 0 € 31.10.2026 asti) | Ei ole |
 | Ilmainen käyttö | Demo pyynnöstä | Pysyvästi ilmainen ≤ 3 työntekijää |
-| Aloitus | Demo ja sopimus | [Rekisteröidy itse](https://app.tyovuorolista.fi/register) tai ohjattu käyttöönotto koulutuksineen |
+| Aloitus | Demo ja sopimus | [Rekisteröidy itse](https://app.tyovuorolista.fi/register) |
 | Valmiit TES-määritykset | MaRaVa, kaupan ala, hiihtokeskus, ohjelmapalvelu, leipomot, huoltoasemat, optikot | [MaRa, Kaupan ala, KipaTES, SOSTES](/posts/tes_tuki_tyovuorosuunnittelussa), kaikissa paketeissa |
 | Vuosivapaat ja tasoittuminen | Kyllä | Kyllä: [vuosivapaat](/posts/vuosivapaa_ravintola-alalla), [tasoittumisjärjestelmä](/posts/tasoittumisjarjestelma_ravintola-alalla), [työaikapankki](/posts/tyoaikapankki) |
 | Työntekijän mobiilikäyttö | Mobiilikäyttöliittymä | [Oma-portaali](/posts/oma_portaali_ohje) selaimessa: vuorot, toiveet, tunti-ilmoitus, avoimet vuorot |
-| Toteutunut työaika | Mobiilikirjaus, Kellokortti (leimaus sisään ja ulos) lisäpalveluna | Työntekijä kirjaa poikkeamat Oma-portaalissa, esihenkilö hyväksyy, tunnit suoraan palkkaraporttiin |
+| Leimaus | Kellokortti lisäpalveluna | Ei kellokorttia, toteutuneet tunnit Oma-portaalista |
 | Automaattinen vuorosuunnittelu | Lisäpalveluna | Ei |
 | Palkanlaskentaan | Palkkaintegraatiot, mm. Procountor-rajapinta | [Palkkaraportti](/posts/palkkaraportti_ominaisuus), [Procountor](/posts/procountor_palkka_vienti), [Netvisor](/posts/netvisor_tuntien_vienti), [Fivaldi](/posts/fivaldi_tuntien_vienti) |
-| Kokoluokka | Noin 3 000 toimipaikkaa, myös suuret ketjut | Pienet ja keskisuuret yritykset, myös usean toimipaikan, enintään 100 työntekijää |
+| Kokoluokka | Noin 3 000 toimipaikkaa, myös ketjut | Alle 100 työntekijän yritykset |
 
 Maraplanin tiedot: [mepco.fi/maraplan](https://mepco.fi/maraplan/),
 [finago.fi](https://finago.fi/ratkaisut/finago-maraplan/) ja
@@ -162,8 +157,7 @@ Ravintola, jossa on 15 työntekijää:
 - **Tyovuorolista.fi:** Normi-paketti (enintään 20 työntekijää) maksaa
   18 €/kk tai 144 €/vuosi. Ei käyttöönottomaksua. TES-tuki, Oma-portaali
   ja palkkaraportti sisältyvät hintaan.
-- **Maraplan:** kuukausihinta tarjouksesta, käyttöönotto 335 € (0 €
-  kampanjassa), lisäpalvelut erikseen.
+- **Maraplan:** kuukausihinta tarjouksesta, käyttöönotto 335 €, lisäpalvelut erikseen.
 
 Kahden toimipaikan yritys, jossa on 40 työntekijää, maksaa meillä
 60 €/kk (enintään 50 työntekijää). Molemmat toimipaikat ja rajaton
@@ -175,8 +169,7 @@ MaRa-alalla vaihdon vaikein osa on saldot. Vuosivapaakertymät,
 tasoittumisjakson tilanne ja työaikapankin saldo perustuvat
 toteutuneisiin tunteihin, joten tyhjältä pöydältä aloittaminen johtaa
 vääriin lukuihin. Tyovuorolista.fi:hin siirtyville **teemme
-historiatietojen siirron veloituksetta**, kaikille asiakkaille, ja
-tarvittaessa käymme käyttöönoton läpi kanssasi koulutuksineen.
+historiatietojen siirron veloituksetta**, kaikille asiakkaille.
 Muistilista:
 
 1. **Tarkista Maraplan-sopimuksen irtisanomisaika**, ettei kahta
@@ -220,12 +213,11 @@ Tunnuksiin liittyvissä asioissa auttaa oman työpaikan pääkäyttäjä tai
 Finagon asiakaspalvelu.
 
 **Mikä on paras Maraplan-vaihtoehto?**
-Riippuu koosta ja tarpeesta. Pienelle tai keskisuurelle ravintolalle,
-kahvilalle tai liikkeelle (myös usean toimipaikan), joka haluaa
-julkisen hinnan ja MaRa- tai Kaupan alan TES-tuen, Tyovuorolista.fi on
-suora vaihtoehto. Jos tärkeintä on leimaus sisään ja ulos, katso Otta
-tai Tuntikone. Yli 100 työntekijän ketjun kannattaa vertailla
-myyntivetoisia järjestelmiä keskenään.
+Riippuu koosta ja tarpeesta. Alle 100 työntekijän ravintolalle,
+kahvilalle tai liikkeelle, joka haluaa julkisen hinnan ja MaRa- tai
+Kaupan alan TES-tuen, Tyovuorolista.fi on suora vaihtoehto. Jos
+tärkeintä on leimaus, katso Otta tai Tuntikone. Ison ketjun kannattaa
+vertailla myyntivetoisia järjestelmiä keskenään.
 
 **Voinko kokeilla vaihtoehtoa ilmaiseksi?**
 Voit: Tyovuorolista.fi on pysyvästi ilmainen enintään kolmen
