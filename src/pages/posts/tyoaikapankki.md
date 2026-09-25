@@ -136,10 +136,13 @@ kauden saldoon. Sairauspäivä, joka ei ole merkitty vapaapäivä, luetaan
 
 <img src="/blogPostImages/tyoaikapankki/vuosityoaika-saldo.png" alt="Vuosityöaikakausi Tuntien kirjauksessa: Ainon alkusaldo 30 h ja Pekan −12,5 h, jaksojen saldot ja TS-päivät" width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-Jos kausi on jo käynnissä, kun otat seurannan käyttöön, kirjaa alkusaldo
-työntekijän tietoihin. Plus tai miinus käy, ja huomautukseen jää peruste,
-esimerkiksi saldo edellisestä järjestelmästä. Tunnit tulevat mukaan kauden
-saldoon.
+Jos kausi on jo käynnissä, kun otat seurannan käyttöön, kirjaa alkusaldot
+samalta sivulta: asetusten alla on taulukko kaikista kokoaikaisista, ja se
+näyttää, keneltä saldo vielä puuttuu. Jos siirrettävää ei ole, yksi
+painallus kirjaa kaikille nollan. Plus tai miinus käy, ja huomautukseen jää
+peruste, esimerkiksi saldo edellisestä järjestelmästä. Yksittäisen
+työntekijän saldon voi syöttää myös työntekijän tiedoista. Tunnit tulevat
+mukaan kauden saldoon.
 
 <img src="/blogPostImages/tyoaikapankki/vuosityoaika-alkusaldo.png" alt="Työntekijän kauden alkusaldo: kausi 14.9.2026, 30 tuntia, huomautus edellisestä järjestelmästä" width="100%" style="max-width: 640px; display: block; margin: 20px auto;" />
 
