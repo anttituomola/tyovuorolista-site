@@ -14,21 +14,22 @@ ctaText: Kirjaudu
 ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
-*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
+*Päivitetty 25.9.2026: työntekijä voi lisätä vuoronsa Google-kalenteriin, iPhoneen tai Outlookiin, ja ne päivittyvät sinne itsestään ([oma ohjeensa](/posts/tyovuorot_kalenteriin)).*
 
-*Päivitetty 10.9.2026: jos toimipaikalla on [palkaton ruokatauko](/posts/palkaton_ruokatauko) päällä, tuntiraportti näyttää nettotunnit ja rivin Ruokatauot.*
+*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
 
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
 > **Maksullinen ominaisuus:** Oma-portaali kuuluu maksullisiin tilauksiin, eikä se sisälly ilmaiseen Mini-tilaukseen. Erillistä aktivointia ei tarvita, jos työpaikallasi on maksullinen tilaus, voit kutsua työntekijät portaaliin heti. Hinnat löydät [hinnoittelusivulta](https://tyovuorolista.fi/hinnoittelu).
 
-Portaali tarjoaa tällä hetkellä viisi toimintoa:
+Portaali tarjoaa tällä hetkellä kuusi toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
 - **Toiveet**: vapaatoive (vapaa ilman palkkaa) ja lomatoive (palkallinen vuosiloma)
 - **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
 - **Koko tiimin lista**: julkaistu lista omalta tiimiltä, jos esihenkilö on kytkenyt sen päälle asetuksista
+- **Vuorot omaan kalenteriin**: Google-kalenteriin, iPhoneen tai Outlookiin, päivittyy itsestään ([oma ohjeensa](/posts/tyovuorot_kalenteriin))
 
 ## Esihenkilölle: näin otat Oma-portaalin käyttöön
 
@@ -207,6 +208,12 @@ Poissaolevan työkaverin kohdalla lukee Poissa. Syytä et näe.
 <img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-viikko.png" alt="Koko tiimin lista viikkonäkymässä: oma rivi ylimpänä, työkavereiden vuorot ja Poissa" />
 <img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-paiva.png" alt="Koko tiimin lista päivänäkymässä: vuoron kellonajat ja muistiinpano" />
 </div>
+
+### Vuorot omaan kalenteriin
+
+Etusivun painikkeesta **Lisää vuorot kalenteriin** saat vuorosi Google-kalenteriin, iPhonen kalenteriin tai Outlookiin. Kalenteri päivittyy itsestään, kun esihenkilö julkaisee uuden listan tai muuttaa vuoroa. Ohjeet eri puhelimille ja kalentereille löydät [erillisestä ohjeesta](/posts/tyovuorot_kalenteriin).
+
+<img class="blogPhone" src="/blogPostImages/tyovuorot-kalenteriin/valikko-iphone.png" alt="Lisää vuorot kalenteriin -ikkuna, jossa painikkeet eri kalentereille" />
 
 ### Myöhemmät kirjautumiset
 
