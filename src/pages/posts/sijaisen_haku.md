@@ -19,7 +19,7 @@ Ohje koskee julkaistun listan vuoroja, jotka alkavat tänään tai myöhemmin. M
 
 Videossa merkitään poissaolo, kysytään sijaista valituilta ja hyväksytään ilmoittautuminen Oma-portaalissa.
 
-<video controls playsinline preload="metadata" poster="/videos/sijaisen-haku-poster.jpg" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+<video id="video" controls playsinline preload="metadata" poster="/videos/sijaisen-haku-poster.jpg" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
   <source src="/videos/sijaisen-haku.mp4" type="video/mp4">
   Selaimesi ei tue video-elementtiä.
 </video>
