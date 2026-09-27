@@ -11,6 +11,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'poissaolo', 'ohjeet']
 ---
 
+*Päivitetty 27.9.2026: sijaiskysely lähtee myös tekstiviestinä. [Ohje](/posts/tekstiviestit).*
+
 *Päivitetty 17.9.2026: ohjevideo sijaisen hausta. Ominaisuussivu: [Sijaisen haku](/ominaisuudet/sijaisen-haku).*
 
 Lista on julkaistu. Sofia soittaa aamulla, että hän on sairaana eikä pääse iltavuoroon. Näin merkitset poissaolon ja etsit vuoroon sijaisen.
@@ -66,7 +68,9 @@ Jos merkitsit poissaolon vahingossa, klikkaa vuoroa ja valitse **Peru poissaolom
 
 ## Työntekijälle
 
-Kysytty työntekijä saa ilmoituksen "Pääsisitkö töihin?". Vuoro näkyy Oma-portaalissa kohdassa Avoimet vuorot. Siellä hän painaa **Ilmoittaudu vuoroon**. Esihenkilö vahvistaa.
+Kysytty työntekijä saa ilmoituksen "Pääsisitkö töihin?". Jos hänellä on puhelinnumero, sama kysely lähtee tekstiviestinä, ja linkistä hän ilmoittautuu ilman Omaa. Ohje: [Tekstiviestit kiireellisistä vuoroista](/posts/tekstiviestit).
+
+Vuoro näkyy myös Oma-portaalissa kohdassa Avoimet vuorot. Siellä hän painaa **Ilmoittaudu vuoroon**. Esihenkilö vahvistaa.
 
 <div class="blogPhoneRow">
 <img class="blogPhone" src="/blogPostImages/sijaisen-haku/oma-sijaiskysely.png" alt="Oma-portaalin Avoimet vuorot: torstain 16–22 vuoro ja Ilmoittaudu vuoroon." />
