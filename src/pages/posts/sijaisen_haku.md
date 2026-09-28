@@ -11,6 +11,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'poissaolo', 'ohjeet']
 ---
 
+*Päivitetty 28.9.2026: Etsi sijainen -paneelin uusi ulkoasu. Ilmoittautunut näkyy paneelin kärjessä omassa kortissaan, ja ensimmäisen ilmoittautujan voi hyväksyä automaattisesti.*
+
 *Päivitetty 27.9.2026: sijaiskysely lähtee myös tekstiviestinä. [Ohje](/posts/tekstiviestit).*
 
 *Päivitetty 17.9.2026: ohjevideo sijaisen hausta. Ominaisuussivu: [Sijaisen haku](/ominaisuudet/sijaisen-haku).*
@@ -44,7 +46,7 @@ Sofian vuoro jää kalenteriin poissaolona. Sen päälle tulee harmaa raidalline
 
 ### 2. Kysy sijaista
 
-**Etsi sijainen** avautuu heti. Siinä ovat työntekijät, jotka voivat ottaa vuoron. Rivillä näkyvät jäljellä olevat tunnit sekä mahdollinen TES-varoitus tai vapaatoive.
+**Etsi sijainen** avautuu heti. Kohdassa **Sopivat sijaiset** ovat työntekijät, jotka voivat ottaa vuoron. Rivillä näkyvät jäljellä olevat tunnit ja muut vuorot samana päivänä. Varoitukset, kuten lepoaika alle 11 h tai vapaatoive, näkyvät keltaisella.
 
 Ne, jotka eivät voi ottaa vuoroa, ovat kohdassa **Ei sopivia**. Avaa se, niin näet syyn, esimerkiksi toisen vuoron samana päivänä.
 
@@ -52,15 +54,27 @@ Ne, jotka eivät voi ottaa vuoroa, ovat kohdassa **Ei sopivia**. Avaa se, niin n
 
 Sinulla on kolme tapaa:
 
-- **Kysy kaikilta sopivilta** lähettää kyselyn kaikille listan työntekijöille.
+- **Kysy kaikilta sopivilta** lähettää kyselyn kaikille sopiville, joilta et ole vielä kysynyt.
 - **Kysy valituilta** lähettää kyselyn vain niille, jotka valitsit ruudusta.
-- **Anna vuoro** antaa vuoron heti yhdelle työntekijälle. Käytä tätä, kun olet jo sopinut asiasta puhelimessa.
+- **Anna vuoro** antaa vuoron heti yhdelle työntekijälle. Käytä tätä, kun olet jo sopinut asiasta puhelimessa. Painike on jokaisella rivillä, myös kysytyillä.
 
 Voit etsiä sijaista myös myöhemmin: klikkaa vuoroa ja valitse **Etsi sijainen**.
 
 ### 3. Täytä vuoro
 
-Kun työntekijä ilmoittautuu Oma-portaalissa, saat ilmoituksen. Hyväksy ilmoittautuminen samoin kuin [avoimissa vuoroissa](/posts/avoimet_vuorot_ohje), niin vuoro on täytetty. Voit myös antaa vuoron suoraan painikkeella **Anna vuoro**.
+Kysymisen jälkeen paneelin yläosassa näkyy, montako on kysytty ja milloin, esimerkiksi **Kysytty 2 · klo 11.55**. Kysytyt siirtyvät ryhmiin:
+
+- **Odottaa vastausta:** kysytty, ei vielä vastannut. Rivillä näkyy, milloin kysyit, ja tekstiviestin tila.
+- **Ei pääse:** vastasi, ettei pääse. Rivillä näkyy vastauksen kellonaika.
+- **Muut sopivat:** sopivat, joilta et ole vielä kysynyt. Näiltä voit kysyä lisää.
+
+Kun työntekijä ilmoittautuu Oma-portaalissa, saat ilmoituksen. Hän näkyy paneelin kärjessä vihreäreunaisessa kortissa, jossa lukee **Ilmoittautui klo** ja kellonaika. Paina **Hyväksy ilmoittautuminen**, niin vuoro on täytetty. **Hylkää** hylkää ilmoittautumisen, ja vuoro jää auki.
+
+<img src="/blogPostImages/sijaisen-haku/ilmoittautunut.png" alt="Etsi sijainen: Jussi ilmoittautui klo 11.55, napit Hyväksy ilmoittautuminen ja Hylkää. Emma kohdassa Odottaa vastausta." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
+
+Jos haluat, että vuoro täyttyy ilman sinua, valitse paneelin alaosasta **Hyväksy ensimmäinen ilmoittautuja automaattisesti**. Silloin ensimmäinen kysytyistä, joka ilmoittautuu, saa vuoron heti. Ilman valintaa ilmoittautumiset odottavat, että hyväksyt ne.
+
+Voit myös antaa vuoron suoraan painikkeella **Anna vuoro**, esimerkiksi kun kysytty vastaa puhelimessa.
 
 Kun vuoro on täytetty, muut kysytyt saavat ilmoituksen "Sijaista ei enää tarvita". Sovellus ei julkaise mitään automaattisesti.
 

@@ -87,7 +87,13 @@ Kotinäytöltä avattu Oma ei näe Safarin kirjautumista, joten siihen kirjaudut
 
 ### Tuleeko ilmoitus perille
 
-Paina **Lähetä testi-ilmoitus**. Ilmoitus "Ilmoitukset toimivat" tulee muutamassa sekunnissa. Jos se ei tule, tarkista, ettei puhelin ole äänettömällä tai keskittymistilassa. Jos se ei tule vieläkään, paina **Poista käytöstä tällä laitteella** ja ota ilmoitukset uudelleen käyttöön.
+Paina **Lähetä testi-ilmoitus**. Ilmoitus "Ilmoitukset toimivat" tulee muutamassa sekunnissa. Jos se ei tule, laitteen omat asetukset estävät sen yleensä selaimen luvasta huolimatta:
+
+- **Puhelin:** äänetön tila tai keskittymistila
+- **Windows:** Asetukset → Järjestelmä → Ilmoitukset: ilmoitukset päälle ja Chrome tai Edge sallituksi, Älä häiritse pois
+- **Mac:** Järjestelmäasetukset → Ilmoitukset → Chrome tai Safari: salli ilmoitukset, keskittymistila pois
+
+Jos testi-ilmoitus ei tule vieläkään, paina **Poista käytöstä tällä laitteella** ja ota ilmoitukset uudelleen käyttöön.
 
 Jos kortissa lukee, että ilmoitukset on estetty, salli ne puhelimen asetuksista:
 
@@ -96,9 +102,9 @@ Jos kortissa lukee, että ilmoitukset on estetty, salli ne puhelimen asetuksista
 
 ### Valitse, mitkä ilmoitukset tulevat
 
-Profiilin **Ilmoitusasetuksissa** on kaksi saraketta: **Sähköposti** ja **Puhelin**. Puhelin-ilmoitukset ovat oletuksena päällä kaikissa lajeissa, joissa niitä voi saada. Kytke pois ne, joita et halua puhelimeen.
+Profiilin **Ilmoitusasetuksissa** on kaksi saraketta: **Sähköposti** ja **Push-ilmoitus**. Push-ilmoitukset ovat oletuksena päällä kaikissa lajeissa, joissa niitä voi saada. Kytke pois ne, joita et halua puhelimeen.
 
-<img class="blogPhone" src="/blogPostImages/ilmoitukset-puhelimeen/asetukset-puhelin.png" alt="Ilmoitusasetukset: sarakkeet Sähköposti ja Puhelin. Vuoron lisäys, muutos ja peruutus ovat päällä Puhelin-sarakkeessa." />
+<img class="blogPhone" src="/blogPostImages/ilmoitukset-puhelimeen/asetukset-puhelin.png" alt="Ilmoitusasetukset: sarakkeet Sähköposti ja Push-ilmoitus. Vuoron lisäys, muutos ja peruutus ovat päällä Push-ilmoitus-sarakkeessa." />
 
 Kun kirjaudut ulos, ilmoitukset loppuvat tältä laitteelta. Jaetulla laitteella seuraava käyttäjä ei saa sinun ilmoituksiasi.
 

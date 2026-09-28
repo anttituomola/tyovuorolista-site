@@ -63,14 +63,14 @@ Rivillä näkyy, keneltä numero puuttuu ja kuka on kieltänyt viestit. Jos merk
 
 ### Menikö viesti perille
 
-Kysymisen jälkeen rivillä lukee toimitustila.
+Kysymisen jälkeen kysytty siirtyy ryhmään **Odottaa vastausta**, ja hänen rivillään lukee toimitustila. Paneelin yläosassa näkyy, montako on kysytty ja milloin, esimerkiksi **Kysytty 1 · klo 7.40**.
 
-<img src="/blogPostImages/tekstiviestit/kysytty.png" alt="Emma on kysytty ja tekstiviesti on perillä klo 7.42. Liisalta puuttuu yhä numero, Aino on kieltänyt tekstiviestit." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
+<img src="/blogPostImages/tekstiviestit/kysytty.png" alt="Kysytty 1 · klo 7.40. Emma kohdassa Odottaa vastausta: Tekstiviesti perillä 7.42. Muut sopivat: Liisalta ja Jussilta puuttuu numero, Aino on kieltänyt tekstiviestit." width="100%" style="max-width: 420px; display: block; margin: 20px auto;" />
 
 - **Tekstiviesti perillä** ja kellonaika: viesti on puhelimessa.
 - **Tekstiviesti lähetetty:** viesti on lähtenyt, toimitusta ei ole vielä vahvistettu.
 - **Tekstiviesti ei mennyt perille:** tarkista numero. **Korjaa numero** tallentaa uuden numeron, **Lähetä uudelleen** lähettää viestin uudestaan.
-- **Ei puhelinnumeroa**, **kieltänyt tekstiviestit** tai **kuukauden raja täynnä:** kysely meni Omaan. Tekstiviestiä ei lähtenyt.
+- **Kysytty klo …** ja perässä **ei puhelinnumeroa**, **kieltänyt tekstiviestit** tai **kuukauden tekstiviestiraja täynnä:** kysely meni Omaan. Tekstiviestiä ei lähtenyt.
 
 ### Asetukset ja kuukausiraja
 
