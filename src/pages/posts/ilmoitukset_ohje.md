@@ -10,9 +10,11 @@ image:
 tags: ["päivitykset", "työntekijät", "ilmoitukset", "julkaisu"]
 ---
 
+*Päivitetty 28.9.2026: kiireelliset ilmoitukset tulevat myös puhelimeen, kun ne otetaan laitteella käyttöön ([oma ohjeensa](/posts/ilmoitukset_puhelimeen)).*
+
 Työvuorolistassa on nyt **ilmoitukset**. Yläpalkin kellokuvake kertoo sekä sinulle että työntekijöillesi, kun jotain tapahtuu, ilman että kenenkään tarvitsee erikseen kysellä tai päivitellä sivua.
 
-Ilmoitukset näkyvät aina sovelluksessa. Sähköposti-ilmoitukset ovat oletuksena pois päältä, ja jokainen voi kytkeä ne halutessaan päälle omista asetuksistaan. Siitä lisää alempana.
+Ilmoitukset näkyvät aina sovelluksessa. Sähköposti-ilmoitukset ovat oletuksena pois päältä, ja jokainen voi kytkeä ne halutessaan päälle omista asetuksistaan. Siitä lisää alempana. Kiireelliset ilmoitukset saa myös puhelimeen: [Ilmoitukset puhelimeen](/posts/ilmoitukset_puhelimeen).
 
 ## Esihenkilölle: tieto tulee sinulle, et hae sitä
 
@@ -61,7 +63,7 @@ Julkaistu lista on lukittu muokkauksilta. Jos listaa pitää muuttaa, palauta se
 <li><strong>Esihenkilö:</strong> <strong>Hallinta → Asetukset</strong> -sivun kohdasta <strong>Ilmoitusasetukset</strong></li>
 <li><strong>Työntekijä:</strong> Oma-portaalin <strong>Profiili</strong>-välilehdeltä</li>
 </ul>
-<p>Jokaisen ilmoitustyypin voi valita erikseen, joten sähköpostiin tulee vain se, mikä on itselle tärkeää.</p>
+<p>Jokaisen ilmoitustyypin voi valita erikseen, joten sähköpostiin tulee vain se, mikä on itselle tärkeää. Samassa näkymässä on <strong>Puhelin</strong>-sarake puhelin-ilmoituksille (<a href="/posts/ilmoitukset_puhelimeen">ohje</a>).</p>
 </div>
 <img class="blogPhone" src="/blogPostImages/ilmoitukset/ilmoitusasetukset.png" alt="Ilmoitusasetukset: sähköposti-ilmoituksen voi kytkeä päälle ilmoitustyypeittäin" />
 </div>

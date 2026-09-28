@@ -14,9 +14,9 @@ ctaText: Kirjaudu
 ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
-*Päivitetty 25.9.2026: työntekijä voi lisätä vuoronsa Google-kalenteriin, iPhoneen tai Outlookiin, ja ne päivittyvät sinne itsestään ([oma ohjeensa](/posts/tyovuorot_kalenteriin)).*
+*Päivitetty 28.9.2026: vuoromuutokset ja sijaiskyselyt tulevat puhelimeen ilmoituksena, ja Omaan voi kirjautua sähköpostin koodilla ([oma ohjeensa](/posts/ilmoitukset_puhelimeen)).*
 
-*Päivitetty 23.9.2026: esihenkilö voi näyttää työntekijälle koko tiimin julkaistun listan. Kytkin on työpaikan asetuksissa.*
+*Päivitetty 25.9.2026: työntekijä voi lisätä vuoronsa Google-kalenteriin, iPhoneen tai Outlookiin, ja ne päivittyvät sinne itsestään ([oma ohjeensa](/posts/tyovuorot_kalenteriin)).*
 
 **Oma-portaali** on erillinen näkymä työntekijöille osoitteessa [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma). Siellä työntekijä näkee omat työvuoronsa kaikilta **julkaistuilta** työvuorolistoilta. Sekä menneet että tulevat vuorot samassa aikajanassa.
 
@@ -53,7 +53,7 @@ Avaa **Hallinta → Työntekijät**, klikkaa työntekijän nimeä listasta ja pa
 
 <img src="/blogPostImages/oma-portaali/admin-kutsu.png" alt="Työntekijän tiedot -modaali, jossa Oma-portaali-osio ja Kutsu Oma-portaaliin -painike" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-Työntekijä saa sähköpostiin henkilökohtaisen linkin, jolla hän kirjautuu ensimmäisen kerran. Linkki on tarkoitettu vain hänelle, älä välitä sitä eteenpäin.
+Työntekijä saa sähköpostiin henkilökohtaisen linkin ja kuusinumeroisen koodin, joilla hän kirjautuu ensimmäisen kerran. Linkki on tarkoitettu vain hänelle, älä välitä sitä eteenpäin.
 
 Jos kutsu on jo lähetetty, näet tilan **Kutsu lähetetty** ja voit tarvittaessa lähettää linkin uudelleen (**Lähetä linkki uudelleen**).
 
@@ -217,7 +217,7 @@ Etusivun painikkeesta **Lisää vuorot kalenteriin** saat vuorosi Google-kalente
 
 ### Myöhemmät kirjautumiset
 
-Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, pyydä uusi kirjautumislinkki samalta sivulta. Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi. Kirjautumissivu on myös osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu).
+Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, pyydä uusi kirjautumislinkki samalta sivulta. Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi. Viestissä on myös kuusinumeroinen koodi: kirjoita se kirjautumissivulle, jos avasit Oman kotinäytön kuvakkeesta ([ohje](/posts/ilmoitukset_puhelimeen)). Kirjautumissivu on myös osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu).
 
 <img class="blogPhone" src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" />
 

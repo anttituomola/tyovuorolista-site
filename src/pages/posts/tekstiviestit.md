@@ -11,6 +11,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'ohjeet']
 ---
 
+*Päivitetty 28.9.2026: jos työntekijällä on [puhelin-ilmoitukset](/posts/ilmoitukset_puhelimeen) käytössä Oma-portaalissa, hyväksyntä ja Anna vuoro -vahvistus tulevat ilmoituksena eivätkä tekstiviestinä.*
+
 Kiireellinen vuoroviesti lähtee nyt myös tekstiviestinä. Kello [Oma-portaalissa](/posts/oma_portaali_ohje) ja sähköposti toimivat kuten ennen.
 
 Lähettäjänä näkyy Tyovuorolis. Viestin alussa on toimipaikan nimi, jotta työntekijä, jolla on vuoroja useassa paikassa, näkee heti mistä se tulee.
@@ -30,6 +32,8 @@ Linkistä työntekijä ilmoittautuu ilman kirjautumista Omaan.
 **Vuoro on hänen.** Kun hyväksyt ilmoittautumisen sijaisvuoroon, työntekijä saa: "Vuoro ma 5.10. klo 16-22 on sinun. Kiitos!" Tavallisen avoimen vuoron hyväksyntä ei lähde tekstiviestinä.
 
 **Anna vuoro.** Kun annat sijaisvuoron suoraan, työntekijä saa: "Sinut on merkitty vuoroon ma 5.10. klo 16-22. Kiitos!"
+
+Näitä kahta vahvistusta ei lähetetä tekstiviestinä, jos työntekijällä on Oma-portaalissa toimivat [puhelin-ilmoitukset](/posts/ilmoitukset_puhelimeen). Hän saa vahvistuksen ilmoituksena. Sijaiskysely ja peruutus lähtevät tekstiviestinä aina.
 
 **Peruutus lähellä.** Jos poistat julkaistulta listalta vuoron, joka alkaa alle kahden vuorokauden päästä, työntekijä saa: "Vuorosi ma 5.10. klo 16-22 on peruttu."
 
