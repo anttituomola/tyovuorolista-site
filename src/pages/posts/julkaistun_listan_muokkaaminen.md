@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Julkaistun työvuorolistan muuttaminen'
 pubDate: 2026-09-23
-description: 'Julkaistu työvuorolista on lukittu. Palauta se muokattavaksi, tee muutokset ja julkaise uudelleen. Työntekijä saa ilmoituksen Oma-portaaliin.'
+description: 'Isompia muutoksia varten palauta julkaistu työvuorolista muokattavaksi, tee muutokset ja julkaise uudelleen. Työntekijä saa ilmoituksen Oma-portaaliin.'
 author: 'Antti Tuomola'
 image:
     url: '/blogPostImages/julkaistun-listan-muokkaaminen/valikko.png'
@@ -10,7 +10,9 @@ image:
 tags: ['työvuorolistat', 'julkaisu', 'ilmoitukset']
 ---
 
-Julkaistu lista on lukittu kalenterissa. Kun vuoroa pitää siirtää, poistaa tai lisätä sen jälkeen, palauta lista ensin muokattavaksi, tee muutokset ja julkaise lista uudelleen. Työntekijä näkee muutoksen [Oma-portaalissa](/posts/oma_portaali_ohje).
+*Päivitetty 28.9.2026: Yksittäisen vuoron voi nyt lisätä tai muokata suoraan julkaistulla listalla, ja listan voi palauttaa luonnokseksi myös kalenterista klikkaamalla sen päivää. Ohje: [Kun klikkaat päivää, joka ei ole muokattavalla listalla](/posts/paiva_listan_ulkopuolella).*
+
+Yksittäisen vuoron voit lisätä tai muokata suoraan julkaistulla listalla, ja työntekijä saa ilmoituksen heti. Kun muutoksia on enemmän, palauta lista ensin muokattavaksi, tee muutokset ja julkaise lista uudelleen. Silloin muutoksista lähtee ilmoitus vasta uudelleenjulkaisussa, ja työntekijä näkee lopputuloksen [Oma-portaalissa](/posts/oma_portaali_ohje).
 
 ## Esihenkilölle
 
@@ -20,6 +22,8 @@ Julkaistu lista on lukittu kalenterissa. Kun vuoroa pitää siirtää, poistaa t
 2. Etsi lista osiosta **Julkaistut työvuorolistat**.
 3. Avaa rivin oikeasta reunasta **kolmen pisteen valikko** (⋮).
 4. Valitse **Palauta muokattavaksi**.
+
+Voit myös klikata listan päivää kalenterissa ja valita **Palauta lista luonnokseksi**.
 
 <img src="/blogPostImages/julkaistun-listan-muokkaaminen/valikko.png" alt="Julkaistun listan valikko: Katso vuorot, Palauta muokattavaksi ja Tallenna malline." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
