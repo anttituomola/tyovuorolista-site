@@ -35,6 +35,9 @@ const {
   heroVideo,
   heroVideoPoster,
   heroVideoFormats = ['webm', 'mp4'],
+  heroVideoMuted = false,
+  heroVideoAutoplay = false,
+  heroVideoOgImage,
   betaNote,
   benefits = [],
   sections = [],
@@ -51,6 +54,20 @@ const {
   heroVideo?: string
   heroVideoPoster?: string
   heroVideoFormats?: Array<'webm' | 'mp4'>
+  /** Start muted (music-only feature videos); controls can still unmute */
+  heroVideoMuted?: boolean
+  /**
+   * Muted looping autoplay that stays out of the LCP path: preload="none"
+   * (the poster is the LCP), playback starts after window load + idle, only
+   * while on screen, never with prefers-reduced-motion or Save-Data.
+   */
+  heroVideoAutoplay?: boolean
+  /**
+   * Social share image when the on-page poster is a small WebP (the poster
+   * is the LCP, so it stays light; og:image wants a full-size JPG/PNG).
+   * Defaults to heroVideoPoster.
+   */
+  heroVideoOgImage?: string
   betaNote?: string
   benefits?: FeatureBenefit[]
   sections?: FeatureSection[]
@@ -72,17 +89,35 @@ const relatedIds =
     .map((f) => f.id)
 // Poster size reserves the video box before metadata loads (prevents CLS)
 const heroVideoSize = publicImageSize(heroVideoPoster)
+const ogImagePath = heroVideoOgImage ?? heroVideoPoster
+const posterType = heroVideoPoster?.endsWith('.webp')
+  ? 'image/webp'
+  : heroVideoPoster?.endsWith('.png')
+    ? 'image/png'
+    : 'image/jpeg'
 ---
 
 <Layout
     title={metaTitle}
     description={metaDescription}
     ogImage={
-        heroVideoPoster
-            ? `https://www.tyovuorolista.fi${heroVideoPoster}`
+        ogImagePath
+            ? `https://www.tyovuorolista.fi${ogImagePath}`
             : undefined
     }
 >
+    {heroVideo && heroVideoPoster && (
+        // The poster is the LCP element, but <video poster> gets no priority
+        // hint and is found only after CSS; preload it at high priority
+        <link
+            slot="head"
+            rel="preload"
+            as="image"
+            href={heroVideoPoster}
+            type={posterType}
+            fetchpriority="high"
+        />
+    )}
     <slot name="head" slot="head" />
     <article class="tyov-featureDetail">
         <section class="tyov-featureDetail__hero">
@@ -143,7 +178,10 @@ const heroVideoSize = publicImageSize(heroVideoPoster)
                             <video
                                 controls
                                 playsinline
-                                preload="metadata"
+                                muted={heroVideoMuted || heroVideoAutoplay}
+                                loop={heroVideoAutoplay}
+                                preload={heroVideoAutoplay ? 'none' : 'metadata'}
+                                data-hero-autoplay={heroVideoAutoplay ? '' : undefined}
                                 poster={heroVideoPoster}
                                 {...heroVideoSize}
                                 style={heroVideoSize.width
@@ -283,4 +321,43 @@ const heroVideoSize = publicImageSize(heroVideoPoster)
             </section>
         )}
     </article>
+    {heroVideo && heroVideoAutoplay && (
+        <script is:inline>
+            (() => {
+                const video = document.querySelector('video[data-hero-autoplay]')
+                if (!video) return
+                const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+                const saveData = navigator.connection && navigator.connection.saveData
+                if (reduceMotion || saveData) return
+
+                const start = () => {
+                    // A pause from the controls is the visitor's choice: respect it
+                    let userPaused = false
+                    let autoPausing = false
+                    video.addEventListener('pause', () => {
+                        if (autoPausing) autoPausing = false
+                        else userPaused = true
+                    })
+                    video.addEventListener('play', () => { userPaused = false })
+                    new IntersectionObserver(([entry]) => {
+                        if (entry.isIntersecting) {
+                            if (!userPaused && video.paused) {
+                                video.muted = true
+                                video.play().catch(() => {})
+                            }
+                        } else if (!video.paused) {
+                            autoPausing = true
+                            video.pause()
+                        }
+                    }, { threshold: 0.25 }).observe(video)
+                }
+                const idle = (cb) =>
+                    'requestIdleCallback' in window
+                        ? window.requestIdleCallback(cb, { timeout: 2000 })
+                        : setTimeout(cb, 200)
+                if (document.readyState === 'complete') idle(start)
+                else window.addEventListener('load', () => idle(start), { once: true })
+            })()
+        </script>
+    )}
 </Layout>
