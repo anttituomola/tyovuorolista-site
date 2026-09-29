@@ -1,33 +1,52 @@
 ---
 import Button from '../common/Button.astro'
-import { getImage } from 'astro:assets'
-import tyovuorolista_hero from '../../assets/tyovuorolista_hero.png'
 import { t } from '../../utils/translations'
 
 const { locale = 'fi' } = Astro.props
 
-// Keep in sync with HeroLcpPreload.astro
-const heroImage = await getImage({
-    src: tyovuorolista_hero,
-    width: 600,
-    format: 'webp',
-    quality: 80,
-})
+// Hero video: 16:9 on wider screens, 4:5 on phones (≤768 px, keep in sync
+// with HeroLcpPreload.astro). The <picture> poster is the LCP element; the
+// muted video fades in over it once it actually plays.
+const alt =
+    'Esittelyvideo: uusi lista mallipohjasta, vuorojen täyttö, TES-apuri, julkaisu, Oma-portaali, lomat ja mobiilikäyttö'
 ---
 
 <div class="hero">
     <h1>{t('hero.title', locale as 'fi' | 'en' | 'sv')}</h1>
     <p class="tagline">{t('hero.tagline', locale as 'fi' | 'en' | 'sv')}</p>
-    <div class="heroImage">
-        <img
-            src={heroImage.src}
-            alt="Työvuorolista"
-            width={heroImage.attributes.width}
-            height={heroImage.attributes.height}
-            loading="eager"
-            fetchpriority="high"
-            decoding="async"
-        />
+    <div class="heroImage heroVideo" data-hero-video>
+        <picture>
+            <source
+                media="(max-width: 768px)"
+                srcset="/videos/hero-4x5-poster.webp"
+                width="720"
+                height="900"
+                type="image/webp"
+            />
+            <img
+                src="/videos/hero-16x9-poster.webp"
+                alt={alt}
+                width="1280"
+                height="720"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+            />
+        </picture>
+        <video
+            muted
+            loop
+            playsinline
+            preload="none"
+            aria-hidden="true"
+            tabindex="-1"
+            data-src-wide="/videos/hero-16x9.mp4"
+            data-src-tall="/videos/hero-4x5.mp4"
+        ></video>
+        <button type="button" class="heroVideo__toggle" data-state="paused" aria-label="Toista video">
+            <svg class="heroVideo__icon heroVideo__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+            <svg class="heroVideo__icon heroVideo__icon--pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z" fill="currentColor"/></svg>
+        </button>
     </div>
     <h2 class="subtitle">{t('hero.subtitle', locale as 'fi' | 'en' | 'sv')}</h2>
     <span class="buttons">
@@ -36,6 +55,83 @@ const heroImage = await getImage({
         <Button variant="secondary" text={t('hero.tryDemo', locale as 'fi' | 'en' | 'sv')} href="https://app.tyovuorolista.fi/demo" target="_blank" />
     </span>
 </div>
+
+<script is:inline>
+    (() => {
+        const root = document.querySelector('[data-hero-video]')
+        if (!root) return
+        const video = root.querySelector('video')
+        const toggle = root.querySelector('.heroVideo__toggle')
+        const tall = window.matchMedia('(max-width: 768px)')
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        const saveData = navigator.connection && navigator.connection.saveData
+        // Reduced motion / Save-Data: the poster stays, the button plays
+        const autoplayAllowed = !reduceMotion && !saveData
+
+        let userPaused = false
+        let visible = true
+
+        const ensureSource = () => {
+            // One file per visit: the shape that fits this screen
+            if (!video.getAttribute('src')) {
+                video.src = tall.matches ? video.dataset.srcTall : video.dataset.srcWide
+            }
+        }
+        const setState = (playing) => {
+            toggle.dataset.state = playing ? 'playing' : 'paused'
+            toggle.setAttribute('aria-label', playing ? 'Keskeytä video' : 'Toista video')
+        }
+        const play = () => {
+            ensureSource()
+            video.muted = true
+            video.play().catch(() => setState(false))
+        }
+
+        video.addEventListener('playing', () => {
+            root.classList.add('is-playing')
+            setState(true)
+        })
+        video.addEventListener('pause', () => setState(false))
+
+        toggle.addEventListener('click', () => {
+            if (video.paused) {
+                userPaused = false
+                play()
+            } else {
+                userPaused = true
+                video.pause()
+            }
+        })
+
+        // Off screen → pause (saves battery), back on screen → resume unless
+        // the visitor paused it themselves
+        new IntersectionObserver(([entry]) => {
+            visible = entry.isIntersecting
+            if (!visible && !video.paused) video.pause()
+            else if (visible && autoplayAllowed && !userPaused && video.paused && root.classList.contains('is-playing')) play()
+        }, { threshold: 0.25 }).observe(root)
+
+        // Autoplay only after the page has loaded, so the video never
+        // competes with the poster (LCP)
+        if (!autoplayAllowed) return
+        const start = () => {
+            if (visible && !userPaused) play()
+        }
+        // load → fonts → two frames (the poster has painted) → idle. `load`
+        // alone can fire before the first paint, and a video request that
+        // starts before the poster paints gets counted into the LCP.
+        const idle = (cb) =>
+            'requestIdleCallback' in window
+                ? window.requestIdleCallback(cb, { timeout: 2000 })
+                : setTimeout(cb, 200)
+        const afterPaint = () =>
+            document.fonts.ready.then(() =>
+                requestAnimationFrame(() => requestAnimationFrame(() => idle(start)))
+            )
+        if (document.readyState === 'complete') afterPaint()
+        else window.addEventListener('load', afterPaint, { once: true })
+    })()
+</script>
 
 <style>
     .hero {
@@ -58,6 +154,58 @@ const heroImage = await getImage({
         display: block;
         width: 100%;
         height: auto;
+    }
+    .heroVideo {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        /* Video frames carry their own light background */
+        background: #eef4fb;
+    }
+    .heroVideo video {
+        position: absolute;
+        /* 1 px smaller than the poster on purpose: LCP only accepts a
+           strictly larger candidate, so the video (whose first frame
+           arrives after a 1.4 MB download) can never replace the poster
+           as the LCP element. Invisible: the frames' edges are background. */
+        inset: 1px;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .heroVideo.is-playing video {
+        opacity: 1;
+    }
+    .heroVideo__toggle {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+        border: 0;
+        border-radius: 50%;
+        background: rgba(45, 58, 53, 0.72);
+        color: #fff;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        padding: 0;
+    }
+    .heroVideo__toggle:hover {
+        background: rgba(45, 58, 53, 0.9);
+    }
+    .heroVideo__toggle:focus-visible {
+        outline: 3px solid var(--brand-secondary);
+        outline-offset: 2px;
+    }
+    .heroVideo__icon {
+        width: 20px;
+        height: 20px;
+    }
+    .heroVideo__toggle[data-state='playing'] .heroVideo__icon--play,
+    .heroVideo__toggle[data-state='paused'] .heroVideo__icon--pause {
+        display: none;
     }
     h1 {
         font-size: var(--text-5xl);
@@ -106,6 +254,9 @@ const heroImage = await getImage({
         }
         .heroImage {
             width: 90%;
+        }
+        .heroVideo {
+            aspect-ratio: 4 / 5;
         }
         .buttons {
             flex-direction: column;

@@ -355,8 +355,14 @@ const posterType = heroVideoPoster?.endsWith('.webp')
                     'requestIdleCallback' in window
                         ? window.requestIdleCallback(cb, { timeout: 2000 })
                         : setTimeout(cb, 200)
-                if (document.readyState === 'complete') idle(start)
-                else window.addEventListener('load', () => idle(start), { once: true })
+                // `load` can fire before the first paint; wait for fonts and
+                // two frames so the video request never precedes the poster
+                const afterPaint = () =>
+                    document.fonts.ready.then(() =>
+                        requestAnimationFrame(() => requestAnimationFrame(() => idle(start)))
+                    )
+                if (document.readyState === 'complete') afterPaint()
+                else window.addEventListener('load', afterPaint, { once: true })
             })()
         </script>
     )}

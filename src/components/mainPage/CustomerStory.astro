@@ -286,7 +286,8 @@ document.addEventListener('DOMContentLoaded', () => {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        /* White on --hiekka is 2.3:1; the dark brand text passes WCAG AA */
+        color: var(--tummanvihrea);
         font-weight: 600;
         font-size: var(--text-lg);
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
