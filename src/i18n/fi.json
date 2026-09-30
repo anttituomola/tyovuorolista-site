@@ -75,6 +75,11 @@
         "title": "Mitä asiakkaat sanovat",
         "testimonials": [
             {
+                "quote": "Olemme olleet tyytyväisiä tyovuorolista.fi:n käyttöön Hook Kuopiossa. Työvuorojen suunnittelu ja julkaiseminen on helppoa ja uutena ominaisuutena tullut Omaportaali on ollut erittäin kätevä lisä arkeen. Erityisesti arvostamme nopeaa tukea ja sitä, että mahdolliset ongelmatilanteet ratkaistaan nopeasti.",
+                "author": "Aliina Manninen",
+                "company": "Ravintola Hook, Kuopio"
+            },
+            {
                 "quote": "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!",
                 "author": "Laura Dahlman",
                 "company": "Ravintola Apaja, Tampere"

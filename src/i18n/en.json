@@ -75,6 +75,11 @@
         "title": "What customers say",
         "testimonials": [
             {
+                "quote": "We have been happy using tyovuorolista.fi at Hook in Kuopio. Planning and publishing shifts is easy, and the new Omaportaali has been a really handy addition to everyday work. We especially value the fast support and that any problems get solved quickly.",
+                "author": "Aliina Manninen",
+                "company": "Ravintola Hook, Kuopio"
+            },
+            {
                 "quote": "Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!",
                 "author": "Laura Dahlman",
                 "company": "Ravintola Apaja, Tampere"

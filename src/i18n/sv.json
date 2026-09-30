@@ -75,6 +75,11 @@
         "title": "Vad kunderna säger",
         "testimonials": [
             {
+                "quote": "Vi har varit nöjda med att använda tyovuorolista.fi på Hook i Kuopio. Att planera och publicera arbetsskift är enkelt, och den nya Omaportaali har varit ett mycket smidigt tillskott i vardagen. Vi uppskattar särskilt den snabba supporten och att eventuella problem löses snabbt.",
+                "author": "Aliina Manninen",
+                "company": "Ravintola Hook, Kuopio"
+            },
+            {
                 "quote": "Att skapa arbetsscheman har varit riktigt enkelt. Anställda berömmer också schemanas utseende!",
                 "author": "Laura Dahlman",
                 "company": "Ravintola Apaja, Tampere"

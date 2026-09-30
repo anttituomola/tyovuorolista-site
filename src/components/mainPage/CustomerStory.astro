@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets'
+import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
 import laura_dahlman from '../../assets/laura_dahlman.jpg'
 import anita_lindov_kitola_oy from '../../assets/anita_lindov_kitola_oy.jpg'
 import {
@@ -49,14 +50,14 @@ const statItems = [
         </button>
         <div class="scroll-indicator">
             <div class="scroll-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                {testimonials.map((_: any, index: number) => (
+                    <span class={`dot${index === 0 ? ' active' : ''}`}></span>
+                ))}
             </div>
         </div>
         <div class="testimonials-scroll" id="testimonials-scroll">
             {testimonials.map((testimonial: any, index: number) => {
-                const images = [laura_dahlman, null, anita_lindov_kitola_oy]
+                const images = [aliina_manninen_hook, laura_dahlman, null, anita_lindov_kitola_oy]
                 const image = images[index]
                 const isSecondTestimonial = index === 1
                 

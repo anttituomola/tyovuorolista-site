@@ -1,6 +1,8 @@
 ---
+import { Image } from 'astro:assets'
 import Layout from '../../layouts/Layout.astro'
 import Button from '../../components/common/Button.astro'
+import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
 ---
 
 <Layout
@@ -49,9 +51,10 @@ import Button from '../../components/common/Button.astro'
 
             <div class="testimonial">
                 <h2>Customer experiences</h2>
+                <Image src={aliina_manninen_hook} width={160} alt="Aliina Manninen" class="testimonial-photo" loading="lazy" />
                 <blockquote>
-                    "Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!"
-                    <cite>– <strong>Laura Dahlman, Restaurant Apaja</strong></cite>
+                    "We have been happy using tyovuorolista.fi at Hook in Kuopio. Planning and publishing shifts is easy, and the new Omaportaali has been a really handy addition to everyday work. We especially value the fast support and that any problems get solved quickly."
+                    <cite>– <strong>Aliina Manninen, Restaurant Hook</strong></cite>
                 </blockquote>
             </div>
 
@@ -179,6 +182,15 @@ import Button from '../../components/common/Button.astro'
         padding: var(--space-4xl);
         border-radius: 12px;
         text-align: center;
+    }
+
+    .testimonial-photo {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto var(--space-lg);
+        display: block;
     }
 
     blockquote {

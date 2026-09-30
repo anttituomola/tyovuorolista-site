@@ -1,6 +1,8 @@
 ---
+import { Image } from 'astro:assets'
 import Layout from '../layouts/Layout.astro'
 import Button from '../components/common/Button.astro'
+import aliina_manninen_hook from '../assets/aliina_manninen_hook.jpg'
 ---
 
 <Layout
@@ -58,9 +60,10 @@ import Button from '../components/common/Button.astro'
 
             <div class="testimonial">
                 <h2>Asiakkaiden kokemuksia</h2>
+                <Image src={aliina_manninen_hook} width={160} alt="Aliina Manninen" class="testimonial-photo" loading="lazy" />
                 <blockquote>
-                    "Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!"
-                    <cite>– <strong>Laura Dahlman, Ravintola Apaja</strong></cite>
+                    "Olemme olleet tyytyväisiä tyovuorolista.fi:n käyttöön Hook Kuopiossa. Työvuorojen suunnittelu ja julkaiseminen on helppoa ja uutena ominaisuutena tullut Omaportaali on ollut erittäin kätevä lisä arkeen. Erityisesti arvostamme nopeaa tukea ja sitä, että mahdolliset ongelmatilanteet ratkaistaan nopeasti."
+                    <cite>– <strong>Aliina Manninen, Ravintola Hook</strong></cite>
                 </blockquote>
             </div>
 
@@ -188,6 +191,15 @@ import Button from '../components/common/Button.astro'
         padding: var(--space-4xl);
         border-radius: 12px;
         text-align: center;
+    }
+
+    .testimonial-photo {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto var(--space-lg);
+        display: block;
     }
 
     blockquote {
