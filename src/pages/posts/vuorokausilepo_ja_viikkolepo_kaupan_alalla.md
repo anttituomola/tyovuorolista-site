@@ -25,6 +25,8 @@ Laajemmin lain tasolla:
 [Työaikalain perusteet työvuorosuunnittelussa](/posts/tyoaikalain_perusteet_tyovuorosuunnittelussa)
 ja kaikkien alojen vertailu:
 [lepoaika työvuorojen välissä](/posts/lepoaika_tyovuorojen_valissa).
+Kaikki kaupan alan TES:n listasäännöt yhdessä paikassa:
+[kaupan alan TES työvuorosuunnittelussa](/posts/kaupan_alan_tes_tyovuorosuunnittelussa).
 
 ## Vuorokausilepo: 11 → 9 → 7 tuntia
 

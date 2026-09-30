@@ -33,3 +33,9 @@ Vertailun ulkopuolelle jätetty tarkoituksella: /posts/tyovuorolista_lyhenteet (
 5. Muista myös GA4: key eventit puuttuvat kaikilta sivuilta; jos rekisteröityminen lisätään key eventiksi, seuraava analyysi voi käyttää konversiota sijaintien sijaan.
 
 Tausta: OpenSEO-projektin research log (31.8.2026) ja tämän session kilpailija-analyysit (Otta 30.8., HRSuunti 31.8.).
+
+## Jatkokorjaukset 30.9.2026 (mittauksen 1.9.–28.9. perusteella)
+
+- /posts/iltalisa_yolisa_ja_aattolisa_ravintola-alalla: metaTitle "MaRa TES iltalisä ja yölisä 2026: euromäärät ravintola-alalla", description alkaa "MaRa TES:n iltalisä". Lähtöarvot: "mara iltalisä" 60 näyttöä @7,3, "mara tes iltalisä" 50 @8,7, "mara tes yölisä" 35 @4,0, kaikki 0 klikkiä. Sivu yhteensä 26 kl / 3 893 näyttöä / 0,67 % / 5,3.
+- /posts/kaupan_alan_tes_tyovuorosuunnittelussa: uudet sisäiset linkit palkkataulukko-, työaikalisät-, vuorokausilepo- ja vapaapäivät-postauksista. Lähtöarvo: "kaupan alan tes" 365 näyttöä @11,0, 0 klikkiä. Sivu yhteensä 31 kl / 2 795 näyttöä / 1,11 % / 8,3.
+- Mittaa uudelleen ikkunalla 5.10.–1.11.2026.

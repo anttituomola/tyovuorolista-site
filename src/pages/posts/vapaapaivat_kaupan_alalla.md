@@ -23,6 +23,9 @@ vähintään 59 tunnin yhtenäistä vapaata**, ja neljästä aatosta
 (pääsiäislauantai, juhannus-, joulu- ja uudenvuodenaatto) **kahden on
 oltava vapaita**.
 
+Työajat ja muut listasäännöt kokoaa yhteen
+[kaupan alan TES työvuorosuunnittelussa](/posts/kaupan_alan_tes_tyovuorosuunnittelussa).
+
 ## Enintään 8 työvuoroa vapaiden välissä
 
 Työvuoroluetteloa laadittaessa vapaiden välissä voi olla enintään

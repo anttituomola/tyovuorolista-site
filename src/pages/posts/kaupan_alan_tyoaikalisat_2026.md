@@ -25,6 +25,8 @@ pysyneet samoina 1.5.2022 alkaen ja pysyvät sopimuskauden loppuun
 
 Sunnuntain tuplapalkasta ja aattoiltalisän peukalosäännöistä lisää:
 [Sunnuntai-, ilta- ja aattolisät kaupan alalla](/posts/sunnuntai_ja_aattolisat_kaupan_alalla).
+Muut työvuorolistan säännöt (37,5 tunnin viikko, listan julkaisu, vuoron pituus):
+[kaupan alan TES työvuorosuunnittelussa](/posts/kaupan_alan_tes_tyovuorosuunnittelussa).
 
 ## Myyjät ja myymälätyöntekijät (14 §)
 

@@ -31,6 +31,8 @@ taulukkopalkan päälle. Ne löytyvät postauksesta
 [Kaupan alan työaikalisät 2026](/posts/kaupan_alan_tyoaikalisat_2026).
 Sunnuntaista maksetaan
 [kaksinkertainen palkka](/posts/sunnuntaityon_korvaus_kaupan_alalla).
+Työajat, listan julkaisu ja vuoron pituusrajat on koottu postaukseen
+[kaupan alan TES työvuorosuunnittelussa](/posts/kaupan_alan_tes_tyovuorosuunnittelussa).
 
 ## Taulukkopalkat 1.8.2026–30.4.2027
 
