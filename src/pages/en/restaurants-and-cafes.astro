@@ -1,8 +1,9 @@
 ---
-import { Image } from 'astro:assets'
 import Layout from '../../layouts/Layout.astro'
 import Button from '../../components/common/Button.astro'
+import TestimonialCarousel from '../../components/common/TestimonialCarousel.astro'
 import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
+import laura_dahlman from '../../assets/laura_dahlman.jpg'
 ---
 
 <Layout
@@ -49,13 +50,26 @@ import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
                 </ul>
             </div>
 
-            <div class="testimonial">
+            <div class="testimonials">
                 <h2>Customer experiences</h2>
-                <Image src={aliina_manninen_hook} width={160} alt="Aliina Manninen" class="testimonial-photo" loading="lazy" />
-                <blockquote>
-                    "We have been happy using tyovuorolista.fi at Hook in Kuopio. Planning and publishing shifts is easy, and the new Omaportaali has been a really handy addition to everyday work. We especially value the fast support and that any problems get solved quickly."
-                    <cite>– <strong>Aliina Manninen, Restaurant Hook</strong></cite>
-                </blockquote>
+                <TestimonialCarousel
+                    previousLabel="Previous"
+                    nextLabel="Next"
+                    testimonials={[
+                        {
+                            quote: 'We have been happy using tyovuorolista.fi at Hook in Kuopio. Planning and publishing shifts is easy, and the new Omaportaali has been a really handy addition to everyday work. We especially value the fast support and that any problems get solved quickly.',
+                            author: 'Aliina Manninen',
+                            company: 'Restaurant Hook',
+                            image: aliina_manninen_hook
+                        },
+                        {
+                            quote: 'Creating shift schedules has been really easy. Employees also praise the appearance of the schedules!',
+                            author: 'Laura Dahlman',
+                            company: 'Restaurant Apaja',
+                            image: laura_dahlman
+                        }
+                    ]}
+                />
             </div>
 
             <div class="pricing">
@@ -177,36 +191,8 @@ import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
         font-weight: bold;
     }
 
-    .testimonial {
-        background-color: var(--vaaleanharmaa);
-        padding: var(--space-4xl);
-        border-radius: 12px;
+    .testimonials h2 {
         text-align: center;
-    }
-
-    .testimonial-photo {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin: 0 auto var(--space-lg);
-        display: block;
-    }
-
-    blockquote {
-        font-size: var(--text-lg);
-        line-height: 1.6;
-        color: var(--harmaa);
-        margin: 0;
-        font-style: italic;
-    }
-
-    cite {
-        display: block;
-        margin-top: var(--space-lg);
-        font-size: var(--text-base);
-        color: var(--tummanvihrea);
-        font-style: normal;
     }
 
     .pricing-tiers {
@@ -263,10 +249,6 @@ import aliina_manninen_hook from '../../assets/aliina_manninen_hook.jpg'
 
         .content-section {
             gap: var(--space-2xl);
-        }
-
-        .testimonial {
-            padding: var(--space-2xl);
         }
 
         .pricing-tiers {

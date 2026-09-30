@@ -1,8 +1,9 @@
 ---
-import { Image } from 'astro:assets'
 import Layout from '../layouts/Layout.astro'
 import Button from '../components/common/Button.astro'
+import TestimonialCarousel from '../components/common/TestimonialCarousel.astro'
 import aliina_manninen_hook from '../assets/aliina_manninen_hook.jpg'
+import laura_dahlman from '../assets/laura_dahlman.jpg'
 ---
 
 <Layout
@@ -58,13 +59,24 @@ import aliina_manninen_hook from '../assets/aliina_manninen_hook.jpg'
                 </div>
             </div>
 
-            <div class="testimonial">
+            <div class="testimonials">
                 <h2>Asiakkaiden kokemuksia</h2>
-                <Image src={aliina_manninen_hook} width={160} alt="Aliina Manninen" class="testimonial-photo" loading="lazy" />
-                <blockquote>
-                    "Olemme olleet tyytyväisiä tyovuorolista.fi:n käyttöön Hook Kuopiossa. Työvuorojen suunnittelu ja julkaiseminen on helppoa ja uutena ominaisuutena tullut Omaportaali on ollut erittäin kätevä lisä arkeen. Erityisesti arvostamme nopeaa tukea ja sitä, että mahdolliset ongelmatilanteet ratkaistaan nopeasti."
-                    <cite>– <strong>Aliina Manninen, Ravintola Hook</strong></cite>
-                </blockquote>
+                <TestimonialCarousel
+                    testimonials={[
+                        {
+                            quote: 'Olemme olleet tyytyväisiä tyovuorolista.fi:n käyttöön Hook Kuopiossa. Työvuorojen suunnittelu ja julkaiseminen on helppoa ja uutena ominaisuutena tullut Omaportaali on ollut erittäin kätevä lisä arkeen. Erityisesti arvostamme nopeaa tukea ja sitä, että mahdolliset ongelmatilanteet ratkaistaan nopeasti.',
+                            author: 'Aliina Manninen',
+                            company: 'Ravintola Hook',
+                            image: aliina_manninen_hook
+                        },
+                        {
+                            quote: 'Työvuorolistan teko on ollut kyllä helppoa. Työntekijätkin kiittelevät listojen ulkoasua!',
+                            author: 'Laura Dahlman',
+                            company: 'Ravintola Apaja',
+                            image: laura_dahlman
+                        }
+                    ]}
+                />
             </div>
 
             <div class="pricing">
@@ -186,36 +198,8 @@ import aliina_manninen_hook from '../assets/aliina_manninen_hook.jpg'
         font-weight: bold;
     }
 
-    .testimonial {
-        background-color: var(--vaaleanharmaa);
-        padding: var(--space-4xl);
-        border-radius: 12px;
+    .testimonials h2 {
         text-align: center;
-    }
-
-    .testimonial-photo {
-        width: 80px;
-        height: 80px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin: 0 auto var(--space-lg);
-        display: block;
-    }
-
-    blockquote {
-        font-size: var(--text-lg);
-        line-height: 1.6;
-        color: var(--harmaa);
-        margin: 0;
-        font-style: italic;
-    }
-
-    cite {
-        display: block;
-        margin-top: var(--space-lg);
-        font-size: var(--text-base);
-        color: var(--tummanvihrea);
-        font-style: normal;
     }
 
     .pricing-tiers {
@@ -306,10 +290,6 @@ import aliina_manninen_hook from '../assets/aliina_manninen_hook.jpg'
 
         .content-section {
             gap: var(--space-2xl);
-        }
-
-        .testimonial {
-            padding: var(--space-2xl);
         }
 
         .pricing-tiers {
