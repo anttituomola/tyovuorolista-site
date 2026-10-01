@@ -88,7 +88,7 @@ Yhteenvedon tarkkuus riippuu siitä, oletko merkinnyt työntekijöille [tavoitet
 
 ## Palkkaraportin luominen
 
-Kun työntekijät, ajanjakso ja toteutuneet ajat ovat kunnossa, paina **Luo palkkaraportti...** -painiketta. Raportti avautuu modaalissa, jossa valitset CSV- tai PDF-muodon ja haluamasi sarakkeet.
+Kun työntekijät, ajanjakso ja toteutuneet ajat ovat kunnossa, paina **Luo palkkaraportti...**. Ikkunassa valitset Excel-, CSV- tai PDF-muodon ja haluamasi sarakkeet.
 
 Katso yksityiskohtaiset ohjeet [palkkaraportti-oppaasta](/posts/palkkaraportti_ominaisuus).
 

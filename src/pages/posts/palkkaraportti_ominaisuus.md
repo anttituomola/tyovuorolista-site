@@ -1,250 +1,64 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Palkkaraportti-ominaisuus: joustava raporttigeneraattori CSV- ja PDF-muodoissa'
-metaTitle: 'Palkkaraportti-ominaisuus: raportit CSV- ja PDF-muodossa'
+title: 'Palkkaraportti: työntekijäkohtaiset tunnit jaksolta'
+metaTitle: 'Näin teet palkkaraportin'
 pubDate: 2025-11-24
-description: 'Palkkaraportti vie palkkatiedot CSV- tai PDF-muodossa valitsemillasi sarakkeilla. Raportti luodaan valittujen työntekijöiden ja päivämäärien perusteella.'
+description: 'Palkkaraportti listaa valitun jakson tunnit työntekijöittäin. Tiedoston saa Excel-, CSV- tai PDF-muodossa Tuntien kirjaus -sivulta.'
 author: 'Antti Tuomola'
 image:
-    url: '/blogPostImages/payroll-report/tuntiraportti_pdf.png'
-    alt: 'Palkkaraportin PDF-esimerkki työntekijän tuntien ja lisien erittelyllä.'
-tags: ["palkkaraportti", "raportit", "CSV", "PDF", "vienti", "työtuntien laskenta"]
+    url: '/blogPostImages/payroll-report/tuntiraportti_tuntien_kirjaus_nakyma.png'
+    alt: 'Tuntien kirjaus: päivämäärät, työntekijät Emma Virtanen, Jussi Mäkelä ja Sofia Niemi, sekä nappi Luo palkkaraportti valitsimen vieressä.'
+tags: ["palkkaraportti", "ohjeet", "työtunnit"]
 ---
+
+*Päivitetty 1.10.2026: raportin saa myös Excel-tiedostona. Luo palkkaraportti -nappi on työntekijävalitsimen vieressä.*
 
 *Päivitetty 12.9.2026: tunnit voi lähettää suoraan [Fivaldiin](/posts/fivaldi_tuntien_vienti).*
 
-*Päivitetty 10.9.2026: jos [palkaton ruokatauko](/posts/palkaton_ruokatauko) on päällä, raporttiin voi tulla tietorivi Vähennetyt ruokatauot. Työtunnit ovat nettona.*
+Palkkaraportti kokoaa valitsemasi jakson tunnit työntekijöittäin. Jokaisesta tuntityypistä tulee oma rivinsä, esimerkiksi työtunnit, iltavuorolisä tai sairausajan palkka. Nollarivejä ei tule mukaan.
 
-Työvuorolista-sovellukseen on nyt lisätty joustava palkkaraportti-ominaisuus, joka mahdollistaa palkkatietojen viennin CSV- tai PDF-muodossa. Voit valita haluamasi sarakkeet ja generoida raportin valittujen työntekijöiden ja päivämäärien perusteella. Samasta näkymästä tunnit lähtevät myös [Procountoriin](/posts/procountor_palkka_vienti) ja [Fivaldiin](/posts/fivaldi_tuntien_vienti). Jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), TES 21 §:n lisärivit jäävät pois viennistä.
+## Näin teet raportin
 
-## Mitä palkkaraportti-ominaisuus tarjoaa?
+1. Avaa **Hallinta → Tuntien kirjaus** tai suoraan [app.tyovuorolista.fi/admin/LogHours](https://app.tyovuorolista.fi/admin/LogHours).
+2. Valitse aloitus- ja lopetuspäivä. Kuukauden saat pikavalinnalla **Tämä kuukausi** tai **Viime kuukausi**.
+3. Valitse työntekijät. **Luo palkkaraportti...** on valitsimen vieressä.
 
-Palkkaraportti-ominaisuus on modaalipohjainen raporttigeneraattori, joka:
+Nappi pysyy harmaana, kunnes valitulla jaksolla on vähintään yksi tuntirivi. Vie hiiri napin päälle, niin näet syyn. Tavallisimmin työntekijää ei ole valittu, tai valituilla työntekijöillä ei ole vuoroja kyseiseltä jaksolta.
 
-- ✅ Mahdollistaa CSV- tai PDF-muotoisen raportin luomisen
-- ✅ Tarjoaa joustavat sarakevalinnat (työntekijän nimi, sähköposti, ID, tyyppi, määrä)
-- ✅ Generoi yhden rivin per tuntityyppi/etu työntekijää kohti
-- ✅ Käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat
-- ✅ Tukee useimpia suomalaisia työtuntikategorioita ja -lisiä
+<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_kirjaus_nakyma.png" alt="Tuntien kirjaus -sivu. Luo palkkaraportti -nappi on työntekijävalitsimen oikealla puolella." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-## Miten käytät palkkaraportti-ominaisuutta?
+4. Paina **Luo palkkaraportti...**
+5. Valitse muoto: Excel, CSV tai PDF.
+6. Rastita rivit, jotka haluat mukaan. Oletuksena mukana ovat työtunnit, lisät, sairausajan palkka, vuosivapaa, lomapalkka ja tasoitusvapaa.
+7. Valitse sarakkeet. Oletuksena mukana ovat työntekijän nimi, tunnustyyppi ja määrä. Sähköpostin ja työntekijän ID:n voi ottaa mukaan, jos tarvitset ne.
+8. Paina **Luo raportti**. Tiedosto latautuu selaimeen.
 
-Palkkaraportin luominen on yksinkertaista:
+<img src="/blogPostImages/payroll-report/tuntiraportti_luo_palkkaraportti_modaali.png" alt="Luo palkkaraportti -ikkuna. Muodoksi on valittu Excel. Rivivalinnoissa ovat työtunnit, lisät ja sairausajan palkka." width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
 
-**1. Valitse työntekijät ja päivämääräväli**
+Jos toimipaikalle on valittu palkanlaskentaohjelma, sen vienti on samassa listassa. Kuvassa se on Procountor. Omat ohjeet: [Procountor](/posts/procountor_palkka_vienti), [Netvisor](/posts/netvisor_tuntien_vienti) ja [Fivaldi](/posts/fivaldi_tuntien_vienti).
 
-Siirry [Tuntien kirjaus -sivulle](https://app.tyovuorolista.fi/admin/LogHours) (**Hallinta → Tuntien kirjaus**) ja valitse työntekijät sekä päivämääräväli, jolta tiedot kerätään. Katso [Tuntien kirjaus -opas](/posts/tuntien_kirjaus_opas) kokonaisvaltaiseen käyttöohjeeseen.
+Tuntien kirjauksen muu käyttö, kuten toteutuneet ajat ja sairasloma, on ohjeessa [Tuntien kirjaus](/posts/tuntien_kirjaus_opas).
 
-<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_kirjaus_nakyma.png" alt="Tuntikirjaus-sivu työntekijöiden ja päivämäärävälin valinnalla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
+## Excel, CSV ja PDF
 
-**2. Avaa palkkaraportti-modaali**
+**Excel** tallentaa tunnit lukuina. Valitse se, kun avaat raportin Excelissä. CSV on tekstitiedosto, ja suomalainen Excel saattaa lukea luvun 7.5 päivämääräksi, koska piste on päiväyksen erotin.
 
-Klikkaa **"Luo palkkaraportti..."** -painiketta. Modaali avautuu valittujen työntekijöiden ja päivämäärien kanssa.
+**CSV** on pilkulla erotettu tekstitiedosto UTF-8-koodauksella. Se sopii ohjelmalle, joka lukee CSV:n suoraan.
 
-<img src="/blogPostImages/payroll-report/tuntiraportti_luo_palkkaraportti_modaali.png" alt="Palkkaraportti-modaali CSV- ja PDF-vaihtoehdoilla sekä sarakevalinnoilla" width="100%" style="max-width: 600px; display: block; margin: 20px auto;" />
+**PDF** on tuloste, jonka voi jakaa tai arkistoida.
 
-**3. Valitse raportin asetukset**
+## Mitä riveillä on
 
-Modaalissa voit valita:
+Yksi rivi on yhden työntekijän yksi tuntityyppi. Samalla henkilöllä voi olla rivi Työtunnit ja rivi Iltavuorolisä. Työtunnit eivät sisällä sairauslomaa. Sairausloma on rivillä Sairausajan palkka.
 
-**Formaatti:**
-- **CSV**: Jos haluat avata raportin Excelissä tai muokata sitä
-- **PDF**: Jos haluat tulostaa raportin tai jakaa sen suoraan
+Vuosivapaa, lomapalkka ja tasoitusvapaa lasketaan päivinä, eivät tunteina.
 
-**Sarakkeet:**
-Voit valita seuraavat sarakkeet raporttiin:
-- **Työntekijän nimi**: Työntekijän koko nimi
-- **Työntekijän sähköposti**: Työntekijän sähköpostiosoite
-- **Työntekijän ID**: Työntekijän yksilöllinen tunniste (UUID)
-- **Tyyppi**: Tuntityyppi tai etu (esim. "Työtunnit", "Lauantailisä")
-- **Määrä**: Tuntien määrä tai lukumäärä
+Ilta- ja yölisän kellonajat tulevat tuntilaskennan asetuksista. Oletuksena ilta on klo 18–24 ja yö klo 00–06. Ajat vaihdat kohdasta **Hallinta → Asetukset**, osio Tuntien laskenta. Muutos näkyy seuraavassa raportissa. Jo ladattu tiedosto ei muutu.
 
-Vähintään yksi sarake on valittava. Tyyppi- ja määräsarakkeet ovat tyypillisesti aina mukana, jotta raportti on merkityksellinen.
+<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_laskenta_asetukset.png" alt="Tuntien laskennan asetukset: päivä alkaa klo 6, ilta klo 18 ja yö klo 00." width="100%" style="max-width: 900px; display: block; margin: 20px auto;" />
 
-**4. Generoi ja lataa raportti**
+Jos [palkaton ruokatauko](/posts/palkaton_ruokatauko) on päällä, raporttiin voi tulla rivi Vähennetyt ruokatauot. Työtunnit ovat silloin nettona.
 
-Kun olet valinnut asetukset, klikkaa **"Luo raportti"** -painiketta:
-- **CSV**: Raportti generoidaan selaimessa ja ladataan välittömästi
-- **PDF**: Raportti generoidaan palvelimella ja ladataan muutaman sekunnin kuluttua
+Jos työntekijällä [lisät sisältyvät sopimuspalkkaan](/posts/sopimuspalkka_ilta_ja_yolisa), ilta-, yö- ja aattolisät sekä lisä- ja ylityö jäävät pois.
 
-Raportti ladataan automaattisesti selaimen latauskansioon.
-
-## Raportissa näkyvät tiedot
-
-Raportti sisältää seuraavat tiedot valittujen työntekijöiden ja päivämäärien perusteella:
-
-### Työtunnit
-
-- **Työtunnit**: Työtuntien kokonaismäärä (ei sisällä sairaslomaa)
-- **Sairausajan palkka**: Sairasloman tuntien määrä
-
-### Lisät
-
-- **Lauantailisä**: Lauantain työtuntien määrä
-- **Sunnuntailisä**: Sunnuntain työtuntien määrä
-- **Arkipyhälisä**: Arkipyhien työtuntien määrä
-- **Aattolisä**: Aattopäivien erityislisä (jos käytössä)
-- **Iltalisä**: Iltalisän tuntien määrä (oletusarvoisesti 18-24)
-- **Yölisä**: Yölisän tuntien määrä (oletusarvoisesti 00-06)
-- **Ruokaetu**: Ruokaedun lukumäärä (jos käytössä)
-
-### Koko päivän vuorot
-
-- **Vuosivapaa**: Vuosivapaapäivien lukumäärä
-- **Vuosiloma**: Vuosilomapäivien lukumäärä
-- **Tasoitusvapaa**: Tasoitusvapaapäivien lukumäärä
-- **Vapaa**: Vapaapäivien lukumäärä
-- **Ylimääräinen vapaapäivä**: Ylimääräisten vapaapäivien lukumäärä
-
-## Raportin rakenne
-
-Raportti generoi yhden rivin per tuntityyppi/etu työntekijää kohti. Tämä tarkoittaa, että:
-
-- Jokainen työntekijä voi olla useassa rivissä
-- Jokainen rivi edustaa yhtä tuntityyppiä tai etua per työntekijä
-- Vain nollasta poikkeavat arvot sisällytetään raporttiin
-
-Esimerkki raportin rakenteesta:
-
-```
-Työntekijän nimi | Tyyppi | Määrä
-Matti Meikäläinen | Työtunnit | 120
-Matti Meikäläinen | Lauantailisä | 8
-Matti Meikäläinen | Sunnuntailisä | 4
-Maija Esimerkki | Työtunnit | 100
-Maija Esimerkki | Iltalisä | 10
-```
-
-## CSV-muoto
-
-CSV-raportti generoidaan selaimessa ja ladataan välittömästi:
-
-- **Muoto**: Pilkkuerotin
-- **Koodaus**: UTF-8 BOM (Excel-yhteensopivuus)
-- **Erikoismerkit**: Pilkut ja lainausmerkit käsitellään oikein
-- **Otsikkorivi**: Sisältää valitut sarakkeet
-
-CSV-muoto on ihanteellinen, jos haluat:
-- Avata raportin Excelissä tai muussa taulukkolaskentaohjelmassa
-- Muokata tietoja ennen käyttöä
-- Integroida tietoja muihin järjestelmiin
-
-<img src="/blogPostImages/payroll-report/tuntiraportti_csv.png" alt="CSV-raportin esimerkki Excelissä" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
-
-## PDF-muoto
-
-PDF-raportti generoidaan palvelimella ja ladataan selaimessa:
-
-- **Muoto**: PDF-tiedosto
-- **Laatu**: Korkealaatuinen taulukko
-- **Yhteensopivuus**: Toimii kaikissa PDF-lukijoissa
-- **Tulostus**: Sopii suoraan tulostamiseen
-
-PDF-muoto on ihanteellinen, jos haluat:
-- Tulostaa raportin suoraan
-- Jakaa raportin muille osapuolille
-- Säilyttää raportin arkistossa
-
-<img src="/blogPostImages/payroll-report/tuntiraportti_pdf.png" alt="PDF-raportin esimerkki" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
-
-## Tuntien laskentalogiikka
-
-Palkkaraportti käyttää samaa tuntien laskentalogiikkaa kuin sovelluksen muutkin osat, mikä varmistaa, että raportti vastaa täsmälleen sitä, mitä näet sovelluksen käyttöliittymässä yksittäisen työntekijän yhteenvedossa.
-
-Laskentalogiikka:
-- **Perustunnit**: Kokonaistunnit miinus sairasloman tunnit = työtunnit
-- **Lisät**: Lasketaan erikseen (lauantai, sunnuntai, arkipyhät, jne.)
-- **Bonukset**: Iltalisä ja yölisä ovat tuntipohjaisia
-- **Koko päivän vuorot**: Lasketaan päivinä, ei tunteina
-
-## Tuntilaskennan asetukset
-
-Palkkaraportin laskelmat perustuvat paikkakohtaisiin tuntilaskennan asetuksiin. Nämä asetukset määrittävät, miten työtunnit, lisät ja edut lasketaan, ja vaikuttavat suoraan siihen, mitkä tiedot näkyvät generoiduissa raporteissa.
-
-### Asetusten sijainti
-
-Asetukset löytyvät **Hallinta → Asetukset** -sivulta (<a href="https://app.tyovuorolista.fi/admin/profile" target="_blank">avaa Asetukset</a>) osiosta **"Tuntilaskennan asetukset"**.
-
-<img src="/blogPostImages/payroll-report/tuntiraportti_tuntien_laskenta_asetukset.png" alt="Tuntilaskennan asetukset Asetukset-sivulla" width="100%" style="max-width: 800px; display: block; margin: 20px auto;" />
-
-### Saatavilla olevat asetukset
-
-#### Aikarajat
-
-Nämä asetukset määrittävät, milloin eri aikajaksot (päivä, ilta, yö) alkavat, mikä vaikuttaa lisien laskentaan:
-
-**Päivän alkamisaika**
-- Oletusarvo: **06:00**
-- Määrittää, milloin tavallinen työpäivä alkaa
-- Käytetään yölisän päättymisajan määrittämiseen (yölisä pätee yön alkamisajasta päivän alkamisaikaan)
-
-**Illan alkamisaika**
-- Oletusarvo: **18:00**
-- Määrittää, milloin iltalisän tunnit alkavat
-- Iltalisän tunnit lasketaan illan alkamisajasta yön alkamisaikaan asti
-
-**Yön alkamisaika**
-- Oletusarvo: **00:00**
-- Määrittää, milloin yölisän tunnit alkavat
-- Yölisän tunnit lasketaan yön alkamisajasta päivän alkamisaikaan
-
-**Vaikutus raportteihin**: Nämä asetukset vaikuttavat suoraan **Iltalisä**- ja **Yölisä**-riveihin palkkaraportissa. Aikarajojen muuttaminen muuttaa, mitkä tunnit oikeuttavat lisään.
-
-#### Aattopäivän asetukset
-
-**Aattopäivän raja-aika**
-- Oletusarvo: **15:00** tai poistettu käytöstä
-- Määrittää raja-ajan aattopäivien erityislisille
-- Aattopäivinä (esim. juhannusaattona) tämän ajan jälkeen tehdyt tunnit lasketaan **Aattolisäksi**
-- Voidaan poistaa käytöstä kokonaan
-
-**Vaikutus raportteihin**: Kun asetus on käytössä, raportti sisältää **Aattolisä**-rivin oikeuttaville tunneille. Kun asetus on poistettu käytöstä, erityislisärivejä ei näy raportissa.
-
-#### Ruokaedun asetukset
-
-**Ruokaedun vähimmäistunnit**
-- Oletusarvo: **6,0 tuntia** tai poistettu käytöstä
-- Vähimmäisvuoron pituus ruokaedun oikeuttamiseksi
-- Vähintään tämän pituiset vuorot lasketaan ruokaedun määrään
-- Voidaan poistaa käytöstä
-
-**Vaikutus raportteihin**: Kun asetus on käytössä, raportti sisältää **Ruokaetu**-rivin, joka näyttää oikeuttavien vuorojen lukumäärän. Kun asetus on poistettu käytöstä, ruokaedun rivejä ei näy raportissa.
-
-### Oletusarvot
-
-Jos paikalle ei ole määritelty asetuksia, järjestelmä käyttää suomalaisten lakien mukaisia oletusarvoja:
-
-- **Päivän alkamisaika**: 06:00
-- **Illan alkamisaika**: 18:00
-- **Yön alkamisaika**: 00:00
-- **Aattopäivän raja-aika**: 15:00 (käytössä oletusarvoisesti)
-- **Ruokaedun vähimmäistunnit**: 6,0 tuntia (käytössä oletusarvoisesti)
-
-### Miten asetukset vaikuttavat raportteihin
-
-- **Aikarajat** → Vaikuttavat Iltalisän ja Yölisän laskentaan
-- **Aattopäivän raja-aika** → Kontrolloi, näkyykö Aattolisä raporteissa
-- **Ruokaedun kynnysarvo** → Kontrolloi, näkyykö Ruokaetu raporteissa ja mitkä vuorot oikeuttavat siihen
-
-**Tärkeää**: Asetusten muutokset astuvat voimaan välittömästi kaikille uusille laskelmille. Olemassa olevia raportteja ei päivitetä jälkikäteen; vain asetusten muutosten jälkeen generoidut uudet raportit heijastavat uusia arvoja.
-
-## Käytännön hyödyt
-
-- 📊 **Joustavuus**: Valitse haluamasi sarakkeet ja muoto
-- ⚡ **Nopeus**: Raportti generoidaan muutamassa sekunnissa
-- ✅ **Tarkkuus**: Raportti käyttää samaa laskentalogiikkaa kuin sovellus
-- 📄 **Muotoilu**: CSV Excel-yhteensopiva, PDF tulostusvalmis
-- 🔄 **Yhdenmukaisuus**: Raportti vastaa sovelluksen näkymiä
-
-## Yhteenveto
-
-Uusi palkkaraportti-ominaisuus tekee palkkatietojen viennistä helpompaa:
-
-- Valitse työntekijät ja päivämääräväli
-- Valitse CSV- tai PDF-muoto
-- Valitse haluamasi sarakkeet
-- Generoi ja lataa raportti muutamassa sekunnissa
-
-Aloita käyttö siirtymällä [Tuntikirjaus-sivulle](https://app.tyovuorolista.fi/admin/LogHours) ja klikkaamalla "Luo palkkaraportti..." -painiketta! Lue myös [merkattujen ja puuttuvien tuntien seurannasta](/posts/merkattujen_ja_puuttuvien_tyotuntien_laskeminen) suunnitteluvaiheessa, [korvaajan vuorosta sairaslomalle](/posts/korvaajan_vuoron_lisays_sairauslomalle) ja [työvuorolistan lyhenteistä](/posts/tyovuorolista_lyhenteet).
-
-
+Kun työehtosopimus on käytössä ja jakso osuu tasoittumisjaksoon, lisätyö, ylityö ja päivätyökorvaukset tulevat omille riveilleen. Katso [TES-tuki työvuorosuunnittelussa](/posts/tes_tuki_tyovuorosuunnittelussa).
