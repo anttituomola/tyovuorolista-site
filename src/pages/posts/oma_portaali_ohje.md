@@ -14,6 +14,8 @@ ctaText: Kirjaudu
 ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
+*Päivitetty 1.10.2026: Toiveet-sivulla on kolmas välilehti **Ei käytettävissä** toistuville esteille, esimerkiksi koulu keskiviikkoisin ([oma ohjeensa](/posts/tyontekijan_esteet)).*
+
 *Päivitetty 28.9.2026: vuoromuutokset ja sijaiskyselyt tulevat puhelimeen ilmoituksena, ja Omaan voi kirjautua sähköpostin koodilla ([oma ohjeensa](/posts/ilmoitukset_puhelimeen)).*
 
 *Päivitetty 25.9.2026: työntekijä voi lisätä vuoronsa Google-kalenteriin, iPhoneen tai Outlookiin, ja ne päivittyvät sinne itsestään ([oma ohjeensa](/posts/tyovuorot_kalenteriin)).*
@@ -25,7 +27,7 @@ ctaHref: https://app.tyovuorolista.fi/oma
 Portaali tarjoaa tällä hetkellä kuusi toimintoa:
 
 - **Omien vuorojen katselu** julkaistuilta listoilta
-- **Toiveet**: vapaatoive (vapaa ilman palkkaa) ja lomatoive (palkallinen vuosiloma)
+- **Toiveet**: vapaatoive (vapaa ilman palkkaa), lomatoive (palkallinen vuosiloma) ja toistuvat esteet eli ajat, joina työntekijä ei voi tehdä töitä joka viikko ([oma ohjeensa](/posts/tyontekijan_esteet))
 - **Tuntien ilmoittaminen**: toteutuneet työajat, sairasloma tai toteutumaton vuoro suoraan vuorolta
 - **Avoimiin vuoroihin ilmoittautuminen**: esihenkilö julkaisee avoimia vuoroja, joihin työntekijät voivat ilmoittautua ([oma ohjeensa](/posts/avoimet_vuorot_ohje))
 - **Koko tiimin lista**: julkaistu lista omalta tiimiltä, jos esihenkilö on kytkenyt sen päälle asetuksista
@@ -73,6 +75,8 @@ Avaa vapaatoive kalenterista nähdäksesi tarkemmat tiedot ja käsitelläksesi s
 Hyväksyntä estetään, jos työntekijällä on jo työvuoro vapaatoivepäivänä. Voit silti merkitä vuoron manuaalisesti tarvittaessa. Järjestelmä varoittaa päällekkäisyydestä.
 
 Lomatoive näkyy samassa kalenterissa ja [lomasuunnittelussa](/posts/lomasuunnittelu). Avaa se ja paina **Hyväksy lomatoive**. Toive muuttuu vuosilomaksi (VL) ja näkyy sen jälkeen julkaistavissa listoissa. Poisto hylkää toiveen, ja työntekijä saa siitä ilmoituksen. Hyväksyntä estetään, jos loma-ajalla on jo työvuoroja.
+
+Toistuva **este** (esimerkiksi koulu keskiviikkoisin klo 16–20) ei ole toive eikä vaadi hyväksyntää. Se näkyy työntekijän tiedoissa ja kalenterissa harmaana raidoituksena, kun viet hiiren työntekijän päälle sivupalkissa. Kalenteri varoittaa, jos vuoro on päällekkäin esteen kanssa, ja sama tarkistus tehdään vielä ennen julkaisua. Saat ilmoituksen, kun työntekijä lisää tai muuttaa esteen. Ohje: [Työntekijän esteet](/posts/tyontekijan_esteet).
 
 ### 5. Työntekijöiden tunti-ilmoitusten hyväksyntä
 
@@ -144,7 +148,7 @@ Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenp�
 
 ### Ilmoita toive
 
-**Toiveet**-välilehdellä osoitteessa [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) valitset **Vapaatoive** tai **Lomatoive**.
+**Toiveet**-välilehdellä osoitteessa [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) valitset **Vapaatoive**, **Lomatoive** tai **Ei käytettävissä**.
 
 **Vapaatoive** on toive vapaasta ajasta ilman palkkaa. **Lomatoive** on toive palkallisesta vuosilomasta. Esihenkilö hyväksyy lomatoiveen kalenterissa, jolloin se merkitään vuosilomaksi.
 
@@ -157,9 +161,12 @@ Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenp�
 
 Esihenkilö näkee toiveesi kalenterissa. Hyväksytty vapaatoive ilmestyy listaan V- ja X-merkintöinä. Hyväksytty lomatoive muuttuu vuosilomaksi. Hylätty toive poistuu Toiveet-sivulta. Toive ei tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
 
-<div class="blogPhonePair">
+**Ei käytettävissä** on eri asia: toistuva aika, jolloin et voi tehdä töitä joka viikko, esimerkiksi koulu tai harrastus. Se ei vaadi hyväksyntää, vaan esihenkilön kalenteri varoittaa, jos vuoro on päällekkäin sen kanssa. Syytä ei tarvitse kertoa, ja jos kerrot, sen näkee vain esihenkilö. Ohje: [Työntekijän esteet](/posts/tyontekijan_esteet).
+
+<div class="blogPhoneRow">
 <img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-vapaatoive.png" alt="Oma-portaalin Toiveet: vapaatoive valittuna" />
 <img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-lomatoive.png" alt="Oma-portaalin Toiveet: lomatoive valittuna" />
+<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-este.png" alt="Oma-portaalin Toiveet: Ei käytettävissä valittuna, este keskiviikkoisin 16.00–20.00" />
 </div>
 
 ### Ilmoita toteutuneet tunnit *(uusi)*

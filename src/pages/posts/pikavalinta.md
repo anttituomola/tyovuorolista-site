@@ -10,6 +10,7 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'kalenteri', 'ohjeet']
 ---
 
+*Päivitetty 1.10.2026: työntekijät, joilla on [este](/posts/tyontekijan_esteet) vuoron aikaan, ovat pikavalinnassa listan lopussa merkinnällä Ei käytettävissä.*
 *Päivitetty 7.9.2026: uusi lista kopioidaan **Kopioi vuorot aiemmasta listasta**. **Avoimina vuoroina** on oletus.*
 *Päivitetty 31.8.2026: ohjevideo.*
 
@@ -45,7 +46,7 @@ Avoin luonnos näkyy kalenterissa harmaana **Avoin vuoro** -tiilenä. Se näkyy 
 Klikkaa avointa luonnosta. Pikavalinta avautuu vuoron kohdalle:
 
 - päivä, kellonajat ja muistiinpano, jos sellainen on
-- työntekijät samassa järjestyksessä kuin sivupalkissa
+- työntekijät samassa järjestyksessä kuin sivupalkissa; ne, joilla on [este](/posts/tyontekijan_esteet) vuoron aikaan, ovat listan lopussa merkinnällä **Ei käytettävissä 16.00–20.00** ja silti valittavissa
 - jäljellä olevat tunnit listalla, jos sopimustunnit on asetettu (VV-päivät ja vuosiloma pienentävät tavoitetta, ylitys punaisella)
 - **Muokkaa vuoroa…**, jos tarvitset aikoja, osaamista tai muita kenttiä
 

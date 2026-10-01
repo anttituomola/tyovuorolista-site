@@ -11,6 +11,8 @@ image:
 tags: ['päivitykset', 'uudet ominaisuudet', 'poissaolo', 'ohjeet']
 ---
 
+*Päivitetty 1.10.2026: työntekijän [esteet](/posts/tyontekijan_esteet) näkyvät ehdokaslistassa, ja Kysy kaikilta sopivilta ohittaa estyneet.*
+
 *Päivitetty 28.9.2026: Etsi sijainen -paneelin uusi ulkoasu. Ilmoittautunut näkyy paneelin kärjessä omassa kortissaan, ja ensimmäisen ilmoittautujan voi hyväksyä automaattisesti.*
 
 *Päivitetty 27.9.2026: sijaiskysely lähtee myös tekstiviestinä. [Ohje](/posts/tekstiviestit).*
@@ -46,7 +48,7 @@ Sofian vuoro jää kalenteriin poissaolona. Sen päälle tulee harmaa raidalline
 
 ### 2. Kysy sijaista
 
-**Etsi sijainen** avautuu heti. Kohdassa **Sopivat sijaiset** ovat työntekijät, jotka voivat ottaa vuoron. Rivillä näkyvät jäljellä olevat tunnit ja muut vuorot samana päivänä. Varoitukset, kuten lepoaika alle 11 h tai vapaatoive, näkyvät keltaisella.
+**Etsi sijainen** avautuu heti. Kohdassa **Sopivat sijaiset** ovat työntekijät, jotka voivat ottaa vuoron. Rivillä näkyvät jäljellä olevat tunnit ja muut vuorot samana päivänä. Varoitukset, kuten lepoaika alle 11 h, vapaatoive tai työntekijän merkitsemä [este](/posts/tyontekijan_esteet) (esimerkiksi **Ei käytettävissä 16.00–20.00**), näkyvät keltaisella. Estyneet ovat listan lopussa, mutta heille voi silti antaa vuoron.
 
 Ne, jotka eivät voi ottaa vuoroa, ovat kohdassa **Ei sopivia**. Avaa se, niin näet syyn, esimerkiksi toisen vuoron samana päivänä.
 
@@ -54,7 +56,7 @@ Ne, jotka eivät voi ottaa vuoroa, ovat kohdassa **Ei sopivia**. Avaa se, niin n
 
 Sinulla on kolme tapaa:
 
-- **Kysy kaikilta sopivilta** lähettää kyselyn kaikille sopiville, joilta et ole vielä kysynyt.
+- **Kysy kaikilta sopivilta** lähettää kyselyn kaikille sopiville, joilta et ole vielä kysynyt. Estyneet jäävät tästä pois; heiltä voit kysyä yksitellen.
 - **Kysy valituilta** lähettää kyselyn vain niille, jotka valitsit ruudusta.
 - **Anna vuoro** antaa vuoron heti yhdelle työntekijälle. Käytä tätä, kun olet jo sopinut asiasta puhelimessa. Painike on jokaisella rivillä, myös kysytyillä.
 
