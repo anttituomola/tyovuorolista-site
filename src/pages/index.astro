@@ -13,9 +13,12 @@ import Faq from '../components/mainPage/Faq.astro'
 import NewestBlogPosts from '../components/mainPage/NewestBlogPosts.astro'
 import ContactForm from '../components/mainPage/ContactForm.astro'
 import { getLocaleFromAstro, getTranslationObject } from '../utils/translations'
+import { buildFaqPageJsonLd } from '../utils/jsonLd.ts'
 
 const locale = getLocaleFromAstro(Astro)
 const contactFormTranslations = getTranslationObject('contactForm', locale)
+// The FAQ section below is FAQ-shaped content; FAQPage markup lets answer engines quote it as Q&A.
+const faqJsonLd = buildFaqPageJsonLd(getTranslationObject('faq', locale))
 
 const metaDescription =
     locale === 'fi'
@@ -25,6 +28,7 @@ const metaDescription =
 
 <Layout description={metaDescription}>
     <HeroLcpPreload slot="head" />
+    <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(faqJsonLd)} />
     <main class="index-page">
         <Hero locale={locale} />
         <FeatureHighlights locale={locale} />

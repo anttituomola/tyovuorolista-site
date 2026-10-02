@@ -49,7 +49,7 @@
     "tesHighlight": {
         "eyebrow": "TES-apuri (beta)",
         "title": "Työehtosopimus mukana suunnittelussa",
-        "lead": "Sovellus varoittaa TES- ja työaikarikkomuksista jo listaa tehdessä.",
+        "lead": "Työvuorolistan TES-apuri tarkistaa vuorot työehtosopimusta ja työaikalakia vasten jo suunnitteluvaiheessa ja varoittaa rikkomuksista ennen listan julkaisua.",
         "bullet1": "Varoitukset suunnitellessa: lepoajat, vuoron pituudet, jakson tunnit",
         "bullet2": "Tunnit valmiiksi palkkakategorioihin: lisät, ylityöt, sunnuntailisät",
         "bullet3": "MaRa, Kaupan ala, KipaTES ja SOSTES: neljä sopimusta valmiina",
@@ -58,7 +58,7 @@
     },
     "demoVideo": {
         "title": "Työvuorolistan teko voi olla myös helppoa",
-        "description": "Työvuorot lisätään listaan raahamalla työntekijä oikealle kohdalle. Julkaisu tapahtuu nappia painamalla, jolloin kaikille työntekijöille lähetetään lista sähköpostilla.",
+        "description": "Työvuorolistassa vuorot lisätään listaan raahaamalla työntekijä kalenterin oikeaan kohtaan. Kun lista on valmis, se julkaistaan yhdellä napin painalluksella, ja jokainen työntekijä saa oman henkilökohtaisen listansa sähköpostiin. Alla oleva video näyttää, miten työvuorolista tehdään ja julkaistaan Työvuorolistassa.",
         "step1": "Rekisteröidy",
         "step2": "Tee työvuorolista",
         "step3": "Julkaise"
@@ -186,7 +186,7 @@
         "questions": {
             "cost": {
                 "question": "Kuinka paljon tämä maksaa?",
-                "answer": "Hinnoittelu menee työntekijöiden määrän mukaan. Voit valita kuukausi- tai vuosilaskutuksen:",
+                "answer": "Työvuorolistan hinta määräytyy työntekijöiden määrän mukaan, ja laskutuksen voi valita kuukausittain tai vuosittain:",
                 "tiers": [
                     "maks. 3 työntekijää: 0 € / kk tai 0 € / vuosi",
                     "maks. 20 työntekijää: 18 € / kk tai 144 € / vuosi",
@@ -198,27 +198,27 @@
             },
             "trial": {
                 "question": "Voinko kokeilla maksamatta?",
-                "answer": "Tietysti! Alle neljän työntekijän pyörittäminen on aina ilmaista!"
+                "answer": "Kyllä. Työvuorolistan Mini-paketti on ilmainen enintään kolmelle työntekijälle ilman aikarajaa. Isommat paketit voi ottaa käyttöön kuukausilaskutuksella ja lopettaa milloin tahansa."
             },
             "commitment": {
                 "question": "Kuinka pitkäksi aikaa pitää sitoutua?",
-                "answer": "Voit valita kuukausi- tai vuosilaskutuksen, ja voit koska tahansa lopettaa tilauksen. Ei pitkiä sitoutumisaikoja. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
+                "answer": "Työvuorolistaan ei tarvitse sitoutua määräajaksi. Tilauksen voi tehdä kuukausi- tai vuosilaskutuksella ja lopettaa milloin tahansa. Esimerkiksi kesäravintola voi maksaa käytöstä kesän ajan ja katkaista tilauksen talveksi."
             },
             "start": {
                 "question": "Koska voin aloittaa?",
-                "answer": "Rekisteröintiin ja alkuasetuksiin menee noin 3 minuuttia. Voit julkaista ensimmäisen työvuorolistasi vaikkapa vartin kuluttua."
+                "answer": "Työvuorolistan voi ottaa käyttöön heti. Rekisteröintiin ja alkuasetuksiin menee noin kolme minuuttia, ja ensimmäisen työvuorolistan voi julkaista vaikka vartin kuluttua. Myyntipuheluita tai käyttöönottoprojektia ei tarvita."
             },
             "creator": {
                 "question": "Kuka tämä on tehnyt?",
-                "answer": "Olen Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esihenkilönä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
+                "answer": "Työvuorolistan on tehnyt Antti Tuomola. Minulla on yli 15 vuoden kokemus ravintola-alalta työntekijänä, esihenkilönä ja yrittäjänä. Olen työskennellyt lähiöbaareissa ja Michelin-ravintoloissa, pyörittänyt kartanoravintoloita ja ruokapyörää. Mitä tahansa olenkin tehnyt, olen aina tehnyt työvuorolistoja. Välillä excelillä, välillä tarkoitukseen tehdyillä softilla. Koskaan en ole ollut niihin täysin tyytyväinen. Siksi tämä."
             },
             "difficulty": {
                 "question": "Onko tätä vaikea käyttää?",
-                "answer": "Koko sovellus on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorojen lisääminen tehdään raahaamalla työntekijän nimi oikeaan kohtaan."
+                "answer": "Työvuorolista on rakennettu sillä ajatuksella, että työvuorolistan teko olisi mahdollisimman helppoa. Käyttöliittymä on graafinen, ja vuorot lisätään raahaamalla työntekijän nimi kalenterin oikeaan kohtaan. Käyttö ei vaadi koulutusta."
             },
             "publish": {
                 "question": "Miten listojen julkaisu tapahtuu?",
-                "answer": "Kun lista on valmis julkaistavaksi, painat vain Julkaise-nappia, jolloin kaikille listan työntekijöille (ja tarvittaessa muillekin) lähetetään sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Voit myös tulostaa kuvan tai PDF:n ja julkaista sen haluamallasi tavalla."
+                "answer": "Työvuorolista julkaistaan Julkaise-napilla. Kaikille listan työntekijöille (ja tarvittaessa muillekin) lähtee sähköposti, jossa on työntekijän henkilökohtainen työvuorolista. Listan voi myös tulostaa kuvana tai PDF:nä ja jakaa haluamallaan tavalla."
             },
             "difference": {
                 "question": "Miten tämä eroaa MaraPlanista / Planierista / HR suunnista / jne?",
@@ -232,11 +232,11 @@
             },
             "tesCost": {
                 "question": "Mitä TES-apuri maksaa?",
-                "answer": "TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ovat käytössä ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
+                "answer": "Työvuorolistan TES-apuri (beta) sisältyy kaikkiin paketteihin, myös ilmaiseen Miniin. Varoitukset, saldonäkymät ja vuosivapaaseuranta ovat käytössä ilman lisämaksua. Palkkaraportti TES-luokitteluineen kuuluu maksullisiin paketteihin."
             },
             "tesSupported": {
                 "question": "Mitkä työehtosopimukset ovat tuettuina?",
-                "answer": "Valmiina ovat MaRa, Kaupan alan TES, Kiinteistöpalvelualan TES (KipaTES) ja SOSTES. Jos tarvitset muuta sopimusta, kerro siitä (toivelista ohjaa kehitystä): info@tyovuorolista.fi."
+                "answer": "Työvuorolistan TES-apurissa ovat valmiina MaRa, Kaupan alan TES, Kiinteistöpalvelualan TES (KipaTES) ja SOSTES. Jos tarvitset muuta sopimusta, kerro siitä (toivelista ohjaa kehitystä): info@tyovuorolista.fi."
             }
         }
     },
@@ -289,22 +289,22 @@
     },
     "featureHighlights": {
         "title": "Kaikki tärkeimmät ominaisuudet yhdessä paikassa",
-        "subtitle": "Työvuorosuunnittelu, julkaisu ja raportointi ilman turhaa monimutkaisuutta.",
+        "subtitle": "Työvuorolista kattaa työvuorosuunnittelun, listojen julkaisun ja raportoinnin yhdessä sovelluksessa. Ominaisuudet on tehty pk-yrityksen arkeen ilman turhaa monimutkaisuutta.",
         "viewAll": "Katso kaikki ominaisuudet"
     },
     "howItWorks": {
         "title": "Näin pääset alkuun",
         "step1": {
             "title": "Rekisteröidy",
-            "description": "Aloita ilmaiseksi kolmella työntekijällä. Rekisteröityminen vie minuutin."
+            "description": "Luo tili Työvuorolistaan verkossa. Rekisteröityminen vie noin minuutin, ja enintään kolmen työntekijän lista on ilmainen ilman aikarajaa."
         },
         "step2": {
             "title": "Suunnittele",
-            "description": "Raahaa työntekijät kalenteriin. Käytä mallipohjia ja toistuvia vuoroja säästääksesi aikaa."
+            "description": "Lisää työntekijät ja raahaa heidät kalenteriin oikeille vuoroille. Mallipohjat ja toistuvat vuorot nopeuttavat seuraavien viikkojen suunnittelua."
         },
         "step3": {
             "title": "Julkaise",
-            "description": "Lähetä henkilökohtaiset listat sähköpostilla yhdellä napilla."
+            "description": "Julkaise-nappi lähettää jokaiselle työntekijälle henkilökohtaisen työvuorolistan sähköpostilla. Lista näkyy myös Oma-portaalissa, eikä työntekijän tarvitse asentaa sovellusta."
         },
         "featuresLink": "Tutustu kaikkiin ominaisuuksiin"
     },

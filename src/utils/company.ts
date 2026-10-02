@@ -17,7 +17,9 @@ export const COMPANY = {
   sameAs: [
     'https://anttituomola.fi',
     'https://www.linkedin.com/in/antti-tuomola/',
-    'https://www.linkedin.com/in/eemeli-raninen/'
+    'https://www.linkedin.com/in/eemeli-raninen/',
+    'https://www.linkedin.com/company/108788999/',
+    'https://tietopalvelu.ytj.fi/yritys/3431534-2'
   ]
 } as const
 

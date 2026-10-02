@@ -88,6 +88,45 @@ export function buildSoftwareApplicationJsonLd(siteUrl = SITE_ORIGIN): JsonLd {
   }
 }
 
+type FaqQuestionCopy = {
+  question: string
+  answer: string
+  tiers?: readonly string[]
+  yearlyNote?: string
+  vat?: string
+  points?: readonly string[]
+}
+
+export type FaqCopy = { questions: Record<string, FaqQuestionCopy> }
+
+const sentenceList = (items?: readonly string[]) =>
+  items && items.length > 0 ? `${items.join('; ')}.` : undefined
+
+/**
+ * FAQPage node for the homepage FAQ. Built from the same translation object the
+ * visible section renders, so the markup and the schema cannot drift apart.
+ */
+export function buildFaqPageJsonLd(faq: FaqCopy): JsonLd {
+  const mainEntity = Object.values(faq?.questions ?? {})
+    .filter((q) => typeof q?.question === 'string' && typeof q?.answer === 'string')
+    .map((q) => ({
+      '@type': 'Question',
+      name: q.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: [q.answer, sentenceList(q.tiers), q.yearlyNote, q.vat, ...(q.points ?? [])]
+          .filter((part): part is string => typeof part === 'string' && part.trim().length > 0)
+          .join(' ')
+      }
+    }))
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity
+  }
+}
+
 export function buildWebSiteJsonLd(siteUrl = SITE_ORIGIN): JsonLd {
   return {
     '@context': 'https://schema.org',
