@@ -20,7 +20,7 @@ Este on eri asia kuin [vapaatoive](/posts/oma_portaali_ohje#4-toiveet-kalenteris
 
 Videossa työntekijä merkitsee esteen Omassa, ja esihenkilö näkee kaistat kalenterissa, saa varoituksen vuoroa luodessaan ja kohtaa osuman vielä julkaisun tarkistuksessa.
 
-<video id="video" controls playsinline preload="metadata" poster="/videos/esteet-poster.jpg" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+<video id="video" controls muted playsinline preload="metadata" poster="/videos/esteet-poster.jpg" style="width: min(100%, calc(80vh * 9 / 16)); aspect-ratio: 9 / 16; display: block; margin: 20px auto;">
   <source src="/videos/esteet.mp4" type="video/mp4">
   Selaimesi ei tue video-elementtiä.
 </video>
