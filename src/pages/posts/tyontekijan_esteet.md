@@ -1,5 +1,4 @@
 ---
-
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Työntekijän esteet: merkitse ajat, joina työntekijä ei voi tehdä töitä'
 metaTitle: 'Työntekijän esteet työvuorosuunnittelussa'
@@ -10,8 +9,8 @@ image:
     url: '/blogPostImages/tyontekijan-esteet/vuoroikkuna-varoitus.png'
     alt: 'Vuoroikkuna, jossa keltainen huomautus: Aino ei ole käytettävissä ti 14.00–19.00 (Treenit). Vieressä painike Vaihda työntekijä.'
     layout: narrow
-
-## tags: ['päivitykset', 'uudet ominaisuudet', 'työntekijät', 'ohjeet']
+tags: ['päivitykset', 'uudet ominaisuudet', 'työntekijät', 'ohjeet']
+---
 
 Moni osa-aikainen opiskelee tai harrastaa, ja jokaisella on viikoittain sama aika, jolloin hän ei voi tehdä töitä. Esihenkilö ei muista kaikkien aikoja ulkoa. Vuoroja vaihdettaessa joku päätyy vuoroon, jota hän ei voi tehdä.
 
@@ -21,11 +20,12 @@ Este on eri asia kuin [vapaatoive](/posts/oma_portaali_ohje#4-toiveet-kalenteris
 
 Videossa työntekijä merkitsee esteen Omassa, ja esihenkilö näkee kaistat kalenterissa, saa varoituksen vuoroa luodessaan ja kohtaa osuman vielä julkaisun tarkistuksessa.
 
-Selaimesi ei tue video-elementtiä.
+<video id="video" controls playsinline preload="metadata" poster="/videos/esteet-poster.jpg" width="100%" style="max-width: 900px; display: block; margin: 20px auto;">
+  <source src="/videos/esteet.mp4" type="video/mp4">
+  Selaimesi ei tue video-elementtiä.
+</video>
 
 ## Esihenkilölle
-
-
 
 ### Lisää este työntekijän tietoihin
 
@@ -33,11 +33,11 @@ Selaimesi ei tue video-elementtiä.
 
 ![Työntekijän tiedot: nimi, sähköposti, Oma-portaali, tiimit ja kohta Ei käytettävissä, jossa lukee ti 14.00–19.00 · Treenit.](/blogPostImages/tyontekijan-esteet/tyontekijan-tiedot-katselu.png)
 
-1. Paina **Muokkaa** ja avaa kohta **Ei käytettävissä**.
-2. Paina **Lisää este**. Valitse viikonpäivät ja kellonaika tai **Koko päivä**.
-3. **Voimassa alkaen** on oletuksena tänään. **Voimassa asti** voi jättää tyhjäksi, jolloin este on voimassa toistaiseksi. Lukukauden mittaiselle esteelle kannattaa antaa päättymispäivä.
-4. Syy on vapaaehtoinen, enintään 100 merkkiä. Se näkyy vain esihenkilöille ja työntekijälle itselleen.
-5. Paina **Tallenna este**. Este tallentuu heti, erikseen muista työntekijän tiedoista.
+2. Paina **Muokkaa** ja avaa kohta **Ei käytettävissä**.
+3. Paina **Lisää este**. Valitse viikonpäivät ja kellonaika tai **Koko päivä**.
+4. **Voimassa alkaen** on oletuksena tänään. **Voimassa asti** voi jättää tyhjäksi, jolloin este on voimassa toistaiseksi. Lukukauden mittaiselle esteelle kannattaa antaa päättymispäivä.
+5. Syy on vapaaehtoinen, enintään 100 merkkiä. Se näkyy vain esihenkilöille ja työntekijälle itselleen.
+6. Paina **Tallenna este**. Este tallentuu heti, erikseen muista työntekijän tiedoista.
 
 ![Työntekijän muokkaus, kohta Ei käytettävissä: rivi ti 14.00–19.00 · Treenit, työntekijän lisäämä, muokkaus- ja poistopainikkeet sekä Lisää este.](/blogPostImages/tyontekijan-esteet/tyontekijan-tiedot-esteet.png)
 
@@ -52,6 +52,8 @@ Kun luot tai muokkaat vuoroa ja valittu työntekijä ei ole käytettävissä sin
 Sama varoitus tulee ilmoituksena, kun raahaat, kopioit tai siirrät vuoron esteen päälle, myös puhelimen päiväsuunnittelijassa. Jos luot monta vuoroa kerralla, saat yhden ilmoituksen estettä kohden.
 
 Kun viet hiiren työntekijän nimen päälle sivupalkissa tai raahaat työntekijää kalenteriin, hänen esteensä näkyvät harmaina raidallisina kaistoina. Kaistassa lukee vain nimi, ei syytä.
+
+![Viikkokalenteri, jossa keskiviikkona klo 16 alkaen näkyy harmaa raidallinen kaista Aino ei käytettävissä, ja sen päällä Ainon vuoro 17.00–21.00.](/blogPostImages/tyontekijan-esteet/kalenteri-raidoitus.png)
 
 [Pikavalinnassa](/posts/pikavalinta) ja [sijaisen haussa](/posts/sijaisen_haku) estyneet työntekijät ovat listan lopussa merkinnällä **Ei käytettävissä 14.00–19.00**. Heidät voi silti valita. Sijaisen haun **Kysy kaikilta sopivilta** ohittaa estyneet, mutta heiltä voi kysyä yksitellen.
 
@@ -84,8 +86,6 @@ Avoimissa vuoroissa näet merkinnän **Osuu aikaan, jonka olet merkinnyt "Ei kä
 - Este ei vaikuta tunteihin, palkkaan eikä TES-tarkistuksiin.
 - Este ei näy julkaistulla listalla, PDF:ssä, tiimin listalla eikä kalenterisyötteessä. Työkaverit eivät näe esteitä.
 - Esteet ovat toistaiseksi vain viikoittaisia. Joka toinen viikko toistuvat ja yön yli menevät esteet merkitään kahtena esteenä tai erikseen.
-
-
 
 ## Tietosuoja
 
