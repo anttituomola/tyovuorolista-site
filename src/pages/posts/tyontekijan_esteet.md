@@ -18,7 +18,7 @@ Moni osa-aikainen opiskelee tai harrastaa, ja jokaisella on viikoittain sama aik
 
 Este on eri asia kuin [vapaatoive](/posts/oma_portaali_ohje#4-toiveet-kalenterissa). Vapaatoive on yksittäinen pyyntö vapaapäivästä, jonka esihenkilö hyväksyy tai hylkää. Este on pysyvä tieto, joka toistuu joka viikko eikä vaadi hyväksyntää.
 
-Videossa työntekijä merkitsee esteen Omassa, ja esihenkilö näkee kaistat kalenterissa, saa varoituksen vuoroa luodessaan ja kohtaa osuman vielä julkaisun tarkistuksessa.
+Videossa työntekijä merkitsee esteen Omassa ja esihenkilö lisää toisen esteen työntekijän tietoihin. Sen jälkeen esihenkilö näkee kaistat kalenterissa, saa varoituksen vuoroa luodessaan ja kohtaa osuman vielä julkaisun tarkistuksessa.
 
 <video id="video" controls muted playsinline preload="metadata" poster="/videos/esteet-poster.jpg" style="width: min(100%, calc(80vh * 9 / 16)); aspect-ratio: 9 / 16; display: block; margin: 20px auto;">
   <source src="/videos/esteet.mp4" type="video/mp4">
