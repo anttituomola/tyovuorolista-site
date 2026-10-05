@@ -57,9 +57,14 @@ const statItems = [
         </div>
         <div class="testimonials-scroll" id="testimonials-scroll">
             {testimonials.map((testimonial: any, index: number) => {
-                const images = [aliina_manninen_hook, laura_dahlman, null, anita_lindov_kitola_oy]
+                const images = [aliina_manninen_hook, laura_dahlman, null, anita_lindov_kitola_oy, null]
                 const image = images[index]
-                const isSecondTestimonial = index === 1
+                const placeholderInitials = String(testimonial.author)
+                    .split(/\s+/)
+                    .map((part: string) => part[0])
+                    .join('')
+                    .slice(0, 2)
+                    .toUpperCase()
                 
                 return (
                     <div class="testimonial-card">
@@ -68,7 +73,7 @@ const statItems = [
                                 <Image src={image} width={160} alt={testimonial.author} loading="lazy" />
                             ) : (
                                 <div class="placeholder-avatar">
-                                    <span>RK</span>
+                                    <span>{placeholderInitials}</span>
                                 </div>
                             )}
                         </div>
