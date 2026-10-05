@@ -109,6 +109,7 @@ Kun peruspolku on hallussa, näistä on hyötyä arjessa:
 
 | Tarve | Ohje |
 |--------|------|
+| Siirtymä Excelistä: TES, saldot, tunnit ja palkkaraportti | [Exceliltä Työvuorolistaan](/posts/kayttoonotto_excelilta_tyovuorolistaan) |
 | Useampi tiimi / osasto | [Tiimit](/posts/tiimit_eli_osastot_monen_eri_tiimin_tyovuorosuunnittelu) |
 | Lomatoiveet ja lomat | [Lomasuunnittelu](/posts/lomasuunnittelu) |
 | Kysymys sovelluksessa | [Ohje ja tuki -chat](/posts/ohje_ja_tuki_chat) |

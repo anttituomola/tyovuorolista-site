@@ -189,6 +189,8 @@ Muistilista:
    jatkossa tulevat: palkkaraporttina vai suoraan Procountoriin,
    Netvisoriin tai Fivaldiin.
 
+Asetukset vaihe vaiheelta: [Exceliltä Työvuorolistaan](/posts/kayttoonotto_excelilta_tyovuorolistaan).
+
 ## Usein kysytyt kysymykset
 
 **Mitä Maraplan maksaa?**
