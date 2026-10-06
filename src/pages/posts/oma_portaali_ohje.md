@@ -14,6 +14,8 @@ ctaText: Kirjaudu
 ctaHref: https://app.tyovuorolista.fi/oma
 ---
 
+*Päivitetty 6.10.2026: työntekijän ohje on nyt omalla sivullaan [tyovuorolista.fi/tyontekijalle](/posts/oma_portaali_tyontekijalle).*
+
 *Päivitetty 1.10.2026: Toiveet-sivulla on kolmas välilehti **Ei käytettävissä** toistuville esteille, esimerkiksi koulu keskiviikkoisin ([oma ohjeensa](/posts/tyontekijan_esteet)).*
 
 *Päivitetty 28.9.2026: vuoromuutokset ja sijaiskyselyt tulevat puhelimeen ilmoituksena, ja Omaan voi kirjautua sähköpostin koodilla ([oma ohjeensa](/posts/ilmoitukset_puhelimeen)).*
@@ -124,109 +126,14 @@ Työntekijä näkee omien tiimiensä julkaistut listat samassa muodossa kuin jul
 
 ## Työntekijälle: näin käytät Oma-portaalia
 
-### Ensimmäinen kirjautuminen
+Työntekijän ohje on omalla sivullaan:
+[tyovuorolista.fi/tyontekijalle](/posts/oma_portaali_tyontekijalle). Siinä on lyhyt video
+ja ohjeet ensimmäiseen kirjautumiseen, Oman lisäämiseen puhelimen
+kotinäytölle, ilmoituksiin, kalenteriin, toiveisiin ja tunti-ilmoitukseen.
 
-1. Avaa sähköpostiisi tullut kutsu. Viestin otsikko on muotoa **Kutsu Oma-portaaliin: [työnantajan nimi]** ja lähettäjänä näkyy tyovuorolista.fi.
-2. Viestissä kerrotaan, kuka on kutsunut sinut Oma-portaaliin ja mitä portaalissa voi tehdä.
-3. Klikkaa viestissä olevaa linkkiä **Kirjaudu Oma-portaaliin**.
-4. Sinut ohjataan Oma-portaaliin osoitteeseen [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma).
-
-<img src="/blogPostImages/oma-portaali/kutsu-sahkoposti.png" alt="Oma-portaalikutsu sähköpostissa: otsikko Kutsu Oma-portaaliin, työnantajan nimi viestissä ja linkki kirjautumiseen" width="100%" style="max-width: 700px; display: block; margin: 20px auto;" />
-
-Linkki on henkilökohtainen ja voimassa rajoitetun ajan. Älä jaa sitä eteenpäin.
-
-### Omat vuorot
-
-<div class="blogPhoneRow">
-<div>
-<p>Etusivulla näet kalenterin ja listan omista vuoroistasi. Voit selata kuukausia ja avata yksittäisen vuoron tarkemmin klikkaamalla sitä.</p>
-<p>Näkyvissä ovat kaikki vuorot <strong>julkaistuilta</strong> listoilta, myös menneet. Jos tulevia vuoroja ei ole, näet tekstin <em>Ei tulevia vuoroja</em>. Menneet vuorot saat näkyviin painikkeella <strong>Näytä menneet vuorot</strong>.</p>
-<p>Portaali on suunniteltu erityisesti mobiilikäyttöön, joten se toimii hyvin puhelimella.</p>
-</div>
-<img class="blogPhone" src="/blogPostImages/oma-portaali/tyontekija-vuorot.png" alt="Oma-portaali mobiilinäkymässä: kalenteri ja vuorolista" />
-</div>
-
-### Ilmoita toive
-
-**Toiveet**-välilehdellä osoitteessa [app.tyovuorolista.fi/oma/vapaatoive](https://app.tyovuorolista.fi/oma/vapaatoive) valitset **Vapaatoive**, **Lomatoive** tai **Ei käytettävissä**.
-
-**Vapaatoive** on toive vapaasta ajasta ilman palkkaa. **Lomatoive** on toive palkallisesta vuosilomasta. Esihenkilö hyväksyy lomatoiveen kalenterissa, jolloin se merkitään vuosilomaksi.
-
-- Voit valita yhden päivän tai päivävälin (alku- ja loppupäivä).
-- Voit lisätä valinnaisen lyhyen muistiinpanon (esim. *"Häät viikonloppuna"*).
-- Toive **ei poista** julkaistuja vuoroja.
-- Toive **ei näy** omien vuorojen aikajanalla, se on Toiveet-sivulla.
-- Et voi jättää toivetta päivälle, jonka työvuorolistat on jo **julkaistu**. Silloin lista on lukittu, ja muutos menee esihenkilön kautta. Jos kuulut useaan tiimiin, toiveen voi jättää niin kauan kuin jollain tiimilläsi on vielä julkaisematon lista samalle ajalle.
-- Esihenkilön merkitsemää lomatoivetta voi vain katsella. Omaa lomatoivettasi voit muokata ja poistaa.
-
-Esihenkilö näkee toiveesi kalenterissa. Hyväksytty vapaatoive ilmestyy listaan V- ja X-merkintöinä. Hyväksytty lomatoive muuttuu vuosilomaksi. Hylätty toive poistuu Toiveet-sivulta. Toive ei tule mukaan julkaistuun listaan, tulosteeseen tai sähköpostiin ennen hyväksyntää.
-
-**Ei käytettävissä** on eri asia: toistuva aika, jolloin et voi tehdä töitä joka viikko, esimerkiksi koulu tai harrastus. Se ei vaadi hyväksyntää, vaan esihenkilön kalenteri varoittaa, jos vuoro on päällekkäin sen kanssa. Syytä ei tarvitse kertoa, ja jos kerrot, sen näkee vain esihenkilö. Ohje: [Työntekijän esteet](/posts/tyontekijan_esteet).
-
-<div class="blogPhoneRow">
-<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-vapaatoive.png" alt="Oma-portaalin Toiveet: vapaatoive valittuna" />
-<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-lomatoive.png" alt="Oma-portaalin Toiveet: lomatoive valittuna" />
-<img class="blogPhone" src="/blogPostImages/oma-portaali/toiveet-este.png" alt="Oma-portaalin Toiveet: Ei käytettävissä valittuna, este keskiviikkoisin 16.00–20.00" />
-</div>
-
-### Ilmoita toteutuneet tunnit *(uusi)*
-
-<div class="blogPhoneRow">
-<div>
-<p>Kun vuoro on alkanut tai päättynyt, voit ilmoittaa siitä toteumat suoraan portaalista. Avaa vuoro aikajanalta ja täytä <strong>tunti-ilmoitus</strong>:</p>
-<ul>
-<li><strong>Toteutuneet ajat</strong>: jos aloitit tai lopetit eri aikaan kuin listaan oli suunniteltu</li>
-<li><strong>Sairasloma</strong>: jos vuoro jäi väliin sairauden takia</li>
-<li><strong>Vuoro ei toteutunut</strong>: jos vuoro peruuntui kokonaan</li>
-</ul>
-<p>Ilmoitus jää tilaan <strong>Odottaa hyväksyntää</strong>, kunnes esihenkilö käsittelee sen. Voit muokata ilmoitusta siihen asti. Hyväksytyt tunnit siirtyvät suoraan palkanlaskennan pohjaksi. Erillisiä lappuja tai viestejä ei enää tarvita. Jos toimipaikalla on <a href="/posts/palkaton_ruokatauko">palkaton ruokatauko</a> päällä, suunnitellut tunnit ovat netto ja lomakkeella näkyy rivi Ruokatauot.</p>
-</div>
-<img class="blogPhone" src="/blogPostImages/oma-portaali/tunti-ilmoitus.png" alt="Vuoron tiedot Oma-portaalissa: tunti-ilmoituslomake, jossa toteutuneet ajat" />
-</div>
-
-### Ilmoittaudu avoimeen vuoroon
-
-Kun tarjolla on **avoimia vuoroja**, näet etusivulla painikkeen **Avoimia vuoroja tarjolla**. Sama näkymä löytyy osoitteesta [app.tyovuorolista.fi/oma/avoimet](https://app.tyovuorolista.fi/oma/avoimet).
-
-<div class="blogPhoneRow">
-<div>
-<ul>
-<li>Näet oman tiimisi avoimet vuorot päivämäärineen ja kellonaikoineen.</li>
-<li><strong>Ilmoittaudu vuoroon</strong> lähettää esihenkilölle pyynnön. Vuoro ei siis tule sinulle heti, vaan esihenkilö valitsee ilmoittautuneista.</li>
-<li>Voit perua ilmoittautumisen niin kauan kuin se odottaa käsittelyä.</li>
-<li>Kun esihenkilö hyväksyy ilmoittautumisesi, vuoro ilmestyy omalle aikajanallesi. Hylätyistä ja hyväksytyistä ilmoittautumisista näet tiedon samalla sivulla.</li>
-</ul>
-<p>Järjestelmä estää ilmoittautumisen vuoroon, joka menee päällekkäin omien vuorojesi kanssa.</p>
-</div>
-<img class="blogPhone" src="/blogPostImages/oma-portaali/avoimet-vuorot-tyontekija.png" alt="Avoimet vuorot Oma-portaalissa: tarjolla oleva vuoro ja Ilmoittaudu vuoroon -painike" />
-</div>
-
-### Koko tiimin lista
-
-Jos esihenkilösi on kytkenyt tiimilistan päälle, etusivulla on painike **Koko tiimin lista**. Sama sivu on osoitteessa [app.tyovuorolista.fi/oma/tiimi](https://app.tyovuorolista.fi/oma/tiimi).
-
-Näet tiimisi julkaistun listan. Oma rivisi on ylimpänä ja merkitty sinä. Puhelimella voit vaihtaa viikkonäkymän ja päivälistan välillä. Avoimeen vuoroon, johon voit ilmoittautua, tulee linkki **Ilmoittaudu**. Se vie avoimiin vuoroihin.
-
-Poissaolevan työkaverin kohdalla lukee Poissa. Syytä et näe.
-
-<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-etusivu.png" alt="Oma-portaalin etusivu, jossa painike Koko tiimin lista" />
-
-<div class="blogPhonePair">
-<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-viikko.png" alt="Koko tiimin lista viikkonäkymässä: oma rivi ylimpänä, työkavereiden vuorot ja Poissa" />
-<img class="blogPhone" src="/blogPostImages/oma-portaali/tiimilista-paiva.png" alt="Koko tiimin lista päivänäkymässä: vuoron kellonajat ja muistiinpano" />
-</div>
-
-### Vuorot omaan kalenteriin
-
-Etusivun painikkeesta **Lisää vuorot kalenteriin** saat vuorosi Google-kalenteriin, iPhonen kalenteriin tai Outlookiin. Kalenteri päivittyy itsestään, kun esihenkilö julkaisee uuden listan tai muuttaa vuoroa. Ohjeet eri puhelimille ja kalentereille löydät [erillisestä ohjeesta](/posts/tyovuorot_kalenteriin).
-
-<img class="blogPhone" src="/blogPostImages/tyovuorot-kalenteriin/valikko-iphone.png" alt="Lisää vuorot kalenteriin -ikkuna, jossa painikkeet eri kalentereille" />
-
-### Myöhemmät kirjautumiset
-
-Tallenna osoite [app.tyovuorolista.fi/oma](https://app.tyovuorolista.fi/oma) kirjanmerkkeihin. Kun palaat myöhemmin, pyydä uusi kirjautumislinkki samalta sivulta. Syötä sama sähköpostiosoite, joka on tallennettuna työntekijätietoihisi. Viestissä on myös kuusinumeroinen koodi: kirjoita se kirjautumissivulle, jos avasit Oman kotinäytön kuvakkeesta ([ohje](/posts/ilmoitukset_puhelimeen)). Kirjautumissivu on myös osoitteessa [app.tyovuorolista.fi/oma/kirjaudu](https://app.tyovuorolista.fi/oma/kirjaudu).
-
-<img class="blogPhone" src="/blogPostImages/oma-portaali/kirjaudu.png" alt="Oma-portaalin kirjautumissivu, jossa syötetään sähköpostiosoite" />
+Sama linkki on Oma-portaalin kutsusähköpostissa, kirjautumissivulla ja
+portaalin Profiili-sivulla. Voit jakaa sen työntekijöille myös itse,
+esimerkiksi tulostetun listan yhteydessä.
 
 ## Mitä portaali ei vielä tee
 

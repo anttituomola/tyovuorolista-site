@@ -34,6 +34,11 @@
   ],
   "redirects": [
     {
+      "source": "/tyontekijalle",
+      "destination": "/posts/oma_portaali_tyontekijalle",
+      "permanent": false
+    },
+    {
       "source": "/posts/ty%C3%B6vuorosuunnittelu_ohjelma",
       "destination": "/posts/tyovuorosuunnittelu_ohjelma",
       "permanent": true
