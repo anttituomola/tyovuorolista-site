@@ -5,7 +5,7 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
 <FeatureDetail
     featureId="payroll-report"
     metaTitle="Palkkaraportti palkanlaskentaan | Työvuorolista"
-    metaDescription="Vie toteutuneet tunnit palkanlaskentaan valmiina raporttina: CSV, PDF, Procountor-tiedosto tai suora Netvisor-vienti. Tunnit suoraan työvuorolistasta."
+    metaDescription="Vie toteutuneet tunnit palkanlaskentaan valmiina raporttina: CSV, PDF, Procountor-tiedosto tai suora vienti Netvisoriin ja Fivaldiin."
     title="Palkkaraportti: tunnit palkanlaskentaan ilman käsityötä"
     lead="Palkanlaskennan pahin vaihe on tuntien kokoaminen. Työvuorolistassa raportti syntyy kirjatuista tunneista yhdellä napilla, valmiissa muodossa tilitoimistolle tai palkkaohjelmaan."
     heroImage="/featureImages/palkkaraportti.png"
@@ -18,8 +18,8 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
         },
         {
             icon: 'ic:baseline-file-download',
-            title: 'CSV, PDF, Procountor tai Netvisor',
-            text: 'Lataa raportti muodossa, jota tilitoimistosi tai palkkaohjelmasi ymmärtää, tai lähetä tunnit suoraan Netvisoriin. Palkkalajikoodit voi määritellä omiin tarpeisiin.',
+            title: 'CSV, PDF ja palkkaohjelmat',
+            text: 'Lataa raportti CSV:nä, PDF:nä tai Procountor-tiedostona, tai lähetä tunnit suoraan Netvisoriin tai Fivaldiin. Palkkalajikoodit voi määritellä omiin tarpeisiin.',
         },
         {
             icon: 'ic:baseline-verified-user',
@@ -40,6 +40,7 @@ import FeatureDetail from '../../components/pages/FeatureDetail.astro'
             paragraphs: [
                 'Procountor: lataa palkkaraportti Procountorin tuontimuodossa ja vie tiedosto palkanlaskentaan. Palkkalajikoodit määritellään kerran asetuksissa.',
                 'Netvisor: kytke rajapintatunnukset kerran, minkä jälkeen TES-tulkitut tunnit ja lisät lähtevät Netvisoriin yhdellä napilla ilman tiedostoja.',
+                'Fivaldi: yhdistä yritys kerran Y-tunnuksella, minkä jälkeen TES-tulkitut tunnit ja lisät lähtevät Fivaldiin yhdellä napilla. Palkanlaskija noutaa rivit Fivaldissa Tietojen tuonnilla.',
                 'Muihin palkkaohjelmiin tunnit viedään CSV-muodossa. Uusia suoria integraatioita julkaistaan sitä mukaa, kun ne valmistuvat.',
             ],
         },
